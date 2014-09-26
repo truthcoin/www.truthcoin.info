@@ -1,6 +1,8 @@
-baseurl: "/shiori" # The subpath of your site. Use "" if you're hosting a blog at the root level.
-url: "http://ellekasai.github.io" # the base hostname & protocol for your site
-title: "Glimpse: The Truthcoin Blog"
+baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the root level.
+blogurl: "/blog" # Blog subpath
+url: "http://www.truthcoin.info" # the base hostname & protocol for your site
+title: "Truthcoin: Trustless P2P Prediction Marketplace"
+#title: "Truthcoin: Nullius in Verba"
 
 # This is used by feed.xml. Uncomment if you want to use it.
 # description: "..."
@@ -8,12 +10,12 @@ title: "Glimpse: The Truthcoin Blog"
 gems:
   - jemoji
 exclude:
-  - "README.md"
-  - "CHANGELOG.md"
-  - "CNAME"
-  - "Gemfile"
-  - "Gemfile.lock"
-permalink: :title
+  - README.md
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+permalink: /blog/:title
 defaults:
   -
     scope:
