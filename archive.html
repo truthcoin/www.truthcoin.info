@@ -12,7 +12,7 @@ permalink: /archive/index.html
     </h3>
   {% endif %}
   <p>
-    <a href="{{ post.url | prepend:site.blogurl}}" class="post-title-archive">{{ post.title }}</a>
+    <a href="{{ post.url | prepend:site.baseurl }}" class="post-title-archive">{{ post.title }}</a>
     <small class="text-muted">{{ post.date | date_to_string }}</small>
   </p>
 {% endfor %}

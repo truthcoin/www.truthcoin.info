@@ -12,17 +12,21 @@
   <li><a href="#">Schedule</a></li>
 </ul>
 
-<h3>
-  Author
-</h3>
+{% if page.show_author %}
+  <h3>
+    Author
+  </h3>
+
+  <p>
+    <div class="media">
+      <img src="http://placehold.it/100" alt="Your Name" class="pull-left">
+      <div class="media-body">
+        <h4 class="media-heading">Paul Sztorc</h4>
+      </div>
+    </div>
+  </p>
+{% endif %}
 
 <p>
-  <div class="media">
-    <img src="http://placehold.it/100" alt="Your Name" class="pull-left">
-    <div class="media-body">
-      <h4 class="media-heading">Paul Sztorc</h4>
-    </div>
-  </div>
+  <a href="https://twitter.com/truthcoin" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @truthcoin</a>
 </p>
-
-<p><a href="https://twitter.com/truthcoin" class="twitter-follow-button" data-show-count="true" data-dnt="true">Follow @truthcoin</a></p>
