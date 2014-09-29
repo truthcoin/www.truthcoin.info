@@ -1,4 +1,4 @@
-www.truthcoin.com
+www.truthcoin.info
 =================
 
 Truthcoin site/blog
