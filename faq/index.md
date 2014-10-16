@@ -8,6 +8,13 @@ title: Frequently Asked Questions
 ## Incentives
 
 ### How do you know that people wont claim an outcome was whatever will benefit them personally?
+
+Many of the details are in [this presentation](http://www.truthcoin.info/presentations/truthcoin-outcomes.pdf) and [the whitepaper](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf).
+
+Try and break my [Resolution Demo](https://lyoshenka.ocpu.io/truthcoindemo/www/), and let me know what you find!
+
+Major points:
+
 1. Voters have a strong incentive to vote "the way they believe others will vote". More deviant individuals are punished more.  
 2. Voters must vote on many Decisions, many more than they could practically be trading on.  
 3. Voters must buy reputation tokens, use them to vote regularly, and gain an economic return from them proportional to the usefulness of the network, hence Voters and Traders are likely to be different groups of people.  
@@ -15,8 +22,7 @@ title: Frequently Asked Questions
 5. Voters have an incentive to trick other voters into voting unrealistically (regardless of the proportion voting realistically). Thus, a tightly coordinated coalition cannot form.  
 6. Voters face a penalty for not voting, which is high when the proportion of missing votes is high (a few missed votes won't hurt you, but in a low-turnout environment you will be penalized more severely). Thus voters must always vote.  
 
-Votes cross-validate other votes, in addition to suppling the data used for Outcome-calculation.  
-Try and break my Resolution Demo, and let me know what you find!
+Votes cross-validate other votes, in addition to supplying the data used for Outcome-calculation.  
 
 ###Why don't you...?
 
