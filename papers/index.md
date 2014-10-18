@@ -17,7 +17,7 @@ Though not technically a paper, this file answers many of the questions I receiv
 
 ## [Statement of Purpose](1_Purpose.pdf)
 
-Why am I doing this at all? Why am I doing it in this particular way? Why is this idea so important?
+Why am I doing this at all? Why am I doing it in this particular way? Why is this idea so important to me (and to you)?
 
 
 ## [The Power of Prediction Markets](2_PM_Types.pdf)
@@ -31,7 +31,7 @@ Prediction Markets are great for forecasting, but they are also great for MANY o
 
 ## [PM Myths](4_PM_Myths.pdf)
 
-Again, PMs are misunderstood. Please don't embarass yourself by making one of the three mistakes I write about here.
+Again, PMs are misunderstood. Please don't embarrass yourself by making one of the three mistakes I write about here.
 
 
 ## [Truthcoin Whitepaper](5_PM_Manipulation.pdf)
