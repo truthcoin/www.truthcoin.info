@@ -3,7 +3,7 @@ layout: page
 title: What People Are Saying
 ---
 
-Under Construction
+Under Construction as of Mid-to-Late October..please come back!
 
 - https://www.google.com/search?q=site%3Areddit.com+truthcoin
 
@@ -16,7 +16,6 @@ Under Construction
 	 - nakaone "from my perspective it is probably the single most important project which can be done with blockchain technology"
 	 
 - https://bitsharestalk.org/index.php?topic=3916.0
-	 - empirical1
 
 - https://news.ycombinator.com/item?id=7691289
 
