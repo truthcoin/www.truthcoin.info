@@ -3,7 +3,7 @@ layout: page
 title: Papers
 ---
 
-**Please <a href="mailto:truthcoin@gmail.com?subject=Feedback">email me</a> with any typos or confusing sections.**  
+**Please <a href="mailto:truthcoin@gmail.com?subject=Feedback">email me</a> with any typos or confusing sections, but first check the [errata](https://github.com/psztorc/Truthcoin/tree/master/docs#addendum--errata) section.**  
 
 ## [Truthcoin Whitepaper](truthcoin-whitepaper.pdf)
 
