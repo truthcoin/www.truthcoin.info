@@ -3,6 +3,7 @@ layout: page
 title: Papers
 ---
 
+**Please <a href="mailto:truthcoin@gmail.com?subject=Feedback">email me</a> with any typos or confusing sections.**
 ## [Truthcoin Whitepaper](truthcoin-whitepaper.pdf)
 
 My whitepaper describing a software protocol which creates and manages decentralized prediction markets (PMs).
