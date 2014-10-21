@@ -8,7 +8,7 @@ title: Presentations
 Everything you need to know.
 
 
-## [Truthcoin: Valuable](what-is-truthcoin.pdf)
+## [What is Truthcoin?](what-is-truthcoin.pdf)
 
 What is this project, and what is it about?
 
