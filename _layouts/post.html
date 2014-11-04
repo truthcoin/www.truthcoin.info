@@ -9,7 +9,9 @@ show_author: true
 </div>
 <div class="post-content">
   {{ content }}
+  {% include comments.html %}
 </div>
+
 <div class="post-footer">
   {% include post-footer.html %}
 </div>

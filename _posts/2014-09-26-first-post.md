@@ -1,5 +1,6 @@
 ---
 title: First Post
+comments: true
 ---
 
 ## Header 2
