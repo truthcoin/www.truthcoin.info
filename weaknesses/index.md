@@ -5,6 +5,10 @@ title: Weaknesses
 
 This section is a constant work-in-progress. **Please help by offering your constructive criticism.**  
 
+Most importantly, keep in mind that **the design can certainly be improved**. It has already happened `3` times.
+
+Also (although this is certainly a cop-out), keep in mind that the existence of multiple competing Branches will likely cause "clever" human-behaviors to emerge (for example, Branch owners publishing their real identities or using web-of-trust/similar technologies, Authors/Traders waiting to act on a given Branch until after it completes an upcoming round of Voting).
+
 
 
 ## Might be a problem
@@ -73,11 +77,18 @@ Probably wouldn't make enough money to be worth it. Strategic frictions (which f
 - Matrices and their Decisions "fall out" of the blockchain as they are resolved and sold off. Only the currently used data structures need to be available to anyone.
 - Clever people are thinking up new scalability solutions all the time.
 
+### Authors Won't Make "Enough" Money Back
+
+That is primarily for the Authors to worry about, who may be playing more than one role or have complex motivations. Authors can choose not only how much they pay upfront, but also the fraction of trading volumes they receive.
+
+Trading fees are collected from literal MSR-powered trades, but also from 'transfers' of MSR-created shares (ie, traditional stock market trades).
+
+For popular 'stock market' assets, these trading volumes are measured in the trillions. Despite its numerous disadvantages, InTrade saw trading volumes in the [10's of millions USD on its more popular markets](https://www.intrade.com/v4/markets/contract/?contractId=743474). 50% of .1% of that is still $10,000.
 
 
 ## Definitely Not a Problem
 
-### Sybil attacks on Voting
+### Ballot-Stuffing (Sybil attacks on Voting)
 
 Votes are weighted by proportional-ownership in an abstract-corporation, so there is a cost (and opportunity cost) to obtaining more voting-influence.  
 
