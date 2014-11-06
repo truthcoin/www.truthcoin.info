@@ -24,7 +24,7 @@ Major points:
 
 Votes cross-validate other votes, in addition to supplying the data used for Outcome-calculation.  
 
-###Why don't you...?
+### Why don't you...?
 
 The idea I published was not my **first** idea for a Trustless PM, it was my **best**. I probably *did* think of whatever you have in mind, but feel free to ask anyway (if you'd like to know why I didn't select it).
 
@@ -121,7 +121,11 @@ I threw together an Excel sheet in the docs folder [LogMSR_Demo.xlsx](https://gi
 
 ## Design
 
-###In some of your notes you suggested timelines of a couple of weeks for voting. Would it be fair to say this wouldn't be suitable to horse racing etc. where the events happen very fast, there are many of them and payouts need to be made fairly quickly?
+### Does this really need its own blockchain? Why not do it "on top" of Bitcoin?
+
+Yes. The design requires a way to conditionally pay out money (ie pay out if this happens or this), as well as VoteCoin based on voting behavior. Even if drastically simplified, the design would fundamentally require those things. A blockchain cannot sign transactions, and we cannot introduce a 'signer' without introducing trust.
+
+### In some of your notes you suggested timelines of a couple of weeks for voting. Would it be fair to say this wouldn't be suitable to horse racing etc. where the events happen very fast, there are many of them and payouts need to be made fairly quickly?
 The price will not fix at 1 or 0 until voting occurs, but it will converge toward one of those values as the event info is revealed (ie just as the horse wins). If voting is in two weeks, there may be some time-value-of-money/time-preference/liquidity effect, but shares of the winning horse could still sell for 99.0 or 99.9. Those buying at 99 would be Wall Street / banker types who pick up the shares purely to earn 2 week's worth of above-market interest on their capital. So fast cashouts shouldn't be a problem.
 
 
