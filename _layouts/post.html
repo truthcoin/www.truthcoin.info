@@ -23,9 +23,9 @@ show_author: true
           <h3 class="section-header">
             Older
             <span class="text-muted"> &middot; </span>
-            <a href="{{ "/archive" | prepend:site.blogurl }}">View Archive ({{ site.posts.size }})</a>
+            <a href="{{ "/archive" | prepend:site.url }}">View Archive ({{ site.posts.size }})</a>
           </h3>
-          <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.blogurl }}">{{ page.previous.title }}</a></h2>
+          <h2 class="post-title-link"><a href="{{ page.previous.url | prepend:site.url }}">{{ page.previous.title }}</a></h2>
           {{ page.previous.excerpt | markdownify }}
         </div>
       {% endif %}
@@ -35,10 +35,10 @@ show_author: true
             Newer
             {% unless page.previous %}
               <span class="text-muted"> &middot; </span>
-              <a href="{{ "/archive" | prepend:site.blogurl }}">View Archive ({{ site.posts.size }})</a>
+              <a href="{{ "/archive" | prepend:site.url }}">View Archive ({{ site.posts.size }})</a>
             {% endunless %}
           </h3>
-          <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.blogurl }}">{{ page.next.title }}</a></h2>
+          <h2 class="post-title-link"><a href="{{ page.next.url | prepend:site.url }}">{{ page.next.title }}</a></h2>
           {{ page.next.excerpt | markdownify }}
         </div>
       {% endif %}
