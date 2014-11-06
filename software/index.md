@@ -14,7 +14,7 @@ Please keep in mind that the software designers may have complex goals, ie, they
 
 ### Dyffy Team
 
-https://github.com/zack-bitcoin/Truthcoin-POW
-https://github.com/scottzer0/Truthcoin-UI
+[GitHub: Blockchain Software](https://github.com/zack-bitcoin/Truthcoin-POW)  
+[GitHub: GUI Interface](https://github.com/scottzer0/Truthcoin-UI)  
 
 
