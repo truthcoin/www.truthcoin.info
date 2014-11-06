@@ -7,7 +7,14 @@ This section is a constant work-in-progress. **Please help by offering your cons
 
 Most importantly, keep in mind that **the design can certainly be improved**. It has already happened `3` times.
 
-Also (although this is certainly a cop-out), keep in mind that the existence of multiple competing Branches will likely cause "clever" human-behaviors to emerge (for example, Branch owners publishing their real identities or using web-of-trust/similar technologies, Authors/Traders waiting to act on a given Branch until after it completes an upcoming round of Voting).
+Also (although this is certainly a cop-out), keep in mind that the existence of multiple competing Branches may cause "clever" human-behaviors to emerge.  
+For example:
+
+- Branch owners publishing their real identities or using web-of-trust/similar technologies.
+- Authors/Traders waiting to add Decisions on a given Branch until after the Branch completes an upcoming round of Voting.
+- Voters buying shares from traders pre-resolution.
+- Vote-Ownership reacting to Author/Trader suspicion.
+- Mining pools offering branded/reputable veto-assurance services.
 
 
 
