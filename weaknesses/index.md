@@ -3,6 +3,8 @@ layout: page
 title: Weaknesses
 ---
 
+For hyperlinks, use [GitHub version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/weaknesses/index.md).
+
 This section is a constant work-in-progress. **Please help by offering your constructive criticism.**  
 
 Most importantly, keep in mind that **the design can certainly be improved**. It has already happened `3` times.
@@ -11,7 +13,7 @@ Also (although this is certainly a cop-out), keep in mind that the existence of 
 For example:
 
 - Branch owners publishing their real identities or using web-of-trust/similar technologies.
-- Authors/Traders waiting to add Decisions on a given Branch until after the Branch completes an upcoming round of Voting.
+- Authors/Traders waiting to act (add Decisions / start trading) on a given Branch until after the Branch completes an upcoming round of Voting.
 - Voters buying shares from traders pre-resolution.
 - Vote-Ownership reacting to Author/Trader suspicion.
 - Mining pools offering branded/reputable veto-assurance services.
@@ -32,17 +34,17 @@ This is the most severe failure case, and deserves a bit of discussion.
 
 - Recourse:
 	- High, Uncertain, Nonlinear Costs of Buying: If buying up 20% of a Branch costs x, then buying up 40% necessarily costs >2x. This is because sellers of Branch-VTC will not have exactly the same willingness-to-sell, and those with higher w-t-s will be selling before those with lower w-t-s. The cost of buying up Phi% (which is always >50%) is highly uncertain, and may even be infinite (if 1-Phi% refuse to sell at all). Of course, if an attacker could credibly commit to purchasing >Phi%, this cost would fall to zero (the future [post-attack] value of the Branch's VTC). However, as long as VTC-owners have some reason to retain their coins, this credible commit will itself always cost the "high value".
-	- VTC-Owners can simply refuse to sell, or can even counter-buy. As long as an honest group controls between (1-Phi%) and 50% of the vote, they can force an Audit, and profit if the Audit agrees with them (by getting *half* the Voter-total of Trading Fees, instead of *their ownership-%*). With (1-Phi%) oneself (or with a sufficiently loyal backing, one can trigger an attack of this kind and profit from its failure.
+	- VTC-Owners can simply refuse to sell, or can even counter-buy. As long as an honest group controls between (1-Phi%) and 50% of the vote, they can force an Audit, and profit if the Audit agrees with them (by getting *half* the Voter-total of Trading Fees, instead of *their ownership-%*). With (1-Phi%) oneself (or with a sufficiently loyal backing), one can trigger an attack of this kind and profit from its failure.
 	- Miners can veto Ballots; by doing so, the Vote simply has no effect at all. Miners can also veto Branches, allowing Decision-Authors to pull the Decisions from that vetoed-Branch onto a different Branch. One would expect Miners to always act in the best interest of the currency they mine, although Miners may also be lazy and uncoordinated (less so if the attacked-Ballot is truly devastating). Distressed users might actually rent hashpower themselves, to force vetos into the longest chain.
 
 - Discouragement / Prevention:
 	- Attacker has most MarketCap At Stake.
 		- Post-attack, the entire market cap of the Branch would likely be wiped out, costing the attacker disproportionately (Phi is always > .5).
-		- 'Big' doesn't need to imply 'Evil'. A user with a high % of the Vote also as proportionally more to gain by acting honestly.
+		- 'Big' doesn't need to imply 'Evil'. A user with a high % of the Vote also has proportionally more to gain by acting honestly.
 	- High Market Cap: The higher the market cap, the more difficult it is to own a high % of the market cap. This would favor the creation of few, large Branches over many small ones.
 	- An "Honest Coalition" might reveal their identity publicly, and proclaim openly (or sign binding legal documents affirming their intention) to always vote honestly. 
 	- Competition Among Branches
-		- The economic phrase "Market for Lemons" refers to a situation where the buyer, wary of what the seller is selling, simply decides to assume the worst (and not buy). It is then the seller's problem to create trust, which he can do in any number of creative ways.
+		- In economics, the phrase "Market for Lemons" refers to a situation where the buyer, wary of what the seller is selling, simply decides to assume the worst (and not buy). It is then the seller's problem to create trust, which he can do in any number of creative ways.
 		- One way would be for Branch owners to purchase huge quantities of "Branch Insurance" (bets on honest resoulution) from other Branches. Skeptical traders can try to hedge this way, and market prices can give some indication of reliabiliy and/or coverage.
 
 
