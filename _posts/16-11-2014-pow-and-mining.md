@@ -123,7 +123,7 @@ Is this a mistake? How did plants get it so wrong?
 
 #### Why Plants are Green
 
-> Oxygenic photosynthesis evolved as a "make the best of it" technology, but the oxygen it produced killed off the competition and keepts it from coming back.
+> Oxygenic photosynthesis evolved as a "make the best of it" technology, but the oxygen it produced killed off the competition (and keeps it dead).
 
 Back in the day, all the tiny light-eating lifeforms *were* purple. Being more efficient overall, the "purple gang" greedily sucked down all the light they could get, and grew and multiplied as quickly as possible.
 
@@ -159,4 +159,4 @@ Instead of:
 Individuals bought coins, or mining equipment, with a certain expectation. As more and more individuals do this, it becomes harder and harder for cryptocoin-competitors to compete with the network-effect of money. For the same reason, it becomes harder and harder for any *Bitcoin version* to compete with the original Bitcoin version. Even long after the *initial coin distribution* serves its **initial** purpose of creating a viable network, the *present-day coin distribution* will be forever serving its **present-day** purpose of creating monetary network-effects. 
 
 ## Conclusion
-For the forseeable future, there is no meaningful alternative to either proof of work or mining.
+For the foreseeable future, there is no meaningful alternative to either proof of work or mining.
