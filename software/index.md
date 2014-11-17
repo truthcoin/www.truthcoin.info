@@ -4,17 +4,21 @@ title: Download Software
 ---
 
 
-### Note: I Didn't Write These
+### I Haven't Written This Software!
+I maintain [reference functions here in R](https://github.com/psztorc/Truthcoin), and then translate them into Python and C++ in my spare time (aka rarely).
 
-There is no 'official' team, or anything approaching an official software release. I maintain [reference functions here in R](https://github.com/psztorc/Truthcoin), and then translate them into Python and C++ in my spare time (aka rarely).
+However, I'm afraid I don't truly have the time, skills, or even the interest in creating a useful piece of software. Sorry!
 
-That said, a few individuals have tried to implement a working version of the software. I will put the best attempts here.
+That said, a few individuals *are* working on just that! I will put the best attempts here, although I can't really guarantee that these attempts successfully followed my design.
 
-Please keep in mind that the software designers may have complex goals, ie, they may be working only on a demo, and not a battle-hardened stable release.
 
-### Dyffy Team
 
-[GitHub: Blockchain Software](https://github.com/zack-bitcoin/Truthcoin-POW)  
-[GitHub: GUI Interface](https://github.com/scottzer0/Truthcoin-UI)  
+### Augur Team (formerly Dyffy)
+
+
+
+Site: [http://augur.net/](http://augur.net/)  
+Prototype/Demo Blockchain Software: [https://github.com/zack-bitcoin/Truthcoin-POW](https://github.com/zack-bitcoin/Truthcoin-POW)  
+GUI Interface: [https://github.com/scottzer0/Truthcoin-UI](https://github.com/scottzer0/Truthcoin-UI)  
 
 
