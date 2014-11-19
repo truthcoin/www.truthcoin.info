@@ -152,7 +152,7 @@ Instead of:
 
 1. Mining Eats {Electricity, Capital} to Produce Coins
 2. An Initial Distribution is Produced
-3. The Initial Distribution {Creates a Dominant Money-Network, Destroys Rival Money-Networks)
+3. The Initial Distribution {Creates a Dominant Money-Network, Destroys Rival Money-Networks}
 4. We see only the Dominant Money Network
 
 
