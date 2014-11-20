@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-
+[Linkable/Pullable GitHub Version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/faq/index.md)
 
 ## Incentives
 

@@ -3,7 +3,7 @@ layout: page
 title: Weaknesses
 ---
 
-For hyperlinks, use [GitHub version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/weaknesses/index.md).
+[Linkable/Pullable GitHub Version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/weaknesses/index.md)
 
 This section is a constant work-in-progress. **Please help by offering your constructive criticism.**  
 
@@ -129,4 +129,13 @@ In fact, because it lowers total info-search cost for the Vote Matrix, a themati
 
 
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-56338583-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
