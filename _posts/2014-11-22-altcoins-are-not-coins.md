@@ -5,7 +5,7 @@ comments: true
 
 > Altcoins aren't money in theory or practice. Instead, they represent gambling opportunities. One result of this is a confused public dialog about cryptocurrency.
 
-![CasinoChips](/images/chips_small.png) 
+![CasinoChips](/images/chips_smaller.png) 
 
 (**So sorry** to *still* beat up on obviously-stupid copycoins when I should be talking about Why BitUSD Shouldn't Be Worth Exactly $1, Why Sidechains Don't Hurt Anyone, Why Counterparty Can't Last, or [My theories on why I can't find **even one** use-case for Ethereum](http://forum.truthcoin.info/index.php/topic,90.msg540.html#msg540). I'll be back at it later today.)
 
