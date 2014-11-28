@@ -45,7 +45,7 @@ The story isn't limited to bankruptcy (it is simply easier to use this extreme t
 
 ### Storage and Retrieval
 
-The "ownership" concept implies [certain](http://en.wikipedia.org/wiki/Excludability) [requirements](http://en.wikipedia.org/wiki/Rivalry_%28economics%29) (one can't "own" the fresh, outdoor air). Blockchain tech (an uncensorable database and a distributed timestamp server) enabled digital assets to meet these requirements. However, **the assets themselves are still digital**: while it may one day be possible to buy a smart-property car using only the Bitcoin blockchain, **the value of the car will not be protected from a sledgehammer** in the same way that each Bitcoin *is* protected (from a sledgehammer) by the blockchain.
+The "ownership" concept implies [certain](http://en.wikipedia.org/wiki/Excludability) [requirements](http://en.wikipedia.org/wiki/Rivalry_%28economics%29) (one can't "own" the fresh, outdoor air). Blockchain tech (an uncensorable database and a distributed timestamp server) enabled digital assets to meet these requirements. However, **the assets themselves are still digital**: while it may one day be possible to buy a "smart property" car using only the Bitcoin blockchain, **the value of the car will not be protected from a sledgehammer** in the same way that each Bitcoin *is* protected (from a sledgehammer) by the blockchain.
 
 
 ![SmartProperty](/images/dumb_property.png)
