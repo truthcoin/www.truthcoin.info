@@ -75,10 +75,10 @@ To do this, Truthcoin had to add a new *dimension of ownership* to the blockchai
 ![NewtIntrade](/images/newt_small.png)
 
 
-### Identities / Names (Namecoin's Names, Bitmessage's Keypairs, ...)
+### Identities / Names (Namecoin)
 
 
-I searched for other zero-sum, 'necessarily-scarce assets', but I could only find one other: Names (you can't have someone taking yours, for example). [The case for digially-scarce names](http://www.aaronsw.com/weblog/squarezooko) already [been made](https://bitcointalk.org/index.php?topic=1790.222), but, more importantly, [the](http://namecoin.info/) [two](https://bitmessage.org/wiki/Main_Page) obvious applications of name-relevant software have already been developed and are already in use! 
+I searched for other zero-sum, 'necessarily-scarce assets', but I could only find one other: Names (you can't have someone taking yours, for example). [The case for digially-scarce names](http://www.aaronsw.com/weblog/squarezooko) already [been made](https://bitcointalk.org/index.php?topic=1790.222), but, more importantly, [the name-software itself has already been developed](http://namecoin.info/)! 
 
 
 
@@ -112,7 +112,7 @@ Our world contains several "software businesses". Google / Facebook run operatio
 
 Take Storj, for example. With the tech tools we already have, anyone can already sell or rent their spare hard-drive space. Obviously, new software can help coordinate buyers, sellers, payments, and terms, but this software does not have to use a blockchain, it only needs to use Bitcoin the currency.
 
-The freedom to manage can be very helpful, but a business can remove these freedoms as required (consider the zero-knowledge backup service SpiderOak, who's employees cannot read user's files). The same goes for transparency (think provably-fair online gambling sites), and even for decentralization (think [OpenBazaar](https://openbazaar.org/), which has no need for a distributed clock). These are purely software/tech improvements. No blockchain required. 
+The freedom to manage can be very helpful, but a business can remove these freedoms as required (consider the zero-knowledge backup service SpiderOak, who's employees cannot read user's files). The same goes for transparency (think provably-fair online gambling sites), and even for decentralization (think [Bitmessage](https://bitmessage.org/wiki/Main_Page), or [Bittorrent](http://www.bittorrent.com/), which are completely decentralized but have no need for a distributed clock). These are purely software/tech improvements. No blockchain required. 
 
 
 ### #3 Ignoring Software Rot
@@ -131,9 +131,11 @@ But even with Ethereum built and fully-functional, *each contract* would require
 ## Conclusion
 
 
-The Bitcoin Blockchain was invented 6 years ago. Since then, Bitcoin has been used by thousands of thriving **firms**, but no **DACs** yet exist (with the possible exception of the very first alt-chain, Namecoin). In general, the Blockchain has only been used for one other useful project (Bitmessage), and my own project (Truthcoin) might be the third and last. While more Bitcoin-accepters (and even Bitcoin-business) are planned each day, **even the [Ethereum](https://forum.ethereum.org/categories/services-and-decentralized-applications) [forum](https://forum.ethereum.org/categories/projects) doesn't have a single concrete plan for an on-Blockchain business ("DAC")** (in fact, I could not find any concrete plan for any [final good](http://en.wikipedia.org/wiki/Final_good) at all...point them out in the comments if you find them).
+The Bitcoin Blockchain was invented 6 years ago. Since then, Bitcoin has been used by thousands of thriving **firms**, but no **DACs** yet exist (with the possible exception of the very first alt-chain, Namecoin). In general, the Blockchain has only been used for one other useful project (Namecoin), and my own project (Truthcoin) might be the third and last. While more Bitcoin-accepters (and even Bitcoin-business) are planned each day, **even the [Ethereum](https://forum.ethereum.org/categories/services-and-decentralized-applications) [forum](https://forum.ethereum.org/categories/projects) doesn't have a single concrete plan for an on-Blockchain business ("DAC")** (in fact, I could not find any concrete plan for any [final good](http://en.wikipedia.org/wiki/Final_good) at all...point them out in the comments if you find them).
 
 Although this essay concerns the "why" of blockchains, it does not concern the "how". New blockchain-engineering can certainly *provide a better way* of managing money, status, and names. On that we will likely still see tremendous innovation.
+
+Update: A previous version of this essay included Bitmessage as a "useful blockchain project", until a reader pointed out [via tweet](https://twitter.com/roasbeef/status/538944309790539776) that Bitmessage does not use a blockchain. (Which makes perfect sense, as "other people's messages" don't affect "your messages"). I was allowing Namecoin and Bitmessage to share the 'Name' concept, even though BM is actually designed to use NMC for identities. This version has been edited to clarify that Namecoin is the useful blockchain project, not Bitmessage.
 
 
 
