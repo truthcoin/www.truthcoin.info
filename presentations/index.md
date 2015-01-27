@@ -3,9 +3,7 @@ layout: page
 title: Presentations
 ---
 
-## [In Six Slides](six-slide-sprint.pdf)
 
-Everything you need to know.
 
 
 ## [What is Truthcoin?](what-is-truthcoin.pdf)
@@ -27,9 +25,6 @@ On the potential Return available to contributing investors / programmers.
 
 Who is getting the first Truthcoins? Hint: probably, you!
 
+## [In Six Slides](six-slide-sprint.pdf)
 
-
-
-
-
-
+The original [BoostVC formatted](https://medium.com/boost-vc/5-rules-for-the-pitch-deck-d7c7bbc3185d) 6 slide pitch deck...this  presentation relied (dangerously) on a lot of in-person context ("humor"), which is probably lost on the random internet viewer. (Truthcoin did get funding, however).
