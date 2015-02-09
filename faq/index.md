@@ -150,7 +150,9 @@ I probably did. I don't think any of my core building-block ideas are that compl
 
 Actually it is necessary. Firstly the concern you mentioned later is mitigated by (and one of the main benefits of) Branching, where voters stay only on the branches/trees where they are interested and knowledgeable. More importantly, however, if we assume voting is costly (which it certainly is), then the assumption I made on page 2 that voters are lazy implies that theoretically none of them will vote, in a sort of 'tragedy of the commons'. Realistically, some might care enough to vote, but this would weaken the confidence in the coordination-ballot, as it takes a smaller % of votes to throw off. Thirdly, voters are not just contributing their point of view when they vote, they are also securing the network by validating the point of view of all other voters (via the coordination game). Notice that an individual's penalty for not-voting is only high when many other individuals have also not-voted. You can miss a vote every once in a while, and as long as everyone else is voting it won't really be a big deal for you.
 
+###Why do you use a complicated automated market maker / LMSR instead of a decentralized order book?
 
+A market maker isn't actually that complex. In fact, it's simply one equation used to calculate the price of shares. Market makers are extraordinarly well-researched and are used in quite a few centralized prediction markets. We use a market maker because it allows for predictions to still occur even with low liquidity, and because it's a more simple, elegant solution than a decentralized order book.
 
 ## Basic Details
 
