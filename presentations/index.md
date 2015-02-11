@@ -20,6 +20,10 @@ Everyone asks: How are the outcomes calculated? "Who decides?" Here are some of 
 
 On the potential Return available to contributing investors / programmers.
 
+## [The Age of Bullshit](info-problems.pdf)
+
+The real-world problem Truthcoin aims to solve. This was the first half of a talk I gave at the MIT Bitcoin club in January 2015.
+
 
 ## [Initial Coin Allocations](initial-coin-allocations.pdf)
 
