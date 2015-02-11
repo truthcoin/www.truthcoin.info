@@ -48,26 +48,47 @@ This is the most severe failure case, and deserves a bit of discussion.
 		- One way would be for Branch owners to purchase huge quantities of "Branch Insurance" (bets on honest resoulution) from other Branches. Skeptical traders can try to hedge this way, and market prices can give some indication of reliabiliy and/or coverage.
 
 
-### Voters don't follow Branch Instructions on What Counts as an 'Unclear' Question
+### Design is Too Complex
 
-- The process works best when there is tacit coordination among voters. To make coordination tacit, the scheme encourages voters to slightly dis-coordinate with rival voters, given that they are already >50% coordinated with the statistically-representative voter.
+While this project aspires to be the simplest "Bitcoin 2.0 project" (consisting of Bitcoin with new dimensions [Branches, Votecoins, Decisions, Markets, and Shares] and new message types). Nonetheless, Bitcoin had several severe bugs (enabling counterfeiting or outright theft) which were only discovered after years of real-world testing. It is likely that this project will have a correspondingly higher number of bugs, discovered over a correspondingly longer period of time (several years).
 
-![Reward Function](/images/agreement_reward.svg)
+### Project Inspires Widespread Legality/Social-Acceptance of Prediction Markets
 
-- Therefore, voters may lie to each other on how they plan to vote on 'Unclear', which is fine, but for the fact that ambiguity is itself ambiguous. This might lead to 'too much work' being done by Voters, or Voter-anger as SVD doesn't turn out quite as expected.
-- Of course, this assumes that unclear Decisions exist, which the protocol is specifically designed to discourage. Also, traders are only affected if they trade on unclear decisions, which they wouldn't do (because, for a start, they wouldn't know what they were buying).
+While "software" in general continues to improve, individual pieces of software die off quickly. (Similar to biological evolution: while a species may become more adapted to its environment over time, each member of the species dies very quickly). While prediction market software can only continue to improve, this particular piece of software can likely be out-competed by any organization which would legally bind itself to provide accurate data (the so-called "trusted third party"). All [value-storers](http://www.truthcoin.info/blog/limits-of-blockchain/) have historically been targets for theft, fraud, racketeering, and taxation, but some value-storers are targeted more than others. Bitcoin is likely to outlast the entire financial-services industry (which is rife with middlemen of all kinds), where as Truthcoin may not be able to compete with a prediction-market internet-business operating in a pro-business jurisdiction.
+
+
 
 
 ## Probably Not a Problem
 
-### Miners are too lazy to ever veto anything, making the miner-veto an empty threat.
+### Voters don't follow Branch Instructions on What Counts as an 'Unclear' Question
 
-- The Veto is more a 'fail-safe' to prevent a blockchain reorganization (intentional forking for vote-strategic-reasons) than anything truly essential to security. In no way is the Veto essential to outcome-resolution
-- Nonetheless, the Miner-Veto is not an 'empty' threat, as it supplies uncertainty to attackers. Attacker coalitions will be concerned with "pretend-attacks" to draw them off equilibrium, so all sources of attacker-uncertainty are valuable.
+The outcome-resolution process works best when there is tacit ("unspoken") coordination among voters. To make coordination tacit, the scheme encourages voters to act as "double-agents", and try to form-and-betray small attack-coalitions which fail.
 
-### Between 50% and Phi% Voters attack everything at once
+![Reward Function](/images/agreement_reward.svg)
 
-A coalition of attackers will not be able to easily coordinate on what they attack, primarily because they cannot guarantee what this will cost upfront, or that they will be able to 'settle up' after the fact (as they might arrange whilst planing the attack).
+Therefore, voters may lie to each other on how they plan to vote, in general (which makes the only credible coordination tacit). While ordinarily fine, this might be somewhat inconvenient on 'Unclear', which is fine, but for the fact that ambiguity is itself ambiguous. This might lead to 'too much work' being done by Voters (who neurotically attempt to answer even the most perplexing questions), or Voter-anger as the SVD-resolution doesn't turn out exactly as expected.
+
+However, the damage is limited to Voters only: Traders are only affected if they trade on "unclear Decisions", which they wouldn't do (because, for a start, they wouldn't know what they were buying). Expectations of low-trading would discourage Authors from ever making "unclear Decisions", so they are unlikely to exist.
+
+### Miners are too lazy to ever veto anything, making the miner-veto an empty threat. (Or: "Veto is overly complicated and unnecessary).
+
+The Miner-Veto accomplishes several goals at once (a "threat" being only one of them). The most important is to serve as a 'fail-safe' to prevent any blockchain reorganization for vote-strategic reasons (in other words, an effort to say "we didn't like the vote-outcome, so we are hard forking the entire transaction history). The Miner-Veto is in no way a requirement for the outcome-resolution process.
+
+Nonetheless, the Miner-Veto is not an 'empty' threat, as it supplies uncertainty to attackers. Attacker coalitions will be concerned with "pretend-attacks" to draw them off equilibrium, so all sources of attacker-uncertainty are valuable in disrupting cartels.
+
+Ultimately, the Miner-Veto is actually quite important, as if we take only the fundamental assumptions made by Bitcoin (that no attacker controls a majority of hashing power), and if we are further comfortable with the extensions to that assumption made by sidechains (that a 51% miner-coalition will not form, even when it can now steal a known quantity of coins [instead of merely pseduo-steal coins by reversing a subset of transaction history]), then we would achieve perfect zero-trust by allowing miners to vote, with one-block-one-vote encrypted votes.
+
+This perfect-security comes at the cost of practicality: miners do not actively manage the blockchain, except under the gravest of rare circumstances. Sadly, the "miners-as-voters" concept does not scale to even a few Decisions. However, we can exploit differences in the scale of rewards and costs to try to get the best of all worlds: the only profitable attacks being large ones which are almost entirely disruptive, and these being exactly the types of attack which miners would veto.
+
+![Scale Differential](/images/attack_scaling.jpg)
+
+Above: Attack-Scale figure from whitepaper. Notice that the cost-of-truth has been matched (triangles) with the realistically-expected usage: More expensive truth-sources are rarer.
+
+
+### X% of Voting-Influence ( 50% < x < Phi% ) Attack the Outcome Resolution Process 
+
+A coalition of attackers will not be able to easily coordinate on what they attack, primarily because they cannot guarantee what this will cost upfront (, or that they will be able to 'settle up' after the fact (as they might arrange whilst planing the attack).
 
 It then stands to reason that an attacker would acquire a large proportion of voting power, and then simply attack many (or all) of the Decisions at the next opportunity. However, this is discouraged by the Audit.
 
@@ -81,10 +102,14 @@ Probably wouldn't make enough money to be worth it. Strategic frictions (which f
 
 
 ### Scalability
-- I don't see the Truthcoin scalability challenges from being substantially different from Bitcoin's.
-- The vote-matrix is Voter by Decisions, but both are economically constrained. Each Branch creates a new set of Voters, and a new matrix.
-- Matrices and their Decisions "fall out" of the blockchain as they are resolved and sold off. Only the currently used data structures need to be available to anyone.
-- Clever people are thinking up new scalability solutions all the time.
+
+If scalability is neither a problem [in Bitcoin](https://en.bitcoin.it/wiki/Scalability) nor in [the more-ambitious Namecoin](https://wiki.namecoin.info/index.php?title=Scalability), I have yet to discover a reason why Truthcoin would be subject to scalability problems. 
+
+The vote-matrix (only assembled once per Tau of each Branch) is Voter by Decisions, but both are economically constrained: Decisions are capped, and within the cap Decisions are restrained by increasing fees, and Voters have a diminishing return for constant work (this strongly discourages dust-voters). Each Branch creates a new set of Voters, and a new Vote-matrix...this scales linearly.
+
+Moreover, Vote-Matrices, their Decisions, and their Markets will "fall out" of the blockchain as they are resolved and sold off. Only the currently used data structures need to be available to anyone.
+
+Clever people are thinking up new scalability solutions all the time.
 
 ### Authors Won't Make "Enough" Money Back
 
@@ -94,20 +119,30 @@ Trading fees are collected from literal MSR-powered trades, but also from 'trans
 
 For popular 'stock market' assets, these trading volumes are measured in the trillions. Despite its numerous disadvantages, InTrade saw trading volumes in the [10's of millions USD on its more popular markets](https://www.intrade.com/v4/markets/contract/?contractId=743474). 50% of .1% of that is still $10,000.
 
+If only popular markets were authored, that would seem to be "mission accomplished".
+
 
 ## Definitely Not a Problem
 
 ### Ballot-Stuffing (Sybil attacks on Voting)
 
-Votes are weighted by proportional-ownership in an abstract-corporation, so there is a cost (and opportunity cost) to obtaining more voting-influence.  
+Only Votecoin-owners can vote, and votes are weighted by percent-of-total-ownership. Votes are weighted by proportional-ownership in an abstract-corporation, so there is a cost (and opportunity cost) to obtaining more voting-influence.  
 
 This would be comparable to buying all of the shares of a bank, and then attempting to vote to give yourself all of the bank's money, while hoping that the depositors do not withdraw their money from the bank.
+
+### Exploitation of the Automated Market Maker
+
+The concept of an AMM does make individuals nervous, but the market-maker does not need to exercise any judgment or decide anything. It is a completely deterministic representation of the trade-history and nothing more. It also happens to be nothing more than a single simple formula for cost (who's derivative is the prices). See my [Excel demo](http://www.truthcoin.info/papers/LogMSR_Demo.xlsx), and scroll down the rows to learn more.
 
 ### Markets about Vague Events, Gibberish or Personal Opinions
 
 There is a fail-safe-option, to vote directly between True and False, or at the midpoint of a Scaled Decision, and so coordinate on "the" common answer to such questions. In this way, traders will be able to perfectly understand the future value of nonsense-assets.
 
 Resolving to this failsafe may have negative repercussions for the Decision Author, I haven't decided yet. As Decisions already cost Listing Fees (as an economic control), there might be no real reason for imposing any penalty.
+
+### Voter Exhaustion
+
+Voters are given an incentive to vote on every Decision, and for this reason the total number of Decisions is capped per Branch. Voters can own as many Branches as they can tolerate working for.
 
 
 ### Markets Resolving "Too Slowly"
