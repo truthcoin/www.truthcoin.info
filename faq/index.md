@@ -5,11 +5,51 @@ title: Frequently Asked Questions
 
 [Linkable/Pullable GitHub Version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/faq/index.md)
 
+## What's Going On?
+
+Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send an receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
+
+Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
+
+Truthcoin has users, just like Bitcoin, but it also has employees. These employees work for "Branches" (each Branch resembles a new InTrade), and vote on "Decisions" (election outcomes or price-feeds), which resolve "Markets" (the trading-arenas defined by one or more Decision). Users are free to create any Decisions or Markets they like, although they compete economically for scare "Decision slots".
+
 ## Incentives
 
 ### How do you know that people wont claim an outcome was whatever will benefit them personally?
 
-Many of the details are in [this presentation](http://www.truthcoin.info/presentations/truthcoin-outcomes.pdf) and [the whitepaper](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf).
+A parallel question would be, why wouldn't InTrade.com (a website which once provided USD prediction markets) simply steal their client's money? Why don't banks steal their client's money?
+
+The major reasons are that: [1] this would result in an overnight failure of their business, and [2] law enforcement would catch up with them (punishing the attacker for breach-of-contract, and possibly even reversing the stolen funds). 
+
+It is clear that all businesses must operate for the long run (think customer service departments, or sending back a meal at a restaurant), making reason [1] enough to keep these agents in line, but [some businesses are uniquely vulnerable to short-term temptation because they not only "accept value" but they are also custodians of their customer's value](http://www.truthcoin.info/blog/limits-of-blockchain/), necessitating the extra enforcement implied by [2].
+
+#### [1] Reputational Capital
+
+To mimic the value-added by beneficial voting-activity, Truthcoin has "Branches", which are analogous to corporations. Each would be like its own PM-business, generating profits (from their customer's trades) over the long run, and resolving each market as its event takes place.
+
+Branch-owners are compelled to report on a (capped) number of questions called Decisions. This restriction on the supply of reporting allows Branches to [differentiate](http://en.wikipedia.org/wiki/Product_differentiation) and thereby own and capture the economic value produced by their good behavior. Through something called Branching, each Branch can **choose** to split into two daughter Branches. Economic incentives are such that differentiation is always possible / some monopolistic-rents are always extractable, yet there is flexibility to scale as needed (these details will be discussed in Whitepaper 1.4).
+
+It is a common misconception that the SVD-resolution algorithm is the main innovation behind Truthcoin. While important in its own right, it is this concept of a second "share-token" with owner-operators (laborers who must buy the coin to work, and who lose the coin if they misbehave), as well as the careful [operationalization](http://en.wikipedia.org/wiki/Operationalization) of all the economic costs and benefits of each agent, which drives the blockchain-logic. 
+
+
+#### The SVD-Resolution Algorithm
+
+To discourage coordinated-theft, theft-attempts are discovered and punished, under the following assumptions:
+
+1. People prefer having more money to having less money.
+2. One of the following:
+	1. One of the following ("large scale attack"):
+		1. No attacker perfectly-controls >Phi% of any Branch (Phi is between 50% and 100%, and might be 65%).
+		2. Miners monitor all Ballots on all Branches, and veto any which contain mis-resolved Decisions (this requires a very small amount of labor, but nonetheless I doubt that miners will put in even this small effort).
+	2. One of the following ("Audit"):
+		1. No attacker controls >(1-Phi) of any Branch (ie, "no one has enough to force an audit"). The false votes cast to trigger the audit are discouraged in precisely the same way that they are in SVD in general, so this is difficult to do without a single individual personally owning such a quantity.
+		2. No one controls more than half of the total BTC wealth on the Sidechain (ie, "no one has enough to control the audit"). Gaming the audit is actually quite difficult because it requires wealth to be used in the audit as well as in the attack, and new wealth can be risklessly brought in from the main Bitcoin chain to interfere with the audit in either direction.
+	3. Asymmetric Tau-ranging and cross-Branch-insurance (to be clarified in Whitepaper 1.4) are appropriately maintained. 
+
+
+
+
+Many of the details of this algorithm are in [this presentation](http://www.truthcoin.info/presentations/truthcoin-outcomes.pdf) and [the whitepaper](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf).
 
 Try and break my [Resolution Demo](https://lyoshenka.ocpu.io/truthcoindemo/www/), and let me know what you find!
 
@@ -50,7 +90,8 @@ Comments:
  
 Generally, many ideas ignore...
  
-1. ...**uncertainty**. If you can't guarantee the mechanism will *always* work, people will respond strategically to this, and avoid using it. Eventually, fate will drift everything into its weakest point, if that point is weak the idea will break.
+1. ...the fact that **trusting a user with outcome-resolution is no different from trusting a user directly with money**. Escrowed funds are already "not yours".
+2. ...**uncertainty**. If you can't guarantee the mechanism will *always* work, people will respond strategically to this, and avoid using it. Eventually, fate will drift everything into its weakest point, if that point is weak the idea will break.
 2. ...the **Chicken and Egg Scale Problem**, that there's no way to know if something is secure until people begin trusting it with large amounts of money. This makes all empirical assumptions about the project (51% honest, presence/effects of competition) permanently uncheckable, and disqualifies projects with many assumptions or even one potentially-untrue assumption. As a project grows, it may be attacked in extremely expensive ways. If it would not survive such attacks, it will never grow to that size.
 2. ...**differences between brands/individuals and digital identities**. In the real world, you can lose *more* than you've established: you can be sued, shamed, thrown in prison, or (traditionally) whacked. Online, you have little to lose.
 3. ...the **Retirement Attack**, ie they tell Judges that the most profitable way to retire is by attacking on their last turn (can't be sued/killed, see above). 
@@ -72,7 +113,7 @@ This concern has only been voiced for scaled claims, not binaries (which probabl
 ## PM-Questions
 
 
-###If you built something like this, what use would people get out of it? Most people/organizations aren’t interested in improving their forecast accuracy through PMs. Who would pay to create (let alone subsidize) these markets?
+### If you built something like this, what use would people get out of it? Most people/organizations aren’t interested in improving their forecast accuracy through PMs. Who would pay to create (let alone subsidize) these markets?
 Excellent question. Firstly, Authors (who bear the economic cost of Market-Creation) are rewarded with a slice of transaction volume. Recreational speculation is likely in markets covering sports and politics, arbitrage transactions are likely in markets tracking a price index, and in many cases, individuals will just disagree with each other passionately enough to begin wagering (global warming, gun control, etc.).  
 
 Secondly, the [public might just pay for publically useful information]( http://www.themoneyillusion.com/?p=15446).  
@@ -88,16 +129,20 @@ I've thought about this in the past and never considered it to be realistic prob
 
 2. Assuming a crazy branch, the contract needs to specify a time horizon "...killed before 2015". Too long (10 years) and the assassin will go unpaid for an inconvenient amount of time, and too short and the target can bet on surviving and "outlast" the time period, becoming richer. Incidentally anyone on a 'crazy branch' (Owners, Authors, Traders) would almost certainly be tracked by the NSA/FBI/Military and would (and should) be prosecuted for breaking numerous existing laws and disturbing the peace of society.
 
-3. Let’s assume you get a branch working. Consider the schedule (below) in reverse-time (a la Backward Induction), and one can see that there are problems at nearly every stage.
+3. Let’s assume you get a branch working, and no one interferes. Consider the schedule (table, below) in reverse-time (a la Backward Induction), and one can see that there are problems at nearly every stage of this supposed assassination-protocol.
 
 
-4. I have many more ideas, involving life insurance, buying up the branch (easier than it sounds), counter-exploitation of crazy branch, counter-contracts (paying if you stay alive, or to find/kill the assassin) etc. Many roads lead to failure.
+4. On top of that, there are still many ways to discourage activity of this kind. For example: life insurance, counter-exploitation of crazy branch (via competition), counter-contracts (paying only if you stay alive, or only if the assassin is found/killed) etc.
 
-5. If those ideas don't appeal to you, you can simply bet on your own death, then fake your own death. It's inconvenient (and possibly traumatic to friends/family), but you get paid pretty well (money from your enemies, no less) and it beats dying. Modern law enforcement will even help you do this (so I read).
+5. If those ideas don't appeal to you, you can simply bet on your own death, then fake your own death. It's inconvenient (and possibly traumatic to friends/family), but you get paid pretty well (money from your enemies, no less) and it beats dying. Modern law enforcement will even help you do this (so I read). Fundamentally, this is a "public good" that you are in the absolute best position to provide.
 
-6. All even before we consider the fact that law enforcement has-always/will-continue-to evolve with new technology. Law enforcement would literally know who was most at risk and when. 
+6. Finally, be reminded that law enforcement has always evolved in step with new technology. In this case, law enforcement could use publicly available prices and markets to know (with great reliability) who was most at risk and when (and the legitimacy of the risk).
 
-7. Finally, I just don't see PMs as encouraging this behaviour, as most murders are for extremely personal reasons (sexual jealousy, religious/political extremism, mental instability) and not economic ones (rich people have way more to lose by going to prison).
+7. Finally, I just don't see PMs as encouraging this behavior, as most murders are for extremely personal reasons (sexual jealousy, religious/political extremism, mental instability) and not economic ones (rich people have way more to lose by going to prison).
+
+8. Many roads lead to failure, in an enterprise so universally distasteful. Societies throughout history have set aside their differences to minimize murder, [now more than ever](http://www.ted.com/talks/steven_pinker_on_the_myth_of_violence?language=en). It is revealing that, while SilkRoad (a black market for drugs) thrived, BlackMarketReloaded (a black market for powerful weapons) could not even remain in business. It can be thrilling to fantasize about murder, violence, and weapons, but (unlike with drugs), these fantasies are usually contained to summer-action movies.
+
+9. Finally, Nirvana is not for this world. People have been murdering each other since the dawn of man. I hardly think it is fair to demand that this project be somehow magically immune to every possible consequence of that reality.
     
 |Item    |Normally Would Involve   |  Criminal Problems|
 |:--------:|:----------------------------------:|:---------------------------:|
@@ -129,26 +174,35 @@ Yes. The design requires a way to conditionally pay out money (ie pay out if thi
 The price will not fix at 1 or 0 until voting occurs, but it will converge toward one of those values as the event info is revealed (ie just as the horse wins). If voting is in two weeks, there may be some time-value-of-money/time-preference/liquidity effect, but shares of the winning horse could still sell for 99.0 or 99.9. Those buying at 99 would be Wall Street / banker types who pick up the shares purely to earn 2 week's worth of above-market interest on their capital. So fast cashouts shouldn't be a problem.
 
 
-###Why don’t you perform judgment more often?
-1. For security reasons we need a group of a few Decisions per Judgment Period.
+### Why don’t you perform SVD-resolution more often?
+
+Three reasons:
+
+1. For security reasons, we need a large group of multiple Decisions per Judgment Period.
+
 2. Judgment is inconvenient, and we would like to minimize inconvenience. Because of setup costs, it is likely easier for judges to sit down once per month, at their leisure, and do all Decisions at that time, than it would be to force them to do this every week or every day. Monthly JPs allow for a two week vacation, for example.
+
 3. There’s really no benefit to doing so (see the horse racing question above).
 
-###Do strategic decisions change if one node started publishing (potentially biased) votes immediately upon noticing them? One could publish 10% attack-votes, and the 11th % user would be tempted to conform, leading to a cascading failure.
+### Do strategic decisions change if one node started publishing (potentially biased) votes immediately upon noticing them? One could publish 10% attack-votes, and the 11th % user would be tempted to conform, leading to a cascading failure.
 Excellent question. Ballots are encrypted, and contain a new destination (public key), for this reason. Votes are cast in one period, and unsealed in a later period (during which no new votes are cast). Because private keys are required to decrypt, it is always impossible to prove that you've voted a certain way (and recall that you have an incentive to vote honestly yet say that you are voting dishonestly).
 
 
-###Is SVD computationally complex, to continue doing on such a large scale and frequency?
+### Is SVD computationally complex, to continue doing on such a large scale and frequency?
 That depends on your definition of complex. In python, on an i5 processor, svd solves instantly for a matrix of dimensions 10000 x 100 (my expectation for the steady-state requirement). It is a common misconception that svd is preformed frequently in my scheme. It is only performed once per Voting Cycle (per month or so) per Branch, upon the maturation of large batches of Decisions.
 
-###It sounds a lot like you've reinvented...
+### It sounds a lot like you've reinvented...
 So far, people have written in 'Bayesian Truth Serum', ["Thirteen theorems in search of the truth."](http://www.socsci.uci.edu/~bgrofman/69%20Grofman-Owen-Feld-13%20theorems%20in%20search%20of%20truth.pdf), [EigenTrust](http://en.wikipedia.org/wiki/EigenTrust), and a few other things (that weren't quite right).
 
 I probably did. I don't think any of my core building-block ideas are that complicated, especially compared to the library of academic work published each year since forever. BTS allows you to vote on how other's will lie, this is a little better but doesn't scale as easily (an furthermore in a coordination game all the votes would theoretically be equal to each other).
 
-###Do you feel its necessary to penalize miners for not voting? In my mind it would be better to rely on positive rewards as we wouldn’t really want to encourage voting by those with less interest/knowledge in the outcomes.
+### Do you feel its necessary to penalize miners for not voting? In my mind it would be better to rely on positive rewards as we wouldn’t really want to encourage voting by those with less interest/knowledge in the outcomes.
 
 Actually it is necessary. Firstly the concern you mentioned later is mitigated by (and one of the main benefits of) Branching, where voters stay only on the branches/trees where they are interested and knowledgeable. More importantly, however, if we assume voting is costly (which it certainly is), then the assumption I made on page 2 that voters are lazy implies that theoretically none of them will vote, in a sort of 'tragedy of the commons'. Realistically, some might care enough to vote, but this would weaken the confidence in the coordination-ballot, as it takes a smaller % of votes to throw off. Thirdly, voters are not just contributing their point of view when they vote, they are also securing the network by validating the point of view of all other voters (via the coordination game). Notice that an individual's penalty for not-voting is only high when many other individuals have also not-voted. You can miss a vote every once in a while, and as long as everyone else is voting it won't really be a big deal for you.
+
+### Why is reputation ("Votecoins", "Truthcoins") tradeable? That seems overly complex, and/or allows rich people to attack the network.
+
+See the "Reputational Capital" section of the "How do you know that people wont claim an outcome was whatever will benefit them personally?" question.
 
 
 

@@ -38,6 +38,7 @@ This is the most severe failure case, and deserves a bit of discussion.
 	- Miners can veto Ballots; by doing so, the Vote simply has no effect at all. Miners can also veto Branches, allowing Decision-Authors to pull the Decisions from that vetoed-Branch onto a different Branch. One would expect Miners to always act in the best interest of the currency they mine, although Miners may also be lazy and uncoordinated (less so if the attacked-Ballot is truly devastating). Distressed users might actually rent hashpower themselves, to force vetos into the longest chain.
 
 - Discouragement / Prevention:
+	- Scale-Gaming: Likely, the cost of Phi% of a Branch (lost post-attack) necessitates a correspondingly large expected attack-revenue. In other words, only huge attacks are likely to be profitable. However, rare/huge attacks are precisely those which would receive the most attention (or, even, any attention) from Miners, and rare/huge attacks are also those in which it is cheapest for Miners to halt.
 	- Attacker has most MarketCap At Stake.
 		- Post-attack, the entire market cap of the Branch would likely be wiped out, costing the attacker disproportionately (Phi is always > .5).
 		- 'Big' doesn't need to imply 'Evil'. A user with a high % of the Vote also has proportionally more to gain by acting honestly.
@@ -98,7 +99,7 @@ Quite by design, the Audit becomes 'harder to clear with the severity of the att
 
 ### Between 50% and Phi% Voters Voters attack only a few things at once
 
-Probably wouldn't make enough money to be worth it. Strategic frictions (which few do we attack?, who attacks what?) would likely unravel the attacking coalition.
+The attacker-coalition probably wouldn't make enough money to be worth it. Strategic frictions (which few do we attack?, who attacks what?) would likely unravel the attacking coalition.
 
 
 ### Scalability
@@ -144,6 +145,7 @@ Resolving to this failsafe may have negative repercussions for the Decision Auth
 
 Voters are given an incentive to vote on every Decision, and for this reason the total number of Decisions is capped per Branch. Voters can own as many Branches as they can tolerate working for.
 
+Moreover, it would be entirely possible to have "overflow Decisions", which would be different from standard Decisions in 3 ways: no requirement to vote, voter-reward only goes to those voters who chose to vote, voting-rewards limited to the trading fees accumulated to each Decision. In this way, we could likely list as many Decisions as we wished, with the Decision-author being directly responsible for bootstrapping their Decision's trading fees.
 
 ### Markets Resolving "Too Slowly"
 
