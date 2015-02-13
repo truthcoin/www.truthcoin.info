@@ -36,7 +36,7 @@ Prediction Markets are great for forecasting, but they are also great for MANY o
 Again, PMs are misunderstood. Please don't embarrass yourself by making one of the three mistakes I write about here.
 
 
-## [Truthcoin Whitepaper](5_PM_Manipulation.pdf)
+## [PM Manipulation](5_PM_Manipulation.pdf)
 
 Individuals constantly worry about 'market manipulation' (in the same way that our ancestors worried about witchcraft...). If blockchain-transparency isn't enough for you, try reading this.
 
