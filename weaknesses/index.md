@@ -32,10 +32,12 @@ This is the most severe failure case, and deserves a bit of discussion.
 	- Only Decisions on the attacked-Branch are compromised. Decisions on other Branches are safe. Markets which contain Decisions from several Branches are only contaminated along the dimension of the attacked-Decision(s).
 	- Only Decisions from one single Ballot, within the Branch, are "profitably" compromised. Once the first Ballot has been attacked, no one will expect future Ballots to be resolved honestly, largely limiting the damage to one "surprise". The Listing Fees are structured to encourage equal-size Ballots across time, so it is unlikely (but clearly possible) that there will be one disproportionately consequential Ballot. Their equal-size minimizes the (still high) damage (which would occur at max(BallotRevenue_t)).
 
+
 - Recourse:
 	- High, Uncertain, Nonlinear Costs of Buying: If buying up 20% of a Branch costs x, then buying up 40% necessarily costs >2x. This is because sellers of Branch-VTC will not have exactly the same willingness-to-sell, and those with higher w-t-s will be selling before those with lower w-t-s. The cost of buying up Phi% (which is always >50%) is highly uncertain, and may even be infinite (if 1-Phi% refuse to sell at all). Of course, if an attacker could credibly commit to purchasing >Phi%, this cost would fall to zero (the future [post-attack] value of the Branch's VTC). However, as long as VTC-owners have some reason to retain their coins, this credible commit will itself always cost the "high value".
 	- VTC-Owners can simply refuse to sell, or can even counter-buy. As long as an honest group controls between (1-Phi%) and 50% of the vote, they can force an Audit, and profit if the Audit agrees with them (by getting *half* the Voter-total of Trading Fees, instead of *their ownership-%*). With (1-Phi%) oneself (or with a sufficiently loyal backing), one can trigger an attack of this kind and profit from its failure.
 	- Miners can veto Ballots; by doing so, the Vote simply has no effect at all. Miners can also veto Branches, allowing Decision-Authors to pull the Decisions from that vetoed-Branch onto a different Branch. One would expect Miners to always act in the best interest of the currency they mine, although Miners may also be lazy and uncoordinated (less so if the attacked-Ballot is truly devastating). Distressed users might actually rent hashpower themselves, to force vetos into the longest chain.
+
 
 - Discouragement / Prevention:
 	- Scale-Gaming: Likely, the cost of Phi% of a Branch (lost post-attack) necessitates a correspondingly large expected attack-revenue. In other words, only huge attacks are likely to be profitable. However, rare/huge attacks are precisely those which would receive the most attention (or, even, any attention) from Miners, and rare/huge attacks are also those in which it is cheapest for Miners to halt.
@@ -47,6 +49,9 @@ This is the most severe failure case, and deserves a bit of discussion.
 	- Competition Among Branches
 		- In economics, the phrase "Market for Lemons" refers to a situation where the buyer, wary of what the seller is selling, simply decides to assume the worst (and not buy). It is then the seller's problem to create trust, which he can do in any number of creative ways.
 		- One way would be for Branch owners to purchase huge quantities of "Branch Insurance" (bets on honest resoulution) from other Branches. Skeptical traders can try to hedge this way, and market prices can give some indication of reliabiliy and/or coverage.
+	- Change Requiring Miners to be Voters
+		- Mining and Voting are quite different, and in-particular, the use of merged mining implies that we re-use the existing set of miners (who wouldn't be happy about being asked to do additional work).
+		- However, if one wanted true Sybil-attack resistance, the inevitable conclusion would be to create a one-block, one-vote rule, and then perform SVD on the sealed blocks. The obvious downside is that, because there are only about 1000 blocks per week, only so many voters would have their votes counted. The appropriate aggregation of the two vote-dimensions (work and VTC-ownership) would also require some thought.
 
 
 ### Design is Too Complex
@@ -69,6 +74,8 @@ The outcome-resolution process works best when there is tacit ("unspoken") coord
 ![Reward Function](/images/agreement_reward.svg)
 
 Therefore, voters may lie to each other on how they plan to vote, in general (which makes the only credible coordination tacit). While ordinarily fine, this might be somewhat inconvenient on 'Unclear', which is fine, but for the fact that ambiguity is itself ambiguous. This might lead to 'too much work' being done by Voters (who neurotically attempt to answer even the most perplexing questions), or Voter-anger as the SVD-resolution doesn't turn out exactly as expected.
+
+**If there is *any* degree of confusion or discomfort about an outcome, Voters should report it as 'Unclear' or '.5'. This is a crucial element of the design.**
 
 However, the damage is limited to Voters only: Traders are only affected if they trade on "unclear Decisions", which they wouldn't do (because, for a start, they wouldn't know what they were buying). Expectations of low-trading would discourage Authors from ever making "unclear Decisions", so they are unlikely to exist.
 

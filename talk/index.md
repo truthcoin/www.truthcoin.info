@@ -7,19 +7,21 @@ title: What People Are Saying
 In The Media
 --------------
 
-- [The Let's Talk Bitcoin Interview](http://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-episode-117-the-truth-matrix)
+- [The June 2014 Let's Talk Bitcoin Interview](http://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-episode-117-the-truth-matrix)
 
-- [Reddit Posts About Truthcoin (via google)](https://www.google.com/search?q=site%3Areddit.com+truthcoin)
+- [InsideBitcoins Articles (via google)](https://www.google.com/search?q=site:insidebitcoins.com+truthcoinn)
+
+- [CoinDesk Articles (via google)](https://www.google.com/search?q=site%3Areddit.com+truthcoin#q=site:coindesk.com+truthcoin)
+
+- [Reddit Posts (via google)](https://www.google.com/search?q=site%3Areddit.com+truthcoin)
 
 - [Bitcoin Magazine](http://bitcoinmagazine.com/16748/truth-behind-truthcoin/)
 
 - [Syscoin Website](http://syscoin.org/bitcoin-2-0-the-knowledge-economy-and-the-future-of-syscoin/)
 
 
-
 Forums
 ----------
-
 
 
 - [Original BitcoinTalk Thread](https://bitcointalk.org/index.php?topic=475054.60)
@@ -61,4 +63,4 @@ Academia
  - [On Decentralizing Prediction Markets and Order Books](http://users.encs.concordia.ca/~clark/papers/2014_weis.pdf) - I was mentioned in a **footnote** (and academic-insiders know the profound difference between footnote-citations and reference-citations).
 
 
-I can't really imagine why someone would want me to take their post down from this page (as they are already internet-available and don't even contain real names), but if you *do* want to be taken down, just contact me with some kind of proof that you are the quoted person.
+If you want your quote to be taken down (can't imagine why), just contact me with some kind of proof that you are the quoted person.

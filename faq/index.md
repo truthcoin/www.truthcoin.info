@@ -3,6 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
+
 [Linkable/Pullable GitHub Version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/faq/index.md)
 
 ## What's Going On?
@@ -104,6 +105,7 @@ Generally, many ideas ignore...
 I did not base my own choice on trial-and-error, I instead based it on my day-to-day real-world truth-finding experiences.
 
 ###In practice everyone [may] pull their data from some kind of external data feed. Presumably they'll use whatever is simplest and cheapest, then they'll be stuck with that until it completely breaks...
+
 This concern has only been voiced for scaled claims, not binaries (which probably are novel and don't have a feed). If Voters are instructed to use a few external sources (for comparison),Do they can double-check their answers (of course, if they believe others will NOT double-check, they will not either, so they might not), or more importantly switch to a new source if the first is broken. I personally find it highly unlikely that Yahoo or Google will start publishing wildly disparate financial index data, as they have every reason to ensure that the data is accurate.
 
 
