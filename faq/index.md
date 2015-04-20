@@ -8,7 +8,7 @@ title: Frequently Asked Questions
 
 ## What's Going On?
 
-Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send an receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
+Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send and receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
 
 Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
 
