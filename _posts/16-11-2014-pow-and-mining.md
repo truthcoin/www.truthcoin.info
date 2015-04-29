@@ -12,7 +12,7 @@ comments: true
 
 It's been said that Proof of Work (PoW) "wastes" billions (or whatever) of dollars per year, and/or that it "wastes" energy.
 
-"Waste" implies a more prudent alternative, and indeed these Anti-Satoshians try propose a "cheaper" way of distributing coins, despite the fact that this is goal is nonsensical.
+"Waste" implies a more prudent alternative, and indeed these Anti-Satoshians try propose a "cheaper" way of distributing coins, despite the fact that this goal is nonsensical.
 
 ### For Auction: 100 US Dollars
 
@@ -20,7 +20,7 @@ Whatever "it" is, if it creates $100 worth of value, but costs <$100, everyone w
 
 It really is that simple. It would be obvious to anyone who understood [economic rent](http://en.wikipedia.org/wiki/Economic_rent) and [opportunity cost](http://en.wikipedia.org/wiki/Opportunity_cost) (for example, as applied in the [Law of Rent](http://en.wikipedia.org/wiki/Law_of_rent)).
 
-Why isn't this widely known in the Bitcoin community? Well, it would seem that prevailing disagreement with today’s FED Policy (a contentious, real world, imperfect attempt to execute on one particular strategy [chosen among many] – a strategy, confined completely to the applied half of the “monetary policy” subset of the “policy” subset of the “macro” discipline of the field of economics) has led to a sort of groupthink-powered, willful ignorance of economic science.
+Why isn't this widely known in the Bitcoin community? Well, it would seem that prevailing disagreement with today’s FED Policy (a contentious, real world, imperfect attempt to execute on one particular strategy [chosen among many] – a strategy, confined completely to the applied half of the “monetary policy” subset of the “policy” subset of the “macro” discipline of the field of economics) has led Bitcoiners to a sort of groupthink-powered, willful ignorance of economic science.
 
 Which is a shame, because just by visiting [certain corners](http://en.wikipedia.org/wiki/Cost-of-production_theory_of_value) of Wikipedia, certain 2.0 "designers" could have saved themselves a lot of time.
 
