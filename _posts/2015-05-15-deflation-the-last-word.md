@@ -34,7 +34,7 @@ Somehow, [years later, the debate rages on](http://yanisvaroufakis.eu/2014/02/15
 ## Inevitable Deflation: Three Puzzle Pieces
 > P2P e-cash systems without a fixed money supply will be replaced by P2P e-cash systems with a fixed money supply.
 
-### 1: Peer-to-Peer "Banking" Means Open Source
+### Puzzle Piece 1: Peer-to-Peer "Banking" Means Open Source
 
 #### Security
 
@@ -54,7 +54,7 @@ Contradiction: [1] All nodes are going to be equal ("peer-to-peer"), with no adm
 
 
 
-### 2: Open Source Means Competition
+### Puzzle Piece 2: Open Source Means Competition
 
 Open source software can be effortlessly copied. The copies can be trivially renamed, they can be trivially modified to use different colors, or words, or different starting parameters. It's Darwinism at the speed of the information superhighway.
 
@@ -63,7 +63,7 @@ If you don't know that, you [don't know anything](http://video.cnbc.com/gallery/
 ( Central Banks are designed to coordinate monetary policy for large areas [in fact, the world's central banks have historically been born just-before/during expensive federal campaigns/wars/"coordination competitions"], but: the easier it is for someone to leave a group, the harder it is to get the group's members to do something they don't want to do. )
 
 
-### 3: The Winner-Take-All Network-Effects of Value-Storage
+### Puzzle Piece 3: The Winner-Take-All Network-Effects of Value-Storage
 
 Citizens use only one form of money. Currencies spread as far as they can (usually until they reach rival-citizens who must pay rival-taxes in a rival-currency), and then compete until there is just a single survivor.
 
