@@ -6,6 +6,8 @@ comments: true
 > Any e-currency which is peer-to-peer must also be deflationary. Bitcoin, as "Immortal Deflationary", presents the first real challenge to the established, "Coordinated Inflationary" currencies.
 
 
+## Introduction
+> The debate seems endless.
 
 When I first got into Bitcoin (in 2011), I understood why it had to introduce coins gradually (the mining half of [this previous post](http://www.truthcoin.info/blog/pow-and-mining/)) and also why **it *had* to ultimately *stop* introducing coins**, hence the fixed steady-state money supply (the 21 million coin limit).
 
@@ -29,7 +31,7 @@ Somehow, [years later, the debate rages on](http://yanisvaroufakis.eu/2014/02/15
 
 
 
-## Three Puzzle Pieces
+## Inevitable Deflation: Three Puzzle Pieces
 > P2P e-cash systems without a fixed money supply will be replaced by P2P e-cash systems with a fixed money supply.
 
 ### 1: Peer-to-Peer "Banking" Means Open Source
