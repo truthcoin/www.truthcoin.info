@@ -112,7 +112,7 @@ Coordination-anxiety magnifies the open-source "fork-the-project-and-leave threa
 
 
 ## Deflation: Beyond "Good" and "Bad"
-> People who criticize Bitcoin for being deflationary seem to have missed a number of more important things. Policy is not caused by desires, instead by what is possible and effective.
+> People who criticize Bitcoin for being deflationary seem to have missed a number of more important things. Policy is primarily caused by what is possible and effective, not by what is desirable.
 
 ### "Should" vs. "Will"
 
