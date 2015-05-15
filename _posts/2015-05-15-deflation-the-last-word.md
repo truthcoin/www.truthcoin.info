@@ -122,9 +122,7 @@ Bitcoin, as a protocol, is immortal. We can choose to ignore Bitcoin, but it can
 
 Some people ask the question: "*Should* Bitcoin, a deflationary currency, be used as money?". The question is completely irrelevant. Instead, ask: "**Will** Bitcoin be used as money?".
 
-Firstly, understand why people ask the "should" question: [1] to sate their curiosity, [2] to understand the impact that Bitcoin might have on society as a whole, [3] to personally evaluate Bitcoin as an investment-option, or [4] to show off (to express/perform an informed/impressive opinion to one's peers). Although "will" always beats "should", here or elsewhere, I am at present focusing on point [2], as each of the others affects only the emotional state of a single individual.
-
-Secondly, understand that point [2] indicates that the *will* and *should* questions are usually quite related. If something "should" not happen, then it likely "will" not happen: we'd [eventually](https://www.youtube.com/watch?v=6cjx4gJFME0&t=1m06s) prevent it from happening. If that weren't happening, if a group of "preventors" for a should-not-happen didn't exist, then we could start one and attract members. After all, we're doing what *should* be done; we're the heroes and everyone loves us.
+The *will* and *should* questions are usually quite related, of course. If something "should" not happen, then it likely "will" not happen: we'd [eventually](https://www.youtube.com/watch?v=6cjx4gJFME0&t=1m06s) prevent it from happening. If that weren't happening, if a group of "preventors" for a should-not-happen didn't exist, then we could start one and attract members. After all, we're doing what *should* be done; we're the heroes and everyone loves us.
 
 But, in this case, *"should"* doesn't matter. 
 
