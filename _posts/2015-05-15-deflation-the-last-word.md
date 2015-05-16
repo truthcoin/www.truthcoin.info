@@ -7,7 +7,7 @@ comments: true
 
 
 ## Introduction
-> The debate seems endless.
+> The debate seems endless, and wrong.
 
 When I first got into Bitcoin (in 2011), I understood why it had to introduce coins gradually (the mining half of [this previous post](http://www.truthcoin.info/blog/pow-and-mining/)) and also why **it *had* to ultimately *stop* introducing coins**, hence the fixed steady-state money supply (the 21 million coin limit).
 
@@ -36,19 +36,19 @@ Somehow, [years later, the debate rages on](http://yanisvaroufakis.eu/2014/02/15
 
 ### Puzzle Piece 1: Peer-to-Peer "Banking" Means Open Source
 
-#### Security
+#### i. Security
 
 First and foremost, people aren't going to trust their money with something unless they understand how it works. People understand that banks work, and that online banking is just a different way of interacting with their bank, but with this newfangled "Bitcoin" software, *transparent* security is going to be imperative.
 
-#### Ownership
+#### ii. Ownership
 
 The major advantage to closed-source is that you can sell the software, or otherwise extract cash from its use. The P2P community isn't into that: in fact, tons of proprietary software is itself (illegally) distributed over the P2P protocol Bittorrent every single day. The original "big" P2P software app was Napster, which fell into legal chaos by "owning" its closed source software, and therefore being legally responsible for the actions of its users. (Later, [open source / un-owned] implementations of essentially the same idea [Gnutella] are still around today).
 
-#### Unowned-Project / Volunteer-Based-Development Spiral
+#### iii. Unowned-Project / Volunteer-Based-Development Spiral
 
 When the *development* and *distribution* of the software is *itself* P2P (ie, the software is designed, written, developed, and improved collaboratively), the gains from open source (onboarding, review, coordination of interested programmers) overwhelm the costs.
 
-#### Non-Administration
+#### iv. Non-Administration
 
 Contradiction: [1] All nodes are going to be equal ("peer-to-peer"), with no administrator nodes. [2] Under closed source, everyone is running the same application but only a few "administrators" know what the application is really doing.
 
