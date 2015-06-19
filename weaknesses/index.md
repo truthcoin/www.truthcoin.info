@@ -22,7 +22,9 @@ For example:
 
 ## Might be a problem
 
+<!--
 
+Removed as I think it would be best for people to turn to the whitepaper for this.
 
 ### A Malicious User Buys >Phi% of a Branch, Disrupts the Honest Resolution of Outcomes and Exploits Traders
 
@@ -53,14 +55,20 @@ This is the most severe failure case, and deserves a bit of discussion.
 		- Mining and Voting are quite different, and in-particular, the use of merged mining implies that we re-use the existing set of miners (who wouldn't be happy about being asked to do additional work).
 		- However, if one wanted true Sybil-attack resistance, the inevitable conclusion would be to create a one-block, one-vote rule, and then perform SVD on the sealed blocks. The obvious downside is that, because there are only about 1000 blocks per week, only so many voters would have their votes counted. The appropriate aggregation of the two vote-dimensions (work and VTC-ownership) would also require some thought.
 
+-->
 
 ### Design is Too Complex
 
 While this project aspires to be the simplest "Bitcoin 2.0 project" (consisting of Bitcoin with new dimensions [Branches, Votecoins, Decisions, Markets, and Shares] and new message types). Nonetheless, Bitcoin had several severe bugs (enabling counterfeiting or outright theft) which were only discovered after years of real-world testing. It is likely that this project will have a correspondingly higher number of bugs, discovered over a correspondingly longer period of time (several years).
 
+
+
+
+
 ### Project Inspires Widespread Legality/Social-Acceptance of Prediction Markets
 
 While "software" in general continues to improve, individual pieces of software die off quickly. (Similar to biological evolution: while a species may become more adapted to its environment over time, each member of the species dies very quickly). While prediction market software can only continue to improve, this particular piece of software can likely be out-competed by any organization which would legally bind itself to provide accurate data (the so-called "trusted third party"). All [value-storers](http://www.truthcoin.info/blog/limits-of-blockchain/) have historically been targets for theft, fraud, racketeering, and taxation, but some value-storers are targeted more than others. Bitcoin is likely to outlast the entire financial-services industry (which is rife with middlemen of all kinds), where as Truthcoin may not be able to compete with a prediction-market internet-business operating in a pro-business jurisdiction.
+
 
 
 
@@ -94,9 +102,9 @@ This perfect-security comes at the cost of practicality: miners do not actively 
 Above: Attack-Scale figure from whitepaper. Notice that the cost-of-truth has been matched (triangles) with the realistically-expected usage: More expensive truth-sources are rarer.
 
 
-### X% of Voting-Influence ( 50% < x < Phi% ) Attack the Outcome Resolution Process 
+### (With Audits) X% of Voting-Influence ( 50% < x < Phi% ) Attack the Outcome Resolution Process 
 
-A coalition of attackers will not be able to easily coordinate on what they attack, primarily because they cannot guarantee what this will cost upfront (, or that they will be able to 'settle up' after the fact (as they might arrange whilst planing the attack).
+A coalition of attackers will not be able to easily coordinate on what they attack, primarily because they cannot guarantee [1] what this will cost, or [2] that they will be able to 'settle up' after the fact (as they might arrange whilst planing the attack).
 
 It then stands to reason that an attacker would acquire a large proportion of voting power, and then simply attack many (or all) of the Decisions at the next opportunity. However, this is discouraged by the Audit.
 
@@ -109,16 +117,6 @@ Quite by design, the Audit becomes 'harder to clear with the severity of the att
 The attacker-coalition probably wouldn't make enough money to be worth it. Strategic frictions (which few do we attack?, who attacks what?) would likely unravel the attacking coalition.
 
 
-### Scalability
-
-If scalability is neither a problem [in Bitcoin](https://en.bitcoin.it/wiki/Scalability) nor in [the more-ambitious Namecoin](https://wiki.namecoin.info/index.php?title=Scalability), I have yet to discover a reason why Truthcoin would be subject to scalability problems. 
-
-The vote-matrix (only assembled once per Tau of each Branch) is Voter by Decisions, but both are economically constrained: Decisions are capped, and within the cap Decisions are restrained by increasing fees, and Voters have a diminishing return for constant work (this strongly discourages dust-voters). Each Branch creates a new set of Voters, and a new Vote-matrix...this scales linearly.
-
-Moreover, Vote-Matrices, their Decisions, and their Markets will "fall out" of the blockchain as they are resolved and sold off. Only the currently used data structures need to be available to anyone.
-
-Clever people are thinking up new scalability solutions all the time.
-
 ### Authors Won't Make "Enough" Money Back
 
 That is primarily for the Authors to worry about, who may be playing more than one role or have complex motivations. Authors can choose not only how much they pay upfront, but also the fraction of trading volumes they receive.
@@ -128,6 +126,18 @@ Trading fees are collected from literal MSR-powered trades, but also from 'trans
 For popular 'stock market' assets, these trading volumes are measured in the trillions. Despite its numerous disadvantages, InTrade saw trading volumes in the [10's of millions USD on its more popular markets](https://www.intrade.com/v4/markets/contract/?contractId=743474). 50% of .1% of that is still $10,000.
 
 If only popular markets were authored, that would seem to be "mission accomplished".
+
+### Scalability
+
+If scalability is neither a problem [in Bitcoin](https://en.bitcoin.it/wiki/Scalability) nor in [the more-ambitious Namecoin](https://wiki.namecoin.info/index.php?title=Scalability), I have yet to discover a reason why Truthcoin would be especially subject to scalability problems. Unfortunately this is kind of a "big if" as Bitcoin appears to be having some trouble with scalability.
+
+The vote-matrix (only assembled once per Tau of each Branch) is Voter by Decisions, but both are economically constrained: Decisions are capped, and within the cap Decisions are restrained by increasing fees, and Voters have a diminishing return for constant work (this strongly discourages dust-voters). Each Branch creates a new set of Voters, and a new Vote-matrix...this scales linearly.
+
+Moreover, Vote-Matrices, their Decisions, and their Markets will "fall out" of the blockchain as they are resolved and sold off. Only the currently used data structures need to be available to anyone.
+
+Moreover, Truthcoin is different from Bitcoin in that, even with only a few hundred (rich, informed) users, the project could still have a tremendous impact on society. Most of the benefits lie in the cheap *option* to participate, which does not need to be exercised, and in simply displaying the blockchain's data. Likely, TC will have fewer users than Bitcoin. People purchase several times a day, but very rarely does any individual bet/invest/trade as often.
+
+Whatever the case may be, clever people are thinking up new scalability solutions all the time.
 
 
 ## Definitely Not a Problem

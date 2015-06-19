@@ -4,6 +4,18 @@ title: What People Are Saying
 ---
 
 
+Highlights
+---------------
+
+["I think Truthcoin may be the most important invention since Bitcoin."](http://bravenewcoin.com/news/the-era-of-prediction-markets-is-at-hand/)
+\- [**Roger Ver**](https://rogerver.com/), Bitcoin Evangelist, seed investor: [Blockchain.info](https://blockchain.info/), [The Bitcoin Foundation](http://bitcoinfoundation.org/), [Ripple](https://ripple.com/), ..., investor: [BitPay](https://bitpay.com/), [ShapeShift](https://shapeshift.io/), [Purse.io](https://purse.io/), ...
+
+
+"I'm very optimistic about the feasibility of this project."
+\-[**Andrew Poelstra**](https://www.wpsoftware.net/andrew/), author of [A Treatise on Altcoins](https://download.wpsoftware.net/bitcoin/alts.pdf), [On Stake and Consensus](https://download.wpsoftware.net/bitcoin/pos.pdf), co-author of [the Sidechains Whitepaper](http://www.blockstream.com/sidechains.pdf)
+
+
+
 In The Media
 --------------
 
@@ -16,8 +28,6 @@ In The Media
 - [Reddit Posts (via google)](https://www.google.com/search?q=site%3Areddit.com+truthcoin)
 
 - [Bitcoin Magazine](http://bitcoinmagazine.com/16748/truth-behind-truthcoin/)
-
-- [Syscoin Website](http://syscoin.org/bitcoin-2-0-the-knowledge-economy-and-the-future-of-syscoin/)
 
 
 Forums
@@ -61,6 +71,10 @@ Forums
 Academia
 -------------------
  - [On Decentralizing Prediction Markets and Order Books](http://users.encs.concordia.ca/~clark/papers/2014_weis.pdf) - I was mentioned in a **footnote** (and academic-insiders know the profound difference between footnote-citations and reference-citations).
+
+Websites
+-------------
+- [Syscoin Website](http://syscoin.org/bitcoin-2-0-the-knowledge-economy-and-the-future-of-syscoin/) "...technology like Truthcoin’s is where I think Bitcoin’s Killer App lies, and where we have been and will continue focusing our attention on over here at Syscoin."
 
 
 If you want your quote to be taken down (can't imagine why), just contact me with some kind of proof that you are the quoted person.

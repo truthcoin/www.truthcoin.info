@@ -18,11 +18,13 @@ Truthcoin has users, just like Bitcoin, but it also has employees. These employe
 
 ### How do you know that people wont claim an outcome was whatever will benefit them personally?
 
+(It would be best to consult [the whitepaper](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf) on this question, particularly the figures on pages 24-26 of Whitepaper 1.4).
+
 A parallel question would be, why wouldn't InTrade.com (a website which once provided USD prediction markets) simply steal their client's money? Why don't banks steal their client's money?
 
-The major reasons are that: [1] this would result in an overnight failure of their business, and [2] law enforcement would catch up with them (punishing the attacker for breach-of-contract, and possibly even reversing the stolen funds). 
+The major reasons are that: [1] this would result in an overnight failure of their business, and [2] law enforcement would catch up with them (punishing the attacker for breach-of-contract, and possibly even reversing the stolen funds [if it's not too late]). 
 
-It is clear that all businesses must operate for the long run (think customer service departments, or sending back a meal at a restaurant), making reason [1] enough to keep these agents in line, but [some businesses are uniquely vulnerable to short-term temptation because they not only "accept value" but they are also custodians of their customer's value](http://www.truthcoin.info/blog/limits-of-blockchain/), necessitating the extra enforcement implied by [2].
+It is clear that all businesses must operate for the long run (think customer service departments, or "sending back a meal" at a restaurant), making reason [1] enough to keep these agents in line. However,[some businesses are uniquely vulnerable to short-term temptation because they not only "accept value" but they are also *custodians* of their customer's value](http://www.truthcoin.info/blog/limits-of-blockchain/), necessitating the extra enforcement implied by [2].
 
 #### [1] Reputational Capital
 
@@ -34,20 +36,6 @@ It is a common misconception that the SVD-resolution algorithm is the main innov
 
 
 #### The SVD-Resolution Algorithm
-
-To discourage coordinated-theft, theft-attempts are discovered and punished, under the following assumptions:
-
-1. People prefer having more money to having less money.
-2. One of the following:
-	1. One of the following ("large scale attack"):
-		1. No attacker perfectly-controls >Phi% of any Branch (Phi is between 50% and 100%, and might be 65%).
-		2. Miners monitor all Ballots on all Branches, and veto any which contain mis-resolved Decisions (this requires a very small amount of labor, but nonetheless I doubt that miners will put in even this small effort).
-	2. One of the following ("Audit"):
-		1. No attacker controls >(1-Phi) of any Branch (ie, "no one has enough to force an audit"). The false votes cast to trigger the audit are discouraged in precisely the same way that they are in SVD in general, so this is difficult to do without a single individual personally owning such a quantity.
-		2. No one controls more than half of the total BTC wealth on the Sidechain (ie, "no one has enough to control the audit"). Gaming the audit is actually quite difficult because it requires wealth to be used in the audit as well as in the attack, and new wealth can be risklessly brought in from the main Bitcoin chain to interfere with the audit in either direction.
-	3. Asymmetric Tau-ranging and cross-Branch-insurance (to be clarified in Whitepaper 1.4) are appropriately maintained. 
-
-
 
 
 Many of the details of this algorithm are in [this presentation](http://www.truthcoin.info/presentations/truthcoin-outcomes.pdf) and [the whitepaper](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf).
@@ -118,13 +106,18 @@ This concern has only been voiced for scaled claims, not binaries (which probabl
 ### If you built something like this, what use would people get out of it? Most people/organizations aren’t interested in improving their forecast accuracy through PMs. Who would pay to create (let alone subsidize) these markets?
 Excellent question. Firstly, Authors (who bear the economic cost of Market-Creation) are rewarded with a slice of transaction volume. Recreational speculation is likely in markets covering sports and politics, arbitrage transactions are likely in markets tracking a price index, and in many cases, individuals will just disagree with each other passionately enough to begin wagering (global warming, gun control, etc.).  
 
-Secondly, the [public might just pay for publically useful information]( http://www.themoneyillusion.com/?p=15446).  
+Secondly, the [public might just pay for publicly useful information]( http://www.themoneyillusion.com/?p=15446).  
 
 Thirdly, although the information revealed by a PM is public, the effect of that revelation may be privately beneficial. For example, consider [Robin Hanson’s Wish]( http://www.overcomingbias.com/2008/04/if-i-had-a-mill.html), where conditional PMs are introduced to advise firing an incompetent yet entrenched CEO. With 1000 USD per firm to kickstart this idea, we might then collect data on firm/BoD/investor response. However, if we did not have 1000 USD per firm ourselves (we don’t), is there not someone who would benefit from the creation of this information? Of course there is: the second-in-line for CEO! CEOs are typically paid so much that their salary can be twice that of even the CFO. 1000 bucks is nothing for a decent shot at such a nice raise, to say nothing of the competitive spirit which overwhelms those who seek the top job. Even *better*, individuals would not try this if they suspected their CEO of actually being quite competent. So there is actually an economically-efficient self-selection in the creation of these markets: when unneeded, they are not created. Better still, competent CEOs may themselves create these markets to protect their job (although I doubt this type of activity will happen for some time).  
 
 Fourth, individuals could collaborate via assurance contract to efficiently pool their info-demand. In fact, in [my applications paper](https://github.com/psztorc/Truthcoin/raw/master/docs/3_PM_Applications.pdf), I describe a way of using PMs to create extremely incentive-powerful Trustless Dominant Assurance Contracts. To my knowledge nothing similar has ever been conceived.
 
 ### If PMs can be used to finance Public Goods, can they also be used to finance Public Bads (for example, to assassinate someone)?
+
+This question has grown in popularity to the degree that it warranted inclusion in [the applications paper](https://github.com/psztorc/Truthcoin/raw/master/docs/3_PM_Applications.pdf) (Appendix 1).
+
+<!--
+
 I've thought about this in the past and never considered it to be realistic problem for the following reasons:  
 
 1. Firstly, the branches (which specialize by info-area) can claim in advance that they will vote .5 on anything they find to be violent or immoral, meaning the market fails to resolve into a State, and anyone who paid to list the Decision/Market gets less (probably zero) money. The branch has effectively 'specialized' into 'non-violent markets'.
@@ -158,6 +151,8 @@ I've thought about this in the past and never considered it to be realistic prob
 
 Other thoughts: [http://www.sirc.org/articles/policy_analysis.shtml](http://www.sirc.org/articles/policy_analysis.shtml)
 
+-->
+
 ### Can't PMs be driven by people who are oblivious to how little they know?
 Yes, at first. However, these people will quickly start losing large quantities of money, and thereby lose their ability to influence the market. Moreover, the existence of these ignorant "sheep" will attract "wolves" who profit by correcting the mistakes of the sheep.
 
@@ -187,7 +182,7 @@ Three reasons:
 3. There’s really no benefit to doing so (see the horse racing question above).
 
 ### Do strategic decisions change if one node started publishing (potentially biased) votes immediately upon noticing them? One could publish 10% attack-votes, and the 11th % user would be tempted to conform, leading to a cascading failure.
-Excellent question. Ballots are encrypted, and contain a new destination (public key), for this reason. Votes are cast in one period, and unsealed in a later period (during which no new votes are cast). Because private keys are required to decrypt, it is always impossible to prove that you've voted a certain way (and recall that you have an incentive to vote honestly yet say that you are voting dishonestly).
+Ballots are encrypted, and contain a new destination (public key), for this reason. Votes are cast in one period, and unsealed in a later period (during which no new votes are cast). Because private keys are required to decrypt, it is always impossible to prove that you've voted a certain way (and recall that you have an incentive to vote honestly yet say that you are voting dishonestly).
 
 
 ### Is SVD computationally complex, to continue doing on such a large scale and frequency?
