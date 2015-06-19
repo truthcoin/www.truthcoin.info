@@ -7,9 +7,10 @@ title: What People Are Saying
 Highlights
 ---------------
 
-["I think Truthcoin may be the most important invention since Bitcoin."](http://bravenewcoin.com/news/the-era-of-prediction-markets-is-at-hand/)  
+"Truthcoin is the most important invention since Bitcoin."  
 
-\- [**Roger Ver**](https://rogerver.com/), Bitcoin Evangelist, seed investor: [Blockchain.info](https://blockchain.info/), [The Bitcoin Foundation](http://bitcoinfoundation.org/), [Ripple](https://ripple.com/), ..., investor: [BitPay](https://bitpay.com/), [ShapeShift](https://shapeshift.io/), [Purse.io](https://purse.io/), ...
+\- [**Roger Ver**](https://rogerver.com/), Bitcoin Evangelist, seed investor: [Blockchain.info](https://blockchain.info/), [The Bitcoin Foundation](http://bitcoinfoundation.org/), [Ripple](https://ripple.com/), ..., investor: [BitPay](https://bitpay.com/), [ShapeShift](https://shapeshift.io/), [Purse.io](https://purse.io/), ...  
+
 
 
 "I'm very optimistic about the feasibility of this project."  
