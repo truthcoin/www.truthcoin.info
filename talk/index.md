@@ -7,7 +7,7 @@ title: What People Are Saying
 Highlights
 ---------------
 
-> Truthcoin is the most important invention since Bitcoin.  
+> Truthcoin may be the most important invention since Bitcoin.  
 
 \- [**Roger Ver**](https://rogerver.com/), Bitcoin Evangelist, seed investor: [Blockchain.info](https://blockchain.info/), [The Bitcoin Foundation](http://bitcoinfoundation.org/), [Ripple](https://ripple.com/), ..., investor: [BitPay](https://bitpay.com/), [ShapeShift](https://shapeshift.io/), [Purse.io](https://purse.io/), ...  
 
