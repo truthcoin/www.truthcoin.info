@@ -285,7 +285,7 @@ Meanwhile, the advising for Pythia, recently renamed "Augur", was not going very
 
 Sometimes they would ask me questions, to which I felt the answer was, with a little work, knowable. So, instead of answering immediately, I would wait to see if they would get the answer for themselves. I did this three times, and in each of the three times Augur failed to *ever* produce any answer at all. By this I mean that they have been thinking and wondering about answers to important questions for *months*. One of these questions is **literally** a matter of life and death!
 
-People would say cringeworthy things like “I know what *that* means, but can you explain how *you* are using it in this situation.” Someone there, believed that use of a specific type of mathematical formula could “produce a profit” for users. When I explained that this was impossible, and that it would be highly embarrassing (for me, as an associated adviser) for anyone at Augur to suggest that it *were* possible in public, they told me to “Fuck off” and stop hanging around in their Slack chat, from which I was eventually banned.
+People would say cringeworthy things like “I know what *that* means, but can you explain how *you* are using it in this situation.” Someone there, believed that use of a specific type of mathematical formula could “produce a profit” for users. When I explained that this was impossible, and that it would be highly embarrassing (for me, as an associated adviser) for anyone at Augur to suggest that it *were* possible in public, they told me to “Fuck off” and stop hanging around in their Slack chat, from which I was recently banned.
 
 #### Spring 2015 -- Derailment
 
