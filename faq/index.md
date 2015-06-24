@@ -281,7 +281,7 @@ I had, in fact, been contacted by Blockstream at around the same time (winter 20
 
 #### Winter 2014-2015 -- Augur
 
-Meanwhile, the advising for Pythia, recently renamed "Augur", was not going very well. I would spend days (weekends, luckily the winter was dark and cold) on pieces of writing, and this work would be ignored. My scare (free) time would be consumed belaboring points that I had made many times before. Once, someone said “You should put a list of changes at the end of documents in between versions.” The very document he was talking about *had* a list of changes, at the end of the document.
+Meanwhile, the advising for Pythia, recently renamed "Augur", was not going very well. I would spend days (weekends, luckily the winter was dark and cold) on pieces of writing, and this work would be ignored. My scarce (free) time would be consumed belaboring points that I had made many times before. Once, someone said “You should put a list of changes at the end of documents in between versions.” The very document he was talking about *had* a list of changes, at the end of the document.
 
 Sometimes they would ask me questions, to which I felt the answer was, with a little work, knowable. So, instead of answering immediately, I would wait to see if they would get the answer for themselves. I did this three times, and in each of the three times Augur failed to *ever* produce any answer at all. By this I mean that they have been thinking and wondering about answers to important questions for *months*. One of these questions is **literally** a matter of life and death!
 
