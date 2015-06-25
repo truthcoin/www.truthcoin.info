@@ -6,13 +6,17 @@ title: Frequently Asked Questions
 
 [Linkable/Pullable GitHub Version](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/faq/index.md)
 
+Note: this FAQ is a **literal** FAQ. I did not write it to be an organized, readable document. The questions which are here, are here because they were asked very frequently. I copied each question here (so that it might be found with ctrl + f or search engine) and wrote up a reference answer.
+
+If your question is missing, please email it to me or use a pull request (link above).
+
 ## What's Going On?
 
 Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send an receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
 
 Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
 
-Truthcoin has users, just like Bitcoin, but it also has employees. These employees work for "Branches" (each Branch resembles a new InTrade), and vote on "Decisions" (election outcomes or price-feeds), which resolve "Markets" (the trading-arenas defined by one or more Decision). Users are free to create any Decisions or Markets they like, although they compete economically for scare "Decision slots".
+Truthcoin has users, just like Bitcoin, but it also has employees. These employees work for "Branches" (each Branch resembles a new InTrade), and vote on "Decisions" (election outcomes or price-feeds), which resolve "Markets" (the trading-arenas defined by one or more Decision). Users are free to create any Decisions or Markets they like, although they compete economically for scarce "Decision slots".
 
 ## Incentives
 
@@ -250,22 +254,25 @@ If two or more people could do it, that would be fantastic!
 
 ## Augur
 
-tl;dr I "created" Augur to build Truthcoin. I "left" (to try again) when Augur stopped building Truthcoin. Quotes because I was never fully committed to them in the first place.
+**tl;dr** I "created" Augur to build Truthcoin. I "left" (to try again) when Augur stopped building Truthcoin. I use quotes, because even the words as written falsely imply that Augur was relevant enough to Truthcoin to be worth managing.
+
+I had not planned to write any of this. I've written it now, simply because I've been "frequently asked" these very "questions" following [the Bitcoin Magazine article about Truthcoin](https://bitcoinmagazine.com/20971/roger-ver-backing-prediction-market-sidechain-may-important-invention-since-bitcoin/). Ridiculous though this piece of writing is, it is my attempt to directly and honestly answer these questions.
+
+Secondly, my associates persuaded me that, given that Augur was going to raise money from the public (featuring my name and my work prominently on their website), I in fact had an ethical *duty* to disclose my true thoughts on the organization to any who might consider investing.
 
 ### Who are the Augur Team?
 
-
 #### April 2014 -- Dyffy
 
-The Augur team was originally a social Altcoin betting-website startup called "Dyffy", funded exclusively by Joe Costello ([nearly the CEO of Apple](http://www.businessinsider.com/steve-jobs-joe-costello-interview-for-apple-ceo-2014-9)). In April 2014, the then-CEO, Matt Liston, noticed my newly published Truthcoin whitepaper, and asked me to take a look at their website. I gave them the same advice that I gave the other startups that contacted me: that the Bitcoin community wouldn't bite at their idea because it required  depositing (untraceable, unreversable) e-cash with them, a single point of failure, and a single source of the bet-resolution (the Altcoin VWAP).
+The Augur team was originally a social Altcoin betting-website startup called "Dyffy", funded exclusively by Joe Costello ([nearly the CEO of Apple](http://www.businessinsider.com/steve-jobs-joe-costello-interview-for-apple-ceo-2014-9)). In April 2014, the then-CEO, Matt Liston, noticed my newly published Truthcoin whitepaper, and asked me to take a look at their website. I gave them the same advice that I gave the other startups that contacted me: that the Bitcoin community wouldn't want to deposit (untraceable, irreversible) e-cash with them, a single point of failure, and a single source of the bet-resolution.
 
-In August 2014, Matt contacted me again. Their original idea was not gaining traction, they had meanwhile launched an altcoin ("Roxcoin") which had also failed to gain traction, and so he wanted to talk to me about pivoting to Truthcoin. I told him the same thing I told other startups that contacted me: that Truthcoin was a completely open proposal for anyone to work on. Matt wanted to officially hire me as an adviser. I felt that this would imply that I had uniquely endorsed Dyffy. I was not ready to do this to any of the other groups (to whom I made the same promise of impartiality), especially because Dyffy's team of web developers was so unlike what the project required (C++ programmer(s) familiar with Bitcoin) so I refused, instead advising Dyffy (and others) for free for several months.
+In August 2014, Matt contacted me again. Their original idea was not gaining traction, they had meanwhile launched an altcoin ("Roxcoin") which had also failed to gain traction, and so he wanted to talk to me about pivoting to Truthcoin. I told him the same thing I told other startups that contacted me: that Truthcoin was a completely open proposal for anyone to work on. Matt wanted to officially hire me as an adviser. I felt that this would imply that I had uniquely endorsed Dyffy. I was not ready to do this to any of the other groups (to whom I made the same promise of impartiality), particularly because Dyffy's team of web developers was so unlike what the project required (C++ programmer(s) familiar with Bitcoin) so I refused, instead advising Dyffy (and others) for free for several months.
 
 This involved some sacrifice on my part. I already had a full-time job I loved, at the Yale Econ department, to which I commuted every day (like every other normal person with a non-tech job). Occasionally, I would work an additional 10-20 hours a week, nights and weekends, completely for free (and so that other people could have jobs). My friends and family were not happy, as I was chronically late for everything.
 
 #### Autumn 2014 -- Pythia
 
-The advising with Dyffy did not go very well. Dyffy (now renamed "Pythia" after the Oracle of Delphi), was running out of money and had to spend considerable time seeking new sources of capital. Again I personally made many introductions, as investor interest was very high following my summer Let's Talk Bitcoin interview. Most of these investors sang the same song, of prohibitive regulatory concerns, and at the time I would not have considered leaving my job to work on Truthcoin. Although I introduced 3 or 4 investors  (some of which were early investors in many of today's most beloved and/or infamous Bitcoin/blockchain services and websites) to Pythia, their reaction was overwhelmingly negative. Many of these investors were concerned about my lack of personal involvement, and cited a wide disparity between the quality of my work and Pythia's lack of relevant experience.
+The advising with Dyffy did not go very well. Dyffy (now renamed "Pythia" after the Oracle of Delphi), was running out of money and had to spend considerable time seeking new sources of capital. Investor interest was very high following my summer Let's Talk Bitcoin interview, so I was able to personally made many introductions. Most of these investors sang the same song, of prohibitive regulatory concerns, and at the time I would not have considered leaving my job to work on Truthcoin (hoping instead that some other group would absorb the legal costs and bring my ideas into the world). Although I introduced 3 or 4 investors to Pythia, their reaction was overwhelmingly negative. Many of these investors were concerned about my lack of personal involvement, and cited a wide disparity between the quality of my work and Pythia's lack of relevant experience.
 
 I spent a considerable time making slides for anyone pitching Truthcoin to use (some can be seen on the [website](http://www.truthcoin.info/presentations/)). Two sets I worked on quickly, so that they would be ready in time for Pythia's presentation to Tim Draper's DraperU, but due to some kind of miscommunication neither the slides nor their (vastly superior, I thought) content was used. I had already mentioned that I would be unable to attend the pitch in person (to help) as I was attending a wedding (on the East Coast, my Coast of choice). Pythia left DraperU empty handed.
 
@@ -285,7 +292,7 @@ Meanwhile, the advising for Pythia, recently renamed "Augur", was not going very
 
 On occasion I would be asked questions, to which I felt the answer was, with a little work, knowable. So, instead of answering immediately, I would wait to see if they would get the answer for themselves. I did this three times, and in each of the three times Augur failed to *ever* produce any answer at all. By this I mean that they have been thinking and wondering about answers to important questions for *months*. One of these questions is **literally** a matter of life and death!
 
-People would say cringeworthy things like “I know what *that* means, but can you explain how *you* are using it in this situation.” Someone there, believed that use of a specific type of mathematical formula could “produce a profit” for users. When I explained that this was impossible, and that it would be highly embarrassing (for me, as an associated adviser) for anyone at Augur to suggest that it *were* possible in public, they told me to “Fuck off” and stop hanging around in their Slack chat (from which I was recently banned).
+People would say cringeworthy things like “I know what *that* means, but can you explain how *you* are using it in this situation.” Someone there, believed that use of a specific type of mathematical formula could “produce a profit” for users. When I explained that this was impossible, and that it would be highly embarrassing (for me, as an associated adviser) for anyone at Augur to suggest that it *were* possible in public, they told me to “F*ck off” and stop hanging around in their Slack chat (from which I was recently banned).
 
 #### Spring 2015 -- Derailment
 
@@ -293,7 +300,7 @@ Without me around to constantly put them back on course, the new leader Jack wen
 
 Fortunately, one of the investors who had previously met and rejected the Augur team brought the Truthcoin idea to Roger Ver. To my immense relief and excitement, Roger contacted me to inquire about his ability to assist, which, as a non-US citizen or resident, was very great. I put him in touch with one of the most promising programmers, who had been working on Truthcoin in the past, and after getting an email from Roger he jumped right back to work.
 
-The three of us wanted to keep the work as private as possible, so that the programmer and I could both [1] to avoid any unwanted attention, but also [2] to iron out the details of the work (in an effort to avoid struggles like the current blocksize debate).
+The three of us wanted to keep the work as private as possible, so that the programmer and I could not only [1] avoid any unwanted attention, but also [2] iron out the details of the work (in an effort to avoid struggles like the current blocksize debate).
 
 Unfortunately, Augur was planning a crowdsale and many of my supporters convinced me that I had a duty to come forward and at least inform potential Augur investors that my faith in their version was low, so low that I was actively working on a competing version. Neither Roger, nor I, nor the programmer were happy about this, but we eventually did it anyway.
 
@@ -319,16 +326,15 @@ Put simply: the number of changes must be *minimized*. By deciding to start from
 
 ##### The Needs of Newborn Children
 
-
 The second fatal problem with failing to fork Bitcoin Core (as I demanded), is that **software code takes more effort to read than it does to write**. Truthcoin will not exist until it is *both written and read*. One may think that merely writing the code, and open sourcing it, would be enough. This is a delusion. Writing the code is barely scratching the surface of the total amount of man hours inherent to "Truthcoin Major", the project! Those qualified to review the code are few, their time is limited and their options are many. Getting an ACK from these individuals is a task that is itself comparable to the writing of the entire 0.1 alpha. Forking Bitcoin Core allows these individuals to trace, conceptually, which edits were made and why. The process will *still* be excessively burdensome. But, for from-scratch code, the process will be *nearly impossible*.
 
-Even if the new intern really *is* world-class, no one will trust him with anything important until they get to know him (as they shouldn't).
+Even if the new intern really *is* world-class, no one will trust him (nor should they) with anything important until they get to know him.
 
 #### Ethereum Happens to Be Incompatible with Truthcoin
 
 In particular, the selection of Ethereum is an extraordinary risk. At best, it is a surrender of parts of the code to someone else. In this case, the Augur team literally *cannot* guarantee the operation of their software, without themselves auditing all of Ethereum (although in this monumental task, the Eth community can -for some features- [work together](https://en.wikipedia.org/wiki/Diffusion_of_responsibility) on a continuous search for problems). 
 
-It gets much worse, of course. Ethereum may make changes which make it incompatible with Truthcoin. At that point Augur would either need to compromise Truthcoin's design, or fork Ethereum and support/maintain it privately from then on. It is my belief that the NPV of the effective costs of doing this would be at least hundreds of thousands of dollars.
+It gets much worse, of course. Ethereum may make changes which make it incompatible with Truthcoin. At that point Augur would either need to compromise Truthcoin's design, or fork Ethereum and support/maintain it privately from then on. It is my belief that the negative NPV of the effective costs of doing this would be at least hundreds of thousands of dollars. Moreover, the fork of Ethereum would surely destabilize the price of "Ethers" and "gas".
 
 It so happens that, as it is, Truthcoin **already** requires at least one severe change to be made to *even a hypothetical version of Ethereum which exists, is stable, and runs without discovering any new bugs or problems*. To summarize quickly, in Ethereum (unlike with merged-mined sidechains), it is trivial to build "parasite contracts" which steal the labor done by Truthcoin's Voters without paying for it. By doing this, these parasite contracts can then undercut the fees of the Truthcoin protocol. In this case, one of Ethereum's most beloved features, that the 'contracts' can reference and build on each other, is revealed to be breathtakingly restrictive. It implies that nothing built on Ethereum (as currently designed) will ever be able to pay anyone for their labor (for the inputs that users type into Ethereum). For any labor to enter Ethereum, this contract-reference feature would have to be disabled or restricted.
 
@@ -338,7 +344,7 @@ That's just the beginning of my long list of technical concerns with Ethereum.
 
 Still, to this very day, no one can produce for me a [final good](https://en.wikipedia.org/wiki/Final_good) that someone would buy with Ethereum, let alone one that wouldn't be out-competed by a human being using TOR, let alone one that would justify X00 hours of skilled developer labor. With nearly no consumer demand whatsoever (and how does this demand translate to revenue, exactly?), and the team already having spent the overwhelming majority of their multi-million dollar crowdsale cash infusion, it is likely that the entire project will be abandoned altogether.
 
-Perhaps Ethereum will succeed, in the end. But most new ideas are bad, most new projects fail, and Eth is right on schedule for both.
+Perhaps Ethereum will succeed, in the end. But most new ideas are bad, most new projects fail, and Eth is right on schedule for both. Again, I wouldn't mention this at all, except for the fact that it directly affects me.
 
 
 #### Eternal September
@@ -351,25 +357,47 @@ So the code is likely to be useless, I'm afraid.
 
 ### But their website lists all of these amazing people as advisers and commentators...
 
-I myself was listed as an adviser (until very recently), and Roger Ver was front-paged with pro-Prediction-Market quotations. This was despite our  unambiguous disapproval of Augur.
+I myself was listed as an adviser (until very recently), and Roger Ver was front-paged with pro-Prediction-Market quotations. This was despite our unambiguous disapproval of Augur.
 
 I happen to know many of the "advisers" personally, some for many years. They are simply nice guys (like me), who were asked "Do you mind if we list you as an adviser?" and said "Yes" (as I did), to encourage Prediction Markets in general. The clever assembly of these (ultimately hollow) pieces is, so I now understand, part of the Silicon Valley "marketing" machine (what we in quaint New Haven would call "a scam").
 
 
-### This is awfully dramatic, isn't it?
+### Isn't it extremely unprofessional to write all of this?
 
-Well, I am surprised it has come to this. I thought Augur would just fold, and that a few of the full time people there would just leave and join Roger's project, but instead they have decided to take an adversarial attitude. This is probably related to our delay in coming forward. It is unfortunate that my desire to do what was best for the project resulted in such a spectacle.
+I honestly don't know. What do you think?
+
+On their website, Augur used (with permission) my name, my photograph, my written research, my software code, my figures, my professional affiliations, but most of all, my **idea**. When asked in interviews and at conferences  (publicly recorded) about how Augur solved the (yet unsolved) "Oracle problem", they told audience members that "a genius from Yale" who "sits on our advisory board" had "figured all of this out" and referred people to my work, and gave people my name and contact information (knowing that I would answer technical questions on their behalf for free).
+
+So, given that they then *intended to raise money from the public*, should I not publish my thoughts, in a bottom corner of my own website where they can at least be found? Many have written to me claiming I, *despite what discomfort I might prefer to avoid*, have an **ethical responsibility** to publish my unvarnished thoughts in full (and more). It could even be described as **fraud**, I was advised, if I *in any way* benefited from Augur's crowdsale while *"withholding"* relevant information from the public.
+
+I have, of course, been trying to keep the public informed. For example, Augur always [pitched themselves](http://www.augur.net/blog/augur-answers) as the "only" decentralized prediction market platform...which was always a direct lie, one which I felt responsible for correcting, even though this was an incredibly time consuming and  ineffective game of whack-a-mole.
+
+On top of that, I feel that these answers *are* my honest answers to questions I am frequently asked. Again, I did not write this FAQ-section (nor would I ever) until I was "asked" about it "frequently" following [the Bitcoin Magazine article about Truthcoin](https://bitcoinmagazine.com/20971/roger-ver-backing-prediction-market-sidechain-may-important-invention-since-bitcoin/). I also feel that, if Augur fails, technically, I will be (fairly or otherwise) blamed and discredited as a result. If Augur's activities didn't affect me, I would probably be fine with them.
+
+Of course, new code isn't *always* worse than old code. It depends *who* develops it and how it is designed/tested, hence my comments. Is it appropriate for me to use the FAQ to criticize Ethereum for running out of money? I don't know...how would you react if someone left your children in the care of a complete stranger? These are my honest feelings, about which you, in the audience, have asked.
+
+### Wouldn't it be more helpful to comment on the technical merits alone?
+
+There were indeed many such technical discussions made privately over the last several months. Those relevant disagreements no longer persist because I, in the past, successfully prevented Augur from introducing technical problems.
+
+However, as I mentioned, I eventually stopped doing this privately, which then pushed *some* of these conversations into the public. One major example is [here]([culminating in ideas that cause Truthcoin to break](http://www.reddit.com/r/Bitcoin/comments/36o2dp/augur_how_a_decentralized_prediction_market_works/crfw9v4), three or four major examples at once are contained [here](http://forum.truthcoin.info/index.php/topic,173.msg899.html#msg899). Minor examples are hidden all over the place, one of them [here](http://www.augur.net/blog/augur-answers#comment-1869994766).
+
+In all cases I was eventually contacted with a "You were right (again)."
+
+Notice that, had I not discontinued the private technical advice (the more "professional" advice-giving), I would not have these public examples to turn to, and would be even less able to answer *this* question. Damned if you do, damned if you don't.
+
+So it was with our decision to withhold Roger's project. It is unfortunate that I, in my attempt to do justice to my ideas and to the Bitcoin community, contributed to such a spectacle.
 
 
 ## Other
 
-###Mining / Coin Distribution ?
+### Mining / Coin Distribution ?
 
 Any game-theorist worth his salt knows Pareto/Kaldor-Hicks improvements. Cryptocurrencies have the **beautiful** ability to preserve ownership by taking snapshots of the unspent-outputs set. I see no good reason not to do this for the currency-tokens, just as I see no good reason not to use Bitcoin’s proof-of-work mining scheme. I’ve never seen a proof-of-stake proposal that achieved Kaldor-Hicks, and in fact my guess is that is it this challenge (KH) that primarily motivated Satoshi to choose his mining scheme (which is Pareto).
 The reputation-tokens are more complex, but the obvious choice is to distribute them to individuals proportional to what they sacrificed to create the software.
 
 
-###Have you seen a similar effort from some CS guys at princeton? Wonder if they're solving the same problems...
+### Have you seen a similar effort from some CS guys at princeton? Wonder if they're solving the same problems...
 I had previously heard about the [Princeton guys](http://dailyprincetonian.com/news/2014/01/u-researchers-develop-bitcoin-prediction-market/) but I never heard any news from them and had forgotten about it. Would be great to collaborate, but I had already finished most of my ideas when I found that article. To date I have heard nothing from them about their project. As always: Nullius in Verba.  
 Update: The long awaited [paper](http://users.encs.concordia.ca/~clark/papers/2014_weis.pdf) did actually come out. Unfortunately, we seem to disagree on the true nature of the problem of designing a decentralized prediction market. Namely, in Section 5.3 the paper assumes Prompt 1 above (in “Why don’t you…”), which I view as unacceptable (see above). The paper does mention two ideas, ‘PredCo’ (which solves the discount rate problem), and the Keynesian Beauty Contest, which, when combined, more closely resemble what I had in mind. The second major proposal in the paper is for an order book system. Instead, I chose to use market scoring rules, for a variety of reasons, one of which is that operating a MSR is extraordinarily similar to sending a normal Bitcoin transaction. The paper is not truly a proposal for anything, instead a sort of menu of different ideas and avenues for decentralizing prediction markets. A novel is easier to assess than a dictionary, so it difficult for me to critique the paper more directly than this.
 
