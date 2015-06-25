@@ -366,7 +366,7 @@ I happen to know many of the "advisers" personally, some for many years. They ar
 
 I honestly don't know. What do you think?
 
-On their website, Augur used (with permission) my name, my photograph, my written research, my software code, my figures, my professional affiliations, but most of all, my **idea**. When asked in interviews and at conferences  (publicly recorded) about how Augur solved the (yet unsolved) "Oracle problem", they told audience members that "a genius from Yale" who "sits on our advisory board" had "figured all of this out" and referred people to my work, and gave people my name and contact information (knowing that I would answer technical questions on their behalf for free).
+On their website, Augur used (with permission) my name, my photograph, my written research, my software code, my figures, my professional affiliations, but most of all, my **idea**. When asked in interviews and at conferences  (publicly recorded) about how Augur solved the (yet unsolved) "Oracle problem", they told audience members that "a genius from Yale" who "sits on our advisory board" had "figured all of this out" and referred people to my work, and gave people my name and contact information (knowing that I would answer technical questions on their behalf for free). I was in contact with the members of their organization since before the organization existed.
 
 So, given that they then *intended to raise money from the public*, should I not publish my thoughts, in a bottom corner of my own website where they can at least be found? Many have written to me claiming I, *despite what discomfort I might prefer to avoid*, have an **ethical responsibility** to publish my unvarnished thoughts in full (and more). It could even be described as **fraud**, I was advised, if I *in any way* benefited from Augur's crowdsale while *"withholding"* relevant information from the public.
 
@@ -380,7 +380,7 @@ Of course, new code isn't *always* worse than old code. It depends *who* develop
 
 There were indeed many such technical discussions made privately over the last several months. Those relevant disagreements no longer persist because I, in the past, successfully prevented Augur from introducing technical problems.
 
-However, as I mentioned, I eventually stopped doing this privately, which then pushed *some* of these conversations into the public. One major example is [here]([culminating in ideas that cause Truthcoin to break](http://www.reddit.com/r/Bitcoin/comments/36o2dp/augur_how_a_decentralized_prediction_market_works/crfw9v4), three or four major examples at once are contained [here](http://forum.truthcoin.info/index.php/topic,173.msg899.html#msg899). Minor examples are hidden all over the place, one of them [here](http://www.augur.net/blog/augur-answers#comment-1869994766).
+However, as I mentioned, I eventually stopped doing this privately, which then pushed *some* of these conversations into the public. One major example is [here](http://www.reddit.com/r/Bitcoin/comments/36o2dp/augur_how_a_decentralized_prediction_market_works/crfw9v4), three or four major examples at once are contained [here](http://forum.truthcoin.info/index.php/topic,173.msg899.html#msg899). Minor examples are hidden all over the place, one of them [here](http://www.augur.net/blog/augur-answers#comment-1869994766).
 
 In all cases I was eventually contacted with a "You were right (again)."
 
