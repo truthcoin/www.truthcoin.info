@@ -10,15 +10,60 @@ Note: this FAQ is a **literal** FAQ. I did not write it to be an organized, read
 
 If your question is missing, please email it to me or use a pull request (link above).
 
-## What's Going On?
+## Basics
+
+### What's going on?
 
 Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send an receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
 
 Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
 
-Truthcoin has users, just like Bitcoin, but it also has employees. These employees work for "Branches" (each Branch resembles a new InTrade), and vote on "Decisions" (election outcomes or price-feeds), which resolve "Markets" (the trading-arenas defined by one or more Decision). Users are free to create any Decisions or Markets they like, although they compete economically for scarce "Decision slots".
+Truthcoin has users, just like Bitcoin, but it also has "employees". These employees work for "Branches" (each Branch resembles a new InTrade), and vote on "Decisions" (election outcomes or price-feeds), which resolve "Markets" (the trading-arenas defined by one or more Decision). Users are free to create any Decisions or Markets they like, although they compete economically for scarce "Decision slots".
+
+### Why did you name it "Truthcoin"? Doesn't that make it sound like an altcoin?
+
+Back when I choose the name (in 2013), that was the naming convention: Namecoin, Peercoin, and Freicoin all existed. Back then, all of the new coins (even Litecoin) had some logical purpose and intended function, so it wasn't possible to confuse a legitimate project with a copycoin. As the Bitcoin price soared, it invited a tidal wave of endless -coin projects.
+
+### If this project is so much better than Ethereum, Bitshares, ..., then why haven't I heard of it?
+
+Firstly, I do not do any promotion / "active marketing". I feel that "talking" about Truthcoin goes against the spirit of the project: that talk should be ignored (in favor of action). I have more important work to do than to deal with the (socially dysfunctional, in my view) Bitcoin community.
+
+Secondly, other projects don't already have funding from reputable investors, and need to have crowdsales. These crowdsales grant a large number of people "skin in the game", at which point they become slavishly devoted to promoting the project. My project requires no money, and uses Bitcoin (whether the Bitcoin community, or any other community, likes it or not). Once the Bitcoin community learns of Truthcoin (which might be a while, as they've been so overwhelmed with terrible ideas named "-coin") I'm confident that they'll be promoting "their" new project as much as they promote Bitcoin. 
+
+### You really think this project is better than all of the other Bitcoin 2.0 projects?
+
+Yes I do. Like Bitcoin, this is the only project which aims to solve an actual problem in computer science (P2P Oracle), it is the only project which had economically viable non-blockchain implementations, which were later censored (InTrade.com), it avoids the deadly CS sin of rewriting code from scratch, and imports Bitcoin's (crucial) monetary network effects. Roger Ver hired the most skeptical and technically knowledgeable people in the area (you know their names) to review the design. So far, no design flaws have been brought forward by these reviewers.
+
+While other projects employ million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is costing the Bitcoin community nothing, and we've already nearly finished.
+
+## Motivation
+
+### What's in it for you? And what's in it for Roger Ver?
+
+Given the frequent occurrence of scams in this community, even more skepticism than usual is warranted. It is true that there may be an auction of the initial "VoteCoins", which might raise a nice amount of money for whoever administrates the auction (probably not me). However, VoteCoins are themselves not required to use Truthcoin (only to "work" for it), and I would imagine that many of those most excited about Truthcoin would never own any VoteCoins in their lives. The New York Stock Exchange (NYSE) is itself owned by Intercontinental Exchange, which is actually listed on the NYSE (as NYSE:ICE). Thousands of people trade in the NYSE every day without owning any shares of ICE, and millions of people around the world benefit from the operation of the NYSE without even being aware of ICE's existence.
+
+I don't believe that either of us are motivated primarily by this potential financial return. I can only speak for myself: I feel I owe a debt to society for the comfortable life I have enjoyed so far (particularly where the internet and FOSS are concerned), and I feel society must change as the result of injustices dealt to me and my interests in the past.
+
+### I hear you are using sidechains. Isn't Blockstream an evil syndicate, destroying everything beautiful in the world in their march to unearth profits for their corporate masters? I heard somewhere that Adam Back is literally Adolf Hitler.
+
+[Next!](https://www.youtube.com/watch?v=iD-mVUFqxh0&t=5m22s)
+
+OK, first of all you can use Blockstream's code / research, even if you have nothing to do with their organization.
+
+Secondly, this criticism is of the form: "has corporate job" therefore "everything they say/do is suspect". In rhetoric this is known as Poisoning the Well, a brutally unfair 1-hit KO which can't be blocked or countered (the Avada Kedavra of debate) except by an un-poisoned friend or by one's (commonly known) past reputation. One of the most ridiculous things about this fallacy is its symmetry: by the logic submitted, anyone criticizing Blockstream would have to *prove* that they (the critic) do not themselves work for a corporation, or else the critic should be completely ignored (according to them).
+
+Why won't anyone explain how those investors plan to get a return on their $21 million investment? Because it can't be spoken aloud. You'll have to figure out yourself, like I did, Good luck!
+
+Perhaps Blockstream is evil, or biased (clearly, like everyone, they prefer their own work to that of others). But no evidence of any wrongdoing has been brought to me.
+
 
 ## Incentives
+
+### Why would the miners secure this sidechain?
+
+From the Miner's point of view, their choice to secure Truthcoin results in more tx-fees (BTC fees) for them, at a cost of zero (once configured, merge-mining has marginal operating cost of zero). It is a no-brainer.
+
+They are also unlikely to attack Truthcoin, for reasons similar (but not identical) to those motivating their non-attack of Bitcoin: a failed attack results in the destruction of the pool operator's buisiness, and a successful attack destroys the future stream of tx-fees for all merged-miners.
 
 ### How do you know that people wont claim an outcome was whatever will benefit them personally?
 
@@ -59,7 +104,7 @@ Votes cross-validate other votes, in addition to supplying the data used for Out
 
 ### Why don't you...?
 
-The idea I published was not my **first** idea for a Trustless PM, it was my **best**. I probably *did* think of whatever you have in mind, but feel free to ask anyway (if you'd like to know why I didn't select it).
+The idea I published was not my **first** idea for a P2P PM, it was my **best**. I probably *did* think of whatever you have in mind, but feel free to ask anyway (if you'd like to know why I didn't select it).
 
 Prompts:
 
@@ -96,7 +141,7 @@ Generally, many ideas ignore...
 
 I did not base my own choice on trial-and-error, I instead based it on my day-to-day real-world truth-finding experiences.
 
-###In practice everyone [may] pull their data from some kind of external data feed. Presumably they'll use whatever is simplest and cheapest, then they'll be stuck with that until it completely breaks...
+### In practice everyone [may] pull their data from some kind of external data feed. Presumably they'll use whatever is simplest and cheapest, then they'll be stuck with that until it completely breaks...
 
 This concern has only been voiced for scaled claims, not binaries (which probably are novel and don't have a feed). If Voters are instructed to use a few external sources (for comparison),Do they can double-check their answers (of course, if they believe others will NOT double-check, they will not either, so they might not), or more importantly switch to a new source if the first is broken. I personally find it highly unlikely that Yahoo or Google will start publishing wildly disparate financial index data, as they have every reason to ensure that the data is accurate.
 
@@ -397,7 +442,7 @@ Any game-theorist worth his salt knows Pareto/Kaldor-Hicks improvements. Cryptoc
 The reputation-tokens are more complex, but the obvious choice is to distribute them to individuals proportional to what they sacrificed to create the software.
 
 
-### Have you seen a similar effort from some CS guys at princeton? Wonder if they're solving the same problems...
+### Have you seen a similar effort from some CS guys at Princeton? Wonder if they're solving the same problems...
 I had previously heard about the [Princeton guys](http://dailyprincetonian.com/news/2014/01/u-researchers-develop-bitcoin-prediction-market/) but I never heard any news from them and had forgotten about it. Would be great to collaborate, but I had already finished most of my ideas when I found that article. To date I have heard nothing from them about their project. As always: Nullius in Verba.  
 Update: The long awaited [paper](http://users.encs.concordia.ca/~clark/papers/2014_weis.pdf) did actually come out. Unfortunately, we seem to disagree on the true nature of the problem of designing a decentralized prediction market. Namely, in Section 5.3 the paper assumes Prompt 1 above (in “Why don’t you…”), which I view as unacceptable (see above). The paper does mention two ideas, ‘PredCo’ (which solves the discount rate problem), and the Keynesian Beauty Contest, which, when combined, more closely resemble what I had in mind. The second major proposal in the paper is for an order book system. Instead, I chose to use market scoring rules, for a variety of reasons, one of which is that operating a MSR is extraordinarily similar to sending a normal Bitcoin transaction. The paper is not truly a proposal for anything, instead a sort of menu of different ideas and avenues for decentralizing prediction markets. A novel is easier to assess than a dictionary, so it difficult for me to critique the paper more directly than this.
 
