@@ -22,7 +22,7 @@ Truthcoin has users, just like Bitcoin, but it also has "employees". These emplo
 
 ### Why did you name it "Truthcoin"? Doesn't that make it sound like an altcoin?
 
-Back when I choose the name (in 2013), that was the naming convention: Namecoin, Peercoin, and Freicoin all existed. Back then, all of the new coins (even Litecoin) had some logical purpose and intended function, so it wasn't possible to confuse a legitimate project with a copycoin. As the Bitcoin price soared, it invited a tidal wave of endless -coin projects.
+Back when I choose the name (in 2013), that was the naming convention: Namecoin, Peercoin, and Freicoin all existed. Back then, all of the new coins (even Litecoin) had some logical purpose and intended function, so it wasn't possible to confuse a legitimate project with a copycoin. As the Bitcoin price soared, it invited a tidal wave of endless "coin"-suffixed projects.
 
 ### If this project is so much better than Ethereum, Bitshares, ..., then why haven't I heard of it?
 
@@ -34,7 +34,7 @@ Secondly, other projects don't already have funding from reputable investors, an
 
 Yes I do. Like Bitcoin, this is the only project which aims to solve an actual problem in computer science (P2P Oracle), it is the only project which had economically viable non-blockchain implementations, which were later censored (InTrade.com), it avoids the deadly CS sin of rewriting code from scratch, and imports Bitcoin's (crucial) monetary network effects. Roger Ver hired the most skeptical and technically knowledgeable people in the area (you know their names) to review the design. So far, no design flaws have been brought forward by these reviewers.
 
-While other projects employ million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is costing the Bitcoin community nothing, and we've already nearly finished.
+While other projects employ multi-million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is costing the Bitcoin community nothing, and we've already nearly finished.
 
 ## Motivation
 
