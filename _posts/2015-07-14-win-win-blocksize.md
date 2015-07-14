@@ -134,7 +134,7 @@ My own project for entirely P2P prediction markets is nearly finished, but it st
 #### Recipe
 
 1. Technical agreement on feasibility (see above) and desirability (see below).
-2. Strip down the existing work [here](https://github.com/truthcoin/truthcoin-cpp) (and [here](https://github.com/psztorc/truthcoin) and the documentation [here](http://www.truthcoin.info/papers/)) to a bare-bones "element" consisting of just a few predefined markets (and purposefully lacking any abilities other than: [1] deposit BTC, [2] withdraw BTC, [3-6] buy/sell/redeem/donate-liquidity in these 4 predefined Markets, [7] oracle-functionaries fix final prices). 
+2. Strip down the existing work [here](https://github.com/truthcoin/truthcoin-cpp) (and [here](https://github.com/psztorc/truthcoin) and the documentation [here](http://www.truthcoin.info/papers/)) to a bare-bones "temporary [element](https://github.com/ElementsProject/elementsproject.github.io)" consisting of just a few predefined markets (and purposefully lacking any abilities other than: [1] deposit BTC, [2] withdraw BTC, [3-6] buy/sell/redeem/donate-liquidity in these 4 predefined Markets, [7] oracle-functionaries fix final prices). 
 3. Selection of the oracle-functionaries (possibly: individuals who own or manage long-term, reputable Bitcoin-businesses or organizations, or individuals who are Bitcoin wealthy).
 4. Test, and turn on the sidechain.
 5. Traders trade, we learn what to do.
