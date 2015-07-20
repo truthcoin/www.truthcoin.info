@@ -16,7 +16,7 @@ Why would we use blockchains at all?
 
 
 ## What Blockchains Do
-> Blockchain = Crypto-Signatures + PoW Clock = "Who owns what, when?"
+> Blockchain = CryptoSignatures + PoW Clock = "Who owns what, when?"
 
 
 ### The Blockchain Niche
