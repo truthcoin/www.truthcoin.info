@@ -32,7 +32,7 @@ Compare the bankruptcy of two different types of business: [1] "money-accepters"
 
 Money-accepters can go bankrupt almost painlessly: Soon a new one will appear to fill the unmet market demand, and you can continue your shopping there (think of Bitcoin's "Silk Road(s)"). If you are extremely unlucky, and happen to be shopping mid-bankruptcy, you might permanently lose some value: that of the single transaction you were mid-conducting.
 
-However, if a bank (money-storer) closes, an entire lifetime of savings can be wiped out permanently. **If** a new bank opened (from where does it get its initial deposits?), users would have to start saving all over again. Money-storage has higher stakes: owners/employees/hackers/lawyers/politicians can target the stored asset for theft. The damage is permanent, and the pain excruciating.
+However, if a bank (money-storer) closes, an entire lifetime of savings can be wiped out permanently. **If** a new bank opened (from where does it get its initial deposits?), users would have to start saving all over again. Money-storage has higher stakes: owners/employees/hackers/lawyers/politicians can target the stored asset for theft, extracting a "ledger [rent](https://en.wikipedia.org/wiki/Economic_rent)". The damage is permanent, and the pain excruciating.
 
 ![Storers](/images/bitcoin_gone.jpg)
 
