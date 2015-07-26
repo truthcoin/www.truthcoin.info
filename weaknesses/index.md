@@ -87,6 +87,13 @@ Therefore, voters may lie to each other on how they plan to vote, in general (wh
 
 However, the damage is limited to Voters only: Traders are only affected if they trade on "unclear Decisions", which they wouldn't do (because, for a start, they wouldn't know what they were buying). Expectations of low-trading would discourage Authors from ever making "unclear Decisions", so they are unlikely to exist.
 
+### Sudden collapse in Market Price of VTC
+
+A fall in the market price of VTC might indicate that the VTC themselves are about to be worthless, ie, they are about to be used in an attack. This might cause panic selling, resulting in a low VTC market cap, which is easier to attack. This might then result in chaotic trading / a complete lack of trading.
+
+I'm skeptical of this, because markets are very robust to rumors (traders who correctly see through a vain rumor get rewarded). Also, if two (or more) attackers try to buy up a cheap branch (to attack it), they'll almost certainly fail. And finally we have our last-resort Miner Veto / Override to contend with.
+
+
 ### Miners are too lazy to ever veto anything, making the miner-veto an empty threat. (Or: "Veto is overly complicated and unnecessary).
 
 The Miner-Veto accomplishes several goals at once (a "threat" being only one of them). The most important is to serve as a 'fail-safe' to prevent any blockchain reorganization for vote-strategic reasons (in other words, an effort to say "we didn't like the vote-outcome, so we are hard forking the entire transaction history). The Miner-Veto is in no way a requirement for the outcome-resolution process.
@@ -112,7 +119,7 @@ It then stands to reason that an attacker would acquire a large proportion of vo
 
 Quite by design, the Audit becomes 'harder to clear with the severity of the attack' in other ways. The first is that, in attacking for large profits, the attack must tie up capital as speculative bets within many Markets. However, only 'free money' can be used to vote in the Audit. The Auditor-votes are, by accounting definition, third-parties to the dispute. The second effect a severe-attack will have on Audit-reliability will be to provide a greater reward (more Trading Fees disputed over) and therefore encourage thoughtful participation.
 
-### Between 50% and Phi% Voters Voters attack only a few things at once
+### Between 50% and Phi% Voters Voters attack only a few things at once.
 
 The attacker-coalition probably wouldn't make enough money to be worth it. Strategic frictions (which few do we attack?, who attacks what?) would likely unravel the attacking coalition.
 
