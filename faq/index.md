@@ -14,7 +14,7 @@ If your question is missing, please email it to me or use a pull request (link a
 
 ### What's going on?
 
-Truthcoin is an ambitious modification of Bitcoin, which extends Bitcoin's abilities (to send an receive value-tokens) by adding the ability to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market).
+Truthcoin allows users to use their Bitcoin to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market). Like Bitcoin, Truthcoin is a protocol, a set of  P2P action-response relationships (like Bluetooth, spoken English, or the rules to Texas HoldEm) for individuals to either use or ignore.
 
 Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
 
@@ -24,7 +24,9 @@ Truthcoin has users, just like Bitcoin, but it also has "employees". These emplo
 
 (In the author's opinion) Truthcoin is the **only** Bitcoin 2.0 project (defined as a blockchain for e-payments + something else) which is:
 
-* **Authentic**: Truthcoin, unlike all other 2.0 projects, proceeds as though its creators actually believe in it. We pay for *everything* upfront (design, development, review, testing), with no guarantee that the project will even make it through all of these (risky) phases without encountering a fatal problem. Even if no problems are found, there's still no guarantee any of us will be repaid anything at all. As a result of this, you know that we literally *can't* be dishonest with you (we have nothing to gain either way). Other projects hype up a "Order now, while supplies last!" message which, while admittedly effective at generating a community (with skin-in-the-game), creates a huge problem: even otherwise honest project-directors face a temptation to lie to the public (especially "greater good" lies powered by groupthink and wishful-thinking), particularly about obscure long-run problems.
+* **Free**: To use Truthcoin's advanced features, you need to own Bitcoin. That's it!
+
+* **Authentic**: Truthcoin, unlike all other 2.0 projects, proceeds as though its creators actually believe in it. We pay for *everything* upfront (design, development, review, testing), with no guarantee that the project will even make it through all of these (risky) phases without encountering a fatal problem. As a result of this, you know that we literally *can't* be dishonest with you (we have nothing to gain either way). Other projects hype up a "Order now, while supplies last!" message, followed by a shakedown for money! While admittedly effective at generating a community (with skin-in-the-game), creates a huge problem: even otherwise honest project-directors face a temptation to lie to the public (especially "greater good" lies powered by groupthink and wishful-thinking), particularly about obscure long-run problems. With Truthcoin you don't even need to be emotionally invested.
 
 * **Reputable**: Truthcoin was designed by a Yale Statistician with degrees in the blockchain-relevant fields of econ, psychology, and mathematics, who has been passionate about prediction markets since long before Bitcoin was created. Truthcoin was reviewed (favorably) by Andrew Poelstra, sidechains-co-author and skeptical author of widely-circulated technical papers on cryptosystem stability. Gregory Maxwell has been aware of the project for months, Peter Todd is actively reviewing it. Unlike 100% of all Bitcoin 2.0 projects, there have (so far) been no standing complaints from these elite-skeptics. Roger Ver, who has famously invested-in and donated-to some of the most promising organizations and experiments in the Bitcoin space (from original Ripple, to BitPay, to Purse.io), and ignored many others, has endorsed this project financially.
 
@@ -41,13 +43,13 @@ Back when I choose the name (in 2013), that was the naming convention: Namecoin,
 
 Firstly, I do not do any promotion / "active marketing". I feel that "talking" about Truthcoin goes against the spirit of the project: that talk should be ignored (in favor of action). I have more important work to do than to deal with the (socially dysfunctional, in my view) Bitcoin community.
 
-Secondly, other projects don't already have funding from reputable investors, and need to have crowdsales. These crowdsales grant a large number of people "skin in the game", at which point they become slavishly devoted to promoting the project. My project requires no money, and uses Bitcoin (whether the Bitcoin community, or any other community, likes it or not). Once the Bitcoin community learns of Truthcoin (which might be a while, as they've been so overwhelmed with terrible ideas named "-coin") I'm confident that they'll be promoting "their" new project as much as they promote Bitcoin. 
+Secondly, other projects don't already have funding from reputable investors, and need to have crowdsales. These crowdsales grant a large number of people "skin in the game", at which point they become slavishly devoted to promoting the project. My project requires no money, and uses Bitcoin (whether the Bitcoin community, or any other community, likes it or not). Once the Bitcoin community learns of Truthcoin (which might be a while, as they've been so overwhelmed with terrible ideas named "-coin"), and that it is free (does not require any other coins), I'm confident that they'll be promoting "their" new project as much as they promote Bitcoin. 
 
 ### You really think this project is better than all of the other Bitcoin 2.0 projects?
 
 Yes I do. Like Bitcoin, this is the only project which aims to solve an actual problem in computer science (P2P Oracle), it is the only project which had economically viable non-blockchain implementations, which were later censored (InTrade.com), it avoids the deadly CS sin of rewriting code from scratch, and imports Bitcoin's (crucial) monetary network effects. Roger Ver hired the most skeptical and technically knowledgeable people in the area (you know their names) to review the design. So far, no design flaws have been brought forward by these reviewers.
 
-While other projects employ multi-million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is costing the Bitcoin community nothing, and we've already nearly finished.
+While other projects employ multi-million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is free, and we've already nearly finished.
 
 ## Motivation
 
@@ -55,7 +57,9 @@ While other projects employ multi-million-dollar budgets, only to struggle to me
 
 I understand why this question comes up (despite the fact that, as open source software, the motivation or even identity of the software-author is completely irrelevant). Given the frequent occurrence of scams in this community, even more skepticism than usual is warranted with even completely free projects.
 
-It is true that there may be an auction of the initial "VoteCoins", which might raise a nice amount of money for whoever administrates the auction (probably Roger). However, should one even occur, you are under no pressure to participate in this auction: VoteCoins are themselves not required to use Truthcoin (BTC will work just fine, VTC are used to "work" for Truthcoin), and I would imagine that many of those most excited about Truthcoin would never own any VoteCoins in their lives. The New York Stock Exchange (NYSE) is itself owned by Intercontinental Exchange, which is actually listed on the NYSE (as NYSE:ICE). Thousands of people trade in the NYSE every day without owning any shares of ICE, and millions of people around the world benefit from the operation of the NYSE without even being aware of ICE's existence.
+It is true that there **may** be an auction of the initial "VoteCoins", which might raise a nice amount of money for whoever administrates the auction (probably Roger). However, should one even occur, you are under no pressure to participate in this auction: VoteCoins are themselves not required to use Truthcoin (BTC will work just fine, VTC are used to "work" for Truthcoin), and I would imagine that many of those most excited about Truthcoin would never own any VoteCoins in their lives. The New York Stock Exchange (NYSE) is itself owned by Intercontinental Exchange, which is actually listed on the NYSE (as NYSE:ICE). Thousands of people trade in the NYSE every day without owning any shares of ICE, and millions of people around the world benefit from the operation of the NYSE without even being aware of ICE's existence.
+
+Or, the VoteCoins could be privately owned and slowly leak onto the marketplace. It makes almost no difference to the user, just as the Walmart stock price has almost no effect on the individuals who shop at Walmart stores.
 
 I don't believe that either of us are motivated primarily by this potential financial return. I can only speak for myself: I feel I owe a debt to society for the comfortable life I have enjoyed so far (particularly where the internet and FOSS are concerned), and I feel society must change as the result of injustices dealt to me and my interests in the past.
 
