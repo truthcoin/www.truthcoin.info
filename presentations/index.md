@@ -5,7 +5,6 @@ title: Presentations
 
 
 
-
 ## [What is Truthcoin?](what-is-truthcoin.pdf)
 
 What is this project, and what is it about?
@@ -15,19 +14,22 @@ What is this project, and what is it about?
 
 Everyone asks: How are the outcomes calculated? "Who decides?" Here are some of the answers.
 
+## [The Age of Bullshit](info-problems.pdf)
+
+The real-world problem Truthcoin aims to solve. This was the first half of a talk I gave at the MIT Bitcoin club in January 2015.
 
 ## [Value of a Truthcoin](truthcoin-valuable.pdf)
 
 On the potential Return available to contributing investors / programmers.
 
-## [The Age of Bullshit](info-problems.pdf)
+<!--
 
-The real-world problem Truthcoin aims to solve. This was the first half of a talk I gave at the MIT Bitcoin club in January 2015.
-
+This presentation is confusing way more people than it is helping.
 
 ## [Initial Coin Allocations](initial-coin-allocations.pdf)
 
 Who is getting the first Truthcoins? Hint: probably, you!
+-->
 
 ## [In Six Slides](six-slide-sprint.pdf)
 
