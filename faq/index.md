@@ -14,7 +14,7 @@ If your question is missing, please email it to me or use a pull request (link a
 
 ### What's going on?
 
-Truthcoin allows users to use their Bitcoin to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market). Like Bitcoin, Truthcoin is a protocol, a set of  P2P action-response relationships (like Bluetooth, spoken English, or the rules to Texas HoldEm) for individuals to either use or ignore.
+Truthcoin allows users to use their Bitcoin to create and participate in [markets for event derivatives ("prediction markets")](https://en.wikipedia.org/wiki/Prediction_market). Like Bitcoin, Truthcoin is a protocol, a set of P2P action-response relationships (like Bluetooth, spoken English, or the rules to Texas hold 'em) for individuals to either use or ignore.
 
 Although substantially more complex, Truthcoin offers correspondingly substantial benefits, having potentially world-changing implications for science, taxation, corporate governance and politics.
 
@@ -37,17 +37,19 @@ Truthcoin has users, just like Bitcoin, but it also has "employees". These emplo
 
 ### Why did you name it "Truthcoin"? Doesn't that make it sound like an altcoin?
 
-Back when I choose the name (in 2013), that was the naming convention: Namecoin, Peercoin, and Freicoin all existed. Back then, all of the new coins (even Litecoin) had some logical purpose and intended function, so it wasn't possible to confuse a legitimate project with a copycoin. As the Bitcoin price soared, it invited a tidal wave of endless "coin"-suffixed projects.
+Back when I choose the name (in 2013), that was the naming convention: Namecoin, Peercoin, and Freicoin all existed (before sidechains were formalized, I conceived the project as functionally comparable to Namecoin). Back then, all of the new coins (even Litecoin) had some logical purpose and intended function (however experimental), so it wasn't possible to confuse a legitimate project with a copycoin. Of course, as the Bitcoin price soared, it invited a tidal wave of endless "coin"-suffixed projects ("scams") which are today known as the Altcoins.
+
+I haven't changed the name beacuse it does act as a kind of anti-spam filter, removing shallow or low-effort users. Such users are often more distracting than helpful.
 
 ### If this project is so much better than Ethereum, Bitshares, ..., then why haven't I heard of it?
 
 Firstly, I do not do any promotion / "active marketing". I feel that "talking" about Truthcoin goes against the spirit of the project: that talk should be ignored (in favor of action). I have more important work to do than to deal with the (socially dysfunctional, in my view) Bitcoin community.
 
-Secondly, other projects don't already have funding from reputable investors, and need to have crowdsales. These crowdsales grant a large number of people "skin in the game", at which point they become slavishly devoted to promoting the project. My project requires no money, and uses Bitcoin (whether the Bitcoin community, or any other community, likes it or not). Once the Bitcoin community learns of Truthcoin (which might be a while, as they've been so overwhelmed with terrible ideas named "-coin"), and that it is free (does not require any other coins), I'm confident that they'll be promoting "their" new project as much as they promote Bitcoin. 
+Secondly, I don't need any money, or help from the general public. Those other projects don't already have funding from reputable investors, and so they need to have crowdsales. These crowdsales grant a large number of people "skin in the game", at which point they become slavishly devoted to promoting the project. My project requires no money, and uses Bitcoin (whether the Bitcoin community, or any other community, likes it or not). Once the Bitcoin community learns of Truthcoin (which might be a while, as they've been so overwhelmed with terrible ideas named "-coin"), and that it is free (does not require any other coins), I'm confident that they'll be promoting "their" new project as much as they promote Bitcoin. 
 
 ### You really think this project is better than all of the other Bitcoin 2.0 projects?
 
-Yes I do. Like Bitcoin, this is the only project which aims to solve an actual problem in computer science (P2P Oracle), it is the only project which had economically viable non-blockchain implementations, which were later censored (InTrade.com), it avoids the deadly CS sin of rewriting code from scratch, and imports Bitcoin's (crucial) monetary network effects. Roger Ver hired the most skeptical and technically knowledgeable people in the area (you know their names) to review the design. So far, no design flaws have been brought forward by these reviewers.
+Yes I do. Like Bitcoin, this is the only project which aims to solve an actual problem in computer science (P2P Oracle), it is the only project which had economically viable non-blockchain implementations (real life "trial runs"), which were later censored (namely InTrade.com), it avoids the deadly CS sin of rewriting code from scratch, and imports Bitcoin's (crucial) monetary network effects. Roger Ver hired the most skeptical and technically knowledgeable people in the area (you know their names) to review the design. So far, no design flaws have been brought forward by these reviewers.
 
 While other projects employ multi-million-dollar budgets, only to struggle to meet their (multi-year extended) deadlines, this project is free, and we've already nearly finished.
 
@@ -318,7 +320,8 @@ If two or more people could do it, that would be fantastic!
 
 ## Augur
 
-**tl;dr** I "created" Augur to build Truthcoin. I "left" (to try again) when Augur stopped building Truthcoin. I use quotes, because even the words as written falsely imply that Augur was relevant enough to Truthcoin to be worth managing.
+
+**tl;dr** Augur was one of many teams attempting to build Truthcoin. I stopped advising them due to their technical incompetence, and their outrageously false claims (about their exclusivity, advisors, 'contribution' to the protocol design, etc). Today, I would best describe what remains as "a way to scam money from gullible Ethereum users".
 
 I had not planned to write any of this. I've written it now, simply because I've been "frequently asked" these very "questions" following [the Bitcoin Magazine article about Truthcoin](https://bitcoinmagazine.com/20971/roger-ver-backing-prediction-market-sidechain-may-important-invention-since-bitcoin/). Ridiculous though this piece of writing is, it is my attempt to directly and honestly answer these questions.
 
@@ -328,7 +331,7 @@ Secondly, my associates persuaded me that, given that Augur was going to raise m
 
 ### Augur appears to have finished something. Is it any good? Why don't you just use it?
 
-I'm afraid that Augur's decision to ignore my advice (which was: to avoid "writing new code" at all costs, and instead fork the Bitcoin Core C++ codebase, changing as little as possible), while convenient for them (as it saved them a lot of work that they, having no original blockchain or C++ experience, would have found very difficult) is disastrous to the project.
+I'm afraid that Augur's decision to ignore my advice (which was: to avoid "writing new code" at all costs, and instead fork the Bitcoin Core C++ codebase, changing as little as possible), while convenient for them (as it saved them a lot of work that they, having no original blockchain or C++ experience, would have found very difficult) makes what they've created to be almost completely useless.
 
 #### Back to Square One
 
