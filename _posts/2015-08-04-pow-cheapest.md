@@ -48,7 +48,7 @@ The "expected benefit" is the only alterable parameter of this system (not the "
 > This "marginal cost" = "marginal revenue" concept actually applies to **every** transaction in the entire world, including all future blockchain tech.
 
 ### Measuring Cost
-A reasonable person might immediately protest that, in practice, MC=MR is *never* the case (for example: "I know they overcharge me for beer at the **convenience ** store **near my house**", "I own a small business and *we mark everything up at least 3%*, **its how we keep the lights on** and **pay my family's salary** and I get *profits* on top of that...although **I never know** how large those profits will be, of course.")
+A reasonable person might immediately protest that, in practice, MC=MR is *never* the case (for example: "I know they overcharge me for beer at the <b>convenience</b> store <b>near my house</b>", "I own a small business and *we mark everything up at least 3%*, **its how we keep the lights on** and **pay my family's salary** and I get *profits* on top of that...although **I never know** how large those profits will be, of course.")
 
 MC = MR is always true because of the way economists measure costs: the correct way. Specifically, through the contrived [introduction of](http://en.wikipedia.org/wiki/Economic_rent#Land_rent) '[rent](http://en.wikipedia.org/wiki/Economic_rent)'. The equation could be elaborated to: MC_rent + MC_nonrent = MR.
 
