@@ -244,7 +244,7 @@ Anyway, under PoW, liquid resources (silicon, metal, concrete, electricity, time
 
 Under PoW the hunter-gatherer is wearing weights (and it is harder to catch the rabbit), under TenderPoW the h-g's body can't load glucose as quickly (and it is harder to catch the rabbit). Either way, fewer rabbits are caught. In fact: market forces, specifically interest rates, should always place society at a frontier where we are all indifferent between the two (if any project were freely over-beneficial, money would be pouring into it and interest rates would be rising, same for any consumption "project" which over-produced utility).
 
-Finally, lasting differences between the two PoW are possible: PoW might be better for economic growth, SoftAltoid might be better for CO2 emissions. It is quite difficult to say. Less capital means that the future will be worse, and contain less technological/scientific progress, fewer abatement technologies, carbon-alternatives, etc. 
+Finally, lasting differences between the two PoW are possible: PoW might be better for economic growth, SoftAltoid might be better for CO2 emissions. It is quite difficult to say. Less capital means that the future will be worse, and contain less technological/scientific progress, fewer abatement/sequestration technologies, carbon-alternatives, etc. 
 
 
 ##### Flirting with the Mainstream
