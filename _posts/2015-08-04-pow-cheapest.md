@@ -128,13 +128,13 @@ Wrong.
 
 While it is true that, by the time [3] rolls around, it would be too late to "work" toward the current MR, it is also true that [3] *would also* be the *perfect* time to start working toward some **future** MR. The fact that the MR and MC [take place at different times](http://en.wikipedia.org/wiki/Present_value) is irrelevant. They already do with Bitcoin.
 
-( Did you know that Bitcoin's PoW reward is unspendable for 100 blocks? This is because Miners are the most able to double-spend, and these coins are the easiest to double-spend, and so they need to be held to standards which are extra-conservative. )
+( Did you know that Bitcoin's PoW reward is unspendable for 100 blocks? This is because, if orphaned, these coins vanish completely. Also, the miners are most-able to doublespend, so it's wise to keep an eye on any coins they definitely-own. )
 
 #### Randomness
 
 It is also true that, by the time [3] rolls around it would be too late to "grind" through random results in quick succession (until you find one that gives you the MR). Of course, [3] *would also* be the *perfect* time to start grinding through random results in quick succession, until you find the result that gives **you** the future MR. That's already how Bitcoin works, in fact.
 
-( Did you know that Bitcoin uses [extremely strong randomness](http://en.wikipedia.org/wiki/Exponential_distribution) to select the creator of the next block? The randomness discourages collusion among block creators, making double-spend attacks unreliable. The randomness is so strong that no one can predict who will find the next block, or even *when* the next block will be found! )
+( Did you know that Bitcoin uses [extremely strong randomness](http://en.wikipedia.org/wiki/Exponential_distribution) to select the creator of the next block? The randomness discourages collusion among block creators, making double-spend attacks unreliable. The randomness is so strong that no one can predict *who* will find the next block, or even [exactly] *when* it will be found! )
 
 
 ### Making The "Work" Useful (Won't Work)
@@ -212,7 +212,7 @@ In return for sacrificing their liquidity completely (even CDs can be cashed out
 
 Some might ask "Doesn't it all 'cancel out', somehow?", "Is there really any damage done to society from having some of the money supply locked away somewhere?".
 
-No, it doesn't cancel out, there is no damage done, all the PoW is a net positive (where Obscured or Unobscured). Miners can only sell those BTC because the BTC-network is useful. Miners make a profit, chip-manufacturers make sales, utility companies make revenue, inefficient payment systems get updated/replaced.
+No, it doesn't cancel out, there is no damage done, all the PoW is a net positive (whether Obscured or Unobscured). Miners can only sell those BTC because the BTC-network is useful. Miners make a profit, chip-manufacturers make sales, utility companies make revenue, inefficient payment systems get updated/replaced.
 
 ###### Claims 1, 3, 4
 On [a Vitalik blog post](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/), VB admits "One objection to long-term deposits is that it incentivizes users to keep their capital locked up, which is inefficient, the exact same problem as proof of work." and then lists **four "counterpoints"**. Two are entirely irrelevant: [1] that marginal cost is not total cost (Vitalik is apparently measuring marginal cost per block instead of per work-unit), and [3] that the security deposits are safe (as irrelevant as saying "mining hardware is efficient"). The last, that [4] validators can be hit for the entire (capital) "stock" and not just the (operating) "flow", has been false since Bitcoin-mining came to be dominated by **AS**ICs and branded mining-pools (whose economic value would indeed be overwhelmingly destroyed in the event of an attack).
@@ -273,7 +273,7 @@ All of the wealth in sections C and D has been destroyed...quod erat demonstrand
 
 DPoS is a plutocracy where people use (but, neither spend {"democracy"}, nor risk {"capitalism"}) their money to elect 100 senators, who sign blocks in a sequence and thus secure a nearly-P2P network.
 
-As usual, we're going to ignore all of the problems with this (that plutocracy implies same-wealthy-idiots-on-every-decision and inevitable decadence [unlike "rule of the experts" capitalism], that DPoS strongly concentrates wealth [and, therefore, protocol-control], that voters [even at the more-efficient corporate governance level] never seem to know or care about the issues they're voting on, and that any conspiracy of 67 delegates can profitably double-spend without getting caught).
+As usual, we're going to ignore all of the problems with this (that plutocracy implies same-wealthy-idiots-on-every-decision and [inevitable decadence](https://en.wikipedia.org/wiki/Celine%27s_laws#Celine.27s_Second_Law) [unlike "rule of the experts" capitalism], that DPoS strongly concentrates wealth [and, therefore, protocol-control], that voters [even at the more-efficient corporate governance level] never seem to know or care about the issues they're voting on, and that any conspiracy of 67 delegates can profitably double-spend without getting caught).
 
 Instead, I'm just going to show that (again, for the Bitcoin issuance schedule) it is consequentially the same as Proof of Work.
 
