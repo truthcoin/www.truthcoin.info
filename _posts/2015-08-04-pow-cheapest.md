@@ -7,7 +7,7 @@ comments: true
 
 ## Intro: Wasted Resources
 
-I previously wrote [a post on proof of work (PoW) and mining](http://www.truthcoin.info/blog/pow-and-mining/). The first half generated great interest but (apparently) failed to be universally persuasive. For example, [CCRG](http://ccrg.org/mission) (Ethereum's [multi-million dollar funded](https://www.ethereum.org/pdf/IntendedUseOfRevenue.pdf) "research" organization) consists almost entirely of academics [theorizing about proof of stake (PoS)](http://www.reddit.com/r/ethereum/comments/3dvfgz/so_etherem_will_start_with_pow_what_pos_will_it/ct92ehl).
+I previously wrote [a post on proof of work (PoW) and mining](http://www.truthcoin.info/blog/pow-and-mining/). The first half generated great interest but (apparently) failed to be universally persuasive. For example, [CCRG](http://ccrg.org/mission) (Ethereum's [multi-million dollar funded](/images/IntendedUseOfRevenue.pdf) "research" organization) consists almost entirely of academics [theorizing about proof of stake (PoS)](http://www.reddit.com/r/ethereum/comments/3dvfgz/so_etherem_will_start_with_pow_what_pos_will_it/ct92ehl).
 
 ![BlocksizeMarket](/images/eth-pos-research.png)
 
