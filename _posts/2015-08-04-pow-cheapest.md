@@ -128,7 +128,7 @@ Wrong.
 
 While it is true that, by the time [3] rolls around, it would be too late to "work" toward the current MR, it is also true that [3] *would also* be the *perfect* time to start working toward some **future** MR. The fact that the MR and MC [take place at different times](http://en.wikipedia.org/wiki/Present_value) is irrelevant. They already do with Bitcoin.
 
-( Did you know that Bitcoin's PoW reward is unspendable for 100 blocks? This is because, if orphaned, these coins vanish completely. Also, the miners are most-able to doublespend, so it's wise to keep an eye on any coins they definitely-own. )
+( Did you know that Bitcoin's PoW reward is unspendable for 100 blocks? This is because, if orphaned, these coins vanish completely. Also, the miners are most-able to doublespend, so it's wise to keep an eye on any coins that they definitely-own. )
 
 #### Randomness
 
@@ -181,7 +181,7 @@ First, this is an *econ* blog so I'm going to ignore all of the (more precedent)
 
 ##### Validators vs. Miners
 
-The problem is the MR: which gives the validators NewCoins + TransactionFees. As such it induces a MC to obtain that MR, being just as "wasteful" as Bitcoin. In Bitcoin, ~25.01 USD worth of BTC are "wasted" by the Miners every 10 minutes, but under Tendermint ~25.01 USD worth of BTC would be *wasted* by the Validators every 10 minutes.
+The problem is that validators receive ( NewCoins + TransactionFees ), an MR, and this MR induces a MC. While, in Bitcoin, ~25.01 USD worth of BTC are "wasted" by the Miners every 10 minutes, under Tendermint, ~25.01 USD worth of BTC would be *wasted* by the Validators every 10 minutes.
 
 ##### Nonproductive Investments Are "Wasteful"
 
