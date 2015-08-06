@@ -431,7 +431,7 @@ In general I don't feel very happy about the journey. I would even say that I fe
 
 I myself was listed as an adviser (until very recently), and Roger Ver was front-paged with pro-Prediction-Market quotations. This was despite our unambiguous disapproval of Augur.
 
-I happen to know many of the "advisers" personally, some for many years. They are simply nice guys (like me), who were asked "Do you mind if we list you as an adviser?" and said "Yes" (as I did), to encourage Prediction Markets in general. The clever assembly of these (ultimately hollow) pieces is, so I now understand, part of the Silicon Valley "marketing" machine (what we in quaint New Haven would call "a scam").
+I happen to know many of the "advisers" personally, some for many years. They are simply nice guys (like me), who were asked "Do you mind if we list you as an adviser?" and said "Yes" (as I did), to [encourage Prediction Markets in general](https://twitter.com/robinhanson/status/629319180614041600). The clever assembly of these (ultimately hollow) pieces is, so I now understand, part of the Silicon Valley "marketing" machine (what we in quaint New Haven would call "a scam").
 
 
 ### Isn't it extremely unprofessional to write all of this?
