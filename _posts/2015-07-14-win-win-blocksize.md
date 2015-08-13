@@ -171,7 +171,7 @@ He who thinks, then, that he has left behind him any art in writing, and he who 
 
 Occasionally, reddit is used to enable a dialogue (the "AMA"). In such cases, everyone *who asked a question* would probably merit Socrates' approval. On mailing lists, the Q&A are seemingly the only relevant sections of the entire discussion (other than to state mind-numbing tautologies like "we must be careful" or "Bitcoin won't scale the way it is configured right now").
 
-My personal opinion is that, from the entire blocksize "discussion" thus far, I have (reliably) learned almost nothing. If anything, I have only learned about who, individually, I dislike (which does not really help with the underlying blocksize question). The state of the debate seems to reflect no technical info whatsoever, instead merely the ratio of BigBlock-Users (users who pay transaction fees, but do not run nodes) to SmallBlock-Users (those who run full nodes, but do not pay transaction fees), and who was friends with who before the conversation started.
+My personal opinion is that, from the entire blocksize "discussion" thus far, I have (reliably) learned almost nothing. If anything, I have only learned about who, individually, I dislike (which does not really help with the underlying blocksize question). The state of the debate seems to reflect no technical info whatsoever, instead merely the ratio of BigBlock-Users (users who spend more on transaction fees than on their full nodes) to SmallBlock-Users (users who spend more on their full nodes than on transaction fees), and who was friends with who before the conversation started.
 
 
 #### The Internet is Not Representative
