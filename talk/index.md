@@ -14,8 +14,7 @@ Highlights
 
 >"I'd give it a low chance of success, but at least it's clever crazy rather than stupid crazy. :)"  
 
-\-[**Peter Todd**](https://twitter.com/petertoddbtc), Bitcoin Core Developer, Notable Skeptic ([Coinkite "Chief
-Naysayer"](http://blog.coinkite.com/post/85842528071/peter-todd-joins-coinkite-as-chief-naysayer)), Inventor of [Treechains](https://letstalkbitcoin.com/ltb104-tree-chains-with-peter-todd/), ...
+\-[**Peter Todd**](https://twitter.com/petertoddbtc), Bitcoin Core Developer, Notable Skeptic ([Coinkite "Chief Naysayer"](http://blog.coinkite.com/post/85842528071/peter-todd-joins-coinkite-as-chief-naysayer)), Inventor of [Treechains](https://letstalkbitcoin.com/ltb104-tree-chains-with-peter-todd/), ...
 
 >"I'm very optimistic about the feasibility of this project."  
 
