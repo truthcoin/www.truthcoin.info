@@ -7,31 +7,27 @@ title: What People Are Saying
 Highlights
 ---------------
 
-<p> </p>
-<p> </p>
+<br>
 
 >"Truthcoin may be the most important invention since Bitcoin."  
 
 \- [**Roger Ver**](https://rogerver.com/), Bitcoin Evangelist, seed investor: [Blockchain.info](https://blockchain.info/), [The Bitcoin Foundation](http://bitcoinfoundation.org/), [Ripple](https://ripple.com/), ..., investor: [BitPay](https://bitpay.com/), [ShapeShift](https://shapeshift.io/), [Purse.io](https://purse.io/), ...  
 
-<p> </p>
-<p> </p>
-<p> </p>
+<br>
+<br>
 
 >"I'd give it a low chance of success, but at least it's clever crazy rather than stupid crazy. :)"  
 
 \-[**Peter Todd**](https://twitter.com/petertoddbtc), Bitcoin Core Developer, Notable Skeptic ([Coinkite "Chief Naysayer"](http://blog.coinkite.com/post/85842528071/peter-todd-joins-coinkite-as-chief-naysayer)), Inventor of [Treechains](https://letstalkbitcoin.com/ltb104-tree-chains-with-peter-todd/), ...
 
-<p> </p>
-<p> </p>
-<p> </p>
+<br>
+<br>
 
 >"I'm very optimistic about the feasibility of this project."  
 
 \-[**Andrew Poelstra**](https://www.wpsoftware.net/andrew/), author of [A Treatise on Altcoins](https://download.wpsoftware.net/bitcoin/alts.pdf), [On Stake and Consensus](https://download.wpsoftware.net/bitcoin/pos.pdf), co-author of [the Sidechains Whitepaper](http://www.blockstream.com/sidechains.pdf)
 
-<p> </p>
-<p> </p>
+<br>
 
 In The Media
 --------------
