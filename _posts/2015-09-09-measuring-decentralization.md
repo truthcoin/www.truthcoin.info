@@ -574,7 +574,7 @@ And they can't *prevent you from circumventing the hubs*:
 
 #### It Can
 
-During the custodial period (about a week) The Hubs get to determine if you will, or will not, **be able to make a cheap transaction**. If they ban you from making *any* transactions (or, their computers get shut down by the government, or catch fire), your money is stuck there for the duration of the custodial period. However, it is only temporarily trapped: your money [can't be lost or stolen](https://www.youtube.com/v/2QH5EV_Io0E?start=2565&end=2660&version=3&autoplay=1).	
+During the custodial period (about a week) The Hubs do get to determine if you will, or will not, **be able to make a cheap transaction** with the money you deposited with them. If they ban you from making *any* transactions (or, their computers get shut down by the government, or catch fire), your money is stuck there for the duration of the custodial period. However, it is only temporarily trapped: your money [can't be lost or stolen](https://www.youtube.com/v/2QH5EV_Io0E?start=2565&end=2660&version=3&autoplay=1).	
 
 Basically, it's a bank that *can't* steal your money. Revolutionary!
 
@@ -592,17 +592,17 @@ However, the Lightning Network configuration *is* much more rational, specialize
 ## Increasing Decentralization
 > To improve Decentralization, make full nodes cheaper. One overlooked way to do this is with a "Tor supply curve" (which Bitcoin can provide)!
 
-Given our conclusion, the easier it is to start up a new full node, the more decentralized Bitcoin will be. How can we make full nodes cheaper (or, more expensive, in a way that *trades-off* some unneeded decentralization [in return for that other stuff we might want]).
+Given our conclusion, the easier it is to start up a new full node, the more decentralized Bitcoin will be. **How can we make full nodes cheaper** (or, more expensive, in a way that *trades-off* some unneeded decentralization [in return for that other stuff we might want])**?**
 
-I'd ignore mundane expenses like hardware and power. If a full node cannot be run anonymously, "the network" (full node entry) is effectively controlled by law enforcement, a central entity, so my view is that the current largest "cost" (and current bottleneck to Bitcoin scalability) is therefore the threat of jail-time/persecution.
+I'd ignore mundane expenses like hardware and power. If a full node cannot be run anonymously, "the network" (full node entry) is effectively controlled by law enforcement, a central entity, so my view is that **the current largest "cost"** (and current bottleneck to Bitcoin scalability) is therefore **the threat of persecution**.
 
-One way to address this bottleneck would be to increase the supply of "Tor-Bandwidth". However, Tor-Bandwidth has a big problem: the anonymity prevents anyone from paying for it. This means that it cannot be bought or sold, its price is fixed at zero, and we will only have what is volunteered.
+One way to address this bottleneck would be to increase the supply of "Tor-Bandwidth" (or equivalent "internet anonymity"). However, Tor-Bandwidth currently has a big problem: the anonymity prevents anyone from paying for it. This means that it cannot be bought or sold, its price is fixed at zero, and we will only have what is volunteered.
 
 ![privitization](/images/band-supply.png)
 
-Moreover, "available at no cost" also means "it can be attacked at no cost". This is highly problematic, as the price cannot even react to the attack ("react to changes in scarcity"), and the [lack of price prevents capital investments from efficiently increasing](https://en.wikipedia.org/wiki/Economic_calculation_problem) bandwidth. (After all, our internet service providers built the current internet to purposefully have limited consumer upstream bandwidth because that's what the market told them we wanted).
+Moreover, "available at no cost" also means "it can be attacked at no cost". This is highly problematic, as the price cannot even react to the attack ("react to changes in scarcity"), and the [lack of price prevents capital investments from efficiently increasing](https://en.wikipedia.org/wiki/Economic_calculation_problem) long-run supply. (After all, our internet service providers built the current internet to *purposefully* have limited consumer upstream bandwidth because that's what the market told them we [could prove we] wanted).
 
-Anyone looking to improve Bitcoin's decentralization might look at integrating Bitcoin payment channels with Tor nodes (or metering bandwith in VPNs, or in general). Keep in mind that more decentralization is not always better: as decentralization improves, we can be more comfortable "trading off" some for other things we'd like to have (ie, bigger blocks, and cheaper/more-numerous transactions).
+Anyone looking to improve Bitcoin's decentralization might look at **integrating Bitcoin payment channels with Tor nodes** (or metering bandwidth in VPNs, or in general). Keep in mind that more decentralization is not always better, but, as decentralization improves, we can be more comfortable "trading off" some for other things we'd like to have (ie, bigger blocks, and cheaper/more-numerous transactions).
 
 
 ## Conclusion
