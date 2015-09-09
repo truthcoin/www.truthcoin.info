@@ -158,7 +158,7 @@ Well, while anyone can become a Ripple "node", not all nodes are equal "peers". 
 
 Actually, even that won't work: the Ripple scheme allows you to be *"thrown out" of the UNL club*. In this way, Ripple doesn't really have full nodes at all.
 
-But lets run with it: To "know you've been paid", you **need to be join the club, and stay in** until your payment(s) go through. So the application of CONOP actually requires, that, to know you've been paid, you need to be "long a *call* option to join Ripple" + "long a *put* option that you'll be thrown out before you can use Ripple".
+But lets run with it: To "know you've been paid", you **need to join the club, and stay in** until your payment(s) go through. So the application of CONOP actually requires, that, to know you've been paid, you need to be "long a *call* option to join Ripple" + "long a *put* option that you'll be thrown out before you can use Ripple".
 
 The second term (the put), acts as a kind of insurance that fully compensates you if you are kicked out of the club. However, because [1] "full compensation" is "them knowing they've been paid" (impossible to provide, by circular reasoning), and [2] because the likelihood of being kicked out is highly subjective ("volatile"), **the cost of the option is infinite for everyone except the 1 person who controls the UNL: Ripple Labs**. If RL were destroyed, the gatekeepers would then be "a coalition of 80% of the club members".
 
