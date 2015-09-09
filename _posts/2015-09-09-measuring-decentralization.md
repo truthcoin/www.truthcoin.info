@@ -4,8 +4,7 @@ comments: true
 ---
 
 
-> Bitcoin's Decentralization decreases as a full node becomes more expensive. Full node costs can be cheapened through use of the Lightning Network and the introduction of "supply curve" for TOR-bandwidth.
-
+> Bitcoin's Decentralization increases as a full node becomes cheaper.
 
 
 ### Agenda
@@ -53,7 +52,7 @@ This figure spells it out for us:
 
 The decentralized system is more local: the lines (pairwise-connections, or "relationships") are shorter. It also involves less "interaction" (path-overlap) and hence, less "permission": on the left all node-paths must share the single central node, but on the right it is possible for some pairs to 'group up' in ways that avoid the center node.
 
-Now we must discuss now Satoshi's use of the word "decentralized".
+Now we must discuss Satoshi's use of the word "decentralized".
 
 #### A "Peer to Peer" Electronic Cash System
 
@@ -72,7 +71,7 @@ Notice the phrase "pure P2P". **[Bitcoin's whitepaper](https://bitcoin.org/bitco
 
 The phrase "cutting of the head(s)" is a clue to the *underlying principle*: "**Why** is Bitcoin P2P?" (Might we achieve this goal another [non-P2P] way?)
 
-Clearly, the "Decentralized" image still has a "head" that can be "cut off". In fact, worse than that, if I reorder/relabel the /images, the "decentralized" option is the most-headed of all!
+Clearly, the "Decentralized" image still has a "head" that can be "cut off". In fact (worse than that), if I reorder/relabel the /images, the "decentralized" option is the most-headed of all!
 
 
 ![diagram](/images/hierarchy.png)
@@ -99,7 +98,7 @@ What is the difference between the following columns:
 | The **system administrator** can determine what *commands* are **allowed** on the computer network. | The **legislators** determine what *actions* are **legal** within the borders of their country. | 
 
 
-Only things that can break the law are truly P2P, ie truly 100% decentralized. Compliance with the law is the acknowledgment of a "privileged non-peer". If the process is subordinate to the law, it is "owned" by the law exclusively, undermining the benevolent force of competition.
+Only things that can break the law are truly P2P, ie truly 100% decentralized. Compliance with the law is the acknowledgment of a "privileged non-peer". If the process is subordinate to the law, it is "owned" by the law exclusively, undermining the benevolent force of competition ([for better or for worse](https://en.wikipedia.org/wiki/Monopoly_on_violence)).
 
 You can spin it however you like ("the first software application to self-maintain [its subordinate OSI layers](http://www.truthcoin.info//images/osi.png)"), but it is what it is: above the law.
 
@@ -124,7 +123,7 @@ It is also reasonable to require that this node start from scratch, for the very
 
 Of course, one need not actually *go through with* the actual running of the node. That would imply that Some Guy in  the remote African wilderness, far away from any internet connection, could declare "I refuse to run a full node" and somehow *decrease* the decentralization of "Bitcoin". Only the *cost* of running the node matters, not the number of people who choose to pay that cost.
 
-And, technically, the *centralization measure* is the cost of **[<i>the option</i>](https://en.wikipedia.org/wiki/Real_options_valuation) to create a new full node**, because in strategy/anything-reasonable only Options matter. Of course, the cost of "creating a node at time=t" is roughly the same as "creating a node at time=(t-X) + running 1 node for X time": the creation cost and option cost are overwhelmingly similar. However, this helpful detail does imply that *some* unconsumed electricity is "free decentralization" (people can avoid running the node, unless Something Bad is currently happening), and it does perfectly tie up the edge-case where the full node count drops to zero (and new full-node creation is infinitely expensive), because option valuation includes *uncertainty* surrounding future costs.
+And, technically, the *centralization measure* is the cost of **[<i>the option</i>](https://en.wikipedia.org/wiki/Real_options_valuation) to create a new full node**, because in strategy/anything-reasonable only Options matter. Of course, the cost of "creating a node at time=t" is roughly the same as the cost of "creating a node at time=(t-X) + running 1 node for X time". However, this helpful detail does imply that *some* unconsumed electricity is "free decentralization" (people can avoid running the node, unless Something Bad is currently happening), and it does perfectly tie up the edge-case where the full node count drops to zero (and new full-node creation is infinitely expensive), because option valuation includes *uncertainty* surrounding future costs.
 
 So my metric of centralization is **the cost of the option to create a new full node**.
 
@@ -140,7 +139,7 @@ For this section, **the cost of the option to create a full node** will be refer
 
 What if the CONOP were free (ie  $0.00)? That would imply perfect decentralization (centralization of zero). Is that right?
 
-I think so: anyone, anywhere, would be able to make sure that they had gotten paid, without trusting a third party, or doing any other work whatsoever. And this option would be available to every human on the planet, no matter how poor (and the only way for a government to "cut off the head" of the network would be to kill every human being on the planet).
+I think so: anyone, anywhere, would be able to make sure that they had gotten paid, without trusting a third party, or doing any other work whatsoever. And this option would be available to every human on the planet, no matter how oppressed/disadvantaged (and the only way for a government to "cut off the head" of the network would be to kill every human being on the planet).
 
 On the other hand, what if the CONOP were expensive, such that only *one* agent in the entire world could run a full node (say, the United State Government)? This agent would control the network completely: perfect centralization. If someone "cut off its head", this network would disintegrate.
 
@@ -151,13 +150,15 @@ In fact, the logic works perfectly, in reverse, to explain existing monetary sys
 
 A popular view is that the supposedly P2P [Ripple is actually completely centralized](https://xrptalk.org/topic/6953-peter-todd-i-wrote-a-paper-analyzing-the-ripple-consensus-algorithm-tldr-ripple-is-centralized/). Does CONOP lead us to the same answer?
 
-( Currently it is unambiguously centralized: Ripple only allows one full node, theirs. Adding a [second] node is infinitely expensive. )
+( Currently it is unambiguously centralized. And CONOP catches this: Ripple only allows one full node [theirs]. Adding a [second] node is infinitely expensive. )
 
 But what of its eventual steady state?
 
 Well, while anyone can become a Ripple "node", not all nodes are equal "peers". Extra-special nodes make the "default Unique Node List (UNL)", which requires the approval of Ripple. The future "cost" of this approval is highly uncertain. Just as [an option price converges to today's spot price as volatility increases](http://www.erieri.com/blackscholes), you can't guarantee you'll be **able to join the future Ripple club** unless you've already joined today.
 
-Actually, even that won't work: the Ripple scheme allows you to be *"thrown out" of the UNL club*. To "know you've been paid", you **need to be join the club, and stay in** until your payment(s) go through. So the application of CONOP actually requires, that, to know you've been paid, you need to be "long a *call* option to join Ripple" + "long a *put* option that you'll be thrown out before you can use Ripple".
+Actually, even that won't work: the Ripple scheme allows you to be *"thrown out" of the UNL club*. In this way, Ripple doesn't really have full nodes at all.
+
+But lets run with it: To "know you've been paid", you **need to be join the club, and stay in** until your payment(s) go through. So the application of CONOP actually requires, that, to know you've been paid, you need to be "long a *call* option to join Ripple" + "long a *put* option that you'll be thrown out before you can use Ripple".
 
 The second term (the put), acts as a kind of insurance that fully compensates you if you are kicked out of the club. However, because [1] "full compensation" is "them knowing they've been paid" (impossible to provide, by circular reasoning), and [2] because the likelihood of being kicked out is highly subjective ("volatile"), **the cost of the option is infinite for everyone except the 1 person who controls the UNL: Ripple Labs**. If RL were destroyed, the gatekeepers would then be "a coalition of 80% of the club members".
 
@@ -189,12 +190,11 @@ In contrast, Bitcoin's proof of work is easily verifiable ("common" information,
 
 ![gossip](/images/gossip.png)
 
-The economics of information (a zero-variable cost good): why settle for less than the best?
+Figure: the economics of [degenerating (non-common) information](https://en.wikipedia.org/wiki/Chinese_whispers) (a zero-variable cost good): why settle for less than the best?
 
 #### Checkpointers
 
-This is perhaps the clearest victory for CONOP. The option to join any check-pointing system as a "full" node (ie one that "knows who's been paid"), is, entirely by construction, only "affordable" to one person. Perfect centralization.
-
+This is perhaps the clearest victory for CONOP. Entirely by construction, only one person "decides" who has been paid and who hasn't. Perfect centralization.
 
 
 
@@ -221,7 +221,7 @@ So I have to justify "cost" of a full node, and defend it against 2 challengers.
 
 ### Counting Full Nodes Is Irrelevant
 
-It's popular to reference the *quantity* of full nodes ([another attempt at measuring decentralization](http://bytemaster.github.io/article/2015/01/09/How-to-Measure-the-Decentralization-of-Bitcoin/) focuses obsessively on counting things up and taking their log_2()).
+It's popular to reference the *quantity* of full nodes ([another attempt at measuring decentralization](http://bytemaster.github.io/article/2015/01/09/How-to-Measure-the-Decentralization-of-Bitcoin/) focuses obsessively on counting things up and taking their log_2(Quantity) ).
 
 ![abacus](/images/abacus.png)
 
@@ -231,9 +231,9 @@ Is this measure actually useful? Or is quantity an *effect* following the underl
 
 I, personally, first heard it from Peter Todd: "The only full node that matters is yours." This is the point I raised above: to know anything, you either [1] check for yourself or [2] take someone else's word for it.
 
-Of course, (as I also mentioned), they are (slightly) related: if the node count falls to zero, you will be unable to start a node.
+( Of course, [as I also mentioned], they are [slightly] related: if the node count falls to zero, you will be unable to start a node. )
 
-After all, a single entity (of any type) can run and control many full nodes. The (centralized) Federal Reserve system likely has 100's of redundant copies of its "knowledge" (payments data, research, web site, operating infrastructure, ...). In parallel, nothing stops a Bitcoin user from spinning up 100,000 new nodes that only he controls (and then halving them). So what's to be gained by counting them up? If you run a node (or can run one at any time), then it doesn't matter if the full node count falls even to *one*! You'll always know the status of your payments.
+After all, **a single entity (of any type) can run and control many full nodes**. The (centralized) Federal Reserve system likely has 100's of redundant copies of its "knowledge" (payments data, research, web site, operating infrastructure, ...). In parallel, nothing stops a Bitcoin user from spinning up 100,000 new nodes that only he controls (and then halving them). So what's to be gained by counting them up? If you run a node (or can run one at any time), then it doesn't matter if the full node count falls even to *one*! You'll always know the status of your payments.
 
 #### Cost is King
 
@@ -272,7 +272,7 @@ It's the crypto that does all the heavy-lifting.
 
 I'm sure you heard from your friend that, like, miners can "reverse" transactions or whatever.
 
-I [doubt](http://bitcoinanswered.com/22/what-is-a-51-percent-attack/) [it](http://gavintech.blogspot.com/2012/05/neutralizing-51-attack.html).
+[I dou](http://bitcoinanswered.com/22/what-is-a-51-percent-attack/)[bt it](http://gavintech.blogspot.com/2012/05/neutralizing-51-attack.html).
 
 ##### No Motivation
 
@@ -322,8 +322,7 @@ Now for a more complex topic:
 
 ### Development: 100% Decentralized, Unless we Hard Fork
 
-"It is well enough that people of the nation do not understand our banking and monetary system, for if they did, I believe there would be a revolution before tomorrow morning."
--Henry Ford
+![ford](/images/ford.png)
 
 
 #### Soft and Hard Forks
@@ -333,7 +332,7 @@ A soft fork is a change to the Bitcoin protocol to make it more *restrictive*. A
 | Game     |   | Soft | Hard |
 | -------  | --|    --|    --|
 | Chess    |   | Neither player can castle after move 10. | Any Queen can move three times in a row if her King is in check.|
-| Football |   | A team can only score a field goal if they have not yet thrown an interception. | Any team up by 20 points or more can declare themselves the immediate victor. |
+| American Football |   | A team can only score a field goal if they have not yet thrown an interception. | Any team up by 20 points or more can declare themselves the immediate victor. |
 
 
 What is the effect of each fork-type?
@@ -358,13 +357,13 @@ But all of *your own* money is protected by the "old rules", no matter what fanc
 
 ![nodes](/images/hearn-misunderstand-nodes.png)
 
-
+Figure: [Mike Hearn's bizarre obsession](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7) with money that doesn't belong to him.
 
 #### Hard Forks Threaten Bitcoin's Accumulated Security
 
 With soft forks, there are **no surprises**. Your money is protected by the "old rules".
 
-Because **a system is only as secure as the adversarial environment it has historically survived**, we can translate "..protected by the old rules" as "..safe" (for Bitcoin, anyway).
+Because **a system is only as secure as the adversarial environment it has historically survived**, we can translate "..protected by the old rules" as "..safe" (for 6-year-old Bitcoin, anyway).
 
 With hard forks, your money is subject to a *new* system. In principle, "a hard fork" could mean anything: stealing money, printing money, freezing the network permanently, it's all on the table.
 
@@ -388,7 +387,7 @@ Node Option = Hardware Costs + Privacy Costs + Maintenance Costs
 
 #### Hard Forks Destroy Decentralization
 
-If one avoids hard forks, we don't need to ask "Are these new rules any good?" at all, and so maintenance costs will be zero. Developers will never have any privilege, so there will be no centralization.
+If one avoids hard forks, we *don't need* to ask "Are these new rules any good?" at all, and so maintenance costs will be zero. Developers will never have any privilege, and there will be no centralization.
 
 Unfortunately, of course, this limits our ability to improve the software!
 
@@ -406,7 +405,7 @@ We will probably *never* know "if the rules are good", which means that **mainta
 
 ##### The Ideal Conditions (Aren't Good Enough)
 
-While it is claimed that NASA's shuttle program achieves a 0 bug rate (per 500,000 lines of code), [that definitely is not true according to them](http://www.cs.berkeley.edu/~bonachea/294-8/hw1.html). Even getting as far as [1 per 440,000 apparently requires 260 full-time experts](http://geeknizer.com/why-space-shuttle-software-never-crash/) ([Bitcoin has barely a handful](http://www.coindesk.com/mike-hearn-underfunding-leaving-bitcoin-development-crisis/)) working under *"threat of death"*, in an execution environment where they control 100% of the hardware and software, and there is *no adversarial activity whatsoever*, **and no user input of any kind**.
+While [it is claimed](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) that NASA's shuttle program achieves a 0 bug rate (per 500,000 lines of code), [that is actually not true](http://www.cs.berkeley.edu/~bonachea/294-8/hw1.html). Even getting as far as [1 per 440,000 apparently requires 260 full-time experts](http://geeknizer.com/why-space-shuttle-software-never-crash/) ([Bitcoin has barely a handful](http://www.coindesk.com/mike-hearn-underfunding-leaving-bitcoin-development-crisis/)) working under *"threat of death"*, in an execution environment where they control 100% of the hardware and software, and there is *no adversarial activity whatsoever*, **and no user input of any kind**.
 
 Ask them about it! Here's Appendix D ("Flight Software Complexity") of [their report](http://www.nasa.gov/pdf/418878main_FSWC_Final_Report.pdf) on getting it right:
 
@@ -421,7 +420,7 @@ But, in the end, [the Black Swan always gets his man](http://www.nasa.gov/pdf/17
 
 ![LostCraft](/images/lost-spacecraft.png)
 
-This perfectly-healthy robot wound up *entirely disabled* after The Experts updated a <i>single parameter</i>.
+Figure: this perfectly-healthy robot wound up *entirely disabled* after The Experts updated a <i>single parameter</i>.
 
 Sound familiar?
 
@@ -435,16 +434,16 @@ Just ask [Greg Maxwell](https://www.youtube.com/v/TYQ-3VvNCHE?start=2754&end=287
 
 Someone attempted [to count up Bitcoin's lines of code](https://bitcointalk.org/index.php?topic=289807.0), and concluded that there were a little over 12,000. **In order to reasonably predict that a hard fork is safe, someone must [evaluate each change](http://www.joelonsoftware.com/articles/fog0000000069.html) against <i>every</i> existing line of code.**
 
-But no, the fun *only begins* once you've done that. You now need to forecast, with perfect accuracy, **the affect of the software's new allowances on <i>all real world attributes</i> of the Bitcoin's wider economic system, as well as all psycho-social responses (rational or otherwise), and all new opportunities (whether change-based or uncertainty-based) given to motivated adversaries**.
+But no, the fun *only begins* once you've done that. You now need to forecast, with perfect accuracy, **the effect of the software's new allowances on <i>all real world attributes</i> of the Bitcoin's wider economic system, as well as all psycho-social responses (rational or otherwise), and all new opportunities (whether change-based or uncertainty-based) given to motivated adversaries**.
 
 **No human being** has the *research capacity* to actually do this. 
 
-So, you see, the average citizen is *far* more beholden to the developer who writes his software, than to the politician who writes his laws. Breaking the developer's (more numerous) rules is literally impossible, and there's no recourse (socially, politically, practically, ...).
+So, you see, the average citizen is *far* more beholden to the developer who writes his software, than he is to the politician who writes his laws. Breaking the developer's (more numerous) rules is literally impossible, and there's no recourse (socially, politically, practically, ...).
 
 
 #### An Actual Example
 
-Here's the best-case scenario, because it is actually describable in advance.
+Here's a best-case scenario for a hard fork, because it is actually describable in advance:
 
 1. An 8 MB [blocksize creates an incentive to selfish mine, such that miners must force *all* blocks to be 8 MB](http://wallstreettechnologist.com/2015/08/19/bitcoin-xt-vs-core-blocksize-limit-the-schism-that-divides-us-all/).
 2. The dramatic explosion in required bandwidth makes it impossible to run a full node anonymously.
@@ -462,7 +461,7 @@ But, protected by soft forks, you will never need to worry about all those thing
 
 I could go on (perhaps in a new post), but let's wrap this up.
 
-Grandma User *does* know that: "Bitcoin Core has been running for 7 years, it seems fine so far".
+Grandma User *does* know that: "Bitcoin Core has been running for 6 years, it seems fine so far".
 
 Grandma User *can not* know that her money will be safe under the new rules of "Bitcoin Core II Duo". She doesn't have what it takes (150+ IQ points, technical inclination / CS PhD, a network of experts, and 100+ hours of free time), so, **she must trust an authority**. A hard fork elevates those who are Technical, Persuasive, or Endorsed, to "non-peer" status.
 
@@ -472,9 +471,9 @@ From there, the problem gets worse. Say x is the probability of hard-fork disast
 
 As with the very Federal Reserve System that Bitcoin aims to replace, these elite "non-peers" will [1] Team Up for [greater collective clout per non-expert info-processed](https://en.wikipedia.org/wiki/Duverger%27s_law), [2] import credibility from [top credential-ers](http://web.mit.edu/), [3] [entwine themselves with existing players](http://www.newyorker.com/business/currency/inside-the-fight-over-bitcoins-future), [4] [formally entrench themselves](http://coinjournal.net/gavin-andresen-mike-hearn-will-be-the-benevolent-dictator-of-bitcoinxt/) to prevent the "wrong" people from making changes to Bitcoin.
 
-In the extreme, an environment of frequent hard forks would eventually obviate the need for validation rules at all, and 
+In the extreme, an environment of frequent hard forks would eventually obviate the need for validation rules at all, and [the people in charge would just be doing whatever they wanted](http://www.truthcoin.info/images/chancellor.png).
 
-The initial esoteric --technical and (subjectively) meritocratic-- will collapse into a formal power structure. The minority who understood "original Bitcoin" will be powerless to prevent "new Bitcoin" from morphing slowly into the existing system.
+The initial esoteric --technical and (subjectively) meritocratic-- would collapse into a formal power structure. The minority who understood "original Bitcoin" will be powerless to prevent "new Bitcoin" from morphing slowly away from the principles that originally made it distinctive.
 
 #### Conclusion: Remove the Contention
 
@@ -482,7 +481,7 @@ I'm not saying that we should *never* hard fork, only that doing so does tremend
 
 The decentralization of Hard-Forking can be *increased* as the "contention" *decreases*. I am aware of [only one way](http://steshaw.org/economics-in-one-lesson/chap15p2.html) to [transform subjective judgments](https://en.wikipedia.org/wiki/Economic_calculation_problem) into [objective information](http://www.truthcoin.info/blog/win-win-blocksize/), as such a method must be itself P2P ("non-capture-able", ie, allows anyone to express their [anonymous] judgment, without permission), incentive compatible, and produces a non-degradable signal ("common" knowledge supporting "free coordination").
 
-Decentralization increases if contentious forks are met with hostility: forked coins should immediately be sold, businesses who transact in them should be ostracized, individuals who support them should be discredited. A social norm of hostility decreases the risk that a Bad Hard Fork will accidentally "unpay" everyone (ie, makes it cheaper for everyone to maintain their full node).
+Decentralization increases if contentious forks are met with hostility: forked coins could immediately be sold, businesses who transact in them could be ostracized, individuals who support them should be discredited. A social norm of hostility would decrease the risk that a Bad Hard Fork will accidentally "unpay" everyone (ie, makes it cheaper for everyone to maintain their full node), but it would also make it harder to "upgrade" the software. It is a tradeoff, like anything else.
 
 
 ## Bring on the Big Server Farms
@@ -535,6 +534,7 @@ Compare that to **this**:
 ![Cloud](/images/fiorina.png)
 
 "On day one in the Oval Office I would make two phone calls. The first one would be to my good friend Bibi Netanyahu, to assure him that we will stand with the State of Israel. The second will be to the **Supreme Leader of Iran**. He might not take my phone call, but he would get the message, and the message is this: Until you open every **Nuclear** and every **Military facility** to full, open, anytime, anywhere, for real, inspections, we are going to make it **as difficult as possible for you to move money around the global financial system**. I hope congress says no to [the Iran deal], but, realistically, even if they do, the money is flowing...**we have to stop the money flow**." (emphasis added)
+
 -Carly Fiorina, Widely-Regarded "Winner" of the [Fox News 5 PM Debate](http://video.foxnews.com/v/4406890723001/watch-a-replay-of-fox-news-5-pm-presidential-debate/?#sp=show-clips) for **2016 Presidential Candidate**, beginning 39:50.
 
 #### Conclusion (Usenet Analogy)
@@ -590,9 +590,11 @@ However, the Lightning Network configuration *is* much more rational, specialize
 
 
 ## Increasing Decentralization
-> To improve Bitcoin, improve Tor. Tor needs a supply curve (which Bitcoin can provide)!
+> To improve Decentralization, make full nodes cheaper. One overlooked way to do this is with a "Tor supply curve" (which Bitcoin can provide)!
 
-If a full node cannot be run anonymously, "the network" (full node entry) is effectively controlled by law enforcement, a central entity. The current largest "cost", to running a full node (and current bottleneck to Bitcoin scalability) is therefore the threat of jail-time/persecution.
+Given our conclusion, the easier it is to start up a new full node, the more decentralized Bitcoin will be. How can we make full nodes cheaper (or, more expensive, in a way that *trades-off* some unneeded decentralization [in return for that other stuff we might want]).
+
+I'd ignore mundane expenses like hardware and power. If a full node cannot be run anonymously, "the network" (full node entry) is effectively controlled by law enforcement, a central entity, so my view is that the current largest "cost" (and current bottleneck to Bitcoin scalability) is therefore the threat of jail-time/persecution.
 
 One way to address this bottleneck would be to increase the supply of "Tor-Bandwidth". However, Tor-Bandwidth has a big problem: the anonymity prevents anyone from paying for it. This means that it cannot be bought or sold, its price is fixed at zero, and we will only have what is volunteered.
 
@@ -600,12 +602,11 @@ One way to address this bottleneck would be to increase the supply of "Tor-Bandw
 
 Moreover, "available at no cost" also means "it can be attacked at no cost". This is highly problematic, as the price cannot even react to the attack ("react to changes in scarcity"), and the [lack of price prevents capital investments from efficiently increasing](https://en.wikipedia.org/wiki/Economic_calculation_problem) bandwidth. (After all, our internet service providers built the current internet to purposefully have limited consumer upstream bandwidth because that's what the market told them we wanted).
 
-
-Anyone looking to improve Bitcoin's decentralization might look at integrating Bitcoin payment channels with Tor nodes. Once decentralization is improved, we *might* be more comfortable "trading off" some decentralization for other things we'd like to have (ie, bigger blocks, and cheaper/more-numerous transactions).
+Anyone looking to improve Bitcoin's decentralization might look at integrating Bitcoin payment channels with Tor nodes (or metering bandwith in VPNs, or in general). Keep in mind that more decentralization is not always better: as decentralization improves, we can be more comfortable "trading off" some for other things we'd like to have (ie, bigger blocks, and cheaper/more-numerous transactions).
 
 
 ## Conclusion
 
-To increase decentralization, focus on making a full node cheaper. "Decentralizers" include the Lightning Network, Tor, and metered bandwidth services.
+To increase decentralization, focus on making a full node cheaper. "Decentralizers" include the Lightning Network, Tor, and metered bandwidth services. 
 
 I will be [in Montreal](https://scalingbitcoin.org/montreal2015/) to discuss this and [related](http://www.truthcoin.info/blog/win-win-blocksize/) issues.
