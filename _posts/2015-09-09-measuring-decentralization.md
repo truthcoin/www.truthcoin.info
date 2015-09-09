@@ -592,9 +592,16 @@ However, the Lightning Network configuration *is* much more rational, specialize
 ## Increasing Decentralization
 > To improve Decentralization, make full nodes cheaper. One overlooked way to do this is with a "Tor supply curve" (which Bitcoin can provide)!
 
+### The Last Discontinuity
+
 Given our conclusion, the easier it is to start up a new full node, the more decentralized Bitcoin will be. **How can we make full nodes cheaper** (or, more expensive, in a way that *trades-off* some unneeded decentralization [in return for that other stuff we might want])**?**
 
 I'd ignore mundane expenses like hardware and power. If a full node cannot be run anonymously, "the network" (full node entry) is effectively controlled by law enforcement, a central entity, so my view is that **the current largest "cost"** (and current bottleneck to Bitcoin scalability) is therefore **the threat of persecution**.
+
+It is a shame to have come so far, only have one tiny subjective abstraction interfere with my presentation of *an actual number*.
+
+
+### Intermediate-Good Bitcoin
 
 One way to address this bottleneck would be to increase the supply of "Tor-Bandwidth" (or equivalent "internet anonymity"). However, Tor-Bandwidth currently has a big problem: the anonymity prevents anyone from paying for it. This means that it cannot be bought or sold, its price is fixed at zero, and we will only have what is volunteered.
 
