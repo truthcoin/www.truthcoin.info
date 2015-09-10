@@ -322,6 +322,8 @@ Now for a more complex topic:
 
 ### Development: 100% Decentralized, Unless we Hard Fork
 
+<br>
+
 ![ford](/images/ford.png)
 
 
