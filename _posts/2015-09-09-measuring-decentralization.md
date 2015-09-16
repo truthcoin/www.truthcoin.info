@@ -172,7 +172,7 @@ Only they really "know" if anyone has been paid. Not you.
 
 ##### Non-CONOP Comments
 
-A high-status individual with ["name recognition"](https://en.wikipedia.org/wiki/Name_recognition) (such as Gavin Andreesen), can completely overpower even a group of honest/well-informed friends. This is because name recognition is <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">common</a>, and allows for "free coordination", whereas [private or even mutual\* knowledge do not allow for such coordination](https://www.youtube.com/v/3-son3EJTrU?start=488&end=630&version=3&autoplay=1).
+A high-status individual with ["name recognition"](https://en.wikipedia.org/wiki/Name_recognition) (such as Gavin Andresen), can completely overpower even a group of honest/well-informed friends. This is because name recognition is <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">common</a>, and allows for "free coordination", whereas [private or even mutual\* knowledge do not allow for such coordination](https://www.youtube.com/v/3-son3EJTrU?start=488&end=630&version=3&autoplay=1).
 
 \* There is a definition-mismatch in the video, Pinker's "mutual" knowledge is wikipedia's "common" knowledge.
 
