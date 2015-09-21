@@ -289,7 +289,7 @@ Were an *entire financial system* on-blockchain, the derivatives on that blockch
 
 #### The TOR Alternative
 
-So the *entire business*, suppliers to customers, has to be on blockchain. But **it must avoid relying on reusable human-input**, ie *no labor*. If, instead, the laborers are going to be the owners, such laboers don't need to bother writing any code, they can simply start [an independent business on TOR](https://en.wikipedia.org/wiki/Silk_Road_%28marketplace%29) (and, perhaps, jointly contributing to any open source libraries upon which they jointly depend). There are no incentive problems, or software bugs, at all, if the business-owner is making all of the administrative decisions directly!
+So the *entire business*, suppliers to customers, has to be on blockchain. But **it must avoid relying on reusable human-input**, ie *no labor*. If, instead, the laborers are going to be the owners, such laboers don't need to bother writing any code, they can simply start [an independent business on TOR](https://en.wikipedia.org/wiki/Silk_Road_%28marketplace%29). There are no incentive problems, or software bugs, at all, if the business-owner is making all of the administrative decisions directly!
 
 ### The Money Calculator is good for...a Casino?
 
