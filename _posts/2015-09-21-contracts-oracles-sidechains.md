@@ -1,10 +1,10 @@
 ---
-title: Smart Contracts need Oracles, Oracles need Governance, Governance needs Sidechains
+title: Oracles are the Real Smart Contracts
 comments: true
 ---
 
 
-> Why Ethereum has no use cases, and how the 51%-attack "vulnerability" of Sidechains can actually create use cases (by enabling Oracles, the Real smart contracts).   
+> Smart Contracts need Oracles, Oracles need Governance, Governance needs Sidechains. Ethereum cannot support Oracles, and has no use-cases.
 
 ## When Shackles Empower: The [Autonomy](https://www.youtube.com/v/_lOT2p_FCvA?&version=3&autoplay=1)-[Coordination](https://www.youtube.com/v/93walxW7mjQ?start=146&end=442&version=3&autoplay=1) Tradeoff
 > Some freedoms contradict each other. By oppressing contradictory freedoms, total freedom can actually increase.
@@ -15,7 +15,7 @@ Skip this section (To "The Anarchy of Ethereum") if you already buy this (obviou
 
 Imagine a world where we all had the ability ("freedom") to fold a "magic paper airplane" and throw it into the sky, at which point it would travel magically toward, and into, the sun...causing the sun to magically explode, destroying all life on this planet.
 
-![plane](images/paper-plane.jpg)
+![plane](/images/paper-plane.jpg)
 
 Obviously, in this world, governments would be (with the utmost diligence) scanning the skies for paper-airplanes, and burning them down with long range space-lasers (or something), and then tracking down those responsible.
 
@@ -69,7 +69,7 @@ From now on:
 
 The free market uses "brands" as robust indicator of reputation (allowing merchants to "add" quality to a good and "sell" it), but these brands don't work if competitors are free to copy them.
 
-![poor-oracle](images/oracle-dies.png)
+![poor-oracle](/images/oracle-dies.png)
 
 #### Fool Me Once
 
@@ -95,7 +95,7 @@ So we need that long-run surplus to exist (which it often does), and we need a w
 
 In [*practice*](https://en.wikipedia.org/wiki/Information_asymmetry), two conditions aren't realistically breakable ("incentive compatibility" and "individual rationality"), but the typical third is ripe for breakage: "balanced budget", which assumes that the mechanism does *not* have to pay out any money of its own (ie, the "doubling" of the cash in the money-bowl experiment).
 
-![Myserson](images\myerson.png)
+![Myserson](/images/myerson.png)
 
 "Mechanisms that get external data" are going *to need to pay* data-providers, not just for their time/effort, but also for [their honesty and cooperation](https://en.wikipedia.org/wiki/Quasi-rent) (their "brand").
 
@@ -177,8 +177,8 @@ Thus, the Bitcoin community is protected against globally inefficient ("parasiti
 What about Altcoin Smart Contracts (neither pegged nor merged-mined)?
 
 
-## Counterfeiters vs. Capitalists ("Choosing to remain poor.")
-> Selective Sidechains can safely emulate Smart Contracts, but the reverse is impossible. When coupled with the network effects of money, the resulting competition will obliterate any Altcoin smart contract system.
+## Counterfeiters vs. Capitalists
+> Selective Sidechains can safely emulate Smart Contracts, but the reverse is impossible. When coupled with the network-effects of money, the resulting competition will likely obliterate any Altcoin smart contract system.
 
 Let's examine the relative situation of these two "Families" of Blockchain: Oracle Family (BTC pegged sidechains governed by miners) and Contract Family (non-merged Altcoin, where anything goes).
 
@@ -188,7 +188,7 @@ Hopefully obvious: every question that you can ask a computer ("2+2"), you can a
 
 Oracles can go well beyond Contracts, and do [many, many other things](http://www.truthcoin.info/papers/3_PM_Applications.pdf) (for example, tap useful financial datafeeds with "What is the BTC/USD exchange rate?", "What is the price of Gold?", etc).
 
-![oracleknows](/images/oracles-knows.png)
+![oracleknows](/images/oracle-knows.png)
 
 One might argue that it is "more expensive" to ask a human being vs. a computer. Perhaps, [perhaps](http://www.salon.com/2006/07/24/turks_3/) [not](http://eprint.iacr.org/2015/702.pdf). Moreover, Oracles can *actually be* mere computers. The only requirement I outline here is that Oracles must be "overpaid" ([compensated](https://en.wikipedia.org/wiki/Quasi-rent) for their *honesty* in addition to their *labor*). They don't need to be humans.
 
@@ -240,7 +240,7 @@ So, the use-cases of Introspective Ethereum will either be absorbed into Sidecha
 What if they don't? It still doesn't matterm, because:
 
 ## Non-Oracle Smart Contracts Are Useless, Anyway
-> Ethereum's value proposition was something *general*, that would enable a high quantity of previously-impractical projects to be quickly created. However, Ethereum's use cases are few (if not zero), making the objective of generality inappropriate.
+> Ethereum's value proposition was something *general* (enabling a high rate of project-creation). However, Ethereum's use cases are few (if not nonexistent), making the "generality" objective inappropriate.
 
 For a start:
 
@@ -252,16 +252,16 @@ Long before computers, our society invented a "good enough" way to make all cont
 
 Even today, contracts are mostly self-enforced by *the party who feels he <b>would</b> lose* (ie, lose to the Authority that **he** never plans to see).
 
-Of course, that "If the Authority were 'just'..." was a big "if".
+Of course, that "**IF** the Authority were 'just'..." was a big "if".
 
 #### Getting the Good Authority
 
 In the old days, **competition** kept Authorities in line. For example, in [The Merchant of Venice](http://shakespeare.mit.edu/merchant/merchant.4.1.html), Shylock is trying to get a contract enforced by an Authority:
 
-  The pound of flesh, which I demand of him,
-  Is dearly bought; 'tis mine and I will have it.
-  If you deny me, fie upon your law!
-  There is no force in the decrees of Venice.
+    The pound of flesh, which I demand of him,
+    Is dearly bought; 'tis mine and I will have it.
+    If you deny me, fie upon your law!
+    There is no force in the decrees of Venice.
 
 Those first three lines are directed *to* the court, but the fourth is a "what if" warning, hurled dramatically to the court's nearby (non-participating) audience. By which he means "if **we (Venice)** violate the principle of contract-enforcement, **we (Venice)** will suffer".
 
@@ -273,7 +273,7 @@ No.
 
 ### A Fundamental Limitation: CryptoLaw [without CryptoPolice](https://www.youtube.com/v/H_imYEe1FA8?start=1223&end=1290&version=3&autoplay=1)
 
-Although it purports to be "crypto-law", real "law" can be **enforced** on *real people*. Ethereum can only **edit** *ledgers in computers*; it can't get Shylock any flesh. At worst, it can [subtract your *digital* assets](http://www.truthcoin.info/blog/limits-of-blockchain/) (if and only if you choose to subject them to this risk). If Ethereum wants to affect the non-digital "real world", it will *lose all of the benefits of being a P2P computer network*, (and be in conflict with Real Law, which *does* have an armed police force).
+Although it purports to be "crypto-law", real "law" can be **enforced** on *real people*. Ethereum can only **edit** *ledgers in computers*; it can't get Shylock any flesh. At worst, it can [subtract your *digital* assets](http://www.truthcoin.info/blog/limits-of-blockchain/) (if, and only if, you choose to subject them to this risk). If Ethereum wants to affect the non-digital "real world", it will *lose all of the benefits of being a P2P computer network*, (and be in conflict with Real Law, which *does* have an armed police force).
 
 
 
@@ -289,7 +289,7 @@ Were an *entire financial system* on-blockchain, the derivatives on that blockch
 
 #### The TOR Alternative
 
-So the *entire business*, suppliers to customers, has to be on blockchain. But **it must avoid relying on reusable human-input**, ie *no labor*. But if the laborers are going to be the owners, they would certainly be better off starting [an independent business on TOR](https://en.wikipedia.org/wiki/Silk_Road_%28marketplace%29) (and, perhaps, jointly contributing to the open source libraries upon which they jointly depend). There are no incentive problems, or software bugs, at all, if the business-owner is making all of the administrative decisions directly!
+So the *entire business*, suppliers to customers, has to be on blockchain. But **it must avoid relying on reusable human-input**, ie *no labor*. If, instead, the laborers are going to be the owners, such laboers don't need to bother writing any code, they can simply start [an independent business on TOR](https://en.wikipedia.org/wiki/Silk_Road_%28marketplace%29) (and, perhaps, jointly contributing to any open source libraries upon which they jointly depend). There are no incentive problems, or software bugs, at all, if the business-owner is making all of the administrative decisions directly!
 
 ### The Money Calculator is good for...a Casino?
 
@@ -300,11 +300,11 @@ Seemingly, the only activities which reliably cut out the external world are "ca
 
 We can check this theory against [a published list of every DAPP](https://docs.google.com/spreadsheets/d/1VdRMFENPzjL2V-vZhcc_aa5-ysf243t5vXlxC2b054g/edit?pli=1#gid=0) (accessed August 2015). Here's all that (supposedly) made it to the "demo" level:
 
-![EthDapps](images/eth-dapps.png)
+![EthDapps](/images/eth-dapps.png)
 
 Black strikethroughs are for "[intermediate goods](https://en.wikipedia.org/wiki/Intermediate_good)" (only as useful as whichever [final good](https://en.wikipedia.org/wiki/Final_good) [they support](https://en.wikipedia.org/wiki/Circular_reasoning)), red denotes "already in Bitcoin", green denotes "Oracle" (will not survive parasitism), and blue denotes "casino". So, including the new [provably-fair pyramid scheme](http://www.coinbuzz.com/2015/08/10/ethereum-offers-first-verifiable-pyramid-schemes/), "casino" characterizes 3 of the 7 discovered uses.
 
-None of the four errors (orange arrows) concern me: they are either clearly-bad ideas (which are either [1] asking users to pay tx-fees for what they can already do for free, or [2] so prohibitively [vague](http://www.scribd.com/doc/252917347/IBM-ADEPT-Practictioner-Perspective-Pre-Publication-Draft-7-Jan-2015)/[complex](http://www.informationisbeautiful.net/visualizations/million-lines-of-code/) that I have a hard time believing they are really at the "demo" stage). So I'd say my theory is closer to 100%.
+None of the four errors (orange arrows) concern me: they are so clearly Bad Ideas (which are either [1] asking users to pay tx-fees for what they can already do for free, or [2] so prohibitively [vague](http://www.scribd.com/doc/252917347/IBM-ADEPT-Practictioner-Perspective-Pre-Publication-Draft-7-Jan-2015)/[complex](http://www.informationisbeautiful.net/visualizations/million-lines-of-code/) that I have a hard time believing they are really at the "demo" stage). So, I'm confident that this theory will continue to hold up over time.
 
 Of course, a Bitcoin-accepting website *can* easily emulate a casino (especially the more "fun" parts: the bright lights and entertaining sounds, to say nothing of *physical casinos* and their expansive venues, free drinks, and live entertainment). Unlike with Ethereum, there's no way to prove that such a Bitcoin website is being "fair" in its random number generation, but that's already true of the machines in physical casinos today. And *what difference could dishonesty even make*, given that **all casino games have a negative expected value**, anyway!
 
