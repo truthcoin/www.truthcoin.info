@@ -61,8 +61,7 @@ This is the most severe failure case, and deserves a bit of discussion.
 
 While this project aspires to be the simplest "Bitcoin 2.0 project" (consisting of Bitcoin with new dimensions [Branches, Votecoins, Decisions, Markets, and Shares] and new message types). Nonetheless, Bitcoin had several severe bugs (enabling counterfeiting or outright theft) which were only discovered after years of real-world testing. It is likely that this project will have a correspondingly higher number of bugs, discovered over a correspondingly longer period of time (several years).
 
-
-
+A greater concern is the onboarding of new developer-talent. If new developers do not understand Truthcoin and its pieces, they will make mistakes in maintaining and upgrading it. I have attempted to make the documentation extensive for this reason, but it alone is likely to be insufficient.
 
 
 ### Project Inspires Widespread Legality/Social-Acceptance of Prediction Markets

@@ -31,6 +31,8 @@ In The Media
 
 - [The June 2014 Let's Talk Bitcoin Interview](http://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-episode-117-the-truth-matrix)
 
+- [September 2015 Epicenter Bitcoin](https://epicenterbitcoin.com/podcast/097/)
+
 - [InsideBitcoins Articles (via google)](https://www.google.com/search?q=site:insidebitcoins.com+truthcoinn)
 
 - [CoinDesk Articles (via google)](https://www.google.com/search?q=site%3Areddit.com+truthcoin#q=site:coindesk.com+truthcoin)
