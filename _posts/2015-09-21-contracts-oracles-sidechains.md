@@ -242,7 +242,7 @@ What if they don't? It still doesn't matterm, because:
 ## Non-Oracle Smart Contracts Are Useless, Anyway
 > Ethereum's value proposition was something *general* (enabling a high rate of project-creation). However, Ethereum's use cases are few (if not nonexistent), making the "generality" objective inappropriate.
 
-For a start:
+Let's start by locating the problem Ethereum is trying to solve.
 
 ### All "definitely-enforced" Contracts are already "Smart"
 
@@ -312,7 +312,7 @@ Of course, a Bitcoin-accepting website *can* easily emulate a casino (especially
 
 On January 9th, 2009, Bitcoin was published to the cryptography mailing list. **Three days later**, Hal Finney received a payment from Satoshi Nakamoto over the internet. The payment was revolutionary: it had almost every desirable feature of money rolled into one, on the information superhighway no less. Simply: the payment promised a new world of better payments. 
 
-On July 30th, 2015, Ethereum "launched". Three days later, nothing of any significance happened whatsoever. Months after that, the [publicized list](https://www.ethereum.org/) of "Some Projects Using Ethereum", in addition to *solely* consisting of Oracle and Physical projects (which, again, are *incompatible* with Ethereum), are [laughable](http://slock.it/index.php?c=20150901_vision) [id](https://www.youtube.com/v/qX8R7NMFSME&version=3&autoplay=1)[eas](https://www.youtube.com/v/tPrPozLdYZg&start=2108&end=2215&version=3&autoplay=1), [fraudulent misinterpretations of my own (Oracle-dependent) work](https://en.wikipedia.org/w/index.php?title=Augur_%28software%29&type=revision&diff=676222882&oldid=676200222), projects which [misunderstand the very purpose of loans by ignoring the essential concept of liquidity and assuming that someone who needs to borrow $1 in cash is willing to front $1.50 in cash](https://makerdao.com/), and, believe it or not, [projects whose entire website, locate-able codebase, and documentation comprises all of *six sentences*](http://airlock.me/). 
+On July 30th, 2015, Ethereum "launched". Three days later, nothing of any significance happened whatsoever. Months after that, the [publicized list](https://www.ethereum.org/) of "Some Projects Using Ethereum", in addition to *solely* consisting of Oracle and Physical projects (which, again, are *incompatible* with Ethereum), are [laughable](http://slock.it/index.php?c=20150901_vision) [id](https://www.youtube.com/v/qX8R7NMFSME&version=3&autoplay=1)[eas](https://www.youtube.com/v/tPrPozLdYZg&start=2108&end=2215&version=3&autoplay=1), [fraudulent misinterpretations of my own (Oracle-dependent) work](http://www.augur.net/), projects which [misunderstand the very purpose of loans by ignoring the essential concept of liquidity and assuming that someone who needs to borrow $1 in cash is willing to front $1.50 in cash](https://makerdao.com/), and, believe it or not, [projects whose entire website, locate-able codebase, and documentation comprises all of *six sentences*](http://airlock.me/). 
 
 Things are actually worse, in practice, than I expected they'd be, when I drafted this post (January 2015). Why is it so bad??
 
