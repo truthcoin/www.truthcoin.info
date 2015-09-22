@@ -19,7 +19,7 @@ Imagine a world where we all had the ability ("freedom") to fold a "magic paper 
 
 Obviously, in this world, governments would be (with the utmost diligence) scanning the skies for paper-airplanes, and burning them down with long range space-lasers (or something), and then tracking down those responsible.
 
-What would society do to someone caught throwing such an doom-plane? Jail them at the very least. What if other objects (fireworks, kites, baseball, ...) interfered with plane-scanning systems? Obviously these previously-enjoyed activities would all be totally banned. We would lose some of our "freedoms", and that's sad.
+What would society do to someone caught throwing such a doom-plane? Jail them at the very least. What if other objects (fireworks, kites, baseball, ...) interfered with plane-scanning systems? Obviously these previously-enjoyed activities would all be totally banned. We would lose some of our "freedoms", and that's sad.
 
 But, dead people aren't "free" to do anything (and "anything" includes "fireworks"), so not-banning is more-sad.
 
@@ -82,7 +82,7 @@ Clearly, we must somehow *use multiple results*...but multiple results delivered
 Why, the very concept of "Honesty" *requires* "Memory" (and "Identity").
 
 
-Then, our focus is this very interesting and very common position: [non-compliance is *short-run* profitable](https://www.youtube.com/v/F0VHiONkot8?start=331&end=360&version=3&autoplay=1), but **a period of <i>lengthy</i> compliance generates greater total well-being**. [A group can harvest that surplus and divide it up](https://www.youtube.com/v/l-bflQuRLbU?start=125&end=150&version=3&autoplay=1), effectively [coordinating their mutually-prosperous joint-future](https://en.wikipedia.org/wiki/Folk_theorem_(game_theory).
+Then, our focus is this very interesting and very common position: [non-compliance is *short-run* profitable](https://www.youtube.com/v/F0VHiONkot8?start=331&end=360&version=3&autoplay=1), but **a period of <i>lengthy</i> compliance generates greater total well-being**. [A group can harvest that surplus and divide it up](https://www.youtube.com/v/l-bflQuRLbU?start=125&end=150&version=3&autoplay=1), effectively <a href="https://en.wikipedia.org/wiki/Folk_theorem_(game_theory)">coordinating their mutually-prosperous joint-future</a>.
 
 
 But if there are no stable identities ("brands"), there's no way to remember "who" complied in the past. If you are paired with a new faceless player each round, "your interactions" aren't really "repeated"; you [might as well be playing all of the rounds at the same time](https://en.wikipedia.org/wiki/Information_set_(game_theory)); the "long run" is non-existent!
@@ -119,7 +119,7 @@ But of course today's point is that **permissionless** smart contracting systems
 
 Behold this outline for a Smart Contract:
 
-1. Offer all the functionality of a pre-determiend "Host" Oracle Contract.
+1. Offer all the functionality of a pre-determined "Host" Oracle Contract.
 2. Wait for the Oracle to report. In other words:
 	1. Access the database of the Host's blockchain (by tracking things like block number, block date, SPV proofs, etc).
 	2. Scan the database for anything perfectly-correlated to the External Data fetched by the Host Oracle (contract state, payouts to certain addresses).
@@ -328,7 +328,7 @@ What if Satoshi had shipped a C++ compiler (a "general blockchain-creation platf
 
 Is a new complier useful if it can only be used to write casino software? Is a new alphabet useful if it can only be used within a casino? Is a pen useful if it can only write the word "casino"? Of course not: generality's value is in being *unrestricted* and able to meet many needs.
 
-And even supposing you *do* find a specific use-case, and you *do* write a quality piece of software, you *still* have the problem of [learning](https://twitter.com/jgarzik/status/645229506266038273) that it is [secure](https://www.youtube.com/v/Y6hZhdZuct0?start=1023&end=1090&version=3&autoplay=1) and [worth using](https://www.youtube.com/v/Y6hZhdZuct0?start=1143&end=1172&version=3&autoplay=1) and [*convincing others of what you've learned*](http://forum.truthcoin.info/index.php/topic,119.msg386.html#msg386). The accumulation of *security* isn't general (across contracts) at all (although it **is** for each Oracle question).
+And even supposing you *do* find a specific use-case, and you *do* write a quality piece of software, you *still* have the problem of [learning](https://twitter.com/jgarzik/status/645229506266038273) that it is [secure](https://www.youtube.com/v/Y6hZhdZuct0?start=1023&end=1090&version=3&autoplay=1) and [worth using](https://www.youtube.com/v/Y6hZhdZuct0?start=1143&end=1172&version=3&autoplay=1) and [*convincing others of what you've learned*](http://forum.truthcoin.info/index.php/topic,119.msg386.html#msg386). The accumulation of *security* isn't general (across contracts) at all (unlike with a sequence of Oracle-questions, where it **is** the same Honest-or-Not mapping each time).
 
 And, on top of that, unless Ethereum is redesigned to give contracts the equivalent of a soft fork, [any accumulated security is obliterated upon every software update](http://www.truthcoin.info/blog/measuring-decentralization/).
 
