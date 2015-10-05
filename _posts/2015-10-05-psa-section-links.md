@@ -1,6 +1,6 @@
 ---
 title: PSA - Linking to a Blog Section
-comments: true
+comments: false
 ---
 
 
@@ -34,4 +34,6 @@ Here's what you do.
 ![LinkResult](/images/link-result.png) <br><br><br>
 
 
-The "header id" is annoying to get, but you can usually just *guess* it. Just look for something big and bold, and modify it a little: make it all lowercase, replace the spaces with dashes, and just remove everything that isn't a letter.
+The "header id" is annoying to get, but you can usually just *guess* it. Just look for something big and bold, and modify it a little: [1] make it all lowercase, [2] replace the spaces with dashes, and [3] just remove everything that isn't a letter.
+
+Happy reading.
