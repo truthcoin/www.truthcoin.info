@@ -34,6 +34,6 @@ Here's what you do.
 ![LinkResult](/images/link-result.png) <br><br><br>
 
 
-The "header id" is annoying to get, but you can usually just *guess* it. Just look for something big and bold, and modify it a little: [1] make it all lowercase, [2] replace the spaces with dashes, and [3] just remove everything that isn't a letter.
+The "header id" is annoying to get, but you can usually just *guess* what it is (they are generated automatically). Look for something big and bold (the header), and modify it a little: [1] remove everything that isn't a letter, [2] make all the letters lowercase, and [3] replace the spaces with dashes.
 
 Happy reading.
