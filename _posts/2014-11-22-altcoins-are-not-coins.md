@@ -1,11 +1,12 @@
 ---
-title: Altcoins Aren't Money, They're Bitcoin's Casino
+title: Altcoins Aren't Money, They're Bitcoin's Casino/Laundromat
 comments: true
 ---
 
-> Altcoins aren't money in theory or practice. Instead, they represent gambling opportunities. One result of this is a confused public dialog about cryptocurrency.
+> Altcoins aren't money in theory or practice. Instead, they represent gambling and/or money-laundering opportunities. One result of this is a confused public dialog about cryptocurrency.
 
 ![CasinoChips](/images/chips_smaller.png) 
+
 
 (**So sorry** to *still* beat up on obviously-stupid copycoins when I should be talking about Why BitUSD Shouldn't Be Worth Exactly $1, Why Sidechains Don't Hurt Anyone, Why Counterparty Can't Last, or [My theories on why I can't find **even one** use-case for Ethereum](http://forum.truthcoin.info/index.php/topic,90.msg540.html#msg540). I'll be back at it later today.)
 
@@ -90,6 +91,17 @@ The bounces represent payoffs in the various games available to Bitcoin-owners i
 
 Post-payout, you cash out your chips (sell the Altcoins for Bitcoins), and leave the casino.
 
+## Remedial Privacy (aka "Money Laundering")
+
+Gambling can have its fun moments, of course, but a casino can also perform many non-gambling functions. One in particular is relevant: [money laundering](https://en.wikipedia.org/wiki/Casino_regulations_under_the_Bank_Secrecy_Act#Suspicious_activity).
+
+Bitcoin is [highly anonymous already](http://www.coindesk.com/stealth-addresses-secret-bitcoin-privacy/): you can [1] receive coins secretly, [2] send them to yourself an arbitrary number of times, and [3] claim that you sent them to someone else. However, some people desire a little more.
+
+Consider the anticipated design of (the *completely* private) [Zerocash](http://zerocash-project.org/): an "accumulator" checks that all the transactions were valid, but then forgets the history of transactions (remembering only 'what-action' claims 'how-many-coins'). Sound familiar? Sending Bitcoin "round-trip" through altchains (including Altcoins) moves some of the record-keeping somewhere else, and all that's ultimately remembered is the final balances.
+
+![LiteCoinAtlas](/images/litecoin-atlas.png) 
+
+It should go without saying that this "use case" is short-lived; as actual Bitcoin privacy improves, these privacy-substitutes will be handily out-competed, and eliminated.
 
 ## Why Write This Post? 
 > Three Reasons: Network Effects, Network Effects, and Network Effects.
@@ -103,6 +115,8 @@ The existence of 180 world-currencies is not evidence against this logic. Nation
 We have only **one** internet, in which we freely make many choices, trade heavily with each other. This implies **one** internet-currency (Bitcoin).
 
 The existence of 500+ entries on CoinMarketCap might, then, demand an explanation. It is this: Despite their name, these "coins" are **not money**. They are **not** competitors to Bitcoin, they are not competitors to the dollar or any other money. They have an expected value-storage-ability of zero.
+
+
 
 ### Altcoins Don't Exist
 
