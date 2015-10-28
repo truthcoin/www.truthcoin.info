@@ -72,7 +72,9 @@ We might hope that miners, out of the kindness of their hearts, would simply kee
 
 This isn't acceptable to me - in equilibrium, miners consume all of their BTC revenues (which are all spent on operating or capital costs), and it is easy to imagine miners making planning their capital investments to align with the 4 year Bitcoin halving cycle ("we're going to run these into the ground until the reward halves, and then replan from there"), as mining hardware itself rarely lasts longer than 2 years anyway.
 
-The cost of altruistic mining can be roughly estimated. Currently, miners collectively earn 2016\*25\*300 = over $15 million dollars in revenue each difficulty cycle. These inputs might all change, of course, but, if they didn't, the 2016 halving would slash this revenue by over $7,000,000. If miners were already running at cost, this 7M figure is the cost of keeping 10 minute blocks. Worse still, such altruism would prevent the subsequent difficulty adjustment from being representative; we'd be trapped in Altruism Prison, losing money the whole time.
+The cost of altruistic mining can be roughly estimated. Currently, miners collectively earn 2016\*25\*300 = over $15 million dollars in revenue each difficulty cycle. These inputs might all change, of course, but, if they didn't, the 2016 halving would slash this revenue by over $7,000,000. If miners were already running at cost, this 7M figure is the cost of keeping 10 minute blocks. Worse still, such altruism would *prevent* the subsequent difficulty adjustment from being representative; miners would only keep themselves trapped in Altruism Prison, losing money the whole time.
+
+Moreover, "we" are increasingly unable to "help" the miners...ongoing professional hardware-specialization makes our "civilian hardware" (home PCs, phones) overwhelmingly irrelevant.
 
 
 #### Upon Each Blockreward Halving, Also Halve the Difficulty 
