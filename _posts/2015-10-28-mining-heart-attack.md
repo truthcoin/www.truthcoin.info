@@ -121,7 +121,7 @@ I did some [preliminary Excel math](/images/impact-of-reward-change.xlsx) to tak
 
 ![Issuance](/images/btc-reserve.png)
 
-The soft fork eventually starts accumulating larger-and-larger proportions of tinier-and-tiner blockrewards, such that ~65,000 BTC remain trapped in the bank forever.
+The soft fork eventually starts accumulating larger-and-larger proportions of tinier-and-tinier blockrewards, such that ~65,000 BTC remain trapped in the bank forever.
 
 ### Costs
 
@@ -146,6 +146,10 @@ To prevent an interesting situation might emerge where miners attempt to raid th
 ### How did this happen?
 
 It seems strange to see a design flaw in Bitcoin, something which was otherwise so perfectly-crafted. I'm inclined to think that the inherent fairness of the static "50 BTC per block" appealed to Satoshi; that he anticipated a great deal of criticism off the bat, and didn't want to be hearing "I don't want to join this! You've already started mining and got all the easiest blocks for yourself!".
+
+And, it certainly is easier to explain "you get 50 of them with each block, but this number drops by half every four years" than it is to say " 'a formula' determines how many BTC you get".
+
+Or, [perhaps I have misunderstood](http://imgur.com/t2sfuot)? What do you think?
 
 <!-- zzz
 
