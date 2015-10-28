@@ -97,14 +97,14 @@ Something like this:
 
 Where r refers to the quantity of BTC released per block, t refers to the block number (ie, "time"), and lambda is some parameter. (Little t is used to index on r, but big T refers to the actual number itself).
 
-### Fork Types
+#### Fork Types
 
 This can be done either with a hard fork or with a soft fork.
 
 While any hard fork can replace one issuance policy with another, a soft fork must obey the original issuance rules. This can be done by storing coins in a kind of "softfork reserve account", with special rules allowing only *future* block-finders to withdraw. Because the bank can never have a negative balance under soft fork, such a change would involve some sacrifice on the part of the miners (they'd be losing coins that they'd otherwise be able to keep). A hard fork, freed from the original rules, can reduce this problem.
 
 
-### Details
+#### Details
 
 I did some [preliminary Excel math](/images/impact-of-reward-change.xlsx) to take a first look at the potential issuance schedule and its effect on miners. This analysis is oversimplified (a year spans just a single row, instead of 6\*24\*365 = 52,560 rows), and I would (obviously) improve it before making a formal proposal. The specific numbers are, of course, irrelevant; only the concepts are relevant.
 
@@ -125,7 +125,7 @@ I did some [preliminary Excel math](/images/impact-of-reward-change.xlsx) to tak
 
 The soft fork eventually starts accumulating larger-and-larger proportions of tinier-and-tinier blockrewards, such that ~65,000 BTC remain trapped in the bank forever.
 
-### Costs
+#### Costs
 
 Most of the damage (~ 81/119 ~= 68%) is done whether the fork is soft or hard.
 
@@ -133,7 +133,7 @@ This damage (the cost to miners, of loaning these coins to the bank without comp
 
 Of course, mining revenues are mostly driven by the exchange rate itself, so we have to weigh this cost against any BTC appreciation that might occur as a result of this change.
 
-### How the Soft Fork Might Work
+#### How the Soft Fork Might Work
 
 As mentioned, the soft fork would still allow miners to "mine" 25 BTC per 10 minutes. Some portion of these 25 would simply be 'frozen' (metaphorically, they would be "placed" into a "miner-bank").
 
