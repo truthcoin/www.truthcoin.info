@@ -9,9 +9,9 @@ Special thanks to Marshall Long, Greg Maxwell, Mark Freidenbach, and Adam Back f
 
 ## The Problem
 
-This issue is one which might temporarily Bitcoin completely, requiring a hard fork to get it unstuck. It becomes more dangerous over the next 20-30 years (likely most dangerous in 2020 or 2024), but then quickly declines.
+This issue is one which *might disable Bitcoin completely*, requiring a (simple) hard fork to get it "unstuck". This issue becomes more dangerous over the next 20-30 years (likely most dangerous in 2020-2028), but then quickly declines.
 
-I'll break it into halves:
+I'll break it into two subproblems:
 
 
 ### SubProblem 1: The blockreward halving instantly cuts miner revenues by a huge fraction.
