@@ -30,7 +30,7 @@ Figure. On the left, the reward-halving dominates the block-reward; on the right
 
 Every two weeks, the total costs of mining (namely, the difficulty) reset such that the average miner achieves an expected [economic profit](http://www.investopedia.com/terms/e/economicprofit.asp) of zero. Those in the bottom half can no longer afford to operate, and they (eventually) switch their miners off and drop out of the system.
 
-Of course, this is an academic simplification of actual mining. It ignores [1] uncertainty (in all factors) and [2] 'permanent advantages' ("free" power, geographic distribution of energy sources, ASIC engineering secrets), but those artifacts merely slow the inevitable' this is an ever-present, fundamentally underlying process of filtration.
+Of course, this is an academic simplification of actual mining. It ignores [1] uncertainty (in all factors) and [2] 'permanent advantages' ("free" power, geographic distribution of energy sources, ASIC engineering secrets), but those artifacts merely slow the inevitable: this is an ever-present, fundamentally underlying process of filtration.
 
 As the lower-quality miners get filtered out, [the filter reacts to the increase in quality](https://en.wikipedia.org/wiki/Red_Queen_hypothesis) by becoming more intense. Eventually, only a few top quality miners will remain. These miners might follow *different* best-practices (all the solar-power miners might have a different set of best practices than the hydro-power miners), but **all miners should eventually have tiny, and <u>equal</u> economic profit margins**.
 
@@ -70,7 +70,7 @@ In the near term, miners are different enough (and the exchange rate is already 
 
 We might hope that miners, out of the kindness of their hearts, would simply keep mining (at a loss) to prevent Bitcoin from dying (and prevent their specialized hardware from depreciating to zero).
 
-This isn't acceptable to me - in equilibrium, miners consume all of their BTC revenues (which are all spent on operating or capital costs), and it is easy to imagine miners making planning their capital investments to align with the 4 year Bitcoin halving cycle ("we're going to run these into the ground until the reward halves, and then replan from there"), as mining hardware itself rarely lasts longer than 2 years anyway.
+This isn't acceptable to me - in equilibrium, miners consume all of their BTC revenues (which are all spent on operating or capital costs), and it is easy to imagine miners who plan their capital investments to align with the 4 year Bitcoin halving cycle ("we're going to run these into the ground until the reward halves, and then replan from there"). Mining hardware itself rarely lasts longer than 2 years, anyway.
 
 The cost of altruistic mining can be roughly estimated. Currently, miners collectively earn 2016\*25\*300 = over $15 million dollars in revenue each difficulty cycle. These inputs might all change, of course, but, if they didn't, the 2016 halving would slash this revenue by over $7,000,000. If miners were already running at cost, this 7M figure is the cost of keeping 10 minute blocks. Worse still, such altruism would *prevent* the subsequent difficulty adjustment from being representative; miners would only keep themselves trapped in Altruism Prison, losing money the whole time.
 
