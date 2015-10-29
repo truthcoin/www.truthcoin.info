@@ -20,7 +20,7 @@ Of course, this assumes [1] that transaction fees are negligible and [2] the Bit
 
 Transaction fees are currently around 1% of miner-revenues, and no one expects this proportion to significantly increase anytime soon. Even if transaction fees were 50% of revenues (wildly optimistic), the reward-halving would still cut total revenues by (1/4), a sizable proportion.
 
-The Bitcoin exchange rate ([important to miners](https://blockchain.info/charts/miners-revenue?timespan=all&showDataPoints=false&daysAverageString=1&show_header=true&scale=0&address=)) shouldn't change in response to the difficulty halving, at all. By [Weak Efficient Markets](https://en.wikipedia.org/wiki/Efficient-market_hypothesis), anyone who believes that the USD/BTC price will imminently double, should be buying immediately (and bidding up the price). I've previously written that, [because of "saturation", Bitcoin might have some immunity to the EMH](http://www.truthcoin.info/blog/deflation-the-last-word/#the-long-run-belongs-to-the-best-savers), but (like all EMH-resistance) this immunity is constantly hard at work, canceling itself out. 
+The Bitcoin exchange rate ([important to miners](https://blockchain.info/charts/miners-revenue?timespan=all&showDataPoints=false&daysAverageString=1&show_header=true&scale=0&address=)) shouldn't change in response to the difficulty halving, at all. By [Weak Efficient Markets](https://en.wikipedia.org/wiki/Efficient-market_hypothesis), anyone who believes that "the USD/BTC price will imminently double", should be buying immediately (and bidding up the price). I've previously written that, [because of "saturation", Bitcoin might have some immunity to the EMH](http://www.truthcoin.info/blog/deflation-the-last-word/#the-long-run-belongs-to-the-best-savers), but (like all EMH-resistance) this immunity is constantly hard at work, canceling itself out. 
 
 ![sp1](/images/sp-1.png)
 
@@ -46,7 +46,7 @@ Because an average is just a single number, it necessarily contains less total i
 
 ### Combined
 
-The problem is when these effects happen at once.
+The problem is when these two effects happen at the same time.
 
 ![Prob](/images/prob.png)
 
@@ -81,7 +81,7 @@ Moreover, "we" are increasingly unable to "help" the miners...ongoing profession
 
 Clearly the intent was to cut profits in half, not revenues. Unfortunately, there's no clear way for the protocol to learn about miner's profit margins.
 
-One (hard fork) idea is to simultaneously halve the difficulty (with the reward); this *might* work, but instead it might simply delay the problem for 2016 blocks (which might all mined in one week, instead of two), at which point the difficulty would double...landing us right back where we started. If 'halving the difficulty' perfectly halved the total costs of mining (including overhead and labor), and the blockreward perfectly halved the revenues (ie, transactions fees were nonexistent and the exchange rate never changed), then it might work, but difficulty has a stronger relationship with **time** that it does with cost (and revenues are driven mostly by Bitcoin's exchange rate).
+One (hard fork) idea is to simultaneously halve the difficulty (with the reward); this *might* work, but instead it might simply delay the problem for 2016 blocks (which might all mined in one week, instead of two), at which point the difficulty would double...landing us right back where we started. If 'halving the difficulty' perfectly halved the total costs of mining (including overhead and labor), and the blockreward perfectly halved the revenues (ie, transactions fees were nonexistent and the exchange rate never changed), then it might work, but difficulty has a stronger relationship with **time** than it does with cost (and revenues are driven mostly by Bitcoin's exchange rate).
 
 ![ProbImage](/images/in-one-image.png)
 
@@ -142,6 +142,7 @@ We might require the "bank" to be an ['ANYONE-CAN-SPEND'](https://en.bitcoin.it/
 This would be the first soft fork which is not obviously a [Pareto improvement](https://en.wikipedia.org/wiki/Pareto_efficiency): it harms a subset of individuals (the miners) --if we neglect to consider that miners would also be harmed by Bitcoin's collapse as a result of this unfixed problem. This is particularly interesting because miners are the very group which turn soft forks on and off. At around year 2020, the ANYONE-CAN-SPEND address will have accumulated over 450,000 BTC (today, worth over $120 million).
 
 To prevent an interesting situation might emerge where miners attempt to raid those funds, possibly by bribing users to upgrade their software, or by lobbying in some other way, notice:
+
 1. Regular users would almost certainly have upgraded their software by then (making this a little more like a hard fork).
 2. An un-forked block is too valuable for its own good. Worth more than surrounding blocks by a factor of 72,000 ( = 450,000/6.25), The Block that rewards all these coins would be fought over endlessly (as new miners will most certainly jump online to mine this single block, and then refuse to participate in a chain that does not allow them to win). So, threats to start a fight aren't very credible.
 
