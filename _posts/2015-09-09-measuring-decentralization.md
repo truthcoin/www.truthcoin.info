@@ -71,7 +71,7 @@ Notice the phrase "pure P2P". **[Bitcoin's whitepaper](https://bitcoin.org/bitco
 
 The phrase "cutting of the head(s)" is a clue to the *underlying principle*: "**Why** is Bitcoin P2P?" (Might we achieve this goal another [non-P2P] way?)
 
-Clearly, the "Decentralized" image still has a "head" that can be "cut off". In fact (worse than that), if I reorder/relabel the /images, the "decentralized" option is the most-headed of all!
+Clearly, the "Decentralized" image still has a "head" that can be "cut off". In fact (worse than that), if I reorder/relabel the images, the "decentralized" option is the most-headed of all!
 
 
 ![diagram](/images/hierarchy.png)

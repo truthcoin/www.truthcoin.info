@@ -237,7 +237,7 @@ Ultimately, as Bitcoin takes over [the internet](https://en.wikipedia.org/wiki/O
 
 So, the use-cases of Introspective Ethereum will either be absorbed into Sidechains (or [businesses](http://www.truthcoin.info/blog/limits-of-blockchain/)) designed for such a purpose, or simply fade away.
 
-What if they don't? It still doesn't matterm, because:
+What if they don't? It still doesn't matter, because:
 
 ## Non-Oracle Smart Contracts Are Useless, Anyway
 > Ethereum's value proposition was something *general* (enabling a high rate of project-creation). However, Ethereum's use cases are few (if not nonexistent), making the "generality" objective inappropriate.
