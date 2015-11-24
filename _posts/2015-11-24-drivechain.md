@@ -4,7 +4,7 @@ comments: true
 ---
 
 
-> Sell your altcoins. Ethereum is obsolete. Bitcoin Core and BitcoinXT can coexist. Cool new upgrades to Bitcoin are on the way. All hard forks have become soft forks.
+> With sidechains, altcoins are obsolete, Bitcoin smart contracts are possible, Bitcoin Core and BitcoinXT can coexist, all hard forks can become soft forks. Cool new upgrades to Bitcoin are on the way!
 
 ![Logo](/images/drivechain.png)
 
