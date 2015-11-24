@@ -219,13 +219,15 @@ While "anyone" can spend these coins, miners agree via soft fork not to move the
 7. If the vote tally reaches a known level, Z\*=500, WT^ can be added to the very same block, as a normal, valid Bitcoin transaction.
 8. For all Bitcoin txns of this kind (those spending outputs which start with a 4), nodes much check [1] that the first 119 bits of the tx match something in the coinbase data, [2] that the coinbase data indeed has z=Z\* "votes", and [3] that the votes were accumulated over the desired x time period.
 
+These graphics are high-resolution, and get larger if you view them in new tabs, or save them:
+
 ![WT-Timeline](/images/drivechain-timeline.png)
 
-A graphic of the Drivechain timeline.
+Above: a graphic of the Drivechain timeline.
 
 ![WT-Transactions](/images/wt-txns.png)
 
-Figure of three WTs being combined into a WT^.
+Above: figure of three WTs being combined into a WT^.
 
 
 Notice that:
@@ -276,7 +278,7 @@ For **Level 3**, we'll get serious, and assume that most Bitcoin users (and mine
 
 First, we might write each miner's general financial return as:
 
-{ 1 }  R =  ( [ u + k ] - c ) / c
+{ 1 } .. R =  ( [ u + k ] - c ) / c
 
 Where c is the costs of mining, u is "normal" miner revenues, and k is "attack" revenues. All variables would be a statistical [expectation](https://en.wikipedia.org/wiki/Expected_value) of [present value](https://en.wikipedia.org/wiki/Present_value), and we can assume that miners always want to maximize this return. Thanks to the ongoing difficulty adjustments, miners who fail to optimize their returns will eventually be operating at a loss. I'll assume that it isn't possible for a huge amount of malicious, financially-irrational mining power to simply appear (as such bizarre [and necessarily-rare] occurrences could probably be [singled out as unrepresentative and dealt with](http://www.truthcoin.info/blog/measuring-decentralization/#its-not-very-effective)).
 
@@ -299,7 +301,7 @@ Attack Costs would be (depreciated coinbases + lost fees), or: PV( a\*(1-m) , r 
 
 Combined, this yields:
 
- { 2 }  k = m \* p \* ( a + b )   -  [ (1-m)\*PV(a, r) + PV(b, r) ]
+ { 2 } .. k = m \* p \* ( a + b )   -  [ (1-m)\*PV(a, r) + PV(b, r) ]
 
 Hopefully, it is clear that safety will increase if [1] the sidechain is producing tons of fees for miners to enjoy, and [2] miners are forward-looking and really care about those fees.
  
@@ -309,21 +311,21 @@ Most pessimistically, **Level 4** will assume that r = +INF, which would indicat
  
 If we then compare:
  
- { Attack }  R = [ (m \* u) + (p \* u)  - c ] / c
+ { Attack } .. R = [ (m \* u) + (p \* u)  - c ] / c
  
 ...to... 
  
- { Don't Attack } { 1 }  R =  ( [ u + k ] - c ) / c
+ { Don't Attack } .. { 1 } .. R =  ( [ u + k ] - c ) / c
  
 ...we see **the range of parameters where R is increased by attacking**:
  
- { 3a }  [ (m \* u) + (p \* u)  - c ] / c > ( [ u + k ] - c ) / c
+ { 3a } .. [ (m \* u) + (p \* u)  - c ] / c > ( [ u + k ] - c ) / c
 
- { 3b }  u/c - 1 < m\*( (1+p) \* (u/c) ) - 1
+ { 3b } .. u/c - 1 < m\*( (1+p) \* (u/c) ) - 1
  
 which ultimately reduces to:
  
- { 4 } m > 1/(1+p)
+ { 4 } .. m > 1/(1+p)
  
 What does this formula mean? Self-interested miners won't "grab coins", if doing-so "excessively destroys the market value of those coins".
 
@@ -599,7 +601,7 @@ One brave developer has already volunteered to help code this, both of us are a 
 
 ### Note on Commenting
 
-It might be most helpful if all technical questions are posted immediately below, and most news/interest/effect questions are posted on social media sites.
+It might be most helpful (to everyone) if all technical questions are posted immediately below, and most news/interest/effect questions are posted on social media sites.
 
 
 <!--
