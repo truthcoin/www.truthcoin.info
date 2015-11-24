@@ -4,7 +4,7 @@ comments: true
 ---
 
 
-> With sidechains, altcoins are obsolete, Bitcoin smart contracts are possible, Bitcoin Core and BitcoinXT can coexist, all hard forks can become soft forks. Cool new upgrades to Bitcoin are on the way!
+> With sidechains, altcoins are obsolete, Bitcoin smart contracts are possible, Bitcoin Core and BitcoinXT can coexist, and all hard forks can become soft forks. Cool upgrades to Bitcoin are on the way!
 
 ![Logo](/images/drivechain.png)
 
