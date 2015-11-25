@@ -487,7 +487,7 @@ In addition, we lump sidechain-transactions together, and deny miners the option
 
 ### Other
 
-#### How is this ("Drivechain", or "DC") differenet, or more specific, from the concepts in Appendix B of [the sidechains whitepaper](https://blockstream.com/sidechains.pdf) (the "Blockstream Version", or "BV")?
+#### How is this ("Drivechain", or "DC") different, or more specific, from the concepts in Appendix B of [the sidechains whitepaper](https://blockstream.com/sidechains.pdf) (the "Blockstream Version", or "BV")?
 
 Drivechain itself is most-similar to this suggestion:
 
