@@ -21,7 +21,7 @@ comments: true
 
 ### Reminder
 
-Sidechains allow Bitcoin to be fully programmable. Unlike Rootstock/Ethereum, however, this flexibility is accomplished in a *safe* way: by default, users can't be affected *at all* by any new programming.
+Sidechains allow Bitcoin to be fully programmable. Unlike the 'smart contracts' of a *general* environment like Rootstock/Ethereum, each individual sidechain is completely "opt-in": by default, users won't be affected *at all* by any new programming.
 
 #### Existing Work
 
