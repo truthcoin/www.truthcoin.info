@@ -31,7 +31,7 @@ So I suppose the real message is "you'd better run it by me first", or "read thi
 
 On that note: *every single entity* on [coinmarketcap.com](http://coinmarketcap.com/assets/), with the exception of Bitcoin, and, arguably, the Bitcoin-metacoins, is inherently flawed. By this, I mean, each has a *negative* economic value and **should be abandoned**. Even the metacoins won't last, they are inferior to imminently-arriving alternatives.
 
-Don't be [this guy](https://www.youtube.com/v/mLWhU3f0xlc?start=2948.1&end=2980.2&version=3&autoplay=1). [Know your stuff!](https://docs.google.com/viewerng/viewer?url=http://www.truthcoin.info/images/blockchainz.pdf)
+Don't be [this guy](https://www.youtube.com/v/mLWhU3f0xlc?start=2948.1&end=2980.2&version=3&autoplay=1). [Know your stuff!](http://forum.truthcoin.info/index.php/topic,243.0.html)
 
 
 
