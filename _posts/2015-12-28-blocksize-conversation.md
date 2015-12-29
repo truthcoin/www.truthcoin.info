@@ -19,7 +19,7 @@ You're welcome!
 Now, I guess I'll explain about those two questions in greater detail.
 
 ## Motivation and Background
-> Because of the way Bitcoin is designed, in-fighting is inevitable. In fact it be getting worse. Those who understand the problem can, at least feel better about it.
+> Because of the way Bitcoin is designed, in-fighting is inevitable. In fact it will be getting worse. Those who understand this problem can, at least, feel better about it.
 
 ### [A Lost Cause](https://en.wikipedia.org/wiki/A_Conflict_of_Visions#The_Constrained_Vision)
 
