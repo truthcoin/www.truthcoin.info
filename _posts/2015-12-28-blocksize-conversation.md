@@ -93,19 +93,23 @@ A general recipe for success, then, would be to:
 
 -->
 
-So, below, I present: the **Blocksize Camps!**
+So, below, I present: the **Common Blocksize-Arguments, grouped by <font color="green">Flavor</font>**.
 
-Notice that it is the *arguments* which are in camps, not the *arguers*. Someone who is particularly unwary might accidentally wander from Camp to Camp, unaware of their logical inconsistency. ( This is **not** to be confused with the concept of 'caution', where someone is *knowingly* concerned about multiple different things at once. )
+By 'flavor', I mean the core assumption of the form "the blocksize exists ... [ reasons ]".
+<br>
+<font color="green">Note: I have changed the word 'Camp' to 'Flavor', because it is more obvious that a person can not be a 'Flavor'. Flavors are for arguments, *Tribes* are for (unlucky) people. Tribes != Flavors == Camps. I regret using the word Camp, as it was unclear, and primed people to react defensively. I have made minor edits (viewable on Github) to emphasize this difference. It is a confusing topic, because each individual *should* care **most** about one single Flavor, at which point they could be said to be, for example, "in Camp D".</font>
+
+Notice that it is the *arguments* which come in flavors, not their *arguers*. Someone who is particularly unwary might accidentally <font color="green">mix all kinds of Flavors together</font>, unaware of their potential for logical inconsistency. ( This is **not** to be confused with the concept of 'caution', where someone is *knowingly* concerned about multiple things at once. )
 
 What is a blocksize limit?
 
 Help me end the madness:
 
-### Camp A: It isn't anything (not anything useful, anyway).
+### <font color="green">Flavor</font> A: It isn't anything (not anything useful, anyway).
 
 #### Sample Arguments
 
-This camp includes phrases such as:
+This <font color="green">flavor</font> includes phrases such as:
 
 * "We must raise the limit, because we are about to hit it!"
 * "We don't have time to try anything else [Lightning Network]."
@@ -115,7 +119,7 @@ As well as:
 
 * "The soft limit imposed by individual miners will work just fine."
 * "The blocksize limit will never be a binding constraint, anyway."
-* "Let the free market determine [transaction fees / the block size]."
+* "Let the free market ("something else") determine [transaction fees / the block size]."
 
 It does **not** include an argument of the form:
 
@@ -126,10 +130,9 @@ It does **not** include an argument of the form:
 
 #### Implications
 
-Those in Camp A would remove the blocksize limit altogether. Their "ideal blocksize limit" (IBL) is infinite.
-
+<font color="green">Flavor</font> A necessarily implies that the blocksize limit should be removed altogether.
     
-### Camp B - It Stops Validators from Being Robbed by Users
+### <font color="green">Flavor</font> B - It Stops Validators from Being Robbed by Users
     
 Each Bitcoin transaction needs to be..
 
@@ -145,7 +148,7 @@ Who should pay for them? Clearly, the user (ie "they who wish to transact"). The
 
 #### Sample Arguments
 
-Camp B arguments include:
+<font color="green">Flavor</font> B arguments include:
 
 * "The number of full nodes has been falling."
 * "It will be too difficult for X to run a full node."
@@ -156,28 +159,28 @@ And so forth. It does not necessarily contradict the premise that a blocksize in
         
 #### Implications
 
-This Camp, to be logically consistent, should advocate that the blocksize limit increase when "running a node" becomes easier. Correspondingly, Camp B should advocate that the limit *decrease*, when/if running a node becomes too difficult.
+This <font color="green">Flavor</font>, to be logically consistent, concludes that the blocksize limit should increase when "running a node" becomes easier. Correspondingly, <font color="green">Flavor</font> B concludes that the limit should *decrease*, when/if running a node becomes too difficult.
 
-It seems that this Camp's ideal blocksize limit (IBL) would be primarily driven by the availability of bandwidth, and by improvements in hardware (fiber / CPUs / hard drives) and by improvements in the software which utilizes that hardware.
+It seems that this <font color="green">Flavor</font>'s ideal blocksize limit (IBL) would be primarily driven by the availability of bandwidth, and by improvements in hardware (fiber / CPUs / hard drives) and by improvements in the software which utilizes that hardware.
         
-#### Subcamp B2 - Selfish mining / block-propagation
+#### Sub<font color="green">Flavor</font> B2 - Selfish mining / block-propagation
         
-This camp is primarily worried about the validation performed by miners. Specifically, these arguments emphasize that miners will be unable or unwilling to validate properly (and that this lack-of-validation is bad).
+This <font color="green">flavor</font> emphasizes the validation performed by miners. Specifically, these arguments emphasize that miners will be unable or unwilling to validate properly (and that this lack-of-validation is bad).
 
 For B2, any technology which improves block propagation (improved bandwidth, the miner relay network, "weak" blocks, IBLTs, ...) would favor a higher IBL.
 
 
-#### Subcamp B3 - O(n^2) Fundamentalism
+#### Sub<font color="green">Flavor</font> B3 - O(n^2) Fundamentalism
         
-B3 implies that everyone is running a full node (or needs to be able to do so). From this, it is clear that each new Bitcoin user (n) will receive payments at a full node, and all other nodes (\* (n-1)) must also receive, validate, and permanently store the transactions sent to this new node (in contrast to, for example, the lightning network, where this is not a requirement).
+The B3 <font color="green">Flavor</font> implies that everyone is running a full node (or needs to be able to do so). From this, it is clear that each new Bitcoin user (n) will receive payments at a full node, and all other nodes (\* (n-1)) must also receive, validate, and permanently store the transactions sent to this new node (in contrast to, for example, the lightning network, where this is not a requirement).
 
-Someone invoking B3-arguments may be interested in new technology (ie, 'fraud proofs' enabled by segregated witness, ability to quickly compare reports from different full nodes, resistance to Eclipse attacks, zk-SNARKS) that enables users to trust full nodes which they did not create. However, such individuals may also reject these technologies as insufficient substitutes for a full node.
-
-
-B3 will always tend to favor a very low blocksize, as, from principles of mathematics, we know that f(n)=n^2 reacts explosively as n increases. However, individuals can be expected to leave B3 if/when Bitcoin's adversarial environment changes. For example, if the entire world uses only Bitcoin, few would be interested in attacking it and SPV security would probably be fine.
+Someone invoking B3-flavors, may be interested in new technology (ie, 'fraud proofs' enabled by segregated witness, ability to quickly compare reports from different full nodes, resistance to Eclipse attacks, zk-SNARKS) that enables users to trust full nodes which they did not create. However, such individuals may also reject these technologies as insufficient substitutes for a full node.
 
 
-### Camp C - It is a Stabilizer
+B3 will always tend to advocate a very low blocksize, as, from principles of mathematics, we know that f(n)=n^2 reacts explosively as n increases. However, individuals can be expected to leave B3 if/when Bitcoin's adversarial environment changes. For example, if the entire world uses only Bitcoin, few would be interested in attacking it and SPV security would probably be fine.
+
+
+### <font color="green">Flavor</font> C - It is a Stabilizer
 
 Some believe that the Blocksize limit removes fluctuations from Bitcoin's state. This belief is associated with questions like:
 
@@ -189,9 +192,9 @@ And tends to be associated with the phrase "constant backlog of transactions".
 
 #### Implications
 
-A Camp C's argument would tend to support a blocksize which slowly and continually increases, until problematic fluctuations arise, or are expected to arise (at which point the limit is halted or decreased).
+A C-<font color="green">Flavor</font> would tend to support a blocksize which slowly and continually increases, until problematic fluctuations arise, or are expected to arise (at which point the limit is halted or decreased).
 
-The IBL of Camp C would be driven by..
+The IBL of <font color="green">Flavor</font> C would be driven by..
 
 1. ..demand for BTC transactions, (which is in turn driven by "substitutes" [off-chain alternatives, altcoins, ...] and "compliments" [SilkRoad, JoyStream, ...]).
 2. ..improvements the technology which manages payments (fee-aware / fee-minimizing wallet software, lightning network).
@@ -199,9 +202,9 @@ The IBL of Camp C would be driven by..
 
 As these drivers improve, we can have a higher IBL without the risk of severe fluctuations.
 
-Camp C is more focused on the long term, and those who take arguments from Camp C are likely also to borrow from other Camps.
+<font color="green">Flavor</font> C is more focused on the long term, and those who take arguments from <font color="green">Flavor</font> C are likely also to borrow from other <font color="green">Flavor</font>s.
         
-### Camp D - It represents Decentralization / a Contract (and must be upheld, on Principle).
+### <font color="green">Flavor</font> D - It represents Decentralization / a Contract (and must be upheld, on Principle).
 
 If Bitcoin's rules can be changed by someone, then what matters isn't the rules themselves, but the people who control these rules. Some arguments object to this, implying that things are *inherently better for Bitcoin* if no one is in charge.
 
@@ -214,11 +217,11 @@ For example:
 
 #### Implications 
 
-Camp D would feel more comfortable if the decision-making process became more transparent (or longer, and more difficult to subvert), or, perhaps, if Satoshi reappeared (or new info was learned about his design).
+<font color="green">Flavor</font> D would lose relevance if the decision-making process became more transparent (or longer, and more difficult to subvert), or, perhaps, if Satoshi reappeared (or new info was learned about his design).
 
-However, Camp D is unlikely to ever desire the blocksize (or anything else about Bitcoin) to change, absent some existential threat. If Litecoin, or Ethereum, ever grew so as to be taken seriously, this might persuade Camp D to increase the blocksize.
+However, <font color="green">Flavor</font> D rarely, if ever, allows the blocksize (or anything else about Bitcoin) to change. Perhaps the sole counterexample would be an existential threat: if Litecoin, or Ethereum, ever grew so as to be taken seriously, this might persuade <font color="green">Flavor</font> D aficionados to rethink the relevance of the social contract, and increase the blocksize.
         
-#### Subcamp D2 - "Moral Hazard" / Antifragility
+#### Sub<font color="green">Flavor</font> D2 - "Moral Hazard" / Antifragility
 
 Some people try to avoid doing things "the easy way". There's some wisdom to it: "the crutch begets atrophy", "comfort is where we stop growing", "necessity is the mother of invention", and so forth.
 
@@ -226,7 +229,7 @@ Arguments in D2 ask: would we ever *have heard of* the Lightning Network (or Seg
 
 #### Implications 
 
-D2 would not want to increase the blocksize while, for example: [1] good ideas are still being worked on, [2] good ideas are still being theorized and introduced regularly, and [3] there exists a shortage of good developers.
+D2 would want to stall all "easy changes" (of any cost, no matter how small or ambiguous) while: [1] good ideas are still being worked on, [2] good ideas are still being theorized and introduced regularly, and [3] there exists a shortage of good developers.
 
 
 ## Part Two: Using the Blocksize
@@ -283,10 +286,11 @@ Or, best of all, search for a better way of doing things, one which eliminates t
 
 ### Bottlenecks
 
-Nothing prevents someone from using arguments from several Camps at once (unless they draw from Camp A, of course). After all, you can wear a leather jacket for more than one reason: to look stylish *and* to stay warm on a cold day.
+Nothing prevents someone from using arguments from several <font color="green">Flavor</font>s at once (unless they draw from <font color="green">Flavor</font> A, of course). After all, you can wear a leather jacket for more than one reason: to look stylish *and* to stay warm on a cold day.
 
 If two blocksize-purposes are equally relevant, then the blocksize limit can only increase when circumstances have improved in both areas. You'd need it to be a warm-enough day, and you'd need to be not-interested in looking stylish (perhaps because you have the flu or something).
 
+However, at each point in time, we can expect one single constraint to be the most constraining...the "bottleneck" constraint. So, while one can mix flavors, one flavor should dominate. Someone who predominantly uses arguments from a single flavor, for example Flavor D, could be said to be "in Camp D".
 
 
 ## Final Thoughts
