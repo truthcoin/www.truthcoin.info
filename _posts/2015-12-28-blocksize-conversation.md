@@ -97,8 +97,8 @@ So, below, I present: the **Common Blocksize-Arguments, grouped by <font color="
 
 By 'flavor', I mean the core assumption of the form "the blocksize exists ... [ reasons ]".
 <br>
-<font color="green">Note: I have changed the word 'Camp' to 'Flavor', because it is more obvious that a person can not be a 'Flavor'. Flavors are for arguments, *Tribes* are for (unlucky) people. Tribes != Flavors == Camps. I regret using the word Camp, as it was unclear, and primed people to react defensively. I have made minor edits (viewable on Github) to emphasize this difference. It is a confusing topic, because each individual *should* care **most** about one single Flavor, at which point they could be said to be, for example, "in Camp D".</font>
-
+<font color="green">Note: I have changed the word 'Camp' to 'Flavor', because it is more obvious that a person can not be a 'Flavor'. Flavors are for arguments, *Tribes* are for (unlucky) people. Tribes != Flavors == Camps. I regret using the word Camp, as it was unclear, and primed people to react defensively. I have made minor edits (viewable on [Github](https://github.com/truthcoin/www.truthcoin.info/commit/93a6c1e7282596c2f1317f08521be36f22c61a25)) to emphasize this difference. It is a confusing topic, because each individual *should* care **most** about one single Flavor, at which point they could be said to be, for example, "in Camp D".</font>
+<br>
 Notice that it is the *arguments* which come in flavors, not their *arguers*. Someone who is particularly unwary might accidentally <font color="green">mix all kinds of Flavors together</font>, unaware of their potential for logical inconsistency. ( This is **not** to be confused with the concept of 'caution', where someone is *knowingly* concerned about multiple things at once. )
 
 What is a blocksize limit?
