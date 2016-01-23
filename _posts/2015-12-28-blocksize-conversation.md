@@ -148,7 +148,7 @@ Who should pay for them? Clearly, the user (ie "they who wish to transact"). The
 
 #### Sample Arguments
 
-<font color="green">Flavor</font> B arguments include:
+The <font color="green">Flavor B arguments include:
 
 * "The number of full nodes has been falling."
 * "It will be too difficult for X to run a full node."
@@ -202,7 +202,7 @@ The IBL of <font color="green">Flavor</font> C would be driven by..
 
 As these drivers improve, we can have a higher IBL without the risk of severe fluctuations.
 
-<font color="green">Flavor</font> C is more focused on the long term, and those who take arguments from <font color="green">Flavor</font> C are likely also to borrow from other <font color="green">Flavor</font>s.
+Thus, <font color="green">Flavor</font> C is more focused on the long term, and those who take arguments from <font color="green">Flavor</font> C are likely also to borrow from other <font color="green">Flavor</font>s.
         
 ### <font color="green">Flavor</font> D - It represents Decentralization / a Contract (and must be upheld, on Principle).
 
@@ -217,7 +217,7 @@ For example:
 
 #### Implications 
 
-<font color="green">Flavor</font> D would lose relevance if the decision-making process became more transparent (or longer, and more difficult to subvert), or, perhaps, if Satoshi reappeared (or new info was learned about his design).
+Flavor D would lose relevance if the decision-making process became more transparent (or longer, and more difficult to subvert), or, perhaps, if Satoshi reappeared (or new info was learned about his design).
 
 However, <font color="green">Flavor</font> D rarely, if ever, allows the blocksize (or anything else about Bitcoin) to change. Perhaps the sole counterexample would be an existential threat: if Litecoin, or Ethereum, ever grew so as to be taken seriously, this might persuade <font color="green">Flavor</font> D aficionados to rethink the relevance of the social contract, and increase the blocksize.
         
