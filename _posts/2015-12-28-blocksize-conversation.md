@@ -97,7 +97,7 @@ So, below, I present: the **Common Blocksize-Arguments, grouped by <font color="
 
 By 'flavor', I mean the core assumption of the form "the blocksize exists ... [ reasons ]".
 <br>
-<font color="green">Note: I have changed the word 'Camp' to 'Flavor', because it is more obvious that a person can not be a 'Flavor'. Flavors are for arguments, *Tribes* are for (unlucky) people. Tribes != Flavors == Camps. I regret using the word Camp, as it was unclear, and primed people to react defensively. I have made minor edits (viewable on [Github](https://github.com/truthcoin/www.truthcoin.info/commit/93a6c1e7282596c2f1317f08521be36f22c61a25)) to emphasize this difference. It is a confusing topic, because each individual *should* care **most** about one single Flavor, at which point they could be said to be, for example, "in Camp D".</font>
+<font color="green">Note: I have changed the word 'Camp' to 'Flavor', because it is more obvious that a person can not be a 'Flavor'. Flavors are for arguments, *Tribes* are for (unlucky) people. Tribes != Flavors == Camps. I regret using the word Camp, as it was unclear, and primed people to react defensively. I have made minor edits (viewable on <a href="https://github.com/truthcoin/www.truthcoin.info/commit/93a6c1e7282596c2f1317f08521be36f22c61a25">GitHub</a> to emphasize this difference. It is a confusing topic, because each individual *should* care **most** about one single Flavor, at which point they could be said to be, for example, "in Camp D".</font>
 <br>
 Notice that it is the *arguments* which come in flavors, not their *arguers*. Someone who is particularly unwary might accidentally <font color="green">mix all kinds of Flavors together</font>, unaware of their potential for logical inconsistency. ( This is **not** to be confused with the concept of 'caution', where someone is *knowingly* concerned about multiple things at once. )
 
@@ -130,7 +130,7 @@ It does **not** include an argument of the form:
 
 #### Implications
 
-<font color="green">Flavor</font> A necessarily implies that the blocksize limit should be removed altogether.
+<font><font color="green">Flavor</font> A necessarily implies that the blocksize limit should be removed altogether.</font>
     
 ### <font color="green">Flavor</font> B - It Stops Validators from Being Robbed by Users
     
@@ -327,7 +327,7 @@ After all, I've already done this twice before, and no one says "This blocksize 
 * Its possible that most Blockstream / Bitcoin Core developers actually are very blocksize-liberal (or don't care), but the recent gmaxwell smear campaign has reverse-motivated them to close ranks on a consistent message (and/or destroy this Threat to Bitcoin). Similarly, it is possible that BitcoinXT developers are actually blocksize-conservative, but can't understand theymos / bitcoin.org 's arbitrary manipulation of the conversation, and have concluded "anything *that* suspicious has got to be bad".
 * Although Satoshi argued that the limit could (not "should") be eventually removed, he did made a few claims which he later walked back, and a few which later turned out to be unreasonable. Satoshi himself inserted the blocksize limit, and he did not insert any code phasing this limit out. So his original position is very ambiguous, and I'm sure he would prefer people to stop talking about it.
 * In a complex system, it is logically defensible to say "I don't know what the rule is for, but we should keep it right where it is anyway." In fact, civilization practically depends on this (namely, our laws).
-* People choose to speak up (or not speak up) for many reasons. The result is that determining "what most people think" is very very difficult. My guess is that most individuals, and most Btc, favor a 1 Mb blocksize. With four exceptions, all of the people I've met in real life support a 1 Mb blocksize.
+* People choose to speak up (or not speak up) for many reasons. The result is that determining "what most people think" is very very difficult. My guess is that most individuals, and most Btc, favor a 1 Mb blocksize. Of those people who I've physically met, in real life, mostly at Scaling Bitcoin conferences, >50% favored keeping 1 MB blocks for many months
 * The process of 'governance' is one which answers the timeless question: "How are disputes resolved?". If we set a bad governance precedent today, where disputes are resolved by a tiny group of people making incomprehensible decisions, or by backroom deals, or by reddit upvotes, we will regret it in the future.
 
 To say that "the conversation is a lost cause", isn't to say that Bitcoin is a lost cause, or the blocksize battle itself is a lost cause (for anyone).
