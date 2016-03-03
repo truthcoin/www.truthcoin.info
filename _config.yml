@@ -15,7 +15,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-permalink: /blog/:title
+permalink: /blog/:title/
 defaults:
   -
     scope:
