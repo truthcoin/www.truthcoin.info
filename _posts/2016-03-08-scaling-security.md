@@ -3,16 +3,15 @@ title: The Trusted 3rd Party Doesn't Scale (But Blockchains Do)
 comments: true
 ---
 
-
-### Summary
-
-This post aims to compare two different ways of "controlling" data that you "own" -- the "trusted 3rd party" vs. "the blockchain". It concludes that, at large scales, blockchain-tech is more likely to remain secure.
+>  At large scales, it would seem that only blockchain technology is likely to remain secure.
 
 ## Background Info
 
+This post aims to compare two different ways of "controlling" data that you "own": [1] the "trusted 3rd party" vs. [2] "the blockchain".
+
 ### Agency
 
-The separation of ownership and control is one of the most quintessential problems in economics (where it is known as ["the principal-agent problem"](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)).
+The "separation of ownership and control" is one of the most quintessential problems in economics (where it is known as ["the principal-agent problem"](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem)).
 
 Satoshi applied this framework to money, observing that, at times, banks "controlled" money which they did not "own"...and mis-used that control. This observation led him to criticize the "trust" placed in banks, and to propose an alternative where trust was minimized.
 
