@@ -87,7 +87,7 @@ One (hard fork) idea is to simultaneously halve the difficulty (with the reward)
 
 It seems that there's only one way to guarantee that the problem be removed.
 
-### Smooth the Deflation Out
+### Smooth the Disinflation Out
 
 The only ironclad solution is to replace the sudden halving of the Bitcoin coinbase with a continuous, gradual decrease.
 
