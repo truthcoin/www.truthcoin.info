@@ -100,7 +100,7 @@ This may explain why ultra-valuable systems like "the stock market" or "the mili
 
 Of course, "low-tech"-ness makes them slow, expensive, and subject to all kinds of potential for fraud, rent-seeking, corruption, etc. Low-tech systems cannot operate in cool, new ways.
 
-Worse still, as daily life becomes more digital, a greater percentage of daily life will end up in a +$200M system. Identity theft will produce greater and greater revenues, as will cyber [blackmail](http://www.csoonline.com/article/2996614/cyber-attacks-espionage/ddos-scammers-collect-20-000-with-ashley-madison-extortion.html) / [extortion](http://www.slate.com/articles/technology/future_tense/2016/02/hollywood_presbyterian_medical_center_paid_17_000_to_free_computers_from.html). The Ashley Madison and Snapchat hacks would not have been possible in the 90's.
+Worse still, as daily life becomes more digital, a greater percentage of daily life will end up in a +$200M system. Identity theft will produce greater and greater revenues, as will cyber [blackmail](http://www.csoonline.com/article/2996614/cyber-attacks-espionage/ddos-scammers-collect-20-000-with-ashley-madison-extortion.html) / [extortion](http://www.slate.com/articles/technology/future_tense/2016/02/hollywood_presbyterian_medical_center_paid_17_000_to_free_computers_from.html). The Ashley Madison and Snapchat hacks would not have been possible in the 90's; the [trend is clear](http://coinjournal.net/bitcoin-gives-the-general-public-a-reason-to-care-about-computer-security/).
 
 \*In practice, due to carelessness, complexity, agency problems, and attacker-patience (ie, "sheer luck"), the critical threshold will be much *lower* than $200 million dollars.
 
