@@ -7,7 +7,7 @@ comments: true
 
 ## Background Info
 
-This post aims to compare two different ways of "controlling" data that you "own": [1] the "trusted 3rd party" vs. [2] "the blockchain".
+This post aims to compare two different ways of "controlling" data that you "own": [1] the "[trusted 3rd party](http://szabo.best.vwh.net/ttps.html)" vs. [2] "[the blockchain](https://bitcoin.org/en/how-it-works)".
 
 ### Agency
 
@@ -92,9 +92,9 @@ The worst case, for such individuals, is a relaxed, modest, private life of leis
 
 ### Combined
 
-My hypothetical "safe only system" had a security margin of just a few dollars.
+My hypothetical "safe only system" had a security margin ceiling of just a few dollars.
 
-A trusted 3rd party setup (ie, a "centralized" setup) has, I believe, a security margin of about $200 million\* dollars.
+A trusted 3rd party setup (ie, a "centralized" setup) has, I believe, a security margin ceiling of about $200 million\* dollars.
 
 This may explain why ultra-valuable systems like "the stock market" or "the military" have *resisted* full computerization for so long. Our leaders foresee the security failures: Russia or China can bribe one or two key people (and these people escape, happily, to a beach somewhere) and foreign governments can hack right into the President's iPhone. The prospect of governments (or rich individuals), wreaking havoc on the stock market / military / basic utilities, is outright unacceptable. Hence, these systems remain -wisely- "low tech".
 
