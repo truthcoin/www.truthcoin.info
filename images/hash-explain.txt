@@ -1,5 +1,5 @@
-Short Explanation of File Hashes
--------------------------------
+SHORT EXPLANATION OF FILE HASHES
+----------------------------------
 
 Data has attributes, like 'length', 'format', 'order', etc.
 
