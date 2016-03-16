@@ -57,7 +57,7 @@ Virtually, at least.
 
 Over in the physical world, disputes are resolved by police officers, lawyers, and judges (or, more routinely, the [credible *threat* of a guilty verdict](http://www.truthcoin.info/blog/contracts-oracles-sidechains/#self-enforcing-contracts)). It's slow, expensive, and imperfect.
 
-Can technology can offer an improvement?
+Can technology offer an improvement?
 
 [Only for phenomena which are entirely virtual](http://www.truthcoin.info/blog/contracts-oracles-sidechains/#a-fundamental-limitation-cryptolaw-without-cryptopolicehttpswwwyoutubecomvhimyee1fa8start1223end1290version3autoplay1). Blockchains have only the power to alter the numbers displayed on a computer screen -- that isn't much, when compared to a court order enforced by men with guns.
 
@@ -151,7 +151,7 @@ That's wrong.
 If someone makes such a claim, ask them these questions:
 
 * If a blockchain is 'just a database', why was 'the blockchain' invented *over 50 years* after ['the database' was invented](http://quickbase.intuit.com/articles/timeline-of-database-history)? [What's new](https://www.youtube.com/v/c9CjWz2N5Hs&version=3&start=2030&end=2130&autoplay=1)?
-* Why do all cryptocurrencies (100% of production-grade 'blockchain' software) *construct their own internal database* (Bitcoin [uses LevelDB](https://en.bitcoin.it/wiki/Bitcoin_Core_0.11_(ch_2%29:_Data_Storage))?
+* Why do all cryptocurrencies (100% of production-grade 'blockchain' software) *construct their own internal database* (Bitcoin [uses LevelDB](https://en.bitcoin.it/wiki/Bitcoin_Core_0.11_%28ch_2%29:_Data_Storage))?
 * Why doesn't Bitcoin just leave the data sequence as "LevelDB", and broadcast data-updates in LevelDB format?
 
 
@@ -204,9 +204,9 @@ Well, they play "the rock game".
 1. First, they teleport to the Genesis Rock (taught to all children, famously located on the planet of mud-and-boulders).
 2. Then, they look around for any 'trench-arrows' which lead away from the Genesis Rock.
 3. They follow that trench until it interests with another rock.
-4. Once at a new rock, they climb on top of it, and look around for more trench-arrows that point to *this boulder* that you are on.
+4. Once at a new rock, they climb on top of it, and look around for more trench-arrows that point to *this rock* that they are standing on.
 5. Repeat steps 3-4, until you meet up with everyone else. Find your group, and once you've met up you can teleport somewhere together.
-6. If they ever reach a point where there are no trench-arrows around, they immediately start digging a new trench-arrow which points to the last boulder they were on.
+6. If they ever reach a point where there are no trench-arrows around, they immediately start digging a new trench-arrow which points to the last boulder they were on (this keeps them moving).
 7. Remember to constantly retrace all of your steps to look for more trenches that might have appeared. If there are two (or more) trenches pointing away from any given boulder, ignore all but the longest trench.
 
 
@@ -282,7 +282,7 @@ Secondly, there is an ongoing misunderstanding over the technical features of "p
 
 #### Those Employees Aren't Going to Fire Themselves
 
-The Catcher in the Rye, by J.D. Salinger, is now old enough to retire. But its message, of childhood naviety, gasping for air, as it drowns alone in the merciless ocean that is our omni-dissapointing reality, is timeless.
+[The Catcher in the Rye](https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye), by J.D. Salinger, is now old enough to retire. But its message, of childhood naviety, gasping for air, as it drowns alone in the merciless ocean that is our omni-dissapointing reality, is timeless.
 
 In other words, those engineers [I just mentioned as "not understanding the deal they were turning down"](http://www.truthcoin.info/blog/one-chain/#conclusion), well, they probably either *do* understand the deal, or they just never cared enough in the first place.
 
@@ -310,7 +310,7 @@ People don't always say what they mean.
 
 #### Blockchain As Signaling
 
-Paradoxically [useless investments can be useful](http://www.kenosha.org/wp-museumstore/wp-content/uploads/2015/12/KPM_peacock.jpg), because [only the most successfully-resourced can afford to waste resources](http://www.dailymail.co.uk/tvshowbiz/article-2376311/Kanye-West-Kim-Kardashian-flush-nearly-1-million-gold-plated-toilets-new-Bel-Air-mansion.html). 
+Paradoxically, [useless investments can be useful](http://www.kenosha.org/wp-museumstore/wp-content/uploads/2015/12/KPM_peacock.jpg), because [only the most successfully-resourced can afford to waste resources](http://www.dailymail.co.uk/tvshowbiz/article-2376311/Kanye-West-Kim-Kardashian-flush-nearly-1-million-gold-plated-toilets-new-Bel-Air-mansion.html). 
 
 Consider the chimerical [Hounduras-Factom Land Deal](http://www.coindesk.com/factom-land-registry-deal-honduran-government/), the nosedeaf Microsoft-Azure ["Blockchain as a Service"](https://azure.microsoft.com/en-us/blog/azure-blockchain-as-a-service-update/), and/or [whatever this is](https://bitcoinmagazine.com/articles/ukraine-government-plans-to-trial-ethereum-blockchain-based-election-platform-1455641691).
 
