@@ -1,0 +1,8 @@
+Short Explanation of File Hashes
+-------------------------------
+
+Data has attributes, like 'length', 'format', 'order', etc.
+
+One such attribute is the data's "hash", which is a kind of 'ID number'. Every sequence of data ("4", "ralph", beethoven.mp3, Game_of_Thrones_s01.zip) has a readily-derivable ID. In practice, these IDs are unique to each file (each "data sequence") -- although each ID will, theoretically, point to billions of different files, it is generally impossible to construct *any* of these files *from* a given ID [the "f(Data) = ID" function has no inverse], so these 'eponymous files' are never constructed [purposefully or accidentally] on any computer.
+
+https://en.wikipedia.org/wiki/Cryptographic_hash_function
