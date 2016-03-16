@@ -298,7 +298,7 @@ When this scheme falls apart, executives can say (with some justification) that 
 
 Engineers / specialists can say that they were ["just following orders"](http://rationalwiki.org/wiki/Nuremberg_defense). Moreover, they own no equity and can (and probably will) jump ship at the appropriate moment.
 
-Thus, the two can collectively shirk off the blame, where one could not.
+Thus, collectively they can dodge the blame which would have struck them as individuals.
 
 It works for everyone, except the investor.
 
