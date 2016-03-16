@@ -33,6 +33,12 @@ On that note: *every single entity* on [coinmarketcap.com](http://coinmarketcap.
 
 Don't be [this guy](https://www.youtube.com/v/mLWhU3f0xlc?start=2948.1&end=2980.2&version=3&autoplay=1). [Know your stuff!](http://forum.truthcoin.info/index.php/topic,243.0.html)
 
+### Disclaimer
+
+As of March 2016 I am full-time [employed at Bloq](http://bloq.com/). Those seeking advice, reports, consulting, software, etc, of the enterprise-quality, should contact <a href="mailto:sales@bloq.com" target="_top">sales@bloq.com</a>.
+
+The opinions expressed here are my own and not at all necessarily shared by Bloq Inc. In general, I cannot understate the [complexity of modern blockchain technology](https://download.wpsoftware.net/bitcoin/alts.pdf). Many of the smartest, most experienced, and most-hardworking people I have ever met, have worked in this area and made critical errors in reasoning, simply because they never understood (or knew that they had to understand) "Random Field of Knowledge X" at a near-PhD level. Anyone with a shred of wisdom will think twice, preferably several times, before relying on any of the blockchain-information presented here. I happen to believe that this is the best blockchain-econ writing on the internet -- I wouldn't write it if I didn't think people needed to read it--, but just because it is "the best", doesn't necessarily mean that it is "any good". 
+
 
 
 # Contact
