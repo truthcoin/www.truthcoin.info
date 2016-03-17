@@ -3,42 +3,40 @@ title: The Peer Database ("Private Blockchains" Done Right)
 comments: true
 ---
 
-> If anything, firms themselves might use "private blockchains" to communicate with their *competitors*.
+> If anything, firms (not users) might use "private blockchains" to communicate with their *competitor firms*.
 
 ## Intro
 
-Interest in blockchain technology [enjoyed](https://bitcoinmagazine.com/articles/ibm-deploys-blockchain-as-a-service-announces-initiatives-to-make-the-blockchain-ready-for-business-1455726071) a [meteoric](https://azure.microsoft.com/en-us/blog/azure-blockchain-as-a-service-update/) [rise](https://digitalasset.com/press/digital-asset-closes-funding-exceeding-50-million.html) in the year 2015. Unfortunately, due in part to the secretive and informal nature of blockchain expertise, most interest has been misplaced or poorly-executed. If investments in 'private blockchain' technology are going to be made at all (which is dubious), they should at least be done right. I propose a new blockchain design, the "peer database" 
+Interest in blockchain technology [enjoyed](https://bitcoinmagazine.com/articles/ibm-deploys-blockchain-as-a-service-announces-initiatives-to-make-the-blockchain-ready-for-business-1455726071) a [meteoric](https://azure.microsoft.com/en-us/blog/azure-blockchain-as-a-service-update/) [rise](https://digitalasset.com/press/digital-asset-closes-funding-exceeding-50-million.html) in the year 2015. Unfortunately, due in part to the secretive and informal nature of blockchain expertise, most interest has been misplaced or poorly-executed. If investments in 'private blockchain' technology are going to be made at all (which is dubious), they should at least be done right. I propose a new blockchain design: the "peer database". 
 
-
-
-
-## Attributes
-
-1. Private -- Members can create/enforce rules for excluding the general public / specific people. 
-2. (Optionally) Encrypted: This database technology can support [data encryption](https://www.youtube.com/v/O1Yo8bt8JAU&version=3&start=240&end=275&autoplay=1), unlike Bitcoin (which does not).
-3. "Decentralized" / Peer-to-Peer (conditional on legal): With the exception of law enforcement (authorities, who can punish criminals and prevent tools from being used), no one has any more control over the shared database than anyone else.
-4. Immutability / Automatic Data Integrity: This database is as permanent as Bitcoin's.
-5. Flexibility: Add whatever rules you want, change who can read/write/edit which parts of the database.
-
-
-Even if you're in the blockchain zone: "need to share data with people who are willing and able to defraud you", I have no idea if this will help you.
-
-But, if you wanted a "private blockchain", this is it. This is the only thing that it could be.
-
-
-
-
-
-## Design Background
-> What is a blockchain? Since no one seems to know, we'll have to deduce the most-likely meaning, all by ourselves.
-
-### End The Madness
+### Caveats
 
 It is easy to imagine a world where Private Blockchains are never used by anyone. Indeed, the [whole affair could easily be a grave misunderstanding](https://freedom-to-tinker.com/blog/randomwalker/private-blockchain-is-just-a-confusing-name-for-a-shared-database/), and the concept itself might even be a [walking contradiction](http://www.truthcoin.info/blog/private-blockchains/).
 
 But if they're going to be done, they might as well be done right. In this post I will describe a "private blockchain", as well as --and this is the real show-stopper, folks-- some *applications*.
 
 ( I challenge you to find me anywhere else, on the whole internet, where someone advocates a "private blockchain" or "permissioned ledger" [or whatever abstraction-circus term du jour], *and they also* provide a concrete example of a use-case or application. Not some [far-construal](http://www.overcomingbias.com/2012/01/far-idealism-is-hypocritical.html) empty-suit buzzword like "settlement", and actual guy today who has a problem. )
+
+
+
+
+## Attributes
+
+1. Private: Members can create/enforce rules for excluding the general public / specific people. 
+2. (Optionally) Encrypted: This database technology can support [data encryption](https://www.youtube.com/v/O1Yo8bt8JAU&version=3&start=240&end=275&autoplay=1), unlike Bitcoin (which does not).
+3. "Decentralized" / Peer-to-Peer (conditional on legal): With the exception of law enforcement (authorities, who can punish criminals and prevent tools from being used), no one has any more control over the shared database than anyone else.
+4. Immutability / Automatic Data Integrity: This database is as permanent as Bitcoin's.
+5. Flexibility: Add whatever rules you want, change who can read/write/edit which parts of the database.
+
+
+If you wanted a "private blockchain", this is it. This is, probably, the only thing it could be.
+
+
+
+## Design Background
+> What is a private blockchain? Since no one seems to know, we'll have to deduce the most-likely meaning, all by ourselves.
+
+
 
 
 
