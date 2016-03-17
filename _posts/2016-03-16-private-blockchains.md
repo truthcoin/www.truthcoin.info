@@ -271,7 +271,7 @@ Hence, Blockchain scammers can protect themselves against a simple fact -- that 
 The reality, in this case, is simple: 
 
 1. People learn about blockchain technology, and then...
-2. ...they [purchase Bitcoin](btc-dogfood) and become Bitcoin advocates.
+2. ...they [purchase Bitcoin](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) and become Bitcoin advocates.
 
 As previously mentioned, once these people *become* Intelligent Bitcoiners, they don't feel the need to correct this ongoing misinterpretation.
 
