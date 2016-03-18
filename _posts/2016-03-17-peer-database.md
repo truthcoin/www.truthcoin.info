@@ -18,8 +18,6 @@ But if they're going to be done, they might as well be done right. In this post 
 ( I challenge you to find me anywhere else, on the whole internet, where someone advocates a "private blockchain" or "permissioned ledger" [or whatever abstraction-circus term du jour], *and they also* provide a concrete example of a use-case or application. Not some [far-construal](http://www.overcomingbias.com/2012/01/far-idealism-is-hypocritical.html) empty-suit buzzword like "settlement", and actual guy today who has a problem. )
 
 
-
-
 ## Attributes
 
 1. Private: Members can create/enforce rules for excluding the general public / specific people. 
@@ -32,22 +30,16 @@ But if they're going to be done, they might as well be done right. In this post 
 If you wanted a "private blockchain", this is it. This is, probably, the only thing it could be.
 
 
-
 ## Design Background
-> What is a private blockchain? Since no one seems to know, we'll have to deduce the most-likely meaning, all by ourselves.
+> Since **no private blockchain yet exists**, we'll have to just *guess*: what on Earth do these people *think they want*?
 
-
-
-
-
-### What *is* a private blockchain, anyway?
-
-
-Since **no private blockchain yet exists**, we'll have to just *guess*: what on Earth do these people *think they want*?
+### Expertise Vacuum 
 
 ( I mean, who's supposed to be the authority in this area? [This guy?](http://www.ofnumbers.com/author/timswanson/) It would be nice if his [well-researched posts](http://www.ofnumbers.com/2015/04/26/what-has-been-the-reaction-to-permissioned-distributed-ledgers/) synthesized into an actual conclusion somewhere [instead of [R3](https://www.linkedin.com/in/timswanson) [supper-song](http://www.usingenglish.com/reference/idioms/sing+for+your+supper.html)]. [These](https://www.youtube.com/v/c9CjWz2N5Hs&version=3&start=2500&end=2620&autoplay=1) [two](https://www.youtube.com/v/O1Yo8bt8JAU&version=3&start=240&end=275&autoplay=1) aren't exactly brimming with confidence, are they? )
 
 No offense, but we're starting over, from scratch.
+
+### Privatization
 
 When people say "this is a private event", they usually mean that *some people aren't allowed*. This implies the existence of identities, and **excludability**.
 
@@ -151,7 +143,7 @@ Since [CEOs already need to sign their accounting statements](http://www.mofo.co
 This design mirrors Bitcoin's (individual users would like to cooperate, but can't trust each other to comply with rules).
 
 
-### Applications
+### Applications (!)
 
 #### Warning
 
@@ -161,9 +153,9 @@ If disputes over database-state are to be [resolved by proof-of-work, and not by
 
 Here are few guesses:
 
-#### Settlement Comments
+#### Specialization in Settlement
 
-"Settlement" is a popular one. I'm not sure about it, but here goes.
+"Settlement" is a popular word, but few people explain where the value is created. Here is my attempt:
 
 When a company exists to facilitate trust (exchange, settlement, escrow, dispute resolution), we might expect a Peer Database to help. The "data" pieces can happen in blockchain world, and the "physical" pieces are, then, freed up to become very "dumb", and can blindly obey the database.
 
