@@ -205,9 +205,9 @@ Well, they play "the rock game".
 2. Then, they look around for any 'trench-arrows' which lead away from the Genesis Rock.
 3. They follow that trench until it interests with another rock.
 4. Once at a new rock, they climb on top of it, and look around for more trench-arrows that point to *this rock* that they are standing on.
-5. Repeat steps 3-4, until you meet up with everyone else. Find your group, and once you've met up you can teleport somewhere together.
+5. "Repeat steps 3-4, until you meet up with everyone else. Find your group, and once you've met up you can teleport somewhere together!"
 6. If they ever reach a point where there are no trench-arrows around, they immediately start digging a new trench-arrow which points to the last boulder they were on (this keeps them moving).
-7. Remember to constantly retrace all of your steps to look for more trenches that might have appeared. If there are two (or more) trenches pointing away from any given boulder, ignore all but the longest trench.
+7. "Remember to constantly retrace all of your steps to look for more trenches that might have appeared. If there are two (or more) trenches pointing away from any given boulder, ignore all but the longest trench."
 
 
 Meeting like this is inconvenient.
