@@ -284,9 +284,9 @@ Secondly, there is an ongoing misunderstanding over the technical features of "p
 
 [The Catcher in the Rye](https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye), by J.D. Salinger, is now old enough to retire. But its message, of childhood naviety, gasping for air, as it drowns alone in the merciless ocean that is our omni-dissapointing reality, is timeless.
 
-In other words, those engineers [I just mentioned as "not understanding the deal they were turning down"](http://www.truthcoin.info/blog/one-chain/#conclusion), well, they probably either *do* understand the deal, or they just never cared enough in the first place.
+In other words, those engineers [I just mentioned as "not understanding the deal they were turning down"](http://www.truthcoin.info/blog/one-chain/#conclusion), well, they probably either *do* understand the deal, or they just never cared enough about "honesty" in the first place.
 
-They just have no reason to open their mouths! Explain that your boss' ideas are bad! Explain that the project is pointless, and [that you aren't really necessary](http://www.30rockquotes.net/seasons/Season_5/30rockquotes_the_fabian_strategy.cfm?highlight=189#line185)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
+They've been given no reason to open their mouths! Explain that your boss' ideas are bad!? Explain that the project is pointless, and [that you aren't really necessary](http://www.30rockquotes.net/seasons/Season_5/30rockquotes_the_fabian_strategy.cfm?highlight=189#line185)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
 
 And, with something complex like Blockchains, only the TIEs will probably know the game they're playing. If they speak up, their days of getting paid to surf the Bitcoin-internet will be over. ( Sorry, guys! )
 
@@ -294,9 +294,9 @@ And, with something complex like Blockchains, only the TIEs will probably know t
 
 The elevation of the "lie" to Team Sport, is where the magic really gets going. Together, a lie can be sustained for longer and at greater scales.
 
-When this scheme falls apart, executives can say (with some justification) that "they were misinformed" or ["no one saw it coming"](http://www.uclm.es/actividades/2009/workshopESHET-UCLM/Bezemer_-_No_one_show_this_comming.pdf).
+When "the blockchain project" falls apart, executives can say (with some justification) that "they were misinformed", that they [acted on the best available information](https://en.wikipedia.org/wiki/Herd_behavior), or that ["no one saw it coming"](http://www.uclm.es/actividades/2009/workshopESHET-UCLM/Bezemer_-_No_one_show_this_comming.pdf).
 
-Engineers / specialists can say that they were ["just following orders"](http://rationalwiki.org/wiki/Nuremberg_defense). Moreover, they own no equity and can (and probably will) jump ship at the appropriate moment.
+Engineers / specialists can say that they were ["just following orders"](http://rationalwiki.org/wiki/Nuremberg_defense). Moreover, they own no equity, and can (and probably will) jump ship at the appropriate moment.
 
 Thus, *collectively* they can dodge the blame which would have struck them as individuals.
 
