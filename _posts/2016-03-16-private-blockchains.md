@@ -266,9 +266,9 @@ Unfortunately, there's a strong element of overlap between "knowledgeable about 
 ![btc-dog](/images/btc-dogfood.png)
 
 
-Hence, Blockchain scammers can protect themselves against a simple fact -- that the people who have been working on Blockchain the longest (the Bitcoin developers) have already explored all of the good ideas -- by accusing their expert critics as "biased" or "self-interested". The truth is the reverse.
+Hence, Blockchain scammers can shield themselves from this simple fact: the people who have been working on Blockchain the longest (the Bitcoin developers) have already explored all of the good ideas. They do this by accusing their expert critics as "biased" or "self-interested".
 
-The reality, in this case, is simple: 
+However, the reality is very simple: 
 
 1. People learn about blockchain technology, and then...
 2. ...they [purchase Bitcoin](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) and become Bitcoin advocates.
