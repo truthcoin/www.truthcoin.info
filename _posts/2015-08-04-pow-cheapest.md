@@ -328,7 +328,7 @@ I wish we could do that, but, as the next section will show, we cannot.
 
 ##### Does Voting Ever Work?
 
-Voting works just fine (even very well) when the cost to casting an informed vote is zero, and the votes are aggregated appropriately (mean for a yes/no decision, median for values over a range). If votes are very easy to cast (from a smartphone or something), and the votes are only on preferences/values/priorities (which come from your own head, for free), voting *will* produce some reliable signal about which course of action would hurt the fewest people's feelings (which is a powerful, non-violent, society-organizing tool). However, in our case (of validating a blockchain's consensus, amid attackers who will *specialize* in confusing voters), an informed vote is always going to be expensive.
+Voting works just fine (even very well) when the cost to casting an informed vote is zero, and the votes are aggregated appropriately (mean for a yes/no decision, median for values over a range). If votes are very easy to cast (from a smartphone or something), and the votes are only on preferences/values/priorities (which come from your own head, for free), voting *will* produce some reliable signal about which course of action would hurt the fewest people's feelings. This signal could be a powerful, non-violent, society-organizing tool. However, in our case (of validating a blockchain's consensus, amid attackers who will *specialize* in confusing voters), an informed vote is always going to be expensive.
 
 
 ### Something To "Work" Toward(?)
