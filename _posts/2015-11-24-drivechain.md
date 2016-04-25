@@ -162,7 +162,7 @@ Essentially: **to deposit 12 Mainchain BTC to the CosbyCoin Sidechain, you'd sen
 
 #### What Type of Lock-box Should We Use? 
 
-If you're bored, skip this section (to ["Drivechain"]](http://www.truthcoin.info/blog/drivechain/#drivechain-a-simple-spv-proof)).
+If you're bored, skip this section (to ["Drivechain"](http://www.truthcoin.info/blog/drivechain/#drivechain-a-simple-spv-proof)).
 
 In Appendix B of their whitepaper, the sidechain-authors describe one thing that the box might be programmed to accept. It involves a big Bitcoin transaction which *itself* includes actual [block-headers](https://en.bitcoin.it/wiki/Protocol_documentation#Block_Headers) of a different blockchain.
 
