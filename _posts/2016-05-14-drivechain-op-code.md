@@ -28,7 +28,7 @@ Here is the distinction visually:
 
 ![two-sc-methods](/images/two-sc-methods.png)
 
-This image is from [a presentation a recently recorded](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1), which argues that **the Sidechain Method is right and the Ethereum method is wrong**.
+This image is from [a presentation I recently recorded](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1), which argues that **the Sidechain Method is right and the Ethereum method is wrong**.
 
 
 ### Getting There From Here 
@@ -64,11 +64,16 @@ I think that $1000 / day is a fair rate, considering the rarity of such individu
 
 Moreover, I feel that it would take, at most, 3 days (16 hours). To account for the planning fallacy, we'll make it 4 days.
 
+#### Official Terms
+
 To be clear, you get $4000 if one of these conditions are met:
+
 * You code a Drivechain OP_CheckVotesVerify pull request which makes it into Bitcoin Core.
 * You code a Drivechain OP_CheckVotesVerify pull request (which is not immediately the subject of ridicule for being invalid, poorly formatted, difficult to understand, etc), but the pull request is rejected **because** the Drivechain proposal is itself rejected for any reason. (If Drivechain is substantially modified, this might count as a "rejection" of the original.)
 
 These conditions are necessary, because I have a limited ability / availability to review coded submissions. Furthermore, my review would be redundant / irrelevant -- what matters is Bitcoin Core process.
+
+#### Suggested Schedule
 
 My guess is that the first day would be spent groking [the concept](http://www.truthcoin.info/blog/drivechain/). The second day would probably be spent experimenting/meditating on the appropriate way to build the MinerDB. The code itself could probably be written in a 5 hour sprint, with 3 hours for breaks. Then a whole fourth day to cover The Unforseen.
 
@@ -80,7 +85,7 @@ Nothing should make it into Bitcoin without discussion!
 
 Here I will now publish two presentations:
 
-* [Sidechain Privatization](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1) (maximizing smart contract value)
-* Bad Things About Sidechains, And What To Do About Them (forthcoming)
+* [Sidechain Privatization](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1) (maximizing smart contract value, handling net-negative in-fighting among smart contracts)
+* The Potentially Detrimental Effects of Sidechains, And What To Do About Them (forthcoming)
 
 For details about Drivechain itself, please consult [my lengthy exposition](http://www.truthcoin.info/blog/drivechain/) of the proposal.
