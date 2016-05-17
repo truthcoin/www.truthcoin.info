@@ -47,11 +47,11 @@ The Bitcoin soft fork, in contrast, is very simple. Presented compactly, it woul
     	...and discriminates the signals in that data as [1] "uninterpretable / something else", [2] "adding a sidechain", [3] "proposing a withdrawal", and [4] "upvoting or downvoting a withdrawal"...
 		...and stores/accumulates that data in a database.
 
-	2. A new OP Code "OP_CheckVotesVerify"...
+	2. A new OP Code "OP_CheckWorkScoreVerify"...
     	...which freezes coins, such that they can only be moved if...
     	...they are spent by a transaction where...
 		...the tx-ID matches a Withdrawal Entry in the MinerDB...
-     	...and the Withdrawal Entry has the appropriate quantity of votes.
+     	...and the Withdrawal Entry has the appropriate quantity of 'miner upvotes'.
 
 
 ### Help Wanted
@@ -68,8 +68,8 @@ Moreover, I feel that it would take, at most, 3 days (16 hours). To account for 
 
 To be clear, you get $4000 if one of these conditions are met:
 
-* You code a Drivechain OP_CheckVotesVerify pull request which makes it into Bitcoin Core.
-* You code a Drivechain OP_CheckVotesVerify pull request (which is not immediately the subject of ridicule for being invalid, poorly formatted, difficult to understand, etc), but the pull request is rejected **because** the Drivechain proposal is itself rejected for any reason. (If Drivechain is substantially modified, this might count as a "rejection" of the original.)
+* You code a Drivechain OP_Check<font color="green">WorkScore</font>Verify pull request which makes it into Bitcoin Core.
+* You code a Drivechain OP_Check<font color="green">WorkScore</font>Verity pull request (which is not immediately the subject of ridicule for being invalid, poorly formatted, difficult to understand, etc), but the pull request is rejected **because** the Drivechain proposal is itself rejected for any reason. (If Drivechain is substantially modified, this might count as a "rejection" of the original.)
 
 These conditions are necessary, because I have a limited ability / availability to review coded submissions. Furthermore, my review would be redundant / irrelevant -- what matters is Bitcoin Core process.
 
