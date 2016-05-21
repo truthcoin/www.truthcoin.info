@@ -1,6 +1,5 @@
-
 ---
-title: BTC Codex - Digital Identity Sidechain
+title: BTC Codex - The Digital Identity Sidechain
 comments: true
 ---
 
