@@ -74,7 +74,7 @@ The identities are associated with cryptographic keys, and these keys are manage
 
 In this system, entries are added with the form:
    
-    add( name=(First, Middle, Last), public_key=H(U), Friends=(U1, U2, ...), Weights=(W1, W2, ...) )
+    add( name=(arbitrary 100 bytes, for example First, Middle, Last), public_key=H(U), Friends=(U1, U2, ...), Weights=(W1, W2, ...) )
 
 With this command, someone joins the network. They declare their name, a newly generated public key (for which they have the private key), a set of trusted friends, and a set of weights for each friend. They also receive their private key, represented as a 12 word seed, which they write down.
 
