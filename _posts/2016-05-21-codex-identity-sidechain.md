@@ -139,7 +139,7 @@ Notice that, if a private key is stolen, the attacker cannot forge *past* contra
 
 After IDs are reset (using the social mechanism), contracts would automatically be "retroactively unsigned".
 
-Conversely, if keys are misused by their *current* owners, then cryptographic proof of this misuse will exist permanently. For example, if "John Smith 28" signs thousands of contracts (each with different, mutually-exclusive wordings and conditions) and Tieron-timestamps all of these, he *does* have the option of picking-and-choosing desirable contracts -from this set- after the fact. In this way, he has the semi-power to backdate contracts. However, if these mutually-incompatible contracts are discovered (at any point in the future), blame can be cryptographically ascribed to John Smith 28.
+Conversely, if keys are misused by their *current* owners, then cryptographic proof of this misuse will exist permanently. For example, if "John Smith 28" signs thousands of contracts (each with different, mutually-exclusive wordings and conditions) and [Tierion-timestamps](https://tierion.com/) all of these, he *does* have the option of picking-and-choosing desirable contracts -from this set- after the fact. In this way, he has the semi-power to backdate contracts. However, if these mutually-incompatible contracts are discovered (at any point in the future), blame can be cryptographically ascribed to John Smith 28.
 
 Scale
 --------
