@@ -7,19 +7,22 @@ comments: true
 Motivation & Scope
 --------------------
 
-(Basics) Any private computer system implies the existence of identities. Without them, the web would be overrun by spam, Sybil attacks, and so forth. Fortunately, authentication (usernames and passwords) was invented, allowing individuals to control, and "own" a private digital identity.
+(Basics) Any private computer system implies the existence of identities. Without identities, privacy and most commerce would be impossible, and the web would be overrun by spam, Sybil attacks, and so forth. Fortunately, authentication (usernames and passwords) was invented, allowing individuals to control, and "own" a private slice of cyberspace.
 
-(Today) Many authentication methods are used today. They are, perhaps, best arranged along a line of "convenience-security tradeoff": On one extreme, Snowden used PGP, and insisted that his correspondents use it as well (despite their considerable reluctance). On the other extreme, all Americans today use their Social Security Number as both an ID and a password -- it is used to file taxes, apply for credit, fulfill civic obligations.  The SSN is convenient because enrollment is free, automatic, and universal.
+(Today) Many authentication methods are used today. They might best be arranged along a "convenience-security tradeoff": On one extreme, Snowden used PGP, and insisted that his correspondents use it as well (despite their considerable reluctance). On the other extreme, all Americans today use their Social Security Number as an ID (and as a password) -- it is used to file taxes, apply for credit, and fulfill civic obligations.  The SSN is convenient because enrollment is free, automatic, and universal.
 
 This project aims at neither extreme, and instead seeks an intelligent trade-off between convenience and security. 
 
 ![extremes](/images/id-extremes.png)
 
 By the metric of "convenience", the SSN is the most successful.
+
 ![extremes](/images/ssn-convenient.png)
 
 However, by the metric of "security", PGP is the most successful.
 (As far as we know, the security is invincible.)
+
+### Comparison Table
 
 
 |Feature                                     |  PGP |  SSN | Codex |
@@ -55,13 +58,13 @@ This project DOES NOT address these problems:
 Design
 -------
 
-Our design calls for a blockchain which tracks and updates key-value pairs. Whereas, typically, blockchains are used to achieve decentralization, in this case one is used for security and uniqueness. Security: a single administrator cannot steal *all* of society's most valuable identities. Uniqueness: the question of "Why should I switch to your ID standard?" (which is of immense practical importance) is met with the answer that *this* one is public. There are many ways of privatizing something (one per owner), but -per algorithm- only one *public* system.
+Our design calls for a blockchain\* which tracks and updates key-value pairs. Whereas, typically, blockchains are used to achieve decentralization, in this case one is used for security and uniqueness. Security: a single administrator cannot steal *all* of society's most valuable identities. Uniqueness: the question of "Why should I switch to your ID standard?" (which is of immense practical importance) is met with the answer that *this* one is public. There are many ways of privatizing something (one per owner), but -per algorithm- only one *public* system.
 
-*A merge-mined Bitcoin sidechain.
+\*A merge-mined Bitcoin sidechain.
 
 The sidechain is financed by transaction fees. The transactions are paid by users who wish to add or update entries to the database. Nodes are run by anyone who wants (or, for compliance purposes, is required) to verify identities "properly". (Everyone else would just use Google's node).
 
-In general, the value proposition is that digital service providers (Facebook, YouTube, Disqus, etc) can replace several labor-intensive services with software. In particular, customer support tickets related to resetting accounts: either because the passwords are lost, or because accounts/identities were stolen. Moreover, the existence of a durable, long term, multipurpose digital identity may allow new services to be rendered (tiered Spam prevention, for example), and may improve existing services (encrypted email, accurate routing of payments, secure filing of taxes, etc).
+In general, the **value proposition** is that digital service providers (Facebook, YouTube, Disqus, etc) can replace several labor-intensive services with software. In particular, customer support tickets related to resetting accounts: either because the passwords are lost, or because accounts/identities were stolen. Moreover, the existence of a durable, long term, multipurpose digital identity may allow new services to be rendered (tiered Spam prevention, for example), and may improve existing services (encrypted email, accurate routing of payments, secure filing of taxes, etc).
 
 The identities are associated with cryptographic keys, and these keys are managed **in a way similar to how humans use physical keys**. Namely, on television show Seinfeld, the main characters all have copies of each other's apartment keys, for emergencies.
 
@@ -140,7 +143,7 @@ Conversely, if keys are misused by their *current* owners, then cryptographic pr
 Scale
 --------
 
-Total economic costs are unknown, but we can estimate one cost -- storage.
+Total economic costs are unknown, but we can estimate one cost: storage.
 
 Under the following assumptions:
 
@@ -158,43 +161,43 @@ A 1,000 GB hard drive costs roughly 80 USD. According [to Gallup](http://www.gal
 Problems
 ----------
 
-1] Miners might just censor updates from people they don't like.
+**1] Miners might just censor updates from people they don't like.**
 
 Not really a problem, because the database doesn't need to be realtime interactive...as long as the current database-state exists, anyone can look up a (Name, Pubkey) pair. Since they have the current pubkey (and since the pubkeys rarely change).
 
 For the duration a 51% miner-coalition is in control, however, victims will not be able to change their Name, Public Key, or Associates. So, for them, convenience has temporarily degraded to the PGP level. Nonetheless, they retain any identities they possessed before the attack began.
 
-2] Front-Running Names
+**2] Front-Running Names**
 
 This is not really a problem here (as it would be in the case of Namecoin). If "Paul Felix Sztorc" is taken, the protocol will just auto-register "Paul Felix Sztorc II" on my behalf. Then I will communicate my number to my friends.
 
 For a business, it may be more of a problem. Businesses may not need their own cryptographic identities, however (as each and every employee will have one).
 
-3] Friendship Drama
+**3] Friendship Drama**
 
 "The whole world will know that we're not best friends anymore!""
 
-Yes, yes. Very tragic. Choose family for this reason, then. Blood is thicker than...
+Yes, yes. Very tragic. Choose family, or co-workers for this reason, then.
 
-4] "Now *they* know who to torture/blackmail!"
+**4] "Now *they* know who to torture/blackmail!"**
 
 First of all, if adversaries were going through with physical capture and torture, they probably willing to put in the comparatively small effort it takes to to locate ones friends. In other words, they knew anyway.
 
 Secondly, they need 50% of your friend-weight (and, they need them at around the same time). If you choose a large enough quantity of friends, and/or individuals who are geographically distributed, then crime against the group as a whole becomes more difficult.
 
-5] This is putting too many eggs in one basket! Once an attack gets this key, they'll get into all of my stuff!
+**5] This is putting too many eggs in one basket! Once an attack gets this key, they'll get into all of my stuff!**
 
 Not necessarily. Even if this Identification method becomes widespread, to the point where it becomes the "single sign on" for the internet, it does *not* necessarily need to replace *all* the security features of, say, gmail. For one example, most websites today use two factor authentication. A second example: most websites track the *physical devices* which connect to their servers for authentication. Google will often ask you to "add a device" if your device is unfamiliar. Meanwhile, it will notify you about foreign devices which are claiming to have you behind them. These practices could (and should) persist.
 
-6] My mean "friends" *stole* my identity and won't give it back!
+**6] My mean "friends" *stole* my identity and won't give it back!**
 
 The individuals you "chose" are not your friends! Create a new identity and start over. Children should have their parent's / parent's friends as the ID-resetters. The elderly might use their own children as the resetters.
 
-Alternatively, sue them for identity theft.
+Alternatively, sue them for identity theft. (It's not like you don't know where to find them.)
 
-7] I'm very unpopular and/or too paranoid to trust friends.
+**7] I'm very unpopular and/or too paranoid to trust friends.**
 
-Use PGP. (And, don't forget your password)! Or, use your lawyer.
+Use PGP. (And, don't forget your password!) Or, use your lawyer.
 
 
 
@@ -212,7 +215,7 @@ Identity, in a practical sense, *isn't* individual -- I already know who *I* am.
 Let's address the problem which digital identity might solve. Imagine I get the following email:
 
     Dear Paul,
-    I am "Francis Bacon". Please reply to me at your earliest convenience. But, beware! Lots of people are going around pretending to be me, via email! Don't trust them and don't reply to them.
+    I am "Francis Bacon". Please reply at your earliest convenience. But, beware! Lots of people are going around pretending to be me, via email! Don't trust them and don't reply to them.
     Sincerely,
     Francis
 
@@ -233,17 +236,21 @@ Historically, names have achieved uniqueness in several ways:
 
 Most of these would appear to be discriminatory:
 
-* Age (in most cultures, impolite to be compelled to reveal this -- for women in particular)
+* Age (in most cultures, it is impolite to be compelled to reveal this -- for women in particular)
 * Place of Birth (may be a basis for discrimination)
-* Job Title (titles of nobility, inherently anti-egalitarian)
+* Job Title (titles of nobility are inherently anti-egalitarian)
 
-In fictional world of "Game of Thrones", identities and names (particularly family names) are of preeminent geopolitical significance (even, mortal significance). A character introduces herself as "Daenerys Stormborn, of House Targaryren, First of Her Name, Queen of Meereen, Queen of the An...Breaker of Chains, Mother of Dragons". Using, in order, "given name", "weather conditions at birth", "title of nobility", "family name", "numeric sequence", and "job titles / resume".
+In fictional world of "Game of Thrones", identities and names (particularly family names) are of preeminent geopolitical significance (even, mortal significance). A character introduces herself as "Daenerys Stormborn, of House Targaryren, First of Her Name, Queen of Meereen, Queen of the An...Breaker of Chains, Mother of Dragons". This introduction uses, in order: "given name", "weather conditions at birth", "title of nobility", "family name", "numeric sequence", and "job titles / resume".
 
 Since job titles are transient and transferable (as are titles of nobility), it would seem appropriate to establish the identity first, and only later link the identity to titles and achievements.
 
-It would seem that <First> <Middle> <Last> <Sequence> is the most appropriate naming syntax. With geographical partitioning automatically occuring (as an consequence of names in different languages). Some cultures, like the Chinese, have no middle name, However, new traditions are emerging (where Chinese adopt an additional Western given name, so that they have three total). On the other hand, some cultures have more than three total names. These can be all ascribed to the "middle name" slot, subject to a character limit.
+It would seem that:
 
-The use of three names makes it less likely that the <Sequence> field will leak information about the individual's age. The <Sequence> field may also give parents useful information about name uniqueness!
+    <First> <Middle> <Last> <Sequence>
+	
+...is the most appropriate naming syntax. With geographical partitioning automatically occuring (as an consequence of names in different languages). Some cultures, like the Chinese, have no middle name, However, new traditions are emerging (where Chinese adopt an additional Western given name, so that they have three total). On the other hand, some cultures have more than three total names. These can be all ascribed to the "middle name" slot, subject to a character limit.
+
+The use of three names makes it less likely that the 'Sequence' field will leak information about the individual's age. The <Sequence> field may also give parents useful information about name uniqueness!
 
 The [proper encoding of names](http://kunststube.net/encoding/) is, to me, unknown. Capital letters may be unnecessary (the convention being universally known), yet international characters (for example, the Spanish tilde) would certainly be required.
 
@@ -257,17 +264,6 @@ To get a passport, one must bring other identification documents (from a predefi
 
 In addition, there are still penalties for attempting to subvert the document-issuance process. Those who sell fake ID may spent a considerable time in prison.
 
-We have three principles: redundancy, circularity, and punishment. Redundancy and Circularity have simple software-parallels (multiple ways to reset or reclaim an identity, all of which are distinct but related to each other).
+We have three principles: redundancy, circularity, and punishment. Redundancy and Circularity have simple software-parallels (multiple ways to reset or reclaim an identity, all of which are distinct but related to each other). Punishment is more difficult.
 
-
-
-
-{list of stuff}
-
-
-
-
-Details
----------
-
-Can be the H(PubKey) for space, as is done with Bitcoin. This might save some space.
+![id-redundancy](/images/id-docs.png)
