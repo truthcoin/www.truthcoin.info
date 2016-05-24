@@ -55,7 +55,8 @@ The Bitcoin soft fork, in contrast, is very simple. Presented compactly, it woul
 		
 
 The MinerDB of part (1) checks "Work Score" using the following rules:
-	1. (Once Per Sidechain) A sidechain is added (item [2]), with a special coinbase data format, which might be some encoding of the following information: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example.
+
+	1. (Once Per Sidechain) A sidechain is added (MinerDB item [2]), with a special coinbase data format, which might be some encoding of the following information: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example.
 	2. (Once per Withdrawal) Withdrawals proposed from the sidechain must meet a few requirements:
 		* Each must be the txid of a correctly-formatted Bitcoin transaction.
 		* Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
