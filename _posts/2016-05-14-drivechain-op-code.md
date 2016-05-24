@@ -67,9 +67,9 @@ This is an example of MinerDB item [2] above. I'll use these specific values thr
 Per Withdrawal:
 
 1. Withdrawals proposed from the sidechain must meet a few requirements:
-	a. Each must be the txid of a correctly-formatted Bitcoin transaction.
-	b. Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
-	c. The transaction must be valid (no double-spending, etc).
+	* Each must be the txid of a correctly-formatted Bitcoin transaction.
+	* Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
+	* The transaction must be valid (no double-spending, etc).
 2. These withdrawals must have a score of zero for 2016 blocks. After this, miners are allowed to increment the score\* upwards or downwards by one. This continues, one incriment per block, for 1000 blocks.
 3. After a Withdrawl has endured both the 2016 waiting period and the 1000 voting period (3016 blocks total), the database entry would be labeled "ended" or "concluded", and its score would stop changing.
 4. If the statment (required score <= the final score) were TRUE, the transaction could be included in a Bitcoin block.
