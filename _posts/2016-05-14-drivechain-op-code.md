@@ -53,15 +53,16 @@ The Bitcoin soft fork, in contrast, is very simple. Presented compactly, it woul
 		...the tx-ID matches a Withdrawal Entry in the MinerDB...
      	...and the Withdrawal Entry has achieved the appropriate 'miner score' (see below).
 		
-	The MinerDB of part (1) checks "Work Score" using the following rules:
-		1. (Once Per Sidechain) A sidechain is added (item [2]), with a special coinbase data format, which might be some encoding of the following information: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example.
-		2. (Once per Withdrawal) Withdrawals proposed from the sidechain must meet a few requirements:
-			* Each must be the txid of a correctly-formatted Bitcoin transaction.
-			* Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
-			* The transaction must be valid (no double-spending, etc).
-		3. These withdrawals must have a score of zero for 2016 blocks. After this, miners are allowed to increment the score upwards or downwards by one. This continues, one incriment per block, for 1000 blocks.
-		4. After a Withdrawl has endured both the 2016 waiting period and the 1000 voting period (3016 blocks total), the database entry would be labeled "ended" or "concluded", and its score would stop changing.
-		5. If the statment (required score <= the final score) were TRUE, the transaction could be included in a Bitcoin block.
+
+The MinerDB of part (1) checks "Work Score" using the following rules:
+	1. (Once Per Sidechain) A sidechain is added (item [2]), with a special coinbase data format, which might be some encoding of the following information: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example.
+	2. (Once per Withdrawal) Withdrawals proposed from the sidechain must meet a few requirements:
+		* Each must be the txid of a correctly-formatted Bitcoin transaction.
+		* Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
+		* The transaction must be valid (no double-spending, etc).
+	3. These withdrawals must have a score of zero for 2016 blocks. After this, miners are allowed to increment the score upwards or downwards by one. This continues, one incriment per block, for 1000 blocks.
+	4. After a Withdrawl has endured both the 2016 waiting period and the 1000 voting period (3016 blocks total), the database entry would be labeled "ended" or "concluded", and its score would stop changing.
+	5. If the statment (required score <= the final score) were TRUE, the transaction could be included in a Bitcoin block.
 
 Upvote/downvote messages would ideally be very small -- details in [step 5 here](http://www.truthcoin.info/blog/drivechain/#process-side-to-main-transfers).
 		
