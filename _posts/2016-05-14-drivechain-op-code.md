@@ -56,16 +56,21 @@ The Bitcoin soft fork, in contrast, is very simple. Presented compactly, it woul
 
 The MinerDB of part (1) checks "Work Score" using the following rules:
 
-1. (Once Per Sidechain) A sidechain is added (MinerDB item [2]), with a special coinbase data format, which might be some encoding of the following information: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example.
-2. (Once per Withdrawal) Withdrawals proposed from the sidechain must meet a few requirements:
+Per Sidechain:
+
+A sidechain is added by adding Coinbase data of a certain format. The minimal requirements resemble the following function: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example. This is MinerDB item [2] above.
+
+Per Withdrawal:
+
+1. Withdrawals proposed from the sidechain must meet a few requirements:
 	a. Each must be the txid of a correctly-formatted Bitcoin transaction.
 	b. Each must only select inputs 'from' the correct sidechain address: GetBitcoinAddress(GetPublicKey(5JQrzT...)).
 	c. The transaction must be valid (no double-spending, etc).
-3. These withdrawals must have a score of zero for 2016 blocks. After this, miners are allowed to increment the score upwards or downwards by one. This continues, one incriment per block, for 1000 blocks.
-4. After a Withdrawl has endured both the 2016 waiting period and the 1000 voting period (3016 blocks total), the database entry would be labeled "ended" or "concluded", and its score would stop changing.
-5. If the statment (required score <= the final score) were TRUE, the transaction could be included in a Bitcoin block.
+2. These withdrawals must have a score of zero for 2016 blocks. After this, miners are allowed to increment the score\* upwards or downwards by one. This continues, one incriment per block, for 1000 blocks.
+3. After a Withdrawl has endured both the 2016 waiting period and the 1000 voting period (3016 blocks total), the database entry would be labeled "ended" or "concluded", and its score would stop changing.
+4. If the statment (required score <= the final score) were TRUE, the transaction could be included in a Bitcoin block.
 
-Upvote/downvote messages would ideally be very small -- details in [step 5 here](http://www.truthcoin.info/blog/drivechain/#process-side-to-main-transfers).
+\*Upvote/downvote messages would ideally be very small -- details in [step 5 here](http://www.truthcoin.info/blog/drivechain/#process-side-to-main-transfers).
 		
 ### Help Wanted
 
