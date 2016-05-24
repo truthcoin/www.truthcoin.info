@@ -58,7 +58,11 @@ The MinerDB of part (1) checks "Work Score" using the following rules:
 
 Per Sidechain:
 
-A sidechain is added by adding Coinbase data of a certain format. The minimal requirements resemble the following function: AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200). I'll consistently use these specific values throughout this example. This is MinerDB item [2] above.
+A sidechain is added by adding Coinbase data of a certain format. The minimal requirements resemble the following function:
+
+    AddSidechain(PrivateKey = 5JQrzT..., WaitingPeriod = 2016, VotingPeriod = 1000, ReqScore = 200).
+	
+This is an example of MinerDB item [2] above. I'll use these specific values throughout the example below.
 
 Per Withdrawal:
 
