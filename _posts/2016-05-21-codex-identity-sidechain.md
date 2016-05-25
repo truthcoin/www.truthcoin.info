@@ -23,7 +23,7 @@ By the metric of "convenience", the SSN is the most successful:
 ![extremes](/images/ssn-convenient.png)
 
 However, by the metric of "security", PGP is the most successful.
-(As far as we know, the security is invincible.)
+(As far as we know, the security is invincible).
 
 ### Comparison Table
 
