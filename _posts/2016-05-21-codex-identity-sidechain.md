@@ -100,6 +100,31 @@ This can only be done once per *year*, and only if it survives a grace period (o
 Other functionality is possible. For example, identity theft "alerts", which are broadcast for a fee and which alert id-checkers to be extra diligent.
 
 
+Why Use a Blockchain
+----------------------
+
+The year 2016 has seen -without question- the worst blockchain designs ever presented. Given the overwhelmingly low idea-quality, I feel the need to justify my use of the blockchain.
+
+#### 1. Self-Sovereign Identity
+ 
+Self-sovereignty is seen as a desirable (if not essential) property of a digital identity -- each individual is the source of their identity. Blockchains faithfully execute pre-defined rules; they are [inherently public and have no owner](http://www.truthcoin.info/blog/private-blockchains/). Thus, a blockchain may be *the only* data structure which can meet the sovereignty requirement.
+
+Otherwise, your identity will be "owned" by someone else (Facebook, Government, etc.).
+
+#### 2. Historical Unity
+
+The blockchain system tracks all messages -- one hundred percent. It therefore, tracks a complete history of each "coin", and this is potentially very useful for identity (see "Proof Diagram" below).
+
+#### 3. Use-Externalities
+
+"Names" are one of [the three use-cases of a blockchain](http://www.truthcoin.info/blog/limits-of-blockchain/) I identified in 2014. These use-cases mirror the blockchain's structure: a system where I have an inherent need to track the assets of other people.
+
+4. Scaling Security
+
+Blockchains prevent a situation where a few (pre-defined and locate-able) individuals have complete control over an entire system. [As the system gains value, theft and/or malfeasance becomes inevitable.](http://www.truthcoin.info/blog/scaling-security/#security-and-scale)
+
+
+
 Use Cases
 ----------
 
@@ -141,8 +166,11 @@ After IDs are reset (using the social mechanism), contracts would automatically 
 
 Conversely, if keys are misused by their *current* owners, then cryptographic proof of this misuse will exist permanently. For example, if "John Smith 28" signs thousands of contracts (each with different, mutually-exclusive wordings and conditions) and [Tierion-timestamps](https://tierion.com/) all of these, he *does* have the option of picking-and-choosing desirable contracts -from this set- after the fact. In this way, he has the semi-power to backdate contracts. However, if these mutually-incompatible contracts are discovered (at any point in the future), blame can be cryptographically ascribed to John Smith 28.
 
-Scale
---------
+In short, an attacker can do almost nothing with a stolen key. Contracts signed in the future will use a new (not-stolen) key. Contracts signed in the past were timestamped using the blockchain. Hence the magic: **the blockchain provides a single, unique history for both the name and the key!** This history is robust to a theoretically-unlimited number of changes-to/thefts-of *either* one's name or one's key. Such uniqueness, robustness, and guaranteed-longevity can only be provided by blockchain.
+
+
+Full Node Costs at Scale
+-------------------------
 
 Total economic costs are unknown, but we can estimate one cost: storage.
 
@@ -152,15 +180,27 @@ Under the following assumptions:
 * No one forgets their password ever.
 * 100 bytes, per Name field.
 * 3 bytes, per sequence field
-* 20 bytes, per Hash Commitment
+* 20 bytes, per Hash Commitment\*
 
 We have 6 billion users * ( 100 + 3 + 20 bytes/user ) = 738 Gigabytes. 
 
 A 1,000 GB hard drive costs roughly 80 USD. According [to Gallup](http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx), this amount is about 8 tenths of one percent of median household income.
 
+\*Bitcoin uses RIPEMD-160(SHA-256( Public_Key )), to maximize forward-security as well as compression. The Commitment is 20 bytes.
+
+
+SPV
+-----
+
+Bitcoin uses SPV to make a clever convenience-security tradeoff: users can run a "lite" Bitcoin on their phone, which protects only those transactions sent to them.
+
+With CODEX the challenge is slightly different: Prove that a certain row exists in the current database. This can be done with [UTXO commitments](https://github.com/bitcoin/bitcoin/pull/3977) (which map the current database into a canonically formatted UTXO tree, and merkelize / hash this tree). [Greg Slepak](https://twitter.com/taoeffect) has argued that, for Namecoin-like projects (of which CODEX is one), [Radix Trees](https://en.wikipedia.org/wiki/Radix_tree) may be an appropriate UTXO-tree format.
+
+
+
 
 Problems
-----------
+-----------
 
 **1] Miners might just censor updates from people they don't like.**
 
@@ -199,6 +239,8 @@ Alternatively, sue them for identity theft. (It's not like you don't know where 
 **7] I'm very unpopular and/or too paranoid to trust friends.**
 
 Use PGP. (And, don't forget your password!) Or, use your lawyer.
+
+
 
 
 
@@ -261,10 +303,25 @@ For the sequence field, two bytes (up to 65,536) may not be sufficient. The curr
 Establishing Identity in the Real World
 ----------------------------------------
 
-To get a passport, one must bring other identification documents (from a predefined list). There is, hence, a principle of "redudancy" as well as one of "circularity".
+To get a passport, one must bring other identification documents (from a predefined list). There is, hence, a principle of "redundancy" as well as one of "circularity".
 
 In addition, there are still penalties for attempting to subvert the document-issuance process. Those who sell fake ID may spent a considerable time in prison.
 
 We have three principles: redundancy, circularity, and punishment. Redundancy and Circularity have simple software-parallels (multiple ways to reset or reclaim an identity, all of which are distinct but related to each other). Punishment is more difficult.
 
 ![id-redundancy](/images/id-docs.png)
+
+Getting There From Here
+---------------------------
+
+Often, switching costs can prevent a good idea from being used.
+
+Some factors which may provide a "ramp" to adoption include:
+
+1) Import PGP
+
+PGP is useful, and used in the real world. We can start the Codex 'Genesis Block' as one which includes all PGP keys (on [the MIT keyserver](https://pgp.mit.edu/), for instance). These users can then start "adding friends", 5% at at time.
+
+2) Large Profile Hacks
+
+As time goes on, a new generation of children will mature. These will be sophisticated tech-users, and will be cognizant of the [adversarial security environment](http://www.truthcoin.info/blog/scaling-security/#security-and-scale) as well as government spying, schoolyard pranks / peer-competition, etc.
