@@ -16,7 +16,9 @@ This project aims at neither extreme, and instead seeks an intelligent trade-off
 
 ![extremes](/images/id-extremes.png)
 
-By the metric of "convenience", the SSN is the most successful.
+<br>
+
+By the metric of "convenience", the SSN is the most successful:
 
 ![extremes](/images/ssn-convenient.png)
 
@@ -100,10 +102,10 @@ This can only be done once per *year*, and only if it survives a grace period (o
 Other functionality is possible. For example, identity theft "alerts", which are broadcast for a fee and which alert id-checkers to be extra diligent.
 
 
-Why Use a Blockchain
+Why Use a Blockchain?
 ----------------------
 
-The year 2016 has seen -without question- the worst blockchain designs ever presented. Given the overwhelmingly low idea-quality, I feel the need to justify my use of the blockchain.
+The year 2016 has seen -without question- the worst blockchain designs ever presented. Given the overwhelmingly low idea-quality, I feel the need to justify my use of the blockchain in the following four ways:
 
 #### 1. Self-Sovereign Identity
  
@@ -119,7 +121,7 @@ The blockchain system tracks all messages -- one hundred percent. It therefore, 
 
 "Names" are one of [the three use-cases of a blockchain](http://www.truthcoin.info/blog/limits-of-blockchain/) I identified in 2014. These use-cases mirror the blockchain's structure: a system where I have an inherent need to track the assets of other people.
 
-4. Scaling Security
+#### 4. Scaling Security
 
 Blockchains prevent a situation where a few (pre-defined and locate-able) individuals have complete control over an entire system. [As the system gains value, theft and/or malfeasance becomes inevitable.](http://www.truthcoin.info/blog/scaling-security/#security-and-scale)
 
