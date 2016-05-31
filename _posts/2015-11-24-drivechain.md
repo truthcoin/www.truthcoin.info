@@ -1,6 +1,7 @@
 ---
 title: Drivechain - The Simple Two Way Peg
 comments: true
+show_author: true
 ---
 
 

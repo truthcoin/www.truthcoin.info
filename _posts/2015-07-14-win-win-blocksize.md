@@ -1,6 +1,7 @@
 ---
 title: The Win-Win Blocksize Solution
 comments: true
+show_author: true
 ---
 
 

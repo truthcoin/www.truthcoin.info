@@ -1,6 +1,7 @@
 ---
 title: The Hashing Heart Attack
 comments: true
+show_author: true
 ---
 
 

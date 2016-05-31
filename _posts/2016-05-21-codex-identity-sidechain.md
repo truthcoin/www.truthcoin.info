@@ -1,6 +1,7 @@
 ---
 title: BTC Codex - The Digital Identity Sidechain
 comments: true
+show_author: true
 ---
 
 > With a social theory of identity, combined with blockchain bearer tokens, we might achieve a realistic improvement over PGP.

@@ -1,6 +1,7 @@
 ---
 title: Altcoins Aren't Money, They're Bitcoin's Casino/Laundromat
 comments: true
+show_author: true
 ---
 
 > Altcoins aren't money in theory or practice. Instead, they represent gambling and/or money-laundering opportunities. One result of this is a confused public dialog about cryptocurrency.

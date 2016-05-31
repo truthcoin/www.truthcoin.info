@@ -1,6 +1,7 @@
 ---
 title: PSA - Linking to a Blog Section
 comments: false
+show_author: true
 ---
 
 

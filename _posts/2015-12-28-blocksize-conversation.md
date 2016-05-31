@@ -1,6 +1,7 @@
 ---
 title: Salvaging the Blocksize Discussion, in Two Questions
 comments: true
+show_author: true
 ---
 
 > A recipe for productive conversation.

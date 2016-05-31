@@ -1,6 +1,7 @@
 ---
 title: The Limits of Blockchain Tech
 comments: true
+show_author: true
 ---
 
 > Putting software "on a blockchain" is an inconvenience, justified only in cases involving a global public ledger. These ledger-cases are likely to be limited to Money, Reputation, and Names.  This limitation suggests that other "DACs" are not economically viable, and Ethereum may be "a solution in search of a problem".

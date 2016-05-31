@@ -1,6 +1,6 @@
 ---
 title: Introducing Tonight's Entertainment
-
+show_author: true
 ---
 
 

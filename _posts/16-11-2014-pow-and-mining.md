@@ -1,6 +1,7 @@
 ---
 title: Long Live Proof-of-Work, Long Live Mining
 comments: true
+show_author: true
 ---
 
 > Satoshi got it right: [1] proof of work ensures distributed consensus, and [2] mining ensures an economically-viable network.

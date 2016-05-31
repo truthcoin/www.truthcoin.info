@@ -1,6 +1,7 @@
 ---
 title: Bitcoin and Deflation, The Last Word
 comments: true
+show_author: true
 ---
 
 > Any e-currency which is peer-to-peer must also be deflationary. Bitcoin, as "Immortal Deflationary", presents the first real challenge to the established, "Coordinated Inflationary" currencies.

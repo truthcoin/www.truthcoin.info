@@ -1,6 +1,7 @@
 ---
 title: Private Blockchains, Demystified
 comments: true
+show_author: true
 ---
 
 > Blockchains are specifically designed to obviate private firms. Industry refusal to acknowledge this point has resulted in multiple misunderstandings, which have persisted for a variety of reasons.  

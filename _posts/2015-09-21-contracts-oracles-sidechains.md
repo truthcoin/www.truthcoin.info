@@ -1,6 +1,7 @@
 ---
 title: Oracles are the Real Smart Contracts
 comments: true
+show_author: true
 ---
 
 

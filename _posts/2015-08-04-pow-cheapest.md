@@ -1,6 +1,7 @@
 ---
 title: Nothing is Cheaper than Proof of Work
 comments: true
+show_author: true
 ---
 
 > So-called "alternatives" to Proof-of-Work "waste" just as much "work". 

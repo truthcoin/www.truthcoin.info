@@ -1,6 +1,7 @@
 ---
 title: Measuring Decentralization
 comments: true
+show_author: true
 ---
 
 

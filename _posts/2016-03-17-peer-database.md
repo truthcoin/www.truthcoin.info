@@ -1,6 +1,7 @@
 ---
 title: The Peer Database ("Private Blockchains" Done Right)
 comments: true
+show_author: true
 ---
 
 > If anything, firms (not users) might use "private blockchains" to communicate with their *competitor firms*.

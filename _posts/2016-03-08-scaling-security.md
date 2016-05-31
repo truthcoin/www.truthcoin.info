@@ -1,6 +1,7 @@
 ---
 title: The Trusted 3rd Party Doesn't Scale (But Blockchains Do)
 comments: true
+show_author: true
 ---
 
 >  At large scales, it would seem that only blockchain technology is likely to remain secure.
