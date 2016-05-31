@@ -1,6 +1,7 @@
 ---
 title: Active Decentralization
 comments: true
+show_author: true
 ---
 
 > An active campaign to punish and/or destroy miners would actually increase mining centralization.
