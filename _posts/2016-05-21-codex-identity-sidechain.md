@@ -76,11 +76,11 @@ In this system, entries are added with the form:
    
     add_1( hash )
 	add_2( add1_hash, 
-	           name=(arbitrary 100 bytes, for example First, Middle, Last),
-			   data_commitment=H(D),
-			   Friends=(U1, U2, ...),
-			   Weights=(W1, W2, ...)
-			   )
+		name=(arbitrary 100 bytes, for example First, Middle, Last),
+		data_commitment=H(D),
+		Friends=(U1, U2, ...),
+		Weights=(W1, W2, ...)
+		)
 
 The hash-reveal strategy is a well-known technique to prevent the front-running of commercially-valuable names.
 
@@ -88,10 +88,12 @@ With these commands, someone joins the network. They declare their name, and a s
 
 The actual data ("D") is stored on larger, "full" nodes. Users only need to keep the identities of themselves, and their correspondents. Correspondents can share ID-data at any time; because it totals <1 KB, it can be included ahead of each email (or each payment, etc), and easily verified by nodes.
 
-    D = {  public_key : 512 bytes
-	         btc_stealth_address: 102 bytes
-			 bitmessage_address: 32 + ? bytes
-			 .onion_url: 16 bytes  }
+    D = { 
+		public_key : 512 bytes,
+		btc_stealth_address: 102 bytes,
+		bitmessage_address: 32 + ? bytes,
+		.onion_url: 16 bytes
+		}
 			 
 [Stealth reference](https://bitcoinmagazine.com/articles/go-ahead-peer-inside-darkwallet-1412689771). [Bitmessage reference](https://www.bitmessage.org/wiki/Protocol_specification#pubkey). [Onion reference](https://en.wikipedia.org/wiki/.onion).
 
@@ -99,9 +101,9 @@ Blocks have [UTXO commitments](https://github.com/bitcoin/bitcoin/pull/3977), su
 
 The database contains the following fields:
 
-|           Field: | # | Name | Sequence | H(D) | Friends |      D\*|
-|:-------------------|----|----------|-----------------|--------|-------------|----------|
-| Size (bytes) | 5 |    100 |              3 |    20 |        50 |   572\*| 
+|            Field: | # | Name | Sequence | H(D) | Friends |      D\*|
+|:--------------------|----|----------|-----------------|--------|-------------|----------|
+| Size (bytes): | 5 |    100 |              3 |    20 |        50 |   572\*| 
 
 "#" is the unique (and permanent) row-number, "Name" is an arbitrary 100 bytes of text, "Sequence" increments with each duplicate "Name" entry, "H(D)" is the RIPEMD-160 hash of the name's cryptographic identifiers, "Friends" is 80 bytes for identifying and weighing 8 friends (5 bytes = 40 bits for "Friend #", and 10 bits to allocate three digits .ABC). "D" is the cryptographic identifier data itself, which does not need to be held by anyone (but which will eventually be collated and indexed by Google, MIT, NSA and so forth).
 
@@ -109,7 +111,11 @@ The choice of 8 friends is quite personal, but it would be advisable to use thre
 
 Crucially, the user can ask *their friends* to 'reset their password', with:
 
-    reset( name, new_H(D), friend_data= (D1, D2, ...), signatures = (S1, S2, ...) )
+    reset( name,
+		new_H(D),
+		friend_data= (D1, D2, ...),
+		signatures = (S1, S2, ...)
+		)
 
 For security reasons, you can not reset your own password (of course, you can set yourself as one of your "friends", and give yourself great weight). The reset process prompts everyone with alerts (that the process is taking place), and advice about how to check identity properly, as well as latest tips for avoiding phishing / scams. For fun, the blockchain may report each user's "shame score", which is a count of how frequently a given user forgets his/her password.
 
@@ -221,21 +227,21 @@ Total economic costs are unknown, but we can estimate one cost: storage.
 
 Under the following assumptions:
 
-* [Three billion human](http://www.statista.com/statistics/273018/number-of-internet-users-worldwide/) ) users, and [one billion commercial](http://www.dailymail.co.uk/sciencetech/article-2759636/Number-websites-hits-BILLION-counting-Tracker-reveals-new-site-registered-SECOND.html) users. 
-* No one forgets/sells their password, ever\*\*.
+* [Three billion human](http://www.statista.com/statistics/273018/number-of-internet-users-worldwide/) users, and [one billion commercial](http://www.dailymail.co.uk/sciencetech/article-2759636/Number-websites-hits-BILLION-counting-Tracker-reveals-new-site-registered-SECOND.html) websites. 
+* No one forgets/sells their password, ever\*.
 * 5 bytes per # field.
 * 100 bytes per Name field.
 * 3 bytes per Sequence field
-* 20 bytes per Hash Commitment\*
+* 20 bytes per Hash Commitment\*\*
 * 50 bytes per Friend field.
 
 We have 4 billion users * ( 5+ 100 + 3 + 20 + 50 ) bytes/user  = 712 Gigabytes. 
 
 A 1,000 GB hard drive costs roughly 80 USD. According [to Gallup](http://www.gallup.com/poll/166211/worldwide-median-household-income-000.aspx), this amount is about 8 tenths of one percent of median household income.
 
-\*Bitcoin uses RIPEMD-160(SHA-256( Data )), to maximize forward-security as well as compression. The Commitment is 20 bytes.
+\*Recall that, unlike with Bitcoin, full nodes can permanently delete old messages. So message data is less relevant (vs. the size of the UTXO database).
 
-\*\*Recall that, unlike with Bitcoin, full nodes can permanently delete old messages. So message data is less relevant (vs. the size of the UTXO database).
+\*\*Bitcoin uses RIPEMD-160(SHA-256( Data )), to maximize forward-security as well as compression. The Commitment is 20 bytes.
 
 Finally, recall anyone can **verify** an identity using a "thin client". These clients have *very* reasonable resource-usage (can easily be run on a smartphone, etc). Identities can be shared/verified, even if *both* individuals are using thin mode. Anyone with a private key(s), can derive the corresponding public key(s), and RIPE(SHA()) them.
 
@@ -267,11 +273,11 @@ A more curious puzzle the monetization of step 2. At the SPV level, there is a t
 
 Fortunately we can introduce an OP code, OP_HdToName, which we can substitute into the algorithm above.
 
-OP_HdToName evaluates the top stack item, <Hd>, and returns a value <Name> (which is the lookup, at the current block). Thus, one can "purchase" an identity-lookup using a script of the following form:
+OP_HdToName evaluates the top stack item, [Hd], and returns a value [Name] (which is the lookup, at the current block). Thus, one can "purchase" an identity-lookup using a script of the following form:
 
-OP_HdToName <Name> OP_Equal
+OP_HdToName [Name] OP_Equal
 
-...which will evaluate to TRUE, for anyone who can supply "scriptSig" with the correct <Hd>. This script can be wrapped in the traditional OP_Checksig script (as required in steps 6 and 9).
+...which will evaluate to TRUE, for anyone who can supply "scriptSig" with the correct [Hd]. This script can be wrapped in the traditional OP_Checksig script (as required in steps 6 and 9).
 
 In this way, full nodes can "sell" ID-lookups. This has the added benefit of correcting some of the "full node externality" -- when the quantity of full nodes falls, payments to nodes will rise (on a per node basis).
 
@@ -285,35 +291,41 @@ Not really a problem, because the database doesn't need to be realtime interacti
 
 For the duration a 51% miner-coalition is in control, however, victims will not be able to change their Name, Public Key, or Associates. So, for them, convenience has temporarily degraded to the PGP level. Nonetheless, they retain any identities they possessed before the attack began.
 
+<!--
+
+added Hash-reveal
+
 **2] Front-Running Names**
 
 This is not really a problem here (as it would be in the case of Namecoin). If "Paul Felix Sztorc" is taken, the protocol will just auto-register "Paul Felix Sztorc II" on my behalf. Then I will communicate my number to my friends.
 
 For a business, it may be more of a problem. Businesses may not need their own cryptographic identities, however (as each and every employee will have one).
 
-**3] Friendship Drama**
+-->
+
+**2] Friendship Drama**
 
 "The whole world will know that we're not best friends anymore!""
 
 Yes, yes. Very tragic. Choose family, or co-workers for this reason, then.
 
-**4] "Now *they* know who to torture/blackmail!"**
+**3] "Now *they* know who to torture/blackmail!"**
 
 First of all, if adversaries were going through with physical capture and torture, they probably willing to put in the comparatively small effort it takes to to locate ones friends. In other words, they knew anyway.
 
 Secondly, they need 50% of your friend-weight (and, they need them at around the same time). If you choose a large enough quantity of friends, and/or individuals who are geographically distributed, then crime against the group as a whole becomes more difficult.
 
-**5] This is putting too many eggs in one basket! Once an attack gets this key, they'll get into all of my stuff!**
+**4] This is putting too many eggs in one basket! Once an attack gets this key, they'll get into all of my stuff!**
 
 Not necessarily. Even if this Identification method becomes widespread, to the point where it becomes the "single sign on" for the internet, it does *not* necessarily need to replace *all* the security features of, say, gmail. For one example, most websites today use two factor authentication. A second example: most websites track the *physical devices* which connect to their servers for authentication. Google will often ask you to "add a device" if your device is unfamiliar. Meanwhile, it will notify you about foreign devices which are claiming to have you behind them. These practices could (and should) persist.
 
-**6] My mean "friends" *stole* my identity and won't give it back!**
+**5] My mean "friends" *stole* my identity and won't give it back!**
 
 The individuals you "chose" are not your friends! Create a new identity and start over. Children should have their parent's / parent's friends as the ID-resetters. The elderly might use their own children as the resetters.
 
 Alternatively, sue them for identity theft. (It's not like you don't know where to find them.)
 
-**7] I'm very unpopular and/or too paranoid to trust friends.**
+**6] I'm very unpopular and/or too paranoid to trust friends.**
 
 Use PGP. (And, don't forget your password!) Or, use your lawyer.
 
@@ -326,7 +338,7 @@ Appendix
 
 
 Theory
--------
+-----------
 
 What is an identity? I argue that: Identity is social.
 
