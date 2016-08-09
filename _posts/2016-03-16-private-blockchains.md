@@ -158,7 +158,7 @@ If someone makes such a claim, ask them these questions:
 
 A blockchain *uses* a database, but so does almost every computer-thing.
 
-A protocol is more than the medium in which it is stored. The game of Chess "needs" a chessboard to "store" its "game state". But *Chess is more than the board*; the board merely *assists* human brains in the computation and enforcement of the game's rules. iPhone Chess can replace the board.
+A protocol is more than the medium in which it is stored. The game of Chess "needs" a chessboard to "store" its "game state". But *Chess is more than the board*; [the board merely *assists*](https://www.youtube.com/watch?v=cTeDkyQUbyY) human brains in the computation and enforcement of the game's rules. iPhone Chess can replace the board.
 
 Chess, the protocol (not the board), is a mutually-agreed ceremony of **rules**. If one player insists on breaking those rules (making illegal moves, or upending the board and storming off) it doesn't matter.  *Everyone* who knows Chess' (pre-defined) rules, also knows exactly what to ignore. 
 
@@ -206,14 +206,14 @@ Well, they play "the rock game".
 2. Then, they look around for any 'trench-arrows' which lead away from the Genesis Rock.
 3. They follow that trench until it interests with another rock.
 4. Once at a new rock, they climb on top of it, and look around for more trench-arrows that point to *this rock* that they are standing on.
-5. "Repeat steps 3-4, until you meet up with everyone else. Find your group, and once you've met up you can teleport somewhere together!"
+5. They repeat steps 3-4, until they meet up with everyone else. (Once they've met up, they can depart together via teleportation)."
 6. If they ever reach a point where there are no trench-arrows around, they immediately start digging a new trench-arrow which points to the last boulder they were on (this keeps them moving).
-7. "Remember to constantly retrace all of your steps to look for more trenches that might have appeared. If there are two (or more) trenches pointing away from any given boulder, ignore all but the longest trench."
+7. Rock-game-players must remember to constantly retrace all of their steps, to look for more trenches that might have appeared. If there are two (or more) trenches pointing away from any given boulder, they should ignore all but the longest trench.
 
 
-Meeting like this is inconvenient.
+Meeting like this is inconvenient. Walking the whole Rock Path can take days!
 
-If someone new wants to finish the game, or if an existing member gets lost and needs to start over, they can be wandering for days! The group, painfully aware of this inconvenience, tries to help stragglers/newbs, as best they can, by digging at a sluggish pace of just 3-7 earth-heaves per second.
+The group, painfully aware of this inconvenience, tries to help mitigate the damage, by digging at a sluggish pace of just 3-7 earth-heaves per second.
 
 Why don't they just leave a chalkboard at the Genesis Rock, and write the latest coordinates there?
 
@@ -236,12 +236,11 @@ The signal *is* out there (as the sheer quantity of Youtube-recorded meetups and
 
 ### 1. Bitcoin has no press agent.
 
-Bitcoin, the system, has no "owner". Only individuals own Bitcoins -- thus, the benefits to 'general Bitcoin promotion' are diffuse. In contrast, Preston J Byrne or Blythe Masters is promoting *their* company -- the benefits are *concentrated*.
-
-
-Truly "great ideas" are impossible to invest in. For example: "free speech", "evolution by natural selection", "free markets",  and "nullius in verba". These ideas are so good, that they work for free. No one can own them, implying a tragedy of the commons problem.
+Bitcoin, the system, has no "owner". Individuals (plural) own Bitcoins (plural) -- thus, the benefits to 'general Bitcoin promotion' are diffuse. In contrast, Preston J Byrne or Blythe Masters is promoting *their* company -- the benefits are *concentrated*.
 
 ![podium](/images/btc-podium.png)
+
+Truly "great ideas" are impossible to invest in. For example: "free speech", "evolution by natural selection", "free markets",  and "nullius in verba". These ideas are so good, that they work for free. No one can own them, implying a tragedy of the commons problem.
 
 Similarly, while "good idea" diet books and (insidiously calibriated) gym memberships rake in fortunes, the "great idea" is free: eat whatever you want, fast occasionally, and walk 6-10 hours a day. Throw in some pull-ups (we are apes, after all) and sit ups, and/or carry heavy stuff around [while you walk or stand](http://www.artofmanliness.com/2014/09/05/why-barbells-are-better-than-machines/).
 
@@ -267,7 +266,7 @@ Unfortunately, there's a strong element of overlap between "knowledgeable about 
 ![btc-dog](/images/btc-dogfood.png)
 
 
-Hence, Blockchain scammers can shield themselves from this simple fact: the people who have been working on Blockchain the longest (the Bitcoin developers) have already explored all of the good ideas. They do this by accusing their expert critics as "biased" or "self-interested".
+Hence, Blockchain scammers can shield themselves from a simple fact: the people who have been working on Blockchain the longest (the Bitcoin developers) have already explored all of the good ideas. Scammers construct this shield by accusing their expert critics as "biased" or "self-interested".
 
 However, the reality is very simple: 
 
@@ -287,13 +286,13 @@ Secondly, there is an ongoing misunderstanding over the technical features of "p
 
 In other words, those engineers [I just mentioned as "not understanding the deal they were turning down"](http://www.truthcoin.info/blog/one-chain/#conclusion), well, they probably either *do* understand the deal, or they just never cared enough about "honesty" in the first place.
 
-They've been given no reason to open their mouths! Explain that your boss' ideas are bad!? Explain that the project is pointless, and [that you aren't really necessary](http://www.30rockquotes.net/seasons/Season_5/30rockquotes_the_fabian_strategy.cfm?highlight=189#line185)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
+They've been given no reason to open their mouths! Just think: explain that your boss' ideas are bad!? Explain that the project is pointless, and [that you aren't really necessary](http://www.30rockquotes.net/seasons/Season_5/30rockquotes_the_fabian_strategy.cfm?highlight=189#line185)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
 
 And, with something complex like Blockchains, only the TIEs will probably know the game they're playing. If they speak up, their days of getting paid to surf the Bitcoin-internet will be over. ( Sorry, guys! )
 
 #### Plausible Deniability
 
-The elevation of the "lie" to Team Sport, is where the magic really gets going. Together, a lie can be sustained for longer and at greater scales.
+The elevation of the "lie" to Team Sport, is where the magic really gets going. With friends, a lie can be sustained for longer and at greater scales.
 
 When "the blockchain project" falls apart, executives can say (with some justification) that "they were misinformed", that they [acted on the best available information](https://en.wikipedia.org/wiki/Herd_behavior), or that ["no one saw it coming"](http://www.uclm.es/actividades/2009/workshopESHET-UCLM/Bezemer_-_No_one_show_this_comming.pdf).
 
@@ -349,7 +348,7 @@ But, I wouldn't get your hopes up. That we, the most [experienced](https://bitco
 
 ## Conclusion
 
-Typically, groundbreaking work is done in the open source / academic communities. Then, that work is "commercialized" by industry.
+Typically, groundbreaking work is done in the open source / student communities. Then, that work is "commercialized" by industry.
 
 As we have seen, Blockchains are a rare exception to this rule. Lacking an identity, they are everyone and they are no one. This makes them inherently public.
 
