@@ -360,3 +360,8 @@ Innovators and entrepreneurs would do better to follow the example of The Intern
 ### Kudos
 
 Kudos to [Chris DeRose](http://www.americanbanker.com/bankthink/private-distributed-ledgers-miss-the-point-of-a-blockchain-1077435-1.html) and [Josh Unseth](https://www.reddit.com/r/bitcoinarchy), as well as [Marc Andreessen](https://twitter.com/pmarca/status/691407998107815936) and countless others, for trying to generate and popularize these ideas.
+
+<!---
+Test
+
+>
