@@ -13,7 +13,8 @@ Bitcoin-NG is a proposal to alter Bitcoin in two ways:
 Immediately, it is worse for scaling, in that it requires more information be broadcast across the P2P network:
 * 1 additional Public Key, per Leader-block.
 * 1 additional Signature, per tx-block.
-* (If not predefined), parameters for fee-split, per leader block (or, worse, per-tx).
+* More blocks in general, and -therefore- more headers.
+* (If not predefined), parameters for thee fee-split, per leader block (or, worse, per-tx).
 
 It is also more novel, and more complex.
 
@@ -72,6 +73,7 @@ These similarities make NG less relevant to Bitcoin users.
 A user who receives BTC, still has to wonder if the tx-block (or key-block), will be orphaned or rolled back. Therefore, NG's main benefit, to users, is the security of 0-conf txns. This benefit is trivial for many reasons: [a] 0-conf is currently "secure enough", [b] individuals are always free to require as many confs as they wish, and [c] LN will replace this problem in its entirety.
 
 Secondly, NG doesn't remove the propagation requirement. It *does*, helpfully, allow download/verification to happen in real-time (instead of in short bursts), and it is similar to IBLTs / near blocks / ongoing tx-propagation research.
+
 
 
 Fee-Splitting Flaw
