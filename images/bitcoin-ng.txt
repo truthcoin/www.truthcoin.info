@@ -1,0 +1,134 @@
+Bitcoin-NG: "N"ot "G"ood Enough
+Paul Sztorc
+Sept 10, 2016 - v 0.1
+
+
+Introduction
+---------------
+
+Bitcoin-NG is a proposal to alter Bitcoin in two ways:
+* [Flipped Work] Use PoW to select a 'leader', who later includes txns (via signatures) until a new leader is chosen.
+* [Fraud Proofs] Prevent the broadcasting of invalid 0-conf txns, by holding revenues hostage, for a while.
+
+Immediately, it is worse for scaling, in that it requires more information be broadcast across the P2P network:
+* 1 additional Public Key, per Leader-block.
+* 1 additional Signature, per tx-block.
+* (If not predefined), parameters for fee-split, per leader block (or, worse, per-tx).
+
+It is also more novel, and more complex.
+
+Do the benefits outweigh these drawbacks?
+
+
+Benefits
+----------
+
+Supposedly, NG improves upon BTC in three ways:
+1. "Fairness"           - Do small miners get their 'fair' share of txns (or disproportionately few)?
+2. "Mining Utilization" - Do miners waste hashpower on stale / orphaned blocks?
+3. "Time to Win"        - How long does it take to resolve forks?
+
+These three are, in fact, the same problem: that miners who encounter a foreign block, must hold off on mining it, until they've downloaded and verified it; however, miners who find their own block already know that it is valid, and can continue to mine on it immediately. This 'speed benefit' triggers whenever a miner finds a block -- since large miners find blocks more often, it disproportionately favors larger miners.
+
+Ie, large miners find it easier to "double block" if the blocks are large. They can find the first, and work on the second while everyone else is playing catch-up.
+
+Bitcoin-NG proposes a way to solve this very real problem. In that way it is good.
+
+
+SPV Mining
+--------------
+
+Unfortunately for NG, the very same problem had already been solved, months earlier. Matt Corallo's relay network was a contribution, but the major factor was the rise of "SPV mining" (headers-only validation). In fact, in July 2015, some SPV miners caused a notable PoW fork. The July 2015 date is significant for two reasons: [1] it was months before Scaling Montreal, and the debut of NG (ie, the authors should have been aware of SPV-m), and [2] July 2015 is months *after* Feb 2010 (the date of Bitcoin client 0.10.0 -- which is what NG compared itself to...ie, the NG authors used an out-of-date Bitcoin client).
+
+Notice the rise, and fall, of orphaned blocks: https://blockchain.info/charts/n-orphaned-blocks?daysAverageString=30&timespan=all
+
+...despite the fact that the blocksize/tx-load increased continuously throughout this period.
+
+Sergio Demian Lerner was making the case *for* SPV mining, as early as March 2014: https://bitslog.wordpress.com/2016/01/08/spv-mining-is-the-solution-not-the-problem/
+
+With SPV mining, block headers propagate ~instantly, solving Benefits [2] and [3] optimally.
+
+In other words, most of the NG paper is about a problem that had already stopped existing. 
+
+However, SPV Mining isn't perfect -- it does *not* solve the fact that txns must eventually propagate.
+
+( Miners cannot include new txns, until they know that these txns are *NOT* double-spends [of a yet-to-be-downloaded block]. Many researchers, therefore, focused on tx-propagation for Scaling II, and presented IBLTs, Near Blocks, etc. After segwit/Lightning, this was the most popular scaling theme, for that conference. It so happens that, in practice, many of today's miners have gone even as far as to construct a shared mempool [enforced by personal relationships]. )
+
+Scaling researchers decided that a simpler focus -on tx-propagation itself- was more fruitful than pursuing NG.
+
+Why?
+
+
+Similarities to Original Bitcoin
+---------------------------------
+
+Some similarities:
+* There is almost no difference between NG's "included txns" and BTC's "0-conf" txns. 
+* Miners can, still, only build on top of txns they have downloaded and validated.
+* Miners already lose 100% of block revenue, if they include invalid txns.
+
+These similarities make NG less relevant to Bitcoin users. 
+
+A user who receives BTC, still has to wonder if the tx-block (or key-block), will be orphaned or rolled back. Therefore, NG's main benefit, to users, is the security of 0-conf txns. This benefit is trivial for many reasons: [a] 0-conf is currently "secure enough", [b] individuals are always free to require as many confs as they wish, and [c] LN will replace this problem in its entirety.
+
+Secondly, NG doesn't remove the propagation requirement. It *does*, helpfully, allow download/verification to happen in real-time (instead of in short bursts), and it is similar to IBLTs / near blocks / ongoing tx-propagation research.
+
+
+Fee-Splitting Flaw
+--------------------
+
+The "fee splitting" concept is not incentive compatible. A miner will always prefer to have 100% of the tx-fees, vs 40%, and a miner 100%-controls which messages are in-or-out of the chain.
+
+Even in a hypothetical world where there are two miners, with equal hashrate, who always alternate blocks...
+
+...(assuming X,Y represents X='period 1 revenue', and Y='period 2 revenue')...
+
+         Leader:     A       B       A       B       A       B          * Totals *        
+------------------------------------------------------------------        A    B
+Follow NG Strat: | 40,60 | 40,60 | 40,60 | 40,60 | 40,60 | 40,60 |    = (300, 300)
+Don't Follow:    | 40,60 | 40,60 | 40,60 | 100,0 | 100,0 | 100,0 |    = (240, 360)
+
+...so, if one miner can (permanently) shift the world from 40-60 world to 100-0 world, he has a reason to do so.
+
+If the protocol forces the fees to be split, 40-60, a miner can circumvent the protocol, by announcing a Bitcoin address, and requiring users to pay him/her directly. This is overwhelmingly trivial, as he can authenticate himself using the coinbase address and/or public key _he just broadcast_ with the keyblock. To comply, user's wallet software just needs a simple tuneup.
+
+The NG authors responded to this, noting:
+1. "a user does not gain a significant advantage by doing so"
+2. "[it] reduces the motivation of future miners to mine on this microblock"
+3. "subsequent leaders will have no motivation to place the transaction"
+
+Of these three, the 1st and 3rd are false:
+1. Any gains the miner enjoys, provide him with a "budget", which he can use to bribe users (by offering them lower fees). Fees are currently negligible, but this will change in the future.
+3. Miners/pools can pre-declare permanent addresses...at which point, users can create multiple tx-versions, which subsequent leaders are equally-motivated to include.
+
+As for the 2nd, the current leader can include 'fees' in each tx-block. To make these payments, he can use [1] anyone-can-spend outputs, or [2] a previously-sourced BTC address.
+
+It is not necessary that these payments exceed 60% of the epoch's tx fees. For subsequent miners can be motivated, not merely by fee payment (call it, 'e'), but also by the revenue of the next block (100%-e). Moreover, once a leader-miner has begun this strategy, the choices available to rival miners are 'e' or nothing.
+
+Hence, a permanent transition: originally miners got 100 (40+60), now they get 100 (100-e, +e).
+
+"NG Ideal" --> "Some Users Cheat on Fees (with Some Miners)" --> "All Users Cheat on Fees (with All Miners)"
+
+At a constant 100 revenue per block (in the process, assuming miners fee-maximize all blocks, and each block is of optimal size), miners will be indifferent to their post-transition world. The exception will be the miner who causes the transition(s) -- he profits.
+
+Since all (100%) miners have a reason to transition, they might *all* [1] include all txns, and [2] extend each longest chain. 
+
+Negative consequences:
+* More bandwidth required, to send each txn, for no reason. (In BTC, tx fees are blank/implied, in NG they'd need to be specified with a 20-byte address.)
+* Pointless redundant payments (from users to miners, then 'e' from miner to miner).
+* Obfuscation of tx fees. As a result, Section 4.5 "Microblock Fork Prevention" (which relies on draining a miners tx-fees) is no longer valid.
+* With s4.5 invalid, it is again possible for leaders to arbitrarily re-write tx-blocks (largely defeating the point of NG).
+
+
+Nice Things About Bitcoin-NG
+------------------------------
+
+If NG worked, it would only pay miners if they jumped two hurdles: [1] produce hashes, and [2] get each tx from themselves out to all other miners.
+
+It was probably discovered independently from SPV mining / tx propagation tech, and suffered from the slow pace of academia.
+
+
+Conclusion
+-----------
+
+NG is an interesting take on some of Bitcoin's most fundamental challenges. Unfortunately, these challenges have simpler solutions (which, in many cases, are already in place). Moreover, the attempt to separate tx-fees from tx-inclusion creates an incentive problem -- when this problem is resolved, Bitcoin-NG regresses to an inefficient version of Bitcoin Original.
