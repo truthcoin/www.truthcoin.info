@@ -97,6 +97,7 @@ The actual data ("D") is stored on larger, "full" nodes. Users only need to keep
 			 
 [Stealth reference](https://bitcoinmagazine.com/articles/go-ahead-peer-inside-darkwallet-1412689771). [Bitmessage reference](https://www.bitmessage.org/wiki/Protocol_specification#pubkey). [Onion reference](https://en.wikipedia.org/wiki/.onion).
 
+Blocks have [UTXO commitments](https://github.com/bitcoin/bitcoin/pull/3977), such that ["thin clients" can verify any ID-data](https://en.bitcoin.it/wiki/User:Gmaxwell/namecoin_that_sucks_less) which is sent to them. Thin clients will require storage/bandwidth amounting to ~8.4 MB / year (a trivial amount). [Greg Slepak](https://twitter.com/taoeffect) has argued that, for Namecoin-like projects (of which CODEX is one), [Radix Trees](https://en.wikipedia.org/wiki/Radix_tree) may be an appropriate UTXO-tree format.
 
 The database contains the following fields:
 
