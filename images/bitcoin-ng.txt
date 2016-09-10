@@ -74,6 +74,7 @@ A user who receives BTC, still has to wonder if the tx-block (or key-block), wil
 
 Secondly, NG doesn't remove the propagation requirement. It *does*, helpfully, allow download/verification to happen in real-time (instead of in short bursts), and it is similar to IBLTs / near blocks / ongoing tx-propagation research.
 
+Finally, in the future, we are likely to see two permanent conditions: [1] a blocksize limit (if nothing else, to address the node 'commons problem'), and [2] a constant backlog of high-quality unmined txns. Under these conditions, NG is likely to see a single large full "1 MB" tx-block broadcast immediately after each key-block. This makes much of NG's novel modus operandi pointless.
 
 
 Fee-Splitting Flaw
