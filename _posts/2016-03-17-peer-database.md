@@ -22,7 +22,7 @@ But if they're going to be done, they might as well be done right. In this post 
 ## Attributes
 
 1. Private: Members can create/enforce rules for excluding the general public / specific people. 
-2. (Optionally) Encrypted: This database technology can support [data encryption](https://www.youtube.com/v/O1Yo8bt8JAU&version=3&start=240&end=275&autoplay=1), unlike Bitcoin (which does not).
+2. (Optionally) Encrypted: This database technology can support [data encryption](https://www.youtube.com/embed/O1Yo8bt8JAU?rel=0&start=240&end=275&autoplay=1), unlike Bitcoin (which does not).
 3. "Decentralized" / Peer-to-Peer (conditional on legal): With the exception of law enforcement (authorities, who can punish criminals and prevent tools from being used), no one has any more control over the shared database than anyone else.
 4. Immutability / Automatic Data Integrity: This database is as permanent as Bitcoin's.
 5. Flexibility: Add whatever rules you want, change who can read/write/edit which parts of the database.
@@ -36,7 +36,7 @@ If you wanted a "private blockchain", this is it. This is, probably, the only th
 
 ### Expertise Vacuum 
 
-( I mean, who's supposed to be the authority in this area? [This guy?](http://www.ofnumbers.com/author/timswanson/) It would be nice if his [well-researched posts](http://www.ofnumbers.com/2015/04/26/what-has-been-the-reaction-to-permissioned-distributed-ledgers/) synthesized into an actual conclusion somewhere [instead of [R3](https://www.linkedin.com/in/timswanson) [supper-song](http://www.usingenglish.com/reference/idioms/sing+for+your+supper.html)]. [These](https://www.youtube.com/v/c9CjWz2N5Hs&version=3&start=2500&end=2620&autoplay=1) [two](https://www.youtube.com/v/O1Yo8bt8JAU&version=3&start=240&end=275&autoplay=1) aren't exactly brimming with confidence, are they? )
+( I mean, who's supposed to be the authority in this area? [This guy?](http://www.ofnumbers.com/author/timswanson/) It would be nice if his [well-researched posts](http://www.ofnumbers.com/2015/04/26/what-has-been-the-reaction-to-permissioned-distributed-ledgers/) synthesized into an actual conclusion somewhere [instead of [R3](https://www.linkedin.com/in/timswanson) [supper-song](http://www.usingenglish.com/reference/idioms/sing+for+your+supper.html)]. [These](https://www.youtube.com/embed/c9CjWz2N5Hs?rel=0&start=2500&end=2620&autoplay=1) [two](https://www.youtube.com/embed/O1Yo8bt8JAU?rel=0&start=240&end=275&autoplay=1) aren't exactly brimming with confidence, are they? )
 
 No offense, but we're starting over, from scratch.
 

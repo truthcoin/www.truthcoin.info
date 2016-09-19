@@ -318,7 +318,7 @@ If learning who to vote for takes "work", then, even absent bribes, voters will 
 
 Attempts to create a barrier between spending and result always fail, any leak in the work-barrier leads to total failure (recall that PoW-hashes are individually unlikely to win a block).
 
-For example, in the US, citizens who are clueless of the MC=MR identity try to limit political advertising contributions to a certain spending level. Of course, as the ads are effective (MR), the MC will always creep back upwards. In this case the MC takes [the form of SuperPAC ads, which buy the MR with MC, but have a merely-inconvenient detail that they can not legally coordinate with the candidates they support](http://www.youtube.com/v/xpDaiY0JYZQ?start=4060&end=4238&version=3&autoplay=1).
+For example, in the US, citizens who are clueless of the MC=MR identity try to limit political advertising contributions to a certain spending level. Of course, as the ads are effective (MR), the MC will always creep back upwards. In this case the MC takes [the form of SuperPAC ads, which buy the MR with MC, but have a merely-inconvenient detail that they can not legally coordinate with the candidates they support](https://www.youtube.com/embed/xpDaiY0JYZQ?start=4060&end=4238&rel=0&autoplay=1).
 
 Sometimes candidates might be secretly appreciative of these ads, other times they may be genuinely frustrated. We'll never know for sure, of course, but we do know that Gingrich lost.
 
@@ -402,4 +402,4 @@ Satoshi's design insight was to *channel* that *inevitable work* into a *cumulat
 
 ### Kudos
 
-The concepts in this post were, long ago, outlined by many others. One can't write about PoS without mentioning [Andrew Poelstra](https://download.wpsoftware.net/bitcoin/pos.pdf) and [Greg Maxwell](http://www.youtube.com/v/jE_elgnIw3M?start=4774&end=5170&version=3&autoplay=1), who lay the foundation for this generalized counterargument.
+The concepts in this post were, long ago, outlined by many others. One can't write about PoS without mentioning [Andrew Poelstra](https://download.wpsoftware.net/bitcoin/pos.pdf) and [Greg Maxwell](https://www.youtube.com/embed/jE_elgnIw3M?start=4774&end=5170&rel=0&autoplay=1), who lay the foundation for this generalized counterargument.

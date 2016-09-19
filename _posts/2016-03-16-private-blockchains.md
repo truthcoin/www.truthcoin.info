@@ -145,13 +145,11 @@ Quod erat demonstrandum.
 
 ### 2. Private Blockchain vs. Database
 
-[Some](http://www.coindesk.com/four-boring-predictions-for-private-blockchains-in-2016/) [have](http://startupmanagement.org/2014/12/27/the-blockchain-is-the-new-database-get-ready-to-rewrite-everything/) [claimed](https://www.youtube.com/watch?v=ycMCGBuDJLQ) that "Blockchain" is "nothing [much more](https://www.youtube.com/v/c9CjWz2N5Hs&version=3&start=2500&end=2620&autoplay=1) than a database".
 
 That's wrong.
 
 If someone makes such a claim, ask them these questions:
 
-* If a blockchain is 'just a database', why was 'the blockchain' invented *over 50 years* after ['the database' was invented](http://quickbase.intuit.com/articles/timeline-of-database-history)? [What's new](https://www.youtube.com/v/c9CjWz2N5Hs&version=3&start=2030&end=2130&autoplay=1)?
 * Why do all cryptocurrencies (100% of production-grade 'blockchain' software) *construct their own internal database* (Bitcoin [uses LevelDB](https://en.bitcoin.it/wiki/Bitcoin_Core_0.11_%28ch_2%29:_Data_Storage))?
 * Why doesn't Bitcoin just leave the data sequence as "LevelDB", and broadcast data-updates in LevelDB format?
 
@@ -174,7 +172,6 @@ In one image:
 
 ![blk-eff](/images/blockchain-efficiency.png)
 
-Applied to Bitcoin: banks overwhelmingly [believe that 'Bitcoin's blockchain' is an *IT improvement* (ie, an improvement in mankind's use of IT)](https://www.youtube.com/v/Vcq0_h1_J30&version=3&start=44&end=79&autoplay=1), when it is instead, clearly, a *banking improvement*.
 
 IT improvements are things like "the CD-ROM" or "copper wiring". The Bitcoin doesn't do anything new, database-wise.
 

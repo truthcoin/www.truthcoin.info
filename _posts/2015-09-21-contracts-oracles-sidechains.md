@@ -7,7 +7,7 @@ show_author: true
 
 > Smart Contracts need Oracles, Oracles need Governance, Governance needs Sidechains. Ethereum cannot support Oracles, and has no use-cases.
 
-## When Shackles Empower: The [Autonomy](https://www.youtube.com/v/_lOT2p_FCvA?&version=3&autoplay=1)-[Coordination](https://www.youtube.com/v/93walxW7mjQ?start=146&end=442&version=3&autoplay=1) Tradeoff
+## When Shackles Empower: The [Autonomy](https://www.youtube.com/embed/_lOT2p_FCvA?&rel=0&autoplay=1)-[Coordination](https://www.youtube.com/embed/93walxW7mjQ?start=146&end=442&rel=0&autoplay=1) Tradeoff
 > Some freedoms contradict each other. By oppressing contradictory freedoms, total freedom can actually increase.
 
 Skip this section (To "The Anarchy of Ethereum") if you already buy this (obvious) premise.
@@ -83,7 +83,7 @@ Clearly, we must somehow *use multiple results*...but multiple results delivered
 Why, the very concept of "Honesty" *requires* "Memory" (and "Identity").
 
 
-Then, our focus is this very interesting and very common position: [non-compliance is *short-run* profitable](https://www.youtube.com/v/F0VHiONkot8?start=331&end=360&version=3&autoplay=1), but **a period of <i>lengthy</i> compliance generates greater total well-being**. [A group can harvest that surplus and divide it up](https://www.youtube.com/v/l-bflQuRLbU?start=125&end=150&version=3&autoplay=1), effectively <a href="https://en.wikipedia.org/wiki/Folk_theorem_(game_theory)">coordinating their mutually-prosperous joint-future</a>.
+Then, our focus is this very interesting and very common position: [non-compliance is *short-run* profitable](https://www.youtube.com/embed/F0VHiONkot8?start=331&end=360&rel=0&autoplay=1), but **a period of <i>lengthy</i> compliance generates greater total well-being**. [A group can harvest that surplus and divide it up](https://www.youtube.com/embed/l-bflQuRLbU?start=125&end=150&rel=0&autoplay=1), effectively <a href="https://en.wikipedia.org/wiki/Folk_theorem_(game_theory)">coordinating their mutually-prosperous joint-future</a>.
 
 
 But if there are no stable identities ("brands"), there's no way to remember "who" complied in the past. If you are paired with a new faceless player each round, "your interactions" aren't really "repeated"; you [might as well be playing all of the rounds at the same time](https://en.wikipedia.org/wiki/Information_set_(game_theory)); the "long run" is non-existent!
@@ -110,7 +110,7 @@ Speaking of unavoidable:
 
 Ethereum allows users to create *any* "Smart Contract" they want, without having to re-do the (HARD) work of building a new community of miners, full nodes, or users. 
 
-As you might imagine, I was a little thrown by this idea. For starters, I had just spent the month of November making sure that [my own project](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf) wouldn't inadvertently create [assassination markets](https://en.wikipedia.org/wiki/Assassination_market). In [contrast](https://bitcoinmagazine.com/21626/future-smart-contracts-positive-social-innovation-criminal-activity/), no one at Ethereum [seemed to even know what it was for](https://www.youtube.com/v/yQvhEUuwJCk?start=175&end=195&version=3&autoplay=1), [let](http://www.truthcoin.info/images/enron.txt) alone [care](http://definitions.uslegal.com/d/depraved-indifference/).
+As you might imagine, I was a little thrown by this idea. For starters, I had just spent the month of November making sure that [my own project](http://www.truthcoin.info/papers/truthcoin-whitepaper.pdf) wouldn't inadvertently create [assassination markets](https://en.wikipedia.org/wiki/Assassination_market). In [contrast](https://bitcoinmagazine.com/21626/future-smart-contracts-positive-social-innovation-criminal-activity/), no one at Ethereum [seemed to even know what it was for](https://www.youtube.com/embed/yQvhEUuwJCk?start=175&end=195&rel=0&autoplay=1), [let](http://www.truthcoin.info/images/enron.txt) alone [care](http://definitions.uslegal.com/d/depraved-indifference/).
 
 ![Cheers](/images/eth-cheers.png)
 
@@ -272,7 +272,7 @@ Our modern world has seen the decline of the city-state in favor of the nation-s
 
 No.
 
-### A Fundamental Limitation: CryptoLaw [without CryptoPolice](https://www.youtube.com/v/H_imYEe1FA8?start=1223&end=1290&version=3&autoplay=1)
+### A Fundamental Limitation: CryptoLaw [without CryptoPolice](https://www.youtube.com/embed/H_imYEe1FA8?start=1223&end=1290&rel=0&autoplay=1)
 
 Although it purports to be "crypto-law", real "law" can be **enforced** on *real people*. Ethereum can only **edit** *ledgers in computers*; it can't get Shylock any flesh. At worst, it can [subtract your *digital* assets](http://www.truthcoin.info/blog/limits-of-blockchain/) (if, and only if, you choose to subject them to this risk). If Ethereum wants to affect the non-digital "real world", it will *lose all of the benefits of being a P2P computer network*, (and be in conflict with Real Law, which *does* have an armed police force).
 
@@ -294,7 +294,7 @@ So the *entire business*, suppliers to customers, has to be on blockchain. But *
 
 ### The Money Calculator is good for...a Casino?
 
-Seemingly, the only activities which reliably cut out the external world are "calculator+" [perfect information games](https://en.wikipedia.org/wiki/Perfect_information), and games of chance, particularly because they are self-contained, well-defined, and comparably easy to program. Ethereum even [described "smart contracts" as "chess"](https://www.youtube.com/v/AHAAktdxSOE?start=332&end=387&version=3&autoplay=1) once.
+Seemingly, the only activities which reliably cut out the external world are "calculator+" [perfect information games](https://en.wikipedia.org/wiki/Perfect_information), and games of chance, particularly because they are self-contained, well-defined, and comparably easy to program. Ethereum even [described "smart contracts" as "chess"](https://www.youtube.com/embed/AHAAktdxSOE?start=332&end=387&rel=0&autoplay=1) once.
 
 
 #### The Calculator in Practice
@@ -313,7 +313,7 @@ Of course, a Bitcoin-accepting website *can* easily emulate a casino (especially
 
 On January 9th, 2009, Bitcoin was published to the cryptography mailing list. **Three days later**, Hal Finney received a payment from Satoshi Nakamoto over the internet. The payment was revolutionary: it had almost every desirable feature of money rolled into one, on the information superhighway no less. Simply: the payment promised a new world of better payments. 
 
-On July 30th, 2015, Ethereum "launched". Three days later, nothing of any significance happened whatsoever. Months after that, the [publicized list](https://www.ethereum.org/) of "Some Projects Using Ethereum", in addition to *solely* consisting of Oracle and Physical projects (which, again, are *incompatible* with Ethereum), are [laughable](http://slock.it/index.php?c=20150901_vision) [id](https://www.youtube.com/v/qX8R7NMFSME&version=3&autoplay=1)[eas](https://www.youtube.com/v/tPrPozLdYZg&start=2108&end=2215&version=3&autoplay=1), [fraudulent misinterpretations of my own (Oracle-dependent) work](http://www.augur.net/), projects which [misunderstand the very purpose of loans by ignoring the essential concept of liquidity and assuming that someone who needs to borrow $1 in cash is willing to front $1.50 in cash](https://makerdao.com/), and, believe it or not, [projects whose entire website, locate-able codebase, and documentation comprises all of *six sentences*](http://airlock.me/). 
+On July 30th, 2015, Ethereum "launched". Three days later, nothing of any significance happened whatsoever. Months after that, the [publicized list](https://www.ethereum.org/) of "Some Projects Using Ethereum", in addition to *solely* consisting of Oracle and Physical projects (which, again, are *incompatible* with Ethereum), are [laughable](http://slock.it/index.php?c=20150901_vision) [id](https://www.youtube.com/embed/qX8R7NMFSME?rel=0&autoplay=1)[eas](https://www.youtube.com/embed/tPrPozLdYZg?start=2108&end=2215&rel=0&autoplay=1), [fraudulent misinterpretations of my own (Oracle-dependent) work](http://www.augur.net/), projects which [misunderstand the very purpose of loans by ignoring the essential concept of liquidity and assuming that someone who needs to borrow $1 in cash is willing to front $1.50 in cash](https://makerdao.com/), and, believe it or not, [projects whose entire website, locate-able codebase, and documentation comprises all of *six sentences*](http://airlock.me/). 
 
 Things are actually worse, in practice, than I expected they'd be, when I drafted this post (January 2015). Why is it so bad??
 
@@ -329,7 +329,7 @@ What if Satoshi had shipped a C++ compiler (a "general blockchain-creation platf
 
 Is a new complier useful if it can only be used to write casino software? Is a new alphabet useful if it can only be used within a casino? Is a pen useful if it can only write the word "casino"? Of course not: generality's value is in being *unrestricted* and able to meet many needs.
 
-And even supposing you *do* find a specific use-case, and you *do* write a quality piece of software, you *still* have the problem of [learning](https://twitter.com/jgarzik/status/645229506266038273) that it is [secure](https://www.youtube.com/v/Y6hZhdZuct0?start=1023&end=1090&version=3&autoplay=1) and [worth using](https://www.youtube.com/v/Y6hZhdZuct0?start=1143&end=1172&version=3&autoplay=1) and [*convincing others of what you've learned*](http://forum.truthcoin.info/index.php/topic,119.msg386.html#msg386). The accumulation of *security* isn't general (across contracts) at all (unlike with a sequence of Oracle-questions, where it **is** the same Honest-or-Not mapping each time).
+And even supposing you *do* find a specific use-case, and you *do* write a quality piece of software, you *still* have the problem of [learning](https://twitter.com/jgarzik/status/645229506266038273) that it is [secure](https://www.youtube.com/embed/Y6hZhdZuct0?start=1023&end=1090&rel=0&autoplay=1) and [worth using](https://www.youtube.com/embed/Y6hZhdZuct0?start=1143&end=1172&rel=0&autoplay=1) and [*convincing others of what you've learned*](http://forum.truthcoin.info/index.php/topic,119.msg386.html#msg386). The accumulation of *security* isn't general (across contracts) at all (unlike with a sequence of Oracle-questions, where it **is** the same Honest-or-Not mapping each time).
 
 And, on top of that, unless Ethereum is redesigned to give contracts the equivalent of a soft fork, [any accumulated security is obliterated upon every software update](http://www.truthcoin.info/blog/measuring-decentralization/).
 

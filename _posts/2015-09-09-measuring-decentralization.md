@@ -27,7 +27,7 @@ Let's break the concepts down, before building them back up.
 
 ### Money
 
-Money [is like a big record of **who has done favors for whom**](https://www.youtube.com/v/B_UJ4G1GKLw?start=35&end=125&version=3&autoplay=1), but a very *abstract* record which works without knowing the *specific* **identity** or **favor**. That's how you can trade money with someone you've never met (or will never meet again): it makes *private* value-knowledge <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">*common*</a>.
+Money [is like a big record of **who has done favors for whom**](https://www.youtube.com/embed/B_UJ4G1GKLw?start=35&end=125&rel=0&autoplay=1), but a very *abstract* record which works without knowing the *specific* **identity** or **favor**. That's how you can trade money with someone you've never met (or will never meet again): it makes *private* value-knowledge <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">*common*</a>.
 
 That's what it does. How can we make something *do* that? How can we build a "payment network"?
 
@@ -144,7 +144,7 @@ I think so: anyone, anywhere, would be able to make sure that they had gotten pa
 
 On the other hand, what if the CONOP were expensive, such that only *one* agent in the entire world could run a full node (say, the United State Government)? This agent would control the network completely: perfect centralization. If someone "cut off its head", this network would disintegrate.
 
-In fact, the logic works perfectly, in reverse, to explain existing monetary systems: the cost of creating "a full US Dollar node" is more than anyone could afford, by deliberate design. If, by magic, all of the USA's banks / federal reserve / treasury buildings and equipment suddenly vanished, how many people would be able to replace them? Only one. Despite the fact that many, many people could, in principle, start [a bank from](https://www.youtube.com/v/aYKKsRxhcro?start=2970&end=3050&version=3&autoplay=1) [their garage](http://www.retireat21.com/blog/10-companies-started-garages#10_Famous_Garage_Startups) (and try to satisfy this unmet banking demand), we all know that they would be unable to do so. It would be illegal.
+In fact, the logic works perfectly, in reverse, to explain existing monetary systems: the cost of creating "a full US Dollar node" is more than anyone could afford, by deliberate design. If, by magic, all of the USA's banks / federal reserve / treasury buildings and equipment suddenly vanished, how many people would be able to replace them? Only one. Despite the fact that many, many people could, in principle, start [a bank from](https://www.youtube.com/embed/aYKKsRxhcro?start=2970&end=3050&rel=0&autoplay=1) [their garage](http://www.retireat21.com/blog/10-companies-started-garages#10_Famous_Garage_Startups) (and try to satisfy this unmet banking demand), we all know that they would be unable to do so. It would be illegal.
 
 
 #### Ripple
@@ -173,7 +173,7 @@ Only they really "know" if anyone has been paid. Not you.
 
 ##### Non-CONOP Comments
 
-A high-status individual with ["name recognition"](https://en.wikipedia.org/wiki/Name_recognition) (such as Gavin Andresen), can completely overpower even a group of honest/well-informed friends. This is because name recognition is <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">common</a>, and allows for "free coordination", whereas [private or even mutual\* knowledge do not allow for such coordination](https://www.youtube.com/v/3-son3EJTrU?start=488&end=630&version=3&autoplay=1).
+A high-status individual with ["name recognition"](https://en.wikipedia.org/wiki/Name_recognition) (such as Gavin Andresen), can completely overpower even a group of honest/well-informed friends. This is because name recognition is <a href="https://en.wikipedia.org/wiki/Common_knowledge_(logic)">common</a>, and allows for "free coordination", whereas [private or even mutual\* knowledge do not allow for such coordination](https://www.youtube.com/embed/3-son3EJTrU?start=488&end=630&rel=0&autoplay=1).
 
 \* There is a definition-mismatch in the video, Pinker's "mutual" knowledge is wikipedia's "common" knowledge.
 
@@ -255,9 +255,9 @@ Even freedom-loving, tech-literate Edward Snowden [remarked](http://cointelegrap
 
 #### The Final Gear in a Vast Machine
 
-There is a rampant [misconception](https://www.youtube.com/v/MJHTY0gWOGw?start=600&end=659&version=3&autoplay=1) that mining is somehow important to Bitcoin.
+There is a rampant [misconception](https://www.youtube.com/embed/MJHTY0gWOGw?start=600&end=659&rel=0&autoplay=1) that mining is somehow important to Bitcoin.
 
-Firstly, the true function of mining is [not to provide security to the network, but instead to slow the distribution of coins, such that interested parties would *join* Bitcoin instead of *cloning it* into a competing system](http://www.truthcoin.info/blog/pow-cheapest/). Mining will fulfill that function, in a fully-P2P way, [regardless of who is-or-is-not mining](https://www.youtube.com/v/Y6hZhdZuct0?start=783&end=816&version=3&autoplay=1). 
+Firstly, the true function of mining is [not to provide security to the network, but instead to slow the distribution of coins, such that interested parties would *join* Bitcoin instead of *cloning it* into a competing system](http://www.truthcoin.info/blog/pow-cheapest/). Mining will fulfill that function, in a fully-P2P way, [regardless of who is-or-is-not mining](https://www.youtube.com/embed/Y6hZhdZuct0?start=783&end=816&rel=0&autoplay=1). 
 
 When Satoshi/Bitcoin-Experts use the phrase "secure the network", they are using a somewhat different version of the word "secure". If I say that my bank is 'secure', what I usually mean is that "no one is going to steal my money". But **Miners already can't steal anyone's Bitcoin**.
 
@@ -354,7 +354,7 @@ For a given protocol, the user is *free to choose* among any soft-forks he wishe
 
 All versions are compatible, so, even if all the devs were kidnapped (and forced to write Evil Bitcoin Soft Fork), no one *needs* to upgrade. If you accidentally do upgrade, you can merely switch back. To "know you've been paid" you can run *any* version of the software you like, including the very first version!
 
-Your version might be slower, uglier, etc, but it will let you "know if you've been paid". It won't allow *YOU* to be paid in a "new" (ie, "update-dependent") way, and **it won't know if <i>other</i> people** have been paid in a "new" way (because it *necessarily* [doesn't know *why* the coach chose to avoid](https://www.youtube.com/v/brBvdjoNC6Y?start=54&end=82&version=3&autoplay=1) a "post-interception field goal": Was it to comply with some "new" rule, or just because he doesn't want to?).
+Your version might be slower, uglier, etc, but it will let you "know if you've been paid". It won't allow *YOU* to be paid in a "new" (ie, "update-dependent") way, and **it won't know if <i>other</i> people** have been paid in a "new" way (because it *necessarily* [doesn't know *why* the coach chose to avoid](https://www.youtube.com/embed/brBvdjoNC6Y?start=54&end=82&rel=0&autoplay=1) a "post-interception field goal": Was it to comply with some "new" rule, or just because he doesn't want to?).
 
 But all of *your own* money is protected by the "old rules", no matter what fancy other rules other people play by.
 
@@ -396,7 +396,7 @@ Unfortunately, of course, this limits our ability to improve the software!
 
 Instead we might try to only propose hard forks where *as little as possible* has changed, so that "Are these new rules any good?" is likely to be easy to answer.
 
-Then, with [1] [enough](https://en.wikipedia.org/wiki/Groupthink) [experts](https://en.wikipedia.org/wiki/Diffusion_of_responsibility) [involved](https://en.wikipedia.org/wiki/Group_polarization), and [2] [enough time for them all](https://www.youtube.com/v/NyDDyT1lDhA?start=96&version=3&autoplay=1) to [voice their concerns](https://en.wikipedia.org/wiki/Pluralistic_ignorance), the user could eventually be *as confident* that "the rules are good" as *the net confidence* of *the experts*.
+Then, with [1] [enough](https://en.wikipedia.org/wiki/Groupthink) [experts](https://en.wikipedia.org/wiki/Diffusion_of_responsibility) [involved](https://en.wikipedia.org/wiki/Group_polarization), and [2] [enough time for them all](https://www.youtube.com/embed/NyDDyT1lDhA?start=96&rel=0&autoplay=1) to [voice their concerns](https://en.wikipedia.org/wiki/Pluralistic_ignorance), the user could eventually be *as confident* that "the rules are good" as *the net confidence* of *the experts*.
 
 Unfortunately, our experts just aren't smart enough. No one is.
 
@@ -412,7 +412,7 @@ While [it is claimed](http://www.amazon.com/Code-Complete-Practical-Handbook-Con
 
 Ask them about it! Here's Appendix D ("Flight Software Complexity") of [their report](http://www.nasa.gov/pdf/418878main_FSWC_Final_Report.pdf) on getting it right:
 
-The very first sentences quote sociologist Charles Perrow: "...about the causes of **failure in highly complex systems**, concluding that they were **virtually inevitable**." He continues: "...when **seemingly unrelated** parts of a larger system fail in some [*unforeseen*](https://www.youtube.com/v/WDRxK6cevqw?version=3&start=3&end=250&autoplay=1) combination, dependencies can become apparent that **could not have been accounted for** in the original design."
+The very first sentences quote sociologist Charles Perrow: "...about the causes of **failure in highly complex systems**, concluding that they were **virtually inevitable**." He continues: "...when **seemingly unrelated** parts of a larger system fail in some [*unforeseen*](https://www.youtube.com/embed/WDRxK6cevqw?version=3&start=3&end=250&autoplay=1) combination, dependencies can become apparent that **could not have been accounted for** in the original design."
 
 
 Of course, a space shuttle is really complex, right? Instead, why don't we take something that has been operating continuously, without any problems, for like 10 years. Then, we'll take the elite NASA programming team and have them change just a single parameter.
@@ -433,7 +433,7 @@ Sound familiar?
 
 Mankind will have *perfected* space travel long before we remotely understand software systems.
 
-Just ask [Greg Maxwell](https://www.youtube.com/v/TYQ-3VvNCHE?start=2754&end=2871&version=3&autoplay=1) or [Gavin Andresen](https://www.youtube.com/v/Y6hZhdZuct0?start=1031&end=1088&version=3&autoplay=1). Or [Mike Hearn](https://www.reddit.com/r/Bitcoin/comments/3hr294/reminder_moving_to_leveldb_in_2013_which_was/).
+Just ask [Greg Maxwell](https://www.youtube.com/embed/TYQ-3VvNCHE?start=2754&end=2871&rel=0&autoplay=1) or [Gavin Andresen](https://www.youtube.com/embed/Y6hZhdZuct0?start=1031&end=1088&rel=0&autoplay=1). Or [Mike Hearn](https://www.reddit.com/r/Bitcoin/comments/3hr294/reminder_moving_to_leveldb_in_2013_which_was/).
 
 Someone attempted [to count up Bitcoin's lines of code](https://bitcointalk.org/index.php?topic=289807.0), and concluded that there were a little over 12,000. **In order to reasonably predict that a hard fork is safe, someone must [evaluate each change](http://www.joelonsoftware.com/articles/fog0000000069.html) against <i>every</i> existing line of code.**
 
@@ -577,11 +577,11 @@ And they can't *prevent you from circumventing the hubs*:
 
 #### It Can
 
-During the custodial period (about a week) The Hubs do get to determine if you will, or will not, **be able to make a cheap transaction** with the money you deposited with them. If they ban you from making *any* transactions (or, their computers get shut down by the government, or catch fire), your money is stuck there for the duration of the custodial period. However, it is only temporarily trapped: your money [can't be lost or stolen](https://www.youtube.com/v/2QH5EV_Io0E?start=2565&end=2660&version=3&autoplay=1).	
+During the custodial period (about a week) The Hubs do get to determine if you will, or will not, **be able to make a cheap transaction** with the money you deposited with them. If they ban you from making *any* transactions (or, their computers get shut down by the government, or catch fire), your money is stuck there for the duration of the custodial period. However, it is only temporarily trapped: your money [can't be lost or stolen](https://www.youtube.com/embed/2QH5EV_Io0E?start=2565&end=2660&rel=0&autoplay=1).	
 
 Basically, it's a bank that *can't* steal your money. Revolutionary!
 
-Since [anyone can become one](https://en.wikipedia.org/wiki/Barriers_to_entry), the resulting competition will result in [maximal uptime](https://www.youtube.com/v/2QH5EV_Io0E?start=2495&end=2528&version=3&autoplay=1) and minimal fees for everyone.
+Since [anyone can become one](https://en.wikipedia.org/wiki/Barriers_to_entry), the resulting competition will result in [maximal uptime](https://www.youtube.com/embed/2QH5EV_Io0E?start=2495&end=2528&rel=0&autoplay=1) and minimal fees for everyone.
 
 Servers that **compete on uptime?** ...just as is done today with...gasp..."big server farms".
 

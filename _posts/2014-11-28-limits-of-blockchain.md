@@ -71,7 +71,7 @@ Bitcoin is **only** weak on **purposefully storing** value (it only describes wh
 
 Purposeful value-storage is what I created Truthcoin to address: it has blockchain rules which store up Bitcoin and conditionally pay it out...a prediction marketplace containing a trustless outcome-resolution service (ie, an escrow running entirely on greed and not on second-order abstractions such as 'honesty').
 
-To do this, Truthcoin had to add a new *dimension of ownership* to the blockchain: that of 'reputation' (the Votecoins). Some individuals may have greater subject-matter expertise than others: *when groups disagree* it is best to weight individual opinions according to their relative expertise. We must divide our limited attention span, and consider only the most-relevant knowledge-sources. Correspondingly, status is a zero-sum game: if you're on top, [you lose when others do well](http://www.youtube.com/v/NlpxjBgG-7E?start=420&end=500&version=3&autoplay=1), and if you're below, you benefit from the misfortune of others.
+To do this, Truthcoin had to add a new *dimension of ownership* to the blockchain: that of 'reputation' (the Votecoins). Some individuals may have greater subject-matter expertise than others: *when groups disagree* it is best to weight individual opinions according to their relative expertise. We must divide our limited attention span, and consider only the most-relevant knowledge-sources. Correspondingly, status is a zero-sum game: if you're on top, [you lose when others do well](https://www.youtube.com/embed/NlpxjBgG-7E?start=420&end=500&rel=0&autoplay=1), and if you're below, you benefit from the misfortune of others.
 
 ![NewtIntrade](/images/newt_small.png)
 
