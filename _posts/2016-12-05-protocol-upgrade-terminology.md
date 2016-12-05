@@ -67,7 +67,7 @@ In fact, out of necessity, Bullet #5 has already moved into new name for itself:
 
 In the evil fork, the protocol rules are altered to become informational substrate for arbitrary data (and, upon this blank slate, a new protocol is written).
 
-Let me elaborate with a non-Bitcoin example. Consider "Chess II", which we've implimented by soft forking "original Chess". Chess II might only allow the players to move their queenside knight, to one of three squares (initial position, left, and right).\* By doing this the players can encode bits of information -- "0" for left, "1" for right. In so doing, they can signal their moves for any other game -- even something like Checkers, Connect 4, or (by advancing frame by frame) Starcraft II.
+Let me elaborate with a non-Bitcoin example. Consider "Chess II", which we've implemented by soft forking "original Chess". Chess II might only allow the players to move their queenside knight, to one of three squares (initial position, left, and right).\* By doing this the players can encode bits of information -- "0" for left, "1" for right. In so doing, they can signal their moves for any other game -- even something like Checkers, Connect 4, or (by advancing frame by frame) Starcraft II.
 
 ![two-games](/images/game-in-game.jpg)
 
@@ -77,7 +77,7 @@ How did this happen? Well: the "rules" of "chess" ceased to define a game, and i
 
 The result, is that **we have [a way of 'loosening' the rules...by tightening them](https://petertodd.org/2016/forced-soft-forks#radical-changes)**.
 
-\* Ordinarily, standard chess rules would quickly trigger a draw, via threefold repetition (and/or, the 50 move no capture rule). But the problem is trivially avoided by forcing the players to play multiple games in a row. (Moreover, we can lengthen games by [forcing all other pieces to increment in a predermined sequence](https://www.chess.com/blog/kurtgodden/the-longest-possible-chess-game), or we can simply force both players to always decline the draw.)
+\* Ordinarily, standard chess rules would quickly trigger a draw, via threefold repetition (and/or, the 50 move no capture rule). But the problem is trivially avoided by forcing the players to play multiple games in a row. (Moreover, we can lengthen games by [forcing all other pieces to increment in a predetermined sequence](https://www.chess.com/blog/kurtgodden/the-longest-possible-chess-game), or we can simply force both players to always decline the draw.)
 
 ### The Culprit
 
@@ -91,7 +91,7 @@ In my opinion, these problems are largely **the result of imprecise terminology*
 ## Solution
 
 
-I therefore propose that we expand our existing langage:
+I therefore propose that we expand our existing language:
 
 * Hard Forks (vs. non-Hard)
 
@@ -165,7 +165,7 @@ However, if the spinoff succeeds, we have discarded Bitcoin 1.0 as a failure and
 
 The software of [this quad robot at 6:55](https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters#t-400632) allows it to reach any point in space, even if some of its appendages are removed. If we assume that 'yaw-flying' is one of the many algorithms programmed into the 'original' quad, then the decision to disable a few wings (for whatever reason) is **not** a 'mean' fork with respect to range. While the quad has lost one degree-of-freedom wrt motion (yaw), it can still reach any location in the room. Therefore, the three dimensions (of range) that we care about are unaffected. To restate: losing two wings is Mean wrt yaw, but Kind wrt range. Losing two wings is also Mean wrt flying mode, cargo stability, battery life and (probably) altitude, top speed, etc. 
 
-To be mean, you have to be prevented from *acheiving a goal* with your *present software*. This is why repurposing the [ignored OP NOPs](https://en.bitcoin.it/wiki/Script#Reserved_words) to [create new opcodes](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#summary) is 0% mean.
+To be mean, you have to be prevented from *acheiving a goal* with your *present software*. This is why re-purposing the [ignored OP NOPs](https://en.bitcoin.it/wiki/Script#Reserved_words) to [create new opcodes](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#summary) is 0% mean.
 
 These protocol upgrades *do* filter (ie, "censor") the users: they can no longer broadcast certain anyone-can-spend txns, if these are of a certain structure. However, the upgrade *does not* prevent a stubborn non-upgrader from *achieving the same goal* as before. There are hundreds of still-valid ways to create an anyone-can-spend txn. Moreover, the upgrade does not interrupt those ways which were in popular use at the time of the upgrade.
 

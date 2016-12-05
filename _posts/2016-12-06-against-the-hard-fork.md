@@ -15,7 +15,7 @@ A [Hard Fork](http://www.truthcoin.info/blog/protocol-upgrade-terminology/#solut
 
 1. They attempt to break an existing contract, and replace it with an "updated" version . The entire purpose of a contract is, of course, that it is binding unless *all* parties agree to update it. However, such an agreement-to-update is often difficult to measure, due to many factors, the most important being the size, heterogeneity and clandestine nature of the Bitcoin Community. Due to monetary network-effects, contracts can be violated, by hard fork, even by [a small minority](https://medium.com/@nntaleb/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15#.pxzomnaw9) of Community Members.
 
-2. Relatedly, the Hard Fork introduces a non-peer "Authority" to answer the question "Which Bitcoin Network is the Real One?". This is unambiguously [*not* Peer-to-Peer](http://www.truthcoin.info/blog/measuring-decentralization/#development-100-decentralized-unless-we-hard-fork)! Hence, it is not surprising that the Hard Fork also spits in the face of Nakamoto Consensus, as Satoshi's Heaviest Chain Rule awnsers the very same question (and is the entire purpose that the Bitcoin software exists).
+2. Relatedly, the Hard Fork introduces a non-peer "Authority" to answer the question "Which Bitcoin Network is the Real One?". This is unambiguously [*not* Peer-to-Peer](http://www.truthcoin.info/blog/measuring-decentralization/#development-100-decentralized-unless-we-hard-fork)! Hence, it is not surprising that the Hard Fork also spits in the face of Nakamoto Consensus, as Satoshi's Heaviest Chain Rule answers the very same question (and is the entire purpose that the Bitcoin software exists).
 
 3. They reset the clock on the Accumulation of Security. Bitcoin has a chicken-and-egg problem, such that there's no way to know if something is secure *until* people trust it with large amounts of money.
 
@@ -33,10 +33,10 @@ To be fair, I will point out the following advantages of Hard Forks.
 
 * **Less Baggage**: Hard Forks are unambiguously 'cleaner' - they accomplish their goal directly and as simply as possible. An excellent metaphor is [the laryngeal nerve of the giraffe](https://www.youtube.com/watch?v=cO1a1Ek-HD0). If nature could 'hard fork' it would redesign the nerve, from scratch, to travel in a direct path of 2 inches. However, Mother Nature's process of Darwinian evolution -being unable to 'design'- will blindly preserve as much "backwards compatibility" as possible, thematically akin to our 'soft fork'. As a result, the nerve is longer by a factor of ~140 for no reason; pure inefficiency.
 * **More Transparent**: Hard Forks tell a user that they need to upgrade, and how to do so. There is no 'secret', behind-the-scenes forced upgrading.
-* **More Soverign**: A user can choose to outright reject a Hard Fork. This is a benefit when the change is bad, but it is also a severe drawback the change is good.
+* **More Sovereign**: A user can choose to outright reject a Hard Fork. This is a benefit when the change is bad, but it is also a severe drawback the change is good.
 * **More Flexible**: Given that one is starting from scratch, a Hard Forks can be used to do anything. (Again, as many rival cryptosystems have discovered, this flexibility can cause many more problems than it solves. To continue with the biological metaphor, it might be analogous to the fact that over 99.999999% of mutations do *not* cause species-evolution, and instead cause the animal to simply die of cancer.)
 
-In truth, few of these benefits are *marginal* benefits, given that 'advanced soft forks' ([extension blocks](https://www.reddit.com/r/Bitcoin/comments/39kqzs/how_about_a_softfork_optin_blocksize_increase/), [sidechains](http://www.truthcoin.info/blog/drivechain/)) can also score very highly on baggage, transparency, soverignty, and flexibility. And most of the flexibility lost, by downgrading from HF to ASF, is flexibility that no one is interested in pursuing anyway (such as increasing the 21 million coin limit).
+In truth, few of these benefits are *marginal* benefits, given that 'advanced soft forks' ([extension blocks](https://www.reddit.com/r/Bitcoin/comments/39kqzs/how_about_a_softfork_optin_blocksize_increase/), [sidechains](http://www.truthcoin.info/blog/drivechain/)) can also score very highly on baggage, transparency, sovereignty, and flexibility. And most of the flexibility lost, by downgrading from HF to ASF, is flexibility that no one is interested in pursuing anyway (such as increasing the 21 million coin limit).
 
 In general, such a paltry benefit is not enough to outweigh the tremendous costs, as I will now explain.
 
@@ -92,7 +92,7 @@ Worse, your efforts to check your employee's work might fail. Your employee migh
 
 Because work can't be *checked* for free, **even 'free' work can <i>easily</i> cost you a fortune**.
 
-Hiring is expensive! (This explains why, in our world, there's simulatenously [1] plenty of work to do, and [2] many people who are willing to work, but can't find a job.)
+Hiring is expensive! (This explains why, in our world, there's simultaneously [1] plenty of work to do, and [2] many people who are willing to work, but can't find a job.)
 
 ### 3. Coordination and Ambiguity
 
@@ -102,7 +102,7 @@ Consider [this writeup of Bitcoin's March 2013 emergency](https://freedom-to-tin
 
 I agree that this case can help us understand Bitcoin Upgrades. I don't agree that: "Without the central co-ordination of the Bitcoin Core developers and the strong trust that the community places in them, it is inconceivable that adopting this counterintuitive solution could have been successfully accomplished", however.
 
-In fact, it is *because* the Core developers were unable to coordinate, and *because* they were **not** able to convince (ie "get") the community, that the (supposedly "counterintuitive") solution would have *inevitiably* manifest itself.
+In fact, it is *because* the Core developers were unable to coordinate, and *because* they were **not** able to convince (ie "get") the community, that the (supposedly "counterintuitive") solution would have *inevitably* manifest itself.
 
 That said, the CoreDevs did minimize the damage. And you can't knock that response time.
 
@@ -112,7 +112,7 @@ That said, the CoreDevs did minimize the damage. And you can't knock that respon
 
 This would not have surprised [Tom Schelling, who noted](http://userpages.umbc.edu/~nmiller/POLI388/BARGAINING.TCS.pdf) in 1956 that the **most constrained** (ie, most intolerant) person would always hold a brutal negotiating advantage. Your boss and you agree that you are worth between $10 and $20 an hour -- the smartest thing is to say "I **cannot** accept less than $20", and to back-that-up by fastening on a collar that explodes if you indeed get <$20.
 
-( Both pieces of writing are of suberb quality. )
+( Both pieces of writing are of superb quality. )
 
 #### c. A Good Night's Sleep
 
@@ -126,7 +126,7 @@ The blockchain allows users to coordinate on a single network (by using a simple
 
 Anyone concerned with 'being on the wrong network' would, inevitably, reach the same conclusion as Pieter Wuille: the downgrade would win. In any situation of 'motivated ambiguity', the downgrade will probably always win. Worse, this conclusion has momentum -- the cleverer individuals would realize sooner, thus transmuting an initially-ambiguous situation into a ha-ha-losers-sorry-for-your-loss cutthroat meritocracy.
 
-The Devs did minimize the transtion period, however, which minimized the collateral damage.
+The Devs did minimize the transition period, however, which minimized the collateral damage.
 
 Conclusion: Each of these three points favors the soft fork over the hard fork.
 
@@ -134,9 +134,9 @@ Conclusion: Each of these three points favors the soft fork over the hard fork.
 
 Many argue that hashpower will provide the common signal (dooming the less-heavy chain to extinction).
 
-This argument has many points in its favor: Hashrate is a good barometer of health (a neglected chain *cannot* proceed), and it is globally-availiable to all decision-makers (and this is [common](https://en.wikipedia.org/wiki/Common_knowledge_%28logic&29https://en.wikipedia.org/wiki/Common_knowledge_%28logic%29)).
+This argument has many points in its favor: Hashrate is a good barometer of health (a neglected chain *cannot* proceed), and it is globally-available to all decision-makers (and this is [common](https://en.wikipedia.org/wiki/Common_knowledge_%28logic&29https://en.wikipedia.org/wiki/Common_knowledge_%28logic%29)).
 
-However, the argument suffers, because of the inherent reactiveness of mining. First, notice that [1] there is an infinite number of hard-fork-paths forward, from any given block, and no objective criteria with which to disqualify any of them. The decision to bless one of them with hashpower, is, therefore, inherently both aribtrary and reversable. Second, notice that [2] if [investors support one chain](http://nakamotoinstitute.org/mempool/who-controls-bitcoin/), this [financial support will necessarily attract hashpower to the chain](https://www.youtube.com/embed/91TufmffIDg?start=1462&end=1810&rel=0&autoplay=1).
+However, the argument suffers, because of the inherent reactiveness of mining. First, notice that [1] there is an infinite number of hard-fork-paths forward, from any given block, and no objective criteria with which to disqualify any of them. The decision to bless one of them with hashpower, is, therefore, inherently both arbitrary and reversible. Second, notice that [2] if [investors support one chain](http://nakamotoinstitute.org/mempool/who-controls-bitcoin/), this [financial support will necessarily attract hashpower to the chain](https://www.youtube.com/embed/91TufmffIDg?start=1462&end=1810&rel=0&autoplay=1).
 
 So, any decisions the miner makes can-and-will be reversed by investors. Hashrate would coordinate more-effectively, if Hashers could prove that they were **unable** to **ever** support a chain. Since they cannot prove this, the metric is flaky.
 
@@ -170,7 +170,7 @@ The Column Player knows [1] if attack is possible, and [2] how to attack (and ca
     ----------------------------     ------------------------------
 
 
-If the user declines to update, nothing changes (hence the zero payoffs). The attacker (left Column) prefers to succeed in his attack, scoring 4 if he can trick Row into upgrading. If the attack fails, the attacker is embarrased and loses 2. Nice devs (right Column) score 1 if their good upgrades are installed. Row Player prefers to upgrade (scoring 3), but loses 10 if installs an Attack. Row must pay 'a' to learn the state of the upgrade ('vulnerable' or 'not vulnerable').
+If the user declines to update, nothing changes (hence the zero payoffs). The attacker (left Column) prefers to succeed in his attack, scoring 4 if he can trick Row into upgrading. If the attack fails, the attacker is embarrassed and loses 2. Nice devs (right Column) score 1 if their good upgrades are installed. Row Player prefers to upgrade (scoring 3), but loses 10 if installs an Attack. Row must pay 'a' to learn the state of the upgrade ('vulnerable' or 'not vulnerable').
 
 ### Equilibria of Game
 
@@ -203,7 +203,7 @@ The converse is true: if we *lack* a process for filtering out Dev-misbehavior, 
 
 The crucial point: **Dev's inability to do harm is also their inability to be intimidated**.
 
-Of course, such immunity is far from perfect. Historically, there *has* unfortunately been some intimidation of Devs, and more than a fair share of stress. But it is noteworthy that, for an enterprise of this size (billions of dollars) and quality (constant dark net criminal activity, scams, fraud, and misrepresentation, little/no identify verification or background checking) the harrassment of developers has been so minimal. There has been some doxxing, and "mean comments on the internet", and [this post](http://trilema.com/2015/theres-a-one-bitcoin-reward-for-the-death-of-pieter-wuille-details-below/) which I'm 95% certain is merely [a complex pun on Bitcoin's concept of "verifiable"](http://trilema.com/2015/theres-a-one-bitcoin-reward-for-the-death-of-pieter-wuille-details-below/#comment-116089).
+Of course, such immunity is far from perfect. Historically, there *has* unfortunately been some intimidation of Devs, and more than a fair share of stress. But it is noteworthy that, for an enterprise of this size (billions of dollars) and quality (constant dark net criminal activity, scams, fraud, and misrepresentation, little/no identify verification or background checking) the harassment of developers has been so minimal. There has been some doxxing, and "mean comments on the internet", and [this post](http://trilema.com/2015/theres-a-one-bitcoin-reward-for-the-death-of-pieter-wuille-details-below/) which I'm 95% certain is merely [a complex pun on Bitcoin's concept of "verifiable"](http://trilema.com/2015/theres-a-one-bitcoin-reward-for-the-death-of-pieter-wuille-details-below/#comment-116089).
 
 In fact, the [most threating thing to happen so far](/images/jeremy-rubin-affair.txt), was not an attack on Bitcoin itself, and merely an example of the complete technical incompetence of today's prosecutors, and their pedophilic obsession with a completely inert demo of an opt-in browser plugin.
 
@@ -248,9 +248,7 @@ But I see this as a reiteration of Reason 2. Ethereum desired to compete with Bi
 
 The hard fork is unacceptable in many ways -- it breaks Bitcoin's contract, risks user's funds and puts developers in danger.
 
-Fortunately, everything you'd need to use a Hard Fork for, you can do with sidechains or extension blocks.
-
-
+Fortunately, everything you'd need to use a Hard Fork for, you can do with [sidechains](http://www.truthcoin.info/blog/drivechain/) or [extension blocks](https://www.reddit.com/r/Bitcoin/comments/39kqzs/how_about_a_softfork_optin_blocksize_increase/).
 
 
 
@@ -393,14 +391,14 @@ Even if you avoid comas diligently, the fact remains that you must expend effort
 
 backhand practice, use it less
 
-shield-aiming ---> weakest link
+shield-aiming ---} weakest link
 
 If we shorten our walls, we will be safe.
 The enemy is not attacking our gate, we do not need to guard it.
 
 ### Truth Settlement
 
-Vitalik's Conflation  ---> certainty on Linux kernel, principles of software-use, all hardware, laws of physics, axioms of logic, etc.
+Vitalik's Conflation  ---} certainty on Linux kernel, principles of software-use, all hardware, laws of physics, axioms of logic, etc.
 
 Certainty on these accrues over time, and can be re-applied. I have never seen my Linux kernel malfunction, and why would this time be different?
 
