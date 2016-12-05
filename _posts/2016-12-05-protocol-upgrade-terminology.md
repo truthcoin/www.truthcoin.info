@@ -1,11 +1,18 @@
 ---
-title: Terminology of Protocol Upgrades (Hard, Mean, Loud, and Friendly)
+title: Better Fork Terminology
 show_author: true
 comments: true
 ---
 
 
-> When it comes to protocol upgrades, we don't have enough words to clearly describe the aspects that we actually care about. Hard - creates a new network, Mean - forces miners to constrain everyone on an existing network, Loud - creates ecological discrimination towards those who don't upgrade, Friendly - none of the above.
+> When it comes to protocol upgrades, we don't have enough words to clearly describe the aspects that we actually care about.
+
+### Simply
+
+* Hard: Creates a new network.
+* Mean: Forces miners to constrain everyone on an existing network.
+* Loud: Creates ecological discrimination towards those who don't upgrade.
+* Friendly: none of the above.
 
 ### Motivation
 
@@ -54,7 +61,7 @@ In other words, the current of 'soft fork' includes a wide range of phenomena; i
 
 ### 2. Poor Logical Foundation
 
-As the 5th bullet point (above) reveals, the soft fork label is not only unclear, but it is also self-contradictory.
+As the 5th bullet point (above) reveals, **the soft fork label is not only unclear, but it is also self-contradictory**.
 
 In fact, out of necessity, Bullet #5 has already moved into new name for itself: the ['evil fork'](http://gnusha.org/bitcoin-wizards/2015-12-30.log).
 
@@ -103,13 +110,29 @@ I've plotted several upgrades on the triangle graph, to give you an idea what I 
 
 ![tri-table](/images/fork-table.png)
 
-...and here is the corresponding table.
+...and here is the corresponding table:
 
 
 ### Table
 
+|No.| Item | Hard? | Mean? | Loud? |
+|:--|:-----|-------|-------|-------|
+|1| When [Satoshi imposed the infamous 1 MB block size limit](http://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular). | No | 95% | *(95%)* |
+|2| Sipa's [limitation of the coin supply to 21 Million](https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki). | No | 0% | 0% |
+|3| The [value overflow](https://en.bitcoin.it/wiki/Value_overflow_incident) fix. | No | 0% | 0% |
+|4| The [s-value discouragement](https://blog.blockcypher.com/enforcing-low-s-values-to-eliminate-a-bitcoin-network-attack-3582fc0ae948#.57see3jcu).| No | 49% | *(49%)* |
+|5| A version of Bitcoin where blocks are always empty. | No | 100% | *(100%)* |
+|6| An ['Evil Fork'](https://petertodd.org/2016/forced-soft-forks#radical-changes) upgrade. | No | 100% | *(100%)* |
+|7| [March 2013 Upgrade Bug](https://bitcoin.org/en/alert/2013-03-11-chain-fork) | Yes | *(100%)* | *(100%)* |
+|8| [Bitcoin Classic](https://bitcoinclassic.com/) | Yes | *(100%)* | *(100%)* |
+|9|Adding support for [CSV](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki)|No|0%|5%|
+|10|Adding support for [SegWit](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)|No|0%|40%|
+|11| Satoshi's change from 'longest chain' to 'heaviest chain'.|*|*|*
+
+
+<!--
 |No.| Item | Hard? | Mean? | Loud? | Notes |
-|:--|:-----|-------|--------|-------|
+|:--|:-----|-------|-------|-------|
 |1| When [Satoshi imposed the infamous 1 MB block size limit](http://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular). | No | 95% | *(95%)* | While the fork prevents miners from introducing new funds (and might then be slightly 'Loud'), |
 |2| Sipa's [limitation of the coin supply to 21 Million](https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki). | No | 0% | 0% | While the fork prevents miners from introducing new funds (and might then be slightly 'Loud'), |
 |3| The [value overflow](https://en.bitcoin.it/wiki/Value_overflow_incident) fix. | No | 0% | 0% | This did remove one option (to improperly create BTC), but, the option was self-destructive (one would never be able to use the option, to use the protocol to do anything). Therefore, no user optionality was destroyed. Also, while this involved a re-write of the chain (debatably, a "benevolent 51% attack"), reorganizations always occur "within" a given protocol / network (vs. an upgrade which modifies the protocol / network). |
@@ -122,6 +145,7 @@ I've plotted several upgrades on the triangle graph, to give you an idea what I 
 |10|Adding support for [SegWit](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)|No|0%|40%|
 |11| Satoshi's change from 'longest chain' to 'heaviest chain'.|*|*|*
 
+-->
 
 
 ## Discussion
@@ -139,7 +163,7 @@ However, if the spinoff succeeds, we have discarded Bitcoin 1.0 as a failure and
 
 ### What Mean Forks Remove: Functionality
 
-The software of [this quad robot at 6:55](https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters#t-400632) allows it to reach any point in space, even if some of its appendages are removed. If we assume that 'yaw-flying' is one of the many algorithms programmed into the 'original' quad, then the decision to disable a few wings (for whatever reason) is **not** a 'mean' fork with respect to range. While the quad has lost one degree of freedom wrt motion (yaw), it can still reach any location in the room. Therefore, the three degrees of freedom  (of range) that we care about are unaffected. To restate: losing two wings is Mean wrt yaw, but Kind wrt range. Losing two wings is also Mean wrt flying mode, cargo stability, battery life and (probably) altitude, top speed, etc. 
+The software of [this quad robot at 6:55](https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters#t-400632) allows it to reach any point in space, even if some of its appendages are removed. If we assume that 'yaw-flying' is one of the many algorithms programmed into the 'original' quad, then the decision to disable a few wings (for whatever reason) is **not** a 'mean' fork with respect to range. While the quad has lost one degree-of-freedom wrt motion (yaw), it can still reach any location in the room. Therefore, the three dimensions (of range) that we care about are unaffected. To restate: losing two wings is Mean wrt yaw, but Kind wrt range. Losing two wings is also Mean wrt flying mode, cargo stability, battery life and (probably) altitude, top speed, etc. 
 
 To be mean, you have to be prevented from *acheiving a goal* with your *present software*. This is why repurposing the [ignored OP NOPs](https://en.bitcoin.it/wiki/Script#Reserved_words) to [create new opcodes](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki#summary) is 0% mean.
 
@@ -157,7 +181,7 @@ The value-overflow bug itself removed functionality (removed the ability to rece
 
 So, to have a user redo it, out-of-protocol, would be a contradiction. Call it the "Reductio ad PayPal".
 
-In this way, the 'evil fork' (described above) is just 100% mean (and indistinguishable from a 51% DoS attack).
+In this way, the 'evil fork' (described above) is just 100% mean (and indistinguishable from a 51% attack of empty blocks).
 
 
 ### Loudness is About Users, Not Miners

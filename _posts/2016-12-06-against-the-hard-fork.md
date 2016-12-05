@@ -85,7 +85,7 @@ Clearly you need an employee who produces something valueable -- something you v
 
 But, even now, you face [a critical problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem): checking the quality of your employee's work. Assume the following: [1] a job takes 1 hour, [2] your time is worth 10 $/hr, and [3] you can hire someone to do this job in 2 hours at 3 $/hr. By hiring, you would be up +$4 ( = $10 - (2 * $3)). However, if it takes you 30 minutes to *check* your employee's work, you have lost an additional $5 and are now at a net -$1.
 
-Worse, your efforts to check your employee's work might fail. Your employee might even hide something and your hard-earned reputation might be damaged or destroyed.
+Worse, your efforts to check your employee's work might fail. Your employee might even hide something, and your hard-earned reputation might be damaged or destroyed.
 
 <img src="http://www-tc.pbs.org/wnet/secrets/files/2015/09/sade-trojan-promo-mez.jpg" alt="Trojan" height="360" width="640">
 
@@ -100,7 +100,7 @@ Hiring is expensive! (This explains why, in our world, there's simulatenously [1
 
 Consider [this writeup of Bitcoin's March 2013 emergency](https://freedom-to-tinker.com/2015/07/28/analyzing-the-2013-bitcoin-fork-centralized-decision-making-saved-the-day/).
 
-I agree that this case can help us understand Bitcoin Upgrades. I don't agree that : "Without the central co-ordination of the Bitcoin Core developers and the strong trust that the community places in them, it is inconceivable that adopting this counterintuitive solution could have been successfully accomplished", however.
+I agree that this case can help us understand Bitcoin Upgrades. I don't agree that: "Without the central co-ordination of the Bitcoin Core developers and the strong trust that the community places in them, it is inconceivable that adopting this counterintuitive solution could have been successfully accomplished", however.
 
 In fact, it is *because* the Core developers were unable to coordinate, and *because* they were **not** able to convince (ie "get") the community, that the (supposedly "counterintuitive") solution would have *inevitiably* manifest itself.
 
@@ -118,9 +118,9 @@ This would not have surprised [Tom Schelling, who noted](http://userpages.umbc.e
 
 The central question of March 2013 was: "how to we re-merge the fork", and the most relevant fact, in answering it, was the following:
 
-    23:30  Pieter Wuille		and we _cannot_ get every bitcoin user in the world
+    23:30  Pieter Wuille    and we _cannot_ get every bitcoin user in the world
 
-This disqualifies the "everyone upgrades" strategy -- the "un-get-ables" are wearing explosive collars. By process of elimination, this leaves only the "everyone downgrades". It is the kind of thing that is, apparently, "counterintuitive" to computer scientists; in [my experience](http://www.truthcoin.info/images/bitcoin-ng.txt), [game theory is not part of the CS curriculum](https://www.youtube.com/embed/91TufmffIDg?start=610&end=990&rel=0&autoplay=1).
+This outright disqualifies the "everyone upgrades" strategy -- the "un-get-ables" are wearing explosive collars. By process of elimination, this leaves only the "everyone downgrades". It is the kind of thing that is, apparently, "counterintuitive" to computer scientists; in [my experience](http://www.truthcoin.info/images/bitcoin-ng.txt), [game theory is not part of the CS curriculum](https://www.youtube.com/embed/91TufmffIDg?start=610&end=990&rel=0&autoplay=1).
 
 The blockchain allows users to coordinate on a single network (by using a simple 'heaviest valid chain' rule, that a computer can automatically calculate). Schelling would say that successful coordination requires participants to read a 'common signal' from the situation itself (not [from each other](https://en.wikipedia.org/wiki/Cheap_talk)). Some participants will never get an 'upgrade signal', and some will ignore a signal they do get, and a third group will [actively fight the upgrade](http://trilema.com/2015/if-you-go-on-a-bitcoin-fork-irrespective-which-scammer-proposes-it-you-will-lose-your-bitcoins/).
 
@@ -142,7 +142,7 @@ So, any decisions the miner makes can-and-will be reversed by investors. Hashrat
 
 
 ## The Game Theory of Bitcoin Upgrades
-> Bitcoin's Upgrades are safe, because they are optional. This "flips" the cost of validatio
+> Bitcoin's Upgrades are safe, because they are optional.
 
 ### Upgrade Model
 
@@ -155,7 +155,7 @@ Here is a simple game, where:
 The Column Player knows [1] if attack is possible, and [2] how to attack (and can attack for free). The Row player bears an 'investigation cost' of "a" -- it costs Row a units, to learn the update's type.
 
 
-		Payoff Matrix						Interpretation
+            Payoff Matrix		Interpretation
 
                |Attack | Don't |                |Attack  | Don't  |
      ---------------------------      -----------------------------
@@ -178,7 +178,7 @@ For a>0, there is a Nash Equilibrium at { Do Nothing, Attack }, and when a=0 the
 
 ![protocol-ne](/images/protocol-ne.jpg)
 
-When a is high, upgrades are very unsafe. However, everything changes when a is zero. Not only does the new equilibrium {3,1} dominate the old {0,0} one, but, by [forward induction](https://www.youtube.com/watch?v=3Ql3rP4L2T4), we can assume that, if Column Player bothers to propose a software update, he is avoiding the { Do Nothing, Attack } equilibrium.
+When a is high, upgrades are very unsafe. However, when a=zero, everything changes. Not only is the new equilibrium {3,1} a Pareto improvement over the old {0,0} one, but, by [forward induction](https://www.youtube.com/watch?v=3Ql3rP4L2T4), we can assume that, if Column Player bothers to propose a software update, he is avoiding the { Do Nothing, Attack } equilibrium.
 
 ### When is a=0 ?
 
@@ -211,7 +211,7 @@ I attribute this relatively continuous pacifism to our commitment to soft forks 
 
 ![safe-unable](/images/safe-unable.png)
 
-( Finally, consider the process of Mining: it not only discourages attackers from rewriting the chain, but also divorces *any individual* from the issuance process -- this means that, in obtaining newly-issued coins, there are no individuals to extort. )
+( Finally, consider the process of Mining: it not only discourages attackers from rewriting the chain, but also divorces *any individual* from the issuance process -- this means that, if an attacker wanted to obtain newly-issued coins, there is no one for him to extort. )
 
 
 
@@ -221,12 +221,13 @@ I attribute this relatively continuous pacifism to our commitment to soft forks 
 
 Many readers will notice that Ethereum has hard-forked several times. BitShares also [hard-forked many times](https://bitsharestalk.org/index.php?topic=5381.0). And so has **everything**, really -- VISA, SWIFT, Google, and so forth.
 
+If hard forks appear in the wild, why can't we conclude that they're safe for Bitcoin?
 
 ### 1. Jumping the Gun
 
-One large piece of this puzzle is that these protocols were released too soon. In [the design state](/images/vitalik-research-project.jpg), the protocol 'hard forks' innumerable times, in the mind of the designer. This is a normal part of the creative process. **The Altcoin Community consistently releases too early**, because of the tremendous "FOMO effect" where projects scramble to grab anyone who is interested and has initiative.
+One large piece of this puzzle is that these protocols were released too soon. In [the design state](/images/vitalik-research-project.jpg), the protocol 'hard forks' innumerable times, in the mind of the designer. This is a normal part of the creative process -- surely, [Satoshi revised his Bitcoin design in many 'hard fork' ways](http://satoshi.nakamotoinstitute.org/posts/bitcointalk/127/) before finally presenting the finished project. In contrast, **the Altcoin Community consistently releases too early**, because of the tremendous "FOMO effect" where projects scramble to grab anyone who is interested and has initiative.
 
-( Which, in turn, results from the fact that there is no acceptable way to short bad ideas [[yet](http://bitcoinhivemind.com/)]. If we could short bad ideas, anyone who invested in them would be punished immediately, and capital would be diverted away from these malinvestments, toward productive activities. However, since malinvestments don't die immediately, we have to endure this annoying pump-and-dump game. )
+( Note: This, in turn, results from the fact that there is no acceptable way to short bad ideas [[yet](http://bitcoinhivemind.com/)]. If we could short bad ideas, anyone who invested in them would be punished immediately, and capital would be diverted away from these malinvestments, toward productive activities. However, since malinvestments don't die immediately, we have to endure this annoying pump-and-dump parade. )
 
 ### 2. Product Differentiation
 
