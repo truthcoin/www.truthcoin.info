@@ -65,7 +65,7 @@ In other words, the current of 'soft fork' includes a wide range of phenomena; i
 
 As the 5th bullet point (above) reveals, **the soft fork label is not only unclear, but it is also self-contradictory**.
 
-In fact, out of necessity, Bullet #5 has already moved into new name for itself: the ['evil fork'](http://gnusha.org/bitcoin-wizards/2015-12-30.log).
+In fact, out of necessity, others have needed to move Bullet #5 into a new category: the ['evil fork'](http://gnusha.org/bitcoin-wizards/2015-12-30.log) (what I will call a "100% Mean" fork). 
 
 In the evil fork, the protocol rules are altered to become informational substrate for arbitrary data (and, upon this blank slate, a new protocol is written).
 
