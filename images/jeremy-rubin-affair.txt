@@ -1,0 +1,22 @@
+
+Jeremy Rubin & Friends, vs State of New Jersey
+------------------------------------------------
+
+In December 2013, the New Jersey AG demonstrated that nothing is sacred, when they harrassed a bunch of MIT students during finals week. New Jersey felt that a non-functioning but nontheless award-winning demo of a theoretical idea, conceived in Massachusets, was somehow harming the interests of citizens of the discontiguous state of New Jersey.
+
+The students went to the university for help. In a perfect demonstration of both the thesis and antithesis of Burke's advice --that "the only thing necessary for the triumph of evil is for good men to do nothing"--  MIT told the students it could not help, and yet one laywer "gave unofficial advice" and placed these students under the auspices of the EFF. who did help.
+
+Mid-crisis, many others signed an open letter to the administration, informing them of the incongruity between the ideals of "please invent cool stuff, here is a free laboratory you can use" and "if you invent cool stuff, and get unduly harassed for it, well that's your problem". The letter prompted the University President to "ask" *other people* to create "a proposal" for providing legal advice to kids, and plyed the vauge language and easily-breakable commitments usually reserved for our handsomest politicians. Eventually, NJ settled with the students in exchange for a $25,000 fine that they didn't have to pay, and a promise from Rubin et al not to break any other laws (a promise which, presumably, the AG already had on a standing basis with them and with everyone).
+
+In short, some unworthy buffoons took advantage of vulnerable children. Far worse: MIT takes credit for the achievements of its students, but is not there to help them in their hour of need. A wonderful tour of human cruelty and injustice.
+
+The lesson I draw from it is Vonnegut's: "Before you kill somebody, make absolutely sure he isn't well connected." Thankfully, these students were able to 'connect' with the EFF, and with other students in the University -- if not for this, they could have attempted to connect to the media, or to wealthy Bitcoiners. If they had failed to connect, who knows what might have happened to them.
+
+
+References
+-------------
+https://www.eff.org/cases/rubin-v-new-jersey-tidbit
+http://web.mit.edu/fnl/volume/263/tidbit_letter.html
+http://tech.mit.edu/V134/N4/abelson.html
+http://news.mit.edu/2014/letter-to-mit-community-regarding-support-of-students-behind-tidbit
+https://en.wikiquote.org/wiki/Slaughterhouse-Five#Chapter_5
