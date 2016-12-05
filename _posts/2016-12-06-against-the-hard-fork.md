@@ -246,9 +246,13 @@ But I see this as a reiteration of Reason 2. Ethereum desired to compete with Bi
 
 ## Conclusion
 
-The hard fork is unacceptable in many ways -- it breaks Bitcoin's contract, risks user's funds and puts developers in danger.
+The hard fork is unacceptable in many ways -- it breaks Bitcoin's contract, risks user's funds, and puts developers in danger.
+
+This isn't to say that we should *never* Hard Fork, ever -- it may be appropriate when we have absolutely no other alternative.
 
 Fortunately, everything you'd need to use a Hard Fork for, you can do with [sidechains](http://www.truthcoin.info/blog/drivechain/) or [extension blocks](https://www.reddit.com/r/Bitcoin/comments/39kqzs/how_about_a_softfork_optin_blocksize_increase/).
+
+
 
 
 

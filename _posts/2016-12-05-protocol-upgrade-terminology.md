@@ -154,7 +154,7 @@ I've plotted several upgrades on the triangle graph, to give you an idea what I 
 
 ### The Hard Fork Creates an Altcoin
 
-I will save my major complaints about hard forks for [tomorrow's post]().
+I will save my major complaints about hard forks for [tomorrow's post](http://www.truthcoin.info/blog/against-the-hard-fork/).
 
 For now, I will just point out that, if 'Altcoin' is defined as "a cryptocurrency which is not Bitcoin", then a hard fork of Bitcoin always creates an Altcoin.
 
