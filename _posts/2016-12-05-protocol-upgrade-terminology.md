@@ -5,7 +5,7 @@ comments: true
 ---
 
 
-> When it comes to protocol upgrades, we don't have enough words to clearly describe the aspects that we actually care about.
+> When it comes to protocol upgrades, we need better words.
 
 ### Simply
 
