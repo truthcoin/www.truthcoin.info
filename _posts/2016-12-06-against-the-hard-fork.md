@@ -1,7 +1,8 @@
+---
 title: Against the Hard Fork
 show_author: true
 comments: true
-----------------
+---
 
 
 > The hard fork presents tremendous risk to the entire Bitcoin Ecosystem, in exchange for almost no marginal benefit. Instead, use extension blocks or sidechains.
@@ -10,7 +11,7 @@ comments: true
 
 ### Overview of Problems
 
-A [Hard Fork](~~the-hard-fork-creates-an-altcoin) is a categorical **replacement**  of one protocol with another. When compared to an Alt-chain (an Altcoin or Sidechain), they have a number of obvious problems:
+A [Hard Fork](http://www.truthcoin.info/blog/protocol-upgrade-terminology/#solution) is a categorical **replacement**  of one protocol with another. When compared to an Alt-chain (an Altcoin or Sidechain), they have a number of obvious problems:
 
 1. They attempt to break an existing contract, and replace it with an "updated" version . The entire purpose of a contract is, of course, that it is binding unless *all* parties agree to update it. However, such an agreement-to-update is often difficult to measure, due to many factors, the most important being the size, heterogeneity and clandestine nature of the Bitcoin Community. Due to monetary network-effects, contracts can be violated, by hard fork, even by [a small minority](https://medium.com/@nntaleb/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15#.pxzomnaw9) of Community Members.
 
@@ -22,7 +23,7 @@ A [Hard Fork](~~the-hard-fork-creates-an-altcoin) is a categorical **replacement
 
 I've [previously written] and [commented](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7#.xcm3u5kl4) about the first two, which (I think) are well known, so this post will focus primarily on the nexus of phenomena supporting #3 and, especially, #4 (which are more novel).
 
-( But, if you blur your eyes, you'll notice that all four are really the same reason: Satoshi created a [P2P network](./images/p2p-misconception.txt) so that there would be no single point of [attack](./images/p2p-misconception.txt). )
+( But, if you blur your eyes, you'll notice that all four are really the same reason: Satoshi created a [P2P network](/images/p2p-misconception.txt) so that there would be no single point of [attack](/images/p2p-misconception.txt). )
 
 
 
@@ -50,7 +51,7 @@ Keep these three thoughts in mind, when considering the strategy of protocol upg
 
 People are reluctant to upgrade their software.
 
-![back-upgrade](./images/upgrade-headache.jpg)
+![back-upgrade](/images/upgrade-headache.jpg)
 
 
 #### Cell Phones
@@ -175,7 +176,7 @@ If the user declines to update, nothing changes (hence the zero payoffs). The at
 
 For a>0, there is a Nash Equilibrium at { Do Nothing, Attack }, and when a=0 there is a second equilibrium at { Check First, Don't Attack }.
 
-![protocol-ne](./images/protocol-ne.jpg)
+![protocol-ne](/images/protocol-ne.jpg)
 
 When a is high, upgrades are very unsafe. However, everything changes when a is zero. Not only does the new equilibrium {3,1} dominate the old {0,0} one, but, by [forward induction](https://www.youtube.com/watch?v=3Ql3rP4L2T4), we can assume that, if Column Player bothers to propose a software update, he is avoiding the { Do Nothing, Attack } equilibrium.
 
@@ -208,7 +209,7 @@ In fact, the [most threating thing to happen so far](/images/jeremy-rubin-affair
 
 I attribute this relatively continuous pacifism to our commitment to soft forks (notice: we have never actually hardforked). In other words, I attribute safety of the Bitcoin Developers and Researchers to the fact that we don't actually control who gets paid. We cannot undo payments, reset passwords, etc. We can't do any of that.
 
-![safe-unable](./images/safe-unable.png)
+![safe-unable](/images/safe-unable.png)
 
 ( Finally, consider the process of Mining: it not only discourages attackers from rewriting the chain, but also divorces *any individual* from the issuance process -- this means that, in obtaining newly-issued coins, there are no individuals to extort. )
 
@@ -223,7 +224,7 @@ Many readers will notice that Ethereum has hard-forked several times. BitShares 
 
 ### 1. Jumping the Gun
 
-One large piece of this puzzle is that these protocols were released too soon. In [the design state](./images/vitalik-research-project.jpg), the protocol 'hard forks' innumerable times, in the mind of the designer. This is a normal part of the creative process. **The Altcoin Community consistently releases too early**, because of the tremendous "FOMO effect" where projects scramble to grab anyone who is interested and has initiative.
+One large piece of this puzzle is that these protocols were released too soon. In [the design state](/images/vitalik-research-project.jpg), the protocol 'hard forks' innumerable times, in the mind of the designer. This is a normal part of the creative process. **The Altcoin Community consistently releases too early**, because of the tremendous "FOMO effect" where projects scramble to grab anyone who is interested and has initiative.
 
 ( Which, in turn, results from the fact that there is no acceptable way to short bad ideas [[yet](http://bitcoinhivemind.com/)]. If we could short bad ideas, anyone who invested in them would be punished immediately, and capital would be diverted away from these malinvestments, toward productive activities. However, since malinvestments don't die immediately, we have to endure this annoying pump-and-dump game. )
 
@@ -231,7 +232,7 @@ One large piece of this puzzle is that these protocols were released too soon. I
 
 Secondly, the willingness to hard fork is an opportunity for Eth / BTS to distinguish themselves from Bitcoin. Bitcoin Unlimited behaves the same way, [priding itself on a willingness to hard fork](https://bitco.in/forum/threads/buip039-upgrade-via-extension-point.1641/) and on a general atmosphere of [flexibility, adaptability, and hospitality](https://www.bitcoinunlimited.info/articles). This is not so much "a hard fork" as much as it is an advertisement for centralization.
 
-![images](./images/vitalik-centralization.png)
+![images](/images/vitalik-centralization.png)
 
 Above: Vitalik cites the blocksize debate as a negative for Bitcoin. While the debate can be annoying at times, [most people are *generally* happy that a debate is required](http://coinjournal.net/mits-cory-fields-contentiousness-in-bitcoin-is-sign-of-good-health/) to change the rules (and happy that the eventually-agreed-upon rules are enforced [as written](https://web.archive.org/web/20160704190119/https://daohub.org/explainer.html)).
 

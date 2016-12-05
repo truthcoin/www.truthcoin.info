@@ -1,7 +1,8 @@
+---
 title: Terminology of Protocol Upgrades (Hard, Mean, Loud, and Friendly)
 show_author: true
 comments: true
-----------------
+---
 
 
 > When it comes to protocol upgrades, we don't have enough words to clearly describe the aspects that we actually care about. Hard - creates a new network, Mean - forces miners to constrain everyone on an existing network, Loud - creates ecological discrimination towards those who don't upgrade, Friendly - none of the above.
@@ -30,7 +31,7 @@ However, in the context of a contentious scaling debate, fraught with misinforma
 
 Full-time Bitcoiners [work very hard to agree](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/012173.html) over [the 'softness' of a fork](https://bitcointalk.org/index.php?topic=283746.msg3171085#msg3171085) (or of equivalent notions, such as how many hard/soft forks we've had in the past).
 
-![term-problems](./images/fork-terms-this-is-fine.jpg)
+![term-problems](/images/fork-terms-this-is-fine.jpg)
 
 Disagreement is [even more pronouned](https://github.com/bitcoin-dot-org/bitcoin.org/issues/1201#issuecomment-170375653) for proposed future changes. And, of course, disagreement is highest over the relative costs, benefits, and risks of hard and soft forks.
 
@@ -61,7 +62,7 @@ In the evil fork, the protocol rules are altered to become informational substra
 
 Let me elaborate with a non-Bitcoin example. Consider "Chess II", which we've implimented by soft forking "original Chess". Chess II might only allow the players to move their queenside knight, to one of three squares (initial position, left, and right).\* By doing this the players can encode bits of information -- "0" for left, "1" for right. In so doing, they can signal their moves for any other game -- even something like Checkers, Connect 4, or (by advancing frame by frame) Starcraft II.
 
-![two-games](./images/game-in-game.jpg)
+![two-games](/images/game-in-game.jpg)
 
 
 
@@ -94,13 +95,13 @@ I therefore propose that we expand our existing langage:
 
 All Mean forks would be Loud, and all Soft Forks would be Kind. Kind Forks, however, are allowed to range from Loud to Soft, as shown here:
 
-![triangle graph](./images/fork-dimensions.jpg)
+![triangle graph](/images/fork-dimensions.jpg)
 
 Soft Forks score the lowest of all, on three measurements. These measurements correspond to [1] creation, [2] obstruction, and [3] favoritism (the three enumerated points above).
 
 I've plotted several upgrades on the triangle graph, to give you an idea what I mean.
 
-![tri-table](./images/fork-table.png)
+![tri-table](/images/fork-table.png)
 
 ...and here is the corresponding table.
 
@@ -144,7 +145,7 @@ To be mean, you have to be prevented from *acheiving a goal* with your *present 
 
 These protocol upgrades *do* filter (ie, "censor") the users: they can no longer broadcast certain anyone-can-spend txns, if these are of a certain structure. However, the upgrade *does not* prevent a stubborn non-upgrader from *achieving the same goal* as before. There are hundreds of still-valid ways to create an anyone-can-spend txn. Moreover, the upgrade does not interrupt those ways which were in popular use at the time of the upgrade.
 
-![meanness](./images/not-mean.jpg)
+![meanness](/images/not-mean.jpg)
 
 Figure: since the "goals met" metric has not decreased from 2, the upgrade (left-to-right) is not mean.
 
