@@ -57,9 +57,9 @@ For example, a soft fork would include all of the following changes:
 * Support for a new feature, CheckSequenceVerify (and thus support the Lightning Network).
 * A freeze the money in Address X, forever (and, by [the properties of money](http://www.truthcoin.info/blog/pow-cheapest/#the-units-of-money-are-fractional), cause value to be redistributed to others).
 * A new policy, to only mine empty blocks forever (this change is indistinguishable from a 51% DoS attack).
-* A policy where no could is allowed to broadcast to the chain, until they upgrade their software.
+* A policy where no one is allowed to broadcast to the chain at all, until they upgrade their software.
 
-In other words, the current of 'soft fork' includes a wide range of phenomena; it lumps bugfixes, upgrades, and attacks into the same cateogry. This make it hard to talk sensibly "about soft forks" (as so little of what is said will really be 'true' for all soft forks).
+In other words, the current usage of 'soft fork' includes a wide range of phenomena; it lumps bugfixes, upgrades, and attacks into the same cateogry. This make it hard to talk sensibly "about soft forks" (as so little of what is said will really be 'true' for all soft forks).
 
 ### 2. Poor Logical Foundation
 
