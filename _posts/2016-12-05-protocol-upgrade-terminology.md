@@ -23,7 +23,7 @@ The goals are:
 
 In general, I feel that clearer language helps all of us be aware of Bitcoin's attack surface. The more aware we are, the better we can prepare.
 
-I will be explanding on [my previous comments here](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7#.xcm3u5kl4) and [this section](http://www.truthcoin.info/blog/measuring-decentralization/#hard-and-soft-forks).
+I will be expanding on [my previous comments here](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7#.xcm3u5kl4) and [this section](http://www.truthcoin.info/blog/measuring-decentralization/#hard-and-soft-forks).
 
 ### Does it Matter?
 
@@ -152,7 +152,7 @@ I've plotted several upgrades on the triangle graph, to give you an idea what I 
 
 ### The Hard Fork Creates an Altcoin
 
-I will save my major complaints about hard forks for tomorrow's post.
+I will save my major complaints about hard forks for [tomorrow's post]().
 
 For now, I will just point out that, if 'Altcoin' is defined as "a cryptocurrency which is not Bitcoin", then a hard fork of Bitcoin always creates an Altcoin.
 
