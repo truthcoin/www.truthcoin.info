@@ -9,6 +9,8 @@ comments: true
 
 ### Simply
 
+My proposed new terms are:
+
 * Hard: Creates a new network.
 * Mean: Forces miners to constrain everyone on an existing network.
 * Loud: Creates ecological discrimination towards those who don't upgrade.
@@ -16,7 +18,7 @@ comments: true
 
 ### Motivation
 
-The goals are:
+The goals of this post are:
 
 * Help people understand each other, wrt. protocol changes.
 * Point out how [soft forks can become hard](https://petertodd.org/2016/forced-soft-forks#radical-changes), and [vice-versa](http://www.truthcoin.info/blog/drivechain/), to help people realize what they should *actually* be caring about, instead.
