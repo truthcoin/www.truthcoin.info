@@ -75,7 +75,7 @@ Let me elaborate with a non-Bitcoin example. Consider "Chess II", which we've im
 
 
 
-How did this happen? Well: the "rules" of "chess" ceased to define a game, and instead functioned as [informational substrate](/images/ -- they are the paper upon which information was written.
+How did this happen? Well: the "rules" of "chess" ceased to define a game, and instead functioned as [informational substrate](/images/information.txt) -- they are the paper upon which information was written.
 
 The result, is that **we have [a way of 'loosening' the rules...by tightening them](https://petertodd.org/2016/forced-soft-forks#radical-changes)**.
 

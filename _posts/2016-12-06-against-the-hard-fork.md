@@ -118,7 +118,7 @@ This would not have surprised [Tom Schelling, who noted](http://userpages.umbc.e
 
 The central question of March 2013 was: "how to we re-merge the fork", and the most relevant fact, in answering it, was the following:
 
-    23:30  Pieter Wuille    and we _cannot_ get every bitcoin user in the world
+    23:30 Pieter Wuille: and we _cannot_ get every bitcoin user in the world
 
 This outright disqualifies the "everyone upgrades" strategy -- the "un-get-ables" are wearing explosive collars. By process of elimination, this leaves only the "everyone downgrades". It is the kind of thing that is, apparently, "counterintuitive" to computer scientists; in [my experience](http://www.truthcoin.info/images/bitcoin-ng.txt), [game theory is not part of the CS curriculum](https://www.youtube.com/embed/91TufmffIDg?start=610&end=990&rel=0&autoplay=1).
 
@@ -155,8 +155,8 @@ Here is a simple game, where:
 The Column Player knows [1] if attack is possible, and [2] how to attack (and can attack for free). The Row player bears an 'investigation cost' of "a" -- it costs Row a units, to learn the update's type.
 
 
-            Payoff Matrix		Interpretation
-
+            Payoff Matrix                      Interpretation
+ 
                |Attack | Don't |                |Attack  | Don't  |
      ---------------------------      -----------------------------
      Do        |     0 |     0 |      Do        |nothing |nothing |
@@ -237,7 +237,7 @@ Secondly, the willingness to hard fork is an opportunity for Eth / BTS to distin
 
 Above: Vitalik cites the blocksize debate as a negative for Bitcoin. While the debate can be annoying at times, [most people are *generally* happy that a debate is required](http://coinjournal.net/mits-cory-fields-contentiousness-in-bitcoin-is-sign-of-good-health/) to change the rules (and happy that the eventually-agreed-upon rules are enforced [as written](https://web.archive.org/web/20160704190119/https://daohub.org/explainer.html)).
 
-In keeping with Vitalik's vision, once Ethereum [hard-forked under an atmosphere of contention/ambiguity](http://nakamotoinstitute.org/mempool/who-controls-ethereum/), and it seemed that they had succeeded. (The hard fork claimed ~90% of the project wealth.)
+In keeping with this emphasis-on-flexibility, once Ethereum [hard-forked for an arbitrary reason](http://nakamotoinstitute.org/mempool/who-controls-ethereum/), despite the fact that many users decline to consent to the fork. When the chain split, ~90% of the project wealth stayed on Vitalik's chain, which would seem to indicate that the fork had, relatively, succeeded.
 
 But I see this as a reiteration of Reason 2. Ethereum desired to compete with Bitcoin, and to do that it wanted to be "the adaptive one". In my opinion, Ethereum is not actually a computer network. To the extent that it's owners have an investment thesis at all, they are [betting that cult-of-personality that is Vitalik Buterin](https://twitter.com/derosetech/status/755910174229934080) will exploit a second-mover-advantage to skillfully maneuver Ethereum into replacing Bitcoin.
 
