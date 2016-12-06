@@ -239,7 +239,7 @@ Above: Vitalik cites the blocksize debate as a negative for Bitcoin. While the d
 
 In keeping with this emphasis-on-flexibility, once Ethereum [hard-forked for an arbitrary reason](http://nakamotoinstitute.org/mempool/who-controls-ethereum/), despite the fact that many users decline to consent to the fork. When the chain split, ~90% of the project wealth stayed on Vitalik's chain, which would seem to indicate that the fork had, relatively, succeeded.
 
-But I see this as a reiteration of Reason 2. Ethereum desired to compete with Bitcoin, and to do that it wanted to be "the adaptive one". In my opinion, Ethereum is not actually a computer network. To the extent that it's owners have an investment thesis at all, they are [betting that cult-of-personality that is Vitalik Buterin](https://twitter.com/derosetech/status/755910174229934080) will exploit a second-mover-advantage to skillfully maneuver Ethereum into replacing Bitcoin.
+But I see this as a reiteration of Reason 2. Ethereum desired to compete with Bitcoin, and to do that it wanted to be "the adaptive one". In my opinion, Ethereum is not actually a computer network. To the extent that its owners have an investment thesis at all, they are [betting that cult-of-personality that is Vitalik Buterin](https://twitter.com/derosetech/status/755910174229934080) will exploit a second-mover-advantage to skillfully maneuver Ethereum into replacing Bitcoin.
 
 
 
@@ -383,7 +383,7 @@ Soft -- someone can archive and circulate the old software, and it will continue
 
 Hard -- you wake up from a coma, and Group Alpha tells you that Alpha is the correct Bitcoin software to install, and Group Omega tells you that Omega is the correct software. How do you decide? You have lost the protection of the 'longest chain rule'. (You still have your money, yes, but is it still as )
 
-Even if you avoid comas diligently, the fact remains that you must expend effort, maintaining your software. You are obligated to check everything for exploits, bias/coercion of the developers, etc. This maintenance is just too expensive -- it makes running a node very very expensive. Bank of America maintains it's own software for free, and they always refund you if they ever make any mistakes.
+Even if you avoid comas diligently, the fact remains that you must expend effort, maintaining your software. You are obligated to check everything for exploits, bias/coercion of the developers, etc. This maintenance is just too expensive -- it makes running a node very very expensive. Bank of America maintains its own software for free, and they always refund you if they ever make any mistakes.
 
 
 
