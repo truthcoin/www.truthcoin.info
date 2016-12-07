@@ -21,7 +21,7 @@ A [Hard Fork](http://www.truthcoin.info/blog/protocol-upgrade-terminology/#solut
 
 4. They virtually guarantee that, eventually, Users will have their funds stolen and Developers will be violently coerced.
 
-I've [previously written] and [commented](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7#.xcm3u5kl4) about the first two, which (I think) are well known, so this post will focus primarily on the nexus of phenomena supporting #3 and, especially, #4 (which are more novel).
+I've [previously written](http://www.truthcoin.info/blog/measuring-decentralization/#hard-and-soft-forks) and [commented](https://medium.com/@octskyward/on-consensus-and-forks-c6a050c792e7#.xcm3u5kl4) about the first two, which (I think) are well known, so this post will focus primarily on the nexus of phenomena supporting #3 and, especially, #4 (which are more novel).
 
 ( But, if you blur your eyes, you'll notice that all four are really the same reason: Satoshi created a [P2P network](/images/p2p-misconception.txt) so that there would be no single point of [attack](/images/p2p-misconception.txt). )
 
