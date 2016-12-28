@@ -81,7 +81,7 @@ Imagine that you need to hire someone for a job. (And conversely, recall your fi
 
 You do not care about how hard your employee works. He may produce something you ultimately cannot use, or never wanted. Conversely: people do not care how hard you work. Many toil in the farmlands, or construction sites, and their relative prosperity is low -- they are out-earned by sloths residing in comfy offices.
 
-Clearly you need an employee who produces something valueable -- something you value. And, relatedly, their paychecks must sum to a cost that is less than the value they produce for you. The employee must be profitable.
+Clearly you need an employee who produces something valuable -- something you value. And, relatedly, their paychecks must sum to a cost that is less than the value they produce for you. The employee must be profitable.
 
 But, even now, you face [a critical problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem): checking the quality of your employee's work. Assume the following: [1] a job takes 1 hour, [2] your time is worth 10 $/hr, and [3] you can hire someone to do this job in 2 hours at 3 $/hr. By hiring, you would be up +$4 ( = $10 - (2 * $3)). However, if it takes you 30 minutes to *check* your employee's work, you have lost an additional $5 and are now at a net -$1.
 
@@ -116,7 +116,7 @@ This would not have surprised [Tom Schelling, who noted](http://userpages.umbc.e
 
 #### c. A Good Night's Sleep
 
-The central question of March 2013 was: "how to we re-merge the fork", and the most relevant fact, in answering it, was the following:
+The central question of March 2013 was: "how do we re-merge the fork", and the most relevant fact, in answering it, was the following:
 
     23:30 Pieter Wuille: and we _cannot_ get every bitcoin user in the world
 
