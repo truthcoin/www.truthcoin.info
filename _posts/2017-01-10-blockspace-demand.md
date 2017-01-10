@@ -12,7 +12,7 @@ Economists frame these issues in terms of ["supply and demand"](http://www.inves
 
 ![supply-demand](/images/supply-demand.png)
 
-![monoplist](/images/monopolist-basics.png)
+![monopolist](/images/monopolist-basics.png)
 
 If this theory is correct, then the entire conversation hinges on just one thing: the demand curve. Where does it come from? What characteristics does it have?
 
@@ -23,9 +23,17 @@ If this theory is correct, then the entire conversation hinges on just one thing
 
 I think we can separate Bitcoin demand into two categories: [inelastic](https://en.wikipedia.org/wiki/Elasticity_%28economics%29) ("needs Bitcoin") and elastic ("doesn't need Bitcoin").
 
-The inelastic demand I will call DeRosian demand, after [Chris' interviews](https://soundcloud.com/bitcoinuncensored/talking-drugs-and-money-on-the-dark-web-with-party-an-underserved-banking-customer) [with these Bitcoin-customers](https://soundcloud.com/bitcoinuncensored/interview-with-barak-the-backpage-driver). Bitcoin has a monopoly on these types of payments, be this for [1] legal reasons (online drug sales, ransomware payments, tax evasion, gambling, hiding assets), [2] [privacy reasons](http://www.creditcards.com/credit-card-news/12-creepy-things-data-collectors-know-1282.php) ([pornography](http://www.financemagnates.com/fintech/payments/bitcoin-is-now-25-of-porn-coms-incoming-payments/), HIV-test), or [3] technical reasons (ie, "smart contracts" such as [multisig](https://en.bitcoin.it/wiki/Multisignature), [pay-for-data](http://www.truthcoin.info/blog/codex-identity-sidechain/#trustless-buying-of-identify-verification-offchain), [pay-for-document](https://github.com/unsystem/paypub), pay-for-wifi, etc which we might further specify as "Szaban Demand" after Nick Szabo). **Traditional payment systems cannot compete with Bitcoin** for these payments, and Bitcoin [users will therefore tolerate a higher price](https://www.reddit.com/r/Bitcoin/comments/3mcz6t/naughty_americas_response_to_why_bitcoin/). This leads to certain stories...for example of desperate users who pay cash bribes to restaurant-owners and/or security guards in exchange for (after-hours) access to a Bitcoin ATM (now!). 
+The inelastic demand I will call **DeRosian demand**, after [Chris' interviews](https://soundcloud.com/bitcoinuncensored/talking-drugs-and-money-on-the-dark-web-with-party-an-underserved-banking-customer) [with these Bitcoin-customers](https://soundcloud.com/bitcoinuncensored/interview-with-barak-the-backpage-driver).
 
-In contrast, the elastic demand I will call Veran demand, after Roger Ver who is [presently focused](https://fee.org/articles/time-to-end-the-block-size-blockade/?utm_medium=popular_widget) on [making Bitcoin transactions as cheap as possible](https://www.youtube.com/watch?v=QT7hQZQQ7n4). This type of demand is extraordinarily straghtforward: cut costs, and aim for volume.
+Bitcoin has a monopoly on these types of payments, be this for:
+
+1.legal reasons (online drug sales, ransomware payments, tax evasion, gambling, hiding assets)
+2.[privacy reasons](http://www.creditcards.com/credit-card-news/12-creepy-things-data-collectors-know-1282.php) ([pornography](http://www.financemagnates.com/fintech/payments/bitcoin-is-now-25-of-porn-coms-incoming-payments/), HIV-test)
+3. technical reasons (ie, "smart contracts" such as [multisig](https://en.bitcoin.it/wiki/Multisignature), [pay-for-data](http://www.truthcoin.info/blog/codex-identity-sidechain/#trustless-buying-of-identify-verification-offchain), [pay-for-document](https://github.com/unsystem/paypub), pay-for-wifi, etc which we might further specify as "Szaban Demand" after Nick Szabo).
+
+*Traditional payment systems cannot compete with Bitcoin* for these payments, and Bitcoin [users will therefore tolerate a higher price](https://www.reddit.com/r/Bitcoin/comments/3mcz6t/naughty_americas_response_to_why_bitcoin/). This leads to certain stories...for example of desperate users who pay cash bribes to restaurant-owners and/or security guards in exchange for (after-hours) access to a Bitcoin ATM (now!). 
+
+In contrast, the elastic demand I will call **Veran demand**, after Roger Ver who is [presently focused](https://fee.org/articles/time-to-end-the-block-size-blockade/?utm_medium=popular_widget) on [making Bitcoin transactions as cheap as possible](https://www.youtube.com/watch?v=QT7hQZQQ7n4). Veran users just want to transact the same way they've always transacted...but at a cheaper price. These users have no loyalty to Bitcoin specifically, they are only loyal to their pocketbook.
 
 
 ## Are Bitcoin Transactions Cheap?
@@ -34,9 +42,9 @@ In contrast, the elastic demand I will call Veran demand, after Roger Ver who is
 
 "Veran demand" simply refers to a *type* of demand -- something that users could want. And users almost always want cheaper prices.
 
-The question of whether we can *actually meet* this demand, is another matter. Nonetheless, I address the issue here to show that it is not categorically impossible.
+The question of whether we can *actually meet* this demand, is another matter. Nonetheless, I address the issue in this section, to show that it is not categorically impossible.
 
-( And, as we will see, we could quip that the Veran Philosophy "demands" that the Bitcoin network take one shape, whereas the DeRosian Philosophy "demands" the network to take a different shape. )
+( And also, we could quip that the Veran Philosophy "demands" that the Bitcoin network take one shape, whereas the DeRosian Philosophy "demands" the network to take a different shape, as we will see. )
 
 ### Cost Efficiencies of Bitcoin
 
@@ -57,7 +65,7 @@ Well, it depends!
 
 On one hand, a paranoid user would need to run their own node. They would only "know" that they had really been paid by checking all of the data in all of the blocks, to make sure it was following all of the rules. This currently requires the user to commit computational resources: roughly ~100 GB of hard drive space, several days worth of CPU time, and a significant chunk of bandwidth. 
 
-In contrast, a user might rely on SPV mode, in which case the user can assume they've been paid if [1] they have been provided with a Bitcoin transaction which [a] pays them, [b] is appropriately formatted and [c] has inputs / Script which are not-invalid, [2] this txn has been included in a block, [3] this block has been built on (ie, 6 or so confirmations), and [4] the blocks all contain sufficient work. Meeting these requirements, only requires a paltry 4 MB of space per year, and almost no computation, and it does not encounter the O(n2) scaling problem (more below).
+In contrast, a user might rely on SPV mode, in which case the user can assume they've been paid if [1] they have been provided with a Bitcoin transaction which [1a] pays them, [1b] is appropriately formatted and [1c] has inputs / Script which are not-invalid, [2] this txn has been included in a block, [3] this block has been built on (ie, 6 or so confirmations), and [4] the blocks all contain sufficient work. Meeting these requirements, only requires a paltry 4 MB of space per year, and almost no computation, and it does not encounter the O(n2) scaling problem (more below).
 
 ![topologies](/images/two-topologies.png)
 
@@ -66,13 +74,13 @@ The designation of the two configurations as "malleable" and "brittle" is approp
 
 #### Security Model
 
-One metaphor for decentralized, P2P blockchain is Montesquieu's tripartite, which was a a form of government designed to resist tyranny by "separating" its powers (and thus minimizing the quantity of total power granted to any corruptible individual). In Bitcoin's case, the "legislative" power (to write the laws) rests with the developers, the "executive" power (to remove unlawful activity from the network) rests with nodes and miners, and the "judicial" ability (to decide if the laws are truly being enforced, as written) rests with each individual user, who is always free to resolve a dispute by running a full node and checking everything for themselves.
+One metaphor for decentralized, P2P blockchain is Montesquieu's tripartite -- a form of government designed to resist tyranny by "separating" its powers (and thus minimizing the quantity of total power granted to any corruptible individual). In Bitcoin's case, the "legislative" power (to write the laws) rests with the developers, the "executive" power (to remove unlawful activity from the network) rests with nodes and miners, and the "judicial" power (to decide if the laws are truly being enforced, as written) rests with each individual user, who is always free to resolve a dispute by running a full node and checking everything for themselves.
 
-The malleable-focused users claim that [everyone needs to run a full node](http://www.metzdowd.com/pipermail/cryptography/2015-October/026652.html), else they are vulnerable (to theft, and to loss of privacy). The Brittle-focused users are more comfortable with the idea that nodes can be run by other people, namely specialists. If enough specialists exists (or, more precisely, [if barriers to entry are low](http://www.truthcoin.info/blog/measuring-decentralization/#experience-vs-persuasion)), [competition will hold the system in line](http://geolib.com/smith.adam/won1-02.html).
+The malleable-focused users claim that [everyone needs to run a full node](http://www.metzdowd.com/pipermail/cryptography/2015-October/026652.html), else they are vulnerable (to theft, and to loss of privacy). The brittle-focused users are more comfortable with the idea that nodes can be run by other people, namely specialists. If enough specialists exists (or, more precisely, [if barriers to entry are low](http://www.truthcoin.info/blog/measuring-decentralization/#experience-vs-persuasion)), [competition will hold the system in line](http://geolib.com/smith.adam/won1-02.html).
 
 Thus, there is a disagreement over the requirements of this "judicial branch". Some, such as [Luke-Jr and Peter Todd](https://www.reddit.com/r/Bitcoin/comments/3vkhpq/should_everyone_be_able_to_run_a_node_even_the/), want it to be accountable to every user, personally. Others, [such as Gavin Andresen](http://gavinandresen.ninja/are-bigger-blocks-dangerous), are satisfied with the judicial branch merely being "sufficiently accountable".
 
-( Satoshi's [whitepaper](https://bitcoin.org/bitcoin.pdf) advances the latter view, supposing that only "Businesses that receive frequent payments" will run a node. However, he later [added a blocksize limit](https://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular) in July 2010, supposedly after Hal Finney convinced Satoshi that the limit would help nodes survive DoS-attacks. While Satoshi understood how to make the limit temporary, he instead chose to make his limit permanent. He later chose never to remove the limit, and never to change it to a tempoary one. And he ultimately chose to leave the project, in this state. With no other information to guide me, I can only assume that all of these actions were intentional, and that Satoshi originally took the brittle view in earnest, then switched to the malleable view, but that he overall felt very confused, and ambivalent about both view. My conclusion is that Satoshi simply didn't know which was right -- or, at least, that his knowledge then did not significantly surpass our's today. )
+( Satoshi's [whitepaper](https://bitcoin.org/bitcoin.pdf) advances the latter view, supposing that, in steady-state, only "Businesses that receive frequent payments" will run a node. However, he later [added a blocksize limit](https://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular) in July 2010, supposedly after Hal Finney convinced Satoshi that the limit would help nodes survive DoS-attacks. While Satoshi understood how to make the limit temporary, he instead chose to make his limit permanent. He later chose never to remove the limit, and never to change it to a tempoary one. And he ultimately chose to leave the project, in this state. With no other information to guide me, I can only assume that all of these actions were intentional, and that Satoshi originally took the brittle view in earnest, then switched to the malleable view, but that he overall felt very confused, and ambivalent about both view. My conclusion is that Satoshi simply didn't know which was right -- or, at least, that his knowledge then did not significantly surpass our's today. )
 
 
 #### Cost of Security
@@ -89,7 +97,9 @@ Here's the crucial point: in SPV-mode (ie the "brittle mode"), **you don't have 
 
 ## Promotion Strategy
 
-Finally, the two views offer different advice on how to promote Bitcoin. DeRosians advocate a vigilant *defense* of Bitcoin's decentralization and censorship-resistance, hoping to "outwit, outlast, and outplay" rival currencies and payment-systems, by waiting for [rivals to self-destruct](http://www.nytimes.com/2017/01/09/opinion/the-cost-of-indias-man-made-currency-crisis.html?_r=0). Verans try for *offense*, favoring an "Uber strategy" of blindingly-fast popularity, so as to simply outrun obsolote/corrupt regulatory hurdles (and become politicially-acceptable sooner).
+Finally, the two views offer different advice on how to promote Bitcoin.
+
+DeRosians advocate a vigilant *defense* of Bitcoin's decentralization and censorship-resistance, hoping to "outwit, outlast, and outplay" rival currencies and payment-systems, by waiting for [rivals to self-destruct](http://www.nytimes.com/2017/01/09/opinion/the-cost-of-indias-man-made-currency-crisis.html?_r=0). Verans try for *offense*, favoring an "Uber strategy" of blindingly-fast popularity, so as to simply outrun obsolote/corrupt regulatory hurdles (and become politicially-acceptable sooner).
 
 As is usually the case, one approach is 'conservative' (slower, but less likely to end in disaster) and the other is 'liberal' (riskier, but with more-effective results, sooner). If the unknown risks are great, then the DeRosian approach is imperative. If the risks are small, then the DeRosian approach is pointlessly prolonging human stagnation and misery.
 
@@ -122,6 +132,6 @@ While the two demand-types are different, they are also mutually reinforcing. Ea
 
 ## Parting Words
 
-Contemporary Bitcoin seems to occupy a compromise position between these two worlds, trying to meet both types of demand.
+Contemporary Bitcoin seems to occupy a compromise position between these two worlds. Perhaps, we are trying to meet both types of demand?
 
 A 1 MB block may seem small, but as there are ~1,000 blocks per week, the true figure is 1 GB (per week). This is simultaneously [1] very high (relative to the typical desktop applications), and certainly [high for TOR](https://bitcointalk.org/index.php?topic=144895.msg1536969#msg1536969), but also [2] remarkably low (relative to a professional payment processors, whose [quarterly operating expenses are X00 million USD](http://www.wikinvest.com/stock/Visa_%28V%29/Data/Income_Statement)).
