@@ -4,7 +4,7 @@ show_author: true
 comments: true
 ---
 
-> Some Bitcoin users need the unique technical and cryptographic properties of the money, and will do anything for it. Others will just use whatever is cheapest.
+> Some users need the unique properties of Bitcoin. Others will just use whichever payment-system is cheapest.
 
 The "market for Bitcoin block space" is a hot topic. Everyone's talking about "blocksize" and "fees".
 
@@ -27,11 +27,11 @@ The inelastic demand I will call **DeRosian demand**, after [Chris' interviews](
 
 Bitcoin has a monopoly on these types of payments, be this for:
 
-1.legal reasons (online drug sales, ransomware payments, tax evasion, gambling, hiding assets)
-2.[privacy reasons](http://www.creditcards.com/credit-card-news/12-creepy-things-data-collectors-know-1282.php) ([pornography](http://www.financemagnates.com/fintech/payments/bitcoin-is-now-25-of-porn-coms-incoming-payments/), HIV-test)
+1. legal reasons (online drug sales, ransomware payments, tax evasion, gambling, hiding assets)
+2. [privacy reasons](http://www.creditcards.com/credit-card-news/12-creepy-things-data-collectors-know-1282.php) ([pornography](http://www.financemagnates.com/fintech/payments/bitcoin-is-now-25-of-porn-coms-incoming-payments/), HIV-test)
 3. technical reasons (ie, "smart contracts" such as [multisig](https://en.bitcoin.it/wiki/Multisignature), [pay-for-data](http://www.truthcoin.info/blog/codex-identity-sidechain/#trustless-buying-of-identify-verification-offchain), [pay-for-document](https://github.com/unsystem/paypub), pay-for-wifi, etc which we might further specify as "Szaban Demand" after Nick Szabo).
 
-*Traditional payment systems cannot compete with Bitcoin* for these payments, and Bitcoin [users will therefore tolerate a higher price](https://www.reddit.com/r/Bitcoin/comments/3mcz6t/naughty_americas_response_to_why_bitcoin/). This leads to certain stories...for example of desperate users who pay cash bribes to restaurant-owners and/or security guards in exchange for (after-hours) access to a Bitcoin ATM (now!). 
+For these payments, *traditional systems cannot compete with Bitcoin*, and Bitcoin users will therefore [tolerate a higher price](https://www.reddit.com/r/Bitcoin/comments/3mcz6t/naughty_americas_response_to_why_bitcoin/). This leads to certain stories...for example of desperate users who pay cash bribes to restaurant-owners and/or security guards in exchange for (after-hours) access to a Bitcoin ATM (now!). 
 
 In contrast, the elastic demand I will call **Veran demand**, after Roger Ver who is [presently focused](https://fee.org/articles/time-to-end-the-block-size-blockade/?utm_medium=popular_widget) on [making Bitcoin transactions as cheap as possible](https://www.youtube.com/watch?v=QT7hQZQQ7n4). Veran users just want to transact the same way they've always transacted...but at a cheaper price. These users have no loyalty to Bitcoin specifically, they are only loyal to their pocketbook.
 
@@ -46,7 +46,7 @@ The question of whether we can *actually meet* this demand, is another matter. N
 
 ( And also, we could quip that the Veran Philosophy "demands" that the Bitcoin network take one shape, whereas the DeRosian Philosophy "demands" the network to take a different shape, as we will see. )
 
-### Cost Efficiencies of Bitcoin
+### Bitcoin Transaction Efficiencies
 
 Bitcoin has two inherent cost-advantages.
 
@@ -69,7 +69,7 @@ In contrast, a user might rely on SPV mode, in which case the user can assume th
 
 ![topologies](/images/two-topologies.png)
 
-The designation of the two configurations as "malleable" and "brittle" is appropriate in two ways. Firstly, the spv-connections are easier to damage, and if damaged [they can break completely](/images/todd-21.png). In contrast, the malleable connections can be struck with tremendous force and the network will mostly be unaffected. Secondly, it so happens that [gold is the most malleable of all Earth's metals](https://en.wikipedia.org/wiki/Ductility#Materials_science), and the 'malleable configuration' more-resembles a network of digital gold. In contrast, the brittle configuration more-resembles a traditional payment system -- one where you trust a database mantained by someone else. 
+The designation of the two configurations as "malleable" and "brittle" is appropriate in two ways. Firstly, the spv-connections are easier to damage, and if damaged [they can break completely](/images/todd-21.png). In contrast, the malleable connections can be struck with tremendous force and the network will mostly be unaffected. Secondly, it so happens that [gold is the most malleable of all Earth's metals](https://en.wikipedia.org/wiki/Ductility#Materials_science), and the 'malleable configuration' more-resembles a network of digital gold. In contrast, the brittle configuration more-resembles a traditional payment system -- one where you trust a database maintained by someone else. 
 
 
 #### Security Model
@@ -80,7 +80,7 @@ The malleable-focused users claim that [everyone needs to run a full node](http:
 
 Thus, there is a disagreement over the requirements of this "judicial branch". Some, such as [Luke-Jr and Peter Todd](https://www.reddit.com/r/Bitcoin/comments/3vkhpq/should_everyone_be_able_to_run_a_node_even_the/), want it to be accountable to every user, personally. Others, [such as Gavin Andresen](http://gavinandresen.ninja/are-bigger-blocks-dangerous), are satisfied with the judicial branch merely being "sufficiently accountable".
 
-( Satoshi's [whitepaper](https://bitcoin.org/bitcoin.pdf) advances the latter view, supposing that, in steady-state, only "Businesses that receive frequent payments" will run a node. However, he later [added a blocksize limit](https://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular) in July 2010, supposedly after Hal Finney convinced Satoshi that the limit would help nodes survive DoS-attacks. While Satoshi understood how to make the limit temporary, he instead chose to make his limit permanent. He later chose never to remove the limit, and never to change it to a tempoary one. And he ultimately chose to leave the project, in this state. With no other information to guide me, I can only assume that all of these actions were intentional, and that Satoshi originally took the brittle view in earnest, then switched to the malleable view, but that he overall felt very confused, and ambivalent about both view. My conclusion is that Satoshi simply didn't know which was right -- or, at least, that his knowledge then did not significantly surpass our's today. )
+( Satoshi's [whitepaper](https://bitcoin.org/bitcoin.pdf) advances the latter view, supposing that, in steady-state, only "Businesses that receive frequent payments" will run a node. However, he later [added a blocksize limit](https://sourceforge.net/p/bitcoin/code/103/tree/trunk/main.h?diff=515630145fcbc978e39dbaa5:102&diformat=regular) in July 2010, supposedly after Hal Finney convinced Satoshi that the limit would help nodes survive DoS-attacks. While Satoshi understood how to make the limit temporary, he instead chose to make his limit permanent. He later chose never to remove the limit, and never to change it to a temporary one. And he ultimately chose to leave the project, in this state. With no other information to guide me, I can only assume that all of these actions were intentional, and that Satoshi originally took the brittle view in earnest, then switched to the malleable view, but that he overall felt very confused, and ambivalent about both view. My conclusion is that Satoshi simply didn't know which was right -- or, at least, that his knowledge then did not significantly surpass our's today. )
 
 
 #### Cost of Security
@@ -99,7 +99,7 @@ Here's the crucial point: in SPV-mode (ie the "brittle mode"), **you don't have 
 
 Finally, the two views offer different advice on how to promote Bitcoin.
 
-DeRosians advocate a vigilant *defense* of Bitcoin's decentralization and censorship-resistance, hoping to "outwit, outlast, and outplay" rival currencies and payment-systems, by waiting for [rivals to self-destruct](http://www.nytimes.com/2017/01/09/opinion/the-cost-of-indias-man-made-currency-crisis.html?_r=0). Verans try for *offense*, favoring an "Uber strategy" of blindingly-fast popularity, so as to simply outrun obsolote/corrupt regulatory hurdles (and become politicially-acceptable sooner).
+DeRosians advocate a vigilant *defense* of Bitcoin's decentralization and censorship-resistance, hoping to "outwit, outlast, and outplay" rival currencies and payment-systems, by waiting for [rivals to self-destruct](http://www.nytimes.com/2017/01/09/opinion/the-cost-of-indias-man-made-currency-crisis.html?_r=0). Verans try for *offense*, favoring an "Uber strategy" of blindingly-fast popularity, so as to simply outrun obsolete/corrupt regulatory hurdles (and become politically-acceptable sooner).
 
 As is usually the case, one approach is 'conservative' (slower, but less likely to end in disaster) and the other is 'liberal' (riskier, but with more-effective results, sooner). If the unknown risks are great, then the DeRosian approach is imperative. If the risks are small, then the DeRosian approach is pointlessly prolonging human stagnation and misery.
 
@@ -107,7 +107,7 @@ As is usually the case, one approach is 'conservative' (slower, but less likely 
 
 ## Equilibrium Market Behavior
 
-> Fee-maximining miners might be genuinely unable to decide which demand-type they are in, or even which they would prefer. For them, it would be best to capture both types via price-discrimination.
+> Fee-maximizing miners might be genuinely unable to decide which demand-type they are in, or even which they would prefer. For them, it would be best to capture both types via price-discrimination.
 
 Below is a representation of this conjectural demand curve for blockchain broadcast space, given the two categories of demand:
 
