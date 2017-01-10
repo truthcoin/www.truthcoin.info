@@ -8,7 +8,7 @@ comments: true
 
 The "market for Bitcoin block space" is a hot topic. Everyone's talking about "blocksize" and "fees".
 
-Economists frame these issues in terms of ["supply and demand"](http://www.investopedia.com/university/economics/economics3.asp). I've [previously argued](~vid4~) that, when it comes to blocksize and fees, miners will act as a single coordinated monopolist. This monopolist will select a point on the blockspace demand curve which maximizes total revenue. Gavin [made a similar point](http://gavinandresen.ninja/block-size-and-miner-fees-again) a long time ago.
+Economists frame these issues in terms of ["supply and demand"](http://www.investopedia.com/university/economics/economics3.asp). I've [previously argued](https://www.youtube.com/watch?v=YErLEuOi3xU&list=PLw8-6ARlyVciNjgS_NFhAu-qt7HPf_dtg&index=4) that, when it comes to blocksize and fees, miners will act as a single coordinated monopolist. This monopolist will select a point on the blockspace demand curve which maximizes total revenue. Gavin [made a similar point](http://gavinandresen.ninja/block-size-and-miner-fees-again) a long time ago.
 
 ![supply-demand](/images/supply-demand.png)
 
