@@ -6,7 +6,7 @@ comments: true
 
 
 
-> Wise Contacts are "smart contracts" which are also "cooperative".
+> Wise Contracts are "smart" and "cooperative". Without cooperation, smart contracts can become dumb.
 
 This is mostly a blog-post-format reboot of the first three videos [in this sequence](https://www.youtube.com/watch?v=xGu0o8HH10U&index=1&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4).
 
@@ -30,6 +30,7 @@ It is really quite extraordinary: one human "making" something that no human can
 
     "The contract's legal, binding and completely unbreakable–even for YOU."
     -Ursula, to King Trident
+    ( The Little Mermaid, 1989 )
 
 
  Originally, crypto could only protect files (by putting them in metaphorical safes or envelopes). But it later progressed to digital identities, and ultimately, payments (ie Bitcoin). Since Bitcoin is peer-to-peer, it is *itself* a smart contract, in the sense that, if you turn it on, [no one *else* can turn it off](https://miguelmoreno.net/wp-content/uploads/2013/05/fYFBsqp.jpg). A single peer can regenerate (or even maintain) the entire network. 
@@ -52,7 +53,7 @@ These include:
 
 ### Value of Smart Contracts
 
-Smart contracts have a number of advantages. The first is that they are written in computer code, which makes them entirely 100% unambiguous. No 'interpretation' is required; no subjectivity. Legal and Economic theory are clear: enforcement ambiguity = bad for commerce.
+Smart contracts have a number of advantages. The first is that they are written in computer code, which makes them 100% unambiguous. No 'interpretation' is required; no subjectivity. Legal and Economic theory are clear: enforcement ambiguity = bad for commerce.
 
 A second huge advantage is that smart contracts are entirely self-contained. All of the 'evidence' of fulfillment is cryptographic. There is absolutely no need for a 'fact-finder' such as mediator, judge, or jury. Courts are very slow and deliberate (for good reason), but smart contracts can be resolved at the speed of the CPU -- thousands per second. And as the tech improves, smart contracts get even faster.
 
@@ -73,7 +74,7 @@ Wise Contracts are two things. Firstly, they are "smart"; they execute themselve
 
 Secondly, they are also **cooperative**, they don't attack each other.
 
-This is a problem because, smart contracts can attack each other, thereby 'dumbing' them down and preventing them from executing at all (let alone automatically). Often, these harmful, non-cooperative interactions are profitable for attackers.
+Cooperation is important because, smart contracts can attack each other, thereby 'dumbing' each other down and preventing themselves from executing at all (let alone automatically). Often, these harmful, non-cooperative interactions are profitable for attackers.
 
 Two examples I gave last summer were:
 
@@ -93,12 +94,14 @@ The result of this, is that the addition of some contracts can subtract the effe
 
 ![wise-info](/images/wise-infographic.png)
 
-Since the entire point of a contract, is that the signers can trust it to be enforced, this "dumbness" causes problems. We will need a way to prevent smart contracts from "dumbing" each other down.
+Since the entire point of a contract, is that the signers expect it to be enforced, this "dumbness" phenomenon ruins the who 'smart contracts' idea.
+
+We need a way to prevent smart contracts from "dumbing" each other down.
 
 
 ## Enforcing Cooperation
 
-Sidechains provide most of the solution, as sidechains are firewalled from each other. Sidechains filter out messages that don't belong to their chain. And yet, they can use the same value-token and share the same economic network. In this way, we can allow chains to be added or subtracted as we like.
+Sidechains provide most of the solution, as sidechains are firewalled from each other. Sidechains filter out messages that don't belong to their chain, while sharing the same value-token and economic network. In this way, we can add or subtract chains as we like, allowing new messages (ie, new 'smart contracts').
 
 But the technical firewall does not necessarily prohibit *harmful interactions* among chains, at the "macro-chain" level.
 
@@ -108,7 +111,7 @@ This is accomplished, in Drivechain, by requiring withdrawal-proofs to use the '
 
 ![slide](/images/sidechain-privatization-slide.png)
 
-A slide from my presentation.
+Above: a slide from [my presentation series](https://www.youtube.com/watch?v=xGu0o8HH10U&index=1&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4).
 
 
 ### Motivation and Equilibrium
@@ -117,7 +120,7 @@ We can safely assume that miners will try to maximize the purchasing power of th
 
 In addition, it is probable that miners will be able to maximize in this way, for free (ie, without actually doing anything). An implicit threat of miner-action is sufficient. This is because smart contracts are difficult to create -- the developer must move first, investing tremendous time and effort in writing the software code. The miners can move later, at minimal effort, to block the contract if it misbehaves.
 
-If we use a tripartite analogy (where miners are police, developers are legislators, and nodes are the judiciary), then the "sidechains" concept would be comparable to a world where citizens are free to opt-in to a new set of laws. The concept of merged-mining, of placing the same miners in charge of enforcing both sets of laws, is akin to placing the same police officers in charge of enforcing all of these laws. It is difficult for me to believe how it could be any other way -- if the laws were enforced by a different 'competing' group of police offers, how would we resolve any disputes between the two groups? This seems, to me, to be reintroducing [the very "wars"](http://junseth.com/post/119882298052/blockchains-are-war) and other 'expensive competition' that we originally wanted to replace!
+If we use a tripartite analogy (where miners are police, developers are legislators, and nodes are the judiciary), then the "sidechains" concept would be comparable to a world where citizens are free to opt-in to a new set of laws. The concept of merged-mining (ie, placing the same miners in charge of enforcing both sets of protocol rules), is akin to placing the same police officers in charge of enforcing all of these laws. It is difficult for me to believe how it could be any other way -- if the laws were enforced by a different 'competing' group of police offers, how would we resolve any disputes between the two groups? This seems, to me, to be reintroducing [the very "wars"](http://junseth.com/post/119882298052/blockchains-are-war) and other 'expensive competition' that we originally wanted to replace!
 
 Finally, this idea here, of 'wise' contracts, is akin to allowing the police to refuse to enforce some "new laws" if these contradict "old laws". Again, it is hard for me to see how anything other than this would be practical. Our miner police-force already charges us fees-for-service, and we don't expect miners to process transactions which neglect to pay a sufficient fee. So, why would we expect miners to enforce laws which have a *net negative fee* (ie that, by collecting some positive fee-amount, their total fee-revenues nonetheless decrease)?
 
