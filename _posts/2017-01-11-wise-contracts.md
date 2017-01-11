@@ -12,7 +12,7 @@ This is mostly a blog-post-format reboot of the first three videos [in this sequ
 
 ## Smart Contracts
 
-> They execute themselves.
+> A smart contract is a contract which enforces itself.
 
 "Smart contracts" is a phrase which is [often difficult to define](https://www.youtube.com/embed/A3p-RUtGejI?start=340&end=1000&rel=0&autoplay=1).
 
