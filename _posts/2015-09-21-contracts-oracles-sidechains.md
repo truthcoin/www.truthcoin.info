@@ -7,7 +7,7 @@ show_author: true
 
 > Smart Contracts need Oracles, Oracles need Governance, Governance needs Sidechains. Ethereum cannot support Oracles, and has no use-cases.
 
-## When Shackles Empower: The [Autonomy](https://www.youtube.com/embed/_lOT2p_FCvA?&rel=0&autoplay=1)-[Coordination](https://www.youtube.com/embed/93walxW7mjQ?start=146&end=442&rel=0&autoplay=1) Tradeoff
+## When Shackles Empower: The [Autonomy](https://www.youtube.com/embed/_lOT2p_FCvA?&rel=0&autoplay=1)-[Coordination](https://www.youtube.com/embed/uQQZR-Skftk?start=28&rel=0&autoplay=1) Tradeoff
 > Some freedoms contradict each other. By oppressing contradictory freedoms, total freedom can actually increase.
 
 Skip this section (To "The Anarchy of Ethereum") if you already buy this (obvious) premise.

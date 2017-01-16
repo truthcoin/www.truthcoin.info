@@ -15,7 +15,7 @@ Consistently winning praise, retweets, and upvotes from Bitcoin Experts around t
 
 * [When blockchains are useful, from First Principles.](http://www.truthcoin.info/blog/limits-of-blockchain/)
 * Why Proof of Stake [isn't cheaper](http://www.truthcoin.info/blog/pow-cheapest), and [isn't better](http://www.truthcoin.info/blog/pow-and-mining) than Proof of Work.
-* [Why Smart Contracts are Bad for Bitcoin, but Oracles are Good.](http://www.truthcoin.info/blog/contracts-oracles-sidechains)
+* [Why Smart Contracts are Bad for Bitcoin, but Oracles are Good](http://www.truthcoin.info/blog/contracts-oracles-sidechains), and [How to Fix Smart Contracts](http://www.truthcoin.info/blog/wise-contracts/).
 * [Bitcoin and Deflation - Why the focus on macro is a waste of time.](http://www.truthcoin.info/blog/deflation-the-last-word)
 * [The "BitUSD", namely "why it was always going to be a dissapointment".](http://www.truthcoin.info/blog/bitusd)
 * Decentralization - [how to measure it](http://www.truthcoin.info/blog/measuring-decentralization) and how to [increase it](http://www.truthcoin.info/blog/active-decentralization).
