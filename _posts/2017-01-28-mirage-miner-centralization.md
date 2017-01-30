@@ -345,17 +345,6 @@ In other words, of our three concerns, the only one which is both important and 
 
 Even more important: <b>not only are we unable to *improve* PMC, but we can't make it any *worse*, either</b>. This measurement is going to be driven entirely by environmental factors, and not at all by factors related to software.
 
-
-## Conclusion
-
-I previously defined "Bitcoin centralization" as "the cost of one's node-option" (ie, the difficulty of determining that you have, in fact, been paid with funds that are valid). I wanted a precise definition, because I didn't want to be weighed down with nonsense about "wallet decentralization" and "RIPEMD-160 decentralization" and "Bitcoin logo decentralization" -- just because someone can use the word "decentralization" in a sentence, doesn't mean that we should care about that sentence.
-
-Some felt that my emphasis on nodes was inappropriate, and instead advocated that more attention be paid to miners. I am open to that possiblity, but no one has suggested what, if anything, they think we should pay attention to. No one provided a definition, and when I tracked one down I found a tangled knot of three concepts -- when untied, I found a fourth concept. However, each of the concepts seem confusing, and unworthy of conversation.
-
-This is not to say that we shouldn't talk about mining, or [other mining problems](http://www.truthcoin.info/blog/mining-heart-attack/). We certainly should. It is merely to say that, in order to have a conversation, the conversation has to actually be about something.
-
-
-
 <!--
 
 
@@ -380,3 +369,12 @@ Prostitution,  labor intensive, no scale economies, variable costs
 
 
 -->
+
+
+## Conclusion
+
+I previously defined "Bitcoin centralization" as "the cost of one's node-option" (ie, the difficulty of determining that you have, in fact, been paid with funds that are valid). I wanted a precise definition, because I didn't want to be weighed down with nonsense about "wallet decentralization" and "RIPEMD-160 decentralization" and "Bitcoin logo decentralization" -- just because someone can use the word "decentralization" in a sentence, doesn't mean that we should care about that sentence.
+
+Some felt that my emphasis on nodes was inappropriate, and instead advocated that more attention be paid to miners. I am open to that possiblity, but no one has suggested what, if anything, they think we should pay attention to. No one provided a definition, and when I tracked one down I found a tangled knot of three concepts -- when untied, I found a fourth concept. However, each of the concepts seem confusing, and unworthy of conversation.
+
+This is not to say that we shouldn't talk about mining, or [other mining problems](http://www.truthcoin.info/blog/mining-heart-attack/). We certainly should. It is merely to say that, in order to have a conversation, the conversation has to actually be about something.
