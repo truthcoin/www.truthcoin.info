@@ -193,7 +193,7 @@ Of course, revenues aren't profits. Higher bandwidth miners have an edge, but th
 
 If we complain about bandwidth on these grounds, we run a strong risk of **inconsistent complaining**. After all, [BitFury's miners now ship only in 40 ft marine containers](http://bitfury.com/products#container-datacenter) (which is, I believe, the *largest* shipping container in all of commerce). It ships that way, I am sure, in order to achieve scale economies in both the shipping itself, but also in the cooling of the unit and the installation and operation of the equipment. Those are all easier to reuse "within the BitFury family of products".
 
-### (!) Finding A Definition 
+### Finding A Definition (!)
 
 Most people who complain about miner decentralization, don't complain about "minimum investment amounts" (although Peter Todd, to his credit, does complain about both). In the world of theoretical finance, a group of small users would form a corporation, and take advantage of economies of scale. To the extent that they are unable to do this, some users are prevented from mining.
 
@@ -284,8 +284,8 @@ Instead, I oppose this metric on grounds of epistemology. There is **no way we c
 
 Coordination is something which can be entirely hidden. Consider two worlds:
 
-* A: One where the hashpower is controlled by 1,000 uncoordinated individuals.
-* B: One where the hashpower is controlled by 1 individual.
+1. "A": One where the hashpower is controlled by 1,000 uncoordinated individuals.
+2. "B": One where the hashpower is controlled by 1 individual.
 
 The sole individual of world "B" can *choose* to make his world appear as A. There's nothing that an unruly mob can do that an obedient army can't copy -- the general can simply command that the soliders pretend to be an unruly mob. The reverse, however, is not the case (the mob cannot effortlessly mimic the discipline of an army unit).
 
