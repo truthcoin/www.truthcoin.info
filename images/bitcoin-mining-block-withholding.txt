@@ -1,0 +1,169 @@
+Block Withholding -- An Inventive Bitcoin Mining Strategy
+----------------------------------------------------------
+
+
+Surprisingly, it is often profitable for a large miner to *sacrifice* some of his hashpower, by [1] sending it to a rival pool, [2] waiting until it finds a block over there, and then [3] discarding the block such that *no one* gets any reward for it.
+
+I will attempt to explain how and why this works.
+
+How
+----
+
+First [1] a warm-up example, then [2] a real example, then [3] the generalization.
+
+Setup
+-----
+Hashpower = You have: 20%
+           They have: 80% (split evenly across two pools)
+
+============================================================================================
+Example 1, "Warm up"
+--------------------------------------------------
+
+You Withhold Half (ie, 10 of your 20)
+
+Phase 1: Join the Pool
+
+                         |you |them|   sum
+                         -----------
+Pool 1 (attacked) :      | 10 | 40 |  (.50)
+------------------------------------
+Pool 2 (not attacked) :  | 10 | 40 |  (.50)
+------------------------------------
+                     sum:  20   80    1.00
+
+
+Phase 2: Withold Winning Blocks       -->  Phase 3: Difficulty Falls
+
+                         |you |them|                                |you |them|   sum
+                         -----------                                -----------
+Pool 1 (attacked) :      | ** | 40 |       Pool 1 (attacked) :      |  0 | 44 |  (.44)
+------------------------------------  -->  ------------------------------------
+Pool 2 (not attacked) :  | 10 | 40 |       Pool 2 (not attacked) :  | 11 | 44 |  (.56)
+------------------------------------       ------------------------------------
+                          sum:  0.90                                         sum: 1.00
+
+As a result of withholding 10, blocks are found at a rate of 90/100, causing difficulty to fall, and relative hashpowers to increase by a factor of (1/.9).
+
+
+Payoff Calculation
+
+          "shares" x "pool earnings"
+You get:  [.2, .2] * t( [.44, .56] )  = .20
+
+We started with 20%, 
+...nothing interesting happened. This is because we split our hashpower 50-50.
+
+Now, watch what happens when we *don't* do that.
+
+
+============================================================================================
+Example 2, "Realistic"
+--------------------------------------------------
+
+You Withhold just 25% (ie, 5 of your 20)
+
+Phase 1: Join the Pool
+
+                         |you |them|   sum
+                         -----------
+Pool 1 (attacked) :      |  5 | 40 |  (.45)
+------------------------------------
+Pool 2 (not attacked) :  | 15 | 40 |  (.55)
+------------------------------------
+                     sum:  20   80    1.00
+
+
+Phase 2: Withold Winning Blocks       -->  Phase 3: Difficulty Falls
+
+                         |you |them|                                |you |them|   sum
+                         -----------                                -----------
+Pool 1 (attacked) :      | ** | 40 |       Pool 1 (attacked) :      |  0 | 42 |  (.42)
+------------------------------------  -->  ------------------------------------
+Pool 2 (not attacked) :  | 15 | 40 |       Pool 2 (not attacked) :  | 16 | 42 |  (.58)
+------------------------------------       ------------------------------------
+                          sum:  0.95                                         sum: 1.00
+
+As a result of withholding 5, blocks are found at a rate of 95/100, causing difficulty to fall, and relative hashpowers to increase by a factor of (1/.95).
+
+
+Payoff Calculation
+
+              "shares"    x "pool earnings"
+You get:  [ (1/8), (3/8)] * t( [.42, .58] )  = (.0525 + 0.2171) = .2696
+
+We started with 20%, but ended with nearly 27% ! Magic!
+The pool's lost earnings were diluted among many members.
+
+============================================================================================
+Example 3, "General"
+--------------------------------------------------
+
+
+If (a,b,x) >= 0, and the hashrates are related in the following way:
+
+                         |you |them|   sum
+                         -----------
+Pool 1 (attacked) :      |  x | bx |  (1+b)x
+------------------------------------
+Pool 2 (not attacked) :  | ax | bx |  (a+b)x
+------------------------------------
+                                   sum: 1.00
+
+
+Phase 2: Withold Winning Blocks       -->  Phase 3: Difficulty Falls
+
+                         |you |them|                                |   you    |   them   |      sum
+                         -----------                                -----------------------
+Pool 1 (attacked) :      | ** | bx |       Pool 1 (attacked) :      |  0       | bx/(1-x) |     bx /(1-x)
+------------------------------------  -->  ------------------------------------------------
+Pool 2 (not attacked) :  | ax | bx |       Pool 2 (not attacked) :  | ax/(1-x) | bx/(1-x) | (a+b)x /(1-x)
+------------------------------------       ------------------------------------------------
+                          sum:  1-x                                                              1.00
+
+As a result of withholding x, blocks are found at a rate of (1-x)/100, causing difficulty to fall.
+
+
+Payoff Calculation
+
+                 "shares"             x          "pool earnings"
+You get: [ (x/(x+bx)), (ax/(ax+bx)) ] * t([ ( bx/(1-x) ), ( (a+b)x/(1-x) ) ])  = z% of x ?
+
+
+We start with:
+
+    bx * x          ax * (ax + bx)
+---------------  + ----------------  = z*x
+ (1+b)*x*(1-x)      (ax+bx) * (1-x)
+
+ Removing x from both sides, and simplifying, yeilds:
+
+      b           a
+------------  + -----  = z
+ (1+b)*(1-x)    (1-x)
+
+Multiplying the right term by 1 = { 1/(1+b) / 1/(1+b) } yields:
+
+z =  b/(1+b) + a 
+    ------------
+        (1-x)
+
+When will this strategy be profitable? When z>1, which is where:
+
+a > (1-x) - (b/(1+b))
+
+For x=1.00, we control all hashrate and should never do the strategy (a=1, b=0).
+
+We withheld
+
+==================================================================================
+
+
+Why
+------
+
+In general, the intuition here is that a small "servant" who joins a wealthy house as a saboteur.
+
+For example, a Montague secretly joins the large Capulet house, and is careful to work very hard, when other people are watching. The Montague-servant is therefore entitled to the standard benefits of service: food, shelter, protection, etc. However, at rare, critical moments (and when no one is looking), the Montague-servant sabotages major Capulet projects.
+
+It is, perhaps, easier to see in the extreme: if blocks were only found once a year, and House Montague had merely a single spy in a large House Capulet (say, 1 in 100,000), then the spy-servant would be hard-to-distinguish from honest servants (and would, therefore, be compensated the same as the other servants, year after year). However, when the spy-servant inevitably becomes the lucky "important servant of the year", he can safely sabotage an entire year's worth of effort.
