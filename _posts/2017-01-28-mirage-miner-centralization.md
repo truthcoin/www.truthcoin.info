@@ -46,7 +46,7 @@ However, for any complaint to be meaningful, there needs to be an improved alter
 
 Ultimately, I boiled this down to two critical concepts:
 
-1. The fixed costs of mining. Ie, the ("reuseable") costs which [do not covary with revenue](http://www.investopedia.com/terms/f/fixedcost.asp); the [minimum expenditure required to set up a new mining operation](https://www.extension.iastate.edu/agdm/wholefarm/html/c5-200.html).
+1. The [fixed costs](http://www.investopedia.com/terms/f/fixedcost.asp) of mining. Ie, the ("reuseable") costs which do not [covary](https://en.wikipedia.org/wiki/Covariance) with revenue; the [minimum expenditure required to set up a new mining operation](https://www.extension.iastate.edu/agdm/wholefarm/html/c5-200.html).
 2. The minimal quantity of decision-making [agents](https://en.wikipedia.org/wiki/Agency_%28sociology%29) who could control 51% of the network hashrate (or, more generally, [some relationship](http://www.investopedia.com/terms/h/hhi.asp) between agency and hashrate-control).
 
 To avoid confusion, **I will refer to the first as "mining centralization" and the second as "miner concentration"**. The second definition is problematic because there are [two classes of agent](https://www.reddit.com/r/Bitcoin/comments/3vn3m7/peter_todd_on_twitter_in_case_you_were_wondering/): firstly, the 'hasher' who [1] owns/maintains ASIC hardware, [2] purchases electrical power, and [3] **chooses** to point the hashrate at some piece of software; and, secondly, the 'pool operator' who [1] **chooses** which block to mine 'on top of' (in addition to managing pool membership, setting pool fees, etc) and [2] **chooses** what to include in the block.
@@ -57,7 +57,7 @@ This led me, ultimately, to the following definitions:
 
 * Miner Centralization: The fixed costs of mining.
 * Managerial Mining Concentration: The quantity of agents one would need to coerce/brainwash, to assume managerial control over 51% of the hashrate.
-* Physical Mining Concentration: The total effort required, to sieze control of equipment capable of producing 51% of the hashrate.
+* Physical Mining Concentration: The total effort required, to seize control of equipment capable of producing 51% of the hashrate.
 
 ## Checking The Work, With Logic
 
