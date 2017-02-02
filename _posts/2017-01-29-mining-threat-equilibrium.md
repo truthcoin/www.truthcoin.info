@@ -18,8 +18,7 @@ With this post, I'm going to try to *provide* something that I think is more use
 
 #### Sidechain Criticism
 
-Secondly, there are some people who complain about my sidechains work (not to my face of course, only in whispers to their already-friends). After slowly and steadfastly eliminating all possible realms of concern, category by category, I asked my critics to reveal their  retreated
-
+Secondly, there are some people who complain about my sidechains work (not to my face of course, only in whispers to their already-friends). After slowly and steadfastly eliminating all possible realms of concern, category by category, I [presented an extreme view at Scaling Milan](https://www.youtube.com/watch?v=Gzg_u9gHc5Q&t=6575s), in the presence of many of Bitcoin's brightest. I was then able to flush out any remaining criticisms, which were all about mining.
 
 #### "Effectively Centralized"
 
@@ -29,7 +28,7 @@ Most of Bitcoin "just works" already, as is obvious. Signatures work, hash funct
 
 However, "mining" can't easily be shown to "work".
 
-I believe that this is due to the "slow" life-cycle of mining. For digital signatures, the life-cycle (generating the keys, signing a transaction, checking the signature) is "fast". We can perform the experiment many times. Each time, the signature works as advertised. Same goes for hash functions, database calls, CPU usage, the font, et cetera. These subsystems can all be tested a hundred times, and the results will always generalize to the future (because nothing about them changes over time). Mining, however, appears to be is constantly changing. We can not demonstrate that it will work in the future, merely because it works today.
+I believe that this is due to the "slow" life-cycle of mining. For digital signatures, the life-cycle (generating the keys, signing a transaction, checking the signature) is "fast". We can perform the experiment many times. Each time, the signature works as advertised. Same goes for hash functions, database calls, CPU usage, the font, et cetera. These subsystems can all be tested a hundred times, and the results will always generalize to the future (because nothing about them changes over time). Mining, however, is constantly changing. We can not demonstrate that it will work in the future, merely because it works today.
 
 It is true that "development" is in the same boat. However, any audience familiar with [1] open source, [2] soft forks, and [3] this [intuitive upgrade strategy](http://www.truthcoin.info/blog/against-the-hard-fork/#the-game-theory-of-bitcoin-upgrades), will probably be immune to nagging of this kind. Plus, the software has *already* been written...so what are you complaining about? That someone, somewhere, could at some future point write some evil software and trick you into installing it? Welcome to the internet?
 
@@ -63,7 +62,7 @@ The threat model is **independent of full node costs** (ie, [decentralization](h
 
 #### Are They Really Separable?
 
-Let me clarify my view on the connection between [1] an ASIC chip (ie, "the thing that miners") and [2] the software which administrates this chip (ie, the software that determines "what is mined"). Many believe that each miner must run a full node, else something terrible will happen. But I think that this belief cannot be correct.
+Let me clarify my view on the connection between [1] an ASIC chip (ie, "the thing that mines") and [2] the software which administrates this chip (ie, the software that determines "what is mined"). Many believe that each miner must run a full node, else something terrible will happen. But I think that this belief cannot be correct.
 
 The security model for Bitcoin is, unambiguously, that *users* run full nodes in order to validate payments. The full node of User A, protects him against the fraudulent activity of Users B through Z (including the fraudulent activities of miners "M" and "N"). Because of A's full node, A is robust to any mistakes made by B-Z.
 
@@ -420,7 +419,7 @@ Nonetheless, it is interesting. I have started working on a 'smart contract' ver
 
 Firstly, it is [a straightforward application of the efficient markets hypothesis](/images/efficient-hasher-hypothesis.md) that miners will eventually be earning the lowest ROI possible, and paying themselves subsistence wages. (However, this is true for all industries, and the critical word is 'eventually'.)
 
-Secondly, we know we know that hashing equipment will likely be co-located with cheap sources of electrical power.
+Secondly, we know that hashing equipment will likely be co-located with cheap sources of electrical power.
 
 We also know that spy-mining is hard to prevent. If unprevented, everyone will use the (very tame and desirable) 'broadcast immediately' strategy.
 
@@ -485,7 +484,7 @@ Bitcoin is vulnerable in the following way:
 4. *After mining is specialized for Friendly*, it will be reliant on the world remaining Friendly.
 5. Anyone with the power to "change the world from Friendly to Hostile", can probably seize control of all of the Bitcoin Hashpower.
 
-This is more or less what happened to Ancient Rome (according to some).
+In short, specialization is more efficient, but assumes a given set of parameters. If those parameters change infrequently, we will have extinction events. If an adversary controls the parameters, they can set them one way, leave them that way for a while, and then change them later. This forces the extinction event.
 
 There is nothing we can do to change this aspect of reality. It is a consequence of the fact that the miner-elimination process lacks sophistication. The elimination process is not "intelligent" enough to comprehend, measure, or respond to the "E2E risk". If it were, Step 3 (above) would optimize for the possibility of the world becoming Hostile. Instead, it just counts some numbers and divides them.
 
@@ -497,7 +496,7 @@ The challenge is: what response could we make, that would be [1] strong enough t
 
 The problem is one where an adversary comes into sudden possession of the mining equipment. The solution, then, must be one which deprives the adversary of the mining equipment. It also must be some kind of temporary alternative to proof-of-work consensus, by definition, because in this attack scenario, the attacker controls the "work". (This is in direct contradiction to Satoshi's qualifier "As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network".)
 
-The clear solution is to change the proof of work algorithm, and to warn users to wait for many confirmations until the algorithm-change process.
+The clear solution is to change the proof of work algorithm, and to warn users to 'wait for many confirmations until the algorithm-change process is complete'.
 
 This [1] solves the problem, [2] is simple enough that [users can understand exactly what change was made](http://www.truthcoin.info/blog/against-the-hard-fork/#when-is-a0-) and how it will affect them, and [4] very tightly connected to the original problem. It is a "temporary alternative to PoW" for merely the briefest instant, rejecting PoW one time and then renewing our loyalty to it.
 
@@ -522,7 +521,9 @@ Obviously, the miners would want to avoid this doomsday scenario more than anyon
 
 #### Making Confiscation Attacks Futile
 
-Most important of all is the effect this would have on the adversaries themselves. Since the attack ultimately can't succeed, there is less reason to attempt the attack in the first place. Instead of "mafia takes control of Bitcoin", the newspaper headline would read "mafia vaguely slows down Bitcoin payments temporarily". If we replace the 'mafia' with the 'Russian or Chinese government', the headline changes from "China moves to block Bitcoin payments, impose capital controls" to "Chinese government seizes control of Bitcoin equipment, now worthless". Whereas the former is a victory over the Bitcoin cryptosystem, the latter is pointless theft, violation of property rights, and arbitrary destruction of property. The former is impressive, the latter is embarrassing. 
+Most important of all is the effect this would have on the adversaries themselves. Since the attack ultimately can't succeed, there is less reason to attempt the attack in the first place. Instead of "mafia takes control of Bitcoin", the newspaper headline would read "mafia vaguely slows down Bitcoin payments temporarily". If we replace the 'mafia' with the 'Russian or Chinese government', the headline changes from "China moves to block Bitcoin payments, impose capital controls" to "Chinese government seizes control of Bitcoin equipment, now worthless". Whereas the former is a victory over the Bitcoin cryptosystem, the latter is pointless theft, violation of property rights, and arbitrary destruction of property. The former is impressive, the latter is embarrassing.
+
+As long as the effort is asymmetric, we should be fine. In other words, if our total_effort(Change-PoW) < their total_effort(Seize-PoW), then adversaries should not find it in their interest to Seize-PoW. 
 
 
 ## Conclusion
