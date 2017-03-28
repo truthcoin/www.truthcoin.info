@@ -272,6 +272,8 @@ Our modern world has seen the decline of the city-state in favor of the nation-s
 
 No.
 
+<h3 id="a-fundamental-limitation-cryptolaw-without-cryptopolice">A Fundamental Limitation: CryptoLaw <a href="https://www.youtube.com/embed/H_imYEe1FA8?start=1223&amp;end=1290&amp;rel=0&amp;autoplay=1">without CryptoPolice</a></h3>
+
 ### A Fundamental Limitation: CryptoLaw [without CryptoPolice](https://www.youtube.com/embed/H_imYEe1FA8?start=1223&end=1290&rel=0&autoplay=1)
 
 Although it purports to be "crypto-law", real "law" can be **enforced** on *real people*. Ethereum can only **edit** *ledgers in computers*; it can't get Shylock any flesh. At worst, it can [subtract your *digital* assets](http://www.truthcoin.info/blog/limits-of-blockchain/) (if, and only if, you choose to subject them to this risk). If Ethereum wants to affect the non-digital "real world", it will *lose all of the benefits of being a P2P computer network*, (and be in conflict with Real Law, which *does* have an armed police force).

@@ -60,7 +60,7 @@ Over in the physical world, disputes are resolved by police officers, lawyers, a
 
 Can technology offer an improvement?
 
-[Only for phenomena which are entirely virtual](http://www.truthcoin.info/blog/contracts-oracles-sidechains/#a-fundamental-limitation-cryptolaw-without-cryptopolicehttpswwwyoutubecomvhimyee1fa8start1223end1290version3autoplay1). Blockchains have only the power to alter the numbers displayed on a computer screen -- that isn't much, when compared to a court order enforced by men with guns.
+[Only for phenomena which are entirely virtual](http://www.truthcoin.info/blog/contracts-oracles-sidechains/#a-fundamental-limitation-cryptolaw-without-cryptopolice). Blockchains have only the power to alter the numbers displayed on a computer screen -- that isn't much, when compared to a court order enforced by men with guns.
 
 Let's examine *all* of the differences between the two dispute-resolution processes:
 
