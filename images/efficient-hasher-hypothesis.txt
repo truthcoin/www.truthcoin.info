@@ -27,7 +27,7 @@ For example, if miners decide to pay their employees less, they can inflate mean
 Notice two simple facts:
 
 1. There is never an incentive to invest in a sub-r\* project. (Instead, pull the money out and put it in an r\* project, or the stock market, ...).
-2. If miners are heterogenous, someone's mining project is returning below mean(r_H). (Potentially, [as many as](~~lol-stat~~) half of all miners).
+2. If miners are heterogenous, someone's mining project is returning below mean(r_H). (Potentially, [as many as](\images\averages.txt) half of all miners).
 
 All that remains, now is to establish a link between r\* and mean(r_H). Which is precisely what we demonstrated above; r\* = mean(r_H) .
 

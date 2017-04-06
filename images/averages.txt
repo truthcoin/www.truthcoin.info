@@ -1,0 +1,24 @@
+Mostly Below Average
+----------------------
+
+It is a common misconception that 'half' of a set of numbers will always be 'below average'. Potentially, as many as 99.999% (9's ad nauseum) can be below (or above) average.
+
+For example, the set { 0, 1, 1, 1, 1 } has an average of 0.8. Four of the five members of this set are 'above average'.
+
+Moreover, the average of { 0, .998, .999, 1.001, 1.002 } is also 0.8. And, 4 out of these 5 are 'above average'!
+
+These examples are the result of the first observation '0', an outlier.
+
+But we could quntuple the problem with:
+
+    { 0, 1, 1, 1, 1 
+ 	  0, 1, 1, 1, 1 
+ 	  0, 1, 1, 1, 1 
+ 	  0, 1, 1, 1, 1 
+      0, 1, 1, 1, 1 }.
+
+...and still experience this phenomenon. The problem is actually 'bimodality' (or multi-modality)...of which outliers are merely a single flavor.
+
+Multi-modality means that something (relatively) complex is going on with your data. 'Averaging' always destroys information. Sometimes this destruction is helpful in drawing general conclusions, without getting bogged down by the details of each observation; however, with bimodality, the information destroyed may have been very important.
+
+I do not think the Profitability of Bitcoin Mining is significantly multi-modal, and, if it is, the multi-modality will dissapear as below-average hashers close up shop.
