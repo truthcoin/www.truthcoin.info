@@ -12,9 +12,9 @@ These examples are the result of the first observation '0', an outlier.
 But we could quntuple the problem with:
 
     { 0, 1, 1, 1, 1 
- 	  0, 1, 1, 1, 1 
- 	  0, 1, 1, 1, 1 
- 	  0, 1, 1, 1, 1 
+      0, 1, 1, 1, 1 
+      0, 1, 1, 1, 1 
+      0, 1, 1, 1, 1 
       0, 1, 1, 1, 1 }.
 
 ...and still experience this phenomenon. The problem is actually 'bimodality' (or multi-modality)...of which outliers are merely a single flavor.
