@@ -116,3 +116,10 @@ Or can we? After all, miners are free to move between the 'blind' and 'non-blind
 ## Conclusion
 
 I've presented "blind merge-mining", which exploits the economic relationships between a parent chain and its sidechain, to make the merge-mining process leaner on both sides. A sidechain's nodes do everything that miners would normally do, and then bribe miners to ratify their side:block. The bribe takes place on the mainchain (which, incidentally, is why this maneuver is impossible *on* the mainchain -- it requires one 'normal' chain to already exist).
+
+### Updates
+
+Two notes:
+
+* [Function specifications](/images/bmm-outline.txt).
+* A [design note](/images/max-value-throughput.txt) on maximizing side-to-main throughput.

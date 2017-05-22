@@ -1,0 +1,129 @@
+Blind Merged Mining -- Function Outline
+
+This is to provide some organization and structure on a set of operations which *might* be helpful in implementing BMM (described here: http://www.truthcoin.info/blog/blind-merged-mining/ ).
+
+This is only a guideline -- always use good judgement!
+
+
+Skeleton
+==========
+
+Requirements
+-------------
+
+BMM requires the following operations to be performed:
+
+* Each coinbase txn of a mainchain block, must contain new data ("bmm commitments", or "BMMC"). At least, coinbases must contain a commitment to this data. Specifically, this data consists of one {sequence#, SHA256 hash} pair, per sidechain. The total number of sidechains ("NS") is globally known, as, in Drivechain, it takes a soft fork to add support for each new sidechain.
+* Nodes use this information to locally construct two datasets: [1] "linking data" (mLD, one dataset [per mainchain]), [2] "sidechain header hashes" (sHH, one dataset per sidechain)
+* Each sidechain node uses sHH dataset (above) to request, download, and verify a set of "sidechain headers" (sHD, one set per sidechain).
+* Each sidechain node "arranges" these headers, by transposing them from 'unsorted set' format to 'blockchain format' (one blockchain per sidechain).
+* It then requests, downloads, and validate blocks. If any block is determined to be invalid, none of its children can be valid (therefore, these need to be requested/dled/verified).
+* We therefore finish with a unique set of hashMerkleRoot s, and validated block histories. We can now display the blockchain state.
+
+OP Code
+----------
+
+Secondly, the BMM process requires that miners be able to collect a payment if they included a h* in a specific place (specifically, in sHH, at sidechain s* and blockNumber b*).
+
+This is a little unusual, but the gist of it would be:
+
+* If miners are indeed building sHD, we need a primitive that [1] looks-up BMMC, [2] filters it to only contain s* and b*, and [3] examine it to see if any of the "h" values match the required h*. This would demonstrate that a hash was indeed blind-merged-mined.
+* However, to encourage miners to mine "on the longest chain" (and to discourage miners from fighting over difference versions of the same "juicy" block), we do not allow them to claim the reward until the block has been "buried" underneath a sufficiently-high number of new sidechain blocks.
+* For this we need a validation rule against "skipping forward" with the BMMC data.
+
+As with all soft fork OP Codes, the payment is always valid unless the preceeding operations fail.
+
+
+
+Part 2
+--------
+
+
+A] BMMC, "blind-merged-mining commitments",  Dimensions: (NS, 3)
+
+   Sidechain # | Block Number | Sha256
+  ----------------------------------------
+   1           |  005404      | 57els4fjj
+   2           |  001103      | g43w34erg
+   3           |  000007      | 5gq3rge5r
+
+...
+
+Hash(BMMC) is included in each coinbase output.
+
+
+B] mLD, "Linking Data", Dimensions: (n,4) entries themselves contain lists
+
+n = number of unique mainchain headers
+
+Per Mainchain header (ie, even in SPV mode),
+
+  Header # | Merkle Path                       | Coinbase Txn                | Commitments in Coinbase 
+ ----------------------------------------------------------------------------------------------------------------
+ 00000001  | (set of rightmost-Sha256 hashes)  | Entire Coinbase Txn (or ID) | (list of SHA256 hashes, in order)
+ 00000002  | 
+
+
+C] sH, "Sidechain Headers", Dim: (q, 7)
+
+Per sidechain.
+
+q = number of headers since we started bmm-ing this sidechain. (If miner declines to merge mine a SC, the entire is forced to be blank - ie 00000's).
+
+(This dataset is not inherently ordered, but it must be sorted on block_number).
+
+1. Valid_1 = Does BlockHash must match the hash of the middle three entires?
+2. Valid_2 = Does hashPrevBlock match any BlockHash, for the set of blocks with block_number-1? (If block_number = 1, hashPrevBlock must match a "genesis hash" or similar).
+3. Valid_3 = Default Yes. Allows miners to manually invalidate a block (for "DAO" type reasons).
+4. Valid_All = Are Valid_1, 2 and 3 all == Yes?
+
+       BlockHash | block_number | hashPrevBlock | hashMerkleRoot | Valid_1 | Valid_2 | Valid_3 | Valid_All
+-----------------------------------------------------------------------------------------------------------
+   ea3f435ewg11q |            1 | 5w4g54245rewa | jkl6yth5gea4g  |  Yes    |  Yes    |   Yes   |
+   456tyj54hyhf4 |            2 | ea3f435ewg11q | k7tdyth5ge26s  |  Yes    |  Yes    |   Yes   |
+   34ewtrw45gwg0 |            2 | ea3f435ewg11q | nb24ergf45wws  |  Yes    |  Yes    |   Yes   |
+   ...
+
+We've removed any junk, and now have a "DAG" (directed acyclic graph).
+
+D] sB, "Sidechain Blocks", Dim: (q,)
+
+Per sidechain.
+
+Take sH where Valid_All == True (ie, the "DAG"). Sort by block_number.
+
+When a new block is found, determine if it is building on top of the current longest chain.
+    If so, add +1 to the "Blocks_Atop" field of everything with Longest_Chain = Yes.
+    If not, add +1 of all of the "Blocks_Atop" of whichever "Chain_Candidate" category it is in.
+
+If a new "Chain_Candidate" category overtakes the current longest chain, reassign the "Longest_Chain" Index to reflect this.
+
+
+       BlockHash | block_number | hashMerkleRoot | Blocks_Atop | Chain_Candidate | Longest_Chain_Index |  Downloaded (y/n)  |  Valid (y/n) | All Parents Valid (y/n)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   ea3f435ewg11q |            1 | jkl6yth5gea4g  |           5 |             B   |     1               |   
+   456tyj54hyhf4 |            2 | k7tdyth5ge26s  |           0 |             A   |     3               |   
+            .... |            2 |          ....  |           4 |             B   |     1               |   
+            .... |            3 |          ....  |           5 |             B   |     1               |   
+            .... |            4 |          ....  |           3 |             B   |     1               |  
+            .... |            4 |          ....  |           1 |             C   |     2               |   
+            .... |            5 |          ....  |           2 |             B   |     1               |   
+            .... |            5 |          ....  |           0 |             C   |     2               |   
+            .... |            6 |          ....  |           1 |             B   |     1               |   
+  
+
+         2
+        /    
+   0---1       4---5---6
+        \     /    
+         2---3
+              \   
+               4---5
+
+
+Then, use the HashMerkleRoot s to download all blocks in the Longest Chain.
+Then, validate each block. If there is an invalid block, stop downloading blocks on this chain, and switch to the second-longest chain.
+
+Finally, subset sB for "all ancestors valid" = TRUE, and choose the lowest "Longest_Chain_Index".
+
+This will now be a unique sequence of validated blocks. We can now display the blockchain state.
