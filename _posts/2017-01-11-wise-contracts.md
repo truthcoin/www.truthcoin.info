@@ -68,7 +68,7 @@ That's a lot of overhead! And SC-users must still pay their 'real' taxes, of cou
 
 ## Wise Contracts
 
-> "Smart" and "cooperative". Necessary because one smart contract can "dumb" another one down.
+> Wise contracts are both "smart" and "cooperative". This is necessary because one smart contract can "dumb" another one down.
 
 Wise Contracts are two things. Firstly, they are "smart"; they execute themselves.
 
