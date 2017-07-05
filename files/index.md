@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frequently Asked Questions
+title: Random Files
 ---
 
 
