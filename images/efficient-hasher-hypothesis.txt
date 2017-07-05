@@ -1,4 +1,7 @@
 ## The Efficient Hasher Hypothesis
+Paul Sztorc
+January 29, 2017
+
 
 ### 1. Claim
 
