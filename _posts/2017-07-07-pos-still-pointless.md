@@ -83,7 +83,7 @@ If these funds are not officially regarded as "staked" (ie, locked for a full ye
 
 There are other problems, but they distract from the overall message of MC=MR. Instead, just imagine the total reward is $1000, and that the randomness can not be messed with. In such a case, individuals will tend to invest ("stake", or "prestake") a marginal dollar, until the MC=MR, as I suggest. Imagine it were any other way, for example that MC<MR? This would imply that the first person to invest $1 in staking (in joining the "very large set") would get an expected return of more than $1. So, this will obviously draw more capital in.
 
-This example assumes that work = attack. But this is not necessarily the case; if attacks = 0 then work will just equal work.
+Vitalik's example assumed that Waste = Attack. But this is not necessarily the case; if Attacks = 0 then Waste will just equal regular Work.
 
 <!--
 > lower total rewards
