@@ -252,7 +252,7 @@ Finally, lasting differences between the two PoW are possible: PoW might be bett
 
 Break out your econ textbooks, [here](http://www.macrobasics.com/chapters/chapter7/lesson73/) is a supply curve in The Market for Loanable Funds:
 
-![mLF](http://www.macrobasics.com/wp-content/uploads/2012/06/The-Market-for-Loanable-Funds.png)
+![mLF](/images/loanable-funds.png)
 
 Now it is with the Supply Curve leftward-shifting to represent the "wasted" loanable funds on this "non-productive" investment.
 
