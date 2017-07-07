@@ -156,7 +156,7 @@ In *may* be the case that PoS gets more bang for its buck, which is to say that 
 
 (This is exactly the argument that Jae Kwon of Tendermint retreated to, after admitting that PoS was indeed just as wasteful as PoW.)
 
-In my 2015 article, I emphasize that PoS is allowed to have different (probably worse) security assumptions than PoW:
+In my 2015 article, [I emphasize](http://www.truthcoin.info/blog/pow-cheapest/#example-1-tendermintcasper) that PoS is allowed to have different (probably worse) security assumptions than PoW:
 
 ![image7](/images/pos-faq/a1.png)
 
@@ -174,11 +174,11 @@ For now lets just say that PoS does indeed get more bang for its buck -- this is
 
 What Vitalik is trying to say (I assume) is that, **since the security is lower**, we can then, safely, decrease the critical X.
 
-However, this notion, **that one can control the critical X** is a fallacy that I (in 2015) purposefully delayed handling...
+However, this notion, **that one can control the critical X** is a fallacy that I (in 2015) purposefully [delayed handling](http://www.truthcoin.info/blog/pow-cheapest/#agenda)...
 
 ![image8](/images/pos-faq/a1-agenda.png)
 
-...until the end of the piece.
+...until [the end of the piece](http://www.truthcoin.info/blog/pow-cheapest/#the-coinbase-rot-paradox-less-is-more).
 
 Since Vitalik already ignored it once, I'm not sure what good it will do to repeat it, but here goes!
 
