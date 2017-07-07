@@ -5,7 +5,7 @@ show_author: true
 ---
 
 
-> Proof of Stake is still just as expensive as Proof of Work. PoS has different (possibly better, possibly worse) security features to PoW.
+> I go line-by-line against Vitalik's Proof of Stake FAQ. PoS is still just as expensive as PoW (but it may have different security features).
 
 ### Proof of Stake is Back
 
