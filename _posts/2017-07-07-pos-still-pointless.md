@@ -35,7 +35,7 @@ Here we go!!
 
 Yep.
 
-Certainly, "equally efficient" is a vague claim. Fortunately it is clarified explicitly, to mean "equally wasteful".
+Vitalik's phrase "equally efficient" is vague, but fortunately he clarifies it to mean "equally wasteful". So, we're back in business.
 
 
 <!--
