@@ -21,6 +21,7 @@ Here we go!!
 
 
 
+## Desperate for a Work-Independent Protocol
 
 
 <!--
@@ -49,7 +50,7 @@ Certainly, "equally efficient" is a vague claim. Fortunately it is clarified exp
 
 Vitalik correctly notes that there must be a "plausible mechanism" to turn work into blocks. In other words, there must exist a f1 of type { work --> result }. We might call this the "workability" of the protocol -- the extent to which it can be "worked".
 
-However, Vitalik ignores that I address this here by saying that, in a peer to peer network, all f's that map to result (ie, every f which { ?? --> result } will have an input which is work related. In other words, the f1 in question will always exist. All protocols are "workable".
+However, Vitalik ignores that [I address this here](http://www.truthcoin.info/blog/pow-cheapest/#is-a-work-independent-protocol-possible) by saying that, in a peer to peer network, all f's that map to result (ie, every f which { ?? --> result } will have an input which is work related. In other words, the f1 in question will always exist. All protocols are "workable".
 
 Amazingly, Vitalik gives an example which is so bad, it almost proves my point by contradiction. He uses "my [Vitalik's] laptop's /dev/urandom" as an example of something which cannot be "worked". His example cannot be worked, **because and only because it is not P2P** -- it is a trusted 3rd party source of randomness.
 
@@ -89,6 +90,9 @@ This example assumes that work = attack. But this is not necessarily the case; i
 
 We'll get back to this "security" claim later.
 
+
+## The Waste-Equivalence Argument, Restated
+
 <!--
 
 > Locking up X ether in a deposit is not free; it entails a sacrifice of optionality for the ether holder. Right now, if I have 1000 ether, I can do whatever I want with it; if I lock it up in a deposit, then it's stuck there for months, and I do not have, for example, the insurance utility of the money being there to pay for sudden unexpected expenses. I also lose some freedom to change my token allocations away from ether within that timeframe; I could simulate selling ether by shorting an amount equivalent to the deposit on an exchange, but this itself carries costs including exchange fees and paying interest. Some might argue: isn't this capital lockup inefficiency really just a highly indirect way of achieving the exact same level of economic inefficiency as exists in proof of work? The answer is no, for both reasons (2) and (3) above.
@@ -98,7 +102,7 @@ We'll get back to this "security" claim later.
 ![image5](/images/pos-faq/q2.png)
 
 
-Let me restate my argument, by comparing and contrasting PoW and PoS.
+Let me restate my argument by comparing and contrasting PoW and PoS.
 
 In PoW, you do the following: borrow $W1 money at rate r, buy a bunch of equipment and electrical power, earn BTC, and then liquidate everything and repay what you can, which is $W2 (which is very little, possibly zero). You have come up short, spending a total of $A = (W1*R)-W2 , but meanwhile you have earned $A worth of BTC. 
 
@@ -160,7 +164,7 @@ I highly doubt that PoS is more secure. Perhaps it is, but I still wonder what w
 
 I think it is hard for Vitalik to both [a] constantly tell us which PoS chain we should be on, and [b] constantly evade capture by the mob / world governments / private investigators.
 
-And, last I heard, there were all kinds of scalability / uptime problems with PoS, which again I am going to just ignore. (And these are just the theoretical problems -- remember how much we have learned about PoW's little quirks [block withholding, selfish mining, relay/broadcast strategy, ASICBoost, etc] in just a few years of using it in practice).
+And, last I heard, there were all kinds of scalability / uptime problems with PoS, which again I am going to just ignore. (And these are just the known/theoretical problems -- remember how much we have learned about PoW's little quirks [block withholding, selfish mining, relay/broadcast strategy, ASICBoost, etc] in just a few years of using it in practice).
 
 For now lets just say that PoS does indeed get more bang for its buck -- this is *irrelevant* to my argument about waste. Even if PoS is more secure than PoW, it is still just as wasteful as PoW. The "buck" of PoS is the same as the "buck" of PoW, whatever their respective "bangs".
 
@@ -184,7 +188,7 @@ Ethereum might want to take advantage of the supposed PoS security advantage, by
 
     Blockreward = C "coins released" * M "market price per coin".
 
-Ethereum can't magically alter the market price (and if they could, they would want to send it downward in this case, which I imagine would be a very very unpopular decision!), so their only option is to try to decrease factor C, the absolute gross quantity coins released per block (ie, the number of Ethers per block).
+Ethereum can't magically alter the market price (and if they could, they would hardly want to send it downward (!), as would be required in this case), so their only option is to try to decrease factor C, the quantity of Ethers released per block.
 
 
 ### The Problem with That Strategy
@@ -297,8 +301,8 @@ However, this is difficult, as short-duration investments (eg, 4 week treasury b
 
 ## Conclusion 
 
-I go through the PoS FAQ and reply, line by line.
+I go through the [PoS FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ) (where my arguments are mentioned) and reply, line by line.
 
 I still do not believe that PoS represents a significant improvement over PoW. A world of PoS is still one of greater scarcity of capital, and a world of PoW is still one of greater scarcity of silicon/electricity. The dollar value (or gold value) of each of the two types of waste will tend to be exactly equal.
 
-The two are still very very similar. But PoW we already have, and it has been working for years. PoS is new, untested, complex, and often tends to be associated with dishonesty. PoS also -very suspiciously- requires a team of highly skilled researchers to constantly be looking in on it. I continue to believe that PoS research is itself a 'waste' of money and time. 
+PoS is theoretically very similar to PoW. But in practice, we have more experience with PoW. A practical person would re-use what already works. However, PoS *very suspiciously* requires a team of highly skilled researchers to constantly be looking in on it. I continue to believe that this PoS research is itself a 'waste' of money and time, as it can't really accomplish anything (and, in practice, doesn't).
