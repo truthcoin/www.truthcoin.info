@@ -5,7 +5,7 @@ show_author: true
 ---
 
 
-> Proof of Stake is still just as expensive as Proof of Work. Ethereum's response simply ignores many sections of my earlier article. PoS has different (possibly better, possibly worse) security features to PoW, again as I acknowledge in 2015.
+> Proof of Stake is still just as expensive as Proof of Work. PoS has different (possibly better, possibly worse) security features to PoW.
 
 ### Proof of Stake is Back
 
@@ -43,7 +43,7 @@ Certainly, "equally efficient" is a vague claim. Fortunately it is clarified exp
 > It's not enough to simply say that marginal cost approaches marginal revenue; one must also posit a plausible mechanism by which someone can actually expend that cost. For example, if tomorrow I announce that every day from then on I will give $100 to a randomly selected one of a given list of ten people (using my laptop's /dev/urandom as randomness), then there is simply no way for anyone to send $99 to try to get at that randomness. Either they are not in the list of ten, in which case they have no chance no matter what they do, or they are in the list of ten, in which case they don't have any reasonable way to manipulate my randomness so they're stuck with getting the expected-value $10 per day.
 -->
 
-![image2](/images/pos-faq/q1p1.png.png)
+![image2](/images/pos-faq/q1p1.png)
 
 
 
@@ -68,7 +68,7 @@ What about capital lockup costs?
 ![image3](/images/pos-faq/q1p2.png)
 
 
-Here, Vitalik gives an example where there is a block reward that can be "worked" in two ways. The second ("forcing a reset") is irrelevant, but this is the one which he carefully elaborates. But the first "capital lockup costs" is relevant, and it is de-emphasized.
+Here, Vitalik gives an example where a blockreward can be "worked" in two ways. The second ("forcing a reset") is irrelevant, but this is the one which he carefully elaborates. But the first "capital lockup costs" is relevant, and it is de-emphasized.
 
 My simple equation does not require that the "workers" attack the system. If the total reward is $1000, then the total waste will be $1000, and it will *all* take the form of capital lockup costs. This would still be true (ie, I would still be right), if it were *impossible* to reset the randomness.
 
@@ -80,12 +80,14 @@ There are other problems, but they distract from the overall message of MC=MR. I
 
 This example assumes that work = attack. But this is not necessarily the case; if attacks = 0 then work will just equal work.
 
-
+<!--
 > lower total rewards
+-->
+
 
 ![image4](/images/pos-faq/q1p3.png)
 
-We'll get back to this later.
+We'll get back to this "security" claim later.
 
 <!--
 
@@ -102,12 +104,12 @@ In PoW, you do the following: borrow $W1 money at rate r, buy a bunch of equipme
 
 (note: R = (1+r), the loan factor)
 
-In PoS, you do the following: you borrow $S1 money at rate r, "stake it" (ie lock it away for a year, or a day or whatever), earn ETH, get the staked funds back, and repay the loan, which is $S1. But because interest rates were not zero, you still come up short. You invested a total of $B = (S1*R)-S1 , but earned $B worth of ETH.
+In PoS, you do the following: you borrow $S1 money at rate r, "stake it" (ie lock it away for a year, or a day or whatever), earn ETH, get the staked funds back, and repay the loan, which is $S1. But because interest rates were not zero, you still come up short. You invested a total of $B = (S1\*R)-S1 , but earned $B worth of ETH.
 
-In PoW, you paid cost_w = (W1*R)-W2 .
-In PoS, you paid cost_s = S1*r .
-In PoW you received benefit_w = $A worth of BTC.
-In PoS you received benefit_s = $B worth of ETH.
+    In PoW, you paid cost_w = (W1*R)-W2 .
+    In PoS, you paid cost_s = S1*r .
+    In PoW you received benefit_w = $A worth of BTC.
+    In PoS you received benefit_s = $B worth of ETH.
 
 This is all quite basic, and possibly undisputed.
 
@@ -150,15 +152,21 @@ In my 2015 article, I emphasize that PoS is allowed to have different (probably 
 
 ![image7](/images/pos-faq/a1.png)
 
-I highly doubt that PoS is more secure. Perhaps it is, but I still wonder what would happen in my original scenario: attacker purchases "used" private keys, executes a large long-range NaS attack (making a trillion fake histories, that all look very very similar to each other) [cost: ~free], and the attacker then threatens to imprison/kill anyone who tries to point out which history is real [cost: mafia connections, law enforcement, or a couple million $$]).I think it is hard for Vitalik to both [a] constantly tell us which PoS chain we should be on, and [b] constantly evade capture by the mob / world governments / private investigators.
+I highly doubt that PoS is more secure. Perhaps it is, but I still wonder what would happen in my original scenario: 
 
-And last I heard, there were all kinds of scalability / uptime problems with PoS, which again I am going to just ignore. (And these are just the theoretical problems -- remember how much we have learned about PoW's little quirks [block withholding, selfish mining, relay/broadcast strategy, ASICBoost, etc] in just a few years of using it in practice).
+1. Attacker ...purchases "used" private keys
+2. ...executes a large long-range NaS attack (making a trillion fake histories, that all look very very similar to each other) [cost: ~free],
+3. ...threatens to imprison/kill anyone who tries to point out which history is real [cost: mafia connections, law enforcement, or a couple million $$]).
+
+I think it is hard for Vitalik to both [a] constantly tell us which PoS chain we should be on, and [b] constantly evade capture by the mob / world governments / private investigators.
+
+And, last I heard, there were all kinds of scalability / uptime problems with PoS, which again I am going to just ignore. (And these are just the theoretical problems -- remember how much we have learned about PoW's little quirks [block withholding, selfish mining, relay/broadcast strategy, ASICBoost, etc] in just a few years of using it in practice).
 
 For now lets just say that PoS does indeed get more bang for its buck -- this is *irrelevant* to my argument about waste. Even if PoS is more secure than PoW, it is still just as wasteful as PoW. The "buck" of PoS is the same as the "buck" of PoW, whatever their respective "bangs".
 
 What Vitalik is trying to say (I assume) is that, **since the security is lower**, we can then, safely, decrease the critical X.
 
-However, this notion, **that one can control the critical X** is a fallacy that I purposefully delayed handling...
+However, this notion, **that one can control the critical X** is a fallacy that I (in 2015) purposefully delayed handling...
 
 ![image8](/images/pos-faq/a1-agenda.png)
 
@@ -172,7 +180,11 @@ Since Vitalik already ignored it once, I'm not sure what good it will do to repe
 
 ### How PoS Might Cash In on the Additional PoS Security
 
-Ethereum might want to take advantage of the supposed PoS security advantage, by decreasing its Critical X, and thereby being less "wasteful" than Bitcoin. But how might it do this? It must decrease the value of its blockreward! Blockreward = C "coins released" * M "market price per coin". Ethereum can't magically alter the market price (and if they could, they would want to send it downward in this case, which I imagine would be a very very unpopular decision!), so their only option is to try to decrease factor C, the absolute gross quantity coins released per block (ie, the number of Ethers per block).
+Ethereum might want to take advantage of the supposed PoS security advantage, by decreasing its Critical X, and thereby being less "wasteful" than Bitcoin. But how might it do this? It must decrease the value of its blockreward!
+
+    Blockreward = C "coins released" * M "market price per coin".
+
+Ethereum can't magically alter the market price (and if they could, they would want to send it downward in this case, which I imagine would be a very very unpopular decision!), so their only option is to try to decrease factor C, the absolute gross quantity coins released per block (ie, the number of Ethers per block).
 
 
 ### The Problem with That Strategy
@@ -231,9 +243,9 @@ Vitalik continues, so I suppose I will as well:
 
 ![image9](/images/pos-faq/q3.png)
 
-In the above paragraph, Vitalik draws a marginal/total distinction, but it is of the wrong thing.
+In the above paragraph, Vitalik draws a marginal/total distinction...but it is (seemingly) on the wrong variable.
 
-I am saying that, **to generate a block**, users will pour forth effort ($PPP) totaling that of the block's sale value (in $PPP). If MC is below MR, more people will take advantage of this opportunity to earn free money. If MC is above MR, some people will stop deleting their own money. In equilibrium the MC=MR as taught to all ECON 101 students, sometime in their first four weeks.
+I am saying that, **to generate a block**, users will pour forth effort ($PPP) totaling that of the block's sale value (in $PPP). If MC is below MR, more people will take advantage of this opportunity to earn free money. If MC is above MR, some people will cease this activity (as it is deleting their money). In equilibrium the MC=MR, as taught to all ECON 101 students.
 
 Vitalik is saying that, **in pouring forth the effort**, users will care relatively less and less about each dollar locked up. Locking up the first 1% of their net worth (ie just 1%) will not "hurt" as much as locking up the last 1% (ie, all 100% of it).
 
@@ -250,7 +262,7 @@ In fact, when he says:
 ![image9](/images/pos-faq/q3-b.png)
 
 
-If this were true, what it would actually mean is that *a higher quantity* of Ether would be locked up. So it would be *more* wasteful than it should be!
+If this were true, what it would actually mean is that *a higher quantity* of Ether would be locked up. So it would be *more* wasteful!
 
 For example, imagine that annual Ethereum tx fees + block subsidy, for the whole year, total only $10,000,000. But also imagine that many Eth-users do not care to use their parked Ether *at all* in the next year. **All** of the indifferent Ether would be staked -- call it 2 billion USD, at today's prices. A 2 billion dollar investment can [guarantee](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield) one at least 24 million dollars or so, but the PoS project is only bringing in 10 million. An additional 14 million has been wasted.
 
@@ -265,18 +277,28 @@ For example, imagine that annual Ethereum tx fees + block subsidy, for the whole
 
 ![image9](/images/pos-faq/q3-c.png)
 
-I object to the concept of "keeping issuance low" (which is the Coinbase-Rot paradox). And I disagree that there will be economic surplus. I think Vitalik is overestimating the size of these "gains" -- they would be tiny breadcrumbs spread over a vast population of stakers. And staking *would* be annoying, and so there would likely be very low surplus.
+As stated above, I object to the possibility of "keeping issuance low" (which is the Coinbase-Rot paradox). And I disagree that there will be economic surplus. I think Vitalik is overestimating the size of these "gains" -- they would be tiny breadcrumbs spread over a vast population of stakers. And staking *would* be annoying, and so per capital (or per staked $) there would likely be very low surplus.
 
-As I pointed out in the original article, claiming that "it is very easy to stake" is analogous to claiming that "it is very easy to hash". But greater efficiency of mining equipment just translates to *more* total hashing. To see this, imagine two worlds in which the block reward is worth $100: inefficient and efficient. In the inefficient world, hashes cost $1/hash, but in the efficient world they cost $0.00001/hash. In both worlds, miners will spend $100 total -- in the first, on 100 hashes; in the second, on 1,000,000 hashes.
+As I pointed out in the original article, claiming that "it is very easy to stake" is analogous to claiming that "it is very easy to hash". But **greater efficiency of mining equipment merely results in correspondingly greater hashing**. To see this, imagine two worlds in which the block reward is worth $100: inefficient and efficient. In the inefficient world, hashes cost $1/hash, but in the efficient world they cost $0.00001/hash. In both worlds, miners will spend $100 total -- in the first, on 100 hashes; in the second, on 1,000,000 hashes.
 
-## Conclusion
+## Summary
 
-I go through the PoS FAQ and reply, line by line.
-
-The three major differences, as I see them:
+We have three major differences, as I see them:
 
 1. Vitalik believes that "prestaked" funds do not count as "locked up", even though funds cannot be used for two purposes at once.
 2. Vitalik does not endorse the Coinbase-Rot paradox, for unknown reasons.
 3. Vitalik continues to believe that staking is not a big deal because it is easy and convenient to do. I agree, but Vitalik does not reply to my argument that --if staking is indeed very easy and convenient-- it will result in tremendously high rates of staking, resulting in great waste (and tiny rewards per staker).
 
-I suppose his strongest line, would be to take the first objection and try to argue that [a] there is no investment which is comparable to pre-staking, because pre-staking is ultra-short duration -- therefore, society does not have to forgo anything as it watches [b] other similar investments (for example, 4 week treasury bond or leaving money in a savings account for 1 month) are not significantly crowded out, nor does [c] the convenience of holding cryptocash on demand become *too great*, thus crowding out all investments and purchases.
+We agree that PoS and PoW can have different security levels and different security models. Vitalik thinks he can trade off some of this security, in return for reducing waste, but he has not explained how he plans to do this to my satisfaction (ie, the C-R paradox). It is also unclear to me if this is even desirable (perhaps security is generally more important than 'waste').
+
+I suppose that Vitalik's strongest pro-PoS argument, would be to take the first objection and try to argue that 'there is no investment which is comparable to pre-staking', therefore, society does not have to forgo anything as it watches users compete with each other over where/how to temporarily lock their checking accounts. Vitalik could try to argue that he had created something new and valuable (the ultra-short duration investment) at exactly the same time that he had "wasted" it. This is similar to [Bram Cohen's PoSPaT](https://www.youtube.com/watch?v=aYG0NxoG7yw&list=PLxiUDysqkJ9x6VsYjjphSA79pEHiMwdI_&index=16) which would make unused hard drive space valuable and then immediately consume ("waste") this value.
+
+However, this is difficult, as short-duration investments (eg, 4 week treasury bond, savings account for 1 month, commercial paper) already exist. And even if they did not exist today, ultra-short duration investments *could* be invented. Similarly, Bram's examples would "re-become" wasteful if something like [Sia](sia.tech) or (old-style) Wuala ever got off the ground.
+
+## Conclusion 
+
+I go through the PoS FAQ and reply, line by line.
+
+I still do not believe that PoS represents a significant improvement over PoW. A world of PoS is still one of greater scarcity of capital, and a world of PoW is still one of greater scarcity of silicon/electricity. The dollar value (or gold value) of each of the two types of waste will tend to be exactly equal.
+
+The two are still very very similar. But PoW we already have, and it has been working for years. PoS is new, untested, complex, and often tends to be associated with dishonesty. PoS also -very suspiciously- requires a team of highly skilled researchers to constantly be looking in on it. I continue to believe that PoS research is itself a 'waste' of money and time. 
