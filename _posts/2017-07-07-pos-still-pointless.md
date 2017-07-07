@@ -21,8 +21,10 @@ Here we go!!
 
 
 
-## Desperate for a Work-Independent Protocol
 
+## The Claim
+
+<br>
 
 <!--
 > Doesn't MC => MR mean that all consensus algorithms with a given security level are equally efficient (or in other words, equally wasteful)?
@@ -37,6 +39,8 @@ Yep.
 
 Vitalik's phrase "equally efficient" is vague, but fortunately he clarifies it to mean "equally wasteful". So, we're back in business.
 
+
+## Vitalik Seeks a Work-Independent Protocol
 
 <!--
 > There are three flaws with this:
