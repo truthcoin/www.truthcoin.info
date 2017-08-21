@@ -8,7 +8,7 @@ title: Random Files
 
 * 01.12.2015 - ["Blockchain for Dummies" Authoritative Book on Blockchains](http://www.truthcoin.info/images/blockchainz.pdf)
 * 10.09.2016 - [Bitcoin-NG Review](http://www.truthcoin.info/images/bitcoin-ng.txt)
-* 29.01.2017 - [Efficient Hasher Hypothesis](http://www.truthcoin.info/images/efficient-hasher-hypothesis.txt)
+* 29.01.2017 - [Efficient Hasher Hypothesis](http://www.truthcoin.info/images/efficient-hasher-hypothesis/)
 
 
 ### Excel
