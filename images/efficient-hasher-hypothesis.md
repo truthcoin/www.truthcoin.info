@@ -1,7 +1,8 @@
 ---
+layout: default
 title: The Efficient Hasher Hypothesis
 comments: false
-show_author: true
+show_author: false
 ---
 
     The Efficient Hasher Hypothesis
