@@ -12,7 +12,7 @@ show_author: false
 
 As stated, most of the stories we tell are actually lessons in applied game theory.
 
-I've picked an example from "Game of Thrones", a popular show, which is [a] short and [b] features all of the principles discussed [above](http://www.truthcoin.info/blog/game-theory-intro/).
+I've picked an example from "Game of Thrones", a popular show, which is [a] short and [b] features all of the principles discussed [above](http://www.truthcoin.info/).
 
 Spoiler Alert! It is from Season 6, Episode 2, and it is ~three minutes long: https://www.youtube.com/embed/sM7_TfgywYk?&rel=0&autoplay=1&end=190
 
@@ -83,7 +83,6 @@ After the reinforcements arrive, things get even more interesting.
 
 
 
-
 Most people can process all of that, even if they aren't aware of each nuance involved, or feel unable to articulate exactly what is motivating their actions.
 
 
@@ -91,6 +90,8 @@ Most people can process all of that, even if they aren't aware of each nuance in
 
 If you're caught up on the show, and don't mind other spoilers, here are some of my other thoughts:
 
+
+* The guy that killed The Lord Commander, earlier in this very episode, attempted to use "attribution" when he says "he [the Lord Commmander] thrust a terrible choice upon us...and we made it".
 * "Five or one" -- persuadability https://www.youtube.com/watch?v=Jcy37C5SN0M  --- squabbling  perils "everybody wants something different"
 * Ned Stark's reputation as an "honorable" man led to his defeat at the hand of Cersei. But it also saved his life (until Joffery betrayed his mother unexpectedly). In general, the "honorable" knights are disadvantaged in that they must do as they are told. But they are also advantaged in that there is little to be gained by killing or harassing them (the Hound [pre-Blackwater Bay] is a good example of this).
 * Lysa Arryn cleverly employs a turnkey that is psychologically resistant to persuasion (specifically, bribes), by vitrue of being --or pretending to be-- too stupid to be capable of understanding bribe-offers.
@@ -99,7 +100,6 @@ If you're caught up on the show, and don't mind other spoilers, here are some of
 * Peter Baelish works very hard to prevent anything from being attributed to him. He has other people do his dirty work, and plants his own ideas into other people's heads. When he threatens people, he speaks indirectly, so that his threats cannot be quoted to third parties. In this way he fills his adversaries with doubt, and prevents them from coordinating against him.
 * Sometimes, people need some extra credibilty, they "swear it", "on all the Gods". This technique helps an individual constrain themselves into being unable to tell a lie. This is often helpful (it helps Petyr Baelish trick Lysa Arryn). Lady Bolton fails to trick Ramsay Bolton.
 * LittleFinger's attempt to intimidate/manipulate Brandon, in Season 7, fails because the interdependence criterion no longer applies (Bran is not affected by LF, because he is [a] relatively omniscient and [b] has armed guards).
-* AFter Dany conquers Mereen, she has her army basically work as police officers. While the Unsullied are effective warriors, they have no investigative experience and fail to track down criminals.
+* After Dany conquers Mereen, she has her army basically work as police officers. While the Unsullied are effective warriors, they have no investigative experience and fail to track down criminals.
 
-* The guy that killed The Lord Commander, earlier in this very episode, attempted to use "attribution" when he says "he [the Lord Commmander] thrust a terrible choice upon us...and we made it".
 
