@@ -14,6 +14,8 @@ As stated, most of the stories we tell are actually lessons in applied game theo
 
 I've picked an example from "Game of Thrones", a popular show, which is [a] short and [b] features all of the principles discussed [above](http://www.truthcoin.info/).
 
+Note: fix backlink
+
 Spoiler Alert! It is from Season 6, Episode 2, and it is ~three minutes long: https://www.youtube.com/embed/sM7_TfgywYk?&rel=0&autoplay=1&end=190
 
 
