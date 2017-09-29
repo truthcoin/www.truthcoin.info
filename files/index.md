@@ -10,7 +10,7 @@ title: Random Files
 * 07.12.2015 - [Soft Forks and Bugs - A Dialogue with Mike Hearn](http://www.truthcoin.info/images/bugs-soft-forks.md)
 * 10.09.2016 - [Bitcoin-NG Review](http://www.truthcoin.info/images/bitcoin-ng.txt)
 * 29.01.2017 - [Efficient Hasher Hypothesis](http://www.truthcoin.info/images/efficient-hasher-hypothesis/)
-* 09.24.2017 - [Game Theory of Thrones](http://www.truthcoin.info/images/game-theory-of-thrones.pdf)
+* 09.24.2017 - [Game Theory of Thrones](http://www.truthcoin.info/images/game-theory-of-thrones.md)
 * 09.24.2017 - [Marching](http://www.truthcoin.info/images/marching.md)
 * 09.24.2017 - [Modern Finance](http://www.truthcoin.info/images/modern-finance.txt)
 * 09.24.2017 - [True Money is Purchasing Power](http://www.truthcoin.info/images/true-money.md)
