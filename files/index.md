@@ -33,5 +33,5 @@ title: Random Files
 * [hash-explain.txt](http://www.truthcoin.info/images/hash-explain.txt)
 * [information.txt](http://www.truthcoin.info/images/information.txt)
 * [max-value-throughput.txt](http://www.truthcoin.info/images/max-value-throughput.txt)
-* [p2p-misconception.txt](/images/p2p-misconception.txt)
-* [powersaw.txt](/images/powersaw.txt)
+* [p2p-misconception.txt](http://www.truthcoin.info/images/p2p-misconception.txt)
+* [powersaw.txt](http://www.truthcoin.info/images/powersaw.txt)
