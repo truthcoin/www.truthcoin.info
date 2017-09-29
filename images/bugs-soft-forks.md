@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Soft Forks and Bugs
