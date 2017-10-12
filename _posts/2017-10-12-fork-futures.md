@@ -6,7 +6,7 @@ date: 2017-10-12 05:00:00
 ---
 
 
-> How exchanges can help us, and also profit! While very simple (1 equation!), this includes conditional trades (auto-refunding) and conditional prices ("1x would be worth XYZ if we called off the NYA").
+> How exchanges can provide great fork futures. While very simple (1 equation!), this includes conditional trades (auto-refunding) and conditional prices ("bitcoin would be worth XYZ, if we called off the NYA").
 
 Skip the pitch and go right to [the proposal itself](/blog/fork-futures#exchange-fork-futures).
 
