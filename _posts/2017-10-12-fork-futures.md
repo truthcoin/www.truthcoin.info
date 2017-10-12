@@ -6,7 +6,7 @@ date: 2017-10-12 05:00:00
 ---
 
 
-> An appeal to exchanges to implement Fork Futures. By putting in a little effort, they can earn revenues, attract new customers, and help the community resolve an important problem. Very specific guidelines are given!
+> How exchanges can help us, and also profit! While very simple (1 equation!), this includes conditional trades (auto-refunding) and conditional prices ("1x would be worth XYZ if we called off the NYA").
 
 Skip the pitch and go right to [the proposal itself](/blog/fork-futures#exchange-fork-futures).
 
@@ -223,7 +223,6 @@ I would say that the (fork_event_has_happened = YES), if all of the following cr
 2. The 2x chain is 'healthy', ie mining enough blocks for transactions to reliably confirm. Specifically, we may say that, between Dec 11 and Dec 22, the 2x chain must advance by at least 600 blocks. And, they must be "legitimate blocks" -- it must be possible (in principle) for the exchange in question to actually make transactions in most [>60%] of these 600 blocks. (This is easy to check, as the exchange probably *will* be making such transactions, possibly in every one of the 600 blocks.)
  
  One very interesting third criterion would be:
- 
 3. If, a unique [see first edge-case below] rival 1x Network exists, it must find *fewer than 600 1x blocks* between Dec 11 and Dec 22. This provision would mean that SegWit2x would not "exist" unless the old Core Chain was dead. (In this case, Token #3 would share the "always worthless" fate of Token #8). This adds a very strong dose of symmetry, and may be a better referendum on "whether the NYA actually went through".
 
 ![image](/images/tug-of-war.png)
@@ -238,9 +237,7 @@ For these rules, let us try to clarify some strange edge-cases:
 1. If "1x" [ie "Bitcoin Core"] *soft forks* to bump the non-witness capacity to 2MB or more (for example, by using an opt-in extension block or drivechain), and if this network [the "Core-after-it-is-softforked-to-2MB" network] has the highest marketcap of all Bitcoin marketcaps, then the Core network would be *both* the 1x network and the 2x network.
 
  This has a number of interesting consequences, depending on the inclusion and wording of criterion #3 (above). As currently written, if such a soft fork is expected to happen with 100% probability, then the "fork event" would count as having taken place. Tokens 2,4,6,8 would be worth zero, and the (1,3) pair will be trading for the same values as the (5,7) pair.
-
  Part of what makes this bizarre is that miners could unilaterally deploy a 2MB extension block at any time. Although that is a bizarre feature of the scaling debate in general, and is not specific to futures markets. For some reason, the pro-forkers are *insisting* on a hard fork. Those who wager that a larger blocksize will yield a higher price, will still earn money under the scheme defined here.
- 
 2. If Bitcoin Core "evil forks" to 2 MB, via hard fork, then Core would become the 2x network. It might, theoretically, be the 1x network as well, but (as we will see below) the 1x network will have a price of zero in this case, because it will not have tokens post-fork, and we will not be able to find it's representative price.
 
  Again, this is rather bizarre, because miners completely control the evil fork. Personally, if you ask me, it is just yet-another-wonderful-thing-about-prediction-markets that they expose all of these contradictions for what they are.
