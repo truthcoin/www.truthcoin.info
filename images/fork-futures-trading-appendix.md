@@ -51,7 +51,7 @@ If we want to conduct trading, we'll need to talk quantities and prices.
 
 First, the quantities. Recall that there are two markets, and four token-types:
 
-   Market 1 : "Futures of 1x"          Market 2 : "Futures of 2x"
+    Market 1 : "Futures of 1x"         Market 2 : "Futures of 2x"
          Short   Long                     Short     Long
           q1      q3                       q5        q7
           q2      q4                       q6        q8
@@ -87,10 +87,9 @@ As promised, here is f(). For all "b" (a parameter we will explain shortly), and
 
 	function d:
 
-	    function z;
-	    float SUM;
-	
-	    z(x) = e^(x/b)
+	    define z(x):
+            z(x) = e^(x/b)
+
 	    SUM = z(d1) + z(d2) + z(d3) + z(d4)
     
 	    p1 = z(d1) / SUM
@@ -175,4 +174,4 @@ In particular, the miners have a very, very, strong interest in figuring out exa
 
 Hopfully my description of all the novel features (above) has enticed you into considering this possibility.
 
-There are [even cooler possibilities](https://www.cs.cmu.edu/~sandholm/liquidity-sensitive%20automated%20market%20maker.teac.pdf) as well. Message me!
+There are [even cooler possibilities](https://www.cs.cmu.edu/~sandholm/liquidity-sensitive%20automated%20market%20maker.teac.pdf) as well. [Message me](https://twitter.com/truthcoin)!

@@ -2,11 +2,13 @@
 title: Fork Futures (via the Exchanges)
 show_author: true
 comments: true
-date: 2017-10-12
+date: 2017-10-12 05:00:00
 ---
 
 
 > An appeal to exchanges to implement Fork Futures. By putting in a little effort, they can earn revenues, attract new customers, and help the community resolve an important problem. Very specific guidelines are given!
+
+Skip the pitch and go right to [the proposal itself](/blog/fork-futures#exchange-fork-futures).
 
 ## Why Fork Futures
 
@@ -26,17 +28,24 @@ What *is* disputed is: <b>do the users actually *like* this hard fork, or not?</
 
 Today, we have bad tools for unraveling this mystery. They include: "social media", "what Greg Maxwell / Roger Ver assumes is good for everyone", and "opt-in coin voting".
 
-Of these, only "coin voting" makes an effort to be truly representative -- but it suffers from the typical voting-problems (no "skin in the game", rational ignorance / inconvenience / "no upside", etc). And there are questions that even coin-voting can't answer. How *strongly* do coin-owners hold these views (ie, a voter's confidence/pasion may be quite different, but their votes are counted the same)? What do *prospective* (but not current) owners of Bitcoin believe? And Condorcet's Paradox / Arrow's result indiciates that voting can only work for, at most, one question at a time. That's too slow.
+Of these, only "coin voting" makes an effort to be truly representative -- but it suffers from the typical voting-problems (no "skin in the game", rational ignorance / inconvenience / "no upside", etc).
 
-The question of "is this/any hard fork good?" is one that is made of innumerable sub-questions. For example: what is it about the hard fork that users (dis)like? the timing? the content? the precedent? 
+And there are questions that even coin-voting can't answer. How *strongly* do coin-owners hold their views? What do *prospective* (but not current) owners of Bitcoin believe?
 
-Is there an even better hard fork right around the corner? Or a better *sidechain* maybe? Or will that take too long / be problematic?
+And Condorcet's Paradox / Arrow's result indicates that voting can only work for, at most, one question at a time. That's too slow.
 
-Will developers leave Bitcoin, if SegWit2x goes through? Does it matter if they do? Are there better devs around the corner, [just waiting for the existing leadership to die off](http://www.nber.org/papers/w21788)?. Or are the current devs the only 'unmoved movers' -- the only irreplaceable piece of the machine?
+![image](/images/arguing-senate.jpg)
 
-How will miners react to the fork? If there is *unconditional* support from 95% hashrate, then the minority chain would take *over a year* ( 1/.05 * 2 weeks = 40, + .25/.05 * 2 = 10, + 0.0625/.05 * 2 = 2.5 ; 52.5+ weeks ) to function normally again. But why would support be unconditional? Miners will earn more, if they mine the blockchain which is producing the most profitable coinbase transaction. But *which* blockchain will this be? And how *large* is the expected difference in profitability?
 
-If coin-owners, devs, and miners disagree about something, how do we decide who's vote is more important, and *by how much* is it more important, and in what context?
+The question of "is this/any hard fork good?" is one that is made of innumerable sub-questions.
+
+Here are a few of them:
+
+* What is it about the hard fork that users (dis)like? the timing? the content? the precedent? 
+* Is there an even better hard fork right around the corner? Or a better *sidechain* maybe? Or will that take too long / be problematic?
+* Will developers leave Bitcoin, if SegWit2x goes through? Does it matter if they do? Are there better devs around the corner, [just waiting for the existing leadership to die off](http://www.nber.org/papers/w21788)?. Or are the current devs the only 'unmoved movers' -- the only irreplaceable piece of the machine?
+* How will miners react to the fork? If there is *unconditional* support from 95% hashrate, then the minority chain would take *over a year* ( 1/.05 * 2 weeks = 40, + .25/.05 * 2 = 10, + 0.0625/.05 * 2 = 2.5 ; 52.5+ weeks ) to function normally again. But why would support be unconditional? Miners will earn more, if they mine the blockchain which is producing the most profitable coinbase transaction. But *which* blockchain will this be? And how *large* is the expected difference in profitability?
+* If coin-owners, devs, and miners disagree about something, how do we decide who's vote is more important, and *by how much* is it more important, and in what context?
 
 ### The Spinoff Option
 
@@ -99,7 +108,7 @@ Anyway, today's method (the exchange method) requires less "buy-in" from "the co
 
 ## Exchange Fork Futures
 
-> Dear exchanges, please do this!
+> An appeal to exchanges. The system below might seem a little strange, but it is very easy to implement, and it should make everyone happy.
 
 ### Background
 
@@ -127,10 +136,10 @@ We can make everyone happy by acknowledging the true nature of the problem: not 
 
 BitFinex created two tokens BT1 and BT2. But I would instead create *eight* new tokens, arranged into *two* markets, in order to fully partition the space of possible outcomes.
 
-                                                  "1x Market"        "2x Market"
-                                                Short  |  Long     Short  |  Long
-     Upper Row -- 2x Fork Appears                  1       3         5        7
-     Lower Row -- 2x Fork Does Not Appear          2       4         6        8
+                                                "1x Market"        "2x Market"
+                                              Short  |  Long     Short  |  Long
+     Upper Row -- 2x Fork Appears                1       3         5        7
+     Lower Row -- 2x Fork Does Not Appear        2       4         6        8
 
 These tokens are *not* trade-able blockchain tokens, nor will they ever be. Instead, they are ledger entries in the exchange's database -- much more like USD deposits. When the futures mature, all of these tokens will be swapped for their cash value and then destroyed. It is better for them to settle directly in cash, because they can allow users to speculate on scenarios/outcomes that may never actually happen.
 
@@ -208,13 +217,11 @@ The cool thing is that each user has the opportunity to buy some of each set, su
 
 ##### My Criteria
 
-I would say that the fork_event_has_happened = YES, if all of the following criteria are met:
+I would say that the (fork_event_has_happened = YES), if all of the following criteria are met:
 
 1. We are able to find a valid 2x chain anywhere (see above process), on or before January 1, 2018.
 2. The 2x chain is 'healthy', ie mining enough blocks for transactions to reliably confirm. Specifically, we may say that, between Dec 11 and Dec 22, the 2x chain must advance by at least 600 blocks. And, they must be "legitimate blocks" -- it must be possible (in principle) for the exchange in question to actually make transactions in most [>60%] of these 600 blocks. (This is easy to check, as the exchange probably *will* be making such transactions, possibly in every one of the 600 blocks.)
- 
  One very interesting third criterion would be:
-
 3. If, a unique [see first edge-case below] rival 1x Network exists, it must find *fewer than 600 1x blocks* between Dec 11 and Dec 22. This provision would mean that SegWit2x would not "exist" unless the old Core Chain was dead. (In this case, Token #3 would share the "always worthless" fate of Token #8). This adds a very strong dose of symmetry, and may be a better referendum on "whether the NYA actually went through".
 
 ![image](/images/tug-of-war.png)
@@ -227,13 +234,9 @@ I would say that the fork_event_has_happened = YES, if all of the following crit
 For these rules, let us try to clarify some strange edge-cases:
 
 1. If "1x" [ie "Bitcoin Core"] *soft forks* to bump the non-witness capacity to 2MB or more (for example, by using an opt-in extension block or drivechain), and if this network [the "Core-after-it-is-softforked-to-2MB" network] has the highest marketcap of all Bitcoin marketcaps, then the Core network would be *both* the 1x network and the 2x network.
- 
  This has a number of interesting consequences, depending on the inclusion and wording of criterion #3 (above). As currently written, if such a soft fork is expected to happen with 100% probability, then the "fork event" would count as having taken place. Tokens 2,4,6,8 would be worth zero, and the (1,3) pair will be trading for the same values as the (5,7) pair.
-
  Part of what makes this bizarre is that miners could unilaterally deploy a 2MB extension block at any time. Although that is a bizarre feature of the scaling debate in general, and is not specific to futures markets. For some reason, the pro-forkers are *insisting* on a hard fork. Those who wager that a larger blocksize will yield a higher price, will still earn money under the scheme defined here.
-
 2. If Bitcoin Core "evil forks" to 2 MB, via hard fork, then Core would become the 2x network. It might, theoretically, be the 1x network as well, but (as we will see below) the 1x network will have a price of zero in this case, because it will not have tokens post-fork, and we will not be able to find it's representative price.
-
  Again, this is rather bizarre, because miners completely control the evil fork. Personally, if you ask me, it is just yet-another-wonderful-thing-about-prediction-markets that they expose all of these contradictions for what they are.
 
 Anyway, now that the dimensions of this setup have been defined (they were: "going long vs. short", "1x Network vs. 2x", "fork event vs. no fork event"), we can talk about the tokens inside of the market.
@@ -272,10 +275,10 @@ The Dec 11 through 22 dates are arbitrary, but they should be a healthy amount o
 
 As previously mentioned, exchanges will be creating eight token-types. Uses will buy these with USD (or with BTC that is automatically insta-converted to USD at time of purchase), and each token will trade at prices that range between $0.00 and $1.00. On December 31st, trading will end, and then in January the final prices for each token will be calculated, and users will automatically be cashed out.
 
-                                                  "1x Market"   |    "2x Market"
-                                                Short  |  Long  |  Short  |  Long
-     Upper Row -- 2x Fork Appears                  1       3    |    5        7
-     Lower Row -- 2x Fork Does Not Appear          2       4    |    6        8
+                                                "1x Market"   |    "2x Market"
+                                              Short  |  Long  |  Short  |  Long
+     Upper Row -- 2x Fork Appears                1       3    |    5        7
+     Lower Row -- 2x Fork Does Not Appear        2       4    |    6        8
 
 #### The Rows
 
@@ -283,9 +286,9 @@ We might restrict our attention to the "upper row" (see below), for the time bei
 
    In the case where the 2x Fork Event is said to occur...
 
-   Market 1 : "Futures of 1x"    |     Market 2 : "Futures of 2x"
-         Short   Long            |        Short     Long
-           1       3             |          5         7
+    Market 1 : "Futures of 1x"    |     Market 2 : "Futures of 2x"
+          Short   Long            |        Short     Long
+            1       3             |          5         7
 
 The "lower row" is exactly the same, except that it tackles the reverse scenario. These tokens are only valuable if the fork *does not* appear. If we go through with the NYA, then the four "lower row" tokens are worth zero. If instead we call the NYA off, then it is the upper row which is worth zero.
 
@@ -303,12 +306,12 @@ Ok, enough explaining! Below I give the calculations for the final value of each
 
 I assume that we have the representative price of the 1x and 2x networks, and therefore we have Price_C (see above) of 1x and 2x. I also assume that we know which row we are zeroing out. Therefore we only need to make four calculations. We input four zeros for the failed row, and input our calculations (below) for the successful row.
 
-                                                  "1x Market"   |    "2x Market"
-                                                Short  |  Long  |  Short  |  Long
-     Upper Row -- 2x Fork Appears                  1       3    |    5        7
-     Lower Row -- 2x Fork Does Not Appear          2       4    |    6        8
-                                                                |
-                                                SLOT A   SLOT B | SLOT C    SLOT D
+                                                "1x Market"   |    "2x Market"
+                                              Short  |  Long  |  Short  |  Long
+     Upper Row -- 2x Fork Appears                1       3    |    5        7
+     Lower Row -- 2x Fork Does Not Appear        2       4    |    6        8
+                                                              |
+                                              SLOT A   SLOT B | SLOT C    SLOT D
 
 The explanations are purposefully out of order:
 
@@ -346,7 +349,7 @@ What is going on here? Well, first let us do a little bit of addition, to get so
       _____________
       .79     .06  |  .85
       .15     .00  |  .15
-      -------------|
+      -------------
       .94     .06
 
 The two prices in the "long" column sum to .06, which implies that this market values the SegWit2x coin at (70,000 \* .06) = 4200 USD/BTC. The market also expects an 85% likelihood that the Fork Event (ie, the "NYA") will go through (because the two prices in the upper row sum to .85).
@@ -377,7 +380,7 @@ Now, we do our addition, as before:
       _____________
       .75     .10  |  .85
       .15     .00  |  .15
-      -------------|
+      -------------
       .90     .10
 
 Market participants still believe that the NYA has an 85% likelihood of success.
@@ -388,10 +391,10 @@ What's different is their appraisal of SegWit2x's value. This market expects Seg
 
 Finally, this last example will be 'full-size' and feature both of the two markets. And lets say that it is November 15th. Over the three days, things have changed for 2x dramatically!
 
-                                                  "1x Market"   |    "2x Market"
-                                                Short  |  Long  |  Short  |  Long
-     Upper Row -- 2x Fork Appears                .372     .028  |   .388     .012
-     Lower Row -- 2x Fork Does Not Appear        .552     .048  |   .60      .0
+                                                "1x Market"   |    "2x Market"
+                                              Short  |  Long  |  Short  |  Long
+     Upper Row -- 2x Fork Appears              .372     .028  |   .388     .012
+     Lower Row -- 2x Fork Does Not Appear      .552     .048  |   .60      .0
 
 This market has many things to show us!
 
@@ -459,7 +462,7 @@ Imagine that, at present, the market has attained the following prices:
 Again, here are the interpretations:
 
       SegWit2x likelihood: 85%
-      SegWit2x price (if we  fork): .06,  aka $4200       (recall that this is from:  .06 = .051/.85)
+      SegWit2x price (if we  fork): .06,  aka $4200       (.06 = .051/.85)
       SegWit2x price (if we don't): .00,  aka $   0
 
 Imagine that Mr. Janssens believes that $4200 is too low of a price.
@@ -543,6 +546,14 @@ If you want a futures market that can't steal your money, you can support my pro
 
 ## Conclusion
 
-I have presented a way that exchanges might offer us a "fork futures" service. It may present a user-experience problem, and it may appear to be a little complicated on the backend, but it is in fact [1] very easy to implement, and it should [2] satisfy the requirements of traders, [3] generate revenues for exchanges, [4] advise all of us on which fork proposals are serious, and [5] advise us on what the user wants. Absent the counterparty risk question (which cannot be solved with present technology), it seems to be something that would make everyone happy.
+I have presented a way that exchanges might offer us a "fork futures" service. It may present a user-experience problem, and it may appear to be a little complicated on the backend, but it has some great benefits:
+
+1. Very easy to implement.
+2. Generates revenues for exchanges.
+3. Allows many types of traders to buy/sell cool things.
+4. Warns us all on which fork proposals are serious, and which are not.
+5. Advises us on what the user wants.
+
+Absent the counterparty risk question (which cannot be solved with present technology), it seems to be something that would make everyone happy.
 
 Please stay tuned for my next blog post: "bad arguments for ignoring futures markets".
