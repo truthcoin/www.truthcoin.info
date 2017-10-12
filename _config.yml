@@ -2,6 +2,7 @@ baseurl: "" # The subpath of your site. Use "" if you're hosting a blog at the r
 blogurl: "/blog" # Blog subpath
 url: "http://www.truthcoin.info" # the base hostname & protocol for your site
 title: "Truthcoin: Making Cheap Talk Expensive"
+markdown: kramdown
 #title: "Truthcoin: Nullius in Verba"
 
 # This is used by feed.xml. Uncomment if you want to use it.
