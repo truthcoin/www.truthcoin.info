@@ -91,7 +91,7 @@ So today I'm presenting the New "60% Cypherpunk" version -- the exchange version
 
 * Requires users to use an exchange (therefore: fewer eligible traders, and a large loss of privacy). The old way was pure BTC, pure software.
 * Requires users to trust that the exchange will pay as promised (and won't get hacked, etc).
-* Introduces the possibility of several identical markets, which is bad because liqudity will be diffused among them for no reason. (Although, this may incentivize some exchange to be the "first" to take the risk/reward of offering this kind of trading).
+* Introduces the possibility of several identical markets, which is bad because liquidity will be diffused among them for no reason. (Although, this may incentivize some exchange to be the "first" to take the risk/reward of offering this kind of trading).
 * Is possibly illegal / in violation of CFTC rules. (Good luck figuring that out!)
 
 But it actually is much better, because it:
@@ -453,6 +453,8 @@ Ok, now for the big payoff, in the next (and last) section.
 
 
 ## The Janssens Portfolio
+
+> For a given set of beliefs, certain portfolios can't lose any money. 
 
 Now we are going to use some financial engineering to build Olivier Janssens his magically self-refunding portfolio.
 
