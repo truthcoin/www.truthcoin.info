@@ -221,12 +221,14 @@ I would say that the (fork_event_has_happened = YES), if all of the following cr
 
 1. We are able to find a valid 2x chain anywhere (see above process), on or before January 1, 2018.
 2. The 2x chain is 'healthy', ie mining enough blocks for transactions to reliably confirm. Specifically, we may say that, between Dec 11 and Dec 22, the 2x chain must advance by at least 600 blocks. And, they must be "legitimate blocks" -- it must be possible (in principle) for the exchange in question to actually make transactions in most [>60%] of these 600 blocks. (This is easy to check, as the exchange probably *will* be making such transactions, possibly in every one of the 600 blocks.)
+ 
  One very interesting third criterion would be:
+ 
 3. If, a unique [see first edge-case below] rival 1x Network exists, it must find *fewer than 600 1x blocks* between Dec 11 and Dec 22. This provision would mean that SegWit2x would not "exist" unless the old Core Chain was dead. (In this case, Token #3 would share the "always worthless" fate of Token #8). This adds a very strong dose of symmetry, and may be a better referendum on "whether the NYA actually went through".
 
 ![image](/images/tug-of-war.png)
 
- However, to be clear, this criterion #3 should include something-like: "If the 1x network is also the 2x network (ie, if the 1x network has soft-forked to a non-witness blocksize of 2MB or greater [see below]), then this criterion can be ignored." Otherwise, we would contradict our action-outcome principle above.
+However, to be clear, this criterion #3 should include something-like: "If the 1x network is also the 2x network (ie, if the 1x network has soft-forked to a non-witness blocksize of 2MB or greater [see below]), then this criterion can be ignored." Otherwise, we would contradict our action-outcome principle above.
 
 
 ##### Edge-Cases
@@ -234,9 +236,13 @@ I would say that the (fork_event_has_happened = YES), if all of the following cr
 For these rules, let us try to clarify some strange edge-cases:
 
 1. If "1x" [ie "Bitcoin Core"] *soft forks* to bump the non-witness capacity to 2MB or more (for example, by using an opt-in extension block or drivechain), and if this network [the "Core-after-it-is-softforked-to-2MB" network] has the highest marketcap of all Bitcoin marketcaps, then the Core network would be *both* the 1x network and the 2x network.
+
  This has a number of interesting consequences, depending on the inclusion and wording of criterion #3 (above). As currently written, if such a soft fork is expected to happen with 100% probability, then the "fork event" would count as having taken place. Tokens 2,4,6,8 would be worth zero, and the (1,3) pair will be trading for the same values as the (5,7) pair.
+
  Part of what makes this bizarre is that miners could unilaterally deploy a 2MB extension block at any time. Although that is a bizarre feature of the scaling debate in general, and is not specific to futures markets. For some reason, the pro-forkers are *insisting* on a hard fork. Those who wager that a larger blocksize will yield a higher price, will still earn money under the scheme defined here.
+ 
 2. If Bitcoin Core "evil forks" to 2 MB, via hard fork, then Core would become the 2x network. It might, theoretically, be the 1x network as well, but (as we will see below) the 1x network will have a price of zero in this case, because it will not have tokens post-fork, and we will not be able to find it's representative price.
+
  Again, this is rather bizarre, because miners completely control the evil fork. Personally, if you ask me, it is just yet-another-wonderful-thing-about-prediction-markets that they expose all of these contradictions for what they are.
 
 Anyway, now that the dimensions of this setup have been defined (they were: "going long vs. short", "1x Network vs. 2x", "fork event vs. no fork event"), we can talk about the tokens inside of the market.
@@ -267,7 +273,9 @@ Probably, the 'exchange providing the futures market' should use its own price d
 
 However, how do we turn a stream of "price data" into a single "Price_A"?
 
-I say that we take the closing price for the days Dec 11th through Dec 22nd, and take their geometric average (which is: multiply all values and then take the 12th root [ \*^(1/12) ]). In this way, our definition has some nice properties: it is [1] clear, [2] known to all parties in advance, [3] reasonably resistant to manipulation, but still [4] easy to calculate transparently. However, I wonder what happens if an exchange has to close during these days? To account for this, we can throw out the four most extreme or missing values, and then take the geometric average of the remaining eight. If anything strange happens (such as an exchange closure) during the 12 critical days, we can discard those days (as one of the four "most extreme" values).
+I say that we take the closing price for the days Dec 11th through Dec 22nd, and take their geometric average (which is: multiply all values and then take the 12th root [ \*^(1/12) ]). In this way, our definition has some nice properties: it is [1] clear, [2] known to all parties in advance, [3] reasonably resistant to manipulation, but still [4] easy to calculate transparently.
+
+However, I wonder what happens if an exchange has to close during these days? To account for this, we can throw out the four most extreme or missing values, and then take the geometric average of the remaining eight. If anything strange happens (such as an exchange closure) during the 12 critical days, we can discard those days (as one of the four "most extreme" values).
 
 The Dec 11 through 22 dates are arbitrary, but they should be a healthy amount of time *after* the Fork Event would hypothetically happen.
 
@@ -322,11 +330,11 @@ The explanations are purposefully out of order:
 
 In other words:
 
-    Token_1_price = is 0 if (Fork_Event = FALSE), otherwise is (1 - Token_3)
-    Token_2_price = is 0 if (Fork_Event = TRUE), otherwise is (1 - Token_4)
-    Token_3_price = is 0 if (Fork_Event = FALSE), otherwise is = Price_C of 1x
-    ...
-    Token_8_price = is 0 if (Fork_Event = TRUE), otherwise is = Price_C of 2x
+    Token_1_price = 0 if (Fork_Event = FALSE), else = (1 - Token_3)
+    Token_2_price = 0 if (Fork_Event = TRUE), else = (1 - Token_4)
+    Token_3_price = 0 if (Fork_Event = FALSE), else = (Price_C of 1x)
+         ...
+    Token_8_price = 0 if (Fork_Event = TRUE), else = Price_C of 2x
 
 
 ### Three Examples
