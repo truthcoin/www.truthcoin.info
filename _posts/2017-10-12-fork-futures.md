@@ -81,7 +81,7 @@ My [July 2015 article](http://www.truthcoin.info/blog/win-win-blocksize/) made t
 
 My project used Bitcoin to operate, but users could actually create synthetic USD (ie the so-called ["BitUSD"](http://www.truthcoin.info/blog/bitusd/)) and use *that* to trade. This BitUSD would last for the duration of trading on the two 'fork-futures'.
 
-The 2015 version was very permissionless, decentralized, private, and software-based. But it did have a drawback: it required us to pick a trusted federation -- these individuals would be responsible for, if needed, signing a single (very observable, very transparent), multisig message, at the *end* of the process (the maturation of the futures). This message would have the final world, in case people disagreed with what the algorithms said that they could withdraw in BTC. Which was not bad for July 2015 era blockchain technology. I [presented it](https://www.youtube.com/watch?v=TgjrS-BPWDQ&t=1557s) at Scaling Montreal (or tried to, at least).
+The 2015 version was very permissionless, decentralized, private, and software-based. But it did have a drawback: it required us to pick a trusted federation -- individuals who would be responsible for [if needed] signing a single (very observable, very transparent), multisig message. Which was not bad for July 2015 era blockchain technology. I [presented it](https://www.youtube.com/watch?v=TgjrS-BPWDQ&t=1557s) at Scaling Montreal (or tried to, at least).
 
 ### Today's Version
 
