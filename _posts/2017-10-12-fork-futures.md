@@ -126,7 +126,7 @@ BitFinex correctly noticed that:
 
 However, Olivier isn't satisfied. He has noticed a problem with BitFinex's setup, which is that **the Finex market is about two things** at once: [1] whether or not a fork manifests itself before a certain date, and [2] the market price of the fork, conditional on it existing. Oliver and BitFinex each try to address this problem in opposite ways: BitFinex says if there's no fork, then that is Olivier's problem. They justify this by saying that there is a pool of value which will be split by the fork, and if there is no fork then therefore this implies that 100% of the existing value has remained on the Old Chain. But Olivier says if there's no fork, it should be the exchange's problem: he got gypped and he wants his money back -- therefore the exchange should refund everyone's token.
 
-Both approaches are mistaken! OJ has a justifiable complaint, but he wrong to want *everyone's tokens* to be refunded -- such a policy has many problems! (The biggest is that anyone with a shred of fork-doubt can never have any upside, only downside). But it is fine for OJ to want *his money* back, in the event of some contingency. There's a very important difference!
+Both approaches are mistaken! OJ has a justifiable complaint, but he is wrong to want *everyone's tokens* to be refunded -- such a policy has many problems! (The biggest is that anyone with a shred of fork-doubt can never have any upside, only downside). But it is fine for OJ to want *his money* back, in the event of some contingency. There's a very important difference!
 
 We can make everyone happy by acknowledging the true nature of the problem: not *enough* futures markets! The solution is: more futures markets!
 
