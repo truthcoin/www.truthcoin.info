@@ -62,7 +62,7 @@ Unfortunately, I do not think it is a very informative experiment either. It doe
 
 In one sense, of course, this is a very good thing. But in the narrow sense in which I speak today --the sense of trying to measure which chain is "best" for users-- it is a hindrance. 
 
-Moreover, the spinoff option imposes costs on the Old Chain. Users on the Old Chain must suffer fork attempt after fork attempt, one after the other. Like mosquitoes at a Summer barbecue, these fork-attempts command (or "steal", really) our attention -- non-indifferent Old Users may prefer to ignore these-attempts, but sadly we cannot. Since "the indifferent" are a valuable resource, pro-fork campaigners have a reason to assault them. This 'Hard-Fork Harassment' reaches into all of Bitcoin's stakeholders: owners, devs, miners, and users.
+Moreover, the spinoff option imposes costs on the Old Chain. Users on the Old Chain must suffer fork attempt after fork attempt, one after the other. Like mosquitoes at a Summer barbecue, these fork-attempts command (or "steal", really) our attention -- non-indifferent Old Users may prefer to ignore these-attempts, but sadly we cannot. Since "the indifferent" are a valuable resource, pro-fork campaigners have a reason to assault them. This 'Hard-Fork Harassment' afflicts all of Bitcoin's stakeholders: owners, devs, miners, and users.
 
 In response, people are now *campaigning* for their preferred fork. Yuck!! Or, worse, thinking of themselves as ["defenders of Bitcoin's pristine virtue"](http://lesswrong.com/lw/lz/guardians_of_the_truth/). ( A new blog post on this horrible trend, and how to reverse it, is forthcoming. )
 
@@ -71,7 +71,7 @@ In response, people are now *campaigning* for their preferred fork. Yuck!! Or, w
 
 As [Kyle Torpey wrote recently in Forbes](https://www.forbes.com/sites/ktorpey/2017/08/31/this-solution-to-bitcoins-scaling-drama-has-been-available-for-over-two-years/), I proposed a solution to this entire set of problems over two years ago. It's slowly gaining popularity -- Jameson Lopp [tweeted about it](https://twitter.com/lopp/status/911994715331022849) a few weeks ago. Last week, [BitFinex announced](https://www.bitfinex.com/posts/221) that they had [implemented fork futures](https://www.bitfinex.com/legal/cst/segwit2x).
 
-Today I'm going to describe my vision for exchanged-based fork futures!
+Today I'm going to describe my vision for exchange-based fork futures!
 
 First, I will quickly contrast them with my Old Version. [ You may skip this section. ]
 
@@ -79,7 +79,7 @@ First, I will quickly contrast them with my Old Version. [ You may skip this sec
 
 My [July 2015 article](http://www.truthcoin.info/blog/win-win-blocksize/) made the case for quickly assembling trustless, 100% software-based, private, "fork futures" to resolve this simple empirical question: If Bitcoin hard-forked into BitcoinXT, would the USD/BTC price increase, decrease, or stay the same?
 
-My project used Bitcoin to operate, but users could actually create synthetic USD (ie the so-called ["BitUSD"](http://www.truthcoin.info/blog/bitusd/)...which, by the way, somehow an entire industry of 'blockchain professionals' is still struggling to make, two years later) and use *that* to trade. This BitUSD would last for the duration of trading on the two 'fork-futures'.
+My project used Bitcoin to operate, but users could actually create synthetic USD (ie the so-called ["BitUSD"](http://www.truthcoin.info/blog/bitusd/)) and use *that* to trade. This BitUSD would last for the duration of trading on the two 'fork-futures'.
 
 The 2015 version was very permissionless, decentralized, private, and software-based. But it did have a drawback: it required us to pick a trusted federation -- these individuals would be responsible for, if needed, signing a single (very observable, very transparent), multisig message, at the *end* of the process (the maturation of the futures). This message would have the final world, in case people disagreed with what the algorithms said that they could withdraw in BTC. Which was not bad for July 2015 era blockchain technology. I [presented it](https://www.youtube.com/watch?v=TgjrS-BPWDQ&t=1557s) at Scaling Montreal (or tried to, at least).
 
