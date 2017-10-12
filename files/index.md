@@ -14,7 +14,7 @@ title: Random Files
 * 09.24.2017 - [Marching](/images/marching/)
 * 09.24.2017 - [Modern Finance](/images/modern-finance.txt)
 * 09.24.2017 - [True Money is Purchasing Power](/images/true-money/)
-
+* 10.12.2017 - [Fork Futures -- Appendix](/images/fork-futures-trading-appendix/)
 
 
 
@@ -25,13 +25,14 @@ title: Random Files
 
 ### Minor Notes
 
-* [averages.txt](http://www.truthcoin.info/images/averages.txt)
-* [bitcoin-mining-block-withholding.txt](http://www.truthcoin.info/images/bitcoin-mining-block-withholding.txt)
-* [bmm-outline.txt](http://www.truthcoin.info/images/bmm-outline.txt)
-* [enron.txt](http://www.truthcoin.info/images/enron.txt)
-* [jeremy-rubin-affair.txt](http://www.truthcoin.info/images/jeremy-rubin-affair.txt)
-* [hash-explain.txt](http://www.truthcoin.info/images/hash-explain.txt)
-* [information.txt](http://www.truthcoin.info/images/information.txt)
-* [max-value-throughput.txt](http://www.truthcoin.info/images/max-value-throughput.txt)
-* [p2p-misconception.txt](http://www.truthcoin.info/images/p2p-misconception.txt)
-* [powersaw.txt](http://www.truthcoin.info/images/powersaw.txt)
+* [averages.txt](/images/averages.txt)
+* [bitcoin-mining-block-withholding.txt](/images/bitcoin-mining-block-withholding.txt)
+* [bmm-outline.txt](/images/bmm-outline.txt)
+* [enron.txt](/images/enron.txt)
+* [jeremy-rubin-affair.txt](/images/jeremy-rubin-affair.txt)
+* [hash-explain.txt](/images/hash-explain.txt)
+* [information.txt](/images/information.txt)
+* [max-value-throughput.txt](/images/max-value-throughput.txt)
+* [p2p-misconception.txt](/images/p2p-misconception.txt)
+* [powersaw.txt](/images/powersaw.txt)
+* [janssens-hedge-proof.txt](/images/janssens-hedge-proof.txt)
