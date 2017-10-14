@@ -154,7 +154,7 @@ Why not make b really really high?
 
 Well, unfortunately, to get this scheme going, the exchange will have to pay the first score, the score where all d's equal zero. This is equal to b\*ln(4) in this case. And exchanges will have to front this money twice, once for Market 1 and again for Market 2. With b=500, exactly $693 must be risked for each market. Without getting bogged down by details of where this money goes and how it might return, I expect the exchange to be able to recover more than half of this money. So, since there are two markets, the total capital required outlay for two b=500 markets will be around $1380, of which 40% (or $552) will probably be lost forever.
 
-As b increases, the market has more liquidity for traders, but more startup-capital is required, and (again) 40% of this will probably be lost forever. At b=2000, a similarly-situated $20 trade [^n] knocks the price down by only about $58 (instead of $228). But the financial loss will probably be $2218 (instead of $552).
+As b increases, the market has more liquidity for traders, but more startup-capital is required, and (again) 40% of this will probably be lost forever. At b=2000, a similarly-situated $20 trade[^n] knocks the price down by only about $58 (instead of $228). But the financial loss will probably be $2218 (instead of $552).
 
 [^n]: I used d=(9700,1200,4900,0), b= 2000.
 
@@ -175,3 +175,7 @@ In particular, the miners have a very, very, strong interest in figuring out exa
 Hopfully my description of all the novel features (above) has enticed you into considering this possibility.
 
 There are [even cooler possibilities](https://www.cs.cmu.edu/~sandholm/liquidity-sensitive%20automated%20market%20maker.teac.pdf) as well. [Message me](https://twitter.com/truthcoin)!
+
+----
+
+### Footnotes
