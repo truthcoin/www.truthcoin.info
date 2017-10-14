@@ -156,7 +156,7 @@ Well, unfortunately, to get this scheme going, the exchange will have to pay the
 
 As b increases, the market has more liquidity for traders, but more startup-capital is required, and (again) 40% of this will probably be lost forever. At b=2000, a similarly-situated $20 trade [^n] knocks the price down by only about $58 (instead of $228). But the financial loss will probably be $2218 (instead of $552).
 
-[n]: I used d=(9700,1200,4900,0), b= 2000.
+[^n]: I used d=(9700,1200,4900,0), b= 2000.
 
 
 But where do we get the startup capital? Who bears the risk and ultimate loss? Well, Ben Davenport once offered to put together a $1,000,000 fund to "resolve the scaling debate". So we can take that fund and give $693 to Market 1, $693 to Market 2, and then deposit the remaining $998,614 into my personal bank account.
