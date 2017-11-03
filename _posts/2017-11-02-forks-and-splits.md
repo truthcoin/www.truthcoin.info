@@ -25,9 +25,9 @@ This state of affairs dates back to [the original Nov 2012 meaning of soft fork]
 
 Human language is constantly changing and improving, and Bitcoin jargon is no exception. The "soft" part is derived, as near as I can tell, from [a June 2012 clarification by Gavin Andresen](https://gist.github.com/gavinandresen/2355445/revisions) in which he drew a distinction between hard and soft **"changes"** (not "forks", because he correctly knew that such changes did *not* cause any 'splitting').
 
-Eventually, this *phenomenon of fork-resolution* was tapped as an upgrade tool[^n], where the miners would conspire to resolve the 'soft fork' always in a certain way. People then started using the term interchangably: to refer to both [a] a protocol upgrade, as well as [b] the resolution of an ambiguous chain-extension situation.
+Eventually, this *phenomenon of fork-resolution* was tapped as an upgrade tool[^1], where the miners would conspire to resolve the 'soft fork' always in a certain way. People then started using the term interchangably: to refer to both [a] a protocol upgrade, as well as [b] the resolution of an ambiguous chain-extension situation.
 
-[^n]: I vaguely remember this being Amir Taaki's idea, but I could not find a link for this, or any other source. In fact, I couldn't find a single thing that jogged my memory. Please let me know if you know the origin of the idea!
+[^1]: I vaguely remember this being Amir Taaki's idea, but I could not find a link for this, or any other source. In fact, I couldn't find a single thing that jogged my memory. Please let me know if you know the origin of the idea!
 
 As time went on, software upgrades were discussed more, and fork resolutions were discussed less. Fork-resolution become very obscure topic mostly discussed among miners -- and these miners had become a professional, insular community. The original 'fork' problem was substantially mitigated by FIBRE, ['spv'](https://bitslog.wordpress.com/2016/01/08/spv-mining-is-the-solution-not-the-problem/) and ['spy'](https://bitcoinmagazine.com/articles/why-bitcoin-mining-pools-aren-t-incentivized-to-broadcast-blocks-quickly-1475249510/) mining, and other developments. The reverse, however, is true of software upgrades: they have only gotten more and more exciting and complicated. Thus, the second meaning became more dominant.
 
@@ -143,9 +143,9 @@ However, the act of changing it does un-make Bitcoin's double-spend protection, 
 
 ![image](/images/counting-vs-validity.png)
 
-Therefore, if you ask me, desite its quirkiness, and despite not being a validity rule, the counting rule is part of the protocol. Ignoring it would be an abandonmnet of "governance-by-algorithm" Satoshian Consensus, in favor of a [hopefully minimal] return to governance-by-men. Therefore, changing the counting rule is not only a hard fork in practice, but it is also a hard fork in spirit.[^n] And it deserves our suspicion as such.
+Therefore, if you ask me, desite its quirkiness, and despite not being a validity rule, the counting rule is part of the protocol. Ignoring it would be an abandonmnet of "governance-by-algorithm" Satoshian Consensus, in favor of a [hopefully minimal] return to governance-by-men. Therefore, changing the counting rule is not only a hard fork in practice, but it is also a hard fork in spirit.[^2] And it deserves our suspicion as such.
 
-[^n]: Although, since the purpose of Satoshian Consensus is to resolve double-spends, if the miners attacked the network with a large reorganization, then it would be easy for each individual user to independently decide that the PoW-change was warranted. However, there would be confusion over *which* PoW to change to. To alleviate this confusion, I support a decision to ship Bitcoin with a deterministic, ordered list of replacement PoW algorithms.
+[^2]: Although, since the purpose of Satoshian Consensus is to resolve double-spends, if the miners attacked the network with a large reorganization, then it would be easy for each individual user to independently decide that the PoW-change was warranted. However, there would be confusion over *which* PoW to change to. To alleviate this confusion, I support a decision to ship Bitcoin with a deterministic, ordered list of replacement PoW algorithms.
 
 
 ### Evil Fork vs Extension Block
