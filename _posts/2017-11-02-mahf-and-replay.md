@@ -367,9 +367,9 @@ So far, the EF2 requires a slight degree of Inter-MAHF Team Trust: the Usurpers 
 
 Can we use our smart-contract cleverness to reduce the need for trust?
 
-One way would be for the New Chain to adopt a new rule (itself enforced by NewChain "soft-fork", ie orphaning) as follows: every time a Strike-Team block is found on the Old Chain, the very next block[^n] of the New Chain must contain a coinbase txn that is exactly identical to the coinbase txn that was in the recently found OldChain Strike Team's block.
+One way would be for the New Chain to adopt a new rule (itself enforced by NewChain "soft-fork", ie orphaning) as follows: every time a Strike-Team block is found on the Old Chain, the very next block[^1] of the New Chain must contain a coinbase txn that is exactly identical to the coinbase txn that was in the recently found OldChain Strike Team's block.
 
-[^n]: Or instead, for network synchronization reasons, the "next block that is at least X minutes after the network time of the Strike-Team block's network time", or "with a lag time of two blocks", or some other variant.
+[^1]: Or instead, for network synchronization reasons, the "next block that is at least X minutes after the network time of the Strike-Team block's network time", or "with a lag time of two blocks", or some other variant.
 
 This has one problem (which I will fix immediately below), but three additional benefits, which are:
 
@@ -494,9 +494,9 @@ So, what we *don't* want is, [crazy](https://www.cryptocoinsnews.com/bitcoin-mar
 
 And the process has to be **valid**. If a given hard fork actually *is* best for users, then the process has to ultimately result in the hard fork happening. The validity of the process, is the 'secret sauce' -- that is what allows all of us (miners, investors, users -- whatever our BlockSize views) to rely on this process, and safely ignore everything else.
 
-In other words, the process has to "solve" the problem of Bitcoin governance -- or, at least, of Hashrate Governance[^n]. If K is high, the fork should always go through, if K is low, the fork should never go through. No need for talking, or dominance games. Fortunately, Hashrate Governance is very simple: **hashers should mine whoever pays them the most -- ie, whichever blockchain gives them the most profitable coinbase txn**.
+In other words, the process has to "solve" the problem of Bitcoin governance -- or, at least, of Hashrate Governance[^2]. If K is high, the fork should always go through, if K is low, the fork should never go through. No need for talking, or dominance games. Fortunately, Hashrate Governance is very simple: **hashers should mine whoever pays them the most -- ie, whichever blockchain gives them the most profitable coinbase txn**.
 
-[^n]: Of course, "Bitcoin" is a digital *commodity*, and it does not have "governance" (just as Wheat, Gold, and Hydrogen do not have "governance"). Each individual Bitcoin protocol (for example, the protocol corresponding to Core 0.14.2), is governed by "consensus", which is to say, mandatory 100% agreement. The Github project that we know as "Bitcoin Core" is a Wladimir dictatorship. A soft fork will guarantee that all software projects are tracking the same commodity -- ie, that the "Bitcoin" of Bitcoin Core 0.14.2 is the same digital commodity as the "Bitcoin" of 0.8.1. 
+[^2]: Of course, "Bitcoin" is a digital *commodity*, and it does not have "governance" (just as Wheat, Gold, and Hydrogen do not have "governance"). Each individual Bitcoin protocol (for example, the protocol corresponding to Core 0.14.2), is governed by "consensus", which is to say, mandatory 100% agreement. The Github project that we know as "Bitcoin Core" is a Wladimir dictatorship. A soft fork will guarantee that all software projects are tracking the same commodity -- ie, that the "Bitcoin" of Bitcoin Core 0.14.2 is the same digital commodity as the "Bitcoin" of 0.8.1. 
 
 This happens to overlap with the investor's goal, which is to increase his ROI as much as possible. In fact, miner's profitability is maximized by servicing investors and users as well as possible.
 
@@ -506,9 +506,9 @@ Since the miner's and investor's incentives are the same, then **any miner-error
 
 What can miner's do, in order to minimize their mistakes?
 
-One thing would be to emphasize "a process that corrects errors over time". Any error contained within the K-measurement process should be removed as quickly and efficiently as possible. Bad agents should find that the process is working toward kicking them out as quickly as possible[^n]. The process should ultimately broadcast a ("fork", "don't fork") signal, and one that is simple, cheap, and easy for **all** users (even ones that aren't technical, or don't speak English) to monitor, understand, and criticize. That's the heart and soul of science: openness to criticism.
+One thing would be to emphasize "a process that corrects errors over time". Any error contained within the K-measurement process should be removed as quickly and efficiently as possible. Bad agents should find that the process is working toward kicking them out as quickly as possible[^3]. The process should ultimately broadcast a ("fork", "don't fork") signal, and one that is simple, cheap, and easy for **all** users (even ones that aren't technical, or don't speak English) to monitor, understand, and criticize. That's the heart and soul of science: openness to criticism.
 
-[^n]: Note that the current process of "trusting the experts" is not a good one, because if anyone starts trusting a bad expert, the system's efficiency plummets. And how do you tell the good experts from the bad, unless you are an expert yourself? Thus it becomes circular logic; useless.
+[^3]: Note that the current process of "trusting the experts" is not a good one, because if anyone starts trusting a bad expert, the system's efficiency plummets. And how do you tell the good experts from the bad, unless you are an expert yourself? Thus it becomes circular logic; useless.
 
 Fortunately, we have such a process!
 
@@ -535,9 +535,9 @@ Especially because...
 
 ### 8. Betting Blind
 
-If I had to bet blind, I would go with Bitcoin Core/1x, and not 2x. But, why on Earth would anyone bet *blind*, ever? I don't drive my car blind. And if I lost my eyesight, I would stop driving...I'd just Uber/taxi everywhere. And if there were no Uber I'd walk. And if I couldn't walk I'd stay in my house. I mean what kind of idiot drives a car blindfolded?[^n]
+If I had to bet blind, I would go with Bitcoin Core/1x, and not 2x. But, why on Earth would anyone bet *blind*, ever? I don't drive my car blind. And if I lost my eyesight, I would stop driving...I'd just Uber/taxi everywhere. And if there were no Uber I'd walk. And if I couldn't walk I'd stay in my house. I mean what kind of idiot drives a car blindfolded?[^4]
 
-[^n]:  In other words, while I lean towards 1x/Core, I have an open mind. The 1x/Core philosophy is mostly dev-worship, but the devs make a lot of Type-I errors (violently rejecting some good ideas, and then quietly later adding them); we really don't know, by definition, what would happen if a more welcoming door were opened to more devs. The 2x philosophy seems mostly uninformed and hapless, but *I am totally protected from their mistakes*, first by my node and second by the market. So, its possible that there would be faster progress if we [cranked the volatility to sky](https://money.stackexchange.com/questions/27644/why-call-option-price-increases-with-higher-volatility), and just tried more stuff. So while I side with Core/1x, I don't pretend to know everything.
+[^4]:  In other words, while I lean towards 1x/Core, I have an open mind. The 1x/Core philosophy is mostly dev-worship, but the devs make a lot of Type-I errors (violently rejecting some good ideas, and then quietly later adding them); we really don't know, by definition, what would happen if a more welcoming door were opened to more devs. The 2x philosophy seems mostly uninformed and hapless, but *I am totally protected from their mistakes*, first by my node and second by the market. So, its possible that there would be faster progress if we [cranked the volatility to sky](https://money.stackexchange.com/questions/27644/why-call-option-price-increases-with-higher-volatility), and just tried more stuff. So while I side with Core/1x, I don't pretend to know everything.
 
 Miners certainty shouldn't bet blind. And they shouldn't listen to anyone who tells them to bet blind, either. Anyone can [create decent futures markets](/images/fork-futures-trading-appendix/) with $10,000 and a weekend.
 
@@ -579,13 +579,13 @@ Probably, in the grand scheme of things, the question of "Who owns this land?" i
 
 Currently in Bitcoin, the miners are having some negative interactions with certain other members of the community. This led to SegWit being held hostage, in return for a blocksize increase...despite the fact that it *was* a blocksize increase.
 
-Moreover, miners can already make the blocksize whatever they like, using extension blocks (which are far easier than the EF2). And, if devs cared about keeping blocks small, they would put all of their weight behind sidechains, so as to safely redirect unsatisfied customers onto a different computer network[^n]. And if "blocksize" was such an important variable, both groups would want to objectively measure the optimal blocksize, not only to learn the truth, but also for the selfish purpose of making their own case most persuasively. But instead no one is interested in doing this.
+Moreover, miners can already make the blocksize whatever they like, using extension blocks (which are far easier than the EF2). And, if devs cared about keeping blocks small, they would put all of their weight behind sidechains, so as to safely redirect unsatisfied customers onto a different computer network[^5]. And if "blocksize" was such an important variable, both groups would want to objectively measure the optimal blocksize, not only to learn the truth, but also for the selfish purpose of making their own case most persuasively. But instead no one is interested in doing this.
 
-[^n]: I find it interesting that [drivechain sidechains are very similar to extension blocks](http://www.drivechain.info/faq/#ext-blocks), yet [1] all transfers from ext-block to main-block are always valid, and [2] these xfers are constrained so as to minimize the liklihood of fradulent xfers. An extension block is [very much like a mandatory sidechain](/blog/forks-and-splits#evil-fork-vs-extension-block) (which largely defeats the point of being a soft fork).
+[^5]: I find it interesting that [drivechain sidechains are very similar to extension blocks](http://www.drivechain.info/faq/#ext-blocks), yet [1] all transfers from ext-block to main-block are always valid, and [2] these xfers are constrained so as to minimize the liklihood of fradulent xfers. An extension block is [very much like a mandatory sidechain](/blog/forks-and-splits#evil-fork-vs-extension-block) (which largely defeats the point of being a soft fork).
 
-Therefore, the dispute really can't be about the blocksize. Instead, it is about *status* (ie, "respect" and "influence"). Believe it or not, there are LargeBlockers out there, who want 2x succeed only (or mostly) because they take offense to the statements of a few devs. They want to "fire the devs". And, not to be outdone, most SmallBlocker anti-2xers object primarily to "the process" by which 2x was created. That is a good reason to oppose *the process*, but a bad reason to oppose the 2x idea itself (in fact it is an ad hominem fallacy[^n], full stop). Both groups want to be important, or to have their leaders and associates be treated with respect.
+Therefore, the dispute really can't be about the blocksize. Instead, it is about *status* (ie, "respect" and "influence"). Believe it or not, there are LargeBlockers out there, who want 2x succeed only (or mostly) because they take offense to the statements of a few devs. They want to "fire the devs". And, not to be outdone, most SmallBlocker anti-2xers object primarily to "the process" by which 2x was created. That is a good reason to oppose *the process*, but a bad reason to oppose the 2x idea itself (in fact it is an ad hominem fallacy[^6], full stop). Both groups want to be important, or to have their leaders and associates be treated with respect.
 
-[^n]: It doesn't matter if a good idea was created by Greg Maxwell, Roger Ver, Jamie Dimon or a computer that periodically generates ideas of random quality. A good idea is just a good idea. (Same for a bad idea.)
+[^6]: It doesn't matter if a good idea was created by Greg Maxwell, Roger Ver, Jamie Dimon or a computer that periodically generates ideas of random quality. A good idea is just a good idea. (Same for a bad idea.)
 
 #### Dominance Contests
 
@@ -617,9 +617,9 @@ The existence of EF2 might grant miners absolute 'control' over a hard fork proc
 You see, what this post really does is take control away from *both* devs and miners, and give it to investors. It grants the miners an option to unilaterally hardfork, but in a way this just calls the hardforker's bluff. They say they want to do a hard fork and now I've given it to them. But with the good comes the bad, with the bitter comes the sweet. For it is now the case, that any large screwups will be attributed to them alone. Imagine if I *irrevocably* gave you sole and complete control over the USA's nuclear ICBM arsenal -- it's really more of a burden than a gift. I'll just be chillaxing over here on the beach, while you handle all that the geopolitical stuff...good luck!
 
 
-Perhaps this will turn out to be a horrible mistake, one that results in needless network turbulence. But I almost think it *must* be worth it, just to have some peace and quiet around here. Finally, there is no need for anyone to *say* anything about the blocksize any longer![^n] And even less of a reason for anyone to listen! The civil war is over.
+Perhaps this will turn out to be a horrible mistake, one that results in needless network turbulence. But I almost think it *must* be worth it, just to have some peace and quiet around here. Finally, there is no need for anyone to *say* anything about the blocksize any longer![^7] And even less of a reason for anyone to listen! The civil war is over.
 
-[^n]: Bitcoin shouldn't care what anyone says on social media, nor should it care about who was around to hear, or who agrees. All of these "meetings" and "agreements" and "conferences" and "tweets" are nonsense at best, and an attack-vector at worst. Decentralists should work toward their irrelevance. The transparent, scientific (criticism-friendly) measurement of K is the only important thing.
+[^7]: Bitcoin shouldn't care what anyone says on social media, nor should it care about who was around to hear, or who agrees. All of these "meetings" and "agreements" and "conferences" and "tweets" are nonsense at best, and an attack-vector at worst. Decentralists should work toward their irrelevance. The transparent, scientific (criticism-friendly) measurement of K is the only important thing.
 
 
 -----
