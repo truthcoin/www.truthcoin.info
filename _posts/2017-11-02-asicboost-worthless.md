@@ -40,9 +40,14 @@ Since the point is (apparently) so important, let me go over it a second time.
 
 [Greg's message](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-April/013996.html) contains the following:
 
-    Exploitation of this vulnerability could result in payoff of as much as $100 million USD per year at the time this was written (Assuming at 50% hash-power miner was gaining a 30% power advantage and that mining was otherwise at profit equilibrium). This could have a phenomenal centralizing effect by pushing mining out of profitability for all other participants, and the income from secretly using this optimization could be abused to significantly distort the Bitcoin ecosystem in order to preserve the advantage.
+    Exploitation of this vulnerability could result in payoff of as much as $100 million USD
+	per year at the time this was written (Assuming at 50% hash-power miner was gaining a 30%
+	power advantage and that mining was otherwise at profit equilibrium). This could have a
+	phenomenal centralizing effect by pushing mining out of profitability for all other
+	participants, and the income from secretly using this optimization could be abused to
+	significantly distort the Bitcoin ecosystem in order to preserve the advantage.
 
-( A practictioner has estimated](https://medium.com/@vcorem/the-real-savings-from-asicboost-to-bitmaintech-ff265c2d305b) that the $100 M figure is off by two orders of magnitude. Jimmy Song [attributes this to three disputes](https://medium.com/@jimmysong/mining-profitability-and-asicboost-ffdb779ef6dd#dbb7) over parameters. )
+( A [practictioner has estimated](https://medium.com/@vcorem/the-real-savings-from-asicboost-to-bitmaintech-ff265c2d305b) that the $100 M figure is off by two orders of magnitude. Jimmy Song [attributes this to three disputes](https://medium.com/@jimmysong/mining-profitability-and-asicboost-ffdb779ef6dd#dbb7) over parameters. )
 
 The more important thing to notice, however, is that the second sentence contains two mutually-exclusive ideas: [1] pushing out competitors, and [2] leeching $100 M (from live competitors) in perpetuity. This is because all miners "compete" against the difficultly level, and miners only *indirectly* against each other. Within a two week period, all the miners are "on the same team". If we if we make the [realistic assumption](http://www.truthcoin.info/blog/mining-threat-equilibrium/#3-2-logistics-ie-info-shipping) of [spy-mining](https://bitcoinmagazine.com/articles/why-bitcoin-mining-pools-aren-t-incentivized-to-broadcast-blocks-quickly-1475249510/), then, within a two-week period, each miner's profitability is 100% independent of what other miners do. It is only *across* multiple two-week periods that they are competitors. And each miner competes not only against other's performance during the preceding two-weeks, but also against *their own* performance (during all previous two-week periods).
 
