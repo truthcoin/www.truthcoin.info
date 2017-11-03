@@ -27,7 +27,7 @@ Human language is constantly changing and improving, and Bitcoin jargon is no ex
 
 Eventually, this *phenomenon of fork-resolution* was tapped as an upgrade tool[^n], where the miners would conspire to resolve the 'soft fork' always in a certain way. People then started using the term interchangably: to refer to both [a] a protocol upgrade, as well as [b] the resolution of an ambiguous chain-extension situation.
 
-[n]: I vaguely remember this being Amir Taaki's idea, but I could not find a link for this, or any other source. In fact, I couldn't find a single thing that jogged my memory. Please let me know if you know the origin of the idea!
+[^n]: I vaguely remember this being Amir Taaki's idea, but I could not find a link for this, or any other source. In fact, I couldn't find a single thing that jogged my memory. Please let me know if you know the origin of the idea!
 
 As time went on, software upgrades were discussed more, and fork resolutions were discussed less. Fork-resolution become very obscure topic mostly discussed among miners -- and these miners had become a professional, insular community. The original 'fork' problem was substantially mitigated by FIBRE, ['spv'](https://bitslog.wordpress.com/2016/01/08/spv-mining-is-the-solution-not-the-problem/) and ['spy'](https://bitcoinmagazine.com/articles/why-bitcoin-mining-pools-aren-t-incentivized-to-broadcast-blocks-quickly-1475249510/) mining, and other developments. The reverse, however, is true of software upgrades: they have only gotten more and more exciting and complicated. Thus, the second meaning became more dominant.
 
@@ -43,15 +43,14 @@ My definitions for various terms.
 
 Image references:
 
-[1]. [ETH/ETC Split](https://steemit.com/ethereum/@pauls/ethereum-fork-step-by-step-guide-to-safely-splitting-your-eth-etc) (Summer 2016) -- One has immutability, the other has a DAO-fix. ETH was technically released [July 2016](https://blog.ethereum.org/2016/07/20/hard-fork-completed/), [a year after ETC](https://en.wikipedia.org/wiki/Ethereum_Classic) was released; but the names are reversed. [More info.](http://nakamotoinstitute.org/mempool/who-controls-ethereum/)
-[2]. [Qeditas](https://bitcointalk.org/index.php?topic=998559.msg10849564#msg10849564) (March 2015), [Bitcoin Cash](https://www.bitcoincash.org/) (August 2017)
-[3]. Litecoin (October 2011), Primecoin (July 2013), Ethereum itself (July 2016), other well-known Alts.
-[4]. Bitcoin Core 0.8.0, 0.9.0, 0.10.0, etc. 
-[5]. [Bitshares 0.7](https://bitsharestalk.org/index.php?topic=5381.0) (July 2014), [Ethereum "Byzantium"](https://www.coindesk.com/ethereum-client-update-sets-byzantium-hard-fork-date/) (October 2017, assuming old chain stays dead) 
+1. [ETH/ETC Split](https://steemit.com/ethereum/@pauls/ethereum-fork-step-by-step-guide-to-safely-splitting-your-eth-etc) (Summer 2016) -- One has immutability, the other has a DAO-fix. ETH was technically released [July 2016](https://blog.ethereum.org/2016/07/20/hard-fork-completed/), [a year after ETC](https://en.wikipedia.org/wiki/Ethereum_Classic) was released; but the names are reversed. [More info.](http://nakamotoinstitute.org/mempool/who-controls-ethereum/)
+2. [Qeditas](https://bitcointalk.org/index.php?topic=998559.msg10849564#msg10849564) (March 2015), [Bitcoin Cash](https://www.bitcoincash.org/) (August 2017)
+3. Litecoin (October 2011), Primecoin (July 2013), Ethereum itself (July 2016), other well-known Alts.
+4. Bitcoin Core 0.8.0, 0.9.0, 0.10.0, etc. 
+5. [Bitshares 0.7](https://bitsharestalk.org/index.php?topic=5381.0) (July 2014), [Ethereum "Byzantium"](https://www.coindesk.com/ethereum-client-update-sets-byzantium-hard-fork-date/) (October 2017, assuming old chain stays dead) 
 
 
 ## Implications
-
 
 
 ### Upgrades Can't Be Splits
@@ -95,7 +94,7 @@ Soft forks introduce a change, *and* they enforce it. In fact, theoretically the
 
 So, if hard forks are to parallel soft forks, they would need to both [1] introduce and [2] enforce their changes.
 
-However, as I mentioned earlier, enforcing the rules requires the old network to die. If the old network remains, then **that** [old] network remains unchanged -- so we do not have a "change"!. In other words, we do not have a protocol upgrade or software upgrade.
+However, as I mentioned earlier, enforcing the rules requires the old network to die. If the old network remains, then **that** [old] network remains unchanged -- so we do not have a "change"! In other words, we do not have a protocol upgrade or software upgrade.
 
 Thus, just has the soft fork uses hashrate to enforce its new ruleset, so too must the hard fork use some kind of device or contrivance to enforce its new rules. Otherwise, it will merely become a new alternative, not a change to something existing.
 
@@ -133,7 +132,7 @@ With the sole exception of the soft fork, better blockchain designs are either [
 
 Bitcoin achieves consensus by examining data to meet certain criteria for relevance: validity and heaviness. But the Bitcoin system is clever in the strategy it employs to examine this data in practice. First, the software examines the headers, which are very small and easy to check. Then it validates the header-heaviness, which is small and easy to check, but very difficult to forge. Last, it examines the validity of the whole block, which is hardest to check. The protocol *rejects* blocks that are invalid, but of those blocks which are valid, only one "chain" of blocks is chosen to be The True Chain (ie, the "active" chain).
 
-My point in bringing this up, is that while the "counting rule" (for measuring heaviness) is a "protocol rule", it is not a "validity rule". The *content* of the blockchain is the same; what is different is [possibly] how we resolve double-spends. Satoshi famously [changed the counting rule from "longest chain" to "heaviest chain"](https://github.com/bitcoin/bitcoin/commit/40cd0369419323f8d7385950e20342e998c994e1#diff-118fcbaaba162ba17933c7893247df3aL1215) in July 2010. Earlier, I expressed [my confusion over whether this change was a hard or soft fork](http://www.truthcoin.info/blog/protocol-upgrade-terminology/#none-of-the-above). Bram Cohen noted an interesting fact -- that [this rule could be changed by soft fork](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-March/013744.html).
+My point in bringing this up, is that while the "counting rule" (for measuring heaviness) is a "protocol rule", it is not a "validity rule". The *content* of the blockchain is the same; what is different is [possibly] how we resolve double-spends. Satoshi famously [changed the counting rule from "longest chain" to "heaviest chain"](https://github.com/bitcoin/bitcoin/commit/40cd0369419323f8d7385950e20342e998c994e1#diff-118fcbaaba162ba17933c7893247df3aL1215) in July 2010. Earlier, I expressed [my confusion over whether this change was a hard or soft fork](http://www.truthcoin.info/blog/protocol-upgrade-terminology/#none-of-the-above). Bram Cohen noted an interesting fact -- that [this rule could be changed by soft fork](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-March/013744.html) (although, he admits that he hasn't figured out how to keep the fork soft, possibly because doing so is impossible).
 
 The question is relevant because there is a dispute over the nature of a "Proof-of-Work algorithim change". Is this [a defining feature of Bitcoin](https://coinjournal.net/greg-maxwell-prospects-segwit2x-bitcoin-developers-may-leave-project-succeeds/)? Is it a "hard fork"; to what extent is it comparable to other hard forks?
 
@@ -146,7 +145,7 @@ However, the act of changing it does un-make Bitcoin's double-spend protection, 
 
 Therefore, if you ask me, desite its quirkiness, and despite not being a validity rule, the counting rule is part of the protocol. Ignoring it would be an abandonmnet of "governance-by-algorithm" Satoshian Consensus, in favor of a [hopefully minimal] return to governance-by-men. Therefore, changing the counting rule is not only a hard fork in practice, but it is also a hard fork in spirit.[^n] And it deserves our suspicion as such.
 
-[n]: Although, since the purpose of Satoshian Consensus is to resolve double-spends, if the miners attacked the network with a large reorganization, then it would be easy for each individual user to independently decide that the PoW-change was warranted. However, there would be confusion over *which* PoW to change to. To alleviate this confusion, I support a decision to ship Bitcoin with a deterministic, ordered list of replacement PoW algorithms.
+[^n]: Although, since the purpose of Satoshian Consensus is to resolve double-spends, if the miners attacked the network with a large reorganization, then it would be easy for each individual user to independently decide that the PoW-change was warranted. However, there would be confusion over *which* PoW to change to. To alleviate this confusion, I support a decision to ship Bitcoin with a deterministic, ordered list of replacement PoW algorithms.
 
 
 ### Evil Fork vs Extension Block

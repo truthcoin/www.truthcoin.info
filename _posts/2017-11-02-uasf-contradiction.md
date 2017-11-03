@@ -137,7 +137,7 @@ In this part of his argument, Shaolinfry admits that the only recourse users hav
 A [PoW Change is a hard fork](/blog/forks-and-splits#the-counting-rule)[^n], which means that it is fundamentally an act of persuasion. Ie, it is an act of "governance" or "community organizing" or "politics", and not an act of "engineering" or "science". In a hard fork, we must persuade users to leave the old chain and join the new one.
 
 
-[n]: Bram Cohen [proposed a PoW change which he claims is a soft fork](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-March/013744.html). However, he admits that making sure that the fork remains soft into the future "...is an interesting problem which I'm not sure how to do off the top of my head". Moreover, his solution requires at least one or two months to take effect, since the original difficulty cannot fall by more than a factor of four. I actually don't think his proposal will work, because if there is a dispute over which chain is "longer", un-upgraded nodes will
+[^n]: Bram Cohen [proposed a PoW change which he claims is a soft fork](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-March/013744.html). However, he admits that making sure that the fork remains soft into the future "...is an interesting problem which I'm not sure how to do off the top of my head". Moreover, his solution requires at least one or two months to take effect, since the original difficulty cannot fall by more than a factor of four. I actually don't think his proposal will work, because if there is a dispute over which chain is "longer", un-upgraded nodes will
 
 
 But one of these things is much more persuasive than the other, if you ask me:
@@ -183,7 +183,7 @@ If an issue is Local, you can safely ignore anyone who complains. But for a Univ
 
 Amusingly,however, the Anti-UASF _would_ be regarded as a 51% attack, if miners engaged in at _after_ it had been successfully activated and used. This is because it _would_ indeed be unreasonable for Miners to expect Users to be in constant contact with each other about which tx types are-or-are-not allowed. Miners would need to justify this decision to a confused and annoyed audience, which to my knowledge they have no real way of doing[^n]...if a tx type is allowed, it must be allowed forever.
 
-[n]: Of course, there is one clear exception to this paragraph: the SegWit2x New York Agreement. Since "SegWit" and "2x" are supposedly conditional on each other, miners could plausible call off both of them at the same time. Miners would want to do this *without* surprising anyone or "crossing the line" of what is considered acceptable withdrawal-from-NYA behavior. Certainly Variation 1 (above) would be out of the question in this case.
+[^n]: Of course, there is one clear exception to this paragraph: the SegWit2x New York Agreement. Since "SegWit" and "2x" are supposedly conditional on each other, miners could plausible call off both of them at the same time. Miners would want to do this *without* surprising anyone or "crossing the line" of what is considered acceptable withdrawal-from-NYA behavior. Certainly Variation 1 (above) would be out of the question in this case.
 
 
 ### 2. Revenue Incentives
