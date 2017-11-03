@@ -30,7 +30,9 @@ As you know, two ["spinoffs"](http://www.truthcoin.info/blog/forks-and-splits) (
 
 A cadre of Core Developers pushed aggressively (and successfully) for Bitcoin Cash to add replay protection, insinuating that failure to do so carelessly introduces ["risks"](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-July/000200.html), and that the only ["ethical"](https://twitter.com/petertoddbtc/status/889812840563003392) thing to do is *not only* to write replay protection, but to make it *mandatory*.
 
-    And while the late steamer Big Missouri worked and sweated in the sun, the retired artist sat on a barrel in the shade close by, dangled his legs, munched his apple, and planned the slaughter of more innocents.
+    And while the late steamer Big Missouri worked and sweated in the sun, the
+	retired artist sat on a barrel in the shade close by, dangled his legs,
+	munched his apple, and planned the slaughter of more innocents.
 
     -- "Tom Sawyer" (1876), by Mark Twain 
 
@@ -45,17 +47,21 @@ I won't speak to the "ethics" of replay protection, only [its efficaciousness](h
 
 [Here](https://bitcoin.stackexchange.com/questions/61212/what-is-transaction-replay-and-replay-protection) is a great StackOverflow answer:
 
-    ... transaction replay is when a transaction is valid on both sides of the fork. ... if you intend on sending coins on one fork, you could accidentally end up sending your coins on the other fork as well ...
+    ... transaction replay is when a transaction is valid on both sides of the
+	fork. ... if you intend on sending coins on one fork, you could accidentally
+	end up sending your coins on the other fork as well ...
 
 That's all it is.
 
-    Replay protection is something that makes it so that transactions on one chain are invalid on the other chain thus preventing transaction replay. ...
+    Replay protection is something that makes it so that transactions on one
+	chain are invalid on the other chain thus preventing transaction replay. ...
 
 And that's all *that* is.
 
 Here's an [Ethereum-focused, DAO-related answer](https://ethereum.stackexchange.com/questions/26/what-is-a-replay-attack) for "What is a replay attack?". It is important because Ethereum kicked off the replay party with their unintentional chain split, following [the DAO](https://www.youtube.com/watch?v=_O5fdMFKEC0) failure last year:
 
-    [In] blockchains...taking a transaction on one blockchain, and maliciously or fraudulently repeating it on another blockchain.
+    [In] blockchains...taking a transaction on one blockchain, and maliciously
+	or fraudulently repeating it on another blockchain.
 
 While the concept is simple, it can be handled in a few different ways.
 
