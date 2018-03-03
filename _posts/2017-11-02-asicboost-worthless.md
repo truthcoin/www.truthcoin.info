@@ -115,3 +115,11 @@ If everyone's mining speed [hashes per second] doubled tomorrow, we would have 5
 If everyone's mining efficiency [hashes per dollar] doubled tomorrow, then miners would be finding $50,000 blocks at a cost of $25,000. Their **risk-adjusted** ROI would be quite excessive (as the ROI is higher, but the risk is unchanged). They would respond to this by investing more until the total investment (across all miners) had ~doubled. These investments would ~double the global hashes-per-second rate, and we would be in precisely the situation of the preceding paragraph.
 
 The *user* does benefit [slightly] in both cases -- more efficiency yields more hashes, which means that the hashrate security of the network increases. Increases in mining efficiency must always ultimately work *against* miners, and *for* users.
+
+### Update 03/2018
+
+Recall that in May 2017, Getech Law [claimed some miners were infringing](https://bitcoinmagazine.com/articles/bitmain-may-be-infringing-asicboost-patent-after-all/) on their ASICBoost patent.
+
+After reading that article, I [sent Getech an email](/images/asicboost-email.txt) (and one to asicboost@gmail) offering to buy the patent, but also warning them that the patent was worthless. They never replied, but two days ago [they wrote a post](https://www.asicboost.com/single-post/2018/03/01/opening-asicboost-for-defensive-use/) saying that, despite "spend[ing] considerable resources on acquiring and opening the patent for the benefit of the Bitcoin community..." they are now giving it away for free, in return for "donations towards our costs".
+
+In other words, it seeems I was 100% correct about its market value.
