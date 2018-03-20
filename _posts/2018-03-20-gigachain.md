@@ -161,8 +161,6 @@ If the exchange rate increased by three orders of magnitude, from $10 thousand t
 
 But hey, a guy can dream, so let us have the fee fall by three orders of magnitude[^3] over 10 years.
 
-[^3]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
-
     "Three orders of magnitude" is 10^-3
     "10 years" is 120 months
      
@@ -175,8 +173,9 @@ But hey, a guy can dream, so let us have the fee fall by three orders of magnitu
     Thus the monthly decline factor is ( 1/ 1.059254 ) ...
      ...which is roughly a 5.6% decline per month. 
 
-
 ![images](/images/gigachain-feerate-schedule.png)
+
+[^3]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
 
 Thus, the typical txn will always cost $0.25 cents (nominal), even if the 2023 price of BTC skyrockets to $10 million.
 
