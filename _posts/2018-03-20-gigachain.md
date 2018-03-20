@@ -113,7 +113,7 @@ I will start BX off at 8 MB/block, meaning that total Bitcoin transaction capaci
 
 ![images](/images/gigachain-blocksize-schedule.png)
 
-## Fees
+## 2. Fees
 
 > This part is optional.
 
@@ -161,7 +161,7 @@ If the exchange rate increased by three orders of magnitude, from $10 thousand t
 
 But hey, a guy can dream, so let us have the fee fall by three orders of magnitude[^3] over 10 years.
 
-[3]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
+[^3]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
 
     "Three orders of magnitude" is 10^-3
     "10 years" is 120 months
