@@ -5,16 +5,19 @@ show_author: true
 date: 2018-03-20 01:01:00
 ---
 
-> For a "payments chain", how large would the blocksize need to be?
+> For a "payments chain", how large would the blocksize need to be? And what kind of fees would be competitive?
 
-GigaChain (GC) is a blockchain design. It is ultra-easy to make, and [probably] very useful.
+
+## A Payments Chain
+
+> GigaChain (GC) is a blockchain design. It is ultra-easy to make, and [probably] very useful.
 
 Specifically, it is Bitcoin Core with two changes:
 
 1. **"Enough" Block Space** -- 8 MB growing to 8,000 MB over the next 5 years.
 2. [optional] **Mandatory Minimum Fees** -- of about 25 cents per txn, to discourage freeloading.
 
-It is designed specifically to compete with VISA, being cheaper and faster[^n] while servicing a similar transaction load. (Of course, the larger blocksize will make the software more computationally intensive, and this must either be addressed with more expensive hardware or better engineering -- those challenges are not the focus of this small piece.)
+It is designed specifically to compete with VISA, being cheaper and faster[^1] while servicing a similar transaction load. (Of course, the larger blocksize will make the software more computationally intensive, and this must either be addressed with more expensive hardware or better engineering -- those challenges are not the focus of this small piece.)
 
 [^1]: Unfortunately, because of the Scaling Polarization and rise of two "one-party states", there is some controversy about confirmation times, and something called "replace-by-fee" (RBF). Firstly, credit card txns are much slower than Bitcoin txns: both are provisionally approved at roughly "email speed" (ie, in a few seconds), but a Bitcoin confirmation will settle over 1-2 hours, whereas a CC txn will settle over 750-1500 hours. Concerning RBF, some people will advocate for "removing it", on the grounds that it will make 0-conf txns "faster". These people are spreading misinformation and should be despised. Nevermind the numerous benefits of RBF for keeping fees down and liberating doomed transactions, and nevermind its nonexistent drawbacks, the true response to this anti-RBFers is that RBF is completely optional. When the merchant asks for payment, they can simply request a non-RBF payment. So, everyone's happy.
 
@@ -41,20 +44,22 @@ Eventually, I expect corporations ([the whitepaper's](www.bitcoin.org/bitcoin.pd
 
 Now let's talk about the two changes.
 
-### Blockspace
+## 1. Blockspace
+
+> Matching the credit card industry.
 
 Here I have compiled some information (sources below) on VISA transaction processing (in "transaction per second", or TPS):
 
-    |Year|Max Possible|Max Actual|Avg Actual|
-    |:---|:----------:|:--------:|:--------:|
-    |2010|     24,000 | 11,000   | ?      |
-    |2011|          ? |      ?   | ?      |
-    |2012|     30,000 |      ?   | ?      |
-    |2013|     47,000 | 15,000   | ?      |
-    |2014|          ? |      ?   | ?      |
-    |2015|     56,000 | 18,500   | 2250   |
-    |2016|          ? |      ?   | 2630   |
-    |2017|     65,000 |      ?   | 3523   |
+|Year|Max Possible|Max Actual|Avg Actual|
+|:---|:----------:|:--------:|:--------:|
+|2010|     24,000 | 11,000   | ?      |
+|2011|          ? |      ?   | ?      |
+|2012|     30,000 |      ?   | ?      |
+|2013|     47,000 | 15,000   | ?      |
+|2014|          ? |      ?   | ?      |
+|2015|     56,000 | 18,500   | 2250   |
+|2016|          ? |      ?   | 2630   |
+|2017|     65,000 |      ?   | 3523   |
 
 
 Terms:
@@ -108,11 +113,11 @@ I will start BX off at 8 MB/block, meaning that total Bitcoin transaction capaci
 
 ![images](/images/gigachain-blocksize-schedule.png)
 
-### Fees
+## Fees
 
-This part is optional.
+> This part is optional.
 
-#### Why impose a minimum fee? #### {#why-fee}
+### Why impose a minimum fee? ### {#why-fee}
 
 Well, each txn must be proceed by all nodes. But each txn will only pay a fee to *one* node. All of the others are held liable for transactions to which they are a third-party. Therefore we have an externality problem -- each transaction "pollutes" the blockchain.
 
@@ -122,15 +127,15 @@ A second-best solution is to try to limit the network to its "natural" carrying 
 
 So, we want to avoid a situation where a miner is tempted to mine an "inefficient block", where this is defined as a block containing many low-fee txns. If users are unwilling to pay a minimum fee, this may indicate that they don't appreciate the resource of blockspace.
 
-Therefore, we might want a typical txn (250 bytes) to cost at least[^n] some amount.
+Therefore, we might want a typical txn (250 bytes) to cost at least[^2] some amount.
 
-[^n]: Minimum fees are enforceable, unlike maximum fees which can be circumvented with out-of-band payments.
+[^2]: Minimum fees are enforceable, unlike maximum fees which can be circumvented with out-of-band payments.
 
 A second reason to favor a minimum fee, is that sidechains have no block subsidy. Altcoins can have their txns subsidized by an inflation tax, but sidechains cannot. In the very long term, Bitcoin's subsidy will run out and the network will need to sustain itself on (floating) txn fees alone. While this is a good plan in theory, it has never been tried before in practice.
 
 A third reason for mandatory, BTC-based pricing, is that it is a rare example of a Bitcoin-based "unit of account". I think it sends a good message to the world about taking Bitcoin payments (and Bitcoin-as-intrinsic-value) seriously.
 
-#### Choosing a Competitive Fee 
+### Choosing a Competitive Fee 
 
 I conjecture that the typical txn should cost at least 0.25 USD. This would come to a rate of 10 satoshi per byte, assuming a constant exchange rate of 10,000 USD per BTC (more about that later).  
 
@@ -138,7 +143,7 @@ Compared to VISA, this fee is extremely competitive. I highly encourage everyone
 
 So even for multi-input txns, which can be 500 or 700 bytes (and therefore 0.50 or 0.70 USD), we are really doing quite well. That 1.85% really adds up -- even for $2.00 coffee (likely the smallest VISA txns today) it tacks on an extra $0.04. For a $20 StarBucks gift card it is $0.40.
 
-#### Defending Against a Spam Attack
+### Defending Against a Spam Attack
 
 Since capacity and fees are fixed, let us consider the case where a disinterested third party intends to blockade the network by purchasing all the block space for themselves.
 
@@ -146,7 +151,7 @@ At 10 sat/byte, filling an 8 MB block would cost $8,000. And filling an 8 GB blo
 
 Miners could of course fill up a block with 'circular txns' which pay transactions from themselves to themselves. And therefore they can create any size block for "free". (Of course, in that case the miner would pay an opportunity cost instead of an explicit cost.) On top of this, any attacker (miners included) must devote 8 million USD worth of capital to the 'circular txns' project, for the duration of the attack.
 
-#### Dynamic Fee (As Exchange Rate Changes)
+### Dynamic Fee (As Exchange Rate Changes)
 
 If the USD/BTC exchange rate increases dramatically (as it often does), the fact that the 10 sat/byte fee rate is fixed, will cause the effective USD/txn rate to increase.
 
@@ -154,9 +159,9 @@ This quite a problem to solve! The only way may be a very simple one: have the r
 
 If the exchange rate increased by three orders of magnitude, from $10 thousand to $10 million, it would imply that Bitcoin had displaced just about all of the fiat currency in existence.
 
-But hey, a guy can dream, so let us have the fee fall by three orders of magnitude[^n] over 10 years.
+But hey, a guy can dream, so let us have the fee fall by three orders of magnitude[^3] over 10 years.
 
-[n]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
+[3]: It is possible to charge a fractional satoshi/byte rate -- we'd simply round up to the nearest satoshi. At 0.00041 sat/byte, a 500 byte txn would cost 0.205 satoshis, which we would need to round up to 1 satoshi. It takes 100 million satoshis to make up a whole BTC, so even at a price of $10,000,000/BTC, one satoshi is a mere ten cents.
 
     "Three orders of magnitude" is 10^-3
     "10 years" is 120 months
@@ -176,4 +181,6 @@ But hey, a guy can dream, so let us have the fee fall by three orders of magnitu
 Thus, the typical txn will always cost $0.25 cents (nominal), even if the 2023 price of BTC skyrockets to $10 million.
 
 Under this schedule, the minimum fees can only become prohibitively high (ie, "un-VISA like") in worlds where Bitcoin is already destroying the existing financial infrastructure.
+
+### Footnotes
 
