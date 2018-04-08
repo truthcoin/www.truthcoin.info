@@ -13,7 +13,6 @@ date: 2018-04-07 02:00:00
 	Behold, I will punish the king of Babylon and his land
     --Jeremiah 50:18
 
-![image](https://upload.wikimedia.org/wikipedia/commons/3/37/Wpdms_physics_proton_proton_chain_2.svg)
 
 I was writing [a post about a simple-enough way of fusing the UTXO sets of the Core and Cash blockchains back together](/images/blockchain-fusion-via-utxos/) into a single UTXO set of a single blockchain. But: there is a much better way -- easier to do, simpler to understand, and *more effective* as it allows for greater **replay** both of transactions and of code.
 
@@ -91,6 +90,8 @@ As seen above, the replay techniques above ("Transaction" and "Github") can make
 * Compensated Sidechain -- A sidechain whose success will not alter the net worth of its Altcoiners.
 
 The details of the "Compensated Sidechain" are in the next section, but I wanted to introduce the concept here. It summarizes our situation: people these days do not say "Bitcoin", they say "Bitcoin and cryptocurrency" (see ["Bitcoin Post-maximalism"](/blog/bitcoin-post-maximalism/).
+
+![image](https://upload.wikimedia.org/wikipedia/commons/3/37/Wpdms_physics_proton_proton_chain_2.svg)
 
 
 ## Part 2. -- The Fusion Process
@@ -432,11 +433,18 @@ Since both groups will loudly dislike the idea, it will *appear* as though the F
 
 ### Conclusion
 
+    Every great magic trick consists of three parts or acts.
+	The first part is called "The Pledge".
+	The second is called "The Turn" -- the magician takes the ordinary something and makes it do something extraordinary. 
+	But you wouldn't clap yet. Because making something disappear isn't enough; you have to bring it back.
+	That's why every magic trick has a third act, the hardest part, the part we call "The Prestige".
+	-- The Prestige (2006)
+
 Metcalfe's law states that Bitcoin would be more valuable in general, if it were more valuable relative to other coins. Teamwork is valuable.
 
 ![images](/images/council-of-elrond.jpg)
 
-I am not sure if Fusion is the best way to go, but someone will probably do it eventually.
+I am not sure if Fusion is the best way to go, but someone will probably do it eventually. So I am glad to have written down my thoughts on it.
 
 
 ### Footnotes
