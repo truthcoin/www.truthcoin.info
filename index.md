@@ -29,6 +29,8 @@ Ironically, I've done exactly such a generalization with [my own Bitcoin 2.0 pro
 
 So I suppose the real message is "you'd better run it by me first", or "read this blog to learn about the things you should avoid".
 
+Read [my "modern" views on "Bitcoin Maximalism" (April 2018)](http://www.truthcoin.info/blog/bitcoin-post-maximalism/).
+
 On that note: *every single entity* on [coinmarketcap.com](http://coinmarketcap.com/assets/), with the exception of Bitcoin, and, arguably, the Bitcoin-metacoins, is inherently flawed. By this, I mean, each has a *negative* economic value and **should be abandoned**. Even the metacoins won't last, they are inferior to imminently-arriving alternatives.
 
 [Know your stuff!](http://forum.truthcoin.info/index.php/topic,243.0.html)
