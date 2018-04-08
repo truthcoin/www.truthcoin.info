@@ -9,7 +9,8 @@ date: 2018-04-07 02:00:00
 
 > An incentive-compatible way of fusing several blockchains into one. The effect is as if we could time-travel an Altcoin to the past, and add it as a sidechain then.
 
-    Therefore thus saith the LORD of hosts, the God of Israel; Behold, I will punish the king of Babylon and his land
+    Therefore thus saith the LORD of hosts, the God of Israel;
+	Behold, I will punish the king of Babylon and his land
     --Jeremiah 50:18
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/3/37/Wpdms_physics_proton_proton_chain_2.svg)
@@ -21,7 +22,7 @@ My view of "replay" is (apparently) somewhat rare. I wrote [a piece about this a
 
 ## Part 1. -- Replay and Other Background Claims
 
-> "Replay" as a pro-competition tool.
+> "Replay" as a helpful tool, letting the best ideas compete fairly on their merits.
 
 ### A. Replay as Experimental Control ## {#replay-as-control}
 

@@ -1,7 +1,7 @@
-Competition on Mulitple Dimensions
-Paul Sztorc (But mostly: Ken Arrow, Tom Schelling, and Eliezer Yudkowsky)
-3/4/2018
-==========================================================================
+
+    Competition on Mulitple Dimensions
+    Paul Sztorc (But mostly: Ken Arrow, Tom Schelling, and Eliezer Yudkowsky)
+    3/4/2018
 
 
 Intro
@@ -91,10 +91,12 @@ Further Reading
 Please Watch:
 
 "Bitoin Hivemind" by Paul Sztorc (2018)
-https://www.youtube.com/watch?v=tzaVt7uN4p4
+
+[https://www.youtube.com/watch?v=tzaVt7uN4p4](https://www.youtube.com/watch?v=tzaVt7uN4p4)
 
 
 Please Read:
 
 "Inadequate Equilibria" by Eliezer Yudkowsky
-https://equilibriabook.com/
+
+[https://equilibriabook.com/](https://equilibriabook.com/)
