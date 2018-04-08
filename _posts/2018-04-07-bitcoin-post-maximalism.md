@@ -117,7 +117,7 @@ Finally, what of the hope that sidechains tech will obliterate the Altcoins?
 
 No one alive is in a better position to answer than I. After Blockstream gave up on sidechains in 2015[^6], I wrote my own idea in November of that year. It remains, to this day, the only concrete proposal for P2P sidechains, let alone the only implementation. I've presented on sidechain [theory](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1) and [risks](https://www.youtube.com/watch?v=0goYH2sDw0w&list=PLw8-6ARlyVciNjgS_NFhAu-qt7HPf_dtg&index=1), and at Scalings II and III (the II presentation was a small "WIP" and these were not recorded, I believe).
 
-[^6]: I feel it necessary to explain that Blockstream has two projects which it repeatedly claims are sidechains but which actually are not. They are not sidechains because they lack the distinctive feature --the "two way peg"-- and as a result neither can be used *functionally* as a sidechain (ie, Bitcoin users cannot opt in to new innovative features). The two projects are "Elements" and "Liquid" -- the first is just an Altcoin (in precisely the same way that LTC, XCP, and ETH are Altcoins), and the second is just a multisig wallet. In fact, the phrase "federated sidechain" is nonsensical: the major innovation behind all "chains" (especially Bitcoin itself) is Mining, and mining is distinctive because it *lack* a set of signers.  ----  A [few brave](http://tpbit.blogspot.com/2015/10/liquid-when-sidechains-say-fuck-it.html) [people spoke](https://soundcloud.com/bitcoinuncensored/the-2015-scammys-the-blockchains-preeminent-achievement-awards#t=52:37) openly about their utter shock and confusion. But most people made a strong effort to mask their disappointment.
+[^6]: I feel it necessary to explain that Blockstream has two projects which it repeatedly claims are sidechains but which actually are not. They are not sidechains because they lack the distinctive feature --the "two way peg"-- and as a result neither can be used *functionally* as a sidechain (ie, Bitcoin users cannot opt in to new innovative features). The two projects are "Elements" and "Liquid" -- the first is just an Altcoin (in precisely the same way that LTC, XCP, and ETH are Altcoins), and the second is just a multisig wallet. In fact, the phrase "federated sidechain" is nonsensical: the major innovation behind all "chains" (especially Bitcoin itself) is Mining, and mining is distinctive because it *lack* a set of signers.  --- ---  A [few brave](http://tpbit.blogspot.com/2015/10/liquid-when-sidechains-say-fuck-it.html) [people spoke](https://soundcloud.com/bitcoinuncensored/the-2015-scammys-the-blockchains-preeminent-achievement-awards#t=52:37) openly about their utter shock and confusion. But most people made a strong effort to mask their disappointment.
 
 
 My view is that the scaling conflict *is* important, and that sidechains [are the best way to resolve it](http://www.drivechain.info/faq/#scaling). In fact, my current view is that *sidechains are the only way* to resolve the conflict. This is because the disagreement is actually about "node costs", and not about transaction throughput.
@@ -149,7 +149,7 @@ However, more fundamentally, even if drivechain *were* bad, it is a soft fork. S
 
 So I don't see how talking about it could be a waste of time. If bad, it should be talked about, because it is unpreventable. Criticisms shouldn't be of *it*, they should only be of the opt-in-ers.
 
-[^7]: In fact, many of the comments are so bad, and come from people who are [in non-sidechain contexts] relatively smart and reasonable, that I think "preemptive disinterest" can be the only explanation. For example, Luke Dashjr and Matt Corallo on bitcoin-dev did not see that "most PoW chain" is equivalent to "most $$ spend on chain", despite the fact that this is just one inferential step (indeed, a single multiplication operation) away. Jorge Timon still does not understand that sidechains are supposed to be optional -- these are sidechain paper co-authors! Peter Todd insisted that sidechains be compared to his (nonexistent and, I believe, flawed) "client side validation" project, somehow not realizing that "client side validation" [ie, "opt in validation"] is exactly what sidechains do.  ----  If these people were putting in their best effort, and the resulting commentary were this bad, we would be forced to determine that all of the critics were just hopelessly unintelligent. And I do not believe that that is the case. ( LargeBlocker critiques of sidechains, of course, are even worse. Not to belabor the point, but technical critique is not their forté. )
+[^7]: In fact, many of the comments are so bad, and come from people who are [in non-sidechain contexts] relatively smart and reasonable, that I think "preemptive disinterest" can be the only explanation. For example, Luke Dashjr and Matt Corallo on bitcoin-dev did not see that "most PoW chain" is equivalent to "most $$ spend on chain", despite the fact that this is just one inferential step (indeed, a single multiplication operation) away. Jorge Timon still does not understand that sidechains are supposed to be optional -- these are sidechain paper co-authors! Peter Todd insisted that sidechains be compared to his (nonexistent and, I believe, flawed) "client side validation" project, somehow not realizing that "client side validation" [ie, "opt in validation"] is exactly what sidechains do.  --- ---  If these people were putting in their best effort, and the resulting commentary were this bad, we would be forced to determine that all of the critics were just hopelessly unintelligent. And I do not believe that that is the case. ( LargeBlocker critiques of sidechains, of course, are even worse. Not to belabor the point, but technical critique is not their forté. )
 
 So a better explaination is that the "bad idea --> therefore disinterested" causality must be reversed, I think. The trust is "disinterest --> therefore ignorant comments".
 
@@ -239,13 +239,17 @@ G -- All Bugfixes; "Scaling Bitcoin" 1 and 2; CheckLockTimeVerify; Fraud Proofs 
 #### Some Alignment
 
 D -- High txn fee-revenues[^9] (see [here](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-December/015455.html)); the unending scaling conflict (think 1984 "War is Peace", and govt 'racketeering')
+
 E -- Lightning Network (miners prefer on-chain); "Scaling Bitcoin" III; Blockstream/ChainCode/etc; soft forks (miners prefer hard, although I honestly don't know why)
+
 F -- Decentralized Sidechains (devs prefer bitcoin-dev-based permission, and federation/subscription); SPV/SPY Mining (devs prefer FIBRE)
 
 #### Less Alignment
 
 A -- Federated/subscription-based sidechains ; "Scaling Bitcoin IV" ; high txn fee-rates (?)
+
 B -- [SegWit-Incompatible] ASICBoost (although [I/others strongly dispute the relevance](http://www.truthcoin.info/blog/asicboost-worthless/)); SegWit2x Project (users prefer 1x, according to data from futures markets)
+
 C -- Low fee-rates; The SegWit UASF; [Fork Futures](https://www.bitfinex.com/legal/cst/segwit2x); Spinoffs/Altcoins (empirically)
 
 
