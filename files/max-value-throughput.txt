@@ -1,0 +1,55 @@
+
+Guaranteeing Maximal Inter-Chain Value-Throughput
+====================================================
+
+
+Reminder
+---------
+
+When funds go "to" a sidechain, they are individually paid to a script address (all of them to the very same script address, in fact). When funds return from a sidechain, they do so in a large 'CoinJoin'-style transaction (which I call the "WT^", as it is an aggregation of many individual desposit transactions -of the first sentence- and of many individual 'withdrawal transactions' which I call WTs). This transaction, WT^, selects the individual script outputs (from sentence 1) as inputs, and then asks the sidechain to supply the outputs. When it is broadcast on the mainchain / parent chain, then the transfer is complete.
+
+There is an incentive for the WT^ txn to be as small as possible (or, at least, as space efficient as possible). It is the same incentive as always: users pay fees, and the host / parent / mainchain miner decides whether to include the txn in a block or not. The size of the WT^ is, of course, limited by the size of the parent chain's blocks. In an extreme case, one side-to-main transaction would be 1 MB, if it returned to the current (non-segwit, non-hardfork) version of Bitcoin Core.
+
+With those details in mind, we know that a low-fee WT^ can compete with a high-fee WT^, if the low-fee WT^ is smaller.
+
+
+The Problem
+------------
+
+However, it occured to me that, when users attempt to move their money from side to main, they can only control the WTs themselves (the individual withdrawals, not the entire "WT^" CoinJoin). These WTs only influence the *outputs* side of the WT^, not the inputs side. In other words, users can shrink the side-to-main CoinJoin transaction, but only by shrinking the left half.
+
+This is not a big deal. The design calls for inputs to be selected first-in-first-out, which at least removes all incentive for users to try to strategically manipulate which inputs are selected.
+
+However, it is a nusance, because there is not a complete alignment of ownership-with-control here. Today's withdraw-ers are at the mercy of the size-shape-and-quantity of deposits that were made by other people, yesterday.
+
+Worse, someone might troll the sidechain by spamming it with many small deposits. Then, there might come a time when 1 MB of 'first in' transactions only sums to a small amount of BTC. This limits the quantity of BTC that can travel side-to-main during that withdrawal period.
+
+There is no real reason for anyone to do this intentionally (as the 'attacker' is committing 100% of his attack-funds to the very chain that he is 'attacking'), but it could happen naturally.
+
+
+If Only...
+------------
+
+As we know, address reuse does *not* help with block space. Thus, there is no way to exploit that fact that all of these inputs have the same script.
+
+My current best solution is to allow miners to combine multiple payments to the same script, into one output with a large BTC balance. Unfortunately, miners have no direct incentive to do this, as it consumes block space but provides no fees. They do, however, have an indirect incentive to do this, which is that it gives greater throughput to later inter-chain trasfers.
+
+* May be able to 'pay' for this, using sidechain BTC as tx-fees. This is because all the fees are paid to the same group of miners.
+
+Important WARNING: 'merging' any transactions would mean that the pre-merged group are no longer part of the UTXO set, obviously. However, the sidechain might have already used these unspent inputs to build a WT^ that is mid-vote! This means that miners can cancel a vote this way.
+
+So we should probably also:
+* freeze any inputs (ie, not allow them to be value-merged), if they are selected by the WT^. Fortunately the mainchain has this information, as it is exactly what must be inserted into a mainchain coinbase.
+
+Therefore, we should:
+
+1. Allow value-merging of coins that are 'in' the sidechain address ("4ht53.."). If there are unspent outputs of amount 4, 2, and 7, allow these to be sent to an output of amount 13.
+2. Except, don't allow value-merging if we are in the middle of voting on a WT^ which spends those outputs.
+
+
+Practical Details
+-------------------
+
+In practice, this introduces a kind of "address reuse", where each sidechain has a permanent address (in the mainchain address space). This address resembles an "account" much more than it resembles a traditional UTXO.
+
+We need to allow a withdrawal (WT^) to be initiated, and "voted" on, even though we won't actually know what the "from" address will be, or even how much BTC it contains. This is accomplished by having the initiation and voting be not on the WT^ itself, but on a version which has a few fields deterministically blinded.

@@ -1,0 +1,48 @@
+Janssens Hedge -- Proof
+
+Imagine that "World 1" is a world where we did fork, FORK=yes. World 2 is a world where did not fork, FORK=no.
+
+We buy a portfolio today, and we want the return to be the same in both worlds.
+
+It is desired that Portfolio_1_return = Portfolio_2_return.
+
+1.    return_1 = return_2
+
+      final_revenue_1      final_revenue_2
+2.    ---------------  =  -----------------
+      portfolio_cost       portfolio_cost
+
+ The cost of each portfolio should be the same in both cases, since we're buying it today.
+
+3.    revenue_1 = revenue_2
+
+4.    shares_owned * final_prices_in_case_1 = shares_owned * final_prices_in_case_2
+
+
+ Reminder:                   
+                       Short  Long
+ Upper Row    (Fork)     q5     q7
+ Lower Row (No Fork)     q6     q8
+
+ This portfolio only ever owns shares of two kinds (q6 and q7). Therefore, we can easily expand this out. p6_1 will denote "the final per share price of token 6, if we end up in world 1".
+
+
+5.    (q6 * p6_1) + (q7 * p7_1)  = (q6 * p6_2) + (q7 * p7_2)
+
+                   
+ We know that, in World 1 (Yes Fork), the price of q6 is equal to 0, because everything in the lower row is worth zero in such a case. In other words, p6_1 = 0.
+ We know that, in World 2 ( No Fork), the price of q7 is equal to 0, because everything in the upper row is worth zero in such a case. In other words, p7_2 = 0.
+
+ Finally, we know that, in World 2, the price of q6 is equal to 1, because the SegWit2x fork never existed and therefore it has a representative price of zero. In other words, we know that p6_2 = 1.
+
+ Let us substitute what we know.
+
+6a.    (q6 *  0  ) + (q7 * p7_1)  = (q6 *  1  ) + (q7 *  0  ) 
+
+6b.                   q7 * p7_1   =  q6
+
+ Rearrange.
+
+7.   q7 / q6  =  1 / p7_1
+
+ We now see that our hedged portfolio should contain shares that are purchased in a ratio of ( q7 / q6 ), and that this ratio will actually equal that of the ratio 1:p7_1 .

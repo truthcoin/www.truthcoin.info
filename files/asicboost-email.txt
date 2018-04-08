@@ -1,0 +1,46 @@
+Return-Path: <truthcoin@gmail.com>
+Received: from [192.168.1.101] (ool-45726efb.dyn.optonline.net. [69.114.110.251])
+        by smtp.googlemail.com with ESMTPSA id c189sm427941qkb.7.2017.06.15.09.57.18
+        for <info@getechlaw.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 15 Jun 2017 09:57:19 -0700 (PDT)
+To: info@getechlaw.com
+From: Paul Sztorc <truthcoin@gmail.com>
+Subject: Licensing / Purchase of ASICBoost Patent
+Message-ID: <8e1f9021-e897-b4df-657b-dc08e9398d2d@gmail.com>
+Date: Thu, 15 Jun 2017 12:57:25 -0400
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.1.1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+
+To whom it may concern,
+
+My name is Paul Sztorc, I am a prominent Bitcoin researcher and
+technologist.
+
+According to some, the ASICBOOST patent is currently be causing
+problems for the Bitcoin ecosystem. One way to make this headache go
+away, would be for someone to purchase the patent (in full) and, as a
+gesture of charity, place ASICBOOST into the public domain.
+
+Please think carefully - the patent may be worthless if the Core
+Developers alter the Bitcoin software so that ASICBoost cannot be used
+(which is precisely what many influential developers intend to do).
+Moreover, it is obvious that an overwhelming portion of miners (often
+situated in China) are already ignoring the patent and intend to do so
+in the future. As a direct result, these miners may drive competitors
+out of business, at which point *all* active Bitcoin miners would be
+using ASICboost, for free...in which case the patent is, again, worthless.
+
+However, I have rich friends who may want to bury this issue for
+political reasons. You may be able to profit handsomely from an
+otherwise worthless patent, purely as a result of short-lived political
+circumstances.
+
+If you are interested, please let me know your expectations.
+
+Thank you for your time,
+Paul

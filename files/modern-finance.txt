@@ -1,0 +1,202 @@
+﻿Modern Finance
+================
+
+
+Introduction
+-------------
+
+I have always been a good student. In particular, I have a strong natural curiousity, and a relentless focus on distilling consistency from a set of minimal principles (what physicists call the "first principles reduction").
+
+However, for an overlong time, I found it very hard to make any sense of [1] macroeconomics or of [2] finance.
+
+( I would later discover that much of this confusion was due to the inherent incentive to lie, in these fields. For example, see "Economics is haunted..." at: https://fee.org/resources/economics-in-one-lesson/#calibre_link-34 or "The problem of academic corruption..." at: https://www.theguardian.com/education/2012/may/21/heist-century-university-corruption ).
+
+At long last, I am happy to condense my notes on some of the more confusing puzzles of finance, for anyone who would like to read them. Enjoy!
+
+
+
+
+
+Borrowing, Debt, Repayment, and Velocity
+------------------------------------------
+
+
+1. It is possible to repay a loan of X amount, even if X is more cash than actually exists. This is because the loan can be repaid *over time*.
+    a. This touches upon the crucial "stock vs flow" distinction.
+    b. The distinction above _itself_ introduces the concept of "velocity" of money. It is, simply: the reuse of the same dollar multiple times.
+
+2. What is actually owed back to the bank is not cash. We could instead refer to it as "utility" or even as "social approval". If the rate is >0%, the borrower must get additional cash from somwhere (to make the interest payments). To do this, the borrower must convince someone else (the employer, or client) to willingly part with her cash. In order to do that, however, he must provide her with something that she finds valuable.
+
+Thus, for someone who is sufficiently popular, and who's popularity endures for a sufficient time, a loan can be repaid, even if the amount of the loan is many times the total amount of money in existence.
+
+
+
+----------------
+Creating Money
+----------------
+
+Well Known: Fractional Reserve, and the "Money Multiplier"
+
+
+Most of the money that *is* actually printed, is printed by private banks, through the "money multiplier".
+
+As the standard textbook would read: if "ABC Bank" started with nothing, and then received a $3 deposit, it would now have $3 of reserves. At a 10% reserve requirement rate (which has been the US policy for decades), ABC would have 0.30 of required reserves, and 2.70 of excess reserves. ABC loans the 2.70 to someone, who "deposits" it into a checking account. The process then repeats, this time with a 2.70 deposit, and it in fact it repeats indefinitely with smaller-and-smaller deposit magnitudes. This phenomenon translates ultimately to ( $3 / 10% ) = $30 of money being created in total. Banks "multiplied" the original $3 of "money" into $30 worth of money -- $27 worth of money was created.
+
+While this is not false, it is misleading because banks do not require reserves in order to lend -- as we will explain, the banks can *get* an unlimited amount of cash, at any time, by making use of the Federal Funds Rate (or the Discount rate). And, strictly speaking, they are only required to have the appropriate reserves at the end of the day. (And furthermore, the penalties for occasionally missing the target are negligible.)
+
+So, in practice, ABC Bank would make the loans (totaling $30) first, and find the required deposit (the $3) second. For banks, the reserves are merely some obscure rule --one among many-- which their lawyers require them to obey. Lord Adair Turner, formerly the UK's chief financial regulator, would say that the $30 had been created "ex nihilo" (ie, "out of nothing"). Then, later, $3 would be taken out of the economy and sequestered.
+
+The idea that private banks "create" money by making loans is not disputed. In fact, it is well known, even to undergraduate students of economics. Often, however, it is shocking and confusing to the layperson.
+
+Banks make money on every dollar they loan out (just as any retail store makes a small profit on every good that it sells). Banks therefore have an incentive to do as much lending as possible. Separately, banks can keep costs down by soliticing cash deposits from the public -- these deposits are free, as the modern customer does not insist on being paid interest (and, in fact, will in most cases pay the bank monthly fees for checking services). This is why a bank's advertisements emphasize loans, not personal banking. It is also why banks encourage depositors to maintain a "minimum balance" (or else, to make regular deposits, such that the aggregate balance of all checking accounts is likely to exceed some minimum, at any given time) -- every dollar deposited by a customer, is one which the bank no longer needs to borrow at end-of-day.
+
+
+--------------------------------------------------------------------
+Where does the *first* money come from? That which is multiplied?
+---------------------------------------------------------------------
+
+There is an ancient Egyptian tablet which says that "XYZ amount of grain is to be paid **to the bearer**". This is effectively a bond, payable not in USD but in grain. Nonetheless, this bond may have circulated as money, because of its superior portability, durability, etc.
+
+The first banknotes were literal coupons for stuff. Ie "one barrel of wheat", "one jug of milk", etc.
+
+(Theoretically, even a jug of milk is a kind of bond, which allows its user to collect "mouthfulls" of refreshing milk. Everything is a "Utility Bond" -- in the sense of Utility Theory.)
+
+The English word "bank" comes from Proto-Germanic "bankiz", which means something like "bench" or "table". The concept of a "riverbank" is probably of similar origin, translating to something like "shelf", or "barrier", (?) "container", (?) "where rowboats are stored". Hence, a bank is a place where items are placed, where they are stored and exchanged (ie, the "bankers bench").
+
+The most popular item to store was, of course, precious metals, which were themselves useful as money. The "banknotes" (translating to "notes of the bank" as of the 1300's), were a claim on coins held by the bank. They were bonds, payable in "bankcoins".
+
+During the First Congress of 1790, Alexander Hamilton created the first "national bank" of the United States (appropriately, it was named "First Bank of the United States"). It was funded through the sale of $10 million in stock, of which at least $2 million had to be paid in gold or silver.
+
+------------------------
+From Gold to Banknotes
+------------------------
+
+
+The Federal Reserve Act of 1913 created a system of regional banks, governed by a central Federal Reserve Board. Every nationally chartered bank must purchase stock in its regional bank, and deposit reserves there. Banks across the country rushed to sign up.
+
+Why?
+
+Well, "member banks became entitled to have access to discounted loans at the discount window in their respective reserve banks, to a 6% annual dividend in their Federal Reserve stock, and to other services." The Federal Reserve Act allowed banks to get emergency loans if they needed them. However, in return, they had to follow the FED's rules and regulations.
+
+Most important of all, the Act standardized the currency of the land. Having multiple different banknotes harms recognizability -- and partially works against the very purpose of money!
+
+To understand the nature of the problem, check out all the different banknotes, printed by all the different banks, in my home state of CT: http://www.antiquemoney.com/national-bank-notes/connecticut/
+
+Those older notes are very interesting. They allowed "the bearer" to collect gold "on demand", usually (but not necessarily) from "the treasury at Washington".
+
+From Wikipedia ( https://en.wikipedia.org/wiki/Gold_certificate ) :
+
+	Gold certificates, along with all other U.S. currency, were made in two sizes—a larger size from 1865 to 1928, and a smaller size from 1928 to 1934. The backs of all large-sized notes and also the small-sized notes of the Series of 1934 were orange, resulting in the nickname "goldbacks". The backs of the Series of 1928 bills were green ... Both large and small size gold certificates feature a gold treasury seal on the obverse, just as U.S. Notes feature a red seal, silver certificates (except World War II Hawaii and North Africa notes) a blue seal, and Federal Reserve Notes a green seal...
+
+	With the 1934 issue, the promise to pay was amended with the phrase "as authorized by law", as redemption was now restricted to only certain entities. The phrase "in gold coin" was changed to "in gold" as the physical amount of gold represented would vary with changes in the government price. 
+
+But, in princple, anyone who had physical gold could go to a mint and have it made into coins. And anyone could take these coins to a bank a deposit them for banknotes.
+
+And, after the 1913 Act, all the banknotes looked the same.
+
+---------------
+Interest Rates
+----------------
+
+The Federal Open Market Committee (FOMC) was created via the Banking Act of 1933.
+
+Helpful Links: 
+
+* History of FOMC Meetings: federalreserve.gov/monetarypolicy/fomc_historical_year.htm
+* Attempts to hit the FFR Target: apps.newyorkfed.org/markets/autorates/fed%20funds
+* Commercial Banks invest in a *lot* of US Treasury Bonds : bloomberg.com/news/articles/2015-02-23/bofa-leads-charge-into-bonds-as-banks-build-2-trillion-hoard
+
+
+Interest Rate Hierarchy -- Some interest rates are connected to each other. Here they are, from highest to lowest.
+
+
+# | Flow of Cash     | Nickname       | Description
+--|------------------------------------------------------------------------------------------------------------------------------------------------------
+1 | Bank --> You     | "Mortgage/etc" | Determines how expensive "real" (non-financial) projects will be, and which projects become engaged.
+2 | Bank --> Clients | "Prime"        | Banks charge this to their 'best' (nonbank) clients.
+3 | FED  --> Banks   | "Discount Wnd" | FED charges this to banks, if they can't get a loan from other banks.
+4 | FED  --> Banks   | "OMO *Loan*"   | FED will use cash to buy US Treasury Bonds from anyone (mainly, commercial banks), at a price which implies this rate.
+5 | Bank <--> Bank   | "Fed Funds"    | Rate that banks charge each other.
+6 | Banks --> FED    | "OMO Borrow"   | Fed will sell US Treasury Bonds to anyone (mainly, commercial banks), at a price which implies this rate.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+( By "Banks", I mean only nationally-chartered commercial banks, of course. Investment banks, for example, do not do any lending. By "OMO", I of course mean "Open Market Operations". )
+
+If we assume that "the FED" = "the federal government", then the act of "selling a US Treasury Bond" (in the final row) is equivalent to an act where "the government is borrowing money". So #6 = Government is borrowing.
+
+Correspondingly, we may wonder if the reverse procedure (in the fourth row) is equivalent to an act where the government is lending money. They are similar in that the government is extending cash to individuals. However, there is no expectation of repayment. This is closer to "printing money". So #4 = Government is printing.
+
+And that is where the $3 comes from. The FED creates it at will, and uses it to purchase things. Originally, the FED was banned from owning government debt -- and originally it was not permitted to invest in stocks, bonds, real estate, or other assets. But gradually over time those restrictions have all been lifted.
+
+Nonethless, it might be proper to insist on saying that the FED created the $3 "in order to buy a US Treasury Bond". But where do Treasury Bonds come from? Of course, the US Government spends money, and if it spends more than it has, it must borrow the difference. It thus creates a bond (aka, writes an IOU onto a piece of paper), and auctions these off every Tuesday.
+
+https://www.treasurydirect.gov/
+https://www.treasurydirect.gov/instit/auctfund/work/work.htm
+https://www.treasurydirect.gov/instit/annceresult/press/press_secannpr.htm
+
+
+----------------------
+What Does the FED Do?
+----------------------
+
+The FED's open market operations are designed to heat-up or cool-down the economy.
+
+Lower interest rates make it cheaper to borrow money, and this leads to more lending. Someone may decline to buy a house, if it costs "$500 / month for 360 months" to own. But if it costs only "$400 / month for 360 months", he pay buy it. This results in a new transaction (ie, the seller has sold his home), and it results in the creation of new debt (and, as we have seen, new money).
+
+The ultimate result of this is that real wages are constantly plummeting at accelerating rates. This makes traditional employment (at a fixed salary) much more attractive to employers. Employment skyrockets with the change in debt, the historical correlation over the past 25 years is +.92, implying an overlap of 84.6% (which is astounding).
+
+"Unemployment vs Change in Debt"
+http://www.debtdeflation.com/blogs/2014/02/02/modeling-financial-instability/
+
+
+comment -- interestingly the new money that is printed does not go away (for example, in the event of bankruptcy). Recall that a desert island might have a mere 100 coins, but that a bank might have 10 gold coins in reserve, and from there loan out 100 and expect to be repaid 140 (in, for example, 28 payments of 5). Here we again see the critical stock vs flow distinction -- employment is a flow (hours worked per year), not a stock (total cumulative hours worked).
+
+Aside -- Wouldn't it be better to measure "hours worked per year"? We could measure "desired hours" and "actual hours", and at different wages. I would enjoy the act of dividing my salary by the number of hours I actually "work", which is far greater than 40. Writers, journalists, college professors, musicians, etc, may "work" for either 8 hours a week, or 80, depending on their level of intrinsic motivation.
+
+Given that banks will make all the loans they possibly can (as they are literally printing money to do so), the system's only constraint is on the borrower's willingness to take out the loan, and ability to repay. Interest rates make it easier to repay loans (of a given amount), so a FED action which decreases interest rates will have the effect of injecting new loans/money/transactions into the economy.
+
+
+
+
+The Two Inflations
+-------------------
+
+When people complain
+
+1. Price Inflation (of which there are several, CPI being good, PPI, etc)
+2. Inflation Tax -- another thing altogether
+
+The first can be an effective metric of the cost of living expressed in dollars. But it is likely useful for nothing else. Grounded, approprtiately, in utility theory, monetary economist Scott Sumner argues that the metric is "pointless": http://econlog.econlib.org/archives/2014/12/why_debates_ove.html
+
+The second is rather straightforward -- if someone prints money, they have effectively taxed all nominal money balances (and they have also taxed the net present value of contracts for fixed dollar payments [most importantly, hourly wages or annual salary, but also supplier contracts and the like]). The printer has, now, a greater claim on society's resources, despite not adding to the stock of resources. His gain is therefore someone else's loss.
+
+The implications of the inflation tax are as explicity political as anything can be. The decision is who has the "right" to certain resources -- comparable to the rights granted to a King or to Noblemen or yeoman or slaves or pet animals or what-have-you.
+
+The crucial matter at hand, is that the two concepts are entirely different from each other. A high inflation tax will cause prices, in general, to rise more than they otherwise would, but other than that there is absolutely no relationship between the two. The price of a given good is determined by technological factors of production (which reduce it) as well as by the fashions of the day (which can send it in any direction) or the circumstances of war or catastrophe. In fact, the very state of affairs I have just described, that A causes B, proves that A and B are separate concepts.
+
+Maynard Keynes famously said that "you can't push on a string", meaning that you can give people more dollars, but you can't force people to spend them.
+
+
+
+The Two Causes of Deflation
+-----------------------------
+
+In contrast, when people discuss deflation, they refer exclusively to one thing: a sustained fall in prices. (No one speaks of a "deflation rebate", though such a thing must surely exist.)
+
+http://people.ischool.berkeley.edu/~hal/people/hal/NYTimes/2003-06-04.html
+
+Deflation, then, is subject to the 'usual rules' of prices and therefore reveals to us either that [1] supply has increased, or [2] demand has fallen. The first is universally agreed to be desirable, but the second is more problematic.
+
+Varian cites problems during the Gilded Age (post-Civil War), but he and I would agree that they could easily have been addressed (for example, if farmers had been granted access to efficient futures markets). In contrast, he cites the Great Depression as an example of the more problematic variety.
+
+
+The Paradox of Thrift
+------------------------
+
+If 40% of a nation were killed suddenly by earthquake, the economy would be affected profoundly. Contrast this with a situation where 40% of the economy simply stops spending money (either because they are unemployed, and cannot spend it, or because they prefer to save the money for some reason).
+
+Contrast also a situation where a humany body experiences a stroke, heart attack, or other circulatory problem -- death can result. If a leg or arm "falls asleep" at an imopportune time (say, upon the arrival of a predatory beast, or the attack of some rival), it may also cause death.
+
+Thrift may be bad, but extravagence can also be bad, as if a huge part of the economy were placed on stimulants, or if the human body were forced to remain on adrenaline for a period of time. Performance in the immediate future would be greatly increased, but over the long term there would be a neglect of essential maintenance activities that would ultimately be devastating.
+
+Inter-relatedness is a double-edged sword. Without it, modern life would be impossible. Yet it somewhat imperils us. Similarly for multicellularism -- hence the profound redundancy in biology (the human body has two of nearly everything important, the brain can still work even if partly removed, layers of skin that constantly regenerate / colonies of digestive bacterial cells that constantly adjust to diet, instincts for friendship and pair-bonding).

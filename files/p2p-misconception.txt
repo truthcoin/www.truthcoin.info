@@ -1,0 +1,5 @@
+It is a common misconception that Satoshi created a "decentralized" network.
+
+The Bitcoin Whitepaper uses the term "peer to peer" in lieu of "decentralized". I discuss the important difference between these words here: http://www.truthcoin.info/blog/measuring-decentralization/#a-peer-to-peer-electronic-cash-system
+
+Also, I very carefully chose the word "attack" in "no single point of attack". Satoshi understood that "a money system" would be tied inexorably to "an incentive to attack the system". Satoshi's fear of attacks, extended as far as to fear attacks from Governments, as seen here: http://www.truthcoin.info/images/satoshi-principle.png
