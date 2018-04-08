@@ -7,14 +7,14 @@ date: 2018-04-07 01:00:00
 
 > Has something happened to "Bitcoin Maximalism"? Is Bitcoin "Qwerty" (established and standardized) or "Esperanto" (impractical and perfectionistic)? 
 
+    Israel is a scattered sheep;
+    --Jeremiah 50:17
+
 ![image](/images/btc-decline.png)
 
 
 ## Why Bitcoin Maximalism
 
-
-    Israel is a scattered sheep;
-    --Jeremiah 50:17
 
 In the past I've been very dismissive of Altcoins, and endorsed the philosophy of "Bitcoin Maximalism" (that Bitcoin is all you need).
 
