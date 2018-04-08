@@ -15,7 +15,7 @@ title: Random Files
 * 09.24.2017 - [Modern Finance](/images/modern-finance.txt)
 * 09.24.2017 - [True Money is Purchasing Power](/images/true-money/)
 * 10.12.2017 - [Fork Futures -- Appendix](/images/fork-futures-trading-appendix/)
-* 26.03.2018 - [Marketcap Isn't Bulls**t](/on-marketcap/)
+* 26.03.2018 - [Marketcap Isn't Bulls**t](/files/on-marketcap/)
 
 
 

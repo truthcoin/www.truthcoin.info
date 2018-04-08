@@ -1,8 +1,8 @@
 
 
-   Marketcap Isn't Bulls\*t
-   Paul Sztorc
-   March 26, 2018
+    Marketcap Isn't Bulls\*t
+    Paul Sztorc
+    March 26, 2018
 
 
 Is "market capitalization" (price per unit \* units in existence) a poor indicator of a network's value? Some say so.
@@ -23,8 +23,8 @@ This anti-inductiveness is the big reason why marketcap is inescapably optimal -
 
 You see, there will not be any "right" price about anything. Not now, nor ever. That would require us to have [perfect knowledge about everything which is impossible](/files/fallibalism/). So the price will always be wrong, and we will always need to update it. Thus, the crucial question is: "Which metric updates the fastest?" and the answer is: the marketcap.
 
-See [twitter thread for more](https://twitter.com/Truthcoin/status/970457574494670848).
-See [2nd Twitter thread](https://twitter.com/Truthcoin/status/976802629933322240) -- some say MKTCP is a "biased" or "gameable metric", but all of the alternative metrics are much much worse. Also "shades of grey" distinction between equity, currency, and commodity.
+* See [twitter thread for more](https://twitter.com/Truthcoin/status/970457574494670848).
+* See [2nd Twitter thread](https://twitter.com/Truthcoin/status/976802629933322240) -- some say MKTCP is a "biased" or "gameable metric", but all of the alternative metrics are much much worse. Also "shades of grey" distinction between equity, currency, and commodity.
 
 -----
 

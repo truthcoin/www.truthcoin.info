@@ -5,12 +5,9 @@ comments: true
 date: 2018-04-07 01:00:00
 ---
 
-
+> Has something happened to "Bitcoin Maximalism"? Is Bitcoin "Qwerty" (established and standardized) or "Esperanto" (impractical and perfectionistic)? 
 
 ![image](/images/btc-decline.png)
-
-
-> Has something happened to "Bitcoin Maximalism"? Is Bitcoin "Qwerty" (established and standardized) or "Esperanto" (impractical and perfectionistic)? 
 
 
 ## Why Bitcoin Maximalism
@@ -24,7 +21,7 @@ In the past I've been very dismissive of Altcoins, and endorsed the philosophy o
 Here were three of my biggest reasons:
 
 1. **Network Effects** -- In the past, Bitcoin had 90+% of the crypto market, and the remaining 10% was distributed among many terrible projects. Thus, Bitcoin's network effect effectively shielded it from competition.
-2. **Utility** -- With a few important exceptions, no Altcoin offered anything new to the user. Instead, the alternative explanation (that the Altcoin-creators were just [taking people's money](~youtube--history-of-dash~)) was overwhelmingly accurate.
+2. **Utility** -- With a few important exceptions, no Altcoin offered anything new to the user. Instead, the alternative explanation (that the Altcoin-creators were just [taking people's money](https://www.youtube.com/watch?v=t4VqRG2jCPs&feature=youtu.be&t=52m23s)) was overwhelmingly accurate.
 3. **Sidechains** -- I assumed sidechains would be eventually invented. At which point, they'd absorb features of rival blockchains.
 
 The first reason, in particular, has not held up well over time. 
