@@ -117,13 +117,13 @@ However, for Blockchain Fusion, we *also* aim to leave the *relative wealth* of 
 
 So we now do some **special steps**:
 
-1. In the mainchain (Bitcoin Core): hardfork in order to counterfeit new BTC, and immediately deposit these BTC to each sidechain, such that the post-hardfork "coin proportions" are equal to present day[^4] "marketcap proportions" (see table below).
+1. In the mainchain (Bitcoin Core): hardfork in order to counterfeit new BTC, and immediately deposit these BTC to each sidechain, such that the post-hardfork "coin proportions" are equal to present day[^1] "marketcap proportions" (see table below).
 2. Inside each sidechain itself: modify the GUI code, such that it displays altered coin amounts to the user. Specifically, it displays lower amounts than those stored in the database of the blockchain itself -- the amounts are adjusted downward to compensate for lower "marketcap proportion" as well as higher "initial Altcoin supply". The "side-to-main" transfers must also be rescaled with this in mind.
 
 
 ![image](/images/fusion-table.png)
 
-[^4]: To make the metric robust to last-minute manipulation, it would be best to take an average over some two week period.
+[^1]: To make the metric robust to last-minute manipulation, it would be best to take an average over some two week period.
 
 
 
@@ -375,9 +375,9 @@ I think it would be quite healthy for a community to be made up of people who ea
 
 #### What do you say to holdouts (incl [Peter Thiel](https://www.cnbc.com/2018/03/15/peter-thiel-is-betting-on-bitcoin-to-be-the-online-equivalent-to-gold.html)) who think Bitcoin Core will just win on its own merits, ie without help from Fusion? #### {#holdouts}
 
-I believe in network effects just as much as them, if not more!! But the one thing I would ask them to explain is [the rise of the "Others" category](https://coinmarketcap.com/charts/#dominance-percentage). We've observed this phenomenon consistently over the past five years[^n], and it seems to be an empirical challenge to the network-effect theory.
+I believe in network effects just as much as them, if not more!! But the one thing I would ask them to explain is [the rise of the "Others" category](https://coinmarketcap.com/charts/#dominance-percentage). We've observed this phenomenon consistently over the past five years[^2], and it seems to be an empirical challenge to the network-effect theory.
 
-[^n]: In the beginning, this metric stood at zero. From there, it rose to 1.2% by March 2013, and then steadily to 5.3% by March 2017. From 3/2017 to 3/2018, in accelerated erratically to 18.09%, and is now the #2 category. It has been ahead of Ethereum (the #2) for the last three months.
+[^2]: In the beginning, this metric stood at zero. From there, it rose to 1.2% by March 2013, and then steadily to 5.3% by March 2017. From 3/2017 to 3/2018, in accelerated erratically to 18.09%, and is now the #2 category. It has been ahead of Ethereum (the #2) for the last three months.
 
 See: ["On the Use of Marketcap as a Measure of Cryptocurrency Value"](/files/on-marketcap/)
 
