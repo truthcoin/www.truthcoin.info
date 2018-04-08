@@ -446,6 +446,7 @@ Metcalfe's law states that Bitcoin would be more valuable in general, if it were
 
 I am not sure if Fusion is the best way to go, but someone will probably do it eventually. So I am glad to have written down my thoughts on it.
 
+------
 
 ### Footnotes
 
