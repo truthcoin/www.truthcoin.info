@@ -30,7 +30,7 @@ The first reason, in particular, has not held up well over time.
 
 The [market share (among investors)](https://coinmarketcap.com/charts/#dominance-percentage) of "Bitcoin Core" (the healthiest candidate) has fallen to 45% or so.
 
-Many people, myself included, believe that this downturn is only temporary. But as new data rolls in, it is time to take seriously the alternative theory: that the "network effect sheild" has departed -- or at least significantly weakened. These data are: that it has now been over two years since Bitcoin was last above 90%; it has been 12 months since it was above 80%; it has been under 50% for 7 of the last 12 months, including the most recent three months; during which it reached its all-time low (of 32%, under a third).
+Many people, myself included, believe that this downturn is only temporary. But as new data rolls in, it is time to take seriously the alternative theory: that the "network effect shield" has departed -- or at least significantly weakened. These data are: that it has now been over two years since Bitcoin was last above 90%; it has been 12 months since it was above 80%; it has been under 50% for 7 of the last 12 months, including the most recent three months; during which it reached its all-time low (of 32%, under a third).
 
 Most perplexing is the relentless, stable, multi-year progress of the "Others" category. This is a direct challenge to the logic of network effects.
 
@@ -62,7 +62,7 @@ Today's Altcoins do more than just offer cheap payments.
 
 They also offer *permissionless innovation*. Certain ideas, such as Monero, Siacoin, Namecoin, and Zcash, cannot efficiently be tested in any other way. Many ideas that I originally felt were laughable, such as Dash's "marketing budget", have nonetheless proven to be effective[^1].
 
-[^1]: As Nassim Taleb says in [his most recent book](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/042528462X), "Rationality does not depend on explicit verbalistic explanatory factors; it is only what aids survival, what avoids ruin ... Rationality is risk management, period." Many Bitcoin supporters today have switch from being pro-Taleb to militantly anti-Taleb, and I think they've switched without even realizing it.
+[^1]: As Nassim Taleb says in [his most recent book](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/042528462X), "Rationality does not depend on explicit verbalistic explanatory factors; it is only what aids survival, what avoids ruin ... Rationality is risk management, period." Many Bitcoin supporters today have switched from being pro-Taleb to militantly anti-Taleb, and I think they've switched without even realizing it.
 
 Of course, these experiments *should* have been done on sidechains (which we will turn to in a moment).
 
@@ -117,7 +117,7 @@ Finally, what of the hope that sidechains tech will obliterate the Altcoins?
 
 No one alive is in a better position to answer than I. After Blockstream gave up on sidechains in 2015[^6], I wrote my own idea in November of that year. It remains, to this day, the only concrete proposal for P2P sidechains, let alone the only implementation. I've presented on sidechain [theory](https://www.youtube.com/watch?v=xGu0o8HH10U&list=PLw8-6ARlyVciMH79ZyLOpImsMug3LgNc4&index=1) and [risks](https://www.youtube.com/watch?v=0goYH2sDw0w&list=PLw8-6ARlyVciNjgS_NFhAu-qt7HPf_dtg&index=1), and at Scalings II and III (the II presentation was a small "WIP" and these were not recorded, I believe).
 
-[^6]: I feel it necessary to explain that Blockstream has two projects which it repeatedly claims are sidechains but which actually are not. They are not sidechains because they lack the distinctive feature --the "two way peg"-- and as a result neither can be used *functionally* as a sidechain (ie, Bitcoin users cannot opt in to new innovative features). The two projects are "Elements" and "Liquid" -- the first is just an Altcoin (in precisely the same way that LTC, XCP, and ETH are Altcoins), and the second is just a multisig wallet. In fact, the phrase "federated sidechain" is nonsensical: the major innovation behind all "chains" (especially Bitcoin itself) is Mining, and mining is distinctive because it *lack* a set of signers.  --- ---  A [few brave](http://tpbit.blogspot.com/2015/10/liquid-when-sidechains-say-fuck-it.html) [people spoke](https://soundcloud.com/bitcoinuncensored/the-2015-scammys-the-blockchains-preeminent-achievement-awards#t=52:37) openly about their utter shock and confusion. But most people made a strong effort to mask their disappointment.
+[^6]: I feel it necessary to explain that Blockstream has two projects which it repeatedly claims are sidechains but which actually are not. They are not sidechains because they lack the distinctive feature --the "two way peg"-- and as a result neither can be used *functionally* as a sidechain (ie, Bitcoin users cannot opt in to new innovative features). The two projects are "Elements" and "Liquid" -- the first is just an Altcoin (in precisely the same way that LTC, XCP, and ETH are Altcoins), and the second is just a multisig wallet. In fact, the phrase "federated sidechain" is nonsensical: the major innovation behind all "chains" (especially Bitcoin itself) is **mining**, and mining is distinctive because it *lack* a set of signers.  --- ---  A [few brave](http://tpbit.blogspot.com/2015/10/liquid-when-sidechains-say-fuck-it.html) [people spoke](https://soundcloud.com/bitcoinuncensored/the-2015-scammys-the-blockchains-preeminent-achievement-awards#t=52:37) openly about their utter shock and confusion. But most people made a strong effort to mask their disappointment.
 
 
 My view is that the scaling conflict *is* important, and that sidechains [are the best way to resolve it](http://www.drivechain.info/faq/#scaling). In fact, my current view is that *sidechains are the only way* to resolve the conflict. This is because the disagreement is actually about "node costs", and not about transaction throughput.
@@ -181,7 +181,7 @@ Crypto-commentators care a lot about their reputation[^8], as it can lead to luc
 
 Moreover, BTC-professionals take pride in their work (as they absolutely should).
 
-And tus, no one wants to be on the hook for a "BTC disaster".
+And thus, no one wants to be on the hook for a "BTC disaster".
 
 And sidechains, along with their benefits, do present a scary new risk. Unlike the "code risks" in, for example, P2SH or CLTV, these risks can not be systematically hunted down and eliminated. So, commentators may see themselves as in a similar situation to the FDA [in the US], or an academic IRB: they will be disproportionately blamed if something goes wrong, but will not disproportionately benefit if everything goes well.
 
@@ -191,7 +191,7 @@ These risks are freedom-enabling, and entirely opt-in. But who knows if the YouT
 
 For existing Bitcoin Core developers specifically, the above position might be taken even further.
 
-Instead of the example of the FDA commenting on a drug, we might instead give an example where some of the world's most prestigious doctors are asked to comment on an "magic infinite health pill" that was invented by a non-doctor.
+Instead of the example of the FDA commenting on a drug, we might instead give an example where some of the world's most prestigious doctors are asked to comment on a "magic infinite health pill" that was invented by a non-doctor.
 
 It is a clear conflict of interest -- if society adopts the pill, the doctors will be out of a job. But we wouldn't expect these sophisticated doctors to object so directly! Instead, we would expect them to resort to various pretexts -- they would say "Well, we had better make sure that this pill is absolutely safe before we tell everyone to take it". Even though by the time that absolute safety is established, many people will have likely died needless deaths.
 
@@ -261,7 +261,7 @@ I could have included more groups, especially "Industry", "Democratic Developers
 
 ### Qwerty and Esperanto
 
-For better or for worse, the dumb people of the world form an [intransigent minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15), because they literally *cannot* appreciate good ideas. This one reason why we are stuck with the QWERTY keyboard, for example (even those who type in Dvorak are doing so *on* a QWERTY keyboard layout). English is the international language, despite being awkward and hard to learn -- Esperanto, in contrast, is very easy to learn but is spoken by no one. If you disqualify Esperanto, then consider French: it is easy to learn (compared to English), and was once the international language of diplomacy, once learned internationally by the upper classes and backed by a powerful nation. Yet today they all speak English in Quebec.
+For better or for worse, the dumb people of the world form an [intransigent minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15), because they literally *cannot* appreciate good ideas. This is one reason why we are stuck with the QWERTY keyboard, for example (even those who type in Dvorak are doing so *on* a QWERTY keyboard layout). English is the international language, despite being awkward and hard to learn -- Esperanto, in contrast, is very easy to learn but is spoken by no one. If you disqualify Esperanto, then consider French: it is easy to learn (compared to English), and was once the international language of diplomacy, once learned internationally by the upper classes and backed by a powerful nation. Yet today they all speak English in Quebec.
 
 The fact of the matter is that anything with network effects is going to ultimately be ruled by *the middle* of the bell curve: the average people.
 
