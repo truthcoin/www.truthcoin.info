@@ -210,81 +210,81 @@ Reminder: for simplicity, the story focuses on Class I and II flaws.
 
 ### I
 
-Fred: "Here's that transaction you wanted. Wow, it says '300 BTC to Sally'. Is that you?"\
-Sally: "Yes. I'm selling a SpaceShip to Peter Thiel so he can visit Jupiter.""
-Fred: "Cool, that sounds normal. Ok here is your Merkle Branch and here are all of the recent headers."
-Sally: "Yes, I can easily check the Merkle Branch by taking a few hashes, and it is also easy for me to check that the headers all meet the difficulty requirement. Wow. Praise Satoshi."
-F: "Praise Satoshi."
-S: "But how do I know this header is valid? Maybe the miners are misbehaving, or slacking off? Peter Todd told me that SPV sucks and stuff."
-F: "Ah, well you may be interested in some of my new services."
-S: "Oh? What are they?"
+    Fred: "Here's that transaction you wanted. Wow, it says '300 BTC to Sally'. Is that you?"
+    Sally: "Yes. I'm selling a SpaceShip to Peter Thiel so he can visit Jupiter.""
+    Fred: "Cool, that sounds normal. Ok here is your Merkle Branch and here are all of the recent headers."
+    Sally: "Yes, I can easily check the Merkle Branch by taking a few hashes, and it is also easy for me to check that the headers all meet the difficulty requirement. Wow. Praise Satoshi."
+    F: "Praise Satoshi."
+    S: "But how do I know this header is valid? Maybe the miners are misbehaving, or slacking off? Peter Todd told me that SPV sucks and stuff."
+    F: "Ah, well you may be interested in some of my new services."
+    S: "Oh? What are they?"
 
 ### II
 
-F: "The first is called 'Invalidity Insurance', and you pay me $ 0.007 , but if you later find that an invalid [or double-spent] txn was included in this block [identified by hashMerkleRoot], you submit proof of this to the *real* blockchain, and I will owe you $1000 over there."
-S: "And any flaw will do?"
-F: "Yes, any type of evidence that the block is invalid."
-S: "Wow, you wouldn't do that unless you were certain that it wouldn't happen."
-F: "Yes, my computer has checked this block, and all of its txns, for invalidity. They are all valid."
-S: "Interesting."
-F: "But if you haven't found any flaws in 12 hours [72 blocks], the insurance expires."
-S: "I see. But this block should have fully propagated to the entire network of full nodes within 10 minutes."
-F: "Yes, and 12 hours is longer than 10 minutes by a factor of 72."
-S: "Well, as long as there is an *incentive* for fraud-laden information to propagate, it should definitely become available to the public within 12 hours."
-F: "Yes, incentives are the crucial thing."
+    F: "The first is called 'Invalidity Insurance', and you pay me $ 0.007 , but if you later find that an invalid [or double-spent] txn was included in this block [identified by hashMerkleRoot], you submit proof of this to the *real* blockchain, and I will owe you $1000 over there."
+    S: "And any flaw will do?"
+    F: "Yes, any type of evidence that the block is invalid."
+    S: "Wow, you wouldn't do that unless you were certain that it wouldn't happen."
+    F: "Yes, my computer has checked this block, and all of its txns, for invalidity. They are all valid."
+    S: "Interesting."
+    F: "But if you haven't found any flaws in 12 hours [72 blocks], the insurance expires."
+    S: "I see. But this block should have fully propagated to the entire network of full nodes within 10 minutes."
+    F: "Yes, and 12 hours is longer than 10 minutes by a factor of 72."
+    S: "Well, as long as there is an *incentive* for fraud-laden information to propagate, it should definitely become available to the public within 12 hours."
+    F: "Yes, incentives are the crucial thing."
 
 ### III
 
-S: "Wait, maybe part of the block is *missing*. Sometimes, I've heard, miners will mine on a block without even knowing what's inside it! What happens if they never learn? How will we know what's there!?"
-F: "Well, I actually do have the entire block, its all here."
-S: "Really?"
-F: "I definitely do."
-S: "Can you prove it?"
-F: "Yes. In fact it is my second new service offering."
-S: "Cool."
-F: "First: here's the last txn in this block. You can tell because we only went 'right' down the Merkle Tree, never left; or else we hashed something twice (which indicates that this level had an odd number of items). And you can compare this Merkle Branch to the one I just gave you for your transaction. They have the same root."
-S: "Yes, you seem to have indeed given me last transaction, of the Merkle Tree that my txn is in."
+    S: "Wait, maybe part of the block is *missing*. Sometimes, I've heard, miners will mine on a block without even knowing what's inside it! What happens if they never learn? How will we know what's there!?"
+    F: "Well, I actually do have the entire block, its all here."
+    S: "Really?"
+    F: "I definitely do."
+    S: "Can you prove it?"
+    F: "Yes. In fact it is my second new service offering."
+    S: "Cool."
+    F: "First: here's the last txn in this block. You can tell because we only went 'right' down the Merkle Tree, never left; or else we hashed something twice (which indicates that this level had an odd number of items). And you can compare this Merkle Branch to the one I just gave you for your transaction. They have the same root."
+    S: "Yes, you seem to have indeed given me last transaction, of the Merkle Tree that my txn is in."
 
 ### IV
 
-F: "The tree is eleven items deep, so you know that there are at most 2^11 = 2048 txns in this block. And you know how many times you hashed something with itself, and when, so you know what the Tree looks like. In particular, you know the exact length of its base."
-S: "Wow, I guess I knew more than I thought! Do I really know all of that?"
-F: "Yes."
+    F: "The tree is eleven items deep, so you know that there are at most 2^11 = 2048 txns in this block. And you know how many times you hashed something with itself, and when, so you know what the Tree looks like. In particular, you know the exact length of its base."
+    S: "Wow, I guess I knew more than I thought! Do I really know all of that?"
+    F: "Yes."
 
 ![images](/images/fp-n-from-d.png)
 
-F: "All items need to be the same *depth* into the Merkle Tree. Or else there will be a mismatch -- a situation where one is taxed with finding X that, when hashed twice, produces a value that is equal to hashing "a real txn" once. In other words, an 'uneven Merkle tree' would require its maker to find X such that h(h(X)) = h(transaction). But this is a 'hash collision' (considered impossible) -- such an X cannot be found."
+    F: "All items need to be the same *depth* into the Merkle Tree. Or else there will be a mismatch -- a situation where one is taxed with finding X that, when hashed twice, produces a value that is equal to hashing "a real txn" once. In other words, an 'uneven Merkle tree' would require its maker to find X such that h(h(X)) = h(transaction). But this is a 'hash collision' (considered impossible) -- such an X cannot be found."
 
 ![images](/images/fp-known-and-unknowable.png)
 
 Fun fact: something cannot be both a Sha256 hash and also be a valid Bitcoin txn. For starters, the [minimum Bitcoin txn size is 60 bytes](https://bitcoin.stackexchange.com/questions/68811/what-is-the-absolute-smallest-size-of-the-data-bytes-that-a-blockchain-transac) (too big to be a 32-byte hash).
 
 
-S: "I think I understand -- a Merkle Tree is geometrically similar to an [Isosceles Triangle](http://mathworld.wolfram.com/IsoscelesTriangle.html) when there are no duplicates, and it approaches a [Right Triangle](https://en.wikipedia.org/wiki/Right_triangle#/media/File:Rtriangle.svg) when the last transaction is duplicated many times. The depth of the final transaction is depth of the triangle itself. And because of the Repeat Rule, if I just know the right edge, I know how many of the base elements (elements at the base of the triangle) are duplicates."
-F: "You do indeed! This block, the one with your 300 BTC txn, has a Merkle Tree that is eleven units deep -- ie a triangle that is 11 units tall. And, from the final txn (I just sent you), you know that you only double-hashed once, and only at the very end. So you know that this Merkle tree contains exactly 2047 elements."
-S: "Ah, very clever... And if, instead, the depth were ten units, and all were self-hashed (except the first of course), I would know that there were only 513 unique final elements."
-F: "Exactly."
-S: "Wow."
-F: "And what if I gave you a new tree, and a new "last txn" with a Merkle path: [A, (self), B, C, (self)] ?"
-S: "It is five units deep, and has 23 unique elements in its base."
-F: ["Precisely correct."](/images/merkle-hw-solution.png)
-S: "I've learned so much!"
-F: "Now, one last thing: each of these final elements is either known or unknown. And, if known, it must either be a valid txn or NOT be one. So each final element must either be: [1] a valid txn, [2] an invalid txn, or [3] a piece of information that no one can discover."
-S: "That seems straightforward."
+    S: "I think I understand -- a Merkle Tree is geometrically similar to an [Isosceles Triangle](http://mathworld.wolfram.com/IsoscelesTriangle.html) when there are no duplicates, and it approaches a [Right Triangle](https://en.wikipedia.org/wiki/Right_triangle#/media/File:Rtriangle.svg) when the last transaction is duplicated many times. The depth of the final transaction is depth of the triangle itself. And because of the Repeat Rule, if I just know the right edge, I know how many of the base elements (elements at the base of the triangle) are duplicates."
+    F: "You do indeed! This block, the one with your 300 BTC txn, has a Merkle Tree that is eleven units deep -- ie a triangle that is 11 units tall. And, from the final txn (I just sent you), you know that you only double-hashed once, and only at the very end. So you know that this Merkle tree contains exactly 2047 elements."
+    S: "Ah, very clever... And if, instead, the depth were ten units, and all were self-hashed (except the first of course), I would know that there were only 513 unique final elements."
+    F: "Exactly."
+    S: "Wow."
+    F: "And what if I gave you a new tree, and a new "last txn" with a Merkle path: [A, (self), B, C, (self)] ?"
+    S: "It is five units deep, and has 23 unique elements in its base."
+    F: ["Precisely correct."](/images/merkle-hw-solution.png)
+    S: "I've learned so much!"
+    F: "Now, one last thing: each of these final elements is either known or unknown. And, if known, it must either be a valid txn or NOT be one. So each final element must either be: [1] a valid txn, [2] an invalid txn, or [3] a piece of information that no one can discover."
+    S: "That seems straightforward."
 
 ### V
 
-F: "Great. So, you can see that your block contains L=2047 txns."
-S: "It seems to."
-F: "Now here is my second service...I charge even less, just $ 0.0001 for this one! You pick a bunch[^5] of integers[^5] randomly, between 1 and L, and I'll give you their txns and paths. If I can't do as promised, I'll give you a boatload of money."
-S: "You seem really confident that you can do it."
-F: "I sure can! You can coordinate with your friends to pick the specific txns that you think I'm missing. I promise I've got them all!"
-S: "Wow, cool. I'll take it."
-F: "One thing, though. If we sign our deal and you don't reveal your integers[^6], it will look like I can't meet the challenge. I mean, I totally can, but I don't know which txns to reveal because you didn't tell me. So if you don't hand them over in a timely fashion, I will need to be reimbursed in full, and then some."
-S: "Eh, OK I guess. I guess for my 300 BTC txn, I really shouldn't be stingy about locking up a much smaller amount."
-F: "You only need to lock it up for a few seconds. Believe me, I don't want my money trapped pointlessly in this channel for any length of time either."
-S: "Ok!"
-F: "Great. In our payment channel, we are currently at pair (A,B). You will need to make pair (C,D), and then reveal the random integers after we move there."
+    F: "Great. So, you can see that your block contains L=2047 txns."
+    S: "It seems to."
+    F: "Now here is my second service...I charge even less, just $ 0.0001 for this one! You pick a bunch[^5] of integers[^5] randomly, between 1 and L, and I'll give you their txns and paths. If I can't do as promised, I'll give you a boatload of money."
+    S: "You seem really confident that you can do it."
+    F: "I sure can! You can coordinate with your friends to pick the specific txns that you think I'm missing. I promise I've got them all!"
+    S: "Wow, cool. I'll take it."
+    F: "One thing, though. If we sign our deal and you don't reveal your integers[^6], it will look like I can't meet the challenge. I mean, I totally can, but I don't know which txns to reveal because you didn't tell me. So if you don't hand them over in a timely fashion, I will need to be reimbursed in full, and then some."
+    S: "Eh, OK I guess. I guess for my 300 BTC txn, I really shouldn't be stingy about locking up a much smaller amount."
+    F: "You only need to lock it up for a few seconds. Believe me, I don't want my money trapped pointlessly in this channel for any length of time either."
+    S: "Ok!"
+    F: "Great. In our payment channel, we are currently at pair (A,B). You will need to make pair (C,D), and then reveal the random integers after we move there."
 
 [^5]: In practice, Sally and Fred might do one random number at at time. If so, their worst-case-scenario script size will be smaller, but they will need to do more audits.
 
@@ -294,43 +294,43 @@ F: "Great. In our payment channel, we are currently at pair (A,B). You will need
 
 ### VI
 
-S: "OK. I picked some Rs [random number]s, and made C and D [the next payment channel iteration]. And I signed D for you, so here you go."
-F: "Great thanks. Hmm...good job, this looks like you formatted everything correctly."
-S: "And here are those Rs, the random integers I cho--"
-F: "No! No no no, not until later!"
-S: "Oh, sorry!"
-F: "That's OK."
-S: "But if I only show you the Hs, ie H(R) the hash commitment of R, then how will you know that I am actually following our scheme? Maybe I didn't pick integers in the range(1,L)? Maybe, instead of choosing numbers like (5,470,4,...), I instead picked random nonsense like ('fish', 0x78965, '\_', 987987987, ...). Then, when I reveal my nonsense, you will not be able to show me the 'fish' txn..."
-F: "Ah...great question. There are professional cryptographers who have [all kinds of ways of doing that](https://infoscience.epfl.ch/record/128718/files/CCS08.pdf). We will choose one and you will send me 'Gs' instead of Rs."
-S: "Ok, I've used the Rs to make Gs, here you go."
-F: "Ah yes, from these Gs I see that your Hs do in fact refer to integers in the range(1,L). Since I know all L txns in this block, I'm confident I can meet the challenge."
-S: "Great, so are we moving forward?"
+    S: "OK. I picked some Rs [random number]s, and made C and D [the next payment channel iteration]. And I signed D for you, so here you go."
+    F: "Great thanks. Hmm...good job, this looks like you formatted everything correctly."
+    S: "And here are those Rs, the random integers I cho--"
+    F: "No! No no no, not until later!"
+    S: "Oh, sorry!"
+    F: "That's OK."
+    S: "But if I only show you the Hs, ie H(R) the hash commitment of R, then how will you know that I am actually following our scheme? Maybe I didn't pick integers in the range(1,L)? Maybe, instead of choosing numbers like (5,470,4,...), I instead picked random nonsense like ('fish', 0x78965, '\_', 987987987, ...). Then, when I reveal my nonsense, you will not be able to show me the 'fish' txn..."
+    F: "Ah...great question. There are professional cryptographers who have [all kinds of ways of doing that](https://infoscience.epfl.ch/record/128718/files/CCS08.pdf). We will choose one and you will send me 'Gs' instead of Rs."
+    S: "Ok, I've used the Rs to make Gs, here you go."
+    F: "Ah yes, from these Gs I see that your Hs do in fact refer to integers in the range(1,L). Since I know all L txns in this block, I'm confident I can meet the challenge."
+    S: "Great, so are we moving forward?"
 
 ### VII
 
-F: "Yes. Here is your signed C. And I've invalidated my B [per the rules of payment channel iteration]."
-S: "Ok...don't you need me to invalidate my A?"
-F: "Yes, but if you don't, I can just broadcast my D..."
-S: "What if I broadcast my A first?"
-F: "It will be as if this transaction never took place..."
-S: "Aha! But I already *know* that you are willing to agree to do this! So you already *do* know that the block is valid-- "
-F: (raises his eyebrows dramatically) "Do I?"
-S: "--which means I got what I wanted and now I don't have to pay."
-F: "Well, you know that I've agreed to do the challenge, but not that I actually *can* do it."
-S: "..."
-F: "And you knew, before starting this process, that I was *offering* to accept the challenge. So you haven't really learned that much more. I don't see why you would decide to back out now."
-S: "..."
-F: "Maybe I *knew* you'd try to back out. And so I offered to sell you an Audit, but really I don't know anything about the block's validity."
-S: "..."
-F: "*You know*, one one-hundredth of a cent really is quite small, compared to the cost of a whole Spaceship."
-S: "Fine...I'll invalidate my A. Here you go."
+    F: "Yes. Here is your signed C. And I've invalidated my B [per the rules of payment channel iteration]."
+    S: "Ok...don't you need me to invalidate my A?"
+    F: "Yes, but if you don't, I can just broadcast my D..."
+    S: "What if I broadcast my A first?"
+    F: "It will be as if this transaction never took place..."
+    S: "Aha! But I already *know* that you are willing to agree to do this! So you already *do* know that the block is valid-- "
+    F: (raises his eyebrows dramatically) "Do I?"
+    S: "--which means I got what I wanted and now I don't have to pay."
+    F: "Well, you know that I've agreed to do the challenge, but not that I actually *can* do it."
+    S: "..."
+    F: "And you knew, before starting this process, that I was *offering* to accept the challenge. So you haven't really learned that much more. I don't see why you would decide to back out now."
+    S: "..."
+    F: "Maybe I *knew* you'd try to back out. And so I offered to sell you an Audit, but really I don't know anything about the block's validity."
+    S: "..."
+    F: "*You know*, one one-hundredth of a cent really is quite small, compared to the cost of a whole Spaceship."
+    S: "Fine...I'll invalidate my A. Here you go."
 
 ### VIII
 
-F: "Ok, now you need to reveal your Rs"
-S: "Great. They were 453, 531, 14, and 2011."
-F: "Oooh good ones! .. Ok here are txns #453, #531, #14, and #2011; and here are their Merkle Branches. You can see that I had them all."
-S: "Wow, great. This is so cool. I love Fraud Proofs."
+    F: "Ok, now you need to reveal your Rs"
+    S: "Great. They were 453, 531, 14, and 2011."
+    F: "Oooh good ones! .. Ok here are txns #453, #531, #14, and #2011; and here are their Merkle Branches. You can see that I had them all."
+    S: "Wow, great. This is so cool. I love Fraud Proofs."
 
 
 And finally, before I explain Invalidity Insurance and Fullness Audits, I offer a review of Payment Channels and the Lightning Network.
