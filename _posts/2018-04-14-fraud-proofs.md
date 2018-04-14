@@ -7,7 +7,7 @@ date: 2018-04-14
 
 
 
-> Toward a coveted O(log(n)) blockchain validation. And compensation for full nodes.
+> Toward a coveted O(log(n)) blockchain validation, for (?) ~$50 a month. Plus: compensation for full nodes.
 
 Fraud proofs are a very complex, nasty business.
 
@@ -210,7 +210,7 @@ Reminder: for simplicity, the story focuses on Class I and II flaws.
 
 ### I
 
-Fred: "Here's that transaction you wanted. Wow, it says '300 BTC to Sally'. Is that you?"
+Fred: "Here's that transaction you wanted. Wow, it says '300 BTC to Sally'. Is that you?"\
 Sally: "Yes. I'm selling a SpaceShip to Peter Thiel so he can visit Jupiter.""
 Fred: "Cool, that sounds normal. Ok here is your Merkle Branch and here are all of the recent headers."
 Sally: "Yes, I can easily check the Merkle Branch by taking a few hashes, and it is also easy for me to check that the headers all meet the difficulty requirement. Wow. Praise Satoshi."
@@ -401,6 +401,8 @@ Channels are useful for fraud proofs, because they:
 
 
 Now I can explain "invalidity insurance" and "fullness audits".
+
+![images](/images/river-fontaine.jpg)
 
 
 ## 5. Invalidity Insurance
