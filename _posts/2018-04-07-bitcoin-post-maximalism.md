@@ -292,6 +292,14 @@ It struck me as good advice -- "Post-Maximalism" doesn't need to mean "Altcoin P
 The emphasis on **two** competing projects reminded me of [Karl Popper's argument in favor of a two-party state](https://www.economist.com/blogs/democracyinamerica/2016/01/karl-popper-democracy). He argues that a system can become healthy, as long as the losing team becomes *desperate* upon their loss, and willing to take risks and make changes. Pretty good advice!
 
 
+### Update (16.04.2018)
+
+Sergio Demian Lerner [correctly points out that he did write a drivechain BIP+code in 2016](https://twitter.com/SDLerner/status/984236076171759617). It had pros and cons relative to mine, some of which the two of us discussed together at Scaling Milan in late 2016 (he definitely helped improve our work).
+
+He also [finishes my unfinished 7th point](https://twitter.com/SDLerner/status/984236695053889536), by reminding us that Altcoins/ICOs can draw away sidechain talent. But this does not happen as easily for SegWit or P2SH.
+
+It also occured to me that working on sidechains is probably perceived as disloyal to Bitcoin. After all, what you're really saying is that you want the freedom to leave this party, and go start your own party somewhere else. That's bound to insult the current party-hosts, to some extent. So we can understand why they wouldn't put sidechains on top of their list (although it is certainly a little presumptuous/creepy that they do not).
+
 ------
 
 ### Footnotes
