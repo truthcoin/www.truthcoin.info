@@ -18,6 +18,14 @@ But if you would to learn my thoughts, sit here by the river and we may meditate
 ( River art [by Benihime Morgan](https://www.zerochan.net/723126) )
 
 
+### tl;dr
+
+* Fraud Proofs allow "SPV nodes" to have similar security to "full nodes". SPV nodes are very easy to run and scale much better.
+* Here, I require an "SPV+ mode". Whereas regular SPV requires headers only (~4 MB per year), this mode also requires the first and last txn of each block (~115 MB per year).
+* "SPV+ nodes" must have a payment channel open with a full node, or a LN-connection to a full node.
+* "SPV+ nodes" will have to make micropayments to these full nodes. To validate every single block, I estimate these payments to total ~ $50 a month.
+* From there, it is just a few new OP Codes, one [off chain] rangeproof, and a second "SegWit"-like witness-commitment trick.
+
 
 ## 1. Background
 
