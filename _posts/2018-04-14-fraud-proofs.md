@@ -87,7 +87,7 @@ The second problem asks us to draw our [very scarce] "auditing attention" to spe
 Satoshi's SPV Mode ([whitepaper](https://bitcoin.org/bitcoin.pdf) section 8) observes that:
 
 1. Bitcoin block headers are very small (4 MB per year) and easy to validate, regardless of how many txns each block contains.
-2. It is very to demonstrate that a block *contains* some item "X" (as this requires only "X" itself, the block's header, and a valid [Merkle Branch](https://en.bitcoin.it/wiki/Merged_mining_specification#Merkle_Branch) containing both).
+2. It is very easy to demonstrate that a block *contains* some item "X" (as this requires only "X" itself, the block's header, and a valid [Merkle Branch](https://en.bitcoin.it/wiki/Merged_mining_specification#Merkle_Branch) containing both).
 
 For those who are unaware, consider this example:
 
