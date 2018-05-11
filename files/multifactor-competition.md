@@ -71,7 +71,7 @@ Under certain conditions (some amusing, others tragic and horrifying), every sin
 
 For example, imagine a family reunion has historically taken place at "Restaurant R". But imagine further that, secretly, each individual family member no longer enjoys the experience at "Restaurant R" (perhaps it now has new owners, or the owners have become lazy). And finally imagine that this family has certain shortcomings: say that they have poor communication skills, a low tolerance for dissent, a history of blindly deferring to authority figures, no appreciation for creativity or discussion, no optimism that life can be improved (and especially not through rational debate and criticism). In such a family, most family members will keep their dissatisfaction to themselves. Criticism of the choice of "Restaurant R", if voiced, will not be appreciated for what it is (an earnest desire to help the family) and will instead be mis-interpreted negatively (as disloyalty to the family or disrespect to its decision-making authorities). As a result, it is plausible that the reunion will continue to take place at "Restaurant R" year after year, imprisoning the entire family in an experience that none of them actually enjoys.
 
-This is an example of "loyalty". While network effects grant one a benefit for joining a larger group, loyalty grants one a benefit just for proving their association with an arbitrary. In the Facebook example above there is a little of both: facebook is the largest social networking site (network effects); and anyone who threatens to leave facebook.com is, in part, threatening to leave their friends (loyalty)!
+This is an example of "loyalty". While network effects grant one a benefit for joining a larger group, loyalty grants one a benefit just for proving their association with an arbitrary existing group. In the Facebook example above there is a little of both: facebook is the largest social networking site (network effects); and anyone who threatens to leave facebook.com is, in part, threatening to leave their friends (loyalty)!
 
 
 <!--
@@ -84,6 +84,9 @@ One situation would be a large computer science project managed on GitHub by an 
 
 Here
 -->
+
+Other Examples: Vendor "Lock-In", Format Wars, US News College Rankings, "Trendy" Grant-Supported Academic Research, many Terrible Government Policies (esp. War on Drugs / the FDA / delayed Marriage Equality -- decades of torture and death, sustained by public embarassment at having initially committed to the wrong decision). 
+
 
 Further Reading
 -----------------
@@ -100,3 +103,5 @@ Please Read:
 "Inadequate Equilibria" by Eliezer Yudkowsky
 
 [https://equilibriabook.com/](https://equilibriabook.com/)
+
+"usually, when things suck, it's because they suck in a way that's a Nash equilibrium" (p32)
