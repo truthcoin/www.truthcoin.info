@@ -94,7 +94,7 @@ Futures prices, (unlike "tweets" or "conference presentations), have the unique 
 
 Despite this, there was no interest in creating such markets. When they were created anyway, the losing side refused to acknowledge them as legitimate. When I proposed [a way of making them more legitimate](/blog/fork-futures/), the losing side was not interested!
 
-This disinterest parallels the shameful behavior concerning the ["bitcoinocracy"](https://vote.bitcoin.com/) numbers -- the evidence changed for, and then against, the SmallBlockers, and so they shifted from rejecting, to endorsing, and finally to rejecting the legitimacy[^5] of this empirical evidence.
+This disinterest parallels the shameful behavior concerning the ["bitcoinocracy"](https://vote.bitcoin.com/) numbers -- the evidence changed for, and then against, the SmallBlockers, and so they shifted from rejecting, [to](https://irclog.whitequark.org/bitcoin-wizards/2015-12-09) [endorsing](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/czgaqms/), and finally to [rejecting](https://www.reddit.com/r/Bitcoin/comments/67w5i0/rogerkver_is_wasting_500000_per_month_propping_up/dgumucp/) the legitimacy[^5] of this empirical evidence.
 
 [^4]: See "if a miner would rather hold B2X, they could earn it four times faster by mining B1X and trading it for B2X" by Dan Robinson [here](https://medium.com/@danrobinson/the-cost-of-supporting-the-b2x-fork-how-to-lose-100m-in-ten-days-6797f7ef52da#0e5e).
 
