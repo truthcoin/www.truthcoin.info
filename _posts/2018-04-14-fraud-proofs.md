@@ -213,8 +213,7 @@ But before I give more technical details, I am worried about losing people in th
 
 This story will star "Fred", a full node; and "Sally", an SPV node.
 
-Reminder: for simplicity, the story focuses on Class I and II flaws.
-( Class III flaws should be checked by downloading additional data, see above, and Class IV flaws will be recast as Class I in section 7. )
+For simplicity, the story focuses on Class I and II flaws. ( Class III flaws should be checked by downloading additional data, see above, and Class IV flaws will be recast as Class I in section 7. )
 
 ### I
 
