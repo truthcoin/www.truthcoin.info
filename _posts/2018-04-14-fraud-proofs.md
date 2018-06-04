@@ -308,7 +308,7 @@ Fun fact: something cannot be both a Sha256 hash and also be a valid Bitcoin txn
 * F: "No! No no no, not until later!"
 * S: "Oh, sorry!"
 * F: "That's OK."
-* S: "But if I only show you the Hs, ie H(R) the hash commitment of R, then how will you know that I am actually following our scheme? Maybe I didn't pick integers in the range(1,L)? Maybe, instead of choosing numbers like (5,470,4,...), I instead picked random nonsense like ('fish', 0x78965, '\_', 987987987, ...). Then, when I reveal my nonsense, you will not be able to show me the 'fish' txn..."
+* S: "But if I only show you the Hs, ie H(R) the hash commitment of R, then how will you know that I am actually following our scheme? Maybe I didn't pick integers in range(1,L)? Maybe, instead of choosing numbers like (5, 470, 4, ...), I instead picked random nonsense like ('fish', 0x78965, '\_', 987987987, ...). Then, when I reveal my nonsense, you will not be able to show me the 'fish' txn..."
 * F: "Ah...great question. There are professional cryptographers who have [all kinds of ways of doing that](https://infoscience.epfl.ch/record/128718/files/CCS08.pdf). We will choose one and you will send me 'Gs' instead of Rs."
 * S: "Ok, I've used the Rs to make Gs, here you go."
 * F: "Ah yes, from these Gs I see that your Hs do in fact refer to integers in the range(1,L). Since I know all L txns in this block, I'm confident I can meet the challenge."
