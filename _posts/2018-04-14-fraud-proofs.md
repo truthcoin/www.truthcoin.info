@@ -31,7 +31,7 @@ But if you would to learn my thoughts, sit here by the river and we may meditate
 
 ### A. Making Bitcoin More Like Physical Gold
 
-Bitcoin is designed to rival gold. And in many ways, BTC is far superior, but one deficiency is when it comes to *receiving money* -- how do you know you've been paid? With physical gold it is straightforward -- as simple as any other hand-held exchange. But with Bitcoin (a *digital collectible*) you're guarantee of ownership is much more abstract.
+Bitcoin is designed to rival gold. And in many ways, BTC is far superior, but one deficiency is when it comes to *receiving money* -- how do you know you've been paid? With physical gold it is straightforward -- as simple as any other hand-held exchange. But with Bitcoin (a *digital collectible*) your guarantee of ownership is much more abstract.
 
 Satoshi's solution was a fancy piece of software, "Bitcoin", that tells you when you've received money.
 
