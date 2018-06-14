@@ -35,9 +35,9 @@ Read [my "modern" views on "Bitcoin Maximalism" (April 2018)](http://www.truthco
 
 ### Disclaimer
 
-As of March 2016 I am full-time [employed at Bloq](http://bloq.com/). Those seeking advice, reports, consulting, software, etc, of the enterprise-quality, should contact <a href="mailto:sales@bloq.com" target="_top">sales@bloq.com</a>.
+As of June 2018 I am full-time [employed at Tierion](https://tierion.com/). Those seeking advice, reports, consulting, software, etc, of the enterprise-quality, should [contact Tierion](https://tierion.com/contact).
 
-The opinions expressed here are my own and not at all necessarily shared by Bloq Inc. In general, I cannot understate the [complexity of modern blockchain technology](https://download.wpsoftware.net/bitcoin/alts.pdf). Many of the smartest, most experienced, and most-hardworking people I have ever met, have worked in this area and made mistakes and embarassed themselves (myself included, of course). Anyone with a shred of wisdom will think twice, preferably several times, before relying on any of the blockchain-information presented here. I happen to believe that this is the best blockchain-econ writing on the internet (I wouldn't write it if I didn't think people needed to read it), but just because it is "the best", doesn't necessarily mean that it is "any good". 
+The opinions expressed here are my own and not at all necessarily shared by Tierion. In general, I cannot understate the [complexity of modern blockchain technology](https://download.wpsoftware.net/bitcoin/alts.pdf). Many of the smartest, most experienced, and most-hardworking people I have ever met, have worked in this area and made mistakes and embarassed themselves (myself included, of course). Anyone with a shred of wisdom will think twice, preferably several times, before relying on any of the blockchain-information presented here.
 
 
 
