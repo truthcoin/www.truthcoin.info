@@ -20,7 +20,7 @@ Thus it might be abbreviated "OP_92_V_12" or "92_12".
 
 The first Dutch auction emulates the "clock" style auction. We start with a high price, and the clock ticks down to a low price. Anyone can buy any quantity, at any time. 
 
-![image](https://upload.wikimedia.org/wikipedia/commons/c/c5/Bundesarchiv_B_145_Bild-F004491-0002%2C_Kirschenversteigerung_an_der_Mosel.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Bundesarchiv_B_145_Bild-F004491-0002%2C_Kirschenversteigerung_an_der_Mosel.jpg" alt="Dutch auction clock" width="400" height="294">
 
 Above: A clock used in a Dutch auction, [from the wikipedia article](https://en.wikipedia.org/wiki/Dutch_auction). 
 

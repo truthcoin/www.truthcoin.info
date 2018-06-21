@@ -5,6 +5,8 @@ comments: true
 date: 2018-06-21 05:00:00
 ---
 
+> Bringing "ERC20" tokens and other CryptoFinance to Bitcoin, on its own chain. 
+
 ## 1. Motivation
 
 We know that there is a market for digital collectibles[^1].
@@ -79,11 +81,13 @@ Admittedly, in the equity case, the amount repaid is expected to vary from payme
 
 So the "second" and "third" type of token are actually the same.
 
-In fact, the same goes for a "fourth" type, which would include "airline miles", "Marriott rewards points", and "World of Warcraft gold". All of these are "asset backed" tokens -- the asset in question just happens to be a service (a flight or lodging), and/or something entirely digital (World of Warcraft gaming experiences).
+In fact, the same goes for a "fourth" type, which would include "airline miles", "Marriott rewards points", and "World of Warcraft gold". **All of these are "asset backed" tokens** -- the asset in question just happens to be a service (a flight or lodging), and/or something entirely digital (World of Warcraft gaming experiences).
 
-So a BitAsset sidechain can support all four types. But is this fourth type any use on a blockchain, vs a private server? 
+In fact, **all four types** of token are overwhelmingly similar to each other. And so a BitAsset sidechain can support all four types.
 
-Probably not -- but perhaps. We know, for instance, that very many "rewards points" go unclaimed each year, and that these are in fact valuable, and that most people would happily be willing to go through a KYC/AML process to acquire them. We also know that companies are happy to sell "points", as it boosts sales and cash flow (just like selling gift cards). Furthermore, the rewards points system is often outsourced to an expensive administrator, so a blockchain may be cheaper. It will be critical for someone to address the nagging questions of customer service, key management, and overall user experience.
+But is this fourth type any use on a blockchain, vs a private server? 
+
+It is unclear. We know, for instance, that very many "rewards points" go unclaimed each year, and that these are in fact valuable, and that most people would happily be willing to go through a KYC/AML process to acquire them. We also know that companies are happy to sell "points", as it boosts sales and cash flow (just like selling gift cards). Furthermore, the rewards points system is often outsourced to an expensive administrator, so a blockchain may be cheaper. It will be critical for someone to address the nagging questions of customer service, key management, and overall user experience.
 
 
 ## 2. Specification
@@ -126,13 +130,15 @@ Here are the facts:
 
 [^3]: Although, if users try to combine multiple huge outputs into a single output, they would likely experience integer overflow. Frankly, shouldn't 18.4 quintillion be enough?
 
+\* These are not actually Satoshis anymore, because satoshi is a unit of BTC, which these are not.
+
 As I will explain in the section after this one, not all of these outputs will be interpreted as being BTC-outputs. Instead, for the first two outputs, the "type" will have switched to that of the newly created asset. By normal Bitcoin standards, it would appear that this txn is spending more BTC than it loaded, but that is not the case here, because the first two outputs will not be interpreted as "Bitcoins".
 
 ![image](/images/create-bitasset.png)
 
-\* These are not actually Satoshis anymore, because satoshi is a unit of BTC, which these are not.
+Above: A "version 10" transaction. I will use this format --a transaction with special "prefix bytes"-- several times.
 
-Note: this project should probably ban the existence or spending of 0-value inputs. This is because this project aims to create digitally scarce assets, and this goal is more difficult to achieve if you can spend "zeros" in the same way that you can spend "ones" (in other words, if "having zero of an asset" is meaningfully similar to "having non-zero of it").
+This project should probably ban the existence or spending of 0-value inputs. This is because this project aims to create digitally scarce assets, and this goal is more difficult to achieve if you can spend "zeros" in the same way that you can spend "ones" (in other words, if "having zero of an asset" is meaningfully similar to "having non-zero of it").
 
 #### ii. Identifiers
 
@@ -186,17 +192,26 @@ The remaining numbers are assigned chronologically[^5]. This is meant to create 
 
 Here is the encoding:
 
-* The first 252 asset numbers are encoded with a single byte. (ie, "byte-value: 0" represents the first asset [BTC]; and "byte-value: 251" represents the 252nd asset).
-* The next 65,537 asset numbers are encoded with one byte set to "252", and then a two-byte unsigned integer. (Thus, [252,0,0] is the 253rd asset; [252,0,1] is the 254th asset, and [252,255,255] is the 65,789th asset (being 252 + 1 + 65,536)).
-* The next ~16.8 million asset numbers are encoded by setting one byte to "253", and then using 3-bytes to count from 1 to 16,777,216. (This defines assets #65,790 [253,0,0,0] through #16,843,006 [253,255,255,255]).
-* The next ~4.29 billion assets numbers are encoded by setting one byte to "254", and the using 4-bytes to count from 1 to 256^4. This defines asset numbers #16,843,007 through #4,311,810,303 (which equals 16,843,007+(256^4) ).
-* Finally, setting the first byte to "255" allows the user 6-bytes to use for counting. Thus we define asset numbers #4,311,810,304 - #281,479,288,520,960.
+    * The first 252 asset numbers are encoded with a single byte.
+        (ie, "byte-value: 0" represents the first asset [BTC]; and "byte-value: 251" represents the 252nd asset).
+     
+    * The next 65,537 asset numbers are encoded with one byte set to "252", and then a two-byte unsigned integer.
+        (Thus, [252,0,0] is the 253rd asset; [252,0,1] is the 254th asset, and [252,255,255] is the 65,789th asset (being 252 + 1 + 65,536)).
+     
+    * The next ~16.8 million asset numbers are encoded by setting one byte to "253", and then using 3-bytes to count from 1 to 16,777,216.
+        (This defines assets #65,790 [253,0,0,0] through #16,843,006 [253,255,255,255]).
+     
+    * The next ~4.29 billion assets numbers are encoded by setting one byte to "254", and the using 4-bytes to count from 1 to 256^4.
+        This defines asset numbers #16,843,007 through #4,311,810,303, because 4,311,810,303 = (16,843,007 + (256^4)).
+     
+    * Finally, setting the first byte to "255" allows the user 6-bytes to use for counting.
+        Thus we define asset numbers #4,311,810,304 - #281,479,288,520,960.
 
  ( The identifiers are a total of: 1, 3, 4, 5, and 7 bytes. )
 
 Thus we've defined up to 281 trillion numbers...enough for a population of 12 billion people to each create ~23,500 unique assets.
 
-( I guess if we need any more, we would just create a second BitAsset sidechain. )
+( I guess if we need any more, we could just create a second BitAsset sidechain. )
 
 
 
@@ -308,7 +323,7 @@ Let me talk about DEX Orders, before I talk about DEX Auctions.
 
 How do we trade assets? Well, one way would be to use a "managed exchange" (ME) such as Poloniex or ShapeShift.io.
 
-![image](https://i.redditmedia.com/x-i-5BAvoxB_9Qu9sjNf-gC19RI58WRySPb85w-A8lg.png?s=5a720d66183845652ff76674a95b620e)
+![image](/images/when-polo-bordered.png)
 
 Above: This popular meme asks "When will the coin be listed on Poloniex?".
 
@@ -354,7 +369,7 @@ Finally, the transaction's third output will of course spend 2.95 BTC from Alice
 
 Bob claims a DEX order using a "version 11" transaction.
 
-Version 11 txns have an extra 36-byte slot at the beginning, as follows:
+Version 11 txns have an extra 36-byte slot at the beginning, as follows (right-click -> "view in tab" for full-res image):
 
 ![images](/images/claim-dex-order.png)
 
@@ -415,7 +430,7 @@ I do this in 8-bytes, by defining "dust" as "1/10,000th of a satoshi". I then fo
 
 Since dust is four decimal points beneath a satoshi, and since each satoshi is eight decimal places beneath one whole BTC, then bid-prices are expressed in units of "BTC, using twelve decimal places". Since 8-byte integers can range from 1 to 256^8 (and since 256^8 ~= 1.84e19), you can hopefully understand the range of possible prices.
 
-See this guide:
+Here I show some work:
 
     256^8 = 1.84e19       [max value]
 
@@ -442,8 +457,8 @@ However, users are not limited to these, and are highly encouraged to develop th
 
 [^10]: Subject only to the usual conditions of a soft fork: [1] that the new feature is not too computationally burdensome on full nodes, and in particular [2] that the new feature does not interfere with any existing features.
 
-* First, "92_12", a simple, traditional first-price Dutch auction [here](www.truthcoin.info/misc/dutch-auctions/#fast).
-* Second, "93_13", a more complicated second-price version [here](www.truthcoin.info/misc/dutch-auctions/#slow).
+* First, "92_12", a simple, traditional first-price Dutch auction [here](http://www.truthcoin.info/files/dutch-auctions/#fast).
+* Second, "93_13", a more complicated second-price version [here](http://www.truthcoin.info/files/dutch-auctions/#slow).
 
 
 
