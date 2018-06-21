@@ -5,7 +5,7 @@ comments: true
 date: 2018-06-21 05:00:00
 ---
 
-> Bringing "ERC20" tokens and other CryptoFinance to Bitcoin, on its own chain. 
+> Bringing "ERC20" tokens and other CryptoFinance to Bitcoin, on its own specialized chain. 
 
 ## 1. Motivation
 
@@ -195,16 +195,16 @@ Here is the encoding:
     * The first 252 asset numbers are encoded with a single byte.
         (ie, "byte-value: 0" represents the first asset [BTC]; and "byte-value: 251" represents the 252nd asset).
      
-    * The next 65,537 asset numbers are encoded with one byte set to "252", and then a two-byte unsigned integer.
+    * The next 65,537 asset numbers are encoded with one initial byte set to "252", followed by a two-byte unsigned integer.
         (Thus, [252,0,0] is the 253rd asset; [252,0,1] is the 254th asset, and [252,255,255] is the 65,789th asset (being 252 + 1 + 65,536)).
      
-    * The next ~16.8 million asset numbers are encoded by setting one byte to "253", and then using 3-bytes to count from 1 to 16,777,216.
+    * The next ~16.8 million asset numbers are encoded by setting the initial byte to "253", and then using 3-bytes to count from 1 to 16,777,216.
         (This defines assets #65,790 [253,0,0,0] through #16,843,006 [253,255,255,255]).
      
-    * The next ~4.29 billion assets numbers are encoded by setting one byte to "254", and the using 4-bytes to count from 1 to 256^4.
+    * The next ~4.29 billion assets numbers are encoded by setting the initial byte to "254", and the using 4-bytes to count from 1 to 256^4.
         This defines asset numbers #16,843,007 through #4,311,810,303, because 4,311,810,303 = (16,843,007 + (256^4)).
      
-    * Finally, setting the first byte to "255" allows the user 6-bytes to use for counting.
+    * Finally, setting the initial byte to "255" allows the user 6-bytes to use for counting.
         Thus we define asset numbers #4,311,810,304 - #281,479,288,520,960.
 
  ( The identifiers are a total of: 1, 3, 4, 5, and 7 bytes. )
