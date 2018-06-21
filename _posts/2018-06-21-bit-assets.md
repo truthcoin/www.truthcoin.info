@@ -497,7 +497,7 @@ Obviously, ownership of an asset could trigger arbitrary events in third-party g
 
 There is undeniable investor interest in non-money blockchain tokens (what I call "BitAssets"). These tokens predominantly take on two forms: [1] a "crypto-art" form, with immutable characteristics; and [2] an "asset-backed token" form, which can have administrators who interact with owners on an ongoing basis.
 
-I provide a sidechain design which supports both types. BTC is used to pay network transaction fees, but new assets can be created, traded or auctioned off. Encouragingly, the basic features ("creating" and "spending" assets) are easiest to add, and the other can be added later on an ongoing basis as soft forks.
+I provide a sidechain design which supports both types. BTC is used to pay network transaction fees, but new assets can be created, traded or auctioned off. Encouragingly, the basic features ("creating" and "spending" assets) are easiest to add, and the other can be added later on an ongoing basis as soft forks. Development may even be self-financing, with the creators of the sidechain assigning themselves scarce "bragging rights".
 
 Update (June 6th): [Coinbase, Circle Vie to Create Brokerages for Crypto Securities](https://www.bloomberg.com/news/articles/2018-06-06/coinbase-seeks-broker-dealer-status-in-keystone-capital-takeover)
 
