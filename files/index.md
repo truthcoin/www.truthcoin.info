@@ -16,6 +16,7 @@ title: Random Files
 * 09.24.2017 - [True Money is Purchasing Power](/images/true-money/)
 * 10.12.2017 - [Fork Futures -- Appendix](/images/fork-futures-trading-appendix/)
 * 15.01.2018 - [Fusing Two Coins](/files/blockchain-fusion-via-utxos/)
+* 04.03.2018 - [Multi-Factor Competition](/files/multifactor-competition/)
 * 26.03.2018 - [Marketcap Isn't Bulls**t](/files/on-marketcap/)
 
 
