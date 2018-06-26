@@ -470,7 +470,7 @@ I was surprised to see these features emphasized in [the Ravecoin whitepaper](ht
 
 While they *are* important features, I don't see the need for them *at the consensus layer* of any protocol[^11].
 
-[^11]: After all, blockchain technology cannot "magically" compel actions [dividend payments / CEO firings], except perhaps in an absurd case where the entire corporate system (including all sales, accounting, cash flow, labor, etc.) was on a blockchain. But, to me, such a case would itself be describe *a new blockchain*. Specifically, a new *sidechain* [doing whatever it was the proposed crypto-corporation was supposed to be doing].
+[^11]: After all, blockchain technology cannot "magically" compel actions [dividend payments / CEO firings], except perhaps in an absurd case where the entire corporate system (including all sales, accounting, cash flow, labor, etc.) was on a blockchain. But, to me, such a case would itself be describing *a new blockchain*. Specifically, a new *sidechain* [doing whatever it was the proposed crypto-corporation was supposed to be doing].
 
 Instead, I am confident that they are best done outside the protocol.
 
