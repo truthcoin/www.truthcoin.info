@@ -39,8 +39,8 @@ Similarly, if I had learned that "a secret exists between my brother and the CIA
 
 This concept I call the "meta-secret". I make no pretense to have discovered it -- it is ancient wisdom to all secret-keepers.
 
-"..the most important part of any secret is the knowledge that a secret exists..."
--[HPMOR, Chaper 48](http://www.hpmor.com/chapter/48)
+    "..the most important part of any secret is the knowledge that a secret exists..."
+    -HPMOR, Chaper 48
 
 
 
@@ -67,12 +67,14 @@ Finally, consider HoH E: He says, "This question is objectionable. I have the ri
 
 You see, if you are going to really keep a secret, you have to commit to it completely. **You need an entire second identity.** You are resembling an "innocent" person.
 
-"...to keep a secret ... I must give no sign that differs from the reaction of someone truly ignorant."
--[HPMOR, Chapter 70](http://www.hpmor.com/chapter/70)
+    "...to keep a secret ... I must give no sign that differs from the reaction of someone truly ignorant."
+    HPMOR, Chapter 70
 
 Imagine that Modern Hitler comes next for the gays. He asks German Men, via survey, whom they feel most attracted to. The survey options are: [1] women, [2] men, and [3] decline to answer.
 
 Option three is, really, not a serious option. All of the straight German men will be proudly checking option one, en masse. And *anything other than what they do* will look suspicious. **Admitting that you have something to hide is already a total defeat.** The only thing that you *could* hide, in this context, is a "shameful" thing. So hiding is not an option.
+
+![images](http://pngimg.com/uploads/spy/spy_PNG23.png)
  
 
 ### D. Block Explorers
