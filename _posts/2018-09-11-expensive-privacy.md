@@ -1,5 +1,5 @@
 ---
-title: Expensive Privacy is Useless
+title: Expensive Privacy is Useless Privacy
 comments: true
 show_author: true
 date: 2018-09-11 02:00:00
