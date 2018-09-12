@@ -6,8 +6,6 @@ show_author: true
 
 > Blockchains are specifically designed to obviate private firms. Industry refusal to acknowledge this point has resulted in multiple misunderstandings, which have persisted for a variety of reasons.  
 
-
-
 Let's get this party started!
 
 ![private-blockchains](/images/private-blockchains.png)
@@ -286,7 +284,7 @@ Secondly, there is an ongoing misunderstanding over the technical features of "p
 
 In other words, those engineers [I just mentioned as "not understanding the deal they were turning down"](http://www.truthcoin.info/blog/one-chain/#conclusion), well, they probably either *do* understand the deal, or they just never cared enough about "honesty" in the first place.
 
-They've been given no reason to open their mouths! Just think: explain that your boss' ideas are bad!? Explain that the project is pointless, and [that you aren't really necessary](http://www.30rockquotes.net/seasons/Season_5/30rockquotes_the_fabian_strategy.cfm?highlight=189#line185)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
+They've been given no reason to open their mouths! Just think: explain that your boss' ideas are bad!? Explain that the project is pointless, and [that you aren't really necessary](https://www.youtube.com/watch?v=e2LRemtvWGk&t=1m20s)?! Dear me, that isn't done! Not by any Truly Intelligent Employee.
 
 And, with something complex like Blockchains, only the TIEs will probably know the game they're playing. If they speak up, their days of getting paid to surf the Bitcoin-internet will be over. ( Sorry, guys! )
 
