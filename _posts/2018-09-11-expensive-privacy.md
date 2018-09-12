@@ -13,9 +13,13 @@ Sometimes, we need to keep a Truly Important Secret.
 
 And I mean "important". Not a triviality or some piece of gossip -- something that we *really* don't want anyone else to know.
 
+![image](http://ubdavid.org/advanced/new-life3/graphics/4_adam-eve-hide.jpg)
+
+Above: Adam and Eve hide from God. Taken from [this website](http://ubdavid.org/advanced/new-life3/new-life3_4.html).
+
 ### A. Resembling The Innocent
 
-In such circumstances, we start **to take Secret-Keeping seriously**. It isn't some academic course on cryptography, or a Wikipedia article about cyphers. We need the secret information to remain hidden. We simulate, in our minds, exactly what we think other people are like, and how we think that they learn things. We obsess over their ability to conduct which kinds of research (and at what expense). We find ourselves absorbed by *their* interests and their distractions, over how they spend their "down time" (at parties or at the dinner table), their expectations for engagement in conversation; which pretexts they will find believable.
+In such circumstances, we start **to take Secret-Keeping seriously**. We *need* the secret information to remain hidden. We simulate, in our minds, exactly what we think other people are like, and how [we think] that they learn things. We obsess over their ability to conduct which-kinds of research (and at-what-expense). We find ourselves absorbed by *their* interests and their distractions, over how they spend their "down time" (at parties, or at the dinner table), their expectations for engagement in conversation; which pretexts they will find believable. 
 
 For example: an early romance at around age 15.
 
@@ -160,6 +164,8 @@ In fact, it's so easy that a sitting US Congressman has already done so, on came
 I give you the [comments from Congressman Sherman on July 18, 2018](https://youtu.be/-3lk4mrGX2Y?t=53m50s), emphasis added:
 
 "[Bitcoin] seems to be a solution looking for a problem. What can an honest citizen *not* do... I can be in the smallest hamlet in rural India, and use my VISA card. I've never had a problem paying somebody. ...we have pretty efficient, mostly digital, transfers of dollars every day... So what's the problem [that Bitcoin is] trying to solve? ...unless I'm a tax evader or narco-terrorist. ...**I'm trying to illustrate that it [Bitcoin] is a solution, only to the problems of tax evaders, criminals, and terrorists**. ... the currency whose **sole** value is helping the before-mentioned [ne'er do wells](https://en.wikipedia.org/wiki/Ne%27er-do-well)."
+
+![image](/images/congressman-ben-sherman.png)
 
 As you can see, he lays out exactly the argument that I have been making. That Bitcoin will tend to be used "sole"ly by "ne'er do wells", because it is marginally useful to them and marginally inconvenient[^5] for innocent people. And therefore that Bitcoin should be completely suppressed.
 
