@@ -14,7 +14,9 @@ A third party could *plan* to contrive a situation where two others experience [
 
 ### Intent of Interacting
 
-When one of the two parties builds a plan-to-interact, (and when this plan-construction is observed[^n]), it conveys an *intent of interacting* (IoI).
+When one of the two parties builds a plan-to-interact, (and when this plan-construction is observed[^1]), it conveys an *intent of interacting* (IoI).
+
+[^1]: In other words, the plan in question is not a secret plan.
 
 These IoIs have a few features:
 
@@ -26,7 +28,6 @@ For some reason, the problem of friendship-creation reminds me of the Byzantine 
 
 I have previously referred to parties and conferences as "pretext factories".
 
-[n^]: In other words, the plan in question is not a secret plan.
 
 ### Friendship as Investment
 
