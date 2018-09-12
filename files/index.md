@@ -8,17 +8,20 @@ title: Random Files
 
 * 01.12.2015 - ["Blockchain for Dummies" Authoritative Book on Blockchains](http://www.truthcoin.info/images/blockchainz.pdf)
 * 07.12.2015 - [Soft Forks and Bugs - A Dialogue with Mike Hearn](http://www.truthcoin.info/images/bugs-soft-forks/)
-* 10.09.2016 - [Bitcoin-NG Review](http://www.truthcoin.info/images/bitcoin-ng.txt)
-* 29.01.2017 - [Efficient Hasher Hypothesis](http://www.truthcoin.info/images/efficient-hasher-hypothesis/)
+* 09.10.2016 - [Bitcoin-NG Review](http://www.truthcoin.info/images/bitcoin-ng.txt)
+* 01.29.2017 - [Efficient Hasher Hypothesis](http://www.truthcoin.info/images/efficient-hasher-hypothesis/)
 * 09.24.2017 - [Game Theory of Thrones](http://www.truthcoin.info/images/game-theory-of-thrones/)
 * 09.24.2017 - [Marching](/images/marching/)
 * 09.24.2017 - [Modern Finance](/images/modern-finance.txt)
 * 09.24.2017 - [True Money is Purchasing Power](/images/true-money/)
 * 10.12.2017 - [Fork Futures -- Appendix](/images/fork-futures-trading-appendix/)
-* 15.01.2018 - [Fusing Two Coins](/files/blockchain-fusion-via-utxos/)
-* 04.03.2018 - [Multi-Factor Competition](/files/multifactor-competition/)
-* 26.03.2018 - [Marketcap Isn't Bulls**t](/files/on-marketcap/)
+* 01.15.2018 - [Fusing Two Coins](/files/blockchain-fusion-via-utxos/)
+* 03.26.2018 - [Marketcap Isn't Bulls\*\*t](/files/on-marketcap/)
+* 09.11.2018 - [Unplanned Interactions](/files/unplanned-interactions/)
 
+<!--  
+Month-Day-Year
+-->
 
 
 ### Excel
