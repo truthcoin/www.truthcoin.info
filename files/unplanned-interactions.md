@@ -39,6 +39,24 @@ Second, like all options, it costs a fixed amount but has large potential upside
 
 I still find this requirement of "unplanned" interactions to be very confusing (ie, very interesting), so please message me with your theories!
 
+
+### Update (Oct 2018)
+
+A few new thoughts occurred to me, wrt "repeated, unplanned interactions":
+
+1. Repeated interactions force the creation of *specific* human capital.
+
+By interacting with people, you will inevitably learn about how they affect you -- how they please or displease you. And you will almost certainly learn about how you affect them. This is a kind of "investment" in social capital. But, it is *specific* as well as *general* --you are learning about one specific relationship (the "you-and-Friend1" relationship), in addition to learning some globally relevant social skills that would apply to all relationships.
+
+Since time is finite and scarce, you can only make these specific investments with very few people. And so it would make sense for you to prioritize these people -- you have invested "in them", and so you should care about them more.
+
+2. Unplanned interactions "get at" the real, underlying person, and are more stable in times of genuine crisis or need.
+
+If all of the interactions were planned, then one wouldn't know how to attribute one's experiences -- do we attribute them to enduring qualities of the person, or to features of the plan? How do we know that a quality is "enduring" or not, in the first place?
+
+Real life is unpredictable, and "unplanned". And so "what you need from your friends" will also be unpredictable and unplanned. In order to make absolutely certain that you actually possess *real knowledge* about your friends, there needs to be some element of realism to the signals which they send. Uncertainty helps reintroduce this realism.
+
+
 ---
 
 ### Footnotes
