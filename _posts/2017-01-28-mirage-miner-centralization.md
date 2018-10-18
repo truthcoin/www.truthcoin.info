@@ -123,7 +123,7 @@ This "cost minimization" is the entire purpose of this distinction. **After** th
 
 In fact, fixed costs can (and almost always are) amortized over total sales, producing something called "average fixed cost". So, if a new oven costs $6,000, and lasts for 10 years, and if over those 10 years 30,000 pizzas were sold, then the "average fixed cost" would be, at a minimum, 6k/30k = .20 per pizza. It is the effective oven cost "per pizza". It was fixed, but it is now "variabl-ized".
 
-![average-variable-cost](http://mba651fall2007.wikispaces.com/file/view/AVC_Graph_3.png)
+![average-variable-cost](https://orig.bravenewcoin.com/assets/Uploads/_resampled/ResizedImageWzM2MCwzNDJd/AVC-Graph-3.png)
 
 The manager's goal is to maximize the investment return of this business project, over its useful lifetime. This involves three operations: cost-minimization (which is what we are talking about), revenue-maximization (which we do not discuss here), and financing (ie, 'time value of money', "the interest rate" that economists obsess over constantly).
 
@@ -205,7 +205,7 @@ This allows miner centralization to increase, if there are 'kinks' in the invest
 
 Let me explain.
 
-First: if the maximum mining ROI is r%, then eventually all miners must be earning this number. This is because [difficulty adjustments will eventually bankrupt any miner who does otherwise](/images/efficient-hasher-hypothesis.md). In other words, the question of "Who can mine?" has a naive answer of "anyone", but a more sophisticated answer of "anyone who can earn r% by mining". In a sense, there is **a natural barrier-to-entry** that emerges from the competitive features of mining.
+First: if the maximum mining ROI is r%, then eventually all miners must be earning this number. This is because [difficulty adjustments will eventually bankrupt any miner who does otherwise](/images/efficient-hasher-hypothesis/). In other words, the question of "Who can mine?" has a naive answer of "anyone", but a more sophisticated answer of "anyone who can earn r% by mining". In a sense, there is **a natural barrier-to-entry** that emerges from the competitive features of mining.
 
 After all, a meritocracy is exclusionary...it excludes people of low merit!
 
