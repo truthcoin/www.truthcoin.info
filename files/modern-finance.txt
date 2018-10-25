@@ -5,7 +5,7 @@
 Introduction
 -------------
 
-I have always been a good student. In particular, I have a strong natural curiousity, and a relentless focus on distilling consistency from a set of minimal principles (what physicists call the "first principles reduction").
+I have always been a good student. In particular, I have a strong natural curiosity, and a relentless focus on distilling consistency from a set of minimal principles (what physicists call the "first principles reduction").
 
 However, for an overlong time, I found it very hard to make any sense of [1] macroeconomics or of [2] finance.
 
@@ -25,7 +25,7 @@ Borrowing, Debt, Repayment, and Velocity
     a. This touches upon the crucial "stock vs flow" distinction.
     b. The distinction above _itself_ introduces the concept of "velocity" of money. It is, simply: the reuse of the same dollar multiple times.
 
-2. What is actually owed back to the bank is not cash. We could instead refer to it as "utility" or even as "social approval". If the rate is >0%, the borrower must get additional cash from somwhere (to make the interest payments). To do this, the borrower must convince someone else (the employer, or client) to willingly part with her cash. In order to do that, however, he must provide her with something that she finds valuable.
+2. What is actually owed back to the bank is not cash. We could instead refer to it as "utility" or even as "social approval". If the rate is >0%, the borrower must get additional cash from somewhere (to make the interest payments). To do this, the borrower must convince someone else (the employer, or client) to willingly part with her cash. In order to do that, however, he must provide her with something that she finds valuable.
 
 Thus, for someone who is sufficiently popular, and who's popularity endures for a sufficient time, a loan can be repaid, even if the amount of the loan is many times the total amount of money in existence.
 
@@ -59,7 +59,7 @@ There is an ancient Egyptian tablet which says that "XYZ amount of grain is to b
 
 The first banknotes were literal coupons for stuff. Ie "one barrel of wheat", "one jug of milk", etc.
 
-(Theoretically, even a jug of milk is a kind of bond, which allows its user to collect "mouthfulls" of refreshing milk. Everything is a "Utility Bond" -- in the sense of Utility Theory.)
+(Theoretically, even a jug of milk is a kind of bond, which allows its user to collect "mouthfuls" of refreshing milk. Everything is a "Utility Bond" -- in the sense of Utility Theory.)
 
 The English word "bank" comes from Proto-Germanic "bankiz", which means something like "bench" or "table". The concept of a "riverbank" is probably of similar origin, translating to something like "shelf", or "barrier", (?) "container", (?) "where rowboats are stored". Hence, a bank is a place where items are placed, where they are stored and exchanged (ie, the "bankers bench").
 
@@ -90,7 +90,7 @@ From Wikipedia ( https://en.wikipedia.org/wiki/Gold_certificate ) :
 
 	With the 1934 issue, the promise to pay was amended with the phrase "as authorized by law", as redemption was now restricted to only certain entities. The phrase "in gold coin" was changed to "in gold" as the physical amount of gold represented would vary with changes in the government price. 
 
-But, in princple, anyone who had physical gold could go to a mint and have it made into coins. And anyone could take these coins to a bank a deposit them for banknotes.
+But, in principle, anyone who had physical gold could go to a mint and have it made into coins. And anyone could take these coins to a bank a deposit them for banknotes.
 
 And, after the 1913 Act, all the banknotes looked the same.
 
@@ -128,7 +128,7 @@ Correspondingly, we may wonder if the reverse procedure (in the fourth row) is e
 
 And that is where the $3 comes from. The FED creates it at will, and uses it to purchase things. Originally, the FED was banned from owning government debt -- and originally it was not permitted to invest in stocks, bonds, real estate, or other assets. But gradually over time those restrictions have all been lifted.
 
-Nonethless, it might be proper to insist on saying that the FED created the $3 "in order to buy a US Treasury Bond". But where do Treasury Bonds come from? Of course, the US Government spends money, and if it spends more than it has, it must borrow the difference. It thus creates a bond (aka, writes an IOU onto a piece of paper), and auctions these off every Tuesday.
+Nonetheless, it might be proper to insist on saying that the FED created the $3 "in order to buy a US Treasury Bond". But where do Treasury Bonds come from? Of course, the US Government spends money, and if it spends more than it has, it must borrow the difference. It thus creates a bond (aka, writes an IOU onto a piece of paper), and auctions these off every Tuesday.
 
 https://www.treasurydirect.gov/
 https://www.treasurydirect.gov/instit/auctfund/work/work.htm
@@ -161,18 +161,18 @@ Given that banks will make all the loans they possibly can (as they are literall
 The Two Inflations
 -------------------
 
-When people complain
+There are two types of inflation:
 
-1. Price Inflation (of which there are several, CPI being good, PPI, etc)
-2. Inflation Tax -- another thing altogether
+1. Price Inflation (of which there are several metrics: CPI, PPI, etc)
+2. The Inflation Tax
 
-The first can be an effective metric of the cost of living expressed in dollars. But it is likely useful for nothing else. Grounded, approprtiately, in utility theory, monetary economist Scott Sumner argues that the metric is "pointless": http://econlog.econlib.org/archives/2014/12/why_debates_ove.html
+The first can be an effective metric of the cost of living expressed in dollars. But it is likely useful for nothing else. Grounded, appropriately, in utility theory, monetary economist Scott Sumner argues that the metric is "pointless": http://econlog.econlib.org/archives/2014/12/why_debates_ove.html
 
 The second is rather straightforward -- if someone prints money, they have effectively taxed all nominal money balances (and they have also taxed the net present value of contracts for fixed dollar payments [most importantly, hourly wages or annual salary, but also supplier contracts and the like]). The printer has, now, a greater claim on society's resources, despite not adding to the stock of resources. His gain is therefore someone else's loss.
 
-The implications of the inflation tax are as explicity political as anything can be. The decision is who has the "right" to certain resources -- comparable to the rights granted to a King or to Noblemen or yeoman or slaves or pet animals or what-have-you.
+The implications of the inflation tax are as explicitly political as anything can be. The ability to levy this task is the ability to obtain the economy's resources.
 
-The crucial matter at hand, is that the two concepts are entirely different from each other. A high inflation tax will cause prices, in general, to rise more than they otherwise would, but other than that there is absolutely no relationship between the two. The price of a given good is determined by technological factors of production (which reduce it) as well as by the fashions of the day (which can send it in any direction) or the circumstances of war or catastrophe. In fact, the very state of affairs I have just described, that A causes B, proves that A and B are separate concepts.
+The crucial matter at hand, is that the two concepts are entirely different from each other. A high inflation tax will cause prices, in general, to rise more than they otherwise would, but other than that there is absolutely no relationship between "an inflation tax" and "price inflation". The price of a given good is determined by technological factors of production (which reduce it) as well as by the fashions of the day (ie "demand", which can send it in any direction) or the circumstances of war or catastrophe. In fact, the very state of affairs I have just described, that A causes B, proves that A and B are separate concepts.
 
 Maynard Keynes famously said that "you can't push on a string", meaning that you can give people more dollars, but you can't force people to spend them.
 
@@ -181,11 +181,11 @@ Maynard Keynes famously said that "you can't push on a string", meaning that you
 The Two Causes of Deflation
 -----------------------------
 
-In contrast, when people discuss deflation, they refer exclusively to one thing: a sustained fall in prices. (No one speaks of a "deflation rebate", though such a thing must surely exist.)
+In contrast, when people discuss deflation, they refer exclusively to one thing: a sustained fall in prices. ( No one speaks of a "deflation rebate" --granting resources to all who hold nominal money balances-- though such an effect surely occurs, especially during recessions [which are basically bull markets in cash]. )
 
 http://people.ischool.berkeley.edu/~hal/people/hal/NYTimes/2003-06-04.html
 
-Deflation, then, is subject to the 'usual rules' of prices and therefore reveals to us either that [1] supply has increased, or [2] demand has fallen. The first is universally agreed to be desirable, but the second is more problematic.
+Deflation, then, is subject to the 'usual rules' of prices, and therefore reveals to us either that: [1] supply has increased, or [2] demand has fallen. The first is universally agreed to be desirable, but the second is more problematic.
 
 Varian cites problems during the Gilded Age (post-Civil War), but he and I would agree that they could easily have been addressed (for example, if farmers had been granted access to efficient futures markets). In contrast, he cites the Great Depression as an example of the more problematic variety.
 
@@ -195,8 +195,13 @@ The Paradox of Thrift
 
 If 40% of a nation were killed suddenly by earthquake, the economy would be affected profoundly. Contrast this with a situation where 40% of the economy simply stops spending money (either because they are unemployed, and cannot spend it, or because they prefer to save the money for some reason).
 
-Contrast also a situation where a humany body experiences a stroke, heart attack, or other circulatory problem -- death can result. If a leg or arm "falls asleep" at an imopportune time (say, upon the arrival of a predatory beast, or the attack of some rival), it may also cause death.
+Contrast also a situation where a human body experiences a stroke, heart attack, or other circulatory problem -- death can result. If a leg or arm "falls asleep" at an inopportune time (say, upon the arrival of a predatory beast, or the attack of some rival), it may also cause death. In a food chain, if one or two critical links become disrupted, the entire downstream chain can starve off and face extinction.
 
-Thrift may be bad, but extravagence can also be bad, as if a huge part of the economy were placed on stimulants, or if the human body were forced to remain on adrenaline for a period of time. Performance in the immediate future would be greatly increased, but over the long term there would be a neglect of essential maintenance activities that would ultimately be devastating.
+Even (some) Austrian economists agree that "both credit expansion and violent fluctuations in saving will generate business cycles".
+See: https://reasonpapers.com/pdf/05/rp_5_4.pdf
 
-Inter-relatedness is a double-edged sword. Without it, modern life would be impossible. Yet it somewhat imperils us. Similarly for multicellularism -- hence the profound redundancy in biology (the human body has two of nearly everything important, the brain can still work even if partly removed, layers of skin that constantly regenerate / colonies of digestive bacterial cells that constantly adjust to diet, instincts for friendship and pair-bonding).
+Thrift may be bad, but extravagance can also be bad -- as if a huge part of the economy were placed on stimulants, or if the human body were forced to remain on adrenaline for a period of time. Performance in the immediate future would be greatly increased, but over the long term there would be a neglect of essential maintenance activities that would ultimately be devastating.
+
+Specialization can also be bad, see: "Ten thousand years later there's an ice age and the species goes out of business." at https://www.lesswrong.com/posts/gDNrpuwahdRrDJ9iY/evolving-to-extinction
+
+Inter-relatedness is a double-edged sword. Without it, modern life would be impossible. Yet it somewhat imperils us. Similarly for multicellular-ism -- hence the profound redundancy in biology (the human body has two of nearly everything important, the brain can still work even if partly removed, layers of skin that constantly regenerate, colonies of digestive bacterial cells that constantly adjust to diet, instincts for friendship and pair-bonding).
