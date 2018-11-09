@@ -1,5 +1,5 @@
 ---
-title: "Deniability" -- Unilateral Transcation Meta-Privacy
+title: Deniability - Unilateral Transaction Meta-Privacy
 show_author: true
 comments: true
 date: 2018-11-09 01:00:00
@@ -14,19 +14,25 @@ date: 2018-11-09 01:00:00
 
 **Deniability** is a simple tool that makes it very easy to "shuffle" your coins (ie, send your UTXOs to yourself). After running it, it will look as though all of your BTC has been sent away to other people (when in reality it remains with you). In other words, Deniability allows users to claim --credibly-- that they own no Bitcoin.
 
-The downside is that several "fake" transactions are required per "real" txn. Therefore, extra blockspace is consumed, and extra txn fees must be paid.
+The downside is that we must mix in "fake" transactions together with each "real" txn. Therefore, extra blockspace is consumed, and extra txn fees must be paid.
 
-One way to think about it, is to imagine that "deniable" transactions take up roughly three times the size as regular txns (as they'd require, on average, two additional "dummy" txns). This triples the blockspace required, from about 500 bytes total (for one modern transaction)[^1] to 1500 bytes total on average. This is actually quite competitive -- for reference, Monero's [brand new](https://bitcoinmagazine.com/articles/monero-transaction-fees-reduced-97-after-bulletproofs-upgrade/), state of the art, [ultra-private](https://www.reddit.com/r/Monero/comments/7cxt0a/xmr_protocol_vs_confidential_transactions_ct/) bulletproof txns each require at least of 1800 bytes[^2]. So if we take that to be the industry standard, Deniability is still actually ~17% smaller.
+One way to think about it, is to imagine that "deniable" transactions take up roughly three times the size as regular txns (as they'd require, on average, two additional "dummy" txns). This triples the blockspace required, from about 500 bytes total (for one modern transaction)[^1] to 1500 bytes total on average. This is actually quite competitive -- for reference, Monero's [brand new](https://bitcoinmagazine.com/articles/monero-transaction-fees-reduced-97-after-bulletproofs-upgrade/), state of the art, [ultra-private](https://www.reddit.com/r/Monero/comments/7cxt0a/xmr_protocol_vs_confidential_transactions_ct/) bulletproof txns each require 1800 bytes[^2] in their absolute best-case scenario. So if we take that to be the industry standard, Deniability is still actually ~17% smaller.
 
 [^1]: See [this reference](https://bitcoin.stackexchange.com/questions/31974/what-is-the-average-size-of-a-bitcoin-transaction), stating that BTC transactions are now about 500 bytes. In practice, many Deniability Txns are likely to be "basic style" txns (1 input, 2 outputs, P2PKH), which would actually allow them to come in at the very low end: around 250 bytes.
 
 [^2]: From [this block explorer](https://xmrchain.net/), one can see that (the very small coinbase txns notwithstanding), transactions are always at least 1800 bytes. See also [this StackExchange answer](https://monero.stackexchange.com/questions/211/how-much-larger-are-monero-transactions-compared-to-the-average-bitcoin-transact/212) stating that Monero txns were ~2,000 bytes in 2016, but later grew to about 13,000 bytes with the adoption of RingCT before [shrinking by "approximately 80%"](https://www.getmonero.org/2017/12/07/Monero-Compatible-Bulletproofs.html) (which would place them at "about 2.5 kb").
 
-A further downside is that user's funds are spread out over many more UTXOs than they would be otherwise. Thus, in order to spend the same transaction magnitudes, the user must be prepared to make larger txns down the road, than they would have if they had not used deniability. However, if we again compare a one-ouput 1,600-byte Monero txn to a "Deniability clean-up" txn (with 
+A further downside is that user's funds are spread out over many more UTXOs than they would be otherwise. Thus, in order to spend the same transaction magnitudes, the user must be prepared to make larger txns down the road (larger than the txn that they would have if they had not used deniability).
 
-again, compared to one 
+However, if we again compare the best-case 1,800-byte Monero txn to a worst-case "Deniability clean-up" txn, (one which has been split twice, and whose three outputs must unfortunately be recombined in a third txn) the total byte cost is still much lower. 
 
-Both disadvantages are trivial on a large blocksize
+See here:
+
+![image](/images/deniab-worst-case.png)
+
+This is because [each BTC input requires only 148 bytes](https://bitcoin.stackexchange.com/questions/48279/how-big-is-the-input-of-a-p2pkh-transaction), which is extremely small compared to Ring/Bulletproof 1800 bytes.
+
+So, relatively speaking, the costs are negligible. On a "payments" blockchain, such as the BCH network or a largeblock sidechain, the costs [to the transacting user] are almost nonexistent.
 
 
 ### B. Unique Properties
@@ -70,15 +76,14 @@ Here are the steps that Deniability performs:
 2. [Optional] Software queries the blockchain for "what most transactions look like these days".
 3. Software constructs a txn that sufficiently "blends in" with the rest of the blockchain, but which spends Alice's target UTXO. The outputs of this txn (the new UTXOs which are created) are *all* still owned by Alice.
 
-This process is then repeated an arbitrary number of times. Alice can "Deniabilize" every single one of her UTXOs, 
-
+This process is then repeated an arbitrary number of times. Alice can "Deniabilize" every single one of her UTXOs, as many times as she likes. She can even (and occasionally should) Deniabilize UTXOs that she has just Deniabilized.
 
 You see? Very simple. 
 	
 
 ### B. Advanced
 
-We can (and should) make the tool much better:
+We can (and should) make the tool much better in a few ways:
 
 * By default, Deniabilize UTXOs a *random* number of consecutive times. Use some kind of [survival function](https://en.wikipedia.org/wiki/Survival_function) to determine when to stop Deniabilizing each UTXO.
 * During txn broadcast, mask the fact that all of these txns were created by the same computer. This should involve several steps:
@@ -98,7 +103,7 @@ So far, we've assumed that the attacker is watching the blockchain, but has NOT 
 
 As a result of that assumption, it does not matter if Alice's wallet software explicitly tracks, and stores, the Deniabilization history of her UTXOs. In fact, this greatly improves the user experience.
 
-Clever Bitcoin users will keep their private keys on a "cold" medium (eg, an air-gapped machine, a hardware wallet, pen-and-paper, etc). They will pair that device with a "watching only" wallet (a "hot" wallet which is connected to the internet). The hot wallet can create and monitor transactions, but it cannot move funds because it cannot sign transactions.
+Clever Bitcoin users will keep their private keys on a "cold" medium (eg, an air-gapped machine, a hardware wallet, pen-and-paper, etc). They will pair that device with a "watching only" wallet (a "hot" wallet which is connected to the Internet). The hot wallet can create and monitor transactions, but it cannot move funds because it cannot sign transactions.
 
 Obviously if an adversary finds the cold storage, it's game over -- they can find all the funds and steal them.
 
