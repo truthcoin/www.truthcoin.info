@@ -6,7 +6,7 @@ date: 2018-11-09 01:00:00
 ---
 
 
-> An ultra-simple, but *extremely* effective wallet-side Bitcoin privacy tool: sending your coins to *yourself*, in a way that makes it look as though you are sending them to someone else.
+> An ultra-simple, but *extremely* effective wallet-side Bitcoin privacy tool: sending your coins to *yourself*, in a way that makes it look as though you are sending them to someone else. Every wallet should have these tools!
 
 ## I. Intro
 
