@@ -30,7 +30,7 @@ See here:
 
 ![image](/images/deniab-worst-case.png)
 
-This is because [each BTC input requires only 148 bytes](https://bitcoin.stackexchange.com/questions/48279/how-big-is-the-input-of-a-p2pkh-transaction), which is extremely small compared to Ring/Bulletproof 1800 bytes.
+This is because [each BTC input requires only 148 bytes](https://bitcoin.stackexchange.com/questions/48279/how-big-is-the-input-of-a-p2pkh-transaction), which is extremely small compared to Ring/Bulletproof's total size of 1800 bytes.
 
 So, relatively speaking, the costs are negligible. On a "payments" blockchain, such as the BCH network or a largeblock sidechain, the costs [to the transacting user] are almost nonexistent.
 
@@ -93,8 +93,10 @@ We can (and should) make the tool much better in a few ways:
 * Minimize the user-effort required. Construct all of the txns at once, and then have the user sign them all at once. For users with an air-gapped setup, save all of the txns to one file, and allow the signed versions to return via a stream of QR codes -- have the "hot" computer know exactly how to interpret them (ie, how to save them txns to disk and then broadcast them at a random time).
 * Track and store the Deniabilization status of all UTXOs. Warn users if UTXOs have not been Deniabilized yet.
 * Enable "right sizing" as an option for Deniability. "Right-sizing" is preemptively creating an output that is just the "right size". For example when you anticipate the need to spend $5 with a $0.04 fee, you might make an output containing exactly $5.04. When you spend this output, there will be no change address.
-* Have volunteers run a free service where they report blockchain "summary statistics" in a concise way. In this way, software can easily learn what typical txns are like (size, number of input/outputs, heterogeneity in output magnitude (especially "proportion of txn that have 'right-sized' inputs"), etc) so as to best imitate these "real" txns when making "fake" Deniability txns.
-
+* Have volunteers run a free service where they report blockchain "summary statistics" in a concise way. In this way, even lite clients can easily learn what the typical recent txn is like. This could include the median and mode of the following:
+* * Txn size in bytes.
+* * Absolute number of inputs and outputs.
+* * Heterogeneity in output magnitudes (eg, These days, is all of the txn's BTC getting allocated to just one output (ie, "right-sizing")? If not, how does it tend to be distributed across its outputs?).
 
 
 ### C. Going Even Further
@@ -146,7 +148,14 @@ But what I set out to do here is more like the original (traditional banking mod
 
 Imagine that Alice and Bob are known associates, and they each of them **may** be users of Deniability. Further suppose that a ["chain analyst"](https://www.chainalysis.com/#solutions) already knows that UTXO #345 belongs to Alice.
 
-Finally, let us assume that the blockchain grows and that the new blocks contain exactly four transactions, shown here:
+Finally, let us assume that the blockchain grows, and that the new blocks contain exactly four new transactions:
+
+1. A txn which spends #345, and creates (#346, #347).
+2. A txn which spends #346, and creates (#348, 349).
+3. A txn which spends #348, and creates (#350, #351, and #352).
+4. A txn which spends spends #347, and creates #353.
+
+Here below, I show the individual TXOs as numeric values, and the transactions as multi-pronged arrows connecting them:
 
     #345 ----> #346
           \         \------> #348 ----> #350   
@@ -155,14 +164,8 @@ Finally, let us assume that the blockchain grows and that the new blocks contain
              \
               \--> #347 ---> #353
 
-Let me designate the four transactions as follows:
 
-* The first transaction spends #345, and creates (#346, #347).
-* The second txn spends #346, and creates (#348, 349).
-* The third spends #348, and creates (#350, #351, and #352).
-* Finally, the fourth spends #347, and creates #353.
-
-What can the analyst conclude?
+In a world with Deniability, what can the analyst conclude from this information?
 
 Well, it is possible that all five of the surviving UTXOs (#350, #351, #349, #352, #353) actually belong to Alice. This would happen if Alice Deniabilized #345, and the randomization software buried that output beneath four "layers of deniability". 
 
