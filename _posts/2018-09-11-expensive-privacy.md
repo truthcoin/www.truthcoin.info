@@ -93,9 +93,9 @@ I don't know, it just seems obvious to me -- if you really *need* to keep the se
 
 ### E. The Pretext
 
-One of mankinds most powerful technological innovations is the **pretext** -- a fake-but-irrefutable justification for doing something. Pretexts act as a kind of "social shield" or "social encryption" that one can hide behind. Specifically, you can hide your *motivations*. Your **secret** motivations.
+One of mankind's most powerful technological innovations is the **pretext** -- a justification for doing something that is fake, but irrefutable. Pretexts act as a kind of "social shield" or "social encryption" that one can hide behind. Specifically, you can hide your *motivations*. Your **secret** motivations.
 
-For example, imagine that Teenager 1 ("Alice") wants to spend more time with Teenager 2 ("Bob"). So Alice decides to join a drama club that Bob is in. While doing so, Alice will attempt to attribute her behavior to the non-Bob attributes of the club. In other words, she is sure to remark loudly that she loves acting (etc). And Alice will fool a few people with this ruse. But, much more importantly, Alice's claim [of interest in drama, vs an interest in Bob] *cannot be easily [dis]proven* by anyone. And therefore most people will be *disinterested* in the claim's truth or falsehood. Mission accomplished!
+For example, imagine that Teenager 1 ("Alice") wants to spend more time with Teenager 2 ("Bob"). So Alice decides to join a drama club that Bob is in. While doing so, Alice will misdirect the audience's attention, to the non-Bob attributes of the club. In other words, she is sure to remark loudly that she loves acting (etc). And Alice may fool a few people with this ruse. But, much more importantly, Alice's claim [of interest in drama, vs an interest in Bob] *cannot be easily [dis]proven* by anyone. And therefore most people will be *disinterested* in the claim's truth or falsehood. Mission accomplished!
 
 In fact, even those who are nearly certain that it is a lie (for example: Alice's rivals, or long-time members of the drama club), cannot prove their knowledge to anyone else, without appearing to be suspicious or dark-minded themselves. And so even the suspicious people are forced to self-censor their suspicion. The fact that Alice is up to something, goes un-discussed. (At least, not openly.)
 
@@ -133,7 +133,7 @@ Now...
 |:------:|:------:|:------:|
 |Reusable ("stealth") addresses, The lightning network, Non-interactive CoinJoin w/ Schnorr signature aggregation, TumbleBit, Dandelion, Taproot|Sending your own BTC to yourself N times.|Ring Signatures, zk-SNARKs, Confidential Transactions, Confidential Assets, Interactive CoinJoin|
 
-Column 1 contains technologies that are not only more private, but ultimately are *cheaper* or more convenient for the user. [Reusable addresses](https://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address) are much more user-friendly than our current process [of awkward interaction, over an endlessly mutating list of gibberish][^1]. LN and [Schnorr-CoinJoin](https://bitcoinmagazine.com/articles/the-power-of-schnorr-the-signature-algorithm-to-increase-bitcoin-s-scale-and-privacy-1460642496/) are literally cheaper to use, as they consume fewer on-chain bytes. And developers will [probably] eventually make [TumbleBit](http://cs-people.bu.edu/heilman/tumblebit/), [Dandelion](https://www.coindesk.com/bitcoin-developers-build-prototype-for-dandelion-privacy-tool/), and [TapRoot](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-January/015614.html) the standard or default behavior[^2] for clients/LN-hubs/MASTs, at which point doing anything else will be inconvenient (and suspicious).
+Column 1 contains technologies that are more private, **and also cheaper** or more convenient for the user. [Reusable addresses](https://bitcoin.stackexchange.com/questions/20701/what-is-a-stealth-address) are much more user-friendly than our current process [of awkward interaction, over an endlessly mutating list of gibberish][^1]. LN and [Schnorr-CoinJoin](https://bitcoinmagazine.com/articles/the-power-of-schnorr-the-signature-algorithm-to-increase-bitcoin-s-scale-and-privacy-1460642496/) are literally cheaper to use -- they consume fewer on-chain bytes. And developers [we can assume] will eventually make [TumbleBit](http://cs-people.bu.edu/heilman/tumblebit/), [Dandelion](https://www.coindesk.com/bitcoin-developers-build-prototype-for-dandelion-privacy-tool/), and [TapRoot](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2018-January/015614.html) the standard or default behavior[^2] for clients/LN-hubs/MASTs, at which point doing anything else will be inconvenient (and suspicious).
 
 [^1]: Especially after they are merged with [blockchain identity technology](http://www.truthcoin.info/blog/codex-identity-sidechain/).
 
@@ -145,15 +145,15 @@ Column 2 contains one item: "sending your own BTC to yourself". This is certainl
 
 This is, incidentally, why it does not matter that TumbleBit and Dandelion are "more expensive" in that they require more CPU cycles (relative to "basic" LN-hubs or node-txn-rely). No one observes CPU cycles directly, and even if they could, observers couldn't *prove* their observations to third parties. The CPU cycles, just like self-sending cycles, are done in private.
 
-In fact, the fake txns that you broadcast not only mix your coins, but they also make the chain as a whole more incomprehensible. It is even (speaking very roughly) the privacy model advocated by Satoshi himself:
+In fact, any fake txns that you broadcast will not only mix your coins, but they will also make the chain as a whole more incomprehensible. It is even (speaking very roughly) the privacy model advocated by Satoshi himself:
 
 ![images](/images/satoshi-privacy.png)
 
-Column 3 contains privacy technologies that are more expensive to use. Thus, they will tend only be used by those with something-to-hide (ie, "the guilty"), as only they have any reason to pay any premium for them[^4].
+Column 3 contains privacy technologies that are more expensive to use. Thus, they will tend to be exclusively used by "the guilty", as any innocent person has no reason to pay up[^4].
 
-[^4]: While their idealism lasts, these privacy techs may also be usd by a few almsgiver privacy-advocates. But this simply cannot scale. Oover time, regular users will defect to the cheapest and easiest-to-use technologies (as they should), and so use of awkwardly-expensive technologies will look more and more suspicious.
+[^4]: Other than idealism. In other words, these privacy techs may be used by a few almsgiver privacy-advocates. But this simply cannot scale. Oover time, regular users will defect to the cheapest and easiest-to-use technologies (as they should), and so the use of awkwardly-expensive technologies will look more and more suspicious.
 
-I am sorry to trod on other people's hard work, but I don't see any hope for the members of Column 3. While those techs certainly have academic value, and could certainly be stepping stones to greater technological improvement, they are unserious and should be discarded. Any talk of their use or implementation is perplexing at best. They are in the situation I outlined above, of Alice paying $5 to join the Bob-drama-club. These techs make no attempt to achieve **the goal of privacy**: to allow the Guilty to resemble The Innocent.
+I am sorry to trod on other people's hard work, but I don't see any hope for the members of Column 3. While those techs certainly have academic value, and while they could certainly be stepping stones to greater technological improvement, they are unserious and should be discarded. Any talk of their use or implementation is perplexing at best. They are in the situation I outlined above, of Alice paying $5 to join the Bob-drama-club. These techs make no attempt to achieve **the goal of privacy**: to allow the Guilty to resemble The Innocent.
 
 
 ## 3. Applied to Bitcoin Itself
