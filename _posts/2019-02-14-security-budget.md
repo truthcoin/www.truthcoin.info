@@ -7,7 +7,7 @@ date: 2019-02-14
 
 > A discussion of Bitcoin's ability to resist 51% attacks (ie, its "security budget"). Competition makes it difficult for one network to collect enough fees -- instead, we should try to collect fees from all networks.
 
-This post is a somewhat more-empirical sequel to ["Two Types of Blockspace Demand"](http://www.truthcoin.info/blog/blockspace-demand/). And to my [Lisbon Building-on-Bitcoin talk](http://www.drivechain.info/literature/index.html#bob).
+This post is a somewhat more-empirical sequel to ["Two Types of Blockspace Demand"](http://www.truthcoin.info/blog/blockspace-demand/). And to my [Building-on-Bitcoin talk](http://www.drivechain.info/literature/index.html#bob).
 
 ## 1. The "Security Budget"
 
@@ -15,13 +15,13 @@ Bitcoin's ["security budget"](https://medium.com/coinmonks/bitcoin-security-in-o
 
 $2.6 B is pretty low -- by comparison, the 2017 annual US Military Budget was $590 billion, and the [FED's annual operating expenses](https://www.federalreserve.gov/publications/2017-ar-federal-system-budgets.htm) totaled $5.7 billion.
 
-## 2. The Block Subsidy ## {#2-the-block-subsidy}
+## 2. The Block Subsidy
 
 Fortunately, we can expect the *block subsidy* to give us more security in the future. Even though it "halves" once every four years (effectively falling by a factor of 0.84 per year), it hits for full force no matter how high the BTC exchange rate climbs. As long as annual appreciation 19%+, it fully compensates for the PP lost to the halvening. Historically, the rate has been *much* higher than 19% (more like 70%+), and so the security budget has increased substantially over time, and will continue to do so for a while.
 
-Of course, eventually the exchange rate must stop appreciating. Even [if Bitcoin is outrageously successful](https://coinjournal.net/research-paper-makes-case-5-8-million-bitcoin-price/), it will apparently reach a point where it simply cannot grow faster than 1.077 per year[^n] , as this is apparently the growth in the nominal value of all the world's money.
+Of course, eventually the exchange rate must stop appreciating. Even [if Bitcoin is outrageously successful](https://coinjournal.net/research-paper-makes-case-5-8-million-bitcoin-price/), it will apparently reach a point where it simply cannot grow faster than 1.077 per year[^1] , as this is apparently the growth in the nominal value of all the world's money.
 
-[^n]: The math is that 1.077 = (25.94/5.85)^(1/20). And note that 1.077 is below the required "stasis rate" of 1.19.
+[^1]: The math is that 1.077 = (25.94/5.85)^(1/20). And note that 1.077 is below the required "stasis rate" of 1.19.
 
 Here I show the growth, and ultimate decline of the security budget:
 
@@ -39,7 +39,8 @@ The "indifference" epoch is one where Bitcoin is vulnerable, but few adversaries
 As is commonly known, *transaction fees* are expected to come to the rescue. As [Greg Maxwell remarked](https://web.archive.org/web/20171207201015/https://botbot.me/freenode/bitcoin-wizards/2016-01-17/?msg=58099943&page=1): 
 
     fee pressure is an intentional part of the system
-    design and to the best of the current understanding essential for the system's long term survival
+    design and to the best of the current understanding
+    essential for the system's long term survival
 
 He [later famously wrote](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-December/015455.html): 
 
@@ -77,9 +78,9 @@ Transaction fees are explicitly priced in BTC. But, unlike the block reward, the
 
 And so tx-fees are not really "priced in BTC", despite the protocol's attempt to mislead us into thinking that they are. They are actually priced in [purchasing power](http://www.truthcoin.info/images/true-money/), which --these days (pre-hyper-bitcoinization)-- is best expressed in US Dollars.
 
-So, it is entirely appropriate [to say](https://www.cnbc.com/2017/12/19/big-transactions-fees-are-a-problem-for-bitcoin.html), for example, that "in Dec 2017, BTC had tx-fees as high as *twenty-eight dollars*". And it would be inappropriate to say that the tx-fees were "as high as .0015,0000 BTC". For if the BTC price had been 10x higher[^n], the tx-fees would have only reached .0001,5000 BTC.
+So, it is entirely appropriate [to say](https://www.cnbc.com/2017/12/19/big-transactions-fees-are-a-problem-for-bitcoin.html), for example, that "in Dec 2017, BTC had tx-fees as high as *twenty-eight dollars*". And it would be inappropriate to say that the tx-fees were "as high as .0015,0000 BTC". For if the BTC price had been 10x higher[^2], the tx-fees would have only reached .0001,5000 BTC.
 
-[^n]: I mean that if the USD/BTC price had been 10x higher, throughout the "bubble" of late-2017. In other words, if Bitcoin had started Jan 2017 at around 9,000 USD/BTC and then risen to 190,000 USD/BTC.
+[^2]: I mean that if the USD/BTC price had been 10x higher, throughout the "bubble" of late-2017. In other words, if Bitcoin had started Jan 2017 at around 9,000 USD/BTC and then risen to 190,000 USD/BTC.
 
 ### iv. Stimulating Production
 
@@ -101,17 +102,17 @@ Alt-"coins" are *very poor* substitutes for Bit-"coins". Each form of money, is 
 
 But it is the reverse when we consider transaction fees and "btc-block-bytes": Altcoin-blockspace is a pretty good substitute for Bitcoin-blockspace. Remember that this type of demand has *nothing to do* with obtaining BTC. Users merely wish to buy something using the Bitcoin payment-rail. This image from [2013 FINCEN Congressional testimony](https://www.fincen.gov/news/testimony/statement-jennifer-shasky-calvery-director-financial-crimes-enforcement-network-0) hopefully makes it clear:
 
-![image](/images/round-trip/)
+![image](/images/round-trip.png)
 
 Since the amount of coin sent in a blockchain payment is always configurable, it will always be possible to send someone "twenty dollars" worth of LTC; or "one BTC" worth of DOGE; or "one sandwich" worth of EOS. All of this is made much easier by the "exchangers" (ie: Coinbase, ShapeShift, SideShift, BitPay, LocalBitcoins, multi-currency wallets, CC ATMs, etc) which now take numerous forms and are easy to use.
 
-Furthermore, this (true) premise --that Altcoin-payments are indeed substitutes for Bitcoin-payments-- is occasionally explicitly admitted[^n], even by hardcore maximalists. Especially during the last fee run-up in late 2017:
+Furthermore, this (true) premise --that Altcoin-payments are indeed substitutes for Bitcoin-payments-- is occasionally explicitly admitted[^3], even by hardcore maximalists. Especially during the last fee run-up in late 2017:
 
 * [Samson Mao](https://twitter.com/Excellion/status/926908067521761280)
 * [Francis Pouliot](https://twitter.com/mikeinspace/status/1078546356476628992)
 * ["The digital currency for payments"](https://litecoin-foundation.org/product/understanding-litecoin-the-digital-currency-for-payments/)
 
-[^n]: I do remember there being much more of this, but I could only find a few examples (before giving up). Please message me if you can find/remember any other examples.
+[^3]: I do remember there being much more of this, but I could only find a few examples (before giving up). Please message me if you can find/remember any other examples. I guess I will eventually remove this paragraph if I never find any more.
 
 ### vi. Competitive Demand for the Payment Rail
 
