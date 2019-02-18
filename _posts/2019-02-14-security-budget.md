@@ -172,7 +172,7 @@ Second, the LN user-experience will probably always be worse than the on-chain u
 
 Merged-Mined Sidechains do whatever Altcoins can do, but without the need to purchase a new token. So they have infinitely lower exchange rate risk, and are more convenient for users.
 
-On top of that, MM SCs send all txn-fees they collect to Bitcoin miners. Under  Merged Mining](http://www.truthcoin.info/blog/blind-merged-mining/), they do this without requiring any users or miners to run the sidechain node software.
+On top of that, MM SCs send all txn-fees they collect to Bitcoin miners. Under [Blind Merged Mining](http://www.truthcoin.info/blog/blind-merged-mining/), they do this without requiring any users or miners to run the sidechain node software.
 
 A set of [largeblock sidechains](http://www.truthcoin.info/blog/gigachain/) could process very many transactions. In the next section, I will assume that the total Sidechain Network replaces VISA, (and VISA alone), and captures all of its transaction fee revenues. VISA is only a small percentage of the total payments market (which includes checks, WesternUnion, ApplePay, etc), but it is a good first look.
 
@@ -197,7 +197,7 @@ If we assume that current trends holds, we get the following:
  
 ![image](/images/security-budget-fees.png)
 
-[Link to Excel sheet](/images/long-run-security-budget.xlsb).
+[Link to Excel sheet](/images/long-run-security-budget.xlsx).
 
 Above: The 'security budget table' from earlier in this post, plus a new column: VISA transaction fees. These fees are added to the base block subsidy amounts, to get a new total security budget.
 
