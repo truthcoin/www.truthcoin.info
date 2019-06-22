@@ -66,7 +66,9 @@ After the reinforcements arrive, things get even more interesting.
 
 #### Attribution
 
-* The Usurper isn't happy about this. He would rather attribute the onset of violence to the attackers -- unfortunately, they have used restraint and so far only attacked a door. The Usurper can hardly claim that it is wrong to break down a door to deal with unreasonable people, as this is exactly what *he himself* was doing moments earlier. Instead, recognizing the threat posed to him by the silence falling all around him, he attempts to reverse the trend by yelling and loudly drawing his sword. And he thereby re-escalates the situation.
+* The Usurper isn't happy about this. He would rather attribute the onset of violence to the attackers -- unfortunately, they have used restraint and so far only attacked a door. The Usurper can hardly claim that it is wrong to break down a door to deal with unreasonable people, as this is exactly what *he himself* was doing moments earlier. Instead, recognizing the threat posed to him by the silence falling all around him, he attempts to reverse the trend by yelling and loudly drawing his sword. And he thereby re-escalates the situation.[^n]
+
+[^n]: A similar strategy ... http://wildsftours.com/alcatraz/ .. food riots.
 
 #### Negotiation
 
@@ -107,4 +109,6 @@ If you're caught up on the show, and don't mind other spoilers, here are some of
 * LittleFinger's attempt to intimidate/manipulate Brandon, in Season 7, fails because the interdependence criterion no longer applies (Bran is not affected by LF, because he is [a] at home surrounded by allies / armed guards, but more importantly [b] is relatively omniscient, and therefore flatly immune to Petyr's plan).
 * After Dany conquers Mereen, she has her army basically work as police officers. While the Unsullied are effective warriors, they have no investigative experience and fail to track down criminals.
 
+---
 
+### Footnotes
