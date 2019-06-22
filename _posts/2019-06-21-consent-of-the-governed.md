@@ -57,7 +57,7 @@ These were selfless acts of bravery and compassion. But they could technically b
 
 So we have our desired example: of consent being given, despite no interaction between the two parties. It was simply conjectured into existence.
 
-( This concept may help resolve other supposed consent-puzzles: romance [see [here](http://southpark.cc.com/clips/z61jlw/would-that-be-acceptable) and [here](http://www.cc.com/video-clips/jwmvxd/chappelle-s-show-love-contract)], and parenting [ie, "Am I allowed to 'force' my young/naive child, to attend school / practice the piano / learn manners ?", etc.] )
+( This concept may help resolve other supposed consent-puzzles. For example **romance** [see [here](http://southpark.cc.com/clips/z61jlw/would-that-be-acceptable) and [here](http://www.cc.com/video-clips/jwmvxd/chappelle-s-show-love-contract)], and **parenting** [ie, "Am I allowed to 'force' my young/naive child, to attend school / practice the piano / learn manners ?", etc.] )
 
 
 ## Part 2. Consent is Always Known Imperfectly
@@ -66,9 +66,9 @@ So we have our desired example: of consent being given, despite no interaction b
 
 First, let me define three terms: **Truth**, **Knowledge**, and **Proof**.
 
-"Truth" is whether or not something is actually a certain way, "out there" in the external objective reality. "Knowledge", is if your brain [^n] ever creates [a representation](/blog/map-territory) of the "thing" that is accurate (the representation's "way", is the way that the real thing's "way" is). A "Proof" is a new thing (not in your brain) that you can use to *create* knowledge [about the first thing] in others.
+"Truth" is whether or not something is actually a certain way, "out there" in the external objective reality. "Knowledge", is if your brain [^1] ever creates [a representation](/blog/map-territory) of the "thing" that is accurate (the representation's "way", is the way that the real thing's "way" is). A "Proof" is a new thing (not in your brain) that you can use to *create* knowledge [about the first thing] in others.
 
-[^n]: The representations [don't need to exclusively be inside your mind](https://www.sciencedirect.com/science/article/pii/S0049237X08712047). They could be in books that you know how to find, in an internet database that you know how to search. But I would not want this section to get too bogged down by epistemology. 
+[^1]: The representations [don't need to exclusively be inside your mind](https://www.sciencedirect.com/science/article/pii/S0049237X08712047). They could be in books that you know how to find, in an internet database that you know how to search. But I would not want this section to get too bogged down by epistemology. 
 
 For example: [1] you shoplift on a certain day; [2] someone sees you; and [3] your crime is recorded on surveillance camera. The first is a Truth, the second represents Knowledge (the witness' knowledge of truth [the truth of your guilt]), and the third represents Proof.
 
@@ -106,9 +106,9 @@ When we observe signatures on documents (or handshakes after lengthy verbal nego
 
 Knowledge-creation is expensive. It costs effort to make, just as it costs effort to make a chair or an ice cream sandwich. Even if every citizen wanted to spend their scarce free time, to investigate every transaction in the economy for fraud (itself a dubious prospect), the simple fact is that they just do not have enough time to do so. (More in Part 4).
 
-Courts are society's specialists in this area. They are fallible, but a reliable "proof" exists at least of the outcome of their decision. While people can disagree over the facts of each case, they can't really disagree about "what the court ultimately decided to do"[^n]. Thus the dispute ends.
+Courts are society's specialists in this area. They are fallible, but a reliable "proof" exists at least of the outcome of their decision. While people can disagree over the facts of each case, they can't really disagree about "what the court ultimately decided to do"[^2]. Thus the dispute ends.
 
-[^n]: Fans of Bitcoin may appreciate [this correct usage of the term "proof"](https://bitcointalk.org/index.php?topic=721.msg8114#msg8114): "Proof-of-work has the nice property that it can be relayed through untrusted middlemen."
+[^2]: Fans of Bitcoin may appreciate [this correct usage of the term "proof"](https://bitcointalk.org/index.php?topic=721.msg8114#msg8114): "Proof-of-work has the nice property that it can be relayed through untrusted middlemen."
 
 ### D. Rejecting CM Nihilism
 
@@ -154,9 +154,9 @@ So, how does teamwork 'come about', anyway? And which 'how-it-come-abouts' do th
 
 #### i. Information Diffusion
 
-Well, when many different people comply with a defined plan, it must be because two conditions were met: [1] they all knew what to do, and [2] each person felt motivated to do their part. In other words, a specific type of knowledge diffused through the group -- a "group computation". Everyone obtained enough of the plan to understand both [1] their role in it and [2] that it was in their best interest to follow the plan[^n].
+Well, when many different people comply with a defined plan, it must be because two conditions were met: [1] they all knew what to do, and [2] each person felt motivated to do their part. In other words, a specific type of knowledge diffused through the group -- a "group computation". Everyone obtained enough of the plan to understand both [1] their role in it and [2] that it was in their best interest to follow the plan[^3].
 
-[^n]: Obviously, the plan is often rejected -- even under [extreme conditions of duress](https://www.amazon.com/Runaway-Slaves-John-Hope-Franklin/dp/0195084519).
+[^3]: Obviously, the plan is often rejected -- even under [extreme conditions of duress](https://www.amazon.com/Runaway-Slaves-John-Hope-Franklin/dp/0195084519).
 
 There are many ways of accomplishing this knowledge-diffusion task, just as there are many ways of constructing a bridge between two points of land. For example: one way is "deliberation-and-consent" -- for everyone to share all of the information they have, and discuss until everyone agrees. A second way is "threaten-and-submission"; a third is "majority-vote-and-resignation".
 
@@ -174,9 +174,9 @@ The foundation of social compliance is, of course, psychological / biological. L
 * "respect 'personal space' -- move nearest the people you know well"
 * "over-fortunate people should share generously"
 
-Most of our informal social norms *evolved*, via natural selection. They're memes in [the true, Dawkins sense of the word](https://en.wikipedia.org/wiki/Meme). They are contagious behaviors that survive by copying themselves into host brains as quickly and reliably as possible. They are enforced via shame, pride, by altering social rank and who is allowed to reproduce or obtain property, etc.[^n]
+Most of our informal social norms *evolved*, via natural selection. They're memes in [the true, Dawkins sense of the word](https://en.wikipedia.org/wiki/Meme). They are contagious behaviors that survive by copying themselves into host brains as quickly and reliably as possible. They are enforced via shame, pride, by altering social rank and who is allowed to reproduce or obtain property, etc.[^4]
 
-[^n]: Biologically, when we are out of sync with the local *genes*, we experience illness -- indigestion or infection. Similarly, when we are out of sync with the local *memes*, we experience mental illness -- awkwardness, anxiety, and depression.
+[^4]: Biologically, when we are out of sync with the local *genes*, we experience illness -- indigestion or infection. Similarly, when we are out of sync with the local *memes*, we experience mental illness -- awkwardness, anxiety, and depression.
 
 Resources: 
 
@@ -219,9 +219,9 @@ If there were no 'meta-contract', (or if "opting out" of it were too easy), then
 
 The "meta contract" is better known as **The Law** -- "the set of currently applicable laws in a country". The Law is changed by **Governments** -- people who specialize in lawmaking, and law-enforcing. For example, the US Supreme Court [changed gay marriage laws in 2015](https://en.wikipedia.org/wiki/Same-sex_marriage_in_the_United_States), and Congress changed [credit-default-swap laws in 2000](https://en.wikipedia.org/wiki/Commodity_Futures_Modernization_Act_of_2000).
 
-The government itself can be changed (ie **"Revolutions"**) according to a deeper, even more "meta" ruleset - a "meta-meta-contract" that describes exactly how much governing-error a critical mass of the citizenry will tolerate. If you succeed at a deeper layer, it trumps any of the "rules" of the upper layers[^n]. (The deepest ruleset of all, would simply be the laws of physics.)
+The government itself can be changed (ie **"Revolutions"**) according to a deeper, even more "meta" ruleset - a "meta-meta-contract" that describes exactly how much governing-error a critical mass of the citizenry will tolerate. If you succeed at a deeper layer, it trumps any of the "rules" of the upper layers[^5]. (The deepest ruleset of all, would simply be the laws of physics.)
 
-[^n]: As Satoshi discovered when he invented Bitcoin.
+[^5]: As Satoshi discovered when he invented Bitcoin.
 
 
 ### D. Definition Review
@@ -282,9 +282,9 @@ It is noticed that the most efficient wall-construction is to build two long ova
 
 LeftBerg, the left hill, endorses voluntarism -- they enforce commercial contracts by refusing to trade with any oathbreakers.
 
-In contrast, RightBerg declares for monarchy -- they grants their King sole authority, over the building of walls and the defense of the hill. When the WallBuilding Corporation approaches the King, the King taxes the citizens equally -- each landowner[^n] pays (1/14) the cost of the wall, plus some extra for the King's salary.
+In contrast, RightBerg declares for monarchy -- they grants their King sole authority, over the building of walls and the defense of the hill. When the WallBuilding Corporation approaches the King, the King taxes the citizens equally -- each landowner[^6] pays (1/14) the cost of the wall, plus some extra for the King's salary.
 
-[^n]: Things would probably be worse if the tax were collected on some other basis. According to [a well-known theorem](https://en.wikipedia.org/wiki/Henry_George_theorem), when land-utilization is static(*), the total value of all "public goods" (of all kinds) is captured by nearby landlords. Walls, public partsk, welfare payments, UBI, etc -- all of this value-add, translates to higher rents. 100% of these proceeds ultimately go to landlords. Thus, the most efficient way to collect taxes is via land-value tax. --- --- (*) A plot of land is a kind of "natural factory" that produces goods over time -- it may produce housing, or crops, fish, lumber, etc. A high-rise will produce more housing per month than a single family home; and an irrigated farm will produce more food per month than fallow wilderness. H. George chooses to examine the case where land-use is static and cannot improve (for whatever reason -- zoning, negotiation costs, insufficient technology, etc). The best improvements (from the public point of view) are transportation improvements that bring improved [high-rent] land within travel distance of unimproved [cheap-rent] land.
+[^6]: Things would probably be worse if the tax were collected on some other basis. According to [a well-known theorem](https://en.wikipedia.org/wiki/Henry_George_theorem), when land-utilization is static(*), the total value of all "public goods" (of all kinds) is captured by nearby landlords. Walls, public partsk, welfare payments, UBI, etc -- all of this value-add, translates to higher rents. 100% of these proceeds ultimately go to landlords. Thus, the most efficient way to collect taxes is via land-value tax. --- --- (*) A plot of land is a kind of "natural factory" that produces goods over time -- it may produce housing, or crops, fish, lumber, etc. A high-rise will produce more housing per month than a single family home; and an irrigated farm will produce more food per month than fallow wilderness. H. George chooses to examine the case where land-use is static and cannot improve (for whatever reason -- zoning, negotiation costs, insufficient technology, etc). The best improvements (from the public point of view) are transportation improvements that bring improved [high-rent] land within travel distance of unimproved [cheap-rent] land.
 
 But what happens when the WallBuilding Corporation approaches LeftBerg?
 
@@ -317,7 +317,7 @@ Now, on to the second fundamental problem.
 ### B. Duress ### {#duress}
 
     The beatings will continue until morale improves.
-    -(Unknown Origin)
+    -Famous Saying, (Unknown Origin)
 
 #### i. Apparatchiks
 
@@ -373,11 +373,11 @@ Obviously, these policies make the election a foregone conclusion. But in doing 
 
 While monarchy/dictatorship/oligarchy is a **rule-by-person(s)**, a democracy [with free elections] is a **rule-by-process**. The distinction, [captured here by Popper](https://www.economist.com/democracy-in-america/2016/01/31/from-the-archives-the-open-society-and-its-enemies-revisited), is crucial.
 
-With rule-by-person you know exactly who to start fawning over / sucking up to[^n]. The measuring-process is NOT 'prior to' the government itself, and so the existing government will have some kind of "say in the matter", as we saw in the USSR example above.
+With rule-by-person you know exactly who to start fawning over / sucking up to[^7]. The measuring-process is NOT 'prior to' the government itself, and so the existing government will have some kind of "say in the matter", as we saw in the USSR example above.
 
 Since everyone is blind to their own mistakes, the existing government will have a bias that they are literally unable to detect. As a result, rule-by-persons will be difficult to improve.
 
-[^n]: In fact, the mere *suggestion* that the government might soon transition into a rule-by-person, might be enough to coerce many people into immediately submitting to that person. Such suggestions are themselves tyrannical. See [Roko's Basilisk argument](https://rationalwiki.org/wiki/Roko's_basilisk); and see also the behavior and rhetorical style of [cult leaders throughout history](https://en.wikipedia.org/wiki/Cult#Destructive_cults). It is also not necessarily for anyone to act maliciously or even willfully -- consider that Christians and Muslims live in total obedience to a tyrant that, as far as anyone can tell, doesn't exist at all.
+[^7]: In fact, the mere *suggestion* that the government might soon transition into a rule-by-person, might be enough to coerce many people into immediately submitting to that person. Such suggestions are themselves tyrannical. See [Roko's Basilisk argument](https://rationalwiki.org/wiki/Roko's_basilisk); and see also the behavior and rhetorical style of [cult leaders throughout history](https://en.wikipedia.org/wiki/Cult#Destructive_cults). It is also not necessarily for anyone to act maliciously or even willfully -- consider that Christians and Muslims live in total obedience to a tyrant that, as far as anyone can tell, doesn't exist at all.
 
 In contrast, if *a process* rules, then there is no one to ingratiate. When citizens vote, they have no reason to yield to intimidation or coercion. As Schelling described the secret ballot: "any punishment or reward they receive will be unrelated to the way that they actually voted".
 
@@ -442,7 +442,8 @@ Now the third and final problem of consent-measurement.
 
     Stossel: Why does it take you three years to build a bathroom?
     ...
-    NYC Parks Commissioner: Ours, because it's a public project, we believe very strongly in engaging the public.
+    NYC Parks Commissioner: Ours, because it's a public project, we believe
+                            very strongly in engaging the public.
     ...
     Stossel: And this is a good thing...all these meetings?
     NYC PC: Oh yes it's a good thing.
@@ -469,9 +470,9 @@ If a taxing authority is ultimately responsible for consent-measurement, a paral
 
 That's already quite bad. But the above paragraph is not the sense in which I want to replicate Laffer's argument. So let us first cancel that first effect out completely, so we can examine a new one that is even worse.
 
-We will imagine that production is not discouraged at all[^n], when we direct resources to CM.
+We will imagine that production is not discouraged at all[^8], when we direct resources to CM.
 
-[^n]: It is not necessary to justify this assumption, since I do not believe it and my argument actually does better if it is false. But one justification could be that all people suddenly decide that they enjoy the activity of consent-measurement, as much (or more) than they enjoy any other activity (including eating and drinking). So they are always willing to buy more CM, at any price. Perhaps this could be due to a kind of ethical awakening -- an absolute commitment to the doctrine of voluntaryism.
+[^8]: It is not necessary to justify this assumption, since I do not believe it and my argument actually does *better* if it is false. But one justification could be that all people suddenly decide that they enjoy the activity of consent-measurement, as much (or more) than they enjoy any other activity (including eating and drinking). So they are always willing to buy more CM, at any price. Perhaps this could be due to a kind of ethical awakening -- an absolute commitment to the doctrine of voluntaryism.
 
 ![laffer2](/images/laffer-consent.png)
 
@@ -483,7 +484,7 @@ Second, the right-extreme: Imagine that a culture dedicates 100% of its resource
 
 In other words, if we were perfectionists about CM, we would spend our lives measuring the interactions around us with greater and greater precision...*whether we wanted to do this or not*. We would all be slaves, to the question "is everyone ok with this?".
 
-![teamwork](https://pbs.twimg.com/media/Dtd1eSTU8AEytOm.jpg:large)
+![teamwork](/images/road-arguing.jpg)
 
 Above: "Arguing forever" about roads, (from [Twitter](https://twitter.com/HeyRhett/status/1069452700159488000)).
 
@@ -559,9 +560,9 @@ I define anarchism as the complete lack of any culturally-enforced CM. If you ob
 
 I define voluntarism as a culture where anyone who tolerates coercion is shunned. If you observe apparent coercion, or hear any gossip about possible coercion, then you investigate it immediately. If there is coercion, you gossip about it and cancel all of your deals with the coercer.
 
-Thus, the CM-technology in anarchism is **nothing** and the CM-tech in voluntarism is  **[complete graph](https://en.wikipedia.org/wiki/Complete_graph) gossip**. Both are impractical -- the first is an invitation to tyranny[^n], and the second cannot scale past a group of 12-15 people (see Obfuscator 3).
+Thus, the CM-technology in anarchism is **nothing** and the CM-tech in voluntarism is  **[complete graph](https://en.wikipedia.org/wiki/Complete_graph) gossip**. Both are impractical -- the first is an invitation to tyranny[^9], and the second cannot scale past a group of 12-15 people (see Obfuscator 3).
 
-[^n]: In particular, the first is a clue as to why ["voluntary slavery"](https://www.lewrockwell.com/2014/01/walter-e-block/scurrilous-libelous-venomous/) would need to be banned from any free society, or at the least be highly regulated. The transactional nature of the interaction is not the issue here, instead it is the measurement of consent -- if you see an enslaved person, how are you to know that they volunteered for slavery (or were ever compensated)? You cannot just walk up and ask them (see [GoT s04e08](https://www.youtube.com/watch?v=iQlgIjf2jdg)). And, this epistemic shield gives cover to actual slavers and kidnappers, and would tend to increase the overall level of coercion in a society.
+[^9]: In particular, the first is a clue as to why ["voluntary slavery"](https://www.lewrockwell.com/2014/01/walter-e-block/scurrilous-libelous-venomous/) would need to be banned from any free society, or at the least be highly regulated. The transactional nature of the interaction is not the issue here, instead it is the measurement of consent -- if you see an enslaved person, how are you to know that they volunteered for slavery (or were ever compensated)? You cannot just walk up and ask them (see [GoT s04e08](https://www.youtube.com/watch?v=iQlgIjf2jdg)). And, this epistemic shield gives cover to actual slavers and kidnappers, and would tend to increase the overall level of coercion in a society.
 
 
 There is no limit to how much we can improve our CM technology.
@@ -606,9 +607,9 @@ Adding Dampers is called **"Privatization"**. Adding/editing Shamers is called *
 
 One of my favorite stories, Animal Farm, is (as I see it) about a situation where a political revolution is accompanied by *zero* changes in Shamers, Dampers, or Entanglers. So society never actually changes. True revolutions always involve Better Ideas.
 
-One better idea is the blockchain. Your Bitcoin full node allows you to ignore other people's payment fraud / counterfeiting (it is a Damper)[^n].
+One better idea is the blockchain. Your Bitcoin full node allows you to ignore other people's payment fraud / counterfeiting (it is a Damper)[^10].
 
-[^n]: Bitcoin full nodes do Shaming, as well (in the same way that BitTorrent does). When trying to download new blocks, Full Nodes need to know who is sending them valid-needed-data, and who is spamming them with junk. When spam is detected, the offending node is banned from the P2P network -- they are kicked off the team (Shaming).
+[^10]: Bitcoin full nodes do Shaming, as well (in the same way that BitTorrent does). When trying to download new blocks, Full Nodes need to know who is sending them valid-needed-data, and who is spamming them with junk. When spam is detected, the offending node is banned from the P2P network -- they are kicked off the team (Shaming).
 
 I believe a greatly under-appreciated governance idea is the [Hans](http://blog.oddhead.com/2008/12/22/what-is-and-what-good-is-a-combinatorial-prediction-market/)[onian](http://blog.oddhead.com/2006/10/30/implementing-hansons-market-maker/) ["prediction market"](www.BitcoinHivemind.com). It *very efficiently* shames suboptimal politicians, making it easy for us to only elect optimal politicians.
 
