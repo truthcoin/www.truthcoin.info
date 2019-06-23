@@ -84,8 +84,7 @@ For citizens to retain a set of Rights, they must retain a corresponding set of 
 
 Above: Cumberland Country Korean War Memorial, with popular American phrase ["freedom isn't free"](https://en.wikipedia.org/wiki/Freedom_isn%27t_free). From [here](https://docsouth.unc.edu/commland/monument/475/).
 
+See also:
 
-![images](/images/european-invasions-700.jpg)
-
-Above: Invasions in Europe -- Viking, Arab, and Magyar. From [Pinterest](https://www.pinterest.com/pin/430867889322838149/).
+* Map of [Invasions in Europe](/images/european-invasions-700.jpg) From [Pinterest](https://www.pinterest.com/pin/430867889322838149/).
 
