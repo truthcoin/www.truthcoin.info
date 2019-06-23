@@ -84,9 +84,6 @@ For citizens to retain a set of Rights, they must retain a corresponding set of 
 
 Above: Cumberland Country Korean War Memorial, with popular American phrase ["freedom isn't free"](https://en.wikipedia.org/wiki/Freedom_isn%27t_free). From [here](https://docsouth.unc.edu/commland/monument/475/).
 
-![images](https://cdn.lib.unc.edu/commemorative-landscapes/media/monument/475_rep.jpg)
-
-Above: Cumberland Country Korean War Memorial, with popular American phrase ["freedom isn't free"](https://en.wikipedia.org/wiki/Freedom_isn%27t_free). From [here](https://docsouth.unc.edu/commland/monument/475/).
 
 ![images](/images/european-invasions-700.jpg)
 
