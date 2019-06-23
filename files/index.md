@@ -18,6 +18,9 @@ title: Random Files
 * 01.15.2018 - [Fusing Two Coins](/files/blockchain-fusion-via-utxos/)
 * 03.26.2018 - [Marketcap Isn't Bulls\*\*t](/files/on-marketcap/)
 * 09.11.2018 - [Unplanned Interactions](/files/unplanned-interactions/)
+* 06.21.2019 - ["Rights" -- Appendix to 'Consent of the Governed'](/files/unplanned-interactions/)
+
+
 
 <!--  
 Month-Day-Year
