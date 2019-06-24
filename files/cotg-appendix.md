@@ -87,4 +87,4 @@ Above: Cumberland Country Korean War Memorial, with popular American phrase ["fr
 See also:
 
 * Map of [Invasions in Europe](/images/european-invasions-700.jpg) From [Pinterest](https://www.pinterest.com/pin/430867889322838149/).
-
+* ["Anomie"](https://en.wikipedia.org/wiki/Anomie) -- If you want to change society's values, you need to make sure that you have a way of installing those values into other people. (You can't just "declare the NAP" for everyone).
