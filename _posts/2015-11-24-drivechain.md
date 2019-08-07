@@ -287,38 +287,42 @@ Where c is the costs of mining, u is "normal" miner revenues, and k is "attack" 
 
 Second, let's define the mathematical effect of an attack:
 
-First, I'll simply define p = u/k . If, today, you expect to earn 10 BTC, and a sidechain has 24 BTC stored in it, then: 
+I will first break u into u = (a + b), such that "b" is "all of the revenues obtained from the sidechain's tx fees" (and "a" is "all other revenues the miner earns [coinbase, mainchain tx fees, etc]").
 
-* u = 10
-* k = 24
-* p = 2.4
-
-I'll also break u = (a + b), such that "b" is "all of the revenues obtained from the sidechain's tx fees" (and "a" is "all other revenues the miner earns [coinbase, mainchain tx fees, etc]").
-
-Finally, I'll define m as the "price maintenance" following any attack, where m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
+I will also define m as the "price maintenance" following any attack. m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
 
 Thus, if PV is the present value operator at interest rate r, then:
 
-Attack Revenues would be all the stolen money, m-discounted: m \* p \* ( a + b )
-Attack Costs would be (depreciated coinbases + lost fees), or: PV( a\*(1-m) , r )  + PV( b, r )
+Attack Revenues = all the stolen money, m-discounted. Ie: m \* k
+Attack Costs = lost sidechain fees + depreciated coinbases. Ie: (100%-0%)\*PV( b, r ) + (1-m)\*PV( a, r )
+
+In other words, it is as if sidechain fees have fallen by 100% (they no longer exist); mainchain fees have fallen by m% (so (1-m) represents the deleted portion).
 
 Combined, this yields:
 
- { 2 } .. k = m \* p \* ( a + b )   -  [ (1-m)\*PV(a, r) + PV(b, r) ]
+ { 2 } .. Total Attack-Value Extracted by Miners = m \* k  -  [ PV(b, r) + (1-m)\*PV(a, r) ]
 
-Hopefully, it is clear that safety will increase if [1] the sidechain is producing tons of fees for miners to enjoy, and [2] miners are forward-looking and really care about those fees.
+Safety increases if [1] the sidechain is producing tons of fees for miners to enjoy, and [2] miners are forward-looking and really care about those fees.
  
 #### The Most Pessimistic
  
 Most pessimistically, **Level 4** will assume that r = +INF, which would indicate the miners do not care about the future (coinbases or tx fees) *at all*. This eliminates the costs half of the equation completely.
+
+ { 2b } .. Total Value to Miners = m \* k 
+
+Next I will define p = k/u . For example, if today mining revenues were 10 BTC, and a sidechain had 24 BTC stored in it, then: 
+
+* u = 10
+* k = 24
+* p = 2.4
  
 If we then compare:
  
- { Attack } .. R = [ (m \* u) + (p \* u)  - c ] / c
+ { RoI of "Attack" } .. R = [ (m \* u) + (p \* u)  - c ] / c
  
 ...to... 
  
- { Don't Attack } .. { 1 } .. R =  ( [ u + k ] - c ) / c
+ { RoI of "Don't Attack" } .. { 1 } .. R =  ( [ u + k ] - c ) / c
  
 ...we see **the range of parameters where R is increased by attacking**:
  
@@ -330,7 +334,7 @@ which ultimately reduces to:
  
  { 4 } .. m > 1/(1+p)
  
-What does this formula mean? Self-interested miners won't "grab coins", if doing-so "excessively destroys the market value of those coins".
+What does this formula mean? It means that self-interested miners won't "grab coins", if doing-so "excessively destroys the market value of those coins".
 
 For example, if miners can triple today's revenues by stealing from a sidechain (p = 2.0), they would only attack if the Bitcoin price could be expected to remain at least 1/3 of what it was.
 
