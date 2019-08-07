@@ -289,26 +289,45 @@ Second, let's define the mathematical effect of an attack:
 
 I will first break u into u = (a + b), such that "b" is "all of the revenues obtained from the sidechain's tx fees" (and "a" is "all other revenues the miner earns [coinbase, mainchain tx fees, etc]").
 
-I will also define m as the "price maintenance" following any attack. m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
+I will also define m as the "price maintenance" following any attack (ie, m = price_postAttack / price_preAttack ). m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
 
-Thus, if PV is the present value operator at interest rate r, then:
+Thus, if PV is the present value operator at interest rate r, then the attack revenue k is offset by three costs:
 
-Attack Revenues = all the stolen money, m-discounted. Ie: m \* k
-Attack Costs = lost sidechain fees + depreciated coinbases. Ie: (100%-0%)\*PV( b, r ) + (1-m)\*PV( a, r )
+Lost Sidechain Fees = the stream of future revenues from sidechains is destroyed. The losses are: PV( b, r ).
+Attack Revenue Discount = all of the stolen money cannot be sold/used at pre-attack exchanges rates; instead it is m-discounted. (m\*k) is earned instead of k, so the amount lost was: k - (m\*k) = k\*(1-m)
+Depreciated coinbases = the stream of future mainchain revenues is also discounted by m. The amount lost was: PV( a, r ) \* (1-m)
 
-In other words, it is as if sidechain fees have fallen by 100% (they no longer exist); mainchain fees have fallen by m% (so (1-m) represents the deleted portion).
+This equation shows total miner losses (priced in BTC), in the event of an attack:
 
-Combined, this yields:
+ { 2a } .. TML = [PV(b, r)] + [k \* (1-m)] + [PV(a, r)\*(1-m)]
 
- { 2 } .. Total Attack-Value Extracted by Miners = m \* k  -  [ PV(b, r) + (1-m)\*PV(a, r) ]
+Which rearranges to...
 
-Safety increases if [1] the sidechain is producing tons of fees for miners to enjoy, and [2] miners are forward-looking and really care about those fees.
+ { 2b } .. TML = (k + PV(a, r))\*(1-m) + PV(b, r)
+
+With a critical point at...
+
+ { 2c } .. k = (k + PV(a, r))\*(1-m) + PV(b, r)
+
+Safety increases if [1] m approaches zero. Safety also increases if [2] the sidechain is producing tons of fees for miners to enjoy, and finally if [3] miners are forward-looking and really care about those fees.
+
+Rearranging, we get...
+
+ { 2d } .. m = PV( (b+(1-m)a), r) / k
+
+The ugly "PV( (b+(1-m)a), r)" can be redescribed as "l", the txn fees lost by attacking.
+
+Breaking the left m into (price_attack/price_noAttack), we can get: p_a * k = p_na * l, interpreted as
+
+ { 2e } .. p_a * "BTC on a sidechain" = p_na * "txn fees lost by attacking"
+
+Which is simply: "USD stolen" vs "USD earned by mining honestly".
  
 #### The Most Pessimistic
  
-Most pessimistically, **Level 4** will assume that r = +INF, which would indicate the miners do not care about the future (coinbases or tx fees) *at all*. This eliminates the costs half of the equation completely.
+Most pessimistically, **Level 4** will assume that r = +INF, which would indicate the miners do not care about the future (coinbases or tx fees) *at all*. This eliminates the present value terms completely.
 
- { 2b } .. Total Value to Miners = m \* k 
+ { 2f } .. TML = (k)\*(1-m)
 
 Next I will define p = k/u . For example, if today mining revenues were 10 BTC, and a sidechain had 24 BTC stored in it, then: 
 
@@ -316,13 +335,14 @@ Next I will define p = k/u . For example, if today mining revenues were 10 BTC, 
 * k = 24
 * p = 2.4
  
-If we then compare:
+If we take equation {1} and compare:
+
+ { RoI of "Don't Attack" } .. { 1 } .. R =  ( [ u + k ] - c ) / c
+
+...to... 
  
  { RoI of "Attack" } .. R = [ (m \* u) + (p \* u)  - c ] / c
  
-...to... 
- 
- { RoI of "Don't Attack" } .. { 1 } .. R =  ( [ u + k ] - c ) / c
  
 ...we see **the range of parameters where R is increased by attacking**:
  
