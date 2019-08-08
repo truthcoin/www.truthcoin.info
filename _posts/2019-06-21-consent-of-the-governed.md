@@ -273,6 +273,8 @@ Below I discuss each in detail.
     By the blood of our people are your lands kept safe!
     -Boromir at the Council of Elrond, The Fellowship of the Ring (2001)
 
+#### i. Two Hills
+
 Imagine two hills, each with fourteen ~equal-sized plots of land:
 
 ![images](/images/two-hills.png)
@@ -280,6 +282,8 @@ Imagine two hills, each with fourteen ~equal-sized plots of land:
 The townsfolk are being harassed by wolves and are in dire need of protection. Walls are the proposed solution.
 
 It is noticed that the most efficient wall-construction is to build two long ovals, one per hill, each around all fourteen lots simultaneously. (Walls have the "more efficient with teamwork" property, as we discussed.)
+
+#### ii. Voluntarism vs Monarchism
 
 LeftBerg, the left hill, endorses voluntarism -- they enforce commercial contracts by refusing to trade with any oathbreakers.
 
@@ -295,23 +299,39 @@ So, *it is exactly as if* WallBuilding Corp approached the C1-C4 landowners and 
 
 Perhaps guilt, or a sense of honor, will motivate the charitable donations of C1-C4. But this unreliable strategy is spoiled by numerous perverse incentives: it rewards the most shameless, or silver-tongued landowners; or the most illiquid or truly impoverished landowners (who are therefore truly unable to pay -- shielding their honor from measurement).
 
-So ultimately we can expect rational landowners to decline to pay for the wall, regardless of how much they truly desire it. Normally in economics, a decline-to-pay means that the good is unwanted. But here that is not so -- C1-C4 might very clearly want to pay for something, but **lie about this** in the hopes of getting an even better deal. They are fishing for unearned sympathy, with **fake complaints**.
+So ultimately we can expect rational landowners to decline to pay for the wall, regardless of how much they truly desire it. Normally in economics, a decline-to-pay means that the good is unwanted. But here that is not so -- C1-C4 might very clearly want to pay for something, but **lie about this** in the hopes of getting an even better deal.
 
 In RightBerg, the King could weigh C1-C4's protests (about being "forced" to pay for the wall), against their suspiciously coincidental interest in free-riding. But in LeftBerg, nothing is working to improve the biased measurement.
 
-#### Aside
+#### iii. Aside: Not Endorsing Monarchy
 
-Nothing I write, above or below, is an endorsement of Monarchy per se. Dictatorship is simply an effective contrast to anarchy.
+Nothing I write, above or below, is an endorsement of Monarchy per se. Dictatorship is just an effective contrast to anarchy, for purposes of comparison.
 
 The critical issue is *the extent to which the process is accurately measuring consent*. A monarchy will have its own consent-measuring issues: egomania, slick advisors, suppression of dissent, etc. If the King has any superstitious beliefs --about "the Jews", for example, ...or women-- these might go uncorrected for generations, disenfranchising the unlucky subset of the population.
 
+#### iv. Social Signaling (Added Aug-2019)
+
+During our modern era of social media / poor meme hygiene, the idea of **signaling** plays a dominant role in conversations. This is the observation that "what people say" often has more to do with "how they want to be seen (in front of their friends, or potential friends)" than it does with "what they want others to know (about physical reality)".
+
+One of the most impressive signals to send, is called **scapegoating** -- the idea that your shortcomings are due to someone else. And if only that antagonist would stop bothering you, then you could singlehandedly install perfection into society. This signal costs almost nothing to send, and makes the speaker look amazing.
+
+"The government" is a very easy target for scapegoating, since it is so influential and since consent-measurement is indeed difficult (as I am arguing). As icing on the cake, "the government" is an abstraction, not some other human (with their own Twitter account) who might call you on your bs.
+
+On one hand, complainer-types may be whiners with defective personalities. But a more enticing possibility is that they are gourmets who have exceedingly high standards -- our world looks unsatisfying to them, because they are accustomed to something much, much better. Something that we would also want, if we knew of it. (And so we must seek them out as thought-leaders and advisors).
+
+Thus, because of signaling, we can expect to hear complaints, even about good things -- even *objectively unimprovable* things (as long as this fact is unknown, to either [1] the speaker or [2] to a few audience members).
+
+These complaints are vehicles for increasing the speaker's social status; they have nothing to do with the topic supposedly under discussion. For anyone on the lookout for true coercion, these "fake complaints" are distractions -- they must be filtered out and ignored.
+
 <!--
--- Fake Complaining -- 
+
+#### Conclusion: Fake Complaining
+
 Often, friends of yours will complain about their job or their relationship. But, they won't do anything about it. Possibly they are *unable* to do anything about it. But, more likely, their situation is more-or-less acceptable to them.
 
 But, suspiciously, they don't do anything about it. Are they truly dissatisfied? Or are they instead just fishing for unearned sympathy?
--->
 
+-->
 
 Now, on to the second fundamental problem.
 
@@ -536,6 +556,7 @@ Or does it?
 #### iv. Implications of Obfuscator 3
 
 From these examples, we know that people do not value "non-aggression" (consensual action) above all other things. People decline to even *investigate* the extent to which their society contains aggression. And good for them -- if they cared about that too much, they would die.
+
 
 ### D. Conclusion of Part 4 
 
