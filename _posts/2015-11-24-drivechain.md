@@ -287,38 +287,62 @@ Where c is the costs of mining, u is "normal" miner revenues, and k is "attack" 
 
 Second, let's define the mathematical effect of an attack:
 
-First, I'll simply define p = u/k . If, today, you expect to earn 10 BTC, and a sidechain has 24 BTC stored in it, then: 
+I will first break u into u = (a + b), such that "b" is "all of the revenues obtained from the sidechain's tx fees" (and "a" is "all other revenues the miner earns [coinbase, mainchain tx fees, etc]").
+
+I will also define m as the "price maintenance" following any attack (ie, m = price_postAttack / price_preAttack ). m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
+
+Thus, if PV is the present value operator at interest rate r, then the attack revenue k is offset by three costs:
+
+Lost Sidechain Fees = the stream of future revenues from sidechains is destroyed. The losses are: PV( b, r ).
+Attack Revenue Discount = all of the stolen money cannot be sold/used at pre-attack exchanges rates; instead it is m-discounted. (m\*k) is earned instead of k, so the amount lost was: k - (m\*k) = k\*(1-m)
+Depreciated coinbases = the stream of future mainchain revenues is also discounted by m. The amount lost was: PV( a, r ) \* (1-m)
+
+This equation shows total miner losses (priced in BTC), in the event of an attack:
+
+ { 2a } .. TML = [PV(b, r)] + [k \* (1-m)] + [PV(a, r)\*(1-m)]
+
+Which rearranges to...
+
+ { 2b } .. TML = (k + PV(a, r))\*(1-m) + PV(b, r)
+
+With a critical point at...
+
+ { 2c } .. k = (k + PV(a, r))\*(1-m) + PV(b, r)
+
+Safety increases if [1] m approaches zero. Safety also increases if [2] the sidechain is producing tons of fees for miners to enjoy, and finally if [3] miners are forward-looking and really care about those fees.
+
+Rearranging, we get...
+
+ { 2d } .. m = PV( (b+(1-m)a), r) / k
+
+The ugly "PV( (b+(1-m)a), r)" can be redescribed as "l", the txn fees lost by attacking.
+
+Breaking the left m into (price_attack/price_noAttack), we can get: p_a * k = p_na * l, interpreted as
+
+ { 2e } .. p_a * "BTC on a sidechain" = p_na * "txn fees lost by attacking"
+
+Which is simply: "USD stolen" vs "USD earned by mining honestly".
+ 
+#### The Most Pessimistic
+ 
+Most pessimistically, **Level 4** will assume that r = +INF, which would indicate the miners do not care about the future (coinbases or tx fees) *at all*. This eliminates the present value terms completely.
+
+ { 2f } .. TML = (k)\*(1-m)
+
+Next I will define p = k/u . For example, if today mining revenues were 10 BTC, and a sidechain had 24 BTC stored in it, then: 
 
 * u = 10
 * k = 24
 * p = 2.4
-
-I'll also break u = (a + b), such that "b" is "all of the revenues obtained from the sidechain's tx fees" (and "a" is "all other revenues the miner earns [coinbase, mainchain tx fees, etc]").
-
-Finally, I'll define m as the "price maintenance" following any attack, where m=0 implies that the Bitcoin price has collapsed completely (to zero) as a result, and m=1 implies that no Bitcoin owners cared at all that the sidechain was attacked. Theoretically, m=1.05 could indicate that Bitcoiners were happy that the sidechain got robbed.
-
-Thus, if PV is the present value operator at interest rate r, then:
-
-Attack Revenues would be all the stolen money, m-discounted: m \* p \* ( a + b )
-Attack Costs would be (depreciated coinbases + lost fees), or: PV( a\*(1-m) , r )  + PV( b, r )
-
-Combined, this yields:
-
- { 2 } .. k = m \* p \* ( a + b )   -  [ (1-m)\*PV(a, r) + PV(b, r) ]
-
-Hopefully, it is clear that safety will increase if [1] the sidechain is producing tons of fees for miners to enjoy, and [2] miners are forward-looking and really care about those fees.
  
-#### The Most Pessimistic
- 
-Most pessimistically, **Level 4** will assume that r = +INF, which would indicate the miners do not care about the future (coinbases or tx fees) *at all*. This eliminates the costs half of the equation completely.
- 
-If we then compare:
- 
- { Attack } .. R = [ (m \* u) + (p \* u)  - c ] / c
- 
+If we take equation {1} and compare:
+
+ { RoI of "Don't Attack" } .. { 1 } .. R =  ( [ u + k ] - c ) / c
+
 ...to... 
  
- { Don't Attack } .. { 1 } .. R =  ( [ u + k ] - c ) / c
+ { RoI of "Attack" } .. R = [ (m \* u) + (p \* u)  - c ] / c
+ 
  
 ...we see **the range of parameters where R is increased by attacking**:
  
@@ -330,7 +354,7 @@ which ultimately reduces to:
  
  { 4 } .. m > 1/(1+p)
  
-What does this formula mean? Self-interested miners won't "grab coins", if doing-so "excessively destroys the market value of those coins".
+What does this formula mean? It means that self-interested miners won't "grab coins", if doing-so "excessively destroys the market value of those coins".
 
 For example, if miners can triple today's revenues by stealing from a sidechain (p = 2.0), they would only attack if the Bitcoin price could be expected to remain at least 1/3 of what it was.
 
