@@ -16,7 +16,7 @@ But this line of reasoning doesn't take the idea of "consent" seriously enough. 
 2. Second, consent can be established in many ways, none of which are perfect, and non of which trump any of the others -- it is always guesswork.
 3. Third, teamwork is valuable and ubiquitous. We know that people prefer to work/play in teams, at least some of the time.
 4. Fourth, it is especially difficult to measure consent among team-members -- team-members have three special incentives to obfuscate the consent-measurement process. One of these is "cost of consent-measurment" -- a cost which the team must somehow pay. We can see how a team would prefer to use inaccurate-but-cheap consent-measures such as voting.
-5. Finally, I argue that the quest to improve (or reduce) the public sector, is really a quest for better *technologies* that manage interaction.
+5. Finally, I argue that the quest to improve (or reduce) the public sector, is really a quest for better *technologies* that manage interaction. The oft-emphasized "moral dimension" of governance is, in my view, mostly a distraction.
 
 ---
 
