@@ -8,13 +8,19 @@ date: 2019-06-21 06:00:00
 
 ### Abstract
 
-An anarchist critique of the state, is that public sector transactions are --supposedly-- non-consensual. After all, state operations continue, independently of our protests (or our cheers). In particular, an anarchist might say: "I did not personally sign anything agreeing to pay X in taxes for Y government services -- this is coercion!"
+Anarchists critique the state, by asserting that public sector transactions are non-consensual. The state will continue to do whatever it is doing, regardless of any individual's protests (or cheers). Thus, an anarchist might say: "I did not sign a contract, agreeing to pay X (in taxes) for Y (government services) -- this is coercion!"
 
-But this line of reasoning doesn't take the idea of "consent" seriously enough. First, consent can be very clearly established, without contracts and signatures -- and, in fact, without any interaction between parties at all. Second, consent can be established in many ways, none of which are perfect nor trump the others -- it is always guesswork. Third, teamwork is valuable and ubiquitous, and so we knkow that people prefer to work/play in teams, at least some of the time. Fourth, it is especially difficult to measure consent among team-members -- team-members have three major incentives to obfuscate the consent-measurement process. In particular we can see how a team would prefer to use inaccurate but cheap consent-measures such as voting, especially when they offer some protection against duress and free-riding.
+But this line of reasoning doesn't take the idea of "consent" seriously enough. Instead, I will build up a better understanding of consent, via five sections:
 
-The quest to improve (or reduce) the public sector, is really a quest for better *technologies* that manage interaction.
+1. First, consent can be given, without any contracts or signatures. In fact, it can be given without any interaction between parties at all.
+2. Second, consent can be established in many ways, none of which are perfect, and non of which trump any of the others -- it is always guesswork.
+3. Third, teamwork is valuable and ubiquitous. We know that people prefer to work/play in teams, at least some of the time.
+4. Fourth, it is especially difficult to measure consent among team-members -- team-members have three special incentives to obfuscate the consent-measurement process. One of these is "cost of consent-measurment" -- a cost which the team must somehow pay. We can see how a team would prefer to use inaccurate-but-cheap consent-measures such as voting.
+5. Finally, I argue that the quest to improve (or reduce) the public sector, is really a quest for better *technologies* that manage interaction.
 
 ---
+
+### Prologue
 
     We hold these truths to be self-evident,
     that all men are created equal,
@@ -32,13 +38,13 @@ The quest to improve (or reduce) the public sector, is really a quest for better
 
 ### A. "Giving" Consent
 
-The first idea we must refute is "consent formalism". This is the idea that consent has a "form", for example the form of "a signature, in blue or black ink, on a document prepared by lawyers and then printed out on 8.5 by 11-inch paper".
+One theory of consent, claims that consent has a "form". For example, this form might be as follows: "a signature, in blue or black ink, on a document prepared by lawyers and then printed out on 8.5 by 11-inch paper".
 
 <!--
 Supposedly, once the consent is instantiated in a "form", this form can be traded physically. I can hand over a written debt contract to you, in exchange for a $20 bill. This represents my consenting to borrow twenty dollars US. And supposedly, trading a "consent token" for a "dead president portrait" is no different from trading beads for corn..
 -->
 
-But consent cannot be like this. Already, we have run aground at least twice:
+But consent cannot be like this. Already, there are two fundamental problems:
 
 1. The written signature could have been forged, in which case it would not represent consent at all.
 2. Courts (in the US) treat *verbal* contracts to be legally binding, even though these do not exist in physical "form" anywhere. 
@@ -47,7 +53,7 @@ The first inconsistency shows us that *the physical ink* is not necessarily imbu
 
 This is because **consent is information** -- it is the *result* of an information-processing task performed by human brains. And information-giving is quite *unlike* property-giving. I could "give" you my email address, but it would be in an entirely difference sense than if I were to "give" you my sandwich.
 
-One of the important implications of this fact, is that there is not necessarily any connection between *the actions you take* and *your giving of consent*. You can "give" consent, even by doing absolutely nothing, as the following story will show.
+One of the important implications of this fact, is that there is not necessarily any connection between *the actions you take* and *your giving of consent*. You can "give" consent, even by doing absolutely nothing, as I will now demonstrate.
 
 ### B. The Falling Crane
 
@@ -662,6 +668,9 @@ So we should treat every public sector transaction with suspicion. In particular
 
 [See Appendix 1: Rights](http://www.truthcoin.info/files/cotg-appendix/)
 
+---
+
+Update (Jan 2020): I unearthed [this marvelous 1981 talk](https://www.youtube.com/watch?time_continue=250&v=GuYt6X2g0cY&feature=emb_logo), given by anarchist David Friedman to the Libertarian Party. At that time, he had apparently been giving it for at least 10 years!
 
 ---
 
