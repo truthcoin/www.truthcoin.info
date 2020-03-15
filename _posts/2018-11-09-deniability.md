@@ -19,7 +19,7 @@ date: 2018-11-09 01:00:00
 
 The downside is that we must mix in "fake" transactions together with each "real" txn. Therefore, extra blockspace is consumed, and extra txn fees must be paid.
 
-One way to think about it, is to imagine that "deniable" transactions take up roughly three times the size as regular txns (as they'd require, on average, two additional "dummy" txns). This triples the blockspace required, from about 500 bytes total (for one modern transaction)[^1] to 1500 bytes total on average. This is actually quite competitive -- for reference, Monero's [brand new](https://bitcoinmagazine.com/articles/monero-transaction-fees-reduced-97-after-bulletproofs-upgrade/), state of the art, [ultra-private](https://www.reddit.com/r/Monero/comments/7cxt0a/xmr_protocol_vs_confidential_transactions_ct/) bulletproof txns each require 1800 bytes[^2] in their absolute best-case scenario. So if we take that to be the industry standard, Deniability is still actually ~17% smaller.
+One way to think about it, is to imagine that "deniable" transactions take up roughly three times the size as regular txns (as they'd require, on average, two additional "dummy" txns). This triples the blockspace required, from about 500 bytes total (for one modern transaction)[^1] to 1500 bytes total on average. This is actually quite competitive -- for reference, Monero's [brand new](https://bitcoinmagazine.com/articles/monero-transaction-fees-reduced-97-after-bulletproofs-upgrade/), state of the art, [ultra-private](https://www.reddit.com/r/Monero/comments/7cxt0a/xmr_protocol_vs_confidential_transactions_ct/) bulletproof txns each require 1800 bytes[^2] in their absolute best-case scenario. So if we take that to be the industry standard, Deniability is still actually \~17% smaller.
 
 [^1]: See [this reference](https://bitcoin.stackexchange.com/questions/31974/what-is-the-average-size-of-a-bitcoin-transaction), stating that BTC transactions are now about 500 bytes. In practice, many Deniability Txns are likely to be "basic style" txns (1 input, 2 outputs, P2PKH), which would actually allow them to come in at the very low end: around 250 bytes.
 
@@ -95,11 +95,13 @@ We can (and should) make the tool much better in a few ways:
 * Automate the process as much as possible, in general. Even turn it on by default.
 * Minimize the user-effort required. Construct all of the txns at once, and then have the user sign them all at once. For users with an air-gapped setup, save all of the txns to one file, and allow the signed versions to return via a stream of QR codes -- have the "hot" computer know exactly how to interpret them (ie, how to save them txns to disk and then broadcast them at a random time).
 * Track and store the Deniabilization status of all UTXOs. Warn users if UTXOs have not been Deniabilized yet.
-* Enable "right sizing" as an option for Deniability. "Right-sizing" is preemptively creating an output that is just the "right size". For example when you anticipate the need to spend $5 with a $0.04 fee, you might make an output containing exactly $5.04. When you spend this output, there will be no change address.
+* Enable "right sizing" as an option for Deniability. "Right-sizing" is preemptively creating an output that is just the "right size". For example when you anticipate the need to spend $5 with a $0.04 fee, you might make an output containing exactly $5.04. When you spend this output, there will be no change address[^5].
 * Have volunteers run a free service where they report blockchain "summary statistics" in a concise way. In this way, even lite clients can easily learn what the typical recent txn is like. This could include the median and mode of the following:
 * * Txn size in bytes.
 * * Absolute number of inputs and outputs.
 * * Heterogeneity in output magnitudes (eg, These days, is all of the txn's BTC getting allocated to just one output (ie, "right-sizing")? If not, how does it tend to be distributed across its outputs?).
+
+[^5]: (Update 3/2020) Some have asked me about how "right-sizing" helps with privacy. First: adversaries tend to assume that, if the blockchain contains txns with just one output, then these txns are "self-sends". By altrustically paying one extra txn-fee upfront, you shatter this assumption. Second: right-sizing will prevent the merchant from learning anything about your net worth. Without right-sizing, they will know that you owned all the txn's inputs; but right-sized, you can claim that *someone else* happened to coincidentally give you a conveniently-sized output, some time before making your transaction -- they may suspect that you are lying, but they have no way of proving it.
 
 
 ### C. Going Even Further
