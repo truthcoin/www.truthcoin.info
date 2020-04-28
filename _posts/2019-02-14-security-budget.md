@@ -168,7 +168,7 @@ Keep in mind, that the fees paid to LN-hubs[^n] will, by definition, *not* be pa
 
 Second, the LN user-experience will probably always be worse than the on-chain user-experience. LN is *interactive*, meaning that users must be online, and do something [sign a transaction] in order to receive money. It also means that your LN-counterparties can inconvenience you (for example if they stop replying, or if their computers catch fire) or outright harass you. LN also comes with new risks -- the LN-design is very clever at minimizing these risks, but they are still there and will still be annoying to users. Users will prefer not to put up with them. So they will tend to prefer an Altcoin on-chain-txn over a mainchain-LN-txn. 
 
-#### b. Merged Mining Sidechains
+#### b. Merged-Mined Sidechains
 
 Merged-Mined Sidechains do whatever Altcoins can do, but without the need to purchase a new token. So they have infinitely lower exchange rate risk, and are more convenient for users.
 
