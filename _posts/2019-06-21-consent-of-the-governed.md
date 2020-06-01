@@ -629,11 +629,11 @@ Shamers allow teams to achieve their most fundamental and existential goal: the 
 
 As technology improves, society will change unpredictably. And so we can also see the unwanted appearance of:
 
-* **Entanglers** -- Phenomena of significantly increased interactivity (especially unexpectedly). For example: population density --> epidemic; 1666-era London building codes / lifestyles --> spread of fire; physics breakthroughs --> the atomic bomb; banking/telecom advancements --> central banking; transit/logistics improvements --> globalization; fintech/mis-regulation --> 1996-2008 era ["securitization food chain"](https://www.youtube.com/watch?v=2GFoJeZbuWw&list=PL233326A66319E9E1&index=2&t=42).
+* **Linkers** -- Phenomena of significantly increased interactivity (especially unexpectedly). For example: population density --> epidemic; 1666-era London building codes / lifestyles --> spread of fire; physics breakthroughs --> the atomic bomb; banking/telecom advancements --> central banking; transit/logistics improvements --> globalization; fintech/mis-regulation --> 1996-2008 era ["securitization food chain"](https://www.youtube.com/watch?v=2GFoJeZbuWw&list=PL233326A66319E9E1&index=2&t=42).
 
 Adding Dampers is called **"Privatization"**. Adding/editing Shamers is called **"Regulation"**. Taken together, the overall management of interaction within a group is called the **"Governance"** of that group.
 
-One of my favorite stories, Animal Farm, is (as I see it) about a situation where a political revolution is accompanied by *zero* changes in Shamers, Dampers, or Entanglers. So society never actually changes. True revolutions always involve Better Ideas.
+One of my favorite stories, Animal Farm, is (as I see it) about a situation where a political revolution is accompanied by *zero* changes in Shamers, Dampers, or Linkers. So society never actually changes. True revolutions always involve Better Ideas.
 
 One better idea is the blockchain. Your Bitcoin full node allows you to ignore other people's payment fraud / counterfeiting (it is a Damper)[^10].
 
