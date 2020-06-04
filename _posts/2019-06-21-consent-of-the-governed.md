@@ -8,7 +8,7 @@ date: 2019-06-21 06:00:00
 
 ### Abstract
 
-Anarchists critique the state, by asserting that public sector transactions are non-consensual. The state will continue to do whatever it is doing, regardless of any individual's protests (or cheers). Thus, an anarchist might say: "I did not sign a contract, agreeing to pay X (in taxes) for Y (government services) -- this is coercion!"
+Anarchists critique the state, by [asserting](https://www.libertarianism.org/publications/essays/constitution-no-authority) that public sector transactions are non-consensual. The state will continue to do whatever it is doing, regardless of any individual's protests (or cheers). Thus, an anarchist might say: "I did not sign a contract, agreeing to pay X (in taxes) for Y (government services) -- this is coercion!"
 
 But this line of reasoning doesn't take the idea of "consent" seriously enough. Instead, I will build up a better understanding of consent, via five sections:
 
