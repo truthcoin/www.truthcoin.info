@@ -32,6 +32,10 @@ Month-Day-Year
 * [block-withholding-attack-sim-2.xlsx](http://www.truthcoin.info/images/block-withholding-attack-sim-2.xlsx)
 * [impact-of-reward-change.xlsx](http://www.truthcoin.info/images/impact-of-reward-change.xlsx)
 
+### Hosting
+
+* 07.25.2017 - [Bitcoin: A $5.8 Million Valuation](/files/bitcoin-mgaw.pdf), by Mr. Game and Watch. I got this newer version directly from the author in 2017, it (apparently) has corrected one typo in the [orignal paper](https://www.scribd.com/document/354688866/Bitcoin-A-5-8-Million-Valuation-Crypto-Currency-and-A-New-Era-of-Human-Cooperation).
+
 ### Minor Notes
 
 * [averages.txt](/images/averages.txt)
