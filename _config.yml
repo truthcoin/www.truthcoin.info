@@ -32,3 +32,5 @@ defaults:
       layout: "post"
 
 encoding: utf-8
+
+include: [".well-known"]
