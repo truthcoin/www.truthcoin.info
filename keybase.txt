@@ -1,4 +1,4 @@
 ---
 layout: none
-permalink: .well-known/pki-validation/8BBD45624168C3762062601EA7674009.txt
+permalink: .well-known/pki-validation/6E998FBD54697DB535421D241CF0515D.txt
 ---
