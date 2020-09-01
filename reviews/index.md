@@ -8,6 +8,17 @@ Disclaimer: This is just my opinion, at the time I add it here. I may have resea
 
 If I get a question too often, I will add it below.
 
+### Disclaimers
+
+Though I once easily passed[^1] a Series 65 exam, I do not hold and have never held a 'Financial Advisor' license. (Given the rampant fraud in the field, I fully understand why the State takes it upon themselves to try and oust the low-effort scammers.)
+
+Like all people, my beliefs are biased in favor of my investments. I will say that 99%+ of my tangible net worth is either in BTC, USD, or unsophisticated Vanguard index funds.
+
+I created this site to avoid continually repeating myself, and for no ulterior purpose.
+
+[^1]: You wouldn't believe some of the absolute nonsense that is on this exam -- the silliest example is that the exam touches upon the fictitious pseudoscience-topic of "Technical Analysis"! Like about what a "head and shoulders top" means. And they have some pretty brazen ideas about business cycles (these will probably be removed from the exam in the future). Nonetheless it was easy for me to give answers that corresponded to today's prevailing theories.
+
+
 ### "Paul, what do you think about..."
 
 | Project | Link | Review |
@@ -18,3 +29,7 @@ If I get a question too often, I will add it below.
 | Liquid | [Liquid.net](https://liquid.net/) | BTC deposited "to Liquid" reside on-chain in a multisignature script. No one knows who the 18 named keyholders are -- they might all be the same person. Blockstream says that they own some of the keys, and that some are owned by other trustworthy people. Anyone who supports Liquid while also saying "not your keys not your coins" is acting rather foolish IMHO. The code used to create (not audit) the Liquid network is still [closed-source](https://twitter.com/adam3us/status/1267028989811609601?s=20). Liquid actually has [nothing whatsoever to do with "sidechains"](https://www.drivechain.info/blog/liquid/); all of that talk, (imho) is just psychological distress experienced by Blockstream employees who joined to support the anti-Alt cause (but who are now unable to make progress on that cause). The [original pitch of Liquid](https://web.archive.org/web/20170828010747/https://blockstream.com/liquid/) was as a way to quickly move BTC from one exchange to another -- at a Blockstream party in Jan 2017, I immediately asked "but can't the exchanges just open LN channels to each other?". No one in the room had an answer -- it was like the idea had never occured to them. Liquid has since [moved away from that fast-BTC mission, in a kind-of creepy way](https://twitter.com/thebluematt/status/1217910311774302208?lang=en). Lack of code-transparency [indirectly](https://twitter.com/_prestwich/status/1276318599410364416?s=20) led to [a network malfunction in mid 2018](https://www.coindesk.com/blockstreams-liquid-network-sent-8m-in-btc-unsafely-says-bitcoin-developer), which ultimately (for me at least) raised as many questions as it answered. (8/27/2020).|
 | RGB | [RGB Digital Assets](https://raw.githubusercontent.com/LNP-BP/devcalls/master/RGB%20%26%20Spectrum%20explanation%20for%20business.pdf) | RGB is a version of the successful "digital assets" concept (originally pioneered by Counterparty and the ERC20 token). RGB's distinguishing feature is that it produces no [common knowledge](https://en.wikipedia.org/wiki/Common_knowledge_%28logic%29), and thus consumes zero [marginal] blockchain resources. It is therefore more scalable and private. However, I think this is a total misfire -- RGB's assets are so private, they have become non-existant. Furthermore, the blockchain is what prevents *the asset owner* from being defrauded -- since everyone can see the blockchain, the owner can know how many of each asset have been minted, and which 'asset names' have been claimed (or are unique) -- in RGB this is impossible by design. (So, the premise that "no one else needs to know", is one I reject.) The fact that owners *must interact* with other people to prove their ownership of assets, is (I think) more of a burden than a feature. See [here](https://twitter.com/Truthcoin/status/1291648014478651394).(8/27/2020)|
 
+
+----
+
+### Footnotes
