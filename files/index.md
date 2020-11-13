@@ -37,7 +37,7 @@ Month-Day-Year
 
 * 07.25.2017 - [Bitcoin: A $5.8 Million Valuation](/files/bitcoin-mgaw.pdf), by Mr. Game and Watch. I got this newer version directly from the author in 2017, it (apparently) has corrected one typo in the [original paper](https://www.scribd.com/document/354688866/Bitcoin-A-5-8-Million-Valuation-Crypto-Currency-and-A-New-Era-of-Human-Cooperation).
 * 09.13.2020 - [Krawisz Debate Prep](/files/2020-09-13-krawisz-debate-prep.pdf) -- My notes for [my debate with Daniel Krawisz](https://open.spotify.com/episode/6vwQr64OoMSOJWz8XG7HSr), on Signalling, Hard Forks, BSV, and Scalability. The lower part of the pages is visible [here](/files/krawisz-debate-prep-lowercutoff.pdf).
-* 10.29.2020 - [Teaser Slide](/files/part2-slide-teaser.png) -- During my CryptoVoices podcast I teased "Part 2" of my condensed prediction markets talk. In particular I teased one slide -- here it is (two slides in fact)!
+* 10.29.2020 - [Teaser Slide](/files/part2-slide-teaser.png) -- During my [CryptoVoices podcast](https://soundcloud.com/cryptovoices/show-98-paul-sztorc-drivechain-bitcoin-hivemind-and-much-more) I teased "Part 2" of my condensed prediction markets talk. In particular I teased one slide -- here it is (two slides in fact)!
 
 
 ### Minor Notes
