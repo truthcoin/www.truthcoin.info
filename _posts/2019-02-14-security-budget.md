@@ -213,6 +213,12 @@ A better way, is to attempt to devour the entire payments market, and claim all 
 
 Update (4/2020): [Tweetstorm 14 months later](https://twitter.com/Truthcoin/status/1247177271267467265?s=20)
 
+Update (12/2020): Yet more evidence that I am right: ["As BTC fees have gone up recently...LTC, not lightning, has been seeing increased payments"](https://twitter.com/MattAhlborg/status/1330926883643469826?s=20).
+
+Plus, see an updated chart:
+
+![image](/images/2020-updated-fee-chart.png)
+
 ---
 
 ### Footnotes
