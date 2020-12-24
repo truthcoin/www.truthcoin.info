@@ -40,6 +40,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Sep 16, 2020|[BTC BCH BSV. Me vs Steve Patterson](https://www.youtube.com/watch?v=qdDwwMKb2ow)|2h,13m,58s|Steve seems to be a real independent thinker, and a semi-outcast in BCH -- a similar position to me in BTC. I refuse to "cluster" my beliefs (ie, to ALWAYS believe the ALL the same things the other Maximalists), and Steve seems to act likewise. After we recorded this, we kept talking for like 3 more hours.|
 |Sep 13, 2020|[Me (BTC) vs Daniel Krawisz (BSV), on Partyline](https://twitter.com/MDF_365/status/1305224590679896064?s=20)|1h,40m,47s|My duel with the infamous Emperor of Bitcoin. I was very worried that I would be crushed, and [prepared extensively](https://www.truthcoin.info/files/2020-09-13-krawisz-debate-prep.pdf). It seemed to pay off, because although he definitely controlled the very beginning, I got some good points in throughout.|
 |Nov 8, 2019|[BTC vs BCH Debate - Me vs. Vin Armani, Hosted by Hotep Jesus](https://www.youtube.com/watch?v=TkJt20f8tw4)|2h,36m,53s|To be honest with you, I was totally distracted during this conversation. It probably sounds silly to you, but my mind was blown that a reality TV star and marketer for 50 cent would be interested in my opinion on anything. Plus Vin was buttering me up the whole time before and during the show!|
+|Mar 19, 2018|[Bitcoin Post-Maximalism and the Virtue of Motivated Ignorance with Paul Sports](https://www.youtube.com/watch?v=eCXY6ELBw0M)|2h,3m,12s|
 
 </div>
 
