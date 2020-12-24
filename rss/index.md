@@ -20,7 +20,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 ### All Paul Sztorc Content
 
-| Date | Title/Link | Length | Comment |
+| Date | Title/Link | Length | Comments |
 |-|-|-|-|
 |Dec 20, 2020|[Silent Night V3](https://twitter.com/mikeinspace/status/1340698646074015746?s=20)|1m,11s|Shorter, and with no mikeinspace, this time!|
 |Dec 17, 2020|[A Bitcoin Christmas: Silent Night](https://youtu.be/737mPDwhaQM)|1m,47s|Me playing piano in mikeinspace's Twitter band.|
