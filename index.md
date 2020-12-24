@@ -38,5 +38,4 @@ Read [my "modern" views on "Bitcoin Maximalism" (April 2018)](http://www.truthco
 
 <p><u>Email:</u> truthcoin /at/gmail/</p>
 <p><u>PGP Key:</u> <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0xAA4B3330F162C410">F162C410</a></p>
-<p>My [Twitter](https://twitter.com/Truthcoin) Office Hours are 5-6 PM, and while riding in elevators.</p>
 
