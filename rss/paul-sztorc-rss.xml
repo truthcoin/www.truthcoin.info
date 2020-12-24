@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Paul Sztorc Media Appearances | Truthcoin.Info</title>
+	<description>Feed created by FiveFilters.org</description>
+	<link>https://www.truthcoin.info/rss/</link>
+	<generator>Feed Creator</generator>
+	<atom:link rel="self" href="https://createfeed.fivefilters.org/extract.php?url=https%3A%2F%2Fwww.truthcoin.info%2Frss%2F&amp;in_id_or_class=appearances-list" />
+	<atom:link rel="related" title="Edit feed with Feed Creator" href="https://createfeed.fivefilters.org/index.php?url=https%3A%2F%2Fwww.truthcoin.info%2Frss%2F&amp;in_id_or_class=appearances-list"/>
+</channel>
+</rss>

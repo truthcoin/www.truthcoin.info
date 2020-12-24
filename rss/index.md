@@ -21,6 +21,9 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 ### All Paul Sztorc Content
 
+<a href="https://www.truthcoin.info/rss/paul-sztorc-rss.xml">
+<img src="https://www.truthcoin.info/rss/pic_rss.gif" width="36" height="14">
+</a>
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
@@ -38,3 +41,10 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Nov 8, 2019|[BTC vs BCH Debate - Me vs. Vin Armani, Hosted by Hotep Jesus](https://www.youtube.com/watch?v=TkJt20f8tw4)|2h,36m,53s|To be honest with you, I was totally distracted during this conversation. It probably sounds silly to you, but my mind was blown that a reality TV star and marketer for 50 cent would be interested in my opinion on anything. Plus Vin was buttering me up the whole time before and during the show!|
 
 </div>
+
+
+### Did I miss something?
+
+If I didn't add something, you can find me on Twitter/Telegram. Or better yet, [pull request into this webpage](https://github.com/truthcoin/www.truthcoin.info/blob/gh-pages/rss/index.md) (and then find me).
+
+
