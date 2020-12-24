@@ -2,12 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
-    activesupport (6.0.1)
+    activesupport (6.1.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
-      zeitwerk (~> 2.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -18,7 +18,7 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     colorator (0.1)
-    concurrent-ruby (1.1.5)
+    concurrent-ruby (1.1.7)
     execjs (2.2.1)
     fast-stemmer (1.0.2)
     ffi (1.11.1)
@@ -42,7 +42,7 @@ GEM
     html-pipeline (1.9.0)
       activesupport (>= 2)
       nokogiri (~> 1.4)
-    i18n (1.7.0)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
@@ -86,7 +86,7 @@ GEM
     maruku (0.7.0)
     mercenary (0.3.4)
     mini_portile2 (2.4.0)
-    minitest (5.13.0)
+    minitest (5.14.2)
     nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     parslet (1.5.0)
@@ -102,15 +102,14 @@ GEM
     redcarpet (3.1.2)
     safe_yaml (1.0.3)
     sass (3.4.5)
-    thread_safe (0.3.6)
     timers (4.0.1)
       hitimes
     toml (0.1.1)
       parslet (~> 1.5.0)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
     yajl-ruby (1.1.0)
-    zeitwerk (2.2.1)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
