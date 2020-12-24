@@ -17,13 +17,14 @@ Instead, I'm happy to go on *other people's shows*. And now I will collect all m
 howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 -->
 
-<div class="appearances-list" markdown="1">
 
 ### All Paul Sztorc Content
 
 <a href="https://www.truthcoin.info/rss/paul-sztorc-rss.xml">
 <img src="https://www.truthcoin.info/rss/pic_rss.gif" width="36" height="14">
 </a>
+
+<div class="appearances-list" markdown="1">
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
