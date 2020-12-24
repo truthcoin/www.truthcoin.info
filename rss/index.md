@@ -20,11 +20,13 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 ### All Paul Sztorc Content
 
+<div class="appearances-list">
+
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
 |Dec 20, 2020|[Silent Night V3](https://twitter.com/mikeinspace/status/1340698646074015746?s=20)|1m,11s|Shorter, and with no mikeinspace, this time!|
 |Dec 17, 2020|[A Bitcoin Christmas: Silent Night](https://youtu.be/737mPDwhaQM)|1m,47s|Me playing piano in mikeinspace's Twitter band.|
-|Dec 16, 2020| [Paul Sztorc on Bitcoin Stories Episode 048](https://www.youtube.com/watch?v=HQ3fqkPeQCc&feature=emb_logo)|1h,30m,35s|A really great talk where I answer the "Thiel Question" -- what's something you believe that most people don't agree with you on: many of the people you love will die because of the US stance toward betting. Thanks to Zack Hess for fixing up the audio.|
+|Dec 16, 2020| [Bitcoin Stories Episode 048](https://www.youtube.com/watch?v=HQ3fqkPeQCc&feature=emb_logo)|1h,30m,35s|A really great talk where I answer the "Thiel Question" -- what's something you believe that most people don't agree with you on: many of the people you love will die because of the US stance toward betting. Thanks to Zack Hess for fixing up the audio.|
 |Dec 14, 2020|[Bitcoin Reservations #004 - Smart wife asterisk](https://www.youtube.com/watch?v=BDIK2IBqCUk)|2h,33m,20s|Show is finally starting to get good.|
 |Dec 7, 2020|[Bitcoin Reservations #003 - Twin sister hard fork](https://www.youtube.com/watch?v=a70vaR_dFJ0)|2h,33m,20s|Still the beginnings aren't great, but they are getting there.|
 |Nov 30, 2020|[Bitcoin Reservations #002 - The prodigal son](https://www.youtube.com/watch?v=rn0NaAyNFDA)|2h,16m,37s|The beginning isn't good at all but, it picks up steam quickly.|
@@ -34,3 +36,5 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Sep 16, 2020|[BTC BCH BSV. Me vs Steve Patterson](https://www.youtube.com/watch?v=qdDwwMKb2ow)|2h,13m,58s|Steve seems to be a real independent thinker, and a semi-outcast in BCH -- a similar position to me in BTC. I refuse to "cluster" my beliefs (ie, to ALWAYS believe the ALL the same things the other Maximalists), and Steve seems to act likewise. After we recorded this, we kept talking for like 3 more hours.|
 |Sep 13, 2020|[Me (BTC) vs Daniel Krawisz (BSV), on Partyline](https://twitter.com/MDF_365/status/1305224590679896064?s=20)|1h,40m,47s|My duel with the infamous Emperor of Bitcoin. I was very worried that I would be crushed, and [prepared extensively](https://www.truthcoin.info/files/2020-09-13-krawisz-debate-prep.pdf). It seemed to pay off, because although he definitely controlled the very beginning, I got some good points in throughout.|
 |Nov 8, 2019|[BTC vs BCH Debate - Me vs. Vin Armani, Hosted by Hotep Jesus](https://www.youtube.com/watch?v=TkJt20f8tw4)|2h,36m,53s|To be honest with you, I was totally distracted during this conversation. It probably sounds silly to you, but my mind was blown that a reality TV star and marketer for 50 cent would be interested in my opinion on anything. Plus Vin was buttering me up the whole time before and during the show!|
+
+</div>
