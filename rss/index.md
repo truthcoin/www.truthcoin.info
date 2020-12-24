@@ -17,12 +17,10 @@ Instead, I'm happy to go on *other people's shows*. And now I will collect all m
 howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 -->
 
+<div class="appearances-list" markdown="1">
 
 ### All Paul Sztorc Content
 
-<!--
- <div class="appearances-list">
--->
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
@@ -39,8 +37,4 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Sep 13, 2020|[Me (BTC) vs Daniel Krawisz (BSV), on Partyline](https://twitter.com/MDF_365/status/1305224590679896064?s=20)|1h,40m,47s|My duel with the infamous Emperor of Bitcoin. I was very worried that I would be crushed, and [prepared extensively](https://www.truthcoin.info/files/2020-09-13-krawisz-debate-prep.pdf). It seemed to pay off, because although he definitely controlled the very beginning, I got some good points in throughout.|
 |Nov 8, 2019|[BTC vs BCH Debate - Me vs. Vin Armani, Hosted by Hotep Jesus](https://www.youtube.com/watch?v=TkJt20f8tw4)|2h,36m,53s|To be honest with you, I was totally distracted during this conversation. It probably sounds silly to you, but my mind was blown that a reality TV star and marketer for 50 cent would be interested in my opinion on anything. Plus Vin was buttering me up the whole time before and during the show!|
 
-
-
-<!--
- </div>
--->
+</div>
