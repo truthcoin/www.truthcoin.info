@@ -1,5 +1,5 @@
 ---
-title: "OpenVote" -- Auditable, Fast, Private, and Secure
+title: Open Elections - Auditable, Fast, Private, Secure Voting
 show_author: true
 comments: true
 date: 2021-01-10 01:00:00
@@ -12,7 +12,7 @@ date: 2021-01-10 01:00:00
 
 ### Introduction
 
-![voting](https://imgs.xkcd.com/comics/voting_software.png)
+![voting](/images/voting_software.png)
 
 Above: From [xkcd](https://xkcd.com/2030/). Hopefully I can do better than that.
 
@@ -37,6 +37,7 @@ It ultimately culminated in political violence. See [here](https://www.businessi
 Election Reliability happens to be of independent interest to me -- as a proponent of [Futarchy](https://www.youtube.com/watch?v=dJLYRADcPP4), I need the election system to work reliably. Today, it is easier to "hack the vote" at the brain level, but post-futarchy the Achilles' Heel of of democracy will move back to the level of physical ballot-counting.
 
 In any event: the election should be *provably secure*. It should be secure in a way that **any** observer can demonstrate the security to **any** other citizen.
+
 
 ## 2. Computers
 
