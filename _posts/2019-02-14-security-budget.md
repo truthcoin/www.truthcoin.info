@@ -211,6 +211,8 @@ Higher prices (ie, higher satoshi/byte fee-rates) are one way of boosting revenu
 
 A better way, is to attempt to devour the entire payments market, and claim all of its fee revenues. This can be done using Merge Mined Sidechains, without any decentralization loss.
 
+### Updates
+
 Update (4/2020): [Tweetstorm 14 months later](https://twitter.com/Truthcoin/status/1247177271267467265?s=20)
 
 Update (12/2020): Yet more evidence that I am right: ["As BTC fees have gone up recently...LTC, not lightning, has been seeing increased payments"](https://twitter.com/MattAhlborg/status/1330926883643469826?s=20).
@@ -218,6 +220,10 @@ Update (12/2020): Yet more evidence that I am right: ["As BTC fees have gone up 
 Plus, see an updated chart:
 
 ![image](/images/2020-updated-fee-chart.png)
+
+Update (2/2021): A table to address the argument that "Altcoins are sometimes hard to use".
+
+![image](/images/fee-elasticity-table.png)
 
 ---
 
