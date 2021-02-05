@@ -25,7 +25,7 @@ Above: A [story](https://thecryptobasic.com/2020/12/31/darknet-marketplace-now-a
 3. Private fusion of small UTXOs into larger ones (also Melt/Cast).
 
 
-![image](/images/zside-screenshot.png)
+![image](/images/zside-screenshot.jpg)
 
 Above: screenshot of the [next version](https://www.drivechain.info/releases/index.html) of zSide (work in progress!).
 
@@ -168,7 +168,7 @@ Melt/Cast is a User-Interface scheme designed to be used with zSide (zcash drive
 
 The UI is simple, in order to (as mentioned above) prevent accidental misuse, and encourage adoption.
 
-![image](/images/zside-ux.png)
+![image](/images/zside-ux.jpg)
 
 Try it [here](https://www.drivechain.info/releases/index.html)!
 
@@ -247,7 +247,7 @@ For "common timings", we adopt the convention that certain "bills" are always de
 
 ![image](/images/common-days-ex.png)
 
-See these excel sheets ([here](/images/bills.xlsx) and [here](/images/melt-cast-days-example.xlsx) for the images above. The second sheet has two examples.
+See these excel sheets ([here](/images/bills.xlsx) and [here](/images/melt-cast-days-example.xlsx)) for the images above. The second sheet has two examples.
 
 #### iv. "No Unshielded Merges"
 
