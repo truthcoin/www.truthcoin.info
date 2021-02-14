@@ -295,7 +295,7 @@ Drivechain's market for cross-chain swaps will naturally allow taint-vulnerable 
 Not only will people be able to de-taint their coins at the cheapest cost possible, but it will greatly discredit the entire concept of a "tainted coin".
 
 
-## 6. Appendix: What is Privacy? How do we get it?
+## 6. Appendix 1: What is Privacy? How do we get it?
 
 We should identify and destroy privacy-problems head-on.
 
@@ -313,7 +313,7 @@ Above: the ["tragic boating accident"](https://twitter.com/fluffypony/status/943
 In essence, the first problem asks "How can Bitcoin-users *pass* as non-Bitcoin-users?", and the second asks "How can tainted coins *pass* as non-tainted coins?".
 
 
-#### First Problem: Envy and Net Worth
+### First Problem: Envy and Net Worth
 
 [Deniability](http://www.truthcoin.info/blog/deniability/) lets your friends [or lawyers] tell an adjacent Gestapo that "our friend doesn't own any Bitcoin", in a way that is believable. No one is ever sure of your Bitcoin Net Worth.
 
@@ -323,7 +323,7 @@ The fundamental problem of [Envy](http://falkenblog.blogspot.com/2010/03/why-env
 
 Since "Deniability" obscures your network, it solves this first problem.
 
-#### Second Problem: Concealing Financial Records
+### Second Problem: Concealing Financial Records
 
 The zcash sidechain can solve this second problem. First, by enabling z2z Private Txns. And second via Melt/Cast.
 
@@ -332,6 +332,15 @@ The mere existence of a Zcash sidechain makes it less reasonable to investigate 
 The sidechain is non-interactive -- users can use the "shielded transactions" to melt down tainted coins and withdraw them secretly. And you can even plausibly deny that you've ever used the ZCash sidechain -- just walk the coins back the the mainchain, and then send them to yourself a few times. None of this involves interacting with another human being.
 
 
+## 7. Appendix 2: Multiple Periodic Zcash Sidechains = Shrink Nullifier Set
+
+    Update Feb 11 (Forgot to mention)
+
+The zk-snarks used by zCash-tecth, have the problem of an [ever-growing "nullifiers set"](https://twitter.com/oleganza/status/1090771283321675776). The set must grow with each z-transaction, forever.
+
+The only known way to reduce the set, is to reduce it all the way -- *eliminate 100% of the set* by closing down the entire blockchain and starting over with a new blockchain. Obviously, in a single-blockchain world, this a non-starter! But in a sidechain-world, it is [relatively harmless](https://twitter.com/specialenmity/status/1339943814061043713).
+
+Thus, a periodic "revolving door" of *multiple zSide sidechains*, is much more effective than a single zSide (or a single zCash).
 
 -----
 ### Footnotes
