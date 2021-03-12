@@ -282,7 +282,7 @@ Worse, until Taproot is activated, these atomic swap transactions will stick out
 
 But once Taproot is activated, the atomic swap txns will blend in, and exactly resemble all other Taproot-txns.
 
-Melt/Cast will stop the user from doxxing themselves via the amount/timing information, and since Melt/Cast "rinses" the coins *before* the interactive step, not *too* damage is done by the interactivity (although it would still be the most unsatisfactory piece).
+Melt/Cast will stop the user from doxxing themselves via the amount/timing information, and since Melt/Cast "rinses" the coins *before* the interactive step, not *too* much damage is done by the interactivity (although it would still be the most unsatisfactory piece).
 
 Thus, with Drivechain + Melt/Cast + Taproot, BTC's coins may actually become fungible.
 
