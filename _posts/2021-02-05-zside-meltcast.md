@@ -201,6 +201,11 @@ Here is a table comparing Whirlpool to zSide's Melt/Cast:
 Melt/Cast seems to be better in every respect.
 
 
+**Update** (Mar 19 2021): The great CoinJoin Dustup of 3/2021. See [here](https://twitter.com/matt_odell/status/1372681937186340875) and [here](https://twitter.com/francispouliot_/status/1372349324500348938). [Etc](https://twitter.com/francispouliot_/status/1372701027607191558) [etc](https://twitter.com/matt_odell/status/1372358767229165573). I unironically agree with the sardonic conclusion [here](https://twitter.com/francispouliot_/status/1372901299193274377). CoinJoin just isn't good enough in my humble opinion.
+
+A big difference is the row labeled: "Each user increases the anonymity set". That feature allows Melt/Cast to be both cheap and Sybil-resistant. A second big differences is CoinJoin's need for interactivity.
+
+
 ### C. Why Melt/Cast?
 
 
