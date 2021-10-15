@@ -14,26 +14,26 @@ date: 2021-10-15 02:00:00
 
 ### Executive Summary
 
-This is a second article about [Security Budget](https://www.truthcoin.info/blog/security-budget/). (SB).
+This post is a sequel to [my first Security Budget (SB)](https://www.truthcoin.info/blog/security-budget/) post.
 
 It can be summarized as follows:
 
     Part 1 -- SB is a critical parameter for Bitcoin.
-    			SB is driven by P. (P="USD per txn".)
+                  SB is driven by P. (P is "USD per txn")
     Part 2 -- Today, P is MUCH too low.
     Part 3 -- P isn't on an upward trend.
     Part 4 -- If P ever rises, entrepreneurs/inventors
-                will innovate to bring P back toward
-                zero. It is unwise to gamble on an
-                ever-high P. High-P annoys users.
+                  will innovate to bring P back toward
+                  zero. It is unwise to gamble on an
+                  ever-high P. High-P annoys users.
     Part 5 -- High-quality Layer2s are unlikely to
-                increase P.
+                  increase P.
     Part 6 -- Merged Mining is the only known solution
-                to the SB problem. It is already in
-                use, and has been unfairly maligned.
+                  to the SB problem. It is already in
+                  use, and has been unfairly maligned.
     Part 7 -- Conclusion
     Appendix 1 -- How the Blocksize War ruined this
-                     conversation.
+                      conversation.
     Appendix 2 -- How 'Blind Merged Mining' works.
 
 
@@ -100,7 +100,7 @@ Therefore:
 
     SB ($/month) = P ($/txn) * 10,800,000 (txn/month)
 
-Finally, if we price Security Budget in "millions of USD per month" (ie, "M$/m"), we have **the formula**:
+Finally, if we price Security Budget in "millions of USD per month" (ie, "M$/m"), we have <font color="red">**the formula**Flavor</font>:
 
     SB = P * 10.8
 
@@ -200,9 +200,10 @@ For blockspace, it could easily be the same. We would have to investigate the ec
 That is what we will now discuss.
 
 
-## Part 2. Today's Bleak Fee Values
+---
 
-![images](/images/todays-fee-rates.png)
+
+## Part 2. Today's Bleak Fee Values
 
 
 In the very recent past, P has managed to hover around $2.7. (In recent weeks it has been a dreadful $1.13.)
@@ -219,10 +220,13 @@ Those numbers are a *lot* bigger, than Bitcoin's little 29.2 SB. Worse, they are
 
 ![images](/images/fee-optimism.png)
 
+![images](/images/todays-fee-rates.png)
+
 So, we have to hope that our P rises. It needs to go up by *at least* 10x-100x (if not *much* much more).
 
 Will it?
 
+---
 
 ## Part 3. The False View of an Automatic Upward Trend in P
 
@@ -310,6 +314,7 @@ To those who still believe that P is genuinely rising, **I pose the following ch
 
 Unfortunately, it seems that P is both [1] very small, and [2] static (not growing over time). Therefore, something will have to change.
 
+---
 
 
 ## Part 4. Theory / The Future
@@ -492,6 +497,8 @@ Over time, people will use intelligence, hard work, and competition to get more 
 
 Now, on to the layer2s.
 
+
+---
 
 
 ## Part 5. The Layer2s & P -- Friend or Foe?
@@ -764,8 +771,10 @@ Unfortunately for me, a BCH argument that is false *greatly resembles* my true a
 But I am saying the opposite: that **average** layer1 fees *must go up to reach* $70+ (much more), *in order* for Bitcoin to work. The BCH argument relies on a low P to drive a high Q. Whereas I assume a fixed low Q, and point out that we therefore need a high P. The BCH argument wants many people to transact, just because it wants Bitcoin to be popular; I want there to be *high layer1 transaction demand* because I want there to be high layer1 blockspace demand because (with a fixed, low Q) we need a high P to have enough TTFR and enough SB.
 
 
-    Largeblocker: " $70/tx fees ...will not work (they will be rejected by users)!"
-    SB-Realist:   " $70/tx fees ...are *required for* Bitcoin to work (as without high P there are no property rights)."
+    Largeblocker: " $70/tx fees ...will not work
+                       (they will be rejected by users)!"
+    SB-Realist:   " $70/tx fees ...are *required for* Bitcoin to work
+                       (without high P, there are no property rights)."
 
 
 Regardless of how you feel about the blocksize, or average layer1 fees, **individually**, you **must** believe that, one day, their *product*, P\*Q, (aka TTFR, aka SB) will be high.
