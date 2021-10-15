@@ -548,7 +548,7 @@ The same goes for anything that Bitcoin has, that people like. Wherever BTC has 
 The **fundamental dilemma** is this: the transaction fees have to be *large enough* to deter attackers (who might try to harass Layer1), but NOT large enough to deter users (who might want to switch to different Layer1). But the final total, cannot be both large and small at once.
 
 
-
+---
 
 
 ## Part 6. The Inevitability of Merged Mining
@@ -581,9 +581,10 @@ For years, two elite developers have claimed that MM is dangerous for that reaso
 
 And many people believed them. Sadly, it is now the conventional view. For example, this excerpt [from Bitmex](https://blog.bitmex.com/the-growth-of-bitcoin-merge-mining/): 
 
-    ...complex or resource intensive merge mining schemes, which
-    miners may need to run in order to remain economically
-    competitive, could increase mining centralisation pressure.
+    ...complex or resource intensive merge mining
+    schemes, which miners may need to run in order
+    to remain economically competitive, could
+    increase mining centralisation pressure.
 
 (Bad news for us, if this view is correct -- since we can do nothing to stop MM, as I explain in (C).)
 
@@ -607,9 +608,10 @@ I understand that specialization makes some people uncomfortable. A specialist h
 
 In my opinion, the anti-mining-specialists are living in a dream world. And have been for some time. This excerpt... 
 
-    The MegaBigPower Company... has invested over $1 million into
-    a custom 1.4MW facility... 30 tons of air conditioning, ...
-    their fans now move 150,000 cubic feet of air per minute.
+    The MegaBigPower Company...has invested over
+    $1 million into a custom 1.4MW facility...
+    30 tons of air conditioning, ...their fans
+    now move 150,000 cubic feet of air per minute.
 
 ...is from [a report on mining](https://www.allied-control.com/publications/Analysis_of_Large-Scale_Bitcoin_Mining_Operations.pdf) from *March 2014*. Here's  [a similar article from Oct 2017](https://spectrum.ieee.org/bitcoin-mining). BitFury has --for 7 or so years now-- sold miners [*by the marine container*](https://bitfury.com/crypto-infrastructure/blockbox). What non-specialist could possibly afford that? (And, I might add, who among us grows and prepares his own food, builds his own shelter, defends his own borders, etc? Specialization of labor = prosperity.).
 
