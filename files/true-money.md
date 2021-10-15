@@ -27,9 +27,12 @@ But it goes further than that, of course. The mere *creation* of Bitcoin represe
 Notice, finally, that this conflict is only about "money" (or what I call "purchasing power"), and it is not about "wealth". Wealth can grow over time, possibly without limit. Purchasing power merely represents what portion of that wealth you can claim as your own. However, wealth may be growing so quickly, and purchasing power might be changing so slowly, that you may grow wealthier over time, even if your portion of the total wealth decreases.
 
 
-Update (Nov 12, 2017): It occurred to me that this framework can offer an objective definition of value. We just define "value" as "the persuasive energy contained by a given action". This action could be a barter (surrendering some of your property), or it could be a statement, (a threat, offer, etc).
+Update (Nov 12, 2017): It occurred to me, that this framework can offer an objective definition of value. We just define "value" as "the persuasive energy contained by a given action". This action could be a barter (surrendering some of your property), or it could be a statement, (a threat, offer, etc).
 
 If so, "value" will be an objective property of the action. So the act of surrendering $50 will objectively be able to force X number of other people to perform Y actions. Value may be very difficult to measure, and it still resides in other people's minds, but it is an objective concept. While this doesn't disprove the ["subjective theory of value"](https://en.wikipedia.org/wiki/Subjective_theory_of_value), it does prevent tSToV from implying that "all value is subjective".
+
+
+Update (Oct 13, 2021): This article is mistitled! It is actually about "true money-units", not "true money". I never gave a good definition for money.  Here is one now: money is our collective memory of who has done favors for who. It is collective because it is instantiated in something *more than just one human brain* (ie, in coins or in bank ledgers or blockchain-ledgers).
 
 <!--
 cut, too confusing:
