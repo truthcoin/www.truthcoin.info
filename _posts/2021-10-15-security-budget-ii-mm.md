@@ -1,5 +1,5 @@
 ---
-title: Security Budget II, Low Fees and Merged Mining
+title: Security Budget II, Low Fees, and Merged Mining
 show_author: true
 comments: true
 date: 2021-10-15 02:00:00
