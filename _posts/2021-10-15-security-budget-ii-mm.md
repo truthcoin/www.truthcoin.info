@@ -100,7 +100,7 @@ Therefore:
 
     SB ($/month) = P ($/txn) * 10,800,000 (txn/month)
 
-Finally, if we price Security Budget in "millions of USD per month" (ie, "M$/m"), we have <font color="red">**the formula**</font>:
+Finally, if we price Security Budget in "millions of USD per month" (ie, "M$/m"), we have **<font color="red">the formula</font>**:
 
     SB = P * 10.8
 
