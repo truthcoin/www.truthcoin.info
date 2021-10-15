@@ -613,17 +613,17 @@ In my opinion, the anti-mining-specialists are living in a dream world. And have
     30 tons of air conditioning, ...their fans
     now move 150,000 cubic feet of air per minute.
 
-...is from [a report on mining](https://www.allied-control.com/publications/Analysis_of_Large-Scale_Bitcoin_Mining_Operations.pdf) from *March 2014*. Here's  [a similar article from Oct 2017](https://spectrum.ieee.org/bitcoin-mining). BitFury has --for 7 or so years now-- sold miners [*by the marine container*](https://bitfury.com/crypto-infrastructure/blockbox). What non-specialist could possibly afford that? (And, I might add, who among us grows and prepares his own food, builds his own shelter, defends his own borders, etc? Specialization of labor = prosperity.).
+...is from [a report on mining](https://www.allied-control.com/publications/Analysis_of_Large-Scale_Bitcoin_Mining_Operations.pdf) from *March 2014*. Here's  [a similar article from Oct 2017](https://spectrum.ieee.org/bitcoin-mining). BitFury has --for 7 or so years now-- sold miners [*by the marine container*](https://bitfury.com/crypto-infrastructure/blockbox). What non-specialist could possibly afford that? (And, I might add, who among us grows and prepares his own food, builds his own shelter, defends his own borders, etc? Specialization of labor = prosperity.)
 
 Last of all, there's the cold reality of what the difficulty adjustments literally do: they *fire half of the miners* -- the under-performing half. Every two weeks, all of the "mining designs" which are *not above average* are fired. That is, obviously, a recipe for specialization and evolution.
 
-How did such a wrong view
+How did such a wrong view survive this long?
 
 #### iii. Conflicts of Interest
 
 I'm not sure. Perhaps it was bad luck. Perhaps it is because MM is probably only understood by 5-10 people.
 
-I do know, that the "Great MM Lie" had enormous financial consequences. It singlehandedly caused the blocksize war (altering enormous personal fortunes), delayed the arrival of sidechains (thus "pumping" life into thousands of Altcoins and Scamcoins), enshrined technocrat developers as a monopolist cartel of elites, and altered the trajectory of billions of dollars of venture capital money, stock options, salaries, conference revenues etc.
+I do know this: the "Great MM Lie" had enormous financial consequences. It singlehandedly caused the blocksize war (altering enormous personal fortunes), delayed the arrival of sidechains (thus "pumping" life into thousands of Altcoins and Scamcoins), enshrined technocrat developers as a monopolist cartel of elites, and altered the trajectory of billions of dollars of venture capital money, stock options, salaries, conference revenues etc.
 
 It also altered Bitcoin's culture. In the past, it was: ["Bitcoin User Not Affected"](https://i.imgur.com/R3CaKks.png) -- we were immune to the world's stupidity, and didn't have to care about anything. But today, we poke our noses into everyone's business, and enforce a vast, cheerless vigilance... all to "protect" the protocol. The "defenders of Bitcoin" are beneficiaries of the MM/anti-sidechain lie -- we give them clout, respect, speaking invitations, sponsorships, and even jobs.
 
