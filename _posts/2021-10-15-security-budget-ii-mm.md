@@ -794,8 +794,8 @@ For example: a sidechain block contains 20,000 txns, each paying a $0.10 fee; so
 |:---|:----------:|:----:|
 |How much hashing?|100%|0%|
 |Coins collected, on Layer2|$0|$2000|
-|Coins paid, on Layer1|$1999|$0|
-|Coins rec'd, on Layer1|$0|$1999|
+|Coins paid out, on Layer1|$0|$1999|
+|Coins rec'd, on Layer1|$1999|$0|
 |d(Net Worth)|+$1999|+$1|
 
 Bip301 makes this specialization-of-labor trustless on Layer1.
