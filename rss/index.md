@@ -32,9 +32,15 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Nov 5, 2021|[TabConf 2021 - BIP 300](https://www.youtube.com/watch?v=oga8Pwbq9M0)|25m,44s|Even *better* than the June Bitcoin2021 talk -- 10 minutes longer.|
+|Aug 12, 2021|[Blockchain Debate Podcast: Toxic maximalism (Giacomo Zucco vs. Me)](https://blockdebate.buzzsprout.com/767033/9020992-motion-toxic-maximalism-is-great-for-bitcoin-giacomo-zucco-vs-paul-sztorc)|1h,34m,31s|Giacomo and I talk about toxic maximalism. We agreed more than disagreed. I think the conversation would have been more interesting if we interrupted each other more. Too polite and not very toxic.|
+|Jul 3, 2021|[Bip 300 Debate: JW Weatherman vs Me](https://www.youtube.com/watch?v=PziBY3qOS48)|1h,21m,43s|In my opening remarks I mentioned that Drivechain was an improvement over Blockstream's 2014 paper. I regret mentioning that, because I think this guy is so clueless that it never occured to him to look up any of the technical details whatsoever. I could have instead, just asked him 'what is bip300' and he would have gone down in flames immediately. Anyway, he was clearly unprepared making this mostly a waste of everyone's time.|
+|Jun 10, 2021|[Drivechain Q&A - Paul Sztorc at Crosschain Miami](https://www.youtube.com/watch?v=m8nN-SSBr1g)|22m,37s|Me, in Miami, being brought onstage unexpectedly after a night of drinking to do a Drivechain Q&A.|
+|Jun 10, 2021|[Bitcoin 2021: Drivechain Demo (BIP 300)](https://www.youtube.com/watch?v=oga8Pwbq9M0)|15m,57s|Bip300 explained... in just 15 minutes! Highly recommended.|
+|Mar 1, 2021|[ZCash Sidechain](https://www.youtube.com/watch?v=N33iJK2FdpE)|21m,58s|Me, demo-ing our zcash sidechain. As well as my "melt/cast" privacy technology.|
 |Dec 20, 2020|[Silent Night V3](https://twitter.com/mikeinspace/status/1340698646074015746?s=20)|1m,11s|Shorter, and with no mikeinspace, this time!|
 |Dec 17, 2020|[A Bitcoin Christmas: Silent Night](https://youtu.be/737mPDwhaQM)|1m,47s|Me playing piano in mikeinspace's Twitter band.|
-|Dec 16, 2020| [Bitcoin Stories Episode 048](https://www.youtube.com/watch?v=HQ3fqkPeQCc&feature=emb_logo)|1h,30m,35s|A really great talk where I answer the "Thiel Question" -- what's something you believe that most people don't agree with you on: many of the people you love will die because of the US stance toward betting. Thanks to Zack Hess for fixing up the audio.|
+|Dec 16, 2020|[Bitcoin Stories Episode 048](https://www.youtube.com/watch?v=HQ3fqkPeQCc&feature=emb_logo)|1h,30m,35s|A really great talk where I answer the "Thiel Question" -- what's something you believe that most people don't agree with you on: many of the people you love will die because of the US stance toward betting. Thanks to Zack Hess for fixing up the audio.|
 |Dec 14, 2020|[Bitcoin Reservations #004 - Smart wife asterisk](https://www.youtube.com/watch?v=BDIK2IBqCUk)|2h,33m,20s|Show is finally starting to get good.|
 |Dec 7, 2020|[Bitcoin Reservations #003 - Twin sister hard fork](https://www.youtube.com/watch?v=a70vaR_dFJ0)|2h,33m,20s|Still the beginnings aren't great, but they are getting there.|
 |Nov 30, 2020|[Bitcoin Reservations #002 - The prodigal son](https://www.youtube.com/watch?v=rn0NaAyNFDA)|2h,16m,37s|The beginning isn't good at all but, it picks up steam quickly.|
