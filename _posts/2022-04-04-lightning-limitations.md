@@ -388,7 +388,7 @@ I can see why a LN-user would just ignore the whole repo, and write it off as mi
 
 (That is why I, with this post, tried to focus on three specific issues.)
 
-### D. The VC Grift (?)
+### D. "Dumb Money" VCs (?)
 
 The smartest investment to make --as we all know-- is to *buy Bitcoin*.
 
@@ -398,11 +398,13 @@ Anyway: after years of watching Dan Larimer and Vitalik earn millions of dollars
 
 All you need to do, is find something that the VCs like. Preferably something that you can do, and that is too esoteric for them to really figure out. Then specialize in that thing, and collect your $$. Finally --this is essential-- be sure to vociferously *discredit* anyone who refuses to toe your line. That way you can keep the grift going. That's how you stack BTC and become a "real Bitcoiner".
 
-( Sadly, "Investment" doesn't always make the world a better place. It does, if the investment is good. But if the investment is bad, or fails, then you instead made the world a *worse* place.[^10] Investors should accept a moral responsibility for each of their investments. )
+Sort of a cynical, unfriendly way of looking at the world, I admit. But hey -- if VCs are going to give all of this money away, I can see why many people would take it. (After all, you never know what new ideas you'll discover along the way.)
+
+( In case it isn't clear, I blame the VCs, for this. Sadly, "Investment" doesn't always make the world a better place. It does, if the investment is good. But if the investment is bad, or fails, then you instead made the world a *worse* place.[^10] Investors should accept a moral responsibility for each of their investments. )
 
 [^10]: For example, consider the Theranos investors. They lost their money. But they also [1] misled (and endangered) many customers; [2] wasted the time, attention, and reputations of Theranos staff (and of Theranos suppliers and contractors); [3\] (probably) misled and discouraged many rival inventors/entrepreneurs (who may have concluded that they were doing something wrong, and/or were too far behind, on their own blood-testing ideas); [4] more generally, disrupted the progress of science, by altering which topics were given attention and why; [5] consumed the scarce time and attention of regulators and law enforcement.
 
-### E. The Specialization Grift
+### E. The Specialization Grift (?)
 
 Engineers have a bias, toward anything where engineers are likely to be hired to work on it.
 
