@@ -11,10 +11,10 @@ I use basic arithmetic to derive limitations of the Lightning Network. Because t
 ### Summary
 
 * Channel-open transactions must be broadcast on L1, but there is simply not enough L1-space.
-* "Factories" onboard more users per L1 txn. Unfortunately, they can be attacked for free, and so are impractical. CoinPool has the same problem (when it comes to LN-onboarding). The limitation is fundamental.
+* "Factories" can onboard more users per L1 txn. Unfortunately, they can be sabotaged for free. CoinPool has the same problem (when it comes to LN-onboarding). The limitation is fundamental.
 * There are scenarios where LN-users consume *more* bytes than L1 "onchain" users. These are interesting, especially when it comes to use of HTLCs.
 
-The "conventional layer2 strategy" (of: "Core + LN + nothing else") is almost certainly not viable.
+The "conventional layer2 strategy" (of: "Core + LN + nothing else") is almost certainly not viable. But a modified strategy, of "Core + Largeblock Sidechain + LN" is viable.
 
 
 ## 1. The Onboarding Problem (With No Factories)
@@ -26,21 +26,21 @@ Consider these "best case scenario" LN onboarding-assumptions[^1]:
 [^1]: I did this type of analysis [on the bitcoin-dev mailing list, two months ago](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-February/020018.html). No one seems to have challenged it.
 
 1. Blocks are *only* used for LN-onboarding. (100% of the blockspace is used for LN-open txns.)
-* * Each block consists of two transactions: the coinbase, and one transaction selecting one input and paying out to 23,251 taproot outputs.
-* * Approximately 999,750 vbytes would be used for new channel-open-outputs. The remaining 250 vbytes allow for the (required) coinbase; plus the (required) overhead of the second txn (one input, nLockTime, change output, etc).
+* Each block consists of two transactions: the coinbase, and one transaction selecting one input and paying out to 23,251 taproot outputs.
+* Approximately 999,750 vbytes would be used for new channel-open-outputs. The remaining 250 vbytes allow for the (required) coinbase; plus the (required) overhead of the second txn (one input, nLockTime, change output, etc).
 2. Each channel-open costs 43 vbytes.
-* * Unfortunately, taproot outputs (P2TR) [are 43 bytes](https://bitcoin.stackexchange.com/questions/91531/would-a-schnorr-pubkey-be-a-different-length-than-a-taproot-pubkey-like-p2wpkh-a) (vs P2SH 2-2 multisig outputs, which [are just 32](https://medium.com/coinmonks/on-bitcoin-transaction-sizes-part-2-9445373d17f4#7f9a)). So, taproot makes this problem worse, by a factor of 1.34. Taproot saves an enormous amount (over 100 bytes), during channel closes, however. So it is actually the more efficient choice.
-* * In practice, this would require the "cohort" (aka, the 23,250 new people) to coordinate with one single "rich guy" (aka, the user who already owns a lot of BTC on layer1, in one of his UTXOs). This "rich guy" would use one txn, to onboard all 23,250 new users at once, giving each a channel with its own magnitude, opening-balance (if any), and pubkey.
+* Unfortunately, taproot outputs (P2TR) [are 43 bytes](https://bitcoin.stackexchange.com/questions/91531/would-a-schnorr-pubkey-be-a-different-length-than-a-taproot-pubkey-like-p2wpkh-a) (vs P2SH 2-2 multisig outputs, which [are just 32](https://medium.com/coinmonks/on-bitcoin-transaction-sizes-part-2-9445373d17f4#7f9a)). So, taproot makes this problem worse, by a factor of 1.34. Taproot saves an enormous amount (over 100 bytes), during channel closes, however. So it is actually the more efficient choice.
+* In practice, this would require the "cohort" (aka, the 23,250 new people) to coordinate with one single "rich guy" (aka, the user who already owns a lot of BTC on layer1, in one of his UTXOs). This "rich guy" would use one txn, to onboard all 23,250 new users at once, giving each a channel with its own magnitude, opening-balance (if any), and pubkey.
 3. Users never need a second channel.
-* * The user's new channel, is enough to last them the rest of their lives. It never has any problems with [liquidity](https://medium.com/@peter_r/the-answer-to-yesterdays-lightning-network-quiz-was-a-1-coin-d8125c056758) /balancing /routing /uptime /hotwallet-crashing /[attacks](https://bitcoinops.org/en/topics/channel-jamming-attacks/) /etc. There are no problems with ln-fees /extortion /pay-capacity, despite each user being beholden to one channel-counterparty for all of their routes. 
-* * Users do not desire >1 channel for other reasons: an alt identity, or on behalf of an organization (corporation, church, etc).
+* The user's new channel, is enough to last them the rest of their lives. It never has any problems with [liquidity](https://medium.com/@peter_r/the-answer-to-yesterdays-lightning-network-quiz-was-a-1-coin-d8125c056758) /balancing /routing /uptime /hotwallet-crashing /[attacks](https://bitcoinops.org/en/topics/channel-jamming-attacks/) /etc. There are no problems with ln-fees /extortion /pay-capacity, despite each user being beholden to one channel-counterparty for all of their routes. 
+* Users do not desire >1 channel for other reasons: an alt identity, or on behalf of an organization (corporation, church, etc).
 4. The world population remains flat at 8 billion people.
 
 Now we can do arithmetic:
 
     999,750 / 43 = 23,250 users onboarded, per block [see above]
     6*24*365 = 52,560 blocks per year [6 blocks/hour]
-    ------------
+    -------------
     1,222,020,000 onboards per year
 
     8 billion people per Earth, 
@@ -69,7 +69,7 @@ So, if we redo the analysis with non-absurd numbers, we get:
     900,032 / 143.5 = 6,272 channels opened, per block [see above]
     6,272 / 5 channels per user = 1255 users onboarded per block
     6*24*365 = 52,560 blocks per year [6 blocks/hour]
-    ------------
+    -----------
     65,962,800 users onboarded per year
     
     8 billion people per Earth, 
@@ -409,25 +409,21 @@ Engineers have a bias, toward anything where engineers are likely to be hired to
 ![dilbert](https://assets.amuniversal.com/268f57809f72012f2fe600163e41dd5b)
 
 
-    [Once] division of labor has set in ... I wish
-    the price of everything I buy to be low ...but
-    it is in my interest for the price of  [every-
-    thing] I provide to be high.
+    [Once] division of labor has set in ... I wish the price of
+    everything I buy to be low ...but it is in my interest for
+    the price of [everything] I provide to be high.
     ...
-    Just as there is no technical improvement that
-    would not hurt someone, so there is no change
-    in public taste or morals, even for the better,
-    that would not hurt someone. An increase in
-    sobriety would put thousands of bartenders out 
-    of business. ... A growth of male chastity
-    would ruin the oldest profession in the world.
-    ...Preachers would have less to complain about;
-    reformers would lose their causes ... If there
-    were no criminals we would need fewer lawyers,
-    judges...firemen...jailers... locksmiths.
+    Just as there is no technical improvement that would not
+    hurt someone, so there is no change in public taste or
+    morals, even for the better, that would not hurt someone.
+    An increase in sobriety would put thousands of bartenders
+    out of business. ... A growth of male chastity would ruin
+    the oldest profession in the world. ...Preachers would
+    have less to complain about; reformers would lose their
+    causes ... If there were no criminals we would need fewer
+    lawyers, judges...firemen...jailers... locksmiths.
 
 Above: The Last Chapter of H. Hazlitt's ["Economics in One Lesson"](https://www.hacer.org/pdf/Hazlitt00.pdf). Comparisons to "devs", "VCs" or toxic Twitter personalities, are in your imagination only.
-
 
 
 ## 5. Finally: LN & The LargeBlock Sidechain
