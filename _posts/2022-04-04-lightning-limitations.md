@@ -329,7 +329,7 @@ From our work on HTLCs, we now see two "dammed if you do, damned if you don't" p
 * LN is also bad for low-value payments, as these cannot use HTLCs. But, on the other hand, LN is bad for high-value payments, since channel-capacity is [a minimization function](https://medium.com/@peter_r/the-answer-to-yesterdays-lightning-network-quiz-was-a-1-coin-d8125c056758).
 
 
-## 4. The Sad State of LN Dialog
+## 4. The Unfortunate State of LN Dialog
 
 Taken together, the previous three sections paint a somewhat bleak picture of LN: 
 
