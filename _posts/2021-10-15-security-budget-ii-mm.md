@@ -128,7 +128,7 @@ The attacker does not even need to focus on de-confirming txns at all. They coul
 
 The "wait for more confirmations" strategy, presumes that the attacker has only relative or temporary power (and that txns will settle slowly but eventually). But if the security budget is rightly regarded as a flow, not a stock, then the attack will never come to an end. In fact, the attack will eventually become "free" for the attacker to sustain (see footnote 2). And once the honest miners realize that they will lose the hash war, the SB is likely to drop to \~zero anyway.
 
-#### iii. Mistake: Pricing SB in BTC 
+#### iii. Mistake: Pricing SB in BTC
 
 A third mistake is to price SB in BTC (instead of USD). That is wrong, since it leads people to wonder if BTC price-appreciation will fix the SB problem. It cannot.
 
@@ -353,7 +353,7 @@ Above: The "Prosperity Index". We humans get better and better, at getting the t
 
 Not only have prices been falling, but competitiveness has been increasing. In the past you could either attend the opera for $100 or buy a $20 opera CD. (Once upon a time, you couldn't even buy the CD). Today, you can browse innumerable $0-cost opera videos and mp3s, from numerous competing sources. But that's just half of it: in the past, opera had no competitors -- you had to listen to whatever the Maestro wanted to conduct. Now you can listen to any kind of music that you want. You can pause the music to start a Netflix series, and you can pause the Netflix series to play a videogame. The entire "entertainment" category is in cutthroat competition with itself.
 
-Not only are prices plummeting, but the rate at which they fall is accelerating. The newer technologies, such as DNA sequencing, have [fallen in cost at some of the fastest rates ever recorded in history](https://www.humanprogress.org/the-fastest-learning-curve-in-history/). Today, the market it overwhelmed with new products. We don't have enough time to even learn about all of the new stuff being provided to us.
+Not only are prices plummeting, but the rate at which they fall is accelerating. The newer technologies, such as DNA sequencing, have [fallen in cost at some of the fastest rates ever recorded in history](https://www.humanprogress.org/the-fastest-learning-curve-in-history/). Today, the market is overwhelmed with new products. We don't even have enough time, to *learn* about all of the new stuff we might buy.
 
 All of this is very good for the consumer. We get more stuff. But --if it applies to P-- then it is quite bad for the SB-Optimists.
 
@@ -428,7 +428,7 @@ Reminder: we are NOT talking about **coins** to hodl; nor about coins that might
 
 ##### A Hypothetical Story
 
-Imagine --hypothetically-- that you want to make an "illegal transaction". The kinds for which "crypto" is now famous. For example: you want to pay a $400 ransomware ransom; or you want to buy $400 worth of heroin on the Dark Web. You (the buyer) are just using the payment service (you are not necessarily a "crypto investor"). Your goal is to turn $400 of fiat, into crypto, and then into your purchase. Same for the seller. Their goal is to sell the product for $400, and convert the $400 of crypto into $400 of fiat.
+Imagine --hypothetically-- that you want to make an "illegal transaction". The kinds for which "crypto" is now famous. For example: you want to pay a $400 ransomware ransom; or you want to buy $400 worth of heroin on the Dark Web. You (the buyer) are just using the payment service (you are not necessarily a "crypto investor"). Your goal is to turn $400 of fiat, into crypto, and then into your purchase. Same for the seller. Their goal is to sell the product, and convert the $400 of crypto into $400 of fiat.
 
 Now, so far --in the scenario above, as I have laid it out-- the "crypto" could be anything. It is a fully interchangeable part.
 
@@ -473,11 +473,11 @@ And, anyway: if the seller is someone who does *many* transactions (but *not* mu
 
 What if BTC has **the best code**, or best features? Well, Bitcoin is open-source, so it makes no difference. If there is market demand for something BTC-like (but with lower fees), then someone will create it. It will either be LiteCoin, or just a de facto exact clone of Bitcoin Core. It can even have a *smaller* blocksize so as to be *more decentralized*. Just a bunch of "mosquito Bitcoin" networks that pop up to facilitate transactions.
 
-There may be a slight "chicken-and-egg problem" with new networks -- few people want to use a brand new network. But this just means it will take time to find the right circumstances where we can grab one egg and one chicken at the same time. In the long run, it is more than feasible.
+There may be a slight "chicken-and-egg problem" with new networks -- few people want to use a brand new network. But this just means it will take time to find the right circumstances where we can grab one egg and one chicken at the same time. And in the long run we have plenty of time.
 
 #### iii. Rival Cryptos Will Affect P
 
-Therefore, as the public learns more about Altcoins, they might be: less likely to *hodl* any; but more likely to use them for USD-denominated illicit trades.
+Therefore, as the public learns more about Altcoins, they might be: less likely to *hodl* Alts; but more likely to use Alts for USD-denominated illicit trades.
 
 ( Rival cryptos will not only evolve as a response to high P, but as a response to any problem that Bitcoin has [but refuses to solve]. ) 
 
@@ -543,9 +543,9 @@ Above: Same image as before, plus [this](https://knowyourmeme.com/memes/iq-bell-
 
 The same goes for anything that Bitcoin has, that people like. Wherever BTC has good Layer2s, a competitor can emulate them. Wherever BTC has costs, a competitor can make a cheaper version.
 
-### C. The Fundamental Dilemma 
+### C. The Fundamental Dilemma
 
-The **fundamental dilemma** is this: the transaction fees have to be *large enough* to deter attackers (who might try to harass Layer1), but NOT large enough to deter users (who might want to switch to different Layer1). But the final total, cannot be both large and small at once.
+The **fundamental dilemma** is this: transaction fees must be *large enough* to deter attackers (who might try to harass Layer1), but NOT large enough to deter users (who might want to switch to different Layer1). But the final total, cannot be both large and small at once.
 
 
 ---
@@ -598,11 +598,11 @@ To mine, you need a node; but to run a node, you do NOT need to mine. The MM-hat
 
 It should be as easy as possible to run a node -- that is decentralization. But it should NOT be as easy as possible to find blocks! **To those who (mistakenly) want it to be easy to find blocks, I ask the following question**: why not remove Bitcoin's *difficulty adjustments*? We can set the difficulty as low as possible, and leave it there forever. Then *everyone* can find blocks, easily!
 
-Mining should be difficult.  The difficulty adjustments are what deter attackers; they are what protect us. They are how the security budget is enforced. They focus our attention on the protocol's most dedicated stewards and defendenders. And, how do they accomplish this? By making mining *more difficult*.
+Mining should be difficult.  The difficulty adjustments are what deter attackers; they are what protect us. They are how the security budget is enforced. They focus our attention on the protocol's most dedicated stewards and defenders. And, how do they accomplish this? By making mining *more difficult*.
 
-Bitcoin is designed, to be indifferent to the joys and sorrows of miners. No matter how much compute-power goes into *producing* a PoW-block-header, it takes only a tiny, independent amount of cpu-power to *validate* that PoW. Miners have full freedom to change their hardware, power source, the scale of their operation, their ratio of fixed/variable costs, they may to quit or join at will, book profits or losses -- the network doesn't even notice. Earlier this year, *ALL Chinese mining shut down, and mostly moved off the continent* -- and it is plausible that the vast majority *of Bitcoin users* neither knew, nor cared. If tomorrow, that story were revealed to have been a hoax, and in fact 99% of mining still taking place in China -- it would make no difference to the network. All Bitcoiners are told: "run your own node"; but how many are told "run your own Bitcoin mine"? One job of a full node is to protect the user against miners: when invalid blocks are mined, nodes filter them out -- it is as if they never existed. But nodes never need to do anything to prove themselves to miners; a miner has never rejected a node. 
+Bitcoin is designed, to be indifferent to the joys and sorrows of miners. No matter how much compute-power goes into *producing* a PoW-block-header, it takes only a tiny, independent amount of cpu-power to *validate* that PoW. Miners have full freedom to change their hardware, power source, the scale of their operation, their ratio of fixed/variable costs, they may to quit or join at will, book profits or losses -- the network doesn't even notice. Earlier this year, *ALL Chinese mining shut down, and mostly moved off the continent* -- and it is plausible that the vast majority *of Bitcoin users* neither knew, nor cared. If tomorrow, that story were revealed to have been a hoax, and in fact 99% of mining still taking place in China -- it would make no difference to the network. All Bitcoiners are told: "run your own node"; but how many are told "run your own Bitcoin mine"? (Since only half of all miners can run profitably, the latter advice implies widespread altrustic sacrifice.) One job of a full node, is to protect users *against* miners: when invalid blocks are mined, nodes filter them out -- it is as if these blocks never existed. But nodes never need to do anything to prove themselves to miners; a node can reject a miner, but a miner has never rejected a node. Nodes trump miners.
 
-Mining should be difficult. The cost, risk, capex, time-commitment, and specialization, should all be enormous. Miners, should exploit every last process improvement. They should never leave money on the table -- they should hash as cheaply as they can; they should max their txn-revenues however they can. Any stone left unturned, is a gift our enemies (who, after all, will do whatever they see fit, in order to press the BTC "off" button). Miners should be the best of the best (comparable to Navy SEALs or Chess Grandmasters) -- they should know everything there is to know, about the state of the art, and more.
+Mining should be difficult. The cost, risk, capex, time-commitment, and specialization, should all be enormous. Miners, should exploit every last process improvement. They should never leave money on the table -- they should hash as cheaply as they can; they should max their txn-revenues however they can. Any stone left unturned, is a gift our enemies (who, after all, will do whatever they see fit, in order to press the BTC "off" button and hold it down). Miners should be the best-of-the-best (comparable to Navy SEALs or Chess Grandmasters) -- they should know everything there is to know, about the state of the art, and they should be better at it than everyone around them.
 
 I understand that specialization makes some people uncomfortable. A specialist has an advantage, over the layperson. A Grandmaster would beat me in Chess -- maybe I'd rather play Tic-Tac-Toe. Or maybe I'd rather not play anything. But that is just another thing the MM-skeptics get backwards: in the real world, the *attacker* picks the game. They get the first move, and they decide whether or not we keep playing.
 
@@ -662,9 +662,9 @@ The project he mentions ("BitDNS"), became Namecoin (in the chart above) in 2010
 
 ### E. Tragedy of the Commons
 
-By now, it is well known, that an unrestricted blocksize leads to a commons problem.
+By now, it is well known, that an unrestricted blocksize leads to a commons problem. (Which is: who will run the nodes? Who will store/serve all of this data?)
 
-But if BL1Txn P is stubbornly low, then (low blocksize + no merged mining) also leads to a commons problem. In the low-P case it is the commons problem of insecure hashrate.
+But if BL1Txn P is stubbornly low, then (low blocksize + no merged mining) *also* leads to a commons problem (a different one): the commons problem of insecure hashrate.
 
 Hence...
 
@@ -683,9 +683,9 @@ Above: the trilemma. Choose one!
 Soon, Merged Mining will be drastically better than ever. The two improvements are:
 
 * The MMed chains, will NOT be feeble Altcoins -- they will be super-cool ultra-useful sidechains. Every BTC owner will access these networks for "free" (ie, with the coins they already own), instead of having to buy new coins (as with Alts).
-* Blind Merged Mining (Bip301), allows miners to MM without doing anything -- they just include the highest fee-paying txns. At present, to MM miners *must* run Altcoin node software (which is often buggy and resource-intensive).
+* Blind Merged Mining (Bip301), allows miners to MM without doing anything -- they just include the highest fee-paying txns (which is what they already do). In contrast, today's MMers *must* run Altcoin node software (which is often buggy and resource-intensive).
 
-Then, MM will finally take its place as one of the most important aspects of Bitcoin.
+Then, MM will finally take its rightful place as one of the most important aspects of Bitcoin.
 
 
 
@@ -711,9 +711,9 @@ Now, a summary of the article:
 * If you can pay the SB, you can disable Bitcoin. Thus, SB cannot be too low, lest Bitcoin become trivial to disrupt. Eventually, SB = TTFR. Since TTFR = P\*Q, and since Q is fixed, it all comes down to P. 
 * Today, P is much much too low. 
 * P actually has not been rising over time. It has been low this entire time. The *illusion* of a trend sometimes emerges, due to unrelated factors, such as the breakout of an enormous bull run in BTC. But people are stubbornly unwilling to pay for security.
-* P will probably be even *lower* in the future. Coins are not BL1Txns -- no one wants more inflation taxes, but everyone wants more plentiful Txn-throughput. Entrepreneurs and technologists are working hard, every day, to create new transaction systems, a drive equilibrium-P as close to zero as humanly possible. 
-* Layer2s do not help the situation. In fact, they make things worse by providing yet-more BL1Txn competitors. Each Layer2 improve its host Layer1, but any competitor can copy these Layer2s. L1 fees must be high enough to deter attackers, but low enough to Not-Deter L1-users (from using something else).
-* Bitcoin miners will eventually embrace Merged Mining, at which point the Security Budget problem will be solved. Concerns about MM are mistaken, because they get the relationship between Mining and The Protocol backwards. The delay in embracing MM, has caused enormous suffering to most Bitcoiners, whilst enriching ICO/Altcoin scammers and a few Bitcoiners.
+* P will probably be even *lower* in the future. Coins are not BL1Txns -- no one wants more inflation taxes, but everyone wants more plentiful Txn-throughput. Entrepreneurs and technologists are working hard, every day, to create new transaction systems, and drive the equilibrium-P down as close to zero as humanly possible. 
+* Layer2s do not help the situation. In fact, they make things worse by providing yet-more BL1Txn competitors. Each Layer2 improve its host Layer1, but any competitor can copy these Layer2s. L1 fees must be high enough to deter attackers, but (paradoxically) low enough to keep L1-users *un-deterred* (from using rivals).
+* Bitcoin miners will eventually embrace Merged Mining, at which point the Security Budget problem will be solved. Concerns about MM are mistaken, because they get the relationship between Mining and The Protocol backwards. The delay in embracing MM, has caused enormous suffering to most Bitcoiners, whilst enriching many ICO/Altcoin scammers and a few Bitcoin aristocrats.
 
 
 I hoped you enjoyed reading this article. I enjoyed writing it!!
@@ -730,7 +730,7 @@ Unfortunately, the Blocksize War of 2016-2017 damaged BTC culture. One of the ca
 
 Specifically, the War prompted a divide between "store of value" Bitcoiners, and "medium of exchange" Bitcoiners. The former say that BTC is for saving, and the latter say that BTC is for spending.
 
-Of course, "money" must be *both* saved and spent[^7]. (Thus, we could improve our "money" by making it easier to spend, *or* easier to save.) There is no one ["before"](https://www.youtube.com/watch?v=uKklU59m47U) the other; nor does value come ["from" one "group"](http://nakamotoinstitute.org/mempool/im-hoarding-bitcoins-and-no-you-cant-have-any/) or the other.
+Of course, "money" must be *both* saved and spent[^7]. (Thus, we could improve our "money" by making it easier to spend, *or* easier to save.) There is no sense in which one ["precedes"](https://www.youtube.com/watch?v=uKklU59m47U) the other; nor does value come ["from" one "group"](http://nakamotoinstitute.org/mempool/im-hoarding-bitcoins-and-no-you-cant-have-any/) (vs a supposedly rival group).
 
 [^7]: Just imagine a money that you could *not* spend, at all. You cannot transfer it to someone else, and they couldn't transfer it to anyone else either. That "money" might as well be invisible! (And how would you come to "own" it, in the first place?). So, money must be spendable. Secondly: imagine a money that you could *not* save -- for instance, you would earn a "paycheck" at work and be required to *instantaneously* take the entire balance in goods and investments. That would not really be "money", either. (And, again, how would you come to "own" any of it in the first place?) In the real world, you hold a balance of money on hand (in your wallet, or checking account), in order to meet unexpected needs, and to buy things that you don't *yet* realize that you need to buy. So money must be "save-able".
 
@@ -751,13 +751,13 @@ What really happened was this: Bitcoin is inherently very confusing. So, we each
 |Laypeople 5|After seeing Coinbase IPO as a tech unicorn.|
 
 
-But the "Saver" side won the 2016 War, and so it became socially unacceptable to care about layer1 txn fee demand. After all, *sending* coins is "not what Bitcoin is about".
+But the "Saver" side won the 2016 War, and so it became socially unacceptable to care about layer1 txn fee demand. The winners insisted that *spending* coins is "not what Bitcoin is about".
 
 
 
 ### B. Satoshi's Stubborn Unification
 
-Unfortunately for me (and for the truth), the relation I published in the very first section (ie, that P ---> SB ---> the existential safety of Bitcoin) contradicts the view of the "Savers". My relation says that we must care about the demand for layer1 BTC block **space** -- ie, we must care about the people using BTC to **make BL1Txns**.
+Unfortunately for me (and for the truth), the relation I published in the very first section contradicts the preferred view of the "winning" side of the war. My relation says: P ---> SB ---> "the existential safety of Bitcoin". It implies we must care about P, and therefore about the demand for layer1 BTC block **space**. We can't only care about Savers, we must also care about the Spenders.
 
 Satoshi's decision *to use transaction fees to power the PoW system*, has inextricably linked those two concepts. Spending BTC, is what makes Saving BTC possible; because it is *layer1* spending that generates the transaction fees that keep the network alive (and immutable).
 
@@ -768,39 +768,44 @@ Above: "Double Ouroboros", from [here](http://clipart-library.com/clip-art/56-56
 
 ### C. Not the LargeBlocker Argument
 
-Unfortunately for me, a BCH argument that is false *greatly resembles* my true argument. The BCHers and "spenders" (who lost the war), said: "We want to promote Bitcoin's use for layer1 transactions, but a money that requires $70+ transaction fees is [not useful](https://twitter.com/rogerkver/status/1348316860677165057) and won't work.".
+Unfortunately for me, my true argument *greatly resembles* a BCH argument that is false. The BCHers (the "spenders" who lost the war), said: "A money that requires $70+ transaction fees is [not useful](https://twitter.com/rogerkver/status/1348316860677165057) and won't work.".
 
-But I am saying the opposite: that **average** layer1 fees *must go up to reach* $70+ (much more), *in order* for Bitcoin to work. The BCH argument relies on a low P to drive a high Q. Whereas I assume a fixed low Q, and point out that we therefore need a high P. The BCH argument wants many people to transact, just because it wants Bitcoin to be popular; I want there to be *high layer1 transaction demand* because I want there to be high layer1 blockspace demand because (with a fixed, low Q) we need a high P to have enough TTFR and enough SB.
-
+But I am saying the opposite: that **average** layer1 fees *must go up to reach* $70+ (much more), *in order* for Bitcoin to work.
 
     Largeblocker: " $70/tx fees ...will not work
                        (they will be rejected by users)!"
     SB-Realist:   " $70/tx fees ...are *required for* Bitcoin to work
                        (without high P, there are no property rights)."
 
+Above: My view is actually the opposite of the Largeblocker view.
+
+The BCH argument relies on a low P to drive a high Q. Whereas I assume a fixed low Q, and point out that we therefore need a high P. The BCH argument wants many people to transact, just because it wants Bitcoin to be popular; I want there to be *high layer1 transaction demand* because I want there to be high layer1 blockspace demand because (with a fixed, low Q) we need a high P to have enough TTFR and enough SB.
 
 Regardless of how you feel about the blocksize, or average layer1 fees, **individually**, you **must** believe that, one day, their *product*, P\*Q, (aka TTFR, aka SB) will be high.
+
+All of these views, might become clear if you are able to grasp Blind Merged Mining (Bip301).
 
 
 ## Appendix 2 - How Bip301 Works
 
 I created Bip301 (["Blind Merged Mining"](https://www.truthcoin.info/blog/blind-merged-mining/)), and so I will summarize it here quickly.
 
-The goal is to allow miners (layer1 BTC miners) to merged mine a Sidechain/Altcoin, without running its node software (ie, without "looking" at it, hence "blind").
+The goal is to allow miners (layer1 BTC miners) to merged mine a Sidechain/Altcoin, without running the Side/Alt's node software (ie, without "looking" at it, hence "blind").
 
-For example: a sidechain block contains 20,000 txns, each paying a $0.10 fee; so, therefore, the block is worth $2000 of fee-revenue. As usual: the sidechain's coinbase txn will pay this $2000 to someone (this sidechain user is called a "briber", or "virtual miner"). The difference is, under Bip301, the "briber" (who does no hashing) will instead make **one layer1 txn paying \~$1999 to the layer1 miners**. (Ie, that layer1 txn is a BL1Txn which pays a $2000 fee.)
+For example: a sidechain block contains 20,000 txns, each paying a $0.10 fee; so, therefore, the block is worth $2000 of fee-revenue. As usual: the sidechain's coinbase txn will pay this $2000 to someone (this sidechain user is called a "briber", or "virtual miner"). The difference is, under Bip301, the "briber" (who does no hashing) will instead make **a special layer1 txn paying \~$1999 to the layer1 miners**. (Ie, that layer1 txn is a BL1Txn which pays a \~$1999 fee.)
 
-|Item|Layer1 Miner|Briber|
+|Item|Layer1 Miner|Briber (Sidechain Node Operator)|
 |:---|:----------:|:----:|
 |How much hashing?|100%|0%|
-|Coins collected, on Layer2|$0|$2000|
-|Coins paid out, on Layer1|$0|$1999|
-|Coins rec'd, on Layer1|$1999|$0|
-|d(Net Worth)|+$1999|+$1|
+|Runs Bitcoin Core?|Yes|Yes|
+|Runs a SC node?|No|Yes|
+|Value of coins collected, on Layer2|$0|$2000|
+|Value of special txn, on Layer1|+$1999|-$1999|
+|Total change in Net Worth|+$1999|+$1|
 
 Bip301 makes this specialization-of-labor trustless on Layer1.
 
-Now, remember that "P" is the *average* of all the fee-rates of the BL1Txns. So P is brought upward by these superstar Bip301 BL1Txns. Perhaps there will only ever be 5-15 of these, per layer1 block -- but they may pay 90%-99% of the total layer1 fees. Which is to say: Bip301 txns may boost P by 10x or 100x or more.
+Now, remember that "P" is the *average* of all the fee-rates of the BL1Txns. So P is brought upward by these superstar Bip301 BL1Txns (just as Bill Gates can raise the 'average wealth' of any room he is in). Perhaps there will only ever be 5-15 superstar txns, per layer1 block -- but they may pay 90%-99% of the total layer1 fees. Which is to say: Bip301 txns may boost P by 10x or 100x or more.
 
 These high-P txns are not due to any layer1 transactional demand -- they are just an accounting operation which transfers the value from the sidechain txns to the layer1 miners, using one layer2 fullnode-user as an economic conduit.
 
