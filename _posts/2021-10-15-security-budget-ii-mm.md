@@ -796,7 +796,7 @@ For example: a sidechain block contains 20,000 txns, each paying a $0.10 fee; so
 
 |Item|Layer1 Miner|Briber (Sidechain Node Operator)|
 |:---|:----------:|:----:|
-|How much hashing?|100%|0%|
+|Calculates hashes?|Yes|No|
 |Runs Bitcoin Core?|Yes|Yes|
 |Runs a SC node?|No|Yes|
 |Value of coins collected, on Layer2|$0|$2000|
