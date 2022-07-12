@@ -32,6 +32,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Jul 12, 2022|[Bitcoin Maximalism Spaces w/ Pete Rizzo](https://twitter.com/i/spaces/1gqxvllkrnpGB)|1hr,53m,58s|A conversation where I say Bitcoin Maximalism has absorbed many harmful ideas which it struggles to purge, leading to risk for Bitcoin owners.|
 |Apr 8, 2022|[Bitcoin 2022 - Sidechains (Benefits & Tradeoffs)](https://youtu.be/OwJL0J_nPDE?t=11866)|40m|My sidechains panel; RSK; Liquid; development; fun.|
 |Apr 7, 2022|[Bitcoin 2022 - Soft Forks (Benefits & Tradeoffs)](https://youtu.be/L0Yh6VP6vxU?t=7011)|40m|Softforks panel w/ me, Jeremy Rubin, Jimmy Song; moderated by BtcSessions.|
 |Nov 5, 2021|[TabConf 2021 - BIP 300](https://www.youtube.com/watch?v=oga8Pwbq9M0)|25m,44s|Even *better* than the June Bitcoin2021 talk -- 10 minutes longer.|
