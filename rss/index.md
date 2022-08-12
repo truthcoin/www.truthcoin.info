@@ -32,9 +32,12 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Aug 12, 2022|[What Bitcoin Did - Should Drivechains Come to Bitcoin?](https://www.youtube.com/watch?v=A4VVVhwuCFI)|1hr,20m,38s|Me on the famous Peter McCormack show. I think the beginning was a little rough, but they eventually seemed to get it.|
+|Aug 11, 2022|[Built on Bitcoin #83](https://www.builtonbitcoin.xyz/e83-bip300-the-bitcoin-change-that-makes-all-others-obsolete-paul-sztorc-interview/)|1hr,04m,05s|This interview went really well! We talked about Bip300 and its status in today's Bitcoin culture.|
 |Jul 12, 2022|[Bitcoin Maximalism Spaces w/ Pete Rizzo](https://twitter.com/i/spaces/1gqxvllkrnpGB)|1hr,53m,58s|A conversation where I say Bitcoin Maximalism has absorbed many harmful ideas which it struggles to purge, leading to risk for Bitcoin owners.|
 |Apr 8, 2022|[Bitcoin 2022 - Sidechains (Benefits & Tradeoffs)](https://youtu.be/OwJL0J_nPDE?t=11866)|40m|My sidechains panel; RSK; Liquid; development; fun.|
 |Apr 7, 2022|[Bitcoin 2022 - Soft Forks (Benefits & Tradeoffs)](https://youtu.be/L0Yh6VP6vxU?t=7011)|40m|Softforks panel w/ me, Jeremy Rubin, Jimmy Song; moderated by BtcSessions.|
+|Apr 7, 2022|[Kitco - Bitcoin 2022 Media Room](https://www.youtube.com/watch?v=Elm35rym74U)|16m|An interesting interview -- basics of the Bitcoin investment thesis, macroeconomics, and of course sidechains.|
 |Nov 5, 2021|[TabConf 2021 - BIP 300](https://www.youtube.com/watch?v=NK2IvzDz7pk)|25m,44s|Even *better* than the June Bitcoin2021 talk -- 10 minutes longer.|
 |Aug 12, 2021|[Blockchain Debate Podcast: Toxic maximalism (Giacomo Zucco vs. Me)](https://blockdebate.buzzsprout.com/767033/9020992-motion-toxic-maximalism-is-great-for-bitcoin-giacomo-zucco-vs-paul-sztorc)|1h,34m,31s|Giacomo and I talk about toxic maximalism. We agreed more than disagreed. I think the conversation would have been more interesting if we interrupted each other more. Too polite and not very toxic.|
 |Jul 3, 2021|[Bip 300 Debate: JW Weatherman vs Me](https://www.youtube.com/watch?v=PziBY3qOS48)|1h,21m,43s|In my opening remarks I mentioned that Drivechain was an improvement over Blockstream's 2014 paper. I regret mentioning that, because I think this guy is so clueless that it never occured to him to look up any of the technical details whatsoever. I could have instead, just asked him 'what is bip300' and he would have gone down in flames immediately. Anyway, he was clearly unprepared making this mostly a waste of everyone's time.|
