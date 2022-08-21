@@ -10,7 +10,7 @@ show_author: true
 ![Logo](/images/drivechain.png)
 
 
-Update: This project now has [its own website](www.drivechain.info)! See the [literature page](http://www.drivechain.info/literature/index.html) for the latest changes.
+Update: This project now has [its own website](https://www.drivechain.info)! See the [literature page](http://www.drivechain.info/literature/index.html) for the latest changes.
 
 ## Intro
 
