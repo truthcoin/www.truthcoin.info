@@ -32,6 +32,9 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Sep 4, 2022|[Baltic Honeybadger 2022 -- Panel: Unpopular Opinions](https://youtu.be/Hdx5qUvYcgA?t=1234)|1hr,15m|A very fun panel with other Bitcoiners.|
+|Sep 3, 2022|[Baltic Honeybadger 2022 -- Debate: Paul vs Carvalho](https://youtu.be/zp1B_i4JlXc?t=11100)|22m,3s|Does John Carvalho know anything about Drivechain? Should any user who wants to leave BTC for a different ruleset be stopped, against their own will? Find out here!|
+|Sep 3, 2022|[Baltic Honeybadger 2022 -- Panel: Sidechains & L2](https://youtu.be/zp1B_i4JlXc?t=5220)|30m|The main conclusion was that Bitcoin will need a diverse "spectrum" of L2s; Bitcoin should rely only on the Lightning Network.|
 |Aug 12, 2022|[What Bitcoin Did - Should Drivechains Come to Bitcoin?](https://www.youtube.com/watch?v=A4VVVhwuCFI)|1hr,20m,38s|Me on the famous Peter McCormack show. I think the beginning was a little rough, but they eventually seemed to get it.|
 |Aug 11, 2022|[Built on Bitcoin #83](https://www.builtonbitcoin.xyz/e83-bip300-the-bitcoin-change-that-makes-all-others-obsolete-paul-sztorc-interview/)|1hr,04m,05s|This interview went really well! We talked about Bip300 and its status in today's Bitcoin culture.|
 |Jul 12, 2022|[Bitcoin Maximalism Spaces w/ Pete Rizzo](https://twitter.com/i/spaces/1gqxvllkrnpGB)|1hr,53m,58s|A conversation where I say Bitcoin Maximalism has absorbed many harmful ideas which it struggles to purge, leading to risk for Bitcoin owners.|
