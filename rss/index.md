@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Paul Sztorc Media Appearances
+title: All Paul Sztorc Bitcoin Media Appearances
 ---
 
 
@@ -32,6 +32,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Oct 12, 2022|[Bitcoin 2022 Amsterdam -- The Future of Sidechains](https://www.youtube.com/watch?v=CuKPIUO1pVA)|36m,12s|Aaron van Wirdum proves to the world that yes, after all, Adam Back does indeed support Bip300.|
 |Sep 4, 2022|[Baltic Honeybadger 2022 -- Panel: Unpopular Opinions](https://youtu.be/Hdx5qUvYcgA?t=1234)|1hr,15m|A very fun panel with other Bitcoiners.|
 |Sep 3, 2022|[Baltic Honeybadger 2022 -- Debate: Paul vs Carvalho](https://youtu.be/zp1B_i4JlXc?t=11100)|22m,3s|Does John Carvalho know anything about Drivechain? Should any user who wants to leave BTC for a different ruleset be stopped, against their own will? Find out here!|
 |Sep 3, 2022|[Baltic Honeybadger 2022 -- Panel: Sidechains & L2](https://youtu.be/zp1B_i4JlXc?t=5220)|30m|The main conclusion was that Bitcoin will need a diverse "spectrum" of L2s; Bitcoin should rely only on the Lightning Network.|
