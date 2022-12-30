@@ -436,6 +436,9 @@ But the limitations are mostly irrelevant, if LN is a "layer3" on top of a low-f
 
 In that scenario, LN would mainly be valuable for the two things that *only* it can do: instant payment settlment, and [Fraud Proofs](https://www.truthcoin.info/blog/fraud-proofs/).
 
+**Update (Aug 2022)**: A new [LN video](https://www.youtube.com/watch?v=BjFjK-f9ts0) has come out, seemingly confirming that the LN situation is much more dire than is widely believed. So, if you don't take it from me, then take it from them!
+
+
 ---
 
 ### Footnotes
