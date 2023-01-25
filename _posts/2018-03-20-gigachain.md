@@ -119,7 +119,7 @@ I will start BX off at 8 MB/block, meaning that total Bitcoin transaction capaci
 
 ### Why impose a minimum fee? ### {#why-fee}
 
-Well, each txn must be proceed by all nodes. But each txn will only pay a fee to *one* node. All of the others are held liable for transactions to which they are a third-party. Therefore we have an externality problem -- each transaction "pollutes" the blockchain.
+Well, each txn must be processed by all nodes. But each txn will only pay a fee to *one* node. All of the others are held liable for transactions to which they are a third-party. Therefore we have an externality problem -- each transaction "pollutes" the blockchain.
 
 The ideal way to address pollution would be to "internalize the externality", by forcing each transactor to fully compensate every member of the network for the inconvenience of downloading/validating/storing/broadcasting his transaction. Unfortunately, not one has the slightest idea as to how this might be done, and many believe the task to be computationally impossible.
 
