@@ -3,15 +3,7 @@ layout: page
 title: All Paul Sztorc Bitcoin Media Appearances
 ---
 
-
-
-A lot of people enjoy hearing what I have to say, but personally I am not sure that I am cut out to be a podcast host:
-
-* Attracting and keeping an audience is hard work, and takes a lot of time.
-* I don't like the idea of doing a "regular" show -- ie, a show every week (or so). I'd rather only do a show if I have something important to say. Something worthy of people's scarce time and attention.
-* As a podcast audience grows, the percentage of unremarkable people (and [crazy people](https://tim.blog/2020/02/02/reasons-to-not-become-famous/)) also grows. Then you end up pandering, instead of speaking your mind. Also, it leads to awkward conversations about "clout", "influence", and celebrity endorsements and advertising.
-
-Instead, I'm happy to go on *other people's shows* (invite me on! -- I almost always say yes!). Here I collect my appearances and interviews in a big list.
+I enjoy being a guest on podcasts. A list of my past appearances and interviews is below.
 
 
 
@@ -32,6 +24,9 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|Jan 26, 2023|[Australian Bitcoin Podcast - Paul Sztorc on What Are Sidechains and Drivechains](https://youtu.be/XJ_PNmCo4b0)|
+|Jan 25, 2023|[Shitcoin TV - Paul Sztorc on Bitcoin Sidechains & Building LayerTwo Labs](https://youtu.be/29PVPJilHcA)|
+|Jan 9, 2023|[Kevin Rooke Show - Paul Sztorc on Drivechain, sidechains, and building LayerTwo Labs](https://youtu.be/Z0Ax61bLTIM)|
 |Oct 12, 2022|[Bitcoin 2022 Amsterdam -- The Future of Sidechains](https://www.youtube.com/watch?v=CuKPIUO1pVA)|36m,12s|Aaron van Wirdum proves to the world that yes, after all, Adam Back does indeed support Bip300.|
 |Sep 4, 2022|[Baltic Honeybadger 2022 -- Panel: Unpopular Opinions](https://youtu.be/Hdx5qUvYcgA?t=1234)|1hr,15m|A very fun panel with other Bitcoiners.|
 |Sep 3, 2022|[Baltic Honeybadger 2022 -- Debate: Paul vs Carvalho](https://youtu.be/zp1B_i4JlXc?t=11100)|22m,3s|Does John Carvalho know anything about Drivechain? Should any user who wants to leave BTC for a different ruleset be stopped, against their own will? Find out here!|
