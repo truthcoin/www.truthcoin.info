@@ -21,7 +21,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 ### General
 
 | Date | Title/Link | Comments |
-|-|-|-|-|
+|-|-|-|
 |Jan 26, 2023|[Australian Bitcoin Podcast - Paul Sztorc on What Are Sidechains and Drivechains](https://youtu.be/XJ_PNmCo4b0)| 
 |Jan 25, 2023|[Shitcoin TV - Paul Sztorc on Bitcoin Sidechains & Building LayerTwo Labs](https://youtu.be/29PVPJilHcA)|
 |Jan 9, 2023|[Kevin Rooke Show - Paul Sztorc on Drivechain, sidechains, and building LayerTwo Labs](https://youtu.be/Z0Ax61bLTIM)|
