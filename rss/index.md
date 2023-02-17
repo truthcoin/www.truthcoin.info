@@ -22,9 +22,9 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Comments |
 |-|-|-|
-|Jan 26, 2023|[Australian Bitcoin Podcast - Paul Sztorc on What Are Sidechains and Drivechains](https://youtu.be/XJ_PNmCo4b0)| 
-|Jan 25, 2023|[Shitcoin TV - Paul Sztorc on Bitcoin Sidechains & Building LayerTwo Labs](https://youtu.be/29PVPJilHcA)|
-|Jan 9, 2023|[Kevin Rooke Show - Paul Sztorc on Drivechain, sidechains, and building LayerTwo Labs](https://youtu.be/Z0Ax61bLTIM)|
+|Jan 26, 2023|[Australian Bitcoin Podcast - Paul Sztorc on What Are Sidechains and Drivechains](https://youtu.be/XJ_PNmCo4b0)| A discussion of Drivechain and sidechains|
+|Jan 25, 2023|[Shitcoin TV - Paul Sztorc on Bitcoin Sidechains & Building LayerTwo Labs](https://youtu.be/29PVPJilHcA)| A lively chat on the inspiration for LayerTwo Labs|
+|Jan 9, 2023|[Kevin Rooke Show - Paul Sztorc on Drivechain, sidechains, and building LayerTwo Labs](https://youtu.be/Z0Ax61bLTIM)| A great discussion of LayerTWo Labs|
 |Oct 12, 2022|[Bitcoin 2022 Amsterdam -- The Future of Sidechains](https://www.youtube.com/watch?v=CuKPIUO1pVA)|Aaron van Wirdum proves to the world that yes, after all, Adam Back does indeed support Bip300.|
 |Sep 4, 2022|[Baltic Honeybadger 2022 -- Panel: Unpopular Opinions](https://youtu.be/Hdx5qUvYcgA?t=1234)|A very fun panel with other Bitcoiners.|
 |Sep 3, 2022|[Baltic Honeybadger 2022 -- Debate: Paul vs Carvalho](https://youtu.be/zp1B_i4JlXc?t=11100)|Does John Carvalho know anything about Drivechain? Should any user who wants to leave BTC for a different ruleset be stopped, against their own will? Find out here!|
