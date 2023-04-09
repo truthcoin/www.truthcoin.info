@@ -148,9 +148,7 @@ As we will now see.
 
 ## Part 3. The Pointless Overkill That is a 4-byte Version Number
 
-We can shrink everything here down to just one byte.
-
-I'll show you.
+Here we will shrink 8 bytes to just one.
 
 ### A. Wasted Overhead
 
