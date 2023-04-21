@@ -246,15 +246,34 @@ The VarInt escape is crucial because, on the off-chance someone really wants to 
 
 An input = a txn ID + 4 bytes describing the position of the output within that TxID.
 
-Again, this is absurd overkill. The average number of outputs per txn is 3. One byte can count up to *256*.
+Again, this is absurd overkill.
 
-Who is making these transactions that pay so many people at once?? It also has terrible privacy implications.
+### A. Why 4 Bytes?
 
-The smart thing: cap outputs per txn at 256. Use one byte only.
+One single byte can count up to *256*. With merely one, you can pay 255 people, and pay yourself change.
+
+Who is making these transactions, that pay so many people at once?? More than 256?? It also has terrible privacy implications.
+
+The smart thing: cap outputs per txn at 256. Use one byte only. 
 
 To ensure that we never regret doing this, we can still allow the old way. On an ad hoc basis. How? Simple: we set one of the special "legacy" txn version numbers (those with 2 or 3 bytes), to *produce* more than 256 outputs. And a different special version number to *spend* / select outputs outside the 1-256 range.
 
 With that regret out of the way, we can now cut 3 bytes from every txn input. We save **6 bytes** out of a 1-input-2-output txn.
+
+### B. [Added April 10] Why the whole TxID ?
+
+[Fiatjaf suggests](https://twitter.com/fiatjaf/status/1645027357491642368): 
+
+    What about referring to inputs using just a prefix of the txid
+    instead of the full 32 bytes? We can get away with just 8 bytes,
+    probably. If there is more than one tx on the utxoset with the
+    same initial 8 bytes the verification code can try both.
+
+Indeed, even 8 bytes is overkill. It would allow for 2\^(8\*8) = 1.84 e19 distinct UTXOs, many billions per each Earth human.
+
+4 bytes gets us to 4.29 Billion, which would probably be enough (given that [not all Earth-transactors will be on a single chain, anyway, even in the most onchain-friendly scenario](https://www.truthcoin.info/blog/thunder/#c-realism)).
+
+Thus, we shrink inputs from 32+4 bytes, to 4+1 bytes.
 
 
 ## Part 5. Aggressive Standardization
@@ -262,6 +281,7 @@ With that regret out of the way, we can now cut 3 bytes from every txn input. We
 If we use Schnorr for everything and force everything to be either P2SH or P2PKH, then we never need to describe lengths of things.
 
 We also don't need to hash things, and later reveal them. We just know a Schnorr pubkey is coming (when the coin is locked) and a Schnorr signature will unlock it.
+
 
 ## Part 6. Total / Conclusion
 
@@ -299,7 +319,7 @@ For a standard 1-input-2-output P2PK transaction, we have now gone from:
 
     1 -- version
      First Input
-      32 -- TxId
+       4 -- TxId
        1 -- index
      First Witness
       64 -- signature
@@ -310,10 +330,10 @@ For a standard 1-input-2-output P2PK transaction, we have now gone from:
        1 - output version
       33 - pubkey
     =====================
-     166 Total
+     138 Total
 
 
-We managed to shrink this transaction to 79.4% of its original size. By being more efficient, it is as if our 1 MB block size was instead a 1.259 MB block size.
+We managed to shrink this transaction to 66.0% of its original size. By being more efficient, it is as if our 1 MB block size was instead a 1.515 MB block size.
 
 ...well, I guess that wasn't a big improvement! But every little bit helps!
 
