@@ -33,6 +33,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
 |Apr 14, 2023|[Hong Kong Web3 Festival 2023 -- Bitcoin, Drivechain, and Sidechains](https://www.youtube.com/watch?v=8B0RfOysA64&t=19911s)|Paul Sztorc speaks on Drivechain and the sidechain vision for Bitcoin.|
+|Apr 12, 2023|[Hong Kong Web3 Festival 2023 -- Bitcoin Ecosystem: Technology and Development (Afternoon Session)]([https://www.youtube.com/watch?v=8B0RfOysA64&t=19911s](https://youtu.be/-PXlLVGAotk?t=2403))|Paul Sztorc speaks on Drivechain and LayerTwo Labs.|
 |Jan 26, 2023|[Australian Bitcoin Podcast -- Paul Sztorc What are Sidechains and Drivechains Made](https://youtu.be/XJ_PNmCo4b0)|1h,31m,32s|Paul Sztorc is interviewed on the history of sidechains, merged mining, and Drivechain.|
 |Jan 15, 2023|[Shitcoin TV -- Paul Sztorc on Bitcoin Sidechains](https://youtu.be/29PVPJilHcA)|36m,33s|Paul Sztorc is interviewed regarding Drivechain, the Hivemind project, and the future.|
 |Jan 19, 2023|[The Kevin Rooke Podcast -- Paul Sztorc on Drivechain (BIP 300/301), Bitcoin Sidechains, and Building Layer Two Labs](https://youtu.be/Z0Ax61bLTIM)|2h,6m,14s|Kevin Rooke interviews Paul Sztorc on the history of Drivechain, the advantages and disadvantages of sidechains on Bitcoin, and the founding of LayerTwo Labs.|
