@@ -32,8 +32,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
-|May 23, 2023|[Demolishing Dogmas: The Rebels Reshaping the Bitcoin Battlefield and Crypto's Radical Architects Neel Somani, Leonard Dorlochter, and Paul Sztorc
-](https://www.untoldstories.com/demolishing-dogmas-the-rebels-reshaping-the-bitcoin-battlefield-and-cryptos-radical-architects-neel-somani-leonard-dorlochter-and-paul-sztorc/)|1h,14m,0s|Paul Sztorc discusses exciting layer-2 solutions with Charlie Shrem, Neel Somani, and Leonard Dorlochter.|
+|May 23, 2023|[Demolishing Dogmas: The Rebels Reshaping the Bitcoin Battlefield and Crypto's Radical Architects Neel Somani, Leonard Dorlochter, and Paul Sztorc](https://www.untoldstories.com/demolishing-dogmas-the-rebels-reshaping-the-bitcoin-battlefield-and-cryptos-radical-architects-neel-somani-leonard-dorlochter-and-paul-sztorc/)|1h,14m,0s|Paul Sztorc discusses exciting layer-2 solutions with Charlie Shrem, Neel Somani, and Leonard Dorlochter.|
 |Jan 26, 2023|[Australian Bitcoin Podcast -- Paul Sztorc What are Sidechains and Drivechains Made](https://youtu.be/XJ_PNmCo4b0)|1h,31m,32s|Paul Sztorc is interviewed on the history of sidechains, merged mining, and Drivechain.|
 |Jan 15, 2023|[Shitcoin TV -- Paul Sztorc on Bitcoin Sidechains](https://youtu.be/29PVPJilHcA)|36m,33s|Paul Sztorc is interviewed regarding Drivechain, the Hivemind project, and the future.|
 |Jan 19, 2023|[The Kevin Rooke Podcast -- Paul Sztorc on Drivechain (BIP 300/301), Bitcoin Sidechains, and Building Layer Two Labs](https://youtu.be/Z0Ax61bLTIM)|2h,6m,14s|Kevin Rooke interviews Paul Sztorc on the history of Drivechain, the advantages and disadvantages of sidechains on Bitcoin, and the founding of LayerTwo Labs.|
