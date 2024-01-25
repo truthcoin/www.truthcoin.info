@@ -88,13 +88,17 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Mar 19, 2018|[Post-Maximalism / Motivated Ignorance, Chris DeRose](https://www.youtube.com/watch?v=eCXY6ELBw0M)|2h,3m,12s|Always nice to talk to Chris DeRose|
 |Nov 15, 2017|[Daniel Krawisz and I talk Drivechain](https://www.youtube.com/watch?v=iMNLB7Q8z80)|42m,25s|DK and I talk about the problem of monopolist-developers that the user can't get rid of.|
 |Aug 29, 2017|[Daniel Krawisz and I](https://www.youtube.com/watch?v=W2sgv8zNOt4)|1h,11m,00s|One of the first times I talk on air with DK, one of my favorite people -- super smart, super original, super crazy.|
+|Aug 25, 2017|[Blocktime Drivechain Deep Dive with Michael Tidwell](https://www.youtube.com/watch?v=XSPhSRlemvA)|2h,5m,4s|
 |Jul 8, 2017|[Blocktime ep 11](https://www.youtube.com/watch?v=ega4yPyMhdM) w/ Mike Tidwell and Mike Casey|2h,44m,36s|These guys are great, did a bunch of episodes with them. Can't remember this one specifically other than the joke of me being an Eth person.|
 |Mar 8, 2017|[Blockchain: The Oracle Problem](https://www.infoq.com/presentations/blockchain-oracle-problems/)|42m,55s|People tried to get a blockchain oracle for years - I review this history. Bitcoiners in 2020 still don't know many of the basics that I cover here.|
+|Feb 17, 2017|[ImNOTYourLawyer Episode 2](https://www.youtube.com/watch?v=xf0cnM4yVOc)|2h,36m,4s|
 |Feb 11, 2017|[CryptoScam #5 w/ Tone Vays](https://tonevays.com/blog/cryptoscam-5-augur-w-paul-sztorc)|1h,1m,26s|Tone Vays and I discuss Augur and why it is a scam. Tone sort of dragged me to the side at a conference to do this - and it was really a lot of fun and I enjoyed it. The timing was great as I was about to present at QCon about the Oracle Problem, so this was a great "trial run". The QCon talk is better.|
 |Feb 9, 2017|[BlockTime "ep 0" w/ Mike Tidwell and Mike Casey](https://www.youtube.com/watch?v=u-Xp_HoXrMc)|2h,00m,50s|I remember that this got very philosophical and that they both seemed to enjoy talking to me. (Or maybe that was some other intervew with them.) Or maybe this was before "blocktime" started. I can't remember.|
+|Feb 5, 2016|[#Blocktalk](https://www.youtube.com/watch?v=qDQF1p2Gcqg)|1h,53m,30s|
 |Dec 1, 2015|[Me + Bitcoinference](https://www.youtube.com/watch?v=KVsoo0PiSu8)|1h,15m,34s|Can't remember anything about this. But all of the Amsterdam Bitcoiners are very cool, especially back in 2015.|
-|Sep 15, 2015|[Epicenter Podcast](https://www.youtube.com/watch?v=qNeX_5jvAI0)|1h,18m,12s|
-|Jun 10, 2014|[Let's Talk Bitcoin #117](https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-episode-117-the-truth-matrix)|58m,20s|One of my first Bitcoin interviews ever -- all about "Truthcoin" (now Bitcoin hivemind).|
+|Nov 5, 2015|[The Crypto Show with Connie Gallippi](https://www.youtube.com/watch?v=RIZN5ZXl89U)|1h,39m,3s|
+|Sep 15, 2015|[Epicenter Podcast #97](https://www.youtube.com/watch?v=qNeX_5jvAI0)|1h,18m,12s|
+|Jun 10, 2014|[Let's Talk Bitcoin #117](https://soundcloud.com/mindtomatter/ltb-117-the-truth-matrix)|58m,20s|One of my first Bitcoin interviews ever -- all about "Truthcoin" (now Bitcoin hivemind).|
 
 
 
