@@ -93,6 +93,7 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 |Feb 11, 2017|[CryptoScam #5 w/ Tone Vays](https://tonevays.com/blog/cryptoscam-5-augur-w-paul-sztorc)|1h,1m,26s|Tone Vays and I discuss Augur and why it is a scam. Tone sort of dragged me to the side at a conference to do this - and it was really a lot of fun and I enjoyed it. The timing was great as I was about to present at QCon about the Oracle Problem, so this was a great "trial run". The QCon talk is better.|
 |Feb 9, 2017|[BlockTime "ep 0" w/ Mike Tidwell and Mike Casey](https://www.youtube.com/watch?v=u-Xp_HoXrMc)|2h,00m,50s|I remember that this got very philosophical and that they both seemed to enjoy talking to me. (Or maybe that was some other intervew with them.) Or maybe this was before "blocktime" started. I can't remember.|
 |Dec 1, 2015|[Me + Bitcoinference](https://www.youtube.com/watch?v=KVsoo0PiSu8)|1h,15m,34s|Can't remember anything about this. But all of the Amsterdam Bitcoiners are very cool, especially back in 2015.|
+|Sep 15, 2015|[Epicenter Podcast](https://www.youtube.com/watch?v=qNeX_5jvAI0)|1h,18m,12s|
 |Jun 10, 2014|[Let's Talk Bitcoin #117](https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-episode-117-the-truth-matrix)|58m,20s|One of my first Bitcoin interviews ever -- all about "Truthcoin" (now Bitcoin hivemind).|
 
 
