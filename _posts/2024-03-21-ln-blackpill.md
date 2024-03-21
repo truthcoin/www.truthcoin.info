@@ -7,7 +7,7 @@ date: 2024-03-21 07:00:00
 
 
 
-This is kicked off by [John Carvalho's interview](https://x.com/ercwl/status/1770470138237653138?s=20), and people's [reaction to it](https://x.com/theonevortex/status/1770811861534933406?s=20).
+This is kicked off by [John Carvalho's interview](https://www.youtube.com/live/faoG_aDHIYk?si=50OdZsy5z5zFpnw2&t=450), and people's [reaction to it](https://x.com/theonevortex/status/1770811861534933406?s=20).
 
 Apparently, word is still not "out": that LN is dead, and it will collapse Theranos-style.
 
