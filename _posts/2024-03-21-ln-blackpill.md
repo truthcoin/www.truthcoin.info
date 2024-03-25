@@ -56,6 +56,10 @@ Here is what I'm seeing!
 * And this: https://x.com/Truthcoin/status/1719388665107947959?s=20
 
 
+### Other Compilations
+
+* [David Shares](https://github.com/davidshares/Lightning-Network/blob/main/README.md) -- compilation of negative LN links
+
 
 ### Basic Facts
 
