@@ -26,7 +26,7 @@ Here is what I'm seeing!
 * * May 2023 ["Honestly, lightning today is kinda a joke, look at BTCPayServer - you can install lightning with one click, and then you will generate invoices that are unpayable cause you have no inbound liquidity! Never heard of inbound liquidity? I dunno google it or something..."](https://twitter.com/TheBlueMatt/status/1654713334506168321)
 * Alex Bosworth -- head of Lightning Liquidity at Lightning Labs
 * * July 2021, ["No algorithm can ever solve LN pathfinding/peering, because it is a 2 sided market system, just like no spam filter can ever get every spam and no targeted ad system can ever only show you only what you will buy. Heuristics can move the needle a long ways but they can never solve"]( https://twitter.com/alexbosworth/status/1420398649087971336?s=20)
-* * Dec 2022, "I worry whichever way you slice it things could all end in tears" -- https://twitter.com/alexbosworth/status/1601059715060236288?s=20
+* * Dec 2022, ["I worry whichever way you slice it things could all end in tears"](https://twitter.com/alexbosworth/status/1601059715060236288?s=20)
 * Corallo + Decker + Bastien Teinturier
 * * Aug 2022, [Lightning Limitations Panel](https://www.youtube.com/watch?v=BjFjK-f9ts0) -- 2 Hours of LN experts bemoaning LN
 * Antonie Riard
