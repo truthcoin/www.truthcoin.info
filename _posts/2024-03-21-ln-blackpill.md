@@ -41,10 +41,12 @@ Here is what I'm seeing!
 
 ### From Others
 
-* FiatJaf, May 2023, ["Lightning is looking more and more not the solution we need for Bitcoin."](https://twitter.com/fiatjaf/status/1655368938081984512?s=20)
-* "Seth", ["Yeah, one of the many privacy paradoxes in Lightning... \\ Unannounced channels remove any plausible deniability for payments going through them (and can still be probed and discovered by malicious actors anyways)."](https://twitter.com/sethforprivacy/status/1532817167703588864?s=20)
-* Francis Pouliot, Bitcoin Embassy 2013-2017, Dec 2021, ["Lightning was hyped too aggressively, too quickly, setting unrealistic expectations and timelines for users which necessarily required compromise (custody and centralization) to fulfill as functional end-user products."](https://twitter.com/francispouliot_/status/1473665832534294536?s=20)
-* Matt Ahlborg, Nov 2020 ["As BTC fees have gone up recently, It's been interesting to see that LTC, not lightning, has been seeing increased payments on @bitrefill"](https://twitter.com/MattAhlborg/status/1330926883643469826)
+* Nov 2020, Matt Ahlborg, ["As BTC fees have gone up recently, It's been interesting to see that LTC, not lightning, has been seeing increased payments on @bitrefill"](https://twitter.com/MattAhlborg/status/1330926883643469826)
+* Dec 2021, Francis Pouliot, Bitcoin Embassy 2013-2017, ["Lightning was hyped too aggressively, too quickly, setting unrealistic expectations and timelines for users which necessarily required compromise (custody and centralization) to fulfill as functional end-user products."](https://twitter.com/francispouliot_/status/1473665832534294536?s=20)
+* June 2022, "Seth", ["Yeah, one of the many privacy paradoxes in Lightning... \\ Unannounced channels remove any plausible deniability for payments going through them (and can still be probed and discovered by malicious actors anyways)."](https://twitter.com/sethforprivacy/status/1532817167703588864?s=20)
+* May 2023, FiatJaf, ["Lightning is looking more and more not the solution we need for Bitcoin."](https://twitter.com/fiatjaf/status/1655368938081984512?s=20)
+
+
 
 
 ### From Me
@@ -59,9 +61,18 @@ Here is what I'm seeing!
 ### Other Compilations
 
 * [David Shares](https://github.com/davidshares/Lightning-Network/blob/main/README.md) -- compilation of negative LN links
+* ["Lightning's Best Moments](https://t.me/lightningfantasy) -- Telegram Compliation
+* [MSN Overview Article -- Are Developers Losing Faith In Lightning?](https://www.msn.com/en-us/news/technology/are-bitcoin-developers-losing-faith-in-lightning/ar-BB1kXyOt)
 
 
-### Basic Facts
+### Fake Support
+
+* Feb 2018, [Tone Vays, advocating for LN but not knowing that an online LN-node is needed to receive funds](https://www.youtube.com/watch?t=40m4s&v=9_WCaqcGnZ8)
+* Nov 2023, [Brad Mills, on the cap table of dozens of LN startups, has no idea how channels work](https://x.com/ercwl/status/1725903544660705728?s=20)
+* Apr 2024, [Four LN supporters arguing that it is better if people NOT use the LN iself, and instead trust a custodian](https://twitter.com/DontTraceMeBruh/status/1777616386149191757?t=_16ccamNMXNGuHZCm4i90w&s=19); [Again](https://x.com/day_nft_io/status/1777275649591304696)
+
+
+### Basic Lightning Facts You Should Know
 
 * Almost no BTC are on the LN. Only 4,900 -- far less than 1% of the 19.5M BTC in circulation. The actual figure is 00.0250%. This number has been [heading down](https://bitcoinvisuals.com/ln-capacity) both as a % and in absolute terms. It is less than what has been raised by all LN startups.
 * An L1 channel is required to join the LN, so there is not enough space for everyone to join.
@@ -71,11 +82,12 @@ Here is what I'm seeing!
 * There is not a chance --at all-- zero chance that LN will [compete with a Bip300 sidechain L2](https://www.truthcoin.info/blog/thunder/).
 
 
-### Fake Support
+### Random Problems
 
-(There are tons of examples of this, this is just the only one I could remember)
+* [Fake Lightning Channels](https://thebitcoinmanual.com/articles/fake-lightning-channels/)
+* [Aqua 21% Fee](https://fxtwitter.com/NEEDcreations/status/1778953732178296858)
 
-* https://x.com/ercwl/status/1725903544660705728?s=20
+
 
 
 <!--
