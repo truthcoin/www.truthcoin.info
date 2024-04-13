@@ -19,24 +19,25 @@ Here is what I'm seeing!
 
 ### From Elite Lightning Devs
 
-* Tadge Dryja, Creator of LN, 2019,
+* Tadge Dryja -- Creator of LN, 2019,
 * * ["Everyone's like: 'LN is the gonna be the best thing ever'. Wait, uh, [LN] can't actually do that."](https://www.youtube.com/watch?v=LnG5H62I7Ko) (43:20 // 27:50)
-* Rene Pickhardt, Author of ["Mastering Lightning"](https://www.amazon.com/Mastering-Lightning-Network-Blockchain-Protocol/dp/1492054860) and top contributor to LN StackOverflow
-* * April 2023, 2023, MIT Bitcoin Expo - [Fundamental Limits of Lightning](https://www.youtube.com/watch?v=B2cEyoh4R3g) - "bitcoin often ... is being very much hyped ... and we should also discuss the shortcomings ... creating p2p cash is very hard."
-* * Aug 2020, ["The more I study the lightning network the more I realize with shock that there are so many misconceptions about the privacy of Lightning in the wild for which often just the opposite seems to be true // I am scared that even in Mastering lightning we won't be able to fix that :("](https://twitter.com/renepickhardt/status/1298918019159207942?s=20)
-* * Dec 2022, next paper: ["Principle limitations of the #LightningNetwork for #Bitcoin payments"](https://twitter.com/renepickhardt/status/1605189724293169153?s=20)
-* BlueMatt, 10th known contributor to Bitcoin Core
-* * May 2023 ["Honestly, lightning today is kinda a joke, look at BTCPayServer - you can install lightning with one click, and then you will generate invoices that are unpayable cause you have no inbound liquidity! Never heard of inbound liquidity? I dunno google it or something..."](https://twitter.com/TheBlueMatt/status/1654713334506168321)
+* Matt Corallo, 10th known contributor to Bitcoin Core
 * * Nov 2022, Presentation, ["Lightning is Broken (AF) .. but we can fix it (I hope)"](https://www.youtube.com/watch?v=s9KMRWkcwtE)
-* * https://twitter.com/TheBlueMatt/status/1556448996159377414?s=20
-* Alex Bosworth, head of Lightning Liquidity at Lightning Labs, July 2021, ["No algorithm can ever solve LN pathfinding/peering, because it is a 2 sided market system, just like no spam filter can ever get every spam and no targeted ad system can ever only show you only what you will buy. Heuristics can move the needle a long ways but they can never solve"]( https://twitter.com/alexbosworth/status/1420398649087971336?s=20)
-* "I worry whichever way you slice it things could all end in tears" -- https://twitter.com/alexbosworth/status/1601059715060236288?s=20
-* https://twitter.com/alexbosworth/status/1616100850841300993?s=20
-* Aug 2022, Corallo / Decker / Bastien Teinturier [Lightning Limitations Panel](https://www.youtube.com/watch?v=BjFjK-f9ts0) -- 2 Hours of experts talking of LN problems
+* * May 2023 ["Honestly, lightning today is kinda a joke, look at BTCPayServer - you can install lightning with one click, and then you will generate invoices that are unpayable cause you have no inbound liquidity! Never heard of inbound liquidity? I dunno google it or something..."](https://twitter.com/TheBlueMatt/status/1654713334506168321)
+* Alex Bosworth -- head of Lightning Liquidity at Lightning Labs
+* * July 2021, ["No algorithm can ever solve LN pathfinding/peering, because it is a 2 sided market system, just like no spam filter can ever get every spam and no targeted ad system can ever only show you only what you will buy. Heuristics can move the needle a long ways but they can never solve"]( https://twitter.com/alexbosworth/status/1420398649087971336?s=20)
+* * Dec 2022, "I worry whichever way you slice it things could all end in tears" -- https://twitter.com/alexbosworth/status/1601059715060236288?s=20
+* Corallo + Decker + Bastien Teinturier
+* * Aug 2022, [Lightning Limitations Panel](https://www.youtube.com/watch?v=BjFjK-f9ts0) -- 2 Hours of LN experts bemoaning LN
 * Antonie Riard
 * * Oct 2023, ["Effective now, I'm halting my involvement with the development of the lightning network and its implementations"](https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-October/004154.html)
 * * Dec 2023, [Twitter Space where I interview Antonie](https://twitter.com/i/spaces/1gqxvQzmVABJB)
-* Andreas Brekken (creator of SideShift, the 1st exchange to add lightning & Liquid), March 2024, ["we removed lighting support from @sideshiftai last week to focus on scaling with sidechains/L2s"](https://twitter.com/abrkn/status/1770685548442628601)
+* Rene Pickhardt -- Author of ["Mastering Lightning"](https://www.amazon.com/Mastering-Lightning-Network-Blockchain-Protocol/dp/1492054860) and top contributor to LN StackOverflow
+* * Aug 2020, ["The more I study the lightning network the more I realize with shock that there are so many misconceptions about the privacy of Lightning in the wild for which often just the opposite seems to be true // I am scared that even in Mastering lightning we won't be able to fix that :("](https://twitter.com/renepickhardt/status/1298918019159207942?s=20)
+* * Dec 2022, next paper: ["Principle limitations of the #LightningNetwork for #Bitcoin payments"](https://twitter.com/renepickhardt/status/1605189724293169153?s=20)
+* * April 2023, 2023, MIT Bitcoin Expo - [Fundamental Limits of Lightning](https://www.youtube.com/watch?v=B2cEyoh4R3g) - "bitcoin often ... is being very much hyped ... and we should also discuss the shortcomings ... creating p2p cash is very hard."
+* Andreas Brekken -- creator of SideShift, the 1st exchange to add lightning & Liquid
+* * March 2024, ["we removed lighting support from @sideshiftai last week to focus on scaling with sidechains/L2s"](https://twitter.com/abrkn/status/1770685548442628601)
 * This [image I made](https://www.truthcoin.info/images/real-ln-tweets.png)
 
 ### From Others
@@ -86,6 +87,7 @@ Here is what I'm seeing!
 
 * [Fake Lightning Channels](https://thebitcoinmanual.com/articles/fake-lightning-channels/)
 * [Aqua 21% Fee](https://fxtwitter.com/NEEDcreations/status/1778953732178296858)
+* [Lightning Loop needs decentralized liquidity -- which is not there](https://twitter.com/alexbosworth/status/1616100850841300993?s=20)
 
 
 
