@@ -38,6 +38,9 @@ Here is what I'm seeing!
 * * April 2023, 2023, MIT Bitcoin Expo - [Fundamental Limits of Lightning](https://www.youtube.com/watch?v=B2cEyoh4R3g) - "bitcoin often ... is being very much hyped ... and we should also discuss the shortcomings ... creating p2p cash is very hard."
 * Andreas Brekken -- creator of SideShift, the 1st exchange to add lightning & Liquid
 * * March 2024, ["we removed lighting support from @sideshiftai last week to focus on scaling with sidechains/L2s"](https://twitter.com/abrkn/status/1770685548442628601)
+* FiatJaf -- creator of lntxbot (and nostr)
+* * May 2023, Tweet ["Lightning is looking more and more not the solution we need for Bitcoin."](https://twitter.com/fiatjaf/status/1655368938081984512?s=20)
+* *  July 2023, Article ["Reasons why Lightning is not that great"](https://fiatjaf.com/04e9e814.html)
 * This [image I made](https://www.truthcoin.info/images/real-ln-tweets.png)
 
 ### From Others
@@ -45,7 +48,6 @@ Here is what I'm seeing!
 * Nov 2020, Matt Ahlborg, ["As BTC fees have gone up recently, It's been interesting to see that LTC, not lightning, has been seeing increased payments on @bitrefill"](https://twitter.com/MattAhlborg/status/1330926883643469826)
 * Dec 2021, Francis Pouliot, Bitcoin Embassy 2013-2017, ["Lightning was hyped too aggressively, too quickly, setting unrealistic expectations and timelines for users which necessarily required compromise (custody and centralization) to fulfill as functional end-user products."](https://twitter.com/francispouliot_/status/1473665832534294536?s=20)
 * June 2022, "Seth", ["Yeah, one of the many privacy paradoxes in Lightning... \\ Unannounced channels remove any plausible deniability for payments going through them (and can still be probed and discovered by malicious actors anyways)."](https://twitter.com/sethforprivacy/status/1532817167703588864?s=20)
-* May 2023, FiatJaf, ["Lightning is looking more and more not the solution we need for Bitcoin."](https://twitter.com/fiatjaf/status/1655368938081984512?s=20)
 
 
 
