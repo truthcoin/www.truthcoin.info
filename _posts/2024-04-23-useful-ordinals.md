@@ -236,21 +236,36 @@ It's all just so *predictable*!
     Here is how it goes:
     
     1) Some woke news story hits the press.
-          "Cats suffer from racial discrimination or screwing in lightbulbs needs to be recognized as a valid sexual kink or something."
+          "Cats suffer from racial discrimination or screwing in lightbulbs
+           needs to be recognized as a valid sexual kink or something."
     2) The Right Wing antibody response activates.
-          "Look at how insane these people are. *Matt Walsh quote tweets the article and calls it obnoxious* This is the problem with our convenient, decadent, TikTok society."
-          This reaction causes the story to gain infinitely more traction than it ever would have done by signal boosting the original fringe-scenario into a much bigger event.
+          "Look at how insane these people are. *Matt Walsh quote tweets
+           the article and calls it obnoxious* This is the problem with our
+           convenient, decadent, TikTok society."
+          This reaction causes the story to gain infinitely more traction
+          than it ever would have done by signal boosting the original
+          fringe-scenario into a much bigger event.
     3) The Left Wing counter-response activates.
-          "Right wingers lose their minds over one woman with a particularly dark cat. The Daily Wire has meltdown over insignificant troll article."
-          In times where the original story is less insane, this includes a defense of the original article too. "Cats actually CAN experience trauma, minimizing this is the REAL problem."
+          "Right wingers lose their minds over one woman with a
+           particularly dark cat. The Daily Wire has meltdown over
+           insignificant troll article."
+          In times where the original story is less insane, this includes
+          a defense of the original article too. "Cats actually CAN
+          experience trauma, minimizing this is the REAL problem."
     4) The Right Wing re-reaction kicks into gear.
-          "Apparently I'm insane for pushing back against Cat Trauma. See this is the problem, if we don't stand our ground, these blue haired idiots will take over the country."
+          "Apparently I'm insane for pushing back against Cat Trauma. See
+           this is the problem, if we don't stand our ground, these blue-
+           haired idiots will take over the country."
     5) Finally, the Touch Grass Meta-Reactionaries steam in.
-          "The real issue is people talking about this issue. Look at how silly this whole thing is. It's time to check out of the culture war. We should reconnect with what really matters. You should move onto the ranch next to Ryan Holiday and hammer fenceposts into the ground for the rest of time."
+          "The real issue is people talking about this issue. Look at how
+           silly this whole thing is. It's time to check out of the culture
+           war. We should reconnect with what really matters. You should
+           move onto the ranch next to Ryan Holiday and hammer fenceposts
+           into the ground for the rest of time."
     This cycle is banal.
     It's excruciatingly repetitive.
 
-[Source](https://chriswillx.com/3-minute-monday-culture-wars-obesity-amp-protective-men/).
+Above: [Commentary on culture war](https://chriswillx.com/3-minute-monday-culture-wars-obesity-amp-protective-men/).
 
 Most outrage on social media (>50%) is a performance.
 
