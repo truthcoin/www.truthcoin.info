@@ -24,6 +24,8 @@ Here is what I'm seeing!
 * Matt Corallo, 10th known contributor to Bitcoin Core
 * * Nov 2022, Presentation, ["Lightning is Broken (AF) .. but we can fix it (I hope)"](https://www.youtube.com/watch?v=s9KMRWkcwtE)
 * * May 2023 ["Honestly, lightning today is kinda a joke, look at BTCPayServer - you can install lightning with one click, and then you will generate invoices that are unpayable cause you have no inbound liquidity! Never heard of inbound liquidity? I dunno google it or something..."](https://twitter.com/TheBlueMatt/status/1654713334506168321)
+* Burak Keceli -- inventor of ARK, and [hacker who crashed most of the Lightning Network for fun in 2022](https://www.coindesk.com/tech/2022/11/02/rogue-actor-disrupts-lightning-network-with-a-single-transaction/)
+* * June 2023, 1:25 ["I've always been a big critic of Lightning. I had severe objections, right? ..from inbound liquidity, to inbound receiving interactivity ... I wanted [with ARK] to address the inbound liquidity problem, but I really couldn't find a cure for it. ... I fail to see Lightning scaling."](https://www.youtube.com/watch?v=EocWax43QgQ)
 * Alex Bosworth -- head of Lightning Liquidity at Lightning Labs
 * * July 2021, ["No algorithm can ever solve LN pathfinding/peering, because it is a 2 sided market system, just like no spam filter can ever get every spam and no targeted ad system can ever only show you only what you will buy. Heuristics can move the needle a long ways but they can never solve"]( https://twitter.com/alexbosworth/status/1420398649087971336?s=20)
 * * Dec 2022, ["I worry whichever way you slice it things could all end in tears"](https://twitter.com/alexbosworth/status/1601059715060236288?s=20)
