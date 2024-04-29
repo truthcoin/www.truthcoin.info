@@ -28,6 +28,7 @@ Here is what I'm seeing!
 * * June 2023, 1:25 ["I've always been a big critic of Lightning. I had severe objections, right? ..from inbound liquidity, to inbound receiving interactivity ... I wanted [with ARK] to address the inbound liquidity problem, but I really couldn't find a cure for it. ... I fail to see Lightning scaling."](https://www.youtube.com/watch?v=EocWax43QgQ)
 * Alex Bosworth -- head of Lightning Liquidity at Lightning Labs
 * * July 2021, ["No algorithm can ever solve LN pathfinding/peering, because it is a 2 sided market system, just like no spam filter can ever get every spam and no targeted ad system can ever only show you only what you will buy. Heuristics can move the needle a long ways but they can never solve"]( https://twitter.com/alexbosworth/status/1420398649087971336?s=20)
+* * [This image I made](https://www.truthcoin.info/images/real-ln-tweets.png)
 * * Dec 2022, ["I worry whichever way you slice it things could all end in tears"](https://twitter.com/alexbosworth/status/1601059715060236288?s=20)
 * Corallo + Decker + Bastien Teinturier
 * * Aug 2022, [Lightning Limitations Panel](https://www.youtube.com/watch?v=BjFjK-f9ts0) -- 2 Hours of LN experts bemoaning LN
@@ -43,7 +44,10 @@ Here is what I'm seeing!
 * FiatJaf -- creator of lntxbot (and nostr)
 * * May 2023, Tweet ["Lightning is looking more and more not the solution we need for Bitcoin."](https://twitter.com/fiatjaf/status/1655368938081984512?s=20)
 * *  July 2023, Article ["Reasons why Lightning is not that great"](https://fiatjaf.com/04e9e814.html)
-* This [image I made](https://www.truthcoin.info/images/real-ln-tweets.png)
+* [CalleBTC](https://twitter.com/callebtc), creator of [Cashu (LN Chaumian e-cash)](https://valuestack.xyz/cashu-chaumian-mints-explained/)
+* * Sept 2023, ["He asked why he needed a new channel. He already had one! ... Fvck"](https://x.com/callebtc/status/1701486817806082232)
+* Jameson Lopp, Creator of [Statoshi](https://blog.lopp.net/statoshi-developer-s-guide/) and [Casa](https://bitcoinmagazine.com/business/bitcoin-company-casa-raises-21-million-launches-api)
+* * ["we dropped lightning support later as a result of re-evaluating the tech and business."](https://x.com/lopp/status/1782838127721099317)
 
 ### From Others
 
