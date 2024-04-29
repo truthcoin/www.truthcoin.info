@@ -67,6 +67,7 @@ Here is what I'm seeing!
 
 * [David Shares](https://github.com/davidshares/Lightning-Network/blob/main/README.md) -- compilation of negative LN links
 * ["Lightning's Best Moments](https://t.me/lightningfantasy) -- Telegram Compliation
+* [Nostr Htlc_nbot](https://nostrrr.com/p/npub1l8wk5a39qcnqkw9z60jmgepp8shy073cwapfl60wvrs8rgc6qltsq66m2c) -- A bot tracking HTLCs and how expensive/pointless/unreliable they are.
 * [MSN Overview Article -- Are Developers Losing Faith In Lightning?](https://www.msn.com/en-us/news/technology/are-bitcoin-developers-losing-faith-in-lightning/ar-BB1kXyOt)
 
 
