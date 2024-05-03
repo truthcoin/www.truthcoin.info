@@ -2,7 +2,7 @@
 title: All the World's Txns
 show_author: true
 comments: true
-date: 2024-05-03 05:00:00
+date: 2024-05-03 00:01:00
 ---
 
 
@@ -84,7 +84,7 @@ I predict the world will have 13 L2 payment-sidechains, distributed geographical
 
 For simplicity, we divide the world's transactions evenly into thirteen. And we assume that Bitcoin rapidly takes over in approximately 2030. This gives us the following blocksizes over time:
 
-[!image](/images/blockspace-napkin-math.png)
+![image](/images/blockspace-napkin-math.png)
 
 These 13 chains would be "held together", by a single L1 chain with a forever-small 300 kb blocksize. This completes the ["Sidechain Scaling" model I presented in 2016 at Scaling III](https://www.youtube.com/watch?v=Gzg_u9gHc5Q&t=6575s).
 
