@@ -104,6 +104,7 @@ Here is what I'm seeing!
 * [Aqua 21% Fee](https://fxtwitter.com/NEEDcreations/status/1778953732178296858)
 * [Lightning Loop needs decentralized liquidity -- which is not there](https://twitter.com/alexbosworth/status/1616100850841300993?s=20)
 * [Disappeared on the way](https://twitter.com/silentlink1/status/1786075954751639561)
+* [Eric Wall has a fun March 28th](https://archive.is/klS2X)
 
 
 
