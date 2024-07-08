@@ -32,7 +32,8 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
-|January 25th, 2024|[ Paul Sztorc of LayerTwo Labs \| Drivechains, Scaling Bitcoin without Compromise ](https://www.youtube.com/watch?v=H5_EbRZ62gc)|1h,28m,40s|Paul goes on the Hashing It Out podcast to discuss Drivechain.|
+|May 10th, 2024|[Mining Incentives & Network Security](https://www.youtube.com/watch?v=kznSgWa7EDQ)|29m,07s|Paul joins a panel a mining panel at Bitcoin Asia 2024.|
+|January 25th, 2024|[Paul Sztorc of LayerTwo Labs \| Drivechains, Scaling Bitcoin without Compromise](https://www.youtube.com/watch?v=H5_EbRZ62gc)|1h,28m,40s|Paul goes on the Hashing It Out podcast to discuss Drivechain.|
 |January 18th, 2024|[Bitcoin Takeover S15 E16: Paul Sztorc Talks Bitcoin Scaling, But Can't Say "Drivechains"](https://www.youtube.com/watch?v=VxqY-CwH-Ug)|3h,31m,50s|Paul and Vlad Costea talk Drivechain again, only this time, Paul can't say Drivechain or he has to take a shot.|
 |January 18th, 2024|[Bitcoin Drive Chain creator Paul Sztorc on BTC’s stagnation & Monero’s progress / EPI 297](https://www.youtube.com/watch?v=fX6mfZgopEA)|1h,30m,58s|Douglas Turman of Monero Talk interviews Paul about Drivechain.|
 |January 2nd, 2024|[The Stewart Mackenzie Indaba #39 Paul Sztorc](https://www.youtube.com/watch?v=hKh7OS8nrHc)|2h,17m,19s|A conclusion to the debate between Paul Sztorc and Peter Todd on BIP300/1.|
