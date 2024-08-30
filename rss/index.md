@@ -32,8 +32,15 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
-|July 27th, 2024|[Bitcoin 2024 Conference Nashville](https://www.youtube.com/live/P1n7XipTCck?feature=shared&t=32277)|9h,57m,57s|Paul speaks at Bitcoin 2024 Nashville in a panel about scaling Bitcoin.|
+|August 19th, 2024|[Litecoin Underground](https://youtu.be/2UHGhawpvBg?feature=shared)|1h,15m,36s|A 3 part interview in which Paul discusses BIP300 and activation on Litecoin.|
+|August 9th, 2024|[Steady Lads #55](https://www.youtube.com/watch?v=x_WqCIHdj4A)|1h,21m,13s|Paul ventures into the crypto world for a discussion on Drivechains and memecoins.|
+|August 6th, 2024|[Responsibly Building in Bitcoin](https://www.youtube.com/watch?v=Mu-CYMGySjo)|29m,43s|Paul speaks about Bitcoin development with Jameson Lopp, Alex Miller, and Charles Menke at Bitcoin Builders Conference.|
+|July 27th, 2024|[The Best Path For Scaling Bitcoin w/ Obi Nwosu, Ryan Gentry, Paul Sztorc & David Seroy](https://www.youtube.com/watch?v=7td9-f059fY)|31m,49s|Paul speaks at Bitcoin 2024 Nashville in a panel about scaling Bitcoin.|
+|July 25th, 2024|[Imagining Future Sidechains](https://www.youtube.com/watch?v=wSbYx79q52k)|55m,29s|Paul joins Robin Linus and Mike Casey for a discussion on BitVM and sidechains during a panel hosted by Anduro.|
+|July 25th, 2024|[Getting to 100% Bitcoin Dominance and Collecting Every Transaction Fee Anduro Panel](https://www.youtube.com/watch?v=5JObBLtIyig)|25m,45s|Paul gives a broad overview of BIP300 during a panel hosted by Anduro.|
+|July 24th, 2024|[Litecoin Summit 2024](https://youtu.be/2UHGhawpvBg?feature=shared)|28m,17s|Paul gives a presentation on Drivechain to an audience of Litecoiners.|
 |July 24th, 2024|[Litecoin Summit 2024](https://www.youtube.com/live/Sn_Hl2Q5cIw?feature=shared&t=12653)|9h,29m,35s|Paul participates in a panel about the failings of Lightning Network with Vlad Costea from BTCTKVR.|
+|May 10th, 2024|[Bitcoin Prediction Markets](https://www.youtube.com/watch?v=VHT3pJEKIck)|27m,31s|Paul gives a presentation on prediction markets at Bitcoin Asia 2024.|
 |May 10th, 2024|[Mining Incentives & Network Security](https://www.youtube.com/watch?v=kznSgWa7EDQ)|29m,07s|Paul joins a panel a mining panel at Bitcoin Asia 2024.|
 |January 25th, 2024|[Paul Sztorc of LayerTwo Labs \| Drivechains, Scaling Bitcoin without Compromise](https://www.youtube.com/watch?v=H5_EbRZ62gc)|1h,28m,40s|Paul goes on the Hashing It Out podcast to discuss Drivechain.|
 |January 18th, 2024|[Bitcoin Takeover S15 E16: Paul Sztorc Talks Bitcoin Scaling, But Can't Say "Drivechains"](https://www.youtube.com/watch?v=VxqY-CwH-Ug)|3h,31m,50s|Paul and Vlad Costea talk Drivechain again, only this time, Paul can't say Drivechain or he has to take a shot.|
