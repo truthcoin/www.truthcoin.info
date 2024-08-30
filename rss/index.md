@@ -32,6 +32,8 @@ howtogeek.com/318401/how-to-find-or-create-an-rss-feed-for-any-website/
 
 | Date | Title/Link | Length | Comments |
 |-|-|-|-|
+|July 27th, 2024|[Bitcoin 2024 Conference Nashville](https://www.youtube.com/live/P1n7XipTCck?feature=shared&t=32277)|9h,57m,57s|Paul speaks at Bitcoin 2024 Nashville in a panel about scaling Bitcoin.|
+|July 24th, 2024|[Litecoin Summit 2024](https://www.youtube.com/live/Sn_Hl2Q5cIw?feature=shared&t=12653)|9h,29m,35s|Paul participates in a panel about the failings of Lightning Network with Vlad Costea from BTCTKVR.|
 |May 10th, 2024|[Mining Incentives & Network Security](https://www.youtube.com/watch?v=kznSgWa7EDQ)|29m,07s|Paul joins a panel a mining panel at Bitcoin Asia 2024.|
 |January 25th, 2024|[Paul Sztorc of LayerTwo Labs \| Drivechains, Scaling Bitcoin without Compromise](https://www.youtube.com/watch?v=H5_EbRZ62gc)|1h,28m,40s|Paul goes on the Hashing It Out podcast to discuss Drivechain.|
 |January 18th, 2024|[Bitcoin Takeover S15 E16: Paul Sztorc Talks Bitcoin Scaling, But Can't Say "Drivechains"](https://www.youtube.com/watch?v=VxqY-CwH-Ug)|3h,31m,50s|Paul and Vlad Costea talk Drivechain again, only this time, Paul can't say Drivechain or he has to take a shot.|
