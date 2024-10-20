@@ -58,6 +58,7 @@ Here is what I'm seeing!
 * Nov 2020, Matt Ahlborg, ["As BTC fees have gone up recently, It's been interesting to see that LTC, not lightning, has been seeing increased payments on @bitrefill"](https://twitter.com/MattAhlborg/status/1330926883643469826)
 * Dec 2021, Francis Pouliot, Bitcoin Embassy 2013-2017, ["Lightning was hyped too aggressively, too quickly, setting unrealistic expectations and timelines for users which necessarily required compromise (custody and centralization) to fulfill as functional end-user products."](https://twitter.com/francispouliot_/status/1473665832534294536?s=20)
 * June 2022, "Seth", ["Yeah, one of the many privacy paradoxes in Lightning... \\ Unannounced channels remove any plausible deniability for payments going through them (and can still be probed and discovered by malicious actors anyways)."](https://twitter.com/sethforprivacy/status/1532817167703588864?s=20)
+* May 2023, Junseth, ["We know the problems with Lightning...they are voluminous"](https://youtu.be/Mk_dBnvaIqc?si=DXhuqW8pT3blI3AK&t=1376)
 * May 2024, Udi Wertheimer, ["lightning sucks ... our company built a lightning service from scratch and onboarded almost 10,000 paying users ... and I'm telling you it sucks"](https://twitter.com/udiWertheimer/status/1785733163446063569)
 
 
